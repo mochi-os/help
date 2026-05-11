@@ -21,10 +21,6 @@ msgstr "12 ur"
 msgid "24 hours"
 msgstr "24 ur"
 
-#: src/features/help/contribute-dialog.tsx:45
-msgid "About you"
-msgstr "O vas"
-
 #: ../../../lib/web/src/lib/preference-utils.ts:48
 msgid "Absolute (date and time)"
 msgstr "Absolutno (datum in čas)"
@@ -110,12 +106,12 @@ msgstr "Ali ste prepričani, da se želite odjaviti? Za dostop do računa se bos
 msgid "Asc"
 msgstr "Naraščajoče"
 
-#: src/features/help/contribute-dialog.tsx:51
+#: src/features/help/contribute-dialog.tsx:56
 #: src/features/help/index.tsx:34
 msgid "Ask a question"
 msgstr "Zastavite vprašanje"
 
-#: src/features/help/contribute-dialog.tsx:52
+#: src/features/help/contribute-dialog.tsx:57
 msgid "Ask the community on the Mochi users mailing list. Be specific about what you've tried so far."
 msgstr "Vprašajte skupnost na poštnem seznamu uporabnikov Mochi. Natančno opišite, kaj ste že poskusili."
 
@@ -133,7 +129,7 @@ msgstr "Nazaj na domov"
 msgid "Boost interest"
 msgstr "Povečaj zanimanje"
 
-#: src/features/help/contribute-dialog.tsx:62
+#: src/features/help/contribute-dialog.tsx:69
 msgid "Brief summary of the problem"
 msgstr "Kratek povzetek težave"
 
@@ -144,7 +140,7 @@ msgstr "Kratek povzetek težave"
 #: ../../../lib/web/src/features/access/access-list.tsx:255
 #: ../../../lib/web/src/features/accounts/account-add.tsx:185
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:86
-#: src/features/help/contribute-dialog.tsx:149
+#: src/features/help/contribute-dialog.tsx:165
 msgid "Cancel"
 msgstr "Prekliči"
 
@@ -253,11 +249,15 @@ msgstr "Nadaljuj"
 msgid "Copy"
 msgstr "Kopiraj"
 
+#: ../../../lib/web/src/features/document/document-page.tsx:81
+msgid "Could not load this document. Please try again later."
+msgstr "Tega dokumenta ni bilo mogoče naložiti. Poskusite znova kasneje."
+
 #: src/features/help/index.tsx:66
 msgid "Couldn't reach the destination yet"
 msgstr "Še ni bilo mogoče dostaviti"
 
-#: src/features/help/contribute-dialog.tsx:104
+#: src/features/help/contribute-dialog.tsx:112
 msgid "Couldn't submit"
 msgstr "Ni bilo mogoče poslati"
 
@@ -286,11 +286,12 @@ msgstr "Privzeti AI račun"
 msgid "Desc"
 msgstr "Padajoče"
 
-#: src/features/help/contribute-dialog.tsx:60
+#: src/features/help/contribute-dialog.tsx:67
 msgid "Describe what went wrong. The Mochi development team will see it on the Mochi development project."
 msgstr "Opišite, kaj je šlo narobe. Razvojna ekipa Mochi bo to videla v razvojnem projektu Mochi."
 
-#: src/features/help/contribute-dialog.tsx:73
+#: src/features/help/contribute-dialog.tsx:60
+#: src/features/help/contribute-dialog.tsx:80
 msgid "Details"
 msgstr "Podrobnosti"
 
@@ -353,6 +354,10 @@ msgstr "Neuspešna posodobitev kategorije"
 msgid "Floating"
 msgstr "Plavajoče"
 
+#: src/features/help/index.tsx:41
+msgid "Found something broken? Tell the developers and they'll fix it."
+msgstr "Ste našli nekaj pokvarjenega? Povejte razvijalcem in popravili bodo."
+
 #: ../../../lib/web/src/lib/preference-utils.ts:60
 msgid "Friday"
 msgstr "Petek"
@@ -395,19 +400,24 @@ msgstr "Pojdi na naslednjo stran"
 msgid "Go to previous page"
 msgstr "Pojdi na prejšnjo stran"
 
+#: src/features/help/index.tsx:35
+msgid "Got a problem? Not sure what to do? Ask the community on the Mochi Users mailing list."
+msgstr "Imate težavo? Niste prepričani, kaj storiti? Vprašajte skupnost na poštnem seznamu Mochi Users."
+
 #: src/features/help/index.tsx:47
-msgid "Got an idea? Open a feature request on the Mochi development project."
-msgstr "Imate idejo? Odprite zahtevo za funkcijo v razvojnem projektu Mochi."
+msgid "Got an idea? Tell the developers and maybe they'll add it."
+msgstr "Imate idejo? Povejte razvijalcem in morda jo bodo dodali."
 
 #: ../../../lib/web/src/features/access/access-dialog.tsx:159
 msgid "Group"
 msgstr "Skupina"
 
-#: src/features/help/index.tsx:75
+#: src/features/help/index.tsx:74
+#: src/routes/_authenticated/route.tsx:13
 msgid "Help"
 msgstr "Pomoč"
 
-#: src/features/help/contribute-dialog.tsx:46
+#: src/features/help/contribute-dialog.tsx:51
 msgid "Hi, I'm…"
 msgstr "Pozdravljeni, sem…"
 
@@ -426,10 +436,6 @@ msgstr "Domov"
 msgid "Hot"
 msgstr "Vroče"
 
-#: src/features/help/contribute-dialog.tsx:54
-msgid "I'm trying to…"
-msgstr "Želim…"
-
 #: ../../../lib/web/src/lib/preference-utils.ts:83
 msgid "Imperial"
 msgstr "Imperialne enote"
@@ -442,7 +448,7 @@ msgstr "Notranje"
 msgid "Interests"
 msgstr "Zanimanja"
 
-#: src/features/help/contribute-dialog.tsx:43
+#: src/features/help/contribute-dialog.tsx:50
 #: src/features/help/index.tsx:28
 msgid "Introduce yourself"
 msgstr "Predstavite se"
@@ -478,6 +484,7 @@ msgid "Load more"
 msgstr "Naloži več"
 
 #: ../../../lib/web/src/components/ui/load-more.tsx:32
+#: ../../../lib/web/src/features/document/document-page.tsx:87
 msgid "Loading…"
 msgstr "Nalaganje…"
 
@@ -619,19 +626,19 @@ msgstr "Drugo"
 msgid "Owner"
 msgstr "Lastnik"
 
-#: src/features/help/contribute-dialog.tsx:105
+#: src/features/help/contribute-dialog.tsx:113
 msgid "Please try again."
 msgstr "Poskusite znova."
 
-#: src/features/help/contribute-dialog.tsx:47
+#: src/features/help/contribute-dialog.tsx:52
 msgid "Post introduction"
 msgstr "Objavi predstavitev"
 
-#: src/features/help/contribute-dialog.tsx:55
+#: src/features/help/contribute-dialog.tsx:62
 msgid "Post question"
 msgstr "Objavi vprašanje"
 
-#: src/features/help/contribute-dialog.tsx:158
+#: src/features/help/contribute-dialog.tsx:174
 msgid "Posting…"
 msgstr "Objavljanje…"
 
@@ -639,7 +646,8 @@ msgstr "Objavljanje…"
 msgid "Previous image"
 msgstr "Prejšnja slika"
 
-#: ../../../lib/web/src/components/server-documents-footer.tsx:15
+#: ../../../lib/web/src/components/server-documents-footer.tsx:24
+#: ../../../lib/web/src/features/document/document-page.tsx:41
 msgid "Privacy"
 msgstr "Zasebnost"
 
@@ -647,6 +655,10 @@ msgstr "Zasebnost"
 #: ../../../lib/web/src/components/profile-dropdown.tsx:111
 msgid "Profile"
 msgstr "Profil"
+
+#: src/features/help/contribute-dialog.tsx:58
+msgid "Question"
+msgstr "Vprašanje"
 
 #: ../../../lib/web/src/components/search-entity-dialog.tsx:216
 #: ../../../lib/web/src/components/search-entity-page.tsx:191
@@ -687,12 +699,12 @@ msgstr "Odstrani dostop?"
 msgid "Remove interest"
 msgstr "Odstrani interes"
 
-#: src/features/help/contribute-dialog.tsx:59
+#: src/features/help/contribute-dialog.tsx:66
 #: src/features/help/index.tsx:40
 msgid "Report a bug"
 msgstr "Prijavi napako"
 
-#: src/features/help/contribute-dialog.tsx:65
+#: src/features/help/contribute-dialog.tsx:72
 msgid "Report bug"
 msgstr "Prijavi napako"
 
@@ -717,8 +729,8 @@ msgid "Saturday"
 msgstr "Sobota"
 
 #: src/features/help/index.tsx:29
-msgid "Say hello on the Mochi users mailing list and tell everyone a little about yourself."
-msgstr "Pozdravite na poštnem seznamu uporabnikov Mochi in povejte nekaj o sebi."
+msgid "Say hello on the Mochi Users mailing list."
+msgstr "Pozdravite na poštnem seznamu Mochi Users."
 
 #: ../../../lib/web/src/components/place-picker.tsx:82
 msgid "Search for a place"
@@ -790,7 +802,8 @@ msgstr "Izberi nastavitve teme"
 msgid "Serif"
 msgstr "Serifna"
 
-#: ../../../lib/web/src/components/server-documents-footer.tsx:7
+#: ../../../lib/web/src/components/server-documents-footer.tsx:16
+#: ../../../lib/web/src/features/document/document-page.tsx:37
 msgid "Server rules"
 msgstr "Pravila strežnika"
 
@@ -808,11 +821,7 @@ msgstr "Nastavi izvor in cilj"
 msgid "Settings"
 msgstr "Nastavitve"
 
-#: src/features/help/contribute-dialog.tsx:44
-msgid "Share a bit about yourself with the Mochi community. Your post will appear on the Mochi users mailing list."
-msgstr "Delite nekaj o sebi s skupnostjo Mochi. Vaša objava se bo pojavila na poštnem seznamu uporabnikov Mochi."
-
-#: src/features/help/contribute-dialog.tsx:72
+#: src/features/help/contribute-dialog.tsx:79
 msgid "Short title for your idea"
 msgstr "Kratek naslov vaše ideje"
 
@@ -843,33 +852,25 @@ msgstr "Majhno"
 msgid "Spacious"
 msgstr "Prostorno"
 
-#: src/features/help/index.tsx:41
-msgid "Spotted something broken? File a bug ticket on the Mochi development project."
-msgstr "Ste opazili nekaj pokvarjenega? Prijavite napako v razvojnem projektu Mochi."
-
 #: ../../../lib/web/src/components/coming-soon.tsx:12
 msgid "Stay tuned though!"
 msgstr "Vendar bodi pozoren!"
-
-#: src/features/help/index.tsx:35
-msgid "Stuck on something? Ask the community on the Mochi users mailing list."
-msgstr "Vam gre kaj narobe? Vprašajte skupnost na poštnem seznamu uporabnikov Mochi."
 
 #: ../../../lib/web/src/features/access/access-list.tsx:187
 msgid "Subject"
 msgstr "Zadeva"
 
-#: src/features/help/contribute-dialog.tsx:69
+#: src/features/help/contribute-dialog.tsx:76
 #: src/features/help/index.tsx:46
-msgid "Suggest a new feature"
-msgstr "Predlagaj novo funkcijo"
+msgid "Suggest a feature"
+msgstr "Predlagaj funkcijo"
 
-#: src/features/help/contribute-dialog.tsx:75
+#: src/features/help/contribute-dialog.tsx:82
 msgid "Suggest feature"
 msgstr "Predlagaj funkcijo"
 
-#: src/features/help/contribute-dialog.tsx:61
-#: src/features/help/contribute-dialog.tsx:71
+#: src/features/help/contribute-dialog.tsx:68
+#: src/features/help/contribute-dialog.tsx:78
 msgid "Summary"
 msgstr "Povzetek"
 
@@ -891,11 +892,12 @@ msgstr "Oznaka"
 msgid "Teams/Apps"
 msgstr "Ekipe/Aplikacije"
 
-#: src/features/help/contribute-dialog.tsx:70
+#: src/features/help/contribute-dialog.tsx:77
 msgid "Tell the Mochi development team what you'd like Mochi to do."
 msgstr "Povejte razvojni ekipi Mochi, kaj bi želeli, da Mochi počne."
 
-#: ../../../lib/web/src/components/server-documents-footer.tsx:11
+#: ../../../lib/web/src/components/server-documents-footer.tsx:20
+#: ../../../lib/web/src/features/document/document-page.tsx:39
 msgid "Terms and conditions"
 msgstr "Pogoji uporabe"
 
@@ -1037,22 +1039,22 @@ msgstr "Spletno mesto je v vzdrževanju!"
 msgid "Wednesday"
 msgstr "Sreda"
 
-#: src/features/help/index.tsx:76
-msgid "Welcome to Mochi. Here's how to get started."
-msgstr "Dobrodošli v Mochi. Takole začnete."
-
-#: src/features/help/contribute-dialog.tsx:64
+#: src/features/help/contribute-dialog.tsx:71
 msgid "What did you do, what did you expect, what happened instead?"
 msgstr "Kaj ste naredili, kaj ste pričakovali in kaj se je zgodilo namesto tega?"
 
-#: src/features/help/contribute-dialog.tsx:63
+#: src/features/help/contribute-dialog.tsx:70
 msgid "What happened"
 msgstr "Kaj se je zgodilo"
 
-#: src/features/help/contribute-dialog.tsx:74
+#: src/features/help/contribute-dialog.tsx:61
+msgid "What have you tried, what did you expect, where are you stuck?"
+msgstr "Kaj si poskusil, kaj si pričakoval, kje si obtičal?"
+
+#: src/features/help/contribute-dialog.tsx:81
 msgid "What would it do, who is it for, why does it matter?"
 msgstr "Kaj bi počela, za koga je, zakaj je pomembna?"
 
-#: src/features/help/contribute-dialog.tsx:53
-msgid "Your question"
-msgstr "Vaše vprašanje"
+#: src/features/help/contribute-dialog.tsx:59
+msgid "What you want to ask, in one line"
+msgstr "Kaj želiš vprašati, v eni vrstici"

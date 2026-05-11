@@ -21,10 +21,6 @@ msgstr "12 ordu"
 msgid "24 hours"
 msgstr "24 ordu"
 
-#: src/features/help/contribute-dialog.tsx:45
-msgid "About you"
-msgstr "Zuri buruz"
-
 #: ../../../lib/web/src/lib/preference-utils.ts:48
 msgid "Absolute (date and time)"
 msgstr "Absolutua (data eta ordua)"
@@ -110,12 +106,12 @@ msgstr "Ziur al zaude saioa amaitu nahi duzula? Berriro hasi beharko duzu saioa 
 msgid "Asc"
 msgstr "Goranzkoa"
 
-#: src/features/help/contribute-dialog.tsx:51
+#: src/features/help/contribute-dialog.tsx:56
 #: src/features/help/index.tsx:34
 msgid "Ask a question"
 msgstr "Egin galdera bat"
 
-#: src/features/help/contribute-dialog.tsx:52
+#: src/features/help/contribute-dialog.tsx:57
 msgid "Ask the community on the Mochi users mailing list. Be specific about what you've tried so far."
 msgstr "Galdetu komunitateari Mochi erabiltzaileen posta-zerrendan. Zehaztu zer probatu duzun orain arte."
 
@@ -133,7 +129,7 @@ msgstr "Itzuli hasierara"
 msgid "Boost interest"
 msgstr "Bultzatu interesa"
 
-#: src/features/help/contribute-dialog.tsx:62
+#: src/features/help/contribute-dialog.tsx:69
 msgid "Brief summary of the problem"
 msgstr "Arazoaren laburpen labur bat"
 
@@ -144,7 +140,7 @@ msgstr "Arazoaren laburpen labur bat"
 #: ../../../lib/web/src/features/access/access-list.tsx:255
 #: ../../../lib/web/src/features/accounts/account-add.tsx:185
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:86
-#: src/features/help/contribute-dialog.tsx:149
+#: src/features/help/contribute-dialog.tsx:165
 msgid "Cancel"
 msgstr "Utzi"
 
@@ -253,11 +249,15 @@ msgstr "Jarraitu"
 msgid "Copy"
 msgstr "Kopiatu"
 
+#: ../../../lib/web/src/features/document/document-page.tsx:81
+msgid "Could not load this document. Please try again later."
+msgstr "Ezin izan da dokumentu hau kargatu. Saiatu berriro geroago."
+
 #: src/features/help/index.tsx:66
 msgid "Couldn't reach the destination yet"
 msgstr "Oraindik ezin izan da helmugara iritsi"
 
-#: src/features/help/contribute-dialog.tsx:104
+#: src/features/help/contribute-dialog.tsx:112
 msgid "Couldn't submit"
 msgstr "Ezin izan da bidali"
 
@@ -286,11 +286,12 @@ msgstr "Lehenetsitako AA kontua"
 msgid "Desc"
 msgstr "Beheranzkoa"
 
-#: src/features/help/contribute-dialog.tsx:60
+#: src/features/help/contribute-dialog.tsx:67
 msgid "Describe what went wrong. The Mochi development team will see it on the Mochi development project."
 msgstr "Azaldu zer joan zen gaizki. Mochiren garapen-taldeak Mochiren garapen-proiektuan ikusiko du."
 
-#: src/features/help/contribute-dialog.tsx:73
+#: src/features/help/contribute-dialog.tsx:60
+#: src/features/help/contribute-dialog.tsx:80
 msgid "Details"
 msgstr "Xehetasunak"
 
@@ -353,6 +354,10 @@ msgstr "Ezin izan da kategoria eguneratu"
 msgid "Floating"
 msgstr "Flotatzailea"
 
+#: src/features/help/index.tsx:41
+msgid "Found something broken? Tell the developers and they'll fix it."
+msgstr "Akatsen bat aurkitu duzu? Esan garatzaileei eta konponduko dute."
+
 #: ../../../lib/web/src/lib/preference-utils.ts:60
 msgid "Friday"
 msgstr "Ostirala"
@@ -395,19 +400,24 @@ msgstr "Joan hurrengo orrira"
 msgid "Go to previous page"
 msgstr "Joan aurreko orrira"
 
+#: src/features/help/index.tsx:35
+msgid "Got a problem? Not sure what to do? Ask the community on the Mochi Users mailing list."
+msgstr "Arazoren bat duzu? Ez dakizu zer egin? Galdetu komunitateari Mochi Users posta-zerrendan."
+
 #: src/features/help/index.tsx:47
-msgid "Got an idea? Open a feature request on the Mochi development project."
-msgstr "Ideiaren bat duzu? Ireki ezaugarri-eskaera bat Mochiren garapen-proiektuan."
+msgid "Got an idea? Tell the developers and maybe they'll add it."
+msgstr "Ideiaren bat duzu? Esan garatzaileei eta agian gehituko dute."
 
 #: ../../../lib/web/src/features/access/access-dialog.tsx:159
 msgid "Group"
 msgstr "Taldea"
 
-#: src/features/help/index.tsx:75
+#: src/features/help/index.tsx:74
+#: src/routes/_authenticated/route.tsx:13
 msgid "Help"
 msgstr "Laguntza"
 
-#: src/features/help/contribute-dialog.tsx:46
+#: src/features/help/contribute-dialog.tsx:51
 msgid "Hi, I'm…"
 msgstr "Kaixo, ni…"
 
@@ -426,10 +436,6 @@ msgstr "Hasiera"
 msgid "Hot"
 msgstr "Beroa"
 
-#: src/features/help/contribute-dialog.tsx:54
-msgid "I'm trying to…"
-msgstr "Hau egiten saiatzen ari naiz…"
-
 #: ../../../lib/web/src/lib/preference-utils.ts:83
 msgid "Imperial"
 msgstr "Inperiala"
@@ -442,7 +448,7 @@ msgstr "Sartzea"
 msgid "Interests"
 msgstr "Interesak"
 
-#: src/features/help/contribute-dialog.tsx:43
+#: src/features/help/contribute-dialog.tsx:50
 #: src/features/help/index.tsx:28
 msgid "Introduce yourself"
 msgstr "Aurkeztu zeure burua"
@@ -478,6 +484,7 @@ msgid "Load more"
 msgstr "Kargatu gehiago"
 
 #: ../../../lib/web/src/components/ui/load-more.tsx:32
+#: ../../../lib/web/src/features/document/document-page.tsx:87
 msgid "Loading…"
 msgstr "Kargatzen…"
 
@@ -619,19 +626,19 @@ msgstr "Bestelakoa"
 msgid "Owner"
 msgstr "Jabea"
 
-#: src/features/help/contribute-dialog.tsx:105
+#: src/features/help/contribute-dialog.tsx:113
 msgid "Please try again."
 msgstr "Saiatu berriro."
 
-#: src/features/help/contribute-dialog.tsx:47
+#: src/features/help/contribute-dialog.tsx:52
 msgid "Post introduction"
 msgstr "Argitaratu aurkezpena"
 
-#: src/features/help/contribute-dialog.tsx:55
+#: src/features/help/contribute-dialog.tsx:62
 msgid "Post question"
 msgstr "Argitaratu galdera"
 
-#: src/features/help/contribute-dialog.tsx:158
+#: src/features/help/contribute-dialog.tsx:174
 msgid "Posting…"
 msgstr "Argitaratzen…"
 
@@ -639,7 +646,8 @@ msgstr "Argitaratzen…"
 msgid "Previous image"
 msgstr "Aurreko irudia"
 
-#: ../../../lib/web/src/components/server-documents-footer.tsx:15
+#: ../../../lib/web/src/components/server-documents-footer.tsx:24
+#: ../../../lib/web/src/features/document/document-page.tsx:41
 msgid "Privacy"
 msgstr "Pribatutasuna"
 
@@ -647,6 +655,10 @@ msgstr "Pribatutasuna"
 #: ../../../lib/web/src/components/profile-dropdown.tsx:111
 msgid "Profile"
 msgstr "Profila"
+
+#: src/features/help/contribute-dialog.tsx:58
+msgid "Question"
+msgstr "Galdera"
 
 #: ../../../lib/web/src/components/search-entity-dialog.tsx:216
 #: ../../../lib/web/src/components/search-entity-page.tsx:191
@@ -687,12 +699,12 @@ msgstr "Sarbidea kendu?"
 msgid "Remove interest"
 msgstr "Kendu interesa"
 
-#: src/features/help/contribute-dialog.tsx:59
+#: src/features/help/contribute-dialog.tsx:66
 #: src/features/help/index.tsx:40
 msgid "Report a bug"
 msgstr "Eman akats baten berri"
 
-#: src/features/help/contribute-dialog.tsx:65
+#: src/features/help/contribute-dialog.tsx:72
 msgid "Report bug"
 msgstr "Eman akatsaren berri"
 
@@ -717,8 +729,8 @@ msgid "Saturday"
 msgstr "Larunbata"
 
 #: src/features/help/index.tsx:29
-msgid "Say hello on the Mochi users mailing list and tell everyone a little about yourself."
-msgstr "Esan kaixo Mochi erabiltzaileen posta-zerrendan eta kontatu zerbait zeure buruari buruz."
+msgid "Say hello on the Mochi Users mailing list."
+msgstr "Agurtu Mochi Users posta-zerrendan."
 
 #: ../../../lib/web/src/components/place-picker.tsx:82
 msgid "Search for a place"
@@ -790,7 +802,8 @@ msgstr "Hautatu gaiaren hobespena"
 msgid "Serif"
 msgstr "Serif"
 
-#: ../../../lib/web/src/components/server-documents-footer.tsx:7
+#: ../../../lib/web/src/components/server-documents-footer.tsx:16
+#: ../../../lib/web/src/features/document/document-page.tsx:37
 msgid "Server rules"
 msgstr "Zerbitzariaren arauak"
 
@@ -808,11 +821,7 @@ msgstr "Ezarri jatorria eta helmuga"
 msgid "Settings"
 msgstr "Ezarpenak"
 
-#: src/features/help/contribute-dialog.tsx:44
-msgid "Share a bit about yourself with the Mochi community. Your post will appear on the Mochi users mailing list."
-msgstr "Partekatu zerbait zeure buruari buruz Mochi komunitatearekin. Zure argitalpena Mochi erabiltzaileen posta-zerrendan agertuko da."
-
-#: src/features/help/contribute-dialog.tsx:72
+#: src/features/help/contribute-dialog.tsx:79
 msgid "Short title for your idea"
 msgstr "Zure ideiaren izenburu laburra"
 
@@ -843,33 +852,25 @@ msgstr "Txikia"
 msgid "Spacious"
 msgstr "Lasaia"
 
-#: src/features/help/index.tsx:41
-msgid "Spotted something broken? File a bug ticket on the Mochi development project."
-msgstr "Hautsita dagoen zerbait aurkitu duzu? Ireki akats-txartel bat Mochiren garapen-proiektuan."
-
 #: ../../../lib/web/src/components/coming-soon.tsx:12
 msgid "Stay tuned though!"
 msgstr "Egon adi, ordea!"
-
-#: src/features/help/index.tsx:35
-msgid "Stuck on something? Ask the community on the Mochi users mailing list."
-msgstr "Trabatuta zaude? Galdetu komunitateari Mochi erabiltzaileen posta-zerrendan."
 
 #: ../../../lib/web/src/features/access/access-list.tsx:187
 msgid "Subject"
 msgstr "Gaia"
 
-#: src/features/help/contribute-dialog.tsx:69
+#: src/features/help/contribute-dialog.tsx:76
 #: src/features/help/index.tsx:46
-msgid "Suggest a new feature"
-msgstr "Iradoki ezaugarri berri bat"
+msgid "Suggest a feature"
+msgstr "Iradoki funtzionalitate bat"
 
-#: src/features/help/contribute-dialog.tsx:75
+#: src/features/help/contribute-dialog.tsx:82
 msgid "Suggest feature"
 msgstr "Iradoki ezaugarria"
 
-#: src/features/help/contribute-dialog.tsx:61
-#: src/features/help/contribute-dialog.tsx:71
+#: src/features/help/contribute-dialog.tsx:68
+#: src/features/help/contribute-dialog.tsx:78
 msgid "Summary"
 msgstr "Laburpena"
 
@@ -891,11 +892,12 @@ msgstr "Etiketa"
 msgid "Teams/Apps"
 msgstr "Taldeak/Aplikazioak"
 
-#: src/features/help/contribute-dialog.tsx:70
+#: src/features/help/contribute-dialog.tsx:77
 msgid "Tell the Mochi development team what you'd like Mochi to do."
 msgstr "Esan Mochiren garapen-taldeari zer gustatuko litzaizukeen Mochik egitea."
 
-#: ../../../lib/web/src/components/server-documents-footer.tsx:11
+#: ../../../lib/web/src/components/server-documents-footer.tsx:20
+#: ../../../lib/web/src/features/document/document-page.tsx:39
 msgid "Terms and conditions"
 msgstr "Baldintzak"
 
@@ -1037,22 +1039,22 @@ msgstr "Webgunea mantentze-lanetan dago!"
 msgid "Wednesday"
 msgstr "Asteazkena"
 
-#: src/features/help/index.tsx:76
-msgid "Welcome to Mochi. Here's how to get started."
-msgstr "Ongi etorri Mochira. Hona hemen nola hasi."
-
-#: src/features/help/contribute-dialog.tsx:64
+#: src/features/help/contribute-dialog.tsx:71
 msgid "What did you do, what did you expect, what happened instead?"
 msgstr "Zer egin zenuen, zer espero zenuen eta zer gertatu zen horren ordez?"
 
-#: src/features/help/contribute-dialog.tsx:63
+#: src/features/help/contribute-dialog.tsx:70
 msgid "What happened"
 msgstr "Zer gertatu zen"
 
-#: src/features/help/contribute-dialog.tsx:74
+#: src/features/help/contribute-dialog.tsx:61
+msgid "What have you tried, what did you expect, where are you stuck?"
+msgstr "Zer saiatu zara, zer espero zenuen, non geratu zara trabatuta?"
+
+#: src/features/help/contribute-dialog.tsx:81
 msgid "What would it do, who is it for, why does it matter?"
 msgstr "Zer egingo luke, norentzat da eta zergatik da garrantzitsua?"
 
-#: src/features/help/contribute-dialog.tsx:53
-msgid "Your question"
-msgstr "Zure galdera"
+#: src/features/help/contribute-dialog.tsx:59
+msgid "What you want to ask, in one line"
+msgstr "Zer galdetu nahi duzun, lerro batean"

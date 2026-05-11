@@ -21,10 +21,6 @@ msgstr "12 awr"
 msgid "24 hours"
 msgstr "24 awr"
 
-#: src/features/help/contribute-dialog.tsx:45
-msgid "About you"
-msgstr "Amdanoch chi"
-
 #: ../../../lib/web/src/lib/preference-utils.ts:48
 msgid "Absolute (date and time)"
 msgstr "Absoliwt (dyddiad ac amser)"
@@ -110,12 +106,12 @@ msgstr "Ydych chi'n siŵr eich bod am allgofnodi? Bydd angen i chi fewngofnodi e
 msgid "Asc"
 msgstr "Esg"
 
-#: src/features/help/contribute-dialog.tsx:51
+#: src/features/help/contribute-dialog.tsx:56
 #: src/features/help/index.tsx:34
 msgid "Ask a question"
 msgstr "Gofyn cwestiwn"
 
-#: src/features/help/contribute-dialog.tsx:52
+#: src/features/help/contribute-dialog.tsx:57
 msgid "Ask the community on the Mochi users mailing list. Be specific about what you've tried so far."
 msgstr "Gofynnwch i'r gymuned ar restr bostio defnyddwyr Mochi. Byddwch yn benodol am yr hyn rydych chi wedi'i drio hyd yn hyn."
 
@@ -133,7 +129,7 @@ msgstr "Yn ôl i'r Hafan"
 msgid "Boost interest"
 msgstr "Hybu diddordeb"
 
-#: src/features/help/contribute-dialog.tsx:62
+#: src/features/help/contribute-dialog.tsx:69
 msgid "Brief summary of the problem"
 msgstr "Crynodeb byr o'r broblem"
 
@@ -144,7 +140,7 @@ msgstr "Crynodeb byr o'r broblem"
 #: ../../../lib/web/src/features/access/access-list.tsx:255
 #: ../../../lib/web/src/features/accounts/account-add.tsx:185
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:86
-#: src/features/help/contribute-dialog.tsx:149
+#: src/features/help/contribute-dialog.tsx:165
 msgid "Cancel"
 msgstr "Canslo"
 
@@ -253,11 +249,15 @@ msgstr "Parhau"
 msgid "Copy"
 msgstr "Copïo"
 
+#: ../../../lib/web/src/features/document/document-page.tsx:81
+msgid "Could not load this document. Please try again later."
+msgstr "Methwyd llwytho'r ddogfen hon. Rhowch gynnig arni eto yn nes ymlaen."
+
 #: src/features/help/index.tsx:66
 msgid "Couldn't reach the destination yet"
 msgstr "Methu cyrraedd y cyrchfan eto"
 
-#: src/features/help/contribute-dialog.tsx:104
+#: src/features/help/contribute-dialog.tsx:112
 msgid "Couldn't submit"
 msgstr "Methu cyflwyno"
 
@@ -286,11 +286,12 @@ msgstr "Cyfrif AI diofyn"
 msgid "Desc"
 msgstr "Disg"
 
-#: src/features/help/contribute-dialog.tsx:60
+#: src/features/help/contribute-dialog.tsx:67
 msgid "Describe what went wrong. The Mochi development team will see it on the Mochi development project."
 msgstr "Disgrifiwch beth aeth o'i le. Bydd tîm datblygu Mochi yn ei weld ar brosiect datblygu Mochi."
 
-#: src/features/help/contribute-dialog.tsx:73
+#: src/features/help/contribute-dialog.tsx:60
+#: src/features/help/contribute-dialog.tsx:80
 msgid "Details"
 msgstr "Manylion"
 
@@ -353,6 +354,10 @@ msgstr "Methwyd diweddaru'r categori"
 msgid "Floating"
 msgstr "Arnofiol"
 
+#: src/features/help/index.tsx:41
+msgid "Found something broken? Tell the developers and they'll fix it."
+msgstr "Wedi dod o hyd i rywbeth wedi torri? Dywedwch wrth y datblygwyr a byddan nhw'n ei drwsio."
+
 #: ../../../lib/web/src/lib/preference-utils.ts:60
 msgid "Friday"
 msgstr "Dydd Gwener"
@@ -395,19 +400,24 @@ msgstr "Mynd i'r dudalen nesaf"
 msgid "Go to previous page"
 msgstr "Mynd i'r dudalen flaenorol"
 
+#: src/features/help/index.tsx:35
+msgid "Got a problem? Not sure what to do? Ask the community on the Mochi Users mailing list."
+msgstr "Oes problem gennych? Ddim yn siŵr beth i'w wneud? Gofynnwch i'r gymuned ar restr bostio Mochi Users."
+
 #: src/features/help/index.tsx:47
-msgid "Got an idea? Open a feature request on the Mochi development project."
-msgstr "Oes gennych chi syniad? Agorwch gais nodwedd ar brosiect datblygu Mochi."
+msgid "Got an idea? Tell the developers and maybe they'll add it."
+msgstr "Oes syniad gennych? Dywedwch wrth y datblygwyr ac efallai y byddan nhw'n ei ychwanegu."
 
 #: ../../../lib/web/src/features/access/access-dialog.tsx:159
 msgid "Group"
 msgstr "Grŵp"
 
-#: src/features/help/index.tsx:75
+#: src/features/help/index.tsx:74
+#: src/routes/_authenticated/route.tsx:13
 msgid "Help"
 msgstr "Cymorth"
 
-#: src/features/help/contribute-dialog.tsx:46
+#: src/features/help/contribute-dialog.tsx:51
 msgid "Hi, I'm…"
 msgstr "Helô, fi yw…"
 
@@ -426,10 +436,6 @@ msgstr "Cartref"
 msgid "Hot"
 msgstr "Poeth"
 
-#: src/features/help/contribute-dialog.tsx:54
-msgid "I'm trying to…"
-msgstr "Rwy'n ceisio…"
-
 #: ../../../lib/web/src/lib/preference-utils.ts:83
 msgid "Imperial"
 msgstr "Imperial"
@@ -442,7 +448,7 @@ msgstr "Mewnol"
 msgid "Interests"
 msgstr "Diddordebau"
 
-#: src/features/help/contribute-dialog.tsx:43
+#: src/features/help/contribute-dialog.tsx:50
 #: src/features/help/index.tsx:28
 msgid "Introduce yourself"
 msgstr "Cyflwynwch eich hun"
@@ -478,6 +484,7 @@ msgid "Load more"
 msgstr "Llwytho mwy"
 
 #: ../../../lib/web/src/components/ui/load-more.tsx:32
+#: ../../../lib/web/src/features/document/document-page.tsx:87
 msgid "Loading…"
 msgstr "Yn llwytho…"
 
@@ -619,19 +626,19 @@ msgstr "Arall"
 msgid "Owner"
 msgstr "Perchennog"
 
-#: src/features/help/contribute-dialog.tsx:105
+#: src/features/help/contribute-dialog.tsx:113
 msgid "Please try again."
 msgstr "Rhowch gynnig arall arni."
 
-#: src/features/help/contribute-dialog.tsx:47
+#: src/features/help/contribute-dialog.tsx:52
 msgid "Post introduction"
 msgstr "Postio cyflwyniad"
 
-#: src/features/help/contribute-dialog.tsx:55
+#: src/features/help/contribute-dialog.tsx:62
 msgid "Post question"
 msgstr "Postio cwestiwn"
 
-#: src/features/help/contribute-dialog.tsx:158
+#: src/features/help/contribute-dialog.tsx:174
 msgid "Posting…"
 msgstr "Yn postio…"
 
@@ -639,7 +646,8 @@ msgstr "Yn postio…"
 msgid "Previous image"
 msgstr "Delwedd flaenorol"
 
-#: ../../../lib/web/src/components/server-documents-footer.tsx:15
+#: ../../../lib/web/src/components/server-documents-footer.tsx:24
+#: ../../../lib/web/src/features/document/document-page.tsx:41
 msgid "Privacy"
 msgstr "Preifatrwydd"
 
@@ -647,6 +655,10 @@ msgstr "Preifatrwydd"
 #: ../../../lib/web/src/components/profile-dropdown.tsx:111
 msgid "Profile"
 msgstr "Proffil"
+
+#: src/features/help/contribute-dialog.tsx:58
+msgid "Question"
+msgstr "Cwestiwn"
 
 #: ../../../lib/web/src/components/search-entity-dialog.tsx:216
 #: ../../../lib/web/src/components/search-entity-page.tsx:191
@@ -687,12 +699,12 @@ msgstr "Tynnu mynediad?"
 msgid "Remove interest"
 msgstr "Tynnu diddordeb"
 
-#: src/features/help/contribute-dialog.tsx:59
+#: src/features/help/contribute-dialog.tsx:66
 #: src/features/help/index.tsx:40
 msgid "Report a bug"
 msgstr "Riportio nam"
 
-#: src/features/help/contribute-dialog.tsx:65
+#: src/features/help/contribute-dialog.tsx:72
 msgid "Report bug"
 msgstr "Riportio nam"
 
@@ -717,8 +729,8 @@ msgid "Saturday"
 msgstr "Dydd Sadwrn"
 
 #: src/features/help/index.tsx:29
-msgid "Say hello on the Mochi users mailing list and tell everyone a little about yourself."
-msgstr "Dywedwch helô ar restr bostio defnyddwyr Mochi a dywedwch ychydig wrth bawb amdanoch chi'ch hun."
+msgid "Say hello on the Mochi Users mailing list."
+msgstr "Dywedwch helo ar restr bostio Mochi Users."
 
 #: ../../../lib/web/src/components/place-picker.tsx:82
 msgid "Search for a place"
@@ -790,7 +802,8 @@ msgstr "Dewis dewis thema"
 msgid "Serif"
 msgstr "Serif"
 
-#: ../../../lib/web/src/components/server-documents-footer.tsx:7
+#: ../../../lib/web/src/components/server-documents-footer.tsx:16
+#: ../../../lib/web/src/features/document/document-page.tsx:37
 msgid "Server rules"
 msgstr "Rheolau'r gweinydd"
 
@@ -808,11 +821,7 @@ msgstr "Gosod tarddiad a chyrchfan"
 msgid "Settings"
 msgstr "Gosodiadau"
 
-#: src/features/help/contribute-dialog.tsx:44
-msgid "Share a bit about yourself with the Mochi community. Your post will appear on the Mochi users mailing list."
-msgstr "Rhannwch ychydig amdanoch chi'ch hun gyda chymuned Mochi. Bydd eich postiad yn ymddangos ar restr bostio defnyddwyr Mochi."
-
-#: src/features/help/contribute-dialog.tsx:72
+#: src/features/help/contribute-dialog.tsx:79
 msgid "Short title for your idea"
 msgstr "Teitl byr ar gyfer eich syniad"
 
@@ -843,33 +852,25 @@ msgstr "Bach"
 msgid "Spacious"
 msgstr "Helaeth"
 
-#: src/features/help/index.tsx:41
-msgid "Spotted something broken? File a bug ticket on the Mochi development project."
-msgstr "Wedi sylwi ar rywbeth wedi torri? Cyflwynwch docyn nam ar brosiect datblygu Mochi."
-
 #: ../../../lib/web/src/components/coming-soon.tsx:12
 msgid "Stay tuned though!"
 msgstr "Cadwch lygad serch hynny!"
-
-#: src/features/help/index.tsx:35
-msgid "Stuck on something? Ask the community on the Mochi users mailing list."
-msgstr "Wedi'ch dal ar rywbeth? Gofynnwch i'r gymuned ar restr bostio defnyddwyr Mochi."
 
 #: ../../../lib/web/src/features/access/access-list.tsx:187
 msgid "Subject"
 msgstr "Pwnc"
 
-#: src/features/help/contribute-dialog.tsx:69
+#: src/features/help/contribute-dialog.tsx:76
 #: src/features/help/index.tsx:46
-msgid "Suggest a new feature"
-msgstr "Awgrymu nodwedd newydd"
+msgid "Suggest a feature"
+msgstr "Awgrymu nodwedd"
 
-#: src/features/help/contribute-dialog.tsx:75
+#: src/features/help/contribute-dialog.tsx:82
 msgid "Suggest feature"
 msgstr "Awgrymu nodwedd"
 
-#: src/features/help/contribute-dialog.tsx:61
-#: src/features/help/contribute-dialog.tsx:71
+#: src/features/help/contribute-dialog.tsx:68
+#: src/features/help/contribute-dialog.tsx:78
 msgid "Summary"
 msgstr "Crynodeb"
 
@@ -891,11 +892,12 @@ msgstr "Tag"
 msgid "Teams/Apps"
 msgstr "Timau/Apiau"
 
-#: src/features/help/contribute-dialog.tsx:70
+#: src/features/help/contribute-dialog.tsx:77
 msgid "Tell the Mochi development team what you'd like Mochi to do."
 msgstr "Dywedwch wrth dîm datblygu Mochi beth yr hoffech i Mochi ei wneud."
 
-#: ../../../lib/web/src/components/server-documents-footer.tsx:11
+#: ../../../lib/web/src/components/server-documents-footer.tsx:20
+#: ../../../lib/web/src/features/document/document-page.tsx:39
 msgid "Terms and conditions"
 msgstr "Telerau ac amodau"
 
@@ -1037,22 +1039,22 @@ msgstr "Mae'r wefan yn cael ei chynnal!"
 msgid "Wednesday"
 msgstr "Dydd Mercher"
 
-#: src/features/help/index.tsx:76
-msgid "Welcome to Mochi. Here's how to get started."
-msgstr "Croeso i Mochi. Dyma sut i ddechrau."
-
-#: src/features/help/contribute-dialog.tsx:64
+#: src/features/help/contribute-dialog.tsx:71
 msgid "What did you do, what did you expect, what happened instead?"
 msgstr "Beth wnaethoch chi, beth oeddech chi'n ei ddisgwyl, beth ddigwyddodd yn lle hynny?"
 
-#: src/features/help/contribute-dialog.tsx:63
+#: src/features/help/contribute-dialog.tsx:70
 msgid "What happened"
 msgstr "Beth ddigwyddodd"
 
-#: src/features/help/contribute-dialog.tsx:74
+#: src/features/help/contribute-dialog.tsx:61
+msgid "What have you tried, what did you expect, where are you stuck?"
+msgstr "Beth ydych chi wedi'i drio, beth roeddech yn ei ddisgwyl, ble ydych chi'n sownd?"
+
+#: src/features/help/contribute-dialog.tsx:81
 msgid "What would it do, who is it for, why does it matter?"
 msgstr "Beth fyddai'n ei wneud, i bwy mae e, pam mae'n bwysig?"
 
-#: src/features/help/contribute-dialog.tsx:53
-msgid "Your question"
-msgstr "Eich cwestiwn"
+#: src/features/help/contribute-dialog.tsx:59
+msgid "What you want to ask, in one line"
+msgstr "Beth rydych eisiau ei ofyn, mewn un llinell"

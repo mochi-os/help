@@ -21,10 +21,6 @@ msgstr "Sa'aatii 12"
 msgid "24 hours"
 msgstr "Sa'aatii 24"
 
-#: src/features/help/contribute-dialog.tsx:45
-msgid "About you"
-msgstr "Waa'ee kee"
-
 #: ../../../lib/web/src/lib/preference-utils.ts:48
 msgid "Absolute (date and time)"
 msgstr "Sirrii (guyyaa fi sa'aatii)"
@@ -110,12 +106,12 @@ msgstr "Bahuu mirkanaa'oo dha? Akkaawuntii kee fayyadamuuf deebitee seenuu qabda
 msgid "Asc"
 msgstr "Olka'aa"
 
-#: src/features/help/contribute-dialog.tsx:51
+#: src/features/help/contribute-dialog.tsx:56
 #: src/features/help/index.tsx:34
 msgid "Ask a question"
 msgstr "Gaaffii gaafadhu"
 
-#: src/features/help/contribute-dialog.tsx:52
+#: src/features/help/contribute-dialog.tsx:57
 msgid "Ask the community on the Mochi users mailing list. Be specific about what you've tried so far."
 msgstr "Tarree ergaa fayyadamtoota Mochi irratti hawaasa gaafadhu. Waa'ee waan hanga ammaatti yaaltee bal'inaan ibsi."
 
@@ -133,7 +129,7 @@ msgstr "Gara Manaatti deebi'i"
 msgid "Boost interest"
 msgstr "Fedhii cimsi"
 
-#: src/features/help/contribute-dialog.tsx:62
+#: src/features/help/contribute-dialog.tsx:69
 msgid "Brief summary of the problem"
 msgstr "Cuunfaa gabaabaa rakkichaa"
 
@@ -144,7 +140,7 @@ msgstr "Cuunfaa gabaabaa rakkichaa"
 #: ../../../lib/web/src/features/access/access-list.tsx:255
 #: ../../../lib/web/src/features/accounts/account-add.tsx:185
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:86
-#: src/features/help/contribute-dialog.tsx:149
+#: src/features/help/contribute-dialog.tsx:165
 msgid "Cancel"
 msgstr "Haquu"
 
@@ -253,11 +249,15 @@ msgstr "Itti fufi"
 msgid "Copy"
 msgstr "Garagalchi"
 
+#: ../../../lib/web/src/features/document/document-page.tsx:81
+msgid "Could not load this document. Please try again later."
+msgstr "Galmee kana fe'uu hin dandeenye. Booda yaali."
+
 #: src/features/help/index.tsx:66
 msgid "Couldn't reach the destination yet"
 msgstr "Hamma ammaatti bakka deemsaa ga'uu hin dandeenye"
 
-#: src/features/help/contribute-dialog.tsx:104
+#: src/features/help/contribute-dialog.tsx:112
 msgid "Couldn't submit"
 msgstr "Galchuu hin dandeenye"
 
@@ -286,11 +286,12 @@ msgstr "Akkaawuntii AI idilee"
 msgid "Desc"
 msgstr "Gadii"
 
-#: src/features/help/contribute-dialog.tsx:60
+#: src/features/help/contribute-dialog.tsx:67
 msgid "Describe what went wrong. The Mochi development team will see it on the Mochi development project."
 msgstr "Maaltu akka dogoggore ibsi. Garee misooma Mochi pirojektii misooma Mochi irratti ni arga."
 
-#: src/features/help/contribute-dialog.tsx:73
+#: src/features/help/contribute-dialog.tsx:60
+#: src/features/help/contribute-dialog.tsx:80
 msgid "Details"
 msgstr "Bal'inaan"
 
@@ -353,6 +354,10 @@ msgstr "Ramaddii toattaachuu hin dandeenye"
 msgid "Floating"
 msgstr "Bilisa"
 
+#: src/features/help/index.tsx:41
+msgid "Found something broken? Tell the developers and they'll fix it."
+msgstr "Wanti cabe argattaniittu? Misoomtotatti himi, isaanis ni sirreessu."
+
 #: ../../../lib/web/src/lib/preference-utils.ts:60
 msgid "Friday"
 msgstr "Jimaata"
@@ -395,19 +400,24 @@ msgstr "Fuula itti aanu deemi"
 msgid "Go to previous page"
 msgstr "Fuula duraa deemi"
 
+#: src/features/help/index.tsx:35
+msgid "Got a problem? Not sure what to do? Ask the community on the Mochi Users mailing list."
+msgstr "Rakkoo qabduu? Maal akka gootan hin beektuu? Tarree ergaa Mochi Users irratti hawaasa gaafadhu."
+
 #: src/features/help/index.tsx:47
-msgid "Got an idea? Open a feature request on the Mochi development project."
-msgstr "Yaada qabdaa? Pirojektii misooma Mochi irratti gaaffii amaloota bani."
+msgid "Got an idea? Tell the developers and maybe they'll add it."
+msgstr "Yaada qabduu? Misoomtotatti himi, tarii ni dabalu."
 
 #: ../../../lib/web/src/features/access/access-dialog.tsx:159
 msgid "Group"
 msgstr "Garee"
 
-#: src/features/help/index.tsx:75
+#: src/features/help/index.tsx:74
+#: src/routes/_authenticated/route.tsx:13
 msgid "Help"
 msgstr "Gargaarsa"
 
-#: src/features/help/contribute-dialog.tsx:46
+#: src/features/help/contribute-dialog.tsx:51
 msgid "Hi, I'm…"
 msgstr "Akkam, ani…"
 
@@ -426,10 +436,6 @@ msgstr "Mana"
 msgid "Hot"
 msgstr "Ho'aa"
 
-#: src/features/help/contribute-dialog.tsx:54
-msgid "I'm trying to…"
-msgstr "Yaalaa jira…"
-
 #: ../../../lib/web/src/lib/preference-utils.ts:83
 msgid "Imperial"
 msgstr "Imperial"
@@ -442,7 +448,7 @@ msgstr "Inset"
 msgid "Interests"
 msgstr "Fedhota"
 
-#: src/features/help/contribute-dialog.tsx:43
+#: src/features/help/contribute-dialog.tsx:50
 #: src/features/help/index.tsx:28
 msgid "Introduce yourself"
 msgstr "Of beeksisi"
@@ -478,6 +484,7 @@ msgid "Load more"
 msgstr "Caalaa fe'i"
 
 #: ../../../lib/web/src/components/ui/load-more.tsx:32
+#: ../../../lib/web/src/features/document/document-page.tsx:87
 msgid "Loading…"
 msgstr "Fe'aa jiraa…"
 
@@ -619,19 +626,19 @@ msgstr "Biraa"
 msgid "Owner"
 msgstr "Abbaa qabeenyaa"
 
-#: src/features/help/contribute-dialog.tsx:105
+#: src/features/help/contribute-dialog.tsx:113
 msgid "Please try again."
 msgstr "Maaloo irra deebi'ii yaali."
 
-#: src/features/help/contribute-dialog.tsx:47
+#: src/features/help/contribute-dialog.tsx:52
 msgid "Post introduction"
 msgstr "Beeksisa maxxansi"
 
-#: src/features/help/contribute-dialog.tsx:55
+#: src/features/help/contribute-dialog.tsx:62
 msgid "Post question"
 msgstr "Gaaffii maxxansi"
 
-#: src/features/help/contribute-dialog.tsx:158
+#: src/features/help/contribute-dialog.tsx:174
 msgid "Posting…"
 msgstr "Maxxansaa jira…"
 
@@ -639,7 +646,8 @@ msgstr "Maxxansaa jira…"
 msgid "Previous image"
 msgstr "Suuraa duraa"
 
-#: ../../../lib/web/src/components/server-documents-footer.tsx:15
+#: ../../../lib/web/src/components/server-documents-footer.tsx:24
+#: ../../../lib/web/src/features/document/document-page.tsx:41
 msgid "Privacy"
 msgstr "Iccitii"
 
@@ -647,6 +655,10 @@ msgstr "Iccitii"
 #: ../../../lib/web/src/components/profile-dropdown.tsx:111
 msgid "Profile"
 msgstr "Piroofaayilii"
+
+#: src/features/help/contribute-dialog.tsx:58
+msgid "Question"
+msgstr "Gaaffii"
 
 #: ../../../lib/web/src/components/search-entity-dialog.tsx:216
 #: ../../../lib/web/src/components/search-entity-page.tsx:191
@@ -687,12 +699,12 @@ msgstr "Itti seenumsa haquuf?"
 msgid "Remove interest"
 msgstr "Dantaa haqi"
 
-#: src/features/help/contribute-dialog.tsx:59
+#: src/features/help/contribute-dialog.tsx:66
 #: src/features/help/index.tsx:40
 msgid "Report a bug"
 msgstr "Dogoggora gabaasi"
 
-#: src/features/help/contribute-dialog.tsx:65
+#: src/features/help/contribute-dialog.tsx:72
 msgid "Report bug"
 msgstr "Dogoggora gabaasi"
 
@@ -717,8 +729,8 @@ msgid "Saturday"
 msgstr "Sanbata"
 
 #: src/features/help/index.tsx:29
-msgid "Say hello on the Mochi users mailing list and tell everyone a little about yourself."
-msgstr "Tarree ergaa fayyadamtoota Mochi irratti nagaa qabaadhu, hunda waa'ee kee xiqqoo itti himi."
+msgid "Say hello on the Mochi Users mailing list."
+msgstr "Tarree ergaa Mochi Users irratti nagaa gaafadhu."
 
 #: ../../../lib/web/src/components/place-picker.tsx:82
 msgid "Search for a place"
@@ -790,7 +802,8 @@ msgstr "Filannoo akeeka filadhu"
 msgid "Serif"
 msgstr "Serif"
 
-#: ../../../lib/web/src/components/server-documents-footer.tsx:7
+#: ../../../lib/web/src/components/server-documents-footer.tsx:16
+#: ../../../lib/web/src/features/document/document-page.tsx:37
 msgid "Server rules"
 msgstr "Seerota server"
 
@@ -808,11 +821,7 @@ msgstr "Madda fi galma qindeessi"
 msgid "Settings"
 msgstr "Qindaa'inoota"
 
-#: src/features/help/contribute-dialog.tsx:44
-msgid "Share a bit about yourself with the Mochi community. Your post will appear on the Mochi users mailing list."
-msgstr "Hawaasa Mochi waliin waa'ee kee xiqqoo qoodi. Maxxansi kee tarree ergaa fayyadamtoota Mochi irratti ni mul'ata."
-
-#: src/features/help/contribute-dialog.tsx:72
+#: src/features/help/contribute-dialog.tsx:79
 msgid "Short title for your idea"
 msgstr "Mata duree gabaabaa yaada keetiif"
 
@@ -843,33 +852,25 @@ msgstr "Xiqqaa"
 msgid "Spacious"
 msgstr "Bal'aa"
 
-#: src/features/help/index.tsx:41
-msgid "Spotted something broken? File a bug ticket on the Mochi development project."
-msgstr "Wanta cabe argitee? Pirojektii misooma Mochi irratti tikeetii dogoggora galchi."
-
 #: ../../../lib/web/src/components/coming-soon.tsx:12
 msgid "Stay tuned though!"
 msgstr "Garuu nu hordofa!"
-
-#: src/features/help/index.tsx:35
-msgid "Stuck on something? Ask the community on the Mochi users mailing list."
-msgstr "Waan tokko irratti rakkattee jirtaa? Tarree ergaa fayyadamtoota Mochi irratti hawaasa gaafadhu."
 
 #: ../../../lib/web/src/features/access/access-list.tsx:187
 msgid "Subject"
 msgstr "Mata duree"
 
-#: src/features/help/contribute-dialog.tsx:69
+#: src/features/help/contribute-dialog.tsx:76
 #: src/features/help/index.tsx:46
-msgid "Suggest a new feature"
-msgstr "Amala haaraa yaada kenni"
+msgid "Suggest a feature"
+msgstr "Amala tokko yaad'i"
 
-#: src/features/help/contribute-dialog.tsx:75
+#: src/features/help/contribute-dialog.tsx:82
 msgid "Suggest feature"
 msgstr "Amala yaada kenni"
 
-#: src/features/help/contribute-dialog.tsx:61
-#: src/features/help/contribute-dialog.tsx:71
+#: src/features/help/contribute-dialog.tsx:68
+#: src/features/help/contribute-dialog.tsx:78
 msgid "Summary"
 msgstr "Cuunfaa"
 
@@ -891,11 +892,12 @@ msgstr "Tag"
 msgid "Teams/Apps"
 msgstr "Gareewwan/Apps"
 
-#: src/features/help/contribute-dialog.tsx:70
+#: src/features/help/contribute-dialog.tsx:77
 msgid "Tell the Mochi development team what you'd like Mochi to do."
 msgstr "Mochi maal akka hojjetu akka barbaaddu garee misooma Mochi itti himi."
 
-#: ../../../lib/web/src/components/server-documents-footer.tsx:11
+#: ../../../lib/web/src/components/server-documents-footer.tsx:20
+#: ../../../lib/web/src/features/document/document-page.tsx:39
 msgid "Terms and conditions"
 msgstr "Haalota fi tarsiimoolee"
 
@@ -1037,22 +1039,22 @@ msgstr "Saayitiin sirreeffama jala jira!"
 msgid "Wednesday"
 msgstr "Roobii"
 
-#: src/features/help/index.tsx:76
-msgid "Welcome to Mochi. Here's how to get started."
-msgstr "Baga gara Mochi dhuftan. Akkaataa itti jalqabdu kunooti."
-
-#: src/features/help/contribute-dialog.tsx:64
+#: src/features/help/contribute-dialog.tsx:71
 msgid "What did you do, what did you expect, what happened instead?"
 msgstr "Maal goote, maal eegde, qooda isaa maaltu ta'e?"
 
-#: src/features/help/contribute-dialog.tsx:63
+#: src/features/help/contribute-dialog.tsx:70
 msgid "What happened"
 msgstr "Maaltu ta'e"
 
-#: src/features/help/contribute-dialog.tsx:74
+#: src/features/help/contribute-dialog.tsx:61
+msgid "What have you tried, what did you expect, where are you stuck?"
+msgstr "Maal yaalte, maal eegde, eessatti rakkatte?"
+
+#: src/features/help/contribute-dialog.tsx:81
 msgid "What would it do, who is it for, why does it matter?"
 msgstr "Maal hojjeta, eenyuuf qophaa'e, maaliif barbaachisaa?"
 
-#: src/features/help/contribute-dialog.tsx:53
-msgid "Your question"
-msgstr "Gaaffii kee"
+#: src/features/help/contribute-dialog.tsx:59
+msgid "What you want to ask, in one line"
+msgstr "Maal gaafachuu akka barbaaddu, sarara tokko keessatti"

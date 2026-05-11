@@ -21,10 +21,6 @@ msgstr "12 ຊົ່ວໂມງ"
 msgid "24 hours"
 msgstr "24 ຊົ່ວໂມງ"
 
-#: src/features/help/contribute-dialog.tsx:45
-msgid "About you"
-msgstr "ກ່ຽວກັບເຈົ້າ"
-
 #: ../../../lib/web/src/lib/preference-utils.ts:48
 msgid "Absolute (date and time)"
 msgstr "ສົມບູນ (ວັນທີ ແລະ ເວລາ)"
@@ -110,12 +106,12 @@ msgstr "ທ່ານແນ່ໃຈບໍວ່າຕ້ອງການອອກ
 msgid "Asc"
 msgstr "ໜ້ອຍຫາໃຫຍ່"
 
-#: src/features/help/contribute-dialog.tsx:51
+#: src/features/help/contribute-dialog.tsx:56
 #: src/features/help/index.tsx:34
 msgid "Ask a question"
 msgstr "ຖາມຄຳຖາມ"
 
-#: src/features/help/contribute-dialog.tsx:52
+#: src/features/help/contribute-dialog.tsx:57
 msgid "Ask the community on the Mochi users mailing list. Be specific about what you've tried so far."
 msgstr "ຖາມຊຸມຊົນຢູ່ໃນລາຍຊື່ອີເມວຂອງຜູ້ໃຊ້ Mochi. ກະລຸນາລະບຸໃຫ້ຊັດເຈນວ່າເຈົ້າໄດ້ລອງຫຍັງມາແລ້ວ."
 
@@ -133,7 +129,7 @@ msgstr "ກັບຄືນຫາໜ້າຫຼັກ"
 msgid "Boost interest"
 msgstr "ເພີ່ມຄວາມສົນໃຈ"
 
-#: src/features/help/contribute-dialog.tsx:62
+#: src/features/help/contribute-dialog.tsx:69
 msgid "Brief summary of the problem"
 msgstr "ສະຫຼຸບສັ້ນໆກ່ຽວກັບບັນຫາ"
 
@@ -144,7 +140,7 @@ msgstr "ສະຫຼຸບສັ້ນໆກ່ຽວກັບບັນຫາ"
 #: ../../../lib/web/src/features/access/access-list.tsx:255
 #: ../../../lib/web/src/features/accounts/account-add.tsx:185
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:86
-#: src/features/help/contribute-dialog.tsx:149
+#: src/features/help/contribute-dialog.tsx:165
 msgid "Cancel"
 msgstr "ຍົກເລີກ"
 
@@ -253,11 +249,15 @@ msgstr "ຕໍ່"
 msgid "Copy"
 msgstr "ສຳເນົາ"
 
+#: ../../../lib/web/src/features/document/document-page.tsx:81
+msgid "Could not load this document. Please try again later."
+msgstr "ບໍ່ສາມາດໂຫລດເອກະສານນີ້ໄດ້. ກະລຸນາລອງອີກຄັ້ງໃນພາຍຫຼັງ."
+
 #: src/features/help/index.tsx:66
 msgid "Couldn't reach the destination yet"
 msgstr "ຍັງສົ່ງເຖິງປາຍທາງບໍ່ໄດ້"
 
-#: src/features/help/contribute-dialog.tsx:104
+#: src/features/help/contribute-dialog.tsx:112
 msgid "Couldn't submit"
 msgstr "ສົ່ງບໍ່ສຳເລັດ"
 
@@ -286,11 +286,12 @@ msgstr "ບັນຊີ AI ເລີ່ມຕົ້ນ"
 msgid "Desc"
 msgstr "ຫຼາຍຫາໜ້ອຍ"
 
-#: src/features/help/contribute-dialog.tsx:60
+#: src/features/help/contribute-dialog.tsx:67
 msgid "Describe what went wrong. The Mochi development team will see it on the Mochi development project."
 msgstr "ອະທິບາຍວ່າມີຫຍັງເກີດຂຶ້ນຜິດພາດ. ທີມພັດທະນາ Mochi ຈະເຫັນໃນໂຄງການພັດທະນາ Mochi."
 
-#: src/features/help/contribute-dialog.tsx:73
+#: src/features/help/contribute-dialog.tsx:60
+#: src/features/help/contribute-dialog.tsx:80
 msgid "Details"
 msgstr "ລາຍລະອຽດ"
 
@@ -353,6 +354,10 @@ msgstr "ອັບເດດໝວດໝູ່ລົ້ມເຫຼວ"
 msgid "Floating"
 msgstr "ລອຍຕົວ"
 
+#: src/features/help/index.tsx:41
+msgid "Found something broken? Tell the developers and they'll fix it."
+msgstr "ພົບສິ່ງທີ່ເສຍບໍ? ບອກນັກພັດທະນາ ແລ້ວເຂົາເຈົ້າຈະແກ້ໄຂໃຫ້."
+
 #: ../../../lib/web/src/lib/preference-utils.ts:60
 msgid "Friday"
 msgstr "ວັນສຸກ"
@@ -395,19 +400,24 @@ msgstr "ໄປໜ້າຖັດໄປ"
 msgid "Go to previous page"
 msgstr "ໄປໜ້າກ່ອນໜ້າ"
 
+#: src/features/help/index.tsx:35
+msgid "Got a problem? Not sure what to do? Ask the community on the Mochi Users mailing list."
+msgstr "ມີບັນຫາບໍ? ບໍ່ແນ່ໃຈວ່າຈະເຮັດແນວໃດ? ຖາມຊຸມຊົນຢູ່ໃນລາຍຊື່ອີເມວ Mochi Users."
+
 #: src/features/help/index.tsx:47
-msgid "Got an idea? Open a feature request on the Mochi development project."
-msgstr "ມີໄອເດຍບໍ່? ເປີດຄຳຂໍຄຸນສົມບັດໃນໂຄງການພັດທະນາ Mochi."
+msgid "Got an idea? Tell the developers and maybe they'll add it."
+msgstr "ມີແນວຄິດບໍ? ບອກນັກພັດທະນາ ບາງທີເຂົາເຈົ້າອາດເພີ່ມໃຫ້."
 
 #: ../../../lib/web/src/features/access/access-dialog.tsx:159
 msgid "Group"
 msgstr "ກຸ່ມ"
 
-#: src/features/help/index.tsx:75
+#: src/features/help/index.tsx:74
+#: src/routes/_authenticated/route.tsx:13
 msgid "Help"
 msgstr "ຊ່ວຍເຫຼືອ"
 
-#: src/features/help/contribute-dialog.tsx:46
+#: src/features/help/contribute-dialog.tsx:51
 msgid "Hi, I'm…"
 msgstr "ສະບາຍດີ, ຂ້ອຍຊື່…"
 
@@ -426,10 +436,6 @@ msgstr "ໜ້າຫຼັກ"
 msgid "Hot"
 msgstr "ມາແຮງ"
 
-#: src/features/help/contribute-dialog.tsx:54
-msgid "I'm trying to…"
-msgstr "ຂ້ອຍກຳລັງພະຍາຍາມ…"
-
 #: ../../../lib/web/src/lib/preference-utils.ts:83
 msgid "Imperial"
 msgstr "Imperial"
@@ -442,7 +448,7 @@ msgstr "ປະທັບໃນ"
 msgid "Interests"
 msgstr "ຄວາມສົນໃຈ"
 
-#: src/features/help/contribute-dialog.tsx:43
+#: src/features/help/contribute-dialog.tsx:50
 #: src/features/help/index.tsx:28
 msgid "Introduce yourself"
 msgstr "ແນະນຳຕົວ"
@@ -478,6 +484,7 @@ msgid "Load more"
 msgstr "ໂຫຼດເພີ່ມ"
 
 #: ../../../lib/web/src/components/ui/load-more.tsx:32
+#: ../../../lib/web/src/features/document/document-page.tsx:87
 msgid "Loading…"
 msgstr "ກຳລັງໂຫຼດ…"
 
@@ -619,19 +626,19 @@ msgstr "ອື່ນໆ"
 msgid "Owner"
 msgstr "ເຈົ້າຂອງ"
 
-#: src/features/help/contribute-dialog.tsx:105
+#: src/features/help/contribute-dialog.tsx:113
 msgid "Please try again."
 msgstr "ກະລຸນາລອງໃໝ່."
 
-#: src/features/help/contribute-dialog.tsx:47
+#: src/features/help/contribute-dialog.tsx:52
 msgid "Post introduction"
 msgstr "ໂພສການແນະນຳຕົວ"
 
-#: src/features/help/contribute-dialog.tsx:55
+#: src/features/help/contribute-dialog.tsx:62
 msgid "Post question"
 msgstr "ໂພສຄຳຖາມ"
 
-#: src/features/help/contribute-dialog.tsx:158
+#: src/features/help/contribute-dialog.tsx:174
 msgid "Posting…"
 msgstr "ກຳລັງໂພສ…"
 
@@ -639,7 +646,8 @@ msgstr "ກຳລັງໂພສ…"
 msgid "Previous image"
 msgstr "ຮູບກ່ອນໜ້າ"
 
-#: ../../../lib/web/src/components/server-documents-footer.tsx:15
+#: ../../../lib/web/src/components/server-documents-footer.tsx:24
+#: ../../../lib/web/src/features/document/document-page.tsx:41
 msgid "Privacy"
 msgstr "ຄວາມເປັນສ່ວນຕົວ"
 
@@ -647,6 +655,10 @@ msgstr "ຄວາມເປັນສ່ວນຕົວ"
 #: ../../../lib/web/src/components/profile-dropdown.tsx:111
 msgid "Profile"
 msgstr "ໂປຣໄຟລ໌"
+
+#: src/features/help/contribute-dialog.tsx:58
+msgid "Question"
+msgstr "ຄຳຖາມ"
 
 #: ../../../lib/web/src/components/search-entity-dialog.tsx:216
 #: ../../../lib/web/src/components/search-entity-page.tsx:191
@@ -687,12 +699,12 @@ msgstr "ລຶບການເຂົ້າເຖິງ?"
 msgid "Remove interest"
 msgstr "ລຶບຄວາມສົນໃຈ"
 
-#: src/features/help/contribute-dialog.tsx:59
+#: src/features/help/contribute-dialog.tsx:66
 #: src/features/help/index.tsx:40
 msgid "Report a bug"
 msgstr "ລາຍງານບັກ"
 
-#: src/features/help/contribute-dialog.tsx:65
+#: src/features/help/contribute-dialog.tsx:72
 msgid "Report bug"
 msgstr "ລາຍງານບັກ"
 
@@ -717,8 +729,8 @@ msgid "Saturday"
 msgstr "ວັນເສົາ"
 
 #: src/features/help/index.tsx:29
-msgid "Say hello on the Mochi users mailing list and tell everyone a little about yourself."
-msgstr "ທັກທາຍຢູ່ໃນລາຍຊື່ອີເມວຂອງຜູ້ໃຊ້ Mochi ແລະບອກຄົນອື່ນກ່ຽວກັບຕົວເຈົ້າເລັກໜ້ອຍ."
+msgid "Say hello on the Mochi Users mailing list."
+msgstr "ທັກທາຍກັນຢູ່ໃນລາຍຊື່ອີເມວ Mochi Users."
 
 #: ../../../lib/web/src/components/place-picker.tsx:82
 msgid "Search for a place"
@@ -790,7 +802,8 @@ msgstr "ເລືອກຄວາມຕ້ອງການຮູບແບບ"
 msgid "Serif"
 msgstr "ເຊຣິບ"
 
-#: ../../../lib/web/src/components/server-documents-footer.tsx:7
+#: ../../../lib/web/src/components/server-documents-footer.tsx:16
+#: ../../../lib/web/src/features/document/document-page.tsx:37
 msgid "Server rules"
 msgstr "ກົດລະບຽບເຊີບເວີ"
 
@@ -808,11 +821,7 @@ msgstr "ຕັ້ງຕົ້ນທາງແລະປາຍທາງ"
 msgid "Settings"
 msgstr "ການຕັ້ງຄ່າ"
 
-#: src/features/help/contribute-dialog.tsx:44
-msgid "Share a bit about yourself with the Mochi community. Your post will appear on the Mochi users mailing list."
-msgstr "ແບ່ງປັນກ່ຽວກັບຕົວເຈົ້າເລັກໜ້ອຍກັບຊຸມຊົນ Mochi. ໂພສຂອງເຈົ້າຈະປາກົດຢູ່ໃນລາຍຊື່ອີເມວຂອງຜູ້ໃຊ້ Mochi."
-
-#: src/features/help/contribute-dialog.tsx:72
+#: src/features/help/contribute-dialog.tsx:79
 msgid "Short title for your idea"
 msgstr "ຫົວຂໍ້ສັ້ນສຳລັບໄອເດຍຂອງເຈົ້າ"
 
@@ -843,33 +852,25 @@ msgstr "ນ້ອຍ"
 msgid "Spacious"
 msgstr "ກວ້າງຂວາງ"
 
-#: src/features/help/index.tsx:41
-msgid "Spotted something broken? File a bug ticket on the Mochi development project."
-msgstr "ພົບເຫັນບັນຫາບໍ່? ສົ່ງຕິກເກັດບັກໃນໂຄງການພັດທະນາ Mochi."
-
 #: ../../../lib/web/src/components/coming-soon.tsx:12
 msgid "Stay tuned though!"
 msgstr "ຕິດຕາມຕໍ່ໄປ!"
-
-#: src/features/help/index.tsx:35
-msgid "Stuck on something? Ask the community on the Mochi users mailing list."
-msgstr "ຕິດຂັດບັນຫາບໍ່? ຖາມຊຸມຊົນຢູ່ໃນລາຍຊື່ອີເມວຂອງຜູ້ໃຊ້ Mochi."
 
 #: ../../../lib/web/src/features/access/access-list.tsx:187
 msgid "Subject"
 msgstr "ຫົວຂໍ້"
 
-#: src/features/help/contribute-dialog.tsx:69
+#: src/features/help/contribute-dialog.tsx:76
 #: src/features/help/index.tsx:46
-msgid "Suggest a new feature"
-msgstr "ສະເໜີຄຸນສົມບັດໃໝ່"
+msgid "Suggest a feature"
+msgstr "ສະເໜີຄຸນສົມບັດ"
 
-#: src/features/help/contribute-dialog.tsx:75
+#: src/features/help/contribute-dialog.tsx:82
 msgid "Suggest feature"
 msgstr "ສະເໜີຄຸນສົມບັດ"
 
-#: src/features/help/contribute-dialog.tsx:61
-#: src/features/help/contribute-dialog.tsx:71
+#: src/features/help/contribute-dialog.tsx:68
+#: src/features/help/contribute-dialog.tsx:78
 msgid "Summary"
 msgstr "ສະຫຼຸບ"
 
@@ -891,11 +892,12 @@ msgstr "Tag"
 msgid "Teams/Apps"
 msgstr "ທີມ/ແອັບ"
 
-#: src/features/help/contribute-dialog.tsx:70
+#: src/features/help/contribute-dialog.tsx:77
 msgid "Tell the Mochi development team what you'd like Mochi to do."
 msgstr "ບອກທີມພັດທະນາ Mochi ວ່າເຈົ້າຢາກໃຫ້ Mochi ເຮັດຫຍັງ."
 
-#: ../../../lib/web/src/components/server-documents-footer.tsx:11
+#: ../../../lib/web/src/components/server-documents-footer.tsx:20
+#: ../../../lib/web/src/features/document/document-page.tsx:39
 msgid "Terms and conditions"
 msgstr "ຂໍ້ກຳນົດແລະເງື່ອນໄຂ"
 
@@ -1037,22 +1039,22 @@ msgstr "ເວັບໄຊກຳລັງຢູ່ໃນການບຳລຸງ
 msgid "Wednesday"
 msgstr "ວັນພຸດ"
 
-#: src/features/help/index.tsx:76
-msgid "Welcome to Mochi. Here's how to get started."
-msgstr "ຍິນດີຕ້ອນຮັບສູ່ Mochi. ນີ້ແມ່ນວິທີເລີ່ມຕົ້ນ."
-
-#: src/features/help/contribute-dialog.tsx:64
+#: src/features/help/contribute-dialog.tsx:71
 msgid "What did you do, what did you expect, what happened instead?"
 msgstr "ເຈົ້າເຮັດຫຍັງ, ເຈົ້າຄາດຫວັງຫຍັງ, ມີຫຍັງເກີດຂຶ້ນແທນ?"
 
-#: src/features/help/contribute-dialog.tsx:63
+#: src/features/help/contribute-dialog.tsx:70
 msgid "What happened"
 msgstr "ມີຫຍັງເກີດຂຶ້ນ"
 
-#: src/features/help/contribute-dialog.tsx:74
+#: src/features/help/contribute-dialog.tsx:61
+msgid "What have you tried, what did you expect, where are you stuck?"
+msgstr "ທ່ານໄດ້ລອງຫຍັງ, ທ່ານຄາດຫວັງຫຍັງ, ທ່ານຕິດຢູ່ໃສ?"
+
+#: src/features/help/contribute-dialog.tsx:81
 msgid "What would it do, who is it for, why does it matter?"
 msgstr "ມັນຈະເຮັດຫຍັງ, ສຳລັບໃຜ, ເປັນຫຍັງຈຶ່ງສຳຄັນ?"
 
-#: src/features/help/contribute-dialog.tsx:53
-msgid "Your question"
-msgstr "ຄຳຖາມຂອງເຈົ້າ"
+#: src/features/help/contribute-dialog.tsx:59
+msgid "What you want to ask, in one line"
+msgstr "ສິ່ງທີ່ທ່ານຢາກຖາມ, ໃນແຖວດຽວ"

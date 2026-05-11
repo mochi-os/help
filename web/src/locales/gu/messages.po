@@ -21,10 +21,6 @@ msgstr "12 કલાક"
 msgid "24 hours"
 msgstr "24 કલાક"
 
-#: src/features/help/contribute-dialog.tsx:45
-msgid "About you"
-msgstr "તમારા વિશે"
-
 #: ../../../lib/web/src/lib/preference-utils.ts:48
 msgid "Absolute (date and time)"
 msgstr "નિરપેક્ષ (તારીખ અને સમય)"
@@ -110,12 +106,12 @@ msgstr "શું તમે ખરેખર લૉગ આઉટ કરવા મ
 msgid "Asc"
 msgstr "ચડતા"
 
-#: src/features/help/contribute-dialog.tsx:51
+#: src/features/help/contribute-dialog.tsx:56
 #: src/features/help/index.tsx:34
 msgid "Ask a question"
 msgstr "પ્રશ્ન પૂછો"
 
-#: src/features/help/contribute-dialog.tsx:52
+#: src/features/help/contribute-dialog.tsx:57
 msgid "Ask the community on the Mochi users mailing list. Be specific about what you've tried so far."
 msgstr "Mochi વપરાશકર્તા મેઇલિંગ સૂચિ પર સમુદાયને પૂછો. અત્યાર સુધી તમે શું પ્રયાસ કર્યો છે તેના વિશે ચોક્કસ રહો."
 
@@ -133,7 +129,7 @@ msgstr "હોમ પર પાછા"
 msgid "Boost interest"
 msgstr "રુચિ વધારો"
 
-#: src/features/help/contribute-dialog.tsx:62
+#: src/features/help/contribute-dialog.tsx:69
 msgid "Brief summary of the problem"
 msgstr "સમસ્યાનો ટૂંકો સારાંશ"
 
@@ -144,7 +140,7 @@ msgstr "સમસ્યાનો ટૂંકો સારાંશ"
 #: ../../../lib/web/src/features/access/access-list.tsx:255
 #: ../../../lib/web/src/features/accounts/account-add.tsx:185
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:86
-#: src/features/help/contribute-dialog.tsx:149
+#: src/features/help/contribute-dialog.tsx:165
 msgid "Cancel"
 msgstr "રદ કરો"
 
@@ -253,11 +249,15 @@ msgstr "ચાલુ રાખો"
 msgid "Copy"
 msgstr "કૉપિ કરો"
 
+#: ../../../lib/web/src/features/document/document-page.tsx:81
+msgid "Could not load this document. Please try again later."
+msgstr "આ દસ્તાવેજ લોડ કરી શક્યા નહીં. કૃપા કરીને પછીથી ફરી પ્રયાસ કરો."
+
 #: src/features/help/index.tsx:66
 msgid "Couldn't reach the destination yet"
 msgstr "હજુ સુધી ગંતવ્ય સ્થાન સુધી પહોંચી શક્યા નથી"
 
-#: src/features/help/contribute-dialog.tsx:104
+#: src/features/help/contribute-dialog.tsx:112
 msgid "Couldn't submit"
 msgstr "સબમિટ કરી શક્યા નથી"
 
@@ -286,11 +286,12 @@ msgstr "ડિફૉલ્ટ AI ખાતું"
 msgid "Desc"
 msgstr "ઊતરતા"
 
-#: src/features/help/contribute-dialog.tsx:60
+#: src/features/help/contribute-dialog.tsx:67
 msgid "Describe what went wrong. The Mochi development team will see it on the Mochi development project."
 msgstr "શું ખોટું થયું તે વર્ણવો. Mochi વિકાસ ટીમ તેને Mochi વિકાસ પ્રોજેક્ટ પર જોશે."
 
-#: src/features/help/contribute-dialog.tsx:73
+#: src/features/help/contribute-dialog.tsx:60
+#: src/features/help/contribute-dialog.tsx:80
 msgid "Details"
 msgstr "વિગતો"
 
@@ -353,6 +354,10 @@ msgstr "કેટેગરી અપડેટ કરવામાં નિષ્
 msgid "Floating"
 msgstr "ફ્લોટિંગ"
 
+#: src/features/help/index.tsx:41
+msgid "Found something broken? Tell the developers and they'll fix it."
+msgstr "કંઈક તૂટેલું મળ્યું? ડેવલપર્સને જણાવો અને તેઓ તેને ઠીક કરી દેશે."
+
 #: ../../../lib/web/src/lib/preference-utils.ts:60
 msgid "Friday"
 msgstr "શુક્રવાર"
@@ -395,19 +400,24 @@ msgstr "આગલા પેજ પર જાઓ"
 msgid "Go to previous page"
 msgstr "પાછલા પેજ પર જાઓ"
 
+#: src/features/help/index.tsx:35
+msgid "Got a problem? Not sure what to do? Ask the community on the Mochi Users mailing list."
+msgstr "કોઈ સમસ્યા છે? શું કરવું તેની ખાતરી નથી? Mochi Users મેઇલિંગ લિસ્ટ પર સમુદાયને પૂછો."
+
 #: src/features/help/index.tsx:47
-msgid "Got an idea? Open a feature request on the Mochi development project."
-msgstr "કોઈ વિચાર છે? Mochi વિકાસ પ્રોજેક્ટ પર ફીચર વિનંતી ખોલો."
+msgid "Got an idea? Tell the developers and maybe they'll add it."
+msgstr "કોઈ વિચાર છે? ડેવલપર્સને જણાવો અને કદાચ તેઓ તેને ઉમેરશે."
 
 #: ../../../lib/web/src/features/access/access-dialog.tsx:159
 msgid "Group"
 msgstr "ગ્રુપ"
 
-#: src/features/help/index.tsx:75
+#: src/features/help/index.tsx:74
+#: src/routes/_authenticated/route.tsx:13
 msgid "Help"
 msgstr "મદદ"
 
-#: src/features/help/contribute-dialog.tsx:46
+#: src/features/help/contribute-dialog.tsx:51
 msgid "Hi, I'm…"
 msgstr "નમસ્તે, હું છું…"
 
@@ -426,10 +436,6 @@ msgstr "હોમ"
 msgid "Hot"
 msgstr "હૉટ"
 
-#: src/features/help/contribute-dialog.tsx:54
-msgid "I'm trying to…"
-msgstr "હું પ્રયાસ કરી રહ્યો છું…"
-
 #: ../../../lib/web/src/lib/preference-utils.ts:83
 msgid "Imperial"
 msgstr "ઇમ્પીરિયલ"
@@ -442,7 +448,7 @@ msgstr "ઇનસેટ"
 msgid "Interests"
 msgstr "રુચિઓ"
 
-#: src/features/help/contribute-dialog.tsx:43
+#: src/features/help/contribute-dialog.tsx:50
 #: src/features/help/index.tsx:28
 msgid "Introduce yourself"
 msgstr "તમારો પરિચય આપો"
@@ -478,6 +484,7 @@ msgid "Load more"
 msgstr "વધુ લોડ કરો"
 
 #: ../../../lib/web/src/components/ui/load-more.tsx:32
+#: ../../../lib/web/src/features/document/document-page.tsx:87
 msgid "Loading…"
 msgstr "લોડ થઈ રહ્યું છે…"
 
@@ -619,19 +626,19 @@ msgstr "અન્ય"
 msgid "Owner"
 msgstr "માલિક"
 
-#: src/features/help/contribute-dialog.tsx:105
+#: src/features/help/contribute-dialog.tsx:113
 msgid "Please try again."
 msgstr "કૃપા કરીને ફરી પ્રયાસ કરો."
 
-#: src/features/help/contribute-dialog.tsx:47
+#: src/features/help/contribute-dialog.tsx:52
 msgid "Post introduction"
 msgstr "પરિચય પોસ્ટ કરો"
 
-#: src/features/help/contribute-dialog.tsx:55
+#: src/features/help/contribute-dialog.tsx:62
 msgid "Post question"
 msgstr "પ્રશ્ન પોસ્ટ કરો"
 
-#: src/features/help/contribute-dialog.tsx:158
+#: src/features/help/contribute-dialog.tsx:174
 msgid "Posting…"
 msgstr "પોસ્ટ કરી રહ્યાં છે…"
 
@@ -639,7 +646,8 @@ msgstr "પોસ્ટ કરી રહ્યાં છે…"
 msgid "Previous image"
 msgstr "પાછળની છબી"
 
-#: ../../../lib/web/src/components/server-documents-footer.tsx:15
+#: ../../../lib/web/src/components/server-documents-footer.tsx:24
+#: ../../../lib/web/src/features/document/document-page.tsx:41
 msgid "Privacy"
 msgstr "ગોપનીયતા"
 
@@ -647,6 +655,10 @@ msgstr "ગોપનીયતા"
 #: ../../../lib/web/src/components/profile-dropdown.tsx:111
 msgid "Profile"
 msgstr "પ્રોફાઇલ"
+
+#: src/features/help/contribute-dialog.tsx:58
+msgid "Question"
+msgstr "પ્રશ્ન"
 
 #: ../../../lib/web/src/components/search-entity-dialog.tsx:216
 #: ../../../lib/web/src/components/search-entity-page.tsx:191
@@ -687,12 +699,12 @@ msgstr "ઍક્સેસ દૂર કરો?"
 msgid "Remove interest"
 msgstr "રસ દૂર કરો"
 
-#: src/features/help/contribute-dialog.tsx:59
+#: src/features/help/contribute-dialog.tsx:66
 #: src/features/help/index.tsx:40
 msgid "Report a bug"
 msgstr "બગની જાણ કરો"
 
-#: src/features/help/contribute-dialog.tsx:65
+#: src/features/help/contribute-dialog.tsx:72
 msgid "Report bug"
 msgstr "બગ રિપોર્ટ કરો"
 
@@ -717,8 +729,8 @@ msgid "Saturday"
 msgstr "શનિવાર"
 
 #: src/features/help/index.tsx:29
-msgid "Say hello on the Mochi users mailing list and tell everyone a little about yourself."
-msgstr "Mochi વપરાશકર્તા મેઇલિંગ સૂચિ પર નમસ્તે કહો અને દરેકને તમારા વિશે થોડું કહો."
+msgid "Say hello on the Mochi Users mailing list."
+msgstr "Mochi Users મેઇલિંગ લિસ્ટ પર નમસ્તે કહો."
 
 #: ../../../lib/web/src/components/place-picker.tsx:82
 msgid "Search for a place"
@@ -790,7 +802,8 @@ msgstr "થીમ પસંદગી પસંદ કરો"
 msgid "Serif"
 msgstr "સેરિફ"
 
-#: ../../../lib/web/src/components/server-documents-footer.tsx:7
+#: ../../../lib/web/src/components/server-documents-footer.tsx:16
+#: ../../../lib/web/src/features/document/document-page.tsx:37
 msgid "Server rules"
 msgstr "સર્વર નિયમો"
 
@@ -808,11 +821,7 @@ msgstr "મૂળ અને ગંતવ્ય સેટ કરો"
 msgid "Settings"
 msgstr "સેટિંગ્સ"
 
-#: src/features/help/contribute-dialog.tsx:44
-msgid "Share a bit about yourself with the Mochi community. Your post will appear on the Mochi users mailing list."
-msgstr "Mochi સમુદાય સાથે તમારા વિશે થોડું શેર કરો. તમારી પોસ્ટ Mochi વપરાશકર્તા મેઇલિંગ સૂચિ પર દેખાશે."
-
-#: src/features/help/contribute-dialog.tsx:72
+#: src/features/help/contribute-dialog.tsx:79
 msgid "Short title for your idea"
 msgstr "તમારા વિચાર માટે ટૂંકું શીર્ષક"
 
@@ -843,33 +852,25 @@ msgstr "નાનું"
 msgid "Spacious"
 msgstr "વિશાળ"
 
-#: src/features/help/index.tsx:41
-msgid "Spotted something broken? File a bug ticket on the Mochi development project."
-msgstr "કંઈક તૂટેલું જોયું? Mochi વિકાસ પ્રોજેક્ટ પર બગ ટિકિટ ફાઇલ કરો."
-
 #: ../../../lib/web/src/components/coming-soon.tsx:12
 msgid "Stay tuned though!"
 msgstr "છતાં અમારી સાથે જોડાયેલા રહો!"
-
-#: src/features/help/index.tsx:35
-msgid "Stuck on something? Ask the community on the Mochi users mailing list."
-msgstr "કંઈક પર અટવાયા છો? Mochi વપરાશકર્તા મેઇલિંગ સૂચિ પર સમુદાયને પૂછો."
 
 #: ../../../lib/web/src/features/access/access-list.tsx:187
 msgid "Subject"
 msgstr "વિષય"
 
-#: src/features/help/contribute-dialog.tsx:69
+#: src/features/help/contribute-dialog.tsx:76
 #: src/features/help/index.tsx:46
-msgid "Suggest a new feature"
-msgstr "નવી ફીચર સૂચવો"
+msgid "Suggest a feature"
+msgstr "એક સુવિધા સૂચવો"
 
-#: src/features/help/contribute-dialog.tsx:75
+#: src/features/help/contribute-dialog.tsx:82
 msgid "Suggest feature"
 msgstr "ફીચર સૂચવો"
 
-#: src/features/help/contribute-dialog.tsx:61
-#: src/features/help/contribute-dialog.tsx:71
+#: src/features/help/contribute-dialog.tsx:68
+#: src/features/help/contribute-dialog.tsx:78
 msgid "Summary"
 msgstr "સારાંશ"
 
@@ -891,11 +892,12 @@ msgstr "ટૅગ"
 msgid "Teams/Apps"
 msgstr "ટીમો/એપ્સ"
 
-#: src/features/help/contribute-dialog.tsx:70
+#: src/features/help/contribute-dialog.tsx:77
 msgid "Tell the Mochi development team what you'd like Mochi to do."
 msgstr "Mochi વિકાસ ટીમને જણાવો કે તમે Mochi પાસે શું કરાવવા માંગો છો."
 
-#: ../../../lib/web/src/components/server-documents-footer.tsx:11
+#: ../../../lib/web/src/components/server-documents-footer.tsx:20
+#: ../../../lib/web/src/features/document/document-page.tsx:39
 msgid "Terms and conditions"
 msgstr "નિયમો અને શરતો"
 
@@ -1037,22 +1039,22 @@ msgstr "વેબસાઇટ જાળવણી હેઠળ છે!"
 msgid "Wednesday"
 msgstr "બુધવાર"
 
-#: src/features/help/index.tsx:76
-msgid "Welcome to Mochi. Here's how to get started."
-msgstr "Mochi માં આપનું સ્વાગત છે. શરૂઆત કેવી રીતે કરવી તે અહીં છે."
-
-#: src/features/help/contribute-dialog.tsx:64
+#: src/features/help/contribute-dialog.tsx:71
 msgid "What did you do, what did you expect, what happened instead?"
 msgstr "તમે શું કર્યું, તમે શું અપેક્ષા રાખી હતી, તેના બદલે શું થયું?"
 
-#: src/features/help/contribute-dialog.tsx:63
+#: src/features/help/contribute-dialog.tsx:70
 msgid "What happened"
 msgstr "શું થયું"
 
-#: src/features/help/contribute-dialog.tsx:74
+#: src/features/help/contribute-dialog.tsx:61
+msgid "What have you tried, what did you expect, where are you stuck?"
+msgstr "તમે શું પ્રયત્ન કર્યો, શું અપેક્ષા હતી, ક્યાં અટકી ગયા છો?"
+
+#: src/features/help/contribute-dialog.tsx:81
 msgid "What would it do, who is it for, why does it matter?"
 msgstr "તે શું કરશે, તે કોના માટે છે, તે શા માટે મહત્વનું છે?"
 
-#: src/features/help/contribute-dialog.tsx:53
-msgid "Your question"
-msgstr "તમારો પ્રશ્ન"
+#: src/features/help/contribute-dialog.tsx:59
+msgid "What you want to ask, in one line"
+msgstr "તમે શું પૂછવા માંગો છો, એક લાઇનમાં"

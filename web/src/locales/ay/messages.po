@@ -21,10 +21,6 @@ msgstr "12 hora"
 msgid "24 hours"
 msgstr "24 hora"
 
-#: src/features/help/contribute-dialog.tsx:45
-msgid "About you"
-msgstr "Jumat tuqit"
-
 #: ../../../lib/web/src/lib/preference-utils.ts:48
 msgid "Absolute (date and time)"
 msgstr "Absoluto (uru ukat hora)"
@@ -110,12 +106,12 @@ msgstr "Chiqpach mistuña munta? Wasitat mantañam cuentamar mantañataki."
 msgid "Asc"
 msgstr "Asc"
 
-#: src/features/help/contribute-dialog.tsx:51
+#: src/features/help/contribute-dialog.tsx:56
 #: src/features/help/index.tsx:34
 msgid "Ask a question"
 msgstr "Mä jiskht'a luraña"
 
-#: src/features/help/contribute-dialog.tsx:52
+#: src/features/help/contribute-dialog.tsx:57
 msgid "Ask the community on the Mochi users mailing list. Be specific about what you've tried so far."
 msgstr "Mochi apnaqirinakan correo listapanx markachirinakar jiskht'am. Jichhakamax kunsa yant'awayktax sumpach qhanañchayam."
 
@@ -133,7 +129,7 @@ msgstr "Utar kutta"
 msgid "Boost interest"
 msgstr "Munawi jiltayaña"
 
-#: src/features/help/contribute-dialog.tsx:62
+#: src/features/help/contribute-dialog.tsx:69
 msgid "Brief summary of the problem"
 msgstr "Jan walt'awin jisk'a qhanañchawi"
 
@@ -144,7 +140,7 @@ msgstr "Jan walt'awin jisk'a qhanañchawi"
 #: ../../../lib/web/src/features/access/access-list.tsx:255
 #: ../../../lib/web/src/features/accounts/account-add.tsx:185
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:86
-#: src/features/help/contribute-dialog.tsx:149
+#: src/features/help/contribute-dialog.tsx:165
 msgid "Cancel"
 msgstr "Jaytaña"
 
@@ -253,11 +249,15 @@ msgstr "Sarantaña"
 msgid "Copy"
 msgstr "Copiaña"
 
+#: ../../../lib/web/src/features/document/document-page.tsx:81
+msgid "Could not load this document. Please try again later."
+msgstr "Janiw aka documento apañ atkiti. Mira qhipata wasitat yant'aña."
+
 #: src/features/help/index.tsx:66
 msgid "Couldn't reach the destination yet"
 msgstr "Janïrakiw kawkhar puriñ atkti"
 
-#: src/features/help/contribute-dialog.tsx:104
+#: src/features/help/contribute-dialog.tsx:112
 msgid "Couldn't submit"
 msgstr "Janiw apayañjamäkanti"
 
@@ -286,11 +286,12 @@ msgstr "Default AI cuenta"
 msgid "Desc"
 msgstr "Desc"
 
-#: src/features/help/contribute-dialog.tsx:60
+#: src/features/help/contribute-dialog.tsx:67
 msgid "Describe what went wrong. The Mochi development team will see it on the Mochi development project."
 msgstr "Kunas jan walikitaynax qhanañchayam. Mochi luririnakan tamapax ukx Mochi luräwi proyectunx uñjaniwa."
 
-#: src/features/help/contribute-dialog.tsx:73
+#: src/features/help/contribute-dialog.tsx:60
+#: src/features/help/contribute-dialog.tsx:80
 msgid "Details"
 msgstr "Detallenaka"
 
@@ -353,6 +354,10 @@ msgstr "Janiw categoría machaqachaña atinkti"
 msgid "Floating"
 msgstr "Tuyuri"
 
+#: src/features/help/index.tsx:41
+msgid "Found something broken? Tell the developers and they'll fix it."
+msgstr "¿Mä p'akita kunsa jikxatasta? Luririnakaru sañma, jupanakax askichapxani."
+
 #: ../../../lib/web/src/lib/preference-utils.ts:60
 msgid "Friday"
 msgstr "Viernes"
@@ -395,19 +400,24 @@ msgstr "Jutïr páginar saraña"
 msgid "Go to previous page"
 msgstr "Nayraqat páginar saraña"
 
+#: src/features/help/index.tsx:35
+msgid "Got a problem? Not sure what to do? Ask the community on the Mochi Users mailing list."
+msgstr "¿Jan walt'awinakanitati? ¿Kuns lurañ janit yatkta? Mochi Users correo qillqa qutuna markachirinakaru jiskt'asim."
+
 #: src/features/help/index.tsx:47
-msgid "Got an idea? Open a feature request on the Mochi development project."
-msgstr "¿Mä amuyt'awinïtati? Mochi luräwi proyectunx mä machaq lurawi mayisiwi jist'aram."
+msgid "Got an idea? Tell the developers and maybe they'll add it."
+msgstr "¿Mä amuyt'awinitati? Luririnakaru sañma, inas jupanakax yapxatchispa."
 
 #: ../../../lib/web/src/features/access/access-dialog.tsx:159
 msgid "Group"
 msgstr "Grupo"
 
-#: src/features/help/index.tsx:75
+#: src/features/help/index.tsx:74
+#: src/routes/_authenticated/route.tsx:13
 msgid "Help"
 msgstr "Yanapt'a"
 
-#: src/features/help/contribute-dialog.tsx:46
+#: src/features/help/contribute-dialog.tsx:51
 msgid "Hi, I'm…"
 msgstr "Kamisaki, nayax…"
 
@@ -426,10 +436,6 @@ msgstr "Uta"
 msgid "Hot"
 msgstr "Junt'u"
 
-#: src/features/help/contribute-dialog.tsx:54
-msgid "I'm trying to…"
-msgstr "Akham luraña munta…"
-
 #: ../../../lib/web/src/lib/preference-utils.ts:83
 msgid "Imperial"
 msgstr "Imperial"
@@ -442,7 +448,7 @@ msgstr "Manqaru"
 msgid "Interests"
 msgstr "Interesanaka"
 
-#: src/features/help/contribute-dialog.tsx:43
+#: src/features/help/contribute-dialog.tsx:50
 #: src/features/help/index.tsx:28
 msgid "Introduce yourself"
 msgstr "Jumpachpa uñt'ayasim"
@@ -478,6 +484,7 @@ msgid "Load more"
 msgstr "Jukamp apaqaña"
 
 #: ../../../lib/web/src/components/ui/load-more.tsx:32
+#: ../../../lib/web/src/features/document/document-page.tsx:87
 msgid "Loading…"
 msgstr "Apaqaskiwa…"
 
@@ -619,19 +626,19 @@ msgstr "Yaqha"
 msgid "Owner"
 msgstr "Dueño"
 
-#: src/features/help/contribute-dialog.tsx:105
+#: src/features/help/contribute-dialog.tsx:113
 msgid "Please try again."
 msgstr "Mira, mayampi yant'aram."
 
-#: src/features/help/contribute-dialog.tsx:47
+#: src/features/help/contribute-dialog.tsx:52
 msgid "Post introduction"
 msgstr "Uñt'ayasiwi apayaña"
 
-#: src/features/help/contribute-dialog.tsx:55
+#: src/features/help/contribute-dialog.tsx:62
 msgid "Post question"
 msgstr "Jiskht'a apayaña"
 
-#: src/features/help/contribute-dialog.tsx:158
+#: src/features/help/contribute-dialog.tsx:174
 msgid "Posting…"
 msgstr "Qillqaski…"
 
@@ -639,7 +646,8 @@ msgstr "Qillqaski…"
 msgid "Previous image"
 msgstr "Nayrïri imagen"
 
-#: ../../../lib/web/src/components/server-documents-footer.tsx:15
+#: ../../../lib/web/src/components/server-documents-footer.tsx:24
+#: ../../../lib/web/src/features/document/document-page.tsx:41
 msgid "Privacy"
 msgstr "Imantawi"
 
@@ -647,6 +655,10 @@ msgstr "Imantawi"
 #: ../../../lib/web/src/components/profile-dropdown.tsx:111
 msgid "Profile"
 msgstr "Perfil"
+
+#: src/features/help/contribute-dialog.tsx:58
+msgid "Question"
+msgstr "Jiskt'awi"
 
 #: ../../../lib/web/src/components/search-entity-dialog.tsx:216
 #: ../../../lib/web/src/components/search-entity-page.tsx:191
@@ -687,12 +699,12 @@ msgstr "¿Mantañ aparma?"
 msgid "Remove interest"
 msgstr "Interés aparma"
 
-#: src/features/help/contribute-dialog.tsx:59
+#: src/features/help/contribute-dialog.tsx:66
 #: src/features/help/index.tsx:40
 msgid "Report a bug"
 msgstr "Mä juchanchaw yatiyaña"
 
-#: src/features/help/contribute-dialog.tsx:65
+#: src/features/help/contribute-dialog.tsx:72
 msgid "Report bug"
 msgstr "Juchanchaw yatiyaña"
 
@@ -717,8 +729,8 @@ msgid "Saturday"
 msgstr "Kharminthi"
 
 #: src/features/help/index.tsx:29
-msgid "Say hello on the Mochi users mailing list and tell everyone a little about yourself."
-msgstr "Mochi apnaqirinakan correo listapan kamisaraki sasin taqinirux jisk'at jisk'at jumat tuqi yatiyam."
+msgid "Say hello on the Mochi Users mailing list."
+msgstr "Mochi Users correo qillqa qutuna aruntasim."
 
 #: ../../../lib/web/src/components/place-picker.tsx:82
 msgid "Search for a place"
@@ -790,7 +802,8 @@ msgstr "Tema preferencia ajlliña"
 msgid "Serif"
 msgstr "Serif"
 
-#: ../../../lib/web/src/components/server-documents-footer.tsx:7
+#: ../../../lib/web/src/components/server-documents-footer.tsx:16
+#: ../../../lib/web/src/features/document/document-page.tsx:37
 msgid "Server rules"
 msgstr "Servidor reglas"
 
@@ -808,11 +821,7 @@ msgstr "Origen ukat destino uñstayaña"
 msgid "Settings"
 msgstr "Configuración"
 
-#: src/features/help/contribute-dialog.tsx:44
-msgid "Share a bit about yourself with the Mochi community. Your post will appear on the Mochi users mailing list."
-msgstr "Mochi markachirinakampix jumat tuqi jisk'at jisk'at yatiyam. Apayatamax Mochi apnaqirinakan correo listapan uñstaniwa."
-
-#: src/features/help/contribute-dialog.tsx:72
+#: src/features/help/contribute-dialog.tsx:79
 msgid "Short title for your idea"
 msgstr "Amuyt'awimataki jisk'a sutichäwi"
 
@@ -843,33 +852,25 @@ msgstr "Jisk'a"
 msgid "Spacious"
 msgstr "Jach'a"
 
-#: src/features/help/index.tsx:41
-msgid "Spotted something broken? File a bug ticket on the Mochi development project."
-msgstr "¿P'akitamp uñjasmati? Mochi luräwi proyectunx mä juchanchaw yatiyam."
-
 #: ../../../lib/web/src/components/coming-soon.tsx:12
 msgid "Stay tuned though!"
 msgstr "Suyt'asipkakim!"
-
-#: src/features/help/index.tsx:35
-msgid "Stuck on something? Ask the community on the Mochi users mailing list."
-msgstr "¿Kunatsa jan luraskasmati? Mochi apnaqirinakan correo listapanx markachirinakar jiskht'am."
 
 #: ../../../lib/web/src/features/access/access-list.tsx:187
 msgid "Subject"
 msgstr "Tema"
 
-#: src/features/help/contribute-dialog.tsx:69
+#: src/features/help/contribute-dialog.tsx:76
 #: src/features/help/index.tsx:46
-msgid "Suggest a new feature"
-msgstr "Mä machaq lurawi amtaña"
+msgid "Suggest a feature"
+msgstr "Mä luräwi amtt'aña"
 
-#: src/features/help/contribute-dialog.tsx:75
+#: src/features/help/contribute-dialog.tsx:82
 msgid "Suggest feature"
 msgstr "Lurawi amtaña"
 
-#: src/features/help/contribute-dialog.tsx:61
-#: src/features/help/contribute-dialog.tsx:71
+#: src/features/help/contribute-dialog.tsx:68
+#: src/features/help/contribute-dialog.tsx:78
 msgid "Summary"
 msgstr "Tantachawi"
 
@@ -891,11 +892,12 @@ msgstr "Tag"
 msgid "Teams/Apps"
 msgstr "Equipos/Apps"
 
-#: src/features/help/contribute-dialog.tsx:70
+#: src/features/help/contribute-dialog.tsx:77
 msgid "Tell the Mochi development team what you'd like Mochi to do."
 msgstr "Mochi luririnakan tamaparux kuns Mochix luraña munta uk yatiyam."
 
-#: ../../../lib/web/src/components/server-documents-footer.tsx:11
+#: ../../../lib/web/src/components/server-documents-footer.tsx:20
+#: ../../../lib/web/src/features/document/document-page.tsx:39
 msgid "Terms and conditions"
 msgstr "Términos ukat condicionanaka"
 
@@ -1037,22 +1039,22 @@ msgstr "Miércoles"
 msgid "Wednesday"
 msgstr "Semanax aka uru qalltani"
 
-#: src/features/help/index.tsx:76
-msgid "Welcome to Mochi. Here's how to get started."
-msgstr "Mochiru sumawa jutawayta. Akhamatwa qalltañäni."
-
-#: src/features/help/contribute-dialog.tsx:64
+#: src/features/help/contribute-dialog.tsx:71
 msgid "What did you do, what did you expect, what happened instead?"
 msgstr "¿Kuns lurta, kuns suyta, ukatxa kuns pasi?"
 
-#: src/features/help/contribute-dialog.tsx:63
+#: src/features/help/contribute-dialog.tsx:70
 msgid "What happened"
 msgstr "Kuns pasi"
 
-#: src/features/help/contribute-dialog.tsx:74
+#: src/features/help/contribute-dialog.tsx:61
+msgid "What have you tried, what did you expect, where are you stuck?"
+msgstr "Kuns yant'taxa, kuns suyañ munta, kawkhansa jark'tasta?"
+
+#: src/features/help/contribute-dialog.tsx:81
 msgid "What would it do, who is it for, why does it matter?"
 msgstr "¿Kuns lurani, khitinkis, kunatsa wakisi?"
 
-#: src/features/help/contribute-dialog.tsx:53
-msgid "Your question"
-msgstr "Jiskht'amaxa"
+#: src/features/help/contribute-dialog.tsx:59
+msgid "What you want to ask, in one line"
+msgstr "Kuns jiskt'aña munta, mä siq'ina"

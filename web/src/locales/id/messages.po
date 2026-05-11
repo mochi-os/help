@@ -21,10 +21,6 @@ msgstr "12 jam"
 msgid "24 hours"
 msgstr "24 jam"
 
-#: src/features/help/contribute-dialog.tsx:45
-msgid "About you"
-msgstr "Tentang Anda"
-
 #: ../../../lib/web/src/lib/preference-utils.ts:48
 msgid "Absolute (date and time)"
 msgstr "Absolut (tanggal dan waktu)"
@@ -110,12 +106,12 @@ msgstr "Apakah Anda yakin ingin keluar? Anda perlu masuk kembali untuk mengakses
 msgid "Asc"
 msgstr "Naik"
 
-#: src/features/help/contribute-dialog.tsx:51
+#: src/features/help/contribute-dialog.tsx:56
 #: src/features/help/index.tsx:34
 msgid "Ask a question"
 msgstr "Ajukan pertanyaan"
 
-#: src/features/help/contribute-dialog.tsx:52
+#: src/features/help/contribute-dialog.tsx:57
 msgid "Ask the community on the Mochi users mailing list. Be specific about what you've tried so far."
 msgstr "Tanyakan kepada komunitas di milis pengguna Mochi. Jelaskan secara spesifik apa yang sudah Anda coba sejauh ini."
 
@@ -133,7 +129,7 @@ msgstr "Kembali ke Beranda"
 msgid "Boost interest"
 msgstr "Tingkatkan minat"
 
-#: src/features/help/contribute-dialog.tsx:62
+#: src/features/help/contribute-dialog.tsx:69
 msgid "Brief summary of the problem"
 msgstr "Ringkasan singkat masalahnya"
 
@@ -144,7 +140,7 @@ msgstr "Ringkasan singkat masalahnya"
 #: ../../../lib/web/src/features/access/access-list.tsx:255
 #: ../../../lib/web/src/features/accounts/account-add.tsx:185
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:86
-#: src/features/help/contribute-dialog.tsx:149
+#: src/features/help/contribute-dialog.tsx:165
 msgid "Cancel"
 msgstr "Batal"
 
@@ -253,11 +249,15 @@ msgstr "Lanjutkan"
 msgid "Copy"
 msgstr "Salin"
 
+#: ../../../lib/web/src/features/document/document-page.tsx:81
+msgid "Could not load this document. Please try again later."
+msgstr "Tidak dapat memuat dokumen ini. Silakan coba lagi nanti."
+
 #: src/features/help/index.tsx:66
 msgid "Couldn't reach the destination yet"
 msgstr "Belum dapat menjangkau tujuan"
 
-#: src/features/help/contribute-dialog.tsx:104
+#: src/features/help/contribute-dialog.tsx:112
 msgid "Couldn't submit"
 msgstr "Tidak dapat mengirim"
 
@@ -286,11 +286,12 @@ msgstr "Akun AI default"
 msgid "Desc"
 msgstr "Turun"
 
-#: src/features/help/contribute-dialog.tsx:60
+#: src/features/help/contribute-dialog.tsx:67
 msgid "Describe what went wrong. The Mochi development team will see it on the Mochi development project."
 msgstr "Jelaskan apa yang salah. Tim pengembang Mochi akan melihatnya di proyek pengembangan Mochi."
 
-#: src/features/help/contribute-dialog.tsx:73
+#: src/features/help/contribute-dialog.tsx:60
+#: src/features/help/contribute-dialog.tsx:80
 msgid "Details"
 msgstr "Detail"
 
@@ -353,6 +354,10 @@ msgstr "Gagal memperbarui kategori"
 msgid "Floating"
 msgstr "Mengambang"
 
+#: src/features/help/index.tsx:41
+msgid "Found something broken? Tell the developers and they'll fix it."
+msgstr "Menemukan sesuatu yang rusak? Beri tahu pengembang dan mereka akan memperbaikinya."
+
 #: ../../../lib/web/src/lib/preference-utils.ts:60
 msgid "Friday"
 msgstr "Jumat"
@@ -395,19 +400,24 @@ msgstr "Ke halaman berikutnya"
 msgid "Go to previous page"
 msgstr "Ke halaman sebelumnya"
 
+#: src/features/help/index.tsx:35
+msgid "Got a problem? Not sure what to do? Ask the community on the Mochi Users mailing list."
+msgstr "Ada masalah? Tidak yakin harus berbuat apa? Tanyakan kepada komunitas di milis Mochi Users."
+
 #: src/features/help/index.tsx:47
-msgid "Got an idea? Open a feature request on the Mochi development project."
-msgstr "Punya ide? Buka permintaan fitur di proyek pengembangan Mochi."
+msgid "Got an idea? Tell the developers and maybe they'll add it."
+msgstr "Punya ide? Beri tahu pengembang dan mungkin mereka akan menambahkannya."
 
 #: ../../../lib/web/src/features/access/access-dialog.tsx:159
 msgid "Group"
 msgstr "Grup"
 
-#: src/features/help/index.tsx:75
+#: src/features/help/index.tsx:74
+#: src/routes/_authenticated/route.tsx:13
 msgid "Help"
 msgstr "Bantuan"
 
-#: src/features/help/contribute-dialog.tsx:46
+#: src/features/help/contribute-dialog.tsx:51
 msgid "Hi, I'm…"
 msgstr "Hai, saya…"
 
@@ -426,10 +436,6 @@ msgstr "Beranda"
 msgid "Hot"
 msgstr "Populer"
 
-#: src/features/help/contribute-dialog.tsx:54
-msgid "I'm trying to…"
-msgstr "Saya ingin…"
-
 #: ../../../lib/web/src/lib/preference-utils.ts:83
 msgid "Imperial"
 msgstr "Imperial"
@@ -442,7 +448,7 @@ msgstr "Inset"
 msgid "Interests"
 msgstr "Minat"
 
-#: src/features/help/contribute-dialog.tsx:43
+#: src/features/help/contribute-dialog.tsx:50
 #: src/features/help/index.tsx:28
 msgid "Introduce yourself"
 msgstr "Perkenalkan diri"
@@ -478,6 +484,7 @@ msgid "Load more"
 msgstr "Muat lebih banyak"
 
 #: ../../../lib/web/src/components/ui/load-more.tsx:32
+#: ../../../lib/web/src/features/document/document-page.tsx:87
 msgid "Loading…"
 msgstr "Memuat…"
 
@@ -619,19 +626,19 @@ msgstr "Lainnya"
 msgid "Owner"
 msgstr "Pemilik"
 
-#: src/features/help/contribute-dialog.tsx:105
+#: src/features/help/contribute-dialog.tsx:113
 msgid "Please try again."
 msgstr "Silakan coba lagi."
 
-#: src/features/help/contribute-dialog.tsx:47
+#: src/features/help/contribute-dialog.tsx:52
 msgid "Post introduction"
 msgstr "Kirim perkenalan"
 
-#: src/features/help/contribute-dialog.tsx:55
+#: src/features/help/contribute-dialog.tsx:62
 msgid "Post question"
 msgstr "Kirim pertanyaan"
 
-#: src/features/help/contribute-dialog.tsx:158
+#: src/features/help/contribute-dialog.tsx:174
 msgid "Posting…"
 msgstr "Memposting…"
 
@@ -639,7 +646,8 @@ msgstr "Memposting…"
 msgid "Previous image"
 msgstr "Gambar sebelumnya"
 
-#: ../../../lib/web/src/components/server-documents-footer.tsx:15
+#: ../../../lib/web/src/components/server-documents-footer.tsx:24
+#: ../../../lib/web/src/features/document/document-page.tsx:41
 msgid "Privacy"
 msgstr "Privasi"
 
@@ -647,6 +655,10 @@ msgstr "Privasi"
 #: ../../../lib/web/src/components/profile-dropdown.tsx:111
 msgid "Profile"
 msgstr "Profil"
+
+#: src/features/help/contribute-dialog.tsx:58
+msgid "Question"
+msgstr "Pertanyaan"
 
 #: ../../../lib/web/src/components/search-entity-dialog.tsx:216
 #: ../../../lib/web/src/components/search-entity-page.tsx:191
@@ -687,12 +699,12 @@ msgstr "Hapus akses?"
 msgid "Remove interest"
 msgstr "Hapus minat"
 
-#: src/features/help/contribute-dialog.tsx:59
+#: src/features/help/contribute-dialog.tsx:66
 #: src/features/help/index.tsx:40
 msgid "Report a bug"
 msgstr "Laporkan bug"
 
-#: src/features/help/contribute-dialog.tsx:65
+#: src/features/help/contribute-dialog.tsx:72
 msgid "Report bug"
 msgstr "Laporkan bug"
 
@@ -717,8 +729,8 @@ msgid "Saturday"
 msgstr "Sabtu"
 
 #: src/features/help/index.tsx:29
-msgid "Say hello on the Mochi users mailing list and tell everyone a little about yourself."
-msgstr "Sapa di milis pengguna Mochi dan ceritakan sedikit tentang diri Anda."
+msgid "Say hello on the Mochi Users mailing list."
+msgstr "Sapa kami di milis Mochi Users."
 
 #: ../../../lib/web/src/components/place-picker.tsx:82
 msgid "Search for a place"
@@ -790,7 +802,8 @@ msgstr "Pilih preferensi tema"
 msgid "Serif"
 msgstr "Serif"
 
-#: ../../../lib/web/src/components/server-documents-footer.tsx:7
+#: ../../../lib/web/src/components/server-documents-footer.tsx:16
+#: ../../../lib/web/src/features/document/document-page.tsx:37
 msgid "Server rules"
 msgstr "Aturan server"
 
@@ -808,11 +821,7 @@ msgstr "Tetapkan asal dan tujuan"
 msgid "Settings"
 msgstr "Pengaturan"
 
-#: src/features/help/contribute-dialog.tsx:44
-msgid "Share a bit about yourself with the Mochi community. Your post will appear on the Mochi users mailing list."
-msgstr "Bagikan sedikit tentang diri Anda dengan komunitas Mochi. Postingan Anda akan muncul di milis pengguna Mochi."
-
-#: src/features/help/contribute-dialog.tsx:72
+#: src/features/help/contribute-dialog.tsx:79
 msgid "Short title for your idea"
 msgstr "Judul singkat untuk ide Anda"
 
@@ -843,33 +852,25 @@ msgstr "Kecil"
 msgid "Spacious"
 msgstr "Luas"
 
-#: src/features/help/index.tsx:41
-msgid "Spotted something broken? File a bug ticket on the Mochi development project."
-msgstr "Menemukan sesuatu yang rusak? Kirim tiket bug di proyek pengembangan Mochi."
-
 #: ../../../lib/web/src/components/coming-soon.tsx:12
 msgid "Stay tuned though!"
 msgstr "Tetap pantau!"
-
-#: src/features/help/index.tsx:35
-msgid "Stuck on something? Ask the community on the Mochi users mailing list."
-msgstr "Mengalami kendala? Tanyakan kepada komunitas di milis pengguna Mochi."
 
 #: ../../../lib/web/src/features/access/access-list.tsx:187
 msgid "Subject"
 msgstr "Subjek"
 
-#: src/features/help/contribute-dialog.tsx:69
+#: src/features/help/contribute-dialog.tsx:76
 #: src/features/help/index.tsx:46
-msgid "Suggest a new feature"
-msgstr "Sarankan fitur baru"
+msgid "Suggest a feature"
+msgstr "Sarankan fitur"
 
-#: src/features/help/contribute-dialog.tsx:75
+#: src/features/help/contribute-dialog.tsx:82
 msgid "Suggest feature"
 msgstr "Sarankan fitur"
 
-#: src/features/help/contribute-dialog.tsx:61
-#: src/features/help/contribute-dialog.tsx:71
+#: src/features/help/contribute-dialog.tsx:68
+#: src/features/help/contribute-dialog.tsx:78
 msgid "Summary"
 msgstr "Ringkasan"
 
@@ -891,11 +892,12 @@ msgstr "Tag"
 msgid "Teams/Apps"
 msgstr "Tim/Aplikasi"
 
-#: src/features/help/contribute-dialog.tsx:70
+#: src/features/help/contribute-dialog.tsx:77
 msgid "Tell the Mochi development team what you'd like Mochi to do."
 msgstr "Beri tahu tim pengembang Mochi apa yang Anda ingin Mochi lakukan."
 
-#: ../../../lib/web/src/components/server-documents-footer.tsx:11
+#: ../../../lib/web/src/components/server-documents-footer.tsx:20
+#: ../../../lib/web/src/features/document/document-page.tsx:39
 msgid "Terms and conditions"
 msgstr "Syarat dan ketentuan"
 
@@ -1037,22 +1039,22 @@ msgstr "Situs web sedang dalam pemeliharaan!"
 msgid "Wednesday"
 msgstr "Rabu"
 
-#: src/features/help/index.tsx:76
-msgid "Welcome to Mochi. Here's how to get started."
-msgstr "Selamat datang di Mochi. Berikut cara memulai."
-
-#: src/features/help/contribute-dialog.tsx:64
+#: src/features/help/contribute-dialog.tsx:71
 msgid "What did you do, what did you expect, what happened instead?"
 msgstr "Apa yang Anda lakukan, apa yang Anda harapkan, apa yang terjadi?"
 
-#: src/features/help/contribute-dialog.tsx:63
+#: src/features/help/contribute-dialog.tsx:70
 msgid "What happened"
 msgstr "Apa yang terjadi"
 
-#: src/features/help/contribute-dialog.tsx:74
+#: src/features/help/contribute-dialog.tsx:61
+msgid "What have you tried, what did you expect, where are you stuck?"
+msgstr "Apa yang sudah kamu coba, apa yang kamu harapkan, di mana kamu macet?"
+
+#: src/features/help/contribute-dialog.tsx:81
 msgid "What would it do, who is it for, why does it matter?"
 msgstr "Apa fungsinya, untuk siapa, mengapa penting?"
 
-#: src/features/help/contribute-dialog.tsx:53
-msgid "Your question"
-msgstr "Pertanyaan Anda"
+#: src/features/help/contribute-dialog.tsx:59
+msgid "What you want to ask, in one line"
+msgstr "Apa yang ingin kamu tanyakan, dalam satu baris"

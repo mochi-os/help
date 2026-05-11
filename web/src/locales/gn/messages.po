@@ -21,10 +21,6 @@ msgstr "12 aravo"
 msgid "24 hours"
 msgstr "24 aravo"
 
-#: src/features/help/contribute-dialog.tsx:45
-msgid "About you"
-msgstr "Nde rehegua"
-
 #: ../../../lib/web/src/lib/preference-utils.ts:48
 msgid "Absolute (date and time)"
 msgstr "Sa'ipýpe (ára ha aravo)"
@@ -110,12 +106,12 @@ msgstr "Añetehápe esẽse? Eñepyrũjeýta hag̃ua eike ne tetãyguápe."
 msgid "Asc"
 msgstr "Asc"
 
-#: src/features/help/contribute-dialog.tsx:51
+#: src/features/help/contribute-dialog.tsx:56
 #: src/features/help/index.tsx:34
 msgid "Ask a question"
 msgstr "Eporandu peteĩ mba'e"
 
-#: src/features/help/contribute-dialog.tsx:52
+#: src/features/help/contribute-dialog.tsx:57
 msgid "Ask the community on the Mochi users mailing list. Be specific about what you've tried so far."
 msgstr "Eporandu tekohápe Mochi puruhárakuéra correo listápe. Ehechauka mba'épa reha'ãma ko'ágã peve."
 
@@ -133,7 +129,7 @@ msgstr "Tapykuépe Hogape"
 msgid "Boost interest"
 msgstr "Boost mba'erekohápe"
 
-#: src/features/help/contribute-dialog.tsx:62
+#: src/features/help/contribute-dialog.tsx:69
 msgid "Brief summary of the problem"
 msgstr "Apañuái mombyky"
 
@@ -144,7 +140,7 @@ msgstr "Apañuái mombyky"
 #: ../../../lib/web/src/features/access/access-list.tsx:255
 #: ../../../lib/web/src/features/accounts/account-add.tsx:185
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:86
-#: src/features/help/contribute-dialog.tsx:149
+#: src/features/help/contribute-dialog.tsx:165
 msgid "Cancel"
 msgstr "Heja"
 
@@ -253,11 +249,15 @@ msgstr "Tenonde"
 msgid "Copy"
 msgstr "Kopia"
 
+#: ../../../lib/web/src/features/document/document-page.tsx:81
+msgid "Could not load this document. Please try again later."
+msgstr "Ndaikatúi oñemyenyhẽ ko documento. Eha'ã jeýta upéi."
+
 #: src/features/help/index.tsx:66
 msgid "Couldn't reach the destination yet"
 msgstr "Ndaikatúi gueteri ñeg̃uahẽ ohohápe"
 
-#: src/features/help/contribute-dialog.tsx:104
+#: src/features/help/contribute-dialog.tsx:112
 msgid "Couldn't submit"
 msgstr "Ndaikatúi oñemondo"
 
@@ -286,11 +286,12 @@ msgstr "Default AI tetãygua"
 msgid "Desc"
 msgstr "Desc"
 
-#: src/features/help/contribute-dialog.tsx:60
+#: src/features/help/contribute-dialog.tsx:67
 msgid "Describe what went wrong. The Mochi development team will see it on the Mochi development project."
 msgstr "Emombe'u mba'épa osẽ vai. Mochi apohára aty ohecháta upéva Mochi proyécto apohápe."
 
-#: src/features/help/contribute-dialog.tsx:73
+#: src/features/help/contribute-dialog.tsx:60
+#: src/features/help/contribute-dialog.tsx:80
 msgid "Details"
 msgstr "Detallekuéra"
 
@@ -353,6 +354,10 @@ msgstr "Ndaikatúi oñembohera'ã pyahu categoría"
 msgid "Floating"
 msgstr "Oguatáva"
 
+#: src/features/help/index.tsx:41
+msgid "Found something broken? Tell the developers and they'll fix it."
+msgstr "¿Rejuhu mba'e ipotĩva? Eremombe'u umi apohárape ha ha'ekuéra omyatyrõta."
+
 #: ../../../lib/web/src/lib/preference-utils.ts:60
 msgid "Friday"
 msgstr "Arapokõi"
@@ -395,19 +400,24 @@ msgstr "Tenondegua kuatiaroguépe"
 msgid "Go to previous page"
 msgstr "Mboyvegua kuatiaroguépe"
 
+#: src/features/help/index.tsx:35
+msgid "Got a problem? Not sure what to do? Ask the community on the Mochi Users mailing list."
+msgstr "¿Reguereko apañuái? ¿Ndereikuaái mba'épa rejapóta? Eporandu tekohápe Mochi Users kuatiañe'ẽmbyre ryepýpe."
+
 #: src/features/help/index.tsx:47
-msgid "Got an idea? Open a feature request on the Mochi development project."
-msgstr "¿Reguerekópa peteĩ apopyrã? Eipe'a peteĩ tembiapokue jerure Mochi proyécto apohápe."
+msgid "Got an idea? Tell the developers and maybe they'll add it."
+msgstr "¿Reguereko peteĩ je'apyre? Eremombe'u umi apohárape ikatu hag̃uáicha ombojoaju."
 
 #: ../../../lib/web/src/features/access/access-dialog.tsx:159
 msgid "Group"
 msgstr "Atypy"
 
-#: src/features/help/index.tsx:75
+#: src/features/help/index.tsx:74
+#: src/routes/_authenticated/route.tsx:13
 msgid "Help"
 msgstr "Pytyvõ"
 
-#: src/features/help/contribute-dialog.tsx:46
+#: src/features/help/contribute-dialog.tsx:51
 msgid "Hi, I'm…"
 msgstr "Mba'éichapa, che…"
 
@@ -426,10 +436,6 @@ msgstr "Óga"
 msgid "Hot"
 msgstr "Akúva"
 
-#: src/features/help/contribute-dialog.tsx:54
-msgid "I'm trying to…"
-msgstr "Aha'ãhína…"
-
 #: ../../../lib/web/src/lib/preference-utils.ts:83
 msgid "Imperial"
 msgstr "Imperial"
@@ -442,7 +448,7 @@ msgstr "Inset"
 msgid "Interests"
 msgstr "Oikotevevakuéra"
 
-#: src/features/help/contribute-dialog.tsx:43
+#: src/features/help/contribute-dialog.tsx:50
 #: src/features/help/index.tsx:28
 msgid "Introduce yourself"
 msgstr "Eikuaauka ne ra'e"
@@ -478,6 +484,7 @@ msgid "Load more"
 msgstr "Embojuaju hetave"
 
 #: ../../../lib/web/src/components/ui/load-more.tsx:32
+#: ../../../lib/web/src/features/document/document-page.tsx:87
 msgid "Loading…"
 msgstr "Ojembogue…"
 
@@ -619,19 +626,19 @@ msgstr "Ambue"
 msgid "Owner"
 msgstr "Mburuvicha"
 
-#: src/features/help/contribute-dialog.tsx:105
+#: src/features/help/contribute-dialog.tsx:113
 msgid "Please try again."
 msgstr "Eha'ãjey angána."
 
-#: src/features/help/contribute-dialog.tsx:47
+#: src/features/help/contribute-dialog.tsx:52
 msgid "Post introduction"
 msgstr "Emondo ñekuaaukapy"
 
-#: src/features/help/contribute-dialog.tsx:55
+#: src/features/help/contribute-dialog.tsx:62
 msgid "Post question"
 msgstr "Emondo porandu"
 
-#: src/features/help/contribute-dialog.tsx:158
+#: src/features/help/contribute-dialog.tsx:174
 msgid "Posting…"
 msgstr "Oñemoĩhína…"
 
@@ -639,7 +646,8 @@ msgstr "Oñemoĩhína…"
 msgid "Previous image"
 msgstr "Ta'anga tenondete"
 
-#: ../../../lib/web/src/components/server-documents-footer.tsx:15
+#: ../../../lib/web/src/components/server-documents-footer.tsx:24
+#: ../../../lib/web/src/features/document/document-page.tsx:41
 msgid "Privacy"
 msgstr "Privacidad"
 
@@ -647,6 +655,10 @@ msgstr "Privacidad"
 #: ../../../lib/web/src/components/profile-dropdown.tsx:111
 msgid "Profile"
 msgstr "Perfil"
+
+#: src/features/help/contribute-dialog.tsx:58
+msgid "Question"
+msgstr "Porandu"
 
 #: ../../../lib/web/src/components/search-entity-dialog.tsx:216
 #: ../../../lib/web/src/components/search-entity-page.tsx:191
@@ -687,12 +699,12 @@ msgstr "Embogue acceso?"
 msgid "Remove interest"
 msgstr "Embogue ñembyeko'ói"
 
-#: src/features/help/contribute-dialog.tsx:59
+#: src/features/help/contribute-dialog.tsx:66
 #: src/features/help/index.tsx:40
 msgid "Report a bug"
 msgstr "Emombe'u peteĩ jejavy"
 
-#: src/features/help/contribute-dialog.tsx:65
+#: src/features/help/contribute-dialog.tsx:72
 msgid "Report bug"
 msgstr "Emombe'u jejavy"
 
@@ -717,8 +729,8 @@ msgid "Saturday"
 msgstr "Saturday"
 
 #: src/features/help/index.tsx:29
-msgid "Say hello on the Mochi users mailing list and tell everyone a little about yourself."
-msgstr "Emomaitei Mochi puruhárakuéra correo listápe ha emombe'umi opavavépe nde rehegua."
+msgid "Say hello on the Mochi Users mailing list."
+msgstr "Emomaitei Mochi Users kuatiañe'ẽmbyre ryepýpe."
 
 #: ../../../lib/web/src/components/place-picker.tsx:82
 msgid "Search for a place"
@@ -790,7 +802,8 @@ msgstr "Eiporavo theme jeporavo"
 msgid "Serif"
 msgstr "Serif"
 
-#: ../../../lib/web/src/components/server-documents-footer.tsx:7
+#: ../../../lib/web/src/components/server-documents-footer.tsx:16
+#: ../../../lib/web/src/features/document/document-page.tsx:37
 msgid "Server rules"
 msgstr "Mohendaha mbojeguatára"
 
@@ -808,11 +821,7 @@ msgstr "Emoĩ ñepyrũmby ha ohohaguã"
 msgid "Settings"
 msgstr "Ñemboheko"
 
-#: src/features/help/contribute-dialog.tsx:44
-msgid "Share a bit about yourself with the Mochi community. Your post will appear on the Mochi users mailing list."
-msgstr "Emboja'omi nde rehegua Mochi tekohape. Ne mondopyre osẽta Mochi puruhárakuéra correo listápe."
-
-#: src/features/help/contribute-dialog.tsx:72
+#: src/features/help/contribute-dialog.tsx:79
 msgid "Short title for your idea"
 msgstr "Téra mombyky ne apopyrãndi"
 
@@ -843,33 +852,25 @@ msgstr "Michĩ"
 msgid "Spacious"
 msgstr "Ipa'ũva"
 
-#: src/features/help/index.tsx:41
-msgid "Spotted something broken? File a bug ticket on the Mochi development project."
-msgstr "¿Rehecha mba'e ojejavýva? Emondo peteĩ jejavy ñe'ẽ Mochi proyécto apohápe."
-
 #: ../../../lib/web/src/components/coming-soon.tsx:12
 msgid "Stay tuned though!"
 msgstr "Ema'ẽ gueteri!"
-
-#: src/features/help/index.tsx:35
-msgid "Stuck on something? Ask the community on the Mochi users mailing list."
-msgstr "¿Reñembyaipa mba'épe? Eporandu tekohápe Mochi puruhárakuéra correo listápe."
 
 #: ../../../lib/web/src/features/access/access-list.tsx:187
 msgid "Subject"
 msgstr "Mba'erã"
 
-#: src/features/help/contribute-dialog.tsx:69
+#: src/features/help/contribute-dialog.tsx:76
 #: src/features/help/index.tsx:46
-msgid "Suggest a new feature"
-msgstr "Eikuaauka peteĩ tembiapokue pyahu"
+msgid "Suggest a feature"
+msgstr "Eikuave'ẽ peteĩ tembiapokue"
 
-#: src/features/help/contribute-dialog.tsx:75
+#: src/features/help/contribute-dialog.tsx:82
 msgid "Suggest feature"
 msgstr "Eikuaauka tembiapokue"
 
-#: src/features/help/contribute-dialog.tsx:61
-#: src/features/help/contribute-dialog.tsx:71
+#: src/features/help/contribute-dialog.tsx:68
+#: src/features/help/contribute-dialog.tsx:78
 msgid "Summary"
 msgstr "Mombyky"
 
@@ -891,11 +892,12 @@ msgstr "Tag"
 msgid "Teams/Apps"
 msgstr "Atykuéra/Tembiporukuéra"
 
-#: src/features/help/contribute-dialog.tsx:70
+#: src/features/help/contribute-dialog.tsx:77
 msgid "Tell the Mochi development team what you'd like Mochi to do."
 msgstr "Emombe'u Mochi apohára atýpe mba'épa reipota Mochi ojapo."
 
-#: ../../../lib/web/src/components/server-documents-footer.tsx:11
+#: ../../../lib/web/src/components/server-documents-footer.tsx:20
+#: ../../../lib/web/src/features/document/document-page.tsx:39
 msgid "Terms and conditions"
 msgstr "Ñe'ẽmecha ha tekorosã rehegua"
 
@@ -1037,22 +1039,22 @@ msgstr "Web tembiporu ojejapo!"
 msgid "Wednesday"
 msgstr "Mba'embohopapa"
 
-#: src/features/help/index.tsx:76
-msgid "Welcome to Mochi. Here's how to get started."
-msgstr "Eg̃uahẽ porãite Mochi-pe. Péicha eñepyrũta."
-
-#: src/features/help/contribute-dialog.tsx:64
+#: src/features/help/contribute-dialog.tsx:71
 msgid "What did you do, what did you expect, what happened instead?"
 msgstr "¿Mba'épa rejapo, mba'épa reha'arõ, mba'épa oiko upéva rangue?"
 
-#: src/features/help/contribute-dialog.tsx:63
+#: src/features/help/contribute-dialog.tsx:70
 msgid "What happened"
 msgstr "Mba'épa oiko"
 
-#: src/features/help/contribute-dialog.tsx:74
+#: src/features/help/contribute-dialog.tsx:61
+msgid "What have you tried, what did you expect, where are you stuck?"
+msgstr "Mba'e reñeha'ã, mba'e reha'arõ, moõpa rejejoko?"
+
+#: src/features/help/contribute-dialog.tsx:81
 msgid "What would it do, who is it for, why does it matter?"
 msgstr "¿Mba'épa ojapóta, mávape g̃uarãpa, mba'érepa iporã?"
 
-#: src/features/help/contribute-dialog.tsx:53
-msgid "Your question"
-msgstr "Ne porandu"
+#: src/features/help/contribute-dialog.tsx:59
+msgid "What you want to ask, in one line"
+msgstr "Mba'e reporanduséva, peteĩ líneape"

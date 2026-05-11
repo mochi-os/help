@@ -21,10 +21,6 @@ msgstr "12 jam"
 msgid "24 hours"
 msgstr "24 jam"
 
-#: src/features/help/contribute-dialog.tsx:45
-msgid "About you"
-msgstr "Ngeunaan anjeun"
-
 #: ../../../lib/web/src/lib/preference-utils.ts:48
 msgid "Absolute (date and time)"
 msgstr "Mutlak (tanggal jeung waktu)"
@@ -110,12 +106,12 @@ msgstr "Anjeun yakin hayang log out? Anjeun kudu log in deui pikeun ngaksés aku
 msgid "Asc"
 msgstr "Asc"
 
-#: src/features/help/contribute-dialog.tsx:51
+#: src/features/help/contribute-dialog.tsx:56
 #: src/features/help/index.tsx:34
 msgid "Ask a question"
 msgstr "Naroskeun patarosan"
 
-#: src/features/help/contribute-dialog.tsx:52
+#: src/features/help/contribute-dialog.tsx:57
 msgid "Ask the community on the Mochi users mailing list. Be specific about what you've tried so far."
 msgstr "Tanyakeun ka komunitas dina milis pangguna Mochi. Sebutkeun sacara husus naon nu parantos anjeun cobian."
 
@@ -133,7 +129,7 @@ msgstr "Balik ka Imah"
 msgid "Boost interest"
 msgstr "Tingkatkeun minat"
 
-#: src/features/help/contribute-dialog.tsx:62
+#: src/features/help/contribute-dialog.tsx:69
 msgid "Brief summary of the problem"
 msgstr "Ringkesan singget masalahna"
 
@@ -144,7 +140,7 @@ msgstr "Ringkesan singget masalahna"
 #: ../../../lib/web/src/features/access/access-list.tsx:255
 #: ../../../lib/web/src/features/accounts/account-add.tsx:185
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:86
-#: src/features/help/contribute-dialog.tsx:149
+#: src/features/help/contribute-dialog.tsx:165
 msgid "Cancel"
 msgstr "Batalkeun"
 
@@ -253,11 +249,15 @@ msgstr "Teruskeun"
 msgid "Copy"
 msgstr "Salin"
 
+#: ../../../lib/web/src/features/document/document-page.tsx:81
+msgid "Could not load this document. Please try again later."
+msgstr "Teu bisa ngamuat dokumén ieu. Mangga cobian deui engké."
+
 #: src/features/help/index.tsx:66
 msgid "Couldn't reach the destination yet"
 msgstr "Acan tiasa ngahontal tujuan"
 
-#: src/features/help/contribute-dialog.tsx:104
+#: src/features/help/contribute-dialog.tsx:112
 msgid "Couldn't submit"
 msgstr "Teu tiasa ngirim"
 
@@ -286,11 +286,12 @@ msgstr "Akun AI standar"
 msgid "Desc"
 msgstr "Desc"
 
-#: src/features/help/contribute-dialog.tsx:60
+#: src/features/help/contribute-dialog.tsx:67
 msgid "Describe what went wrong. The Mochi development team will see it on the Mochi development project."
 msgstr "Jelaskeun naon nu lepat. Tim pamekar Mochi bakal ningalina dina proyek pamekaran Mochi."
 
-#: src/features/help/contribute-dialog.tsx:73
+#: src/features/help/contribute-dialog.tsx:60
+#: src/features/help/contribute-dialog.tsx:80
 msgid "Details"
 msgstr "Détil"
 
@@ -353,6 +354,10 @@ msgstr "Gagal ngamutahirkeun katégori"
 msgid "Floating"
 msgstr "Ngambang"
 
+#: src/features/help/index.tsx:41
+msgid "Found something broken? Tell the developers and they'll fix it."
+msgstr "Manggihan aya nu rusak? Bejakeun ka pamekar sangkan dibebenah."
+
 #: ../../../lib/web/src/lib/preference-utils.ts:60
 msgid "Friday"
 msgstr "Jumaah"
@@ -395,19 +400,24 @@ msgstr "Ka kaca saterusna"
 msgid "Go to previous page"
 msgstr "Ka kaca saméméhna"
 
+#: src/features/help/index.tsx:35
+msgid "Got a problem? Not sure what to do? Ask the community on the Mochi Users mailing list."
+msgstr "Aya masalah? Teu yakin kudu kumaha? Tanyakeun ka komunitas dina milis Mochi Users."
+
 #: src/features/help/index.tsx:47
-msgid "Got an idea? Open a feature request on the Mochi development project."
-msgstr "Boga ide? Buka pamundut fitur dina proyek pamekaran Mochi."
+msgid "Got an idea? Tell the developers and maybe they'll add it."
+msgstr "Boga ide? Bejakeun ka pamekar meureun bakal ditambahan."
 
 #: ../../../lib/web/src/features/access/access-dialog.tsx:159
 msgid "Group"
 msgstr "Grup"
 
-#: src/features/help/index.tsx:75
+#: src/features/help/index.tsx:74
+#: src/routes/_authenticated/route.tsx:13
 msgid "Help"
 msgstr "Bantosan"
 
-#: src/features/help/contribute-dialog.tsx:46
+#: src/features/help/contribute-dialog.tsx:51
 msgid "Hi, I'm…"
 msgstr "Hai, abdi…"
 
@@ -426,10 +436,6 @@ msgstr "Imah"
 msgid "Hot"
 msgstr "Panas"
 
-#: src/features/help/contribute-dialog.tsx:54
-msgid "I'm trying to…"
-msgstr "Abdi badé…"
-
 #: ../../../lib/web/src/lib/preference-utils.ts:83
 msgid "Imperial"
 msgstr "Imperial"
@@ -442,7 +448,7 @@ msgstr "Sisipan"
 msgid "Interests"
 msgstr "Minat"
 
-#: src/features/help/contribute-dialog.tsx:43
+#: src/features/help/contribute-dialog.tsx:50
 #: src/features/help/index.tsx:28
 msgid "Introduce yourself"
 msgstr "Wanohkeun diri"
@@ -478,6 +484,7 @@ msgid "Load more"
 msgstr "Muat leuwih loba"
 
 #: ../../../lib/web/src/components/ui/load-more.tsx:32
+#: ../../../lib/web/src/features/document/document-page.tsx:87
 msgid "Loading…"
 msgstr "Muat…"
 
@@ -619,19 +626,19 @@ msgstr "Séjén"
 msgid "Owner"
 msgstr "Nu boga"
 
-#: src/features/help/contribute-dialog.tsx:105
+#: src/features/help/contribute-dialog.tsx:113
 msgid "Please try again."
 msgstr "Mangga cobian deui."
 
-#: src/features/help/contribute-dialog.tsx:47
+#: src/features/help/contribute-dialog.tsx:52
 msgid "Post introduction"
 msgstr "Kirim pangenalan"
 
-#: src/features/help/contribute-dialog.tsx:55
+#: src/features/help/contribute-dialog.tsx:62
 msgid "Post question"
 msgstr "Kirim patarosan"
 
-#: src/features/help/contribute-dialog.tsx:158
+#: src/features/help/contribute-dialog.tsx:174
 msgid "Posting…"
 msgstr "Ngirim…"
 
@@ -639,7 +646,8 @@ msgstr "Ngirim…"
 msgid "Previous image"
 msgstr "Gambar saméméhna"
 
-#: ../../../lib/web/src/components/server-documents-footer.tsx:15
+#: ../../../lib/web/src/components/server-documents-footer.tsx:24
+#: ../../../lib/web/src/features/document/document-page.tsx:41
 msgid "Privacy"
 msgstr "Privasi"
 
@@ -647,6 +655,10 @@ msgstr "Privasi"
 #: ../../../lib/web/src/components/profile-dropdown.tsx:111
 msgid "Profile"
 msgstr "Profil"
+
+#: src/features/help/contribute-dialog.tsx:58
+msgid "Question"
+msgstr "Patarosan"
 
 #: ../../../lib/web/src/components/search-entity-dialog.tsx:216
 #: ../../../lib/web/src/components/search-entity-page.tsx:191
@@ -687,12 +699,12 @@ msgstr "Cabut aksés?"
 msgid "Remove interest"
 msgstr "Cabut minat"
 
-#: src/features/help/contribute-dialog.tsx:59
+#: src/features/help/contribute-dialog.tsx:66
 #: src/features/help/index.tsx:40
 msgid "Report a bug"
 msgstr "Laporkeun bug"
 
-#: src/features/help/contribute-dialog.tsx:65
+#: src/features/help/contribute-dialog.tsx:72
 msgid "Report bug"
 msgstr "Laporkeun bug"
 
@@ -717,8 +729,8 @@ msgid "Saturday"
 msgstr "Saptu"
 
 #: src/features/help/index.tsx:29
-msgid "Say hello on the Mochi users mailing list and tell everyone a little about yourself."
-msgstr "Ucapkeun salam dina milis pangguna Mochi sareng caritakeun saeutik ngeunaan diri anjeun."
+msgid "Say hello on the Mochi Users mailing list."
+msgstr "Wilujeng sumping di milis Mochi Users."
 
 #: ../../../lib/web/src/components/place-picker.tsx:82
 msgid "Search for a place"
@@ -790,7 +802,8 @@ msgstr "Pilih préferénsi téma"
 msgid "Serif"
 msgstr "Serif"
 
-#: ../../../lib/web/src/components/server-documents-footer.tsx:7
+#: ../../../lib/web/src/components/server-documents-footer.tsx:16
+#: ../../../lib/web/src/features/document/document-page.tsx:37
 msgid "Server rules"
 msgstr "Aturan server"
 
@@ -808,11 +821,7 @@ msgstr "Atur asal jeung tujuan"
 msgid "Settings"
 msgstr "Setélan"
 
-#: src/features/help/contribute-dialog.tsx:44
-msgid "Share a bit about yourself with the Mochi community. Your post will appear on the Mochi users mailing list."
-msgstr "Bagikeun saeutik ngeunaan diri anjeun sareng komunitas Mochi. Pos anjeun bakal nembongan dina milis pangguna Mochi."
-
-#: src/features/help/contribute-dialog.tsx:72
+#: src/features/help/contribute-dialog.tsx:79
 msgid "Short title for your idea"
 msgstr "Judul singget kanggo ide anjeun"
 
@@ -843,33 +852,25 @@ msgstr "Leutik"
 msgid "Spacious"
 msgstr "Lega"
 
-#: src/features/help/index.tsx:41
-msgid "Spotted something broken? File a bug ticket on the Mochi development project."
-msgstr "Mendakan aya nu rusak? Kirim tikét bug dina proyek pamekaran Mochi."
-
 #: ../../../lib/web/src/components/coming-soon.tsx:12
 msgid "Stay tuned though!"
 msgstr "Tapi tetep nyimak!"
-
-#: src/features/help/index.tsx:35
-msgid "Stuck on something? Ask the community on the Mochi users mailing list."
-msgstr "Aya nu macet? Tanyakeun ka komunitas dina milis pangguna Mochi."
 
 #: ../../../lib/web/src/features/access/access-list.tsx:187
 msgid "Subject"
 msgstr "Subjek"
 
-#: src/features/help/contribute-dialog.tsx:69
+#: src/features/help/contribute-dialog.tsx:76
 #: src/features/help/index.tsx:46
-msgid "Suggest a new feature"
-msgstr "Sarankeun fitur anyar"
+msgid "Suggest a feature"
+msgstr "Usulkeun fitur"
 
-#: src/features/help/contribute-dialog.tsx:75
+#: src/features/help/contribute-dialog.tsx:82
 msgid "Suggest feature"
 msgstr "Sarankeun fitur"
 
-#: src/features/help/contribute-dialog.tsx:61
-#: src/features/help/contribute-dialog.tsx:71
+#: src/features/help/contribute-dialog.tsx:68
+#: src/features/help/contribute-dialog.tsx:78
 msgid "Summary"
 msgstr "Ringkesan"
 
@@ -891,11 +892,12 @@ msgstr "Tag"
 msgid "Teams/Apps"
 msgstr "Tim/App"
 
-#: src/features/help/contribute-dialog.tsx:70
+#: src/features/help/contribute-dialog.tsx:77
 msgid "Tell the Mochi development team what you'd like Mochi to do."
 msgstr "Bejakeun ka tim pamekar Mochi naon nu anjeun hoyong Mochi pigawé."
 
-#: ../../../lib/web/src/components/server-documents-footer.tsx:11
+#: ../../../lib/web/src/components/server-documents-footer.tsx:20
+#: ../../../lib/web/src/features/document/document-page.tsx:39
 msgid "Terms and conditions"
 msgstr "Sarat jeung kondisi"
 
@@ -1037,22 +1039,22 @@ msgstr "Situs keur dipigawé!"
 msgid "Wednesday"
 msgstr "Rebo"
 
-#: src/features/help/index.tsx:76
-msgid "Welcome to Mochi. Here's how to get started."
-msgstr "Wilujeng sumping di Mochi. Kieu carana ngamimitian."
-
-#: src/features/help/contribute-dialog.tsx:64
+#: src/features/help/contribute-dialog.tsx:71
 msgid "What did you do, what did you expect, what happened instead?"
 msgstr "Naon nu anjeun pigawé, naon nu anjeun ngarepkeun, naon nu kajadian?"
 
-#: src/features/help/contribute-dialog.tsx:63
+#: src/features/help/contribute-dialog.tsx:70
 msgid "What happened"
 msgstr "Naon nu kajadian"
 
-#: src/features/help/contribute-dialog.tsx:74
+#: src/features/help/contribute-dialog.tsx:61
+msgid "What have you tried, what did you expect, where are you stuck?"
+msgstr "Naon nu geus dicoba, naon nu diharepkeun, di mana nyangkutna?"
+
+#: src/features/help/contribute-dialog.tsx:81
 msgid "What would it do, who is it for, why does it matter?"
 msgstr "Naon fungsina, kanggo saha, naha penting?"
 
-#: src/features/help/contribute-dialog.tsx:53
-msgid "Your question"
-msgstr "Patarosan anjeun"
+#: src/features/help/contribute-dialog.tsx:59
+msgid "What you want to ask, in one line"
+msgstr "Naon nu rék ditaroskeun, dina hiji baris"

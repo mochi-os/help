@@ -21,10 +21,6 @@ msgstr "12 uair"
 msgid "24 hours"
 msgstr "24 uair"
 
-#: src/features/help/contribute-dialog.tsx:45
-msgid "About you"
-msgstr "Mu do dheidhinn"
-
 #: ../../../lib/web/src/lib/preference-utils.ts:48
 msgid "Absolute (date and time)"
 msgstr "Iomlan (ceann-là agus àm)"
@@ -110,12 +106,12 @@ msgstr "A bheil thu cinnteach gu bheil thu airson clàradh a-mach? Feumaidh tu c
 msgid "Asc"
 msgstr "Dìreadh"
 
-#: src/features/help/contribute-dialog.tsx:51
+#: src/features/help/contribute-dialog.tsx:56
 #: src/features/help/index.tsx:34
 msgid "Ask a question"
 msgstr "Cuir ceist"
 
-#: src/features/help/contribute-dialog.tsx:52
+#: src/features/help/contribute-dialog.tsx:57
 msgid "Ask the community on the Mochi users mailing list. Be specific about what you've tried so far."
 msgstr "Faighnich don choimhearsnachd air liosta puist nan luchd-cleachdaidh Mochi. Bi mionaideach mu na dh'fheuch thu gu ruige seo."
 
@@ -133,7 +129,7 @@ msgstr "Air ais dhachaigh"
 msgid "Boost interest"
 msgstr "Brosnaich ùidh"
 
-#: src/features/help/contribute-dialog.tsx:62
+#: src/features/help/contribute-dialog.tsx:69
 msgid "Brief summary of the problem"
 msgstr "Geàrr-chunntas air an duilgheadas"
 
@@ -144,7 +140,7 @@ msgstr "Geàrr-chunntas air an duilgheadas"
 #: ../../../lib/web/src/features/access/access-list.tsx:255
 #: ../../../lib/web/src/features/accounts/account-add.tsx:185
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:86
-#: src/features/help/contribute-dialog.tsx:149
+#: src/features/help/contribute-dialog.tsx:165
 msgid "Cancel"
 msgstr "Sguir dheth"
 
@@ -253,11 +249,15 @@ msgstr "Lean air adhart"
 msgid "Copy"
 msgstr "Dèan lethbhreac"
 
+#: ../../../lib/web/src/features/document/document-page.tsx:81
+msgid "Could not load this document. Please try again later."
+msgstr "Cha b' urrainn an sgrìobhainn seo a luchdachadh. Feuch ris a-rithist nas anmoiche."
+
 #: src/features/help/index.tsx:66
 msgid "Couldn't reach the destination yet"
 msgstr "Cha b' urrainn dhuinn an ceann-uidhe a ruigsinn fhathast"
 
-#: src/features/help/contribute-dialog.tsx:104
+#: src/features/help/contribute-dialog.tsx:112
 msgid "Couldn't submit"
 msgstr "Cha b' urrainn dhuinn a chur a-null"
 
@@ -286,11 +286,12 @@ msgstr "Cunntas AI bunaiteach"
 msgid "Desc"
 msgstr "Teàrnadh"
 
-#: src/features/help/contribute-dialog.tsx:60
+#: src/features/help/contribute-dialog.tsx:67
 msgid "Describe what went wrong. The Mochi development team will see it on the Mochi development project."
 msgstr "Mìnich na chaidh ceàrr. Chì sgioba leasachaidh Mochi e air pròiseact leasachaidh Mochi."
 
-#: src/features/help/contribute-dialog.tsx:73
+#: src/features/help/contribute-dialog.tsx:60
+#: src/features/help/contribute-dialog.tsx:80
 msgid "Details"
 msgstr "Mion-fhiosrachadh"
 
@@ -353,6 +354,10 @@ msgstr "Cha b' urrainn an roinn-seòrsa ùrachadh"
 msgid "Floating"
 msgstr "A' fleòdradh"
 
+#: src/features/help/index.tsx:41
+msgid "Found something broken? Tell the developers and they'll fix it."
+msgstr "An do lorg thu rudeigin briste? Innis do na leasaichearan agus càraichidh iad e."
+
 #: ../../../lib/web/src/lib/preference-utils.ts:60
 msgid "Friday"
 msgstr "DihAoine"
@@ -395,19 +400,24 @@ msgstr "Rach dhan ath dhuilleag"
 msgid "Go to previous page"
 msgstr "Rach dhan duilleag roimhe"
 
+#: src/features/help/index.tsx:35
+msgid "Got a problem? Not sure what to do? Ask the community on the Mochi Users mailing list."
+msgstr "A bheil duilgheadas agad? Nach eil thu cinnteach dè a nì thu? Faighnich dhen choimhearsnachd air liosta puist Mochi Users."
+
 #: src/features/help/index.tsx:47
-msgid "Got an idea? Open a feature request on the Mochi development project."
-msgstr "A bheil beachd agad? Fosgail iarrtas feart air pròiseact leasachaidh Mochi."
+msgid "Got an idea? Tell the developers and maybe they'll add it."
+msgstr "A bheil beachd agad? Innis do na leasaichearan agus 's dòcha gun cuir iad ris e."
 
 #: ../../../lib/web/src/features/access/access-dialog.tsx:159
 msgid "Group"
 msgstr "Buidheann"
 
-#: src/features/help/index.tsx:75
+#: src/features/help/index.tsx:74
+#: src/routes/_authenticated/route.tsx:13
 msgid "Help"
 msgstr "Cobhair"
 
-#: src/features/help/contribute-dialog.tsx:46
+#: src/features/help/contribute-dialog.tsx:51
 msgid "Hi, I'm…"
 msgstr "Halò, is mise…"
 
@@ -426,10 +436,6 @@ msgstr "Dachaigh"
 msgid "Hot"
 msgstr "Teth"
 
-#: src/features/help/contribute-dialog.tsx:54
-msgid "I'm trying to…"
-msgstr "Tha mi a' feuchainn ri…"
-
 #: ../../../lib/web/src/lib/preference-utils.ts:83
 msgid "Imperial"
 msgstr "Ìmpireach"
@@ -442,7 +448,7 @@ msgstr "A-staigh"
 msgid "Interests"
 msgstr "Ùidhean"
 
-#: src/features/help/contribute-dialog.tsx:43
+#: src/features/help/contribute-dialog.tsx:50
 #: src/features/help/index.tsx:28
 msgid "Introduce yourself"
 msgstr "Cuir thu fhèin an aithne"
@@ -478,6 +484,7 @@ msgid "Load more"
 msgstr "Luchdaich barrachd"
 
 #: ../../../lib/web/src/components/ui/load-more.tsx:32
+#: ../../../lib/web/src/features/document/document-page.tsx:87
 msgid "Loading…"
 msgstr "A' luchdadh…"
 
@@ -619,19 +626,19 @@ msgstr "Eile"
 msgid "Owner"
 msgstr "Sealbhadair"
 
-#: src/features/help/contribute-dialog.tsx:105
+#: src/features/help/contribute-dialog.tsx:113
 msgid "Please try again."
 msgstr "Feuch ris a-rithist."
 
-#: src/features/help/contribute-dialog.tsx:47
+#: src/features/help/contribute-dialog.tsx:52
 msgid "Post introduction"
 msgstr "Postaich an ro-ràdh"
 
-#: src/features/help/contribute-dialog.tsx:55
+#: src/features/help/contribute-dialog.tsx:62
 msgid "Post question"
 msgstr "Postaich a' cheist"
 
-#: src/features/help/contribute-dialog.tsx:158
+#: src/features/help/contribute-dialog.tsx:174
 msgid "Posting…"
 msgstr "A' postadh…"
 
@@ -639,7 +646,8 @@ msgstr "A' postadh…"
 msgid "Previous image"
 msgstr "An dealbh roimhe"
 
-#: ../../../lib/web/src/components/server-documents-footer.tsx:15
+#: ../../../lib/web/src/components/server-documents-footer.tsx:24
+#: ../../../lib/web/src/features/document/document-page.tsx:41
 msgid "Privacy"
 msgstr "Prìobhaideachd"
 
@@ -647,6 +655,10 @@ msgstr "Prìobhaideachd"
 #: ../../../lib/web/src/components/profile-dropdown.tsx:111
 msgid "Profile"
 msgstr "Pròifil"
+
+#: src/features/help/contribute-dialog.tsx:58
+msgid "Question"
+msgstr "Ceist"
 
 #: ../../../lib/web/src/components/search-entity-dialog.tsx:216
 #: ../../../lib/web/src/components/search-entity-page.tsx:191
@@ -687,12 +699,12 @@ msgstr "Thoir an cothrom air falbh?"
 msgid "Remove interest"
 msgstr "Thoir an ùidh air falbh"
 
-#: src/features/help/contribute-dialog.tsx:59
+#: src/features/help/contribute-dialog.tsx:66
 #: src/features/help/index.tsx:40
 msgid "Report a bug"
 msgstr "Innis mu bhuga"
 
-#: src/features/help/contribute-dialog.tsx:65
+#: src/features/help/contribute-dialog.tsx:72
 msgid "Report bug"
 msgstr "Innis mu bhuga"
 
@@ -717,8 +729,8 @@ msgid "Saturday"
 msgstr "Disathairne"
 
 #: src/features/help/index.tsx:29
-msgid "Say hello on the Mochi users mailing list and tell everyone a little about yourself."
-msgstr "Abair halò air liosta puist nan luchd-cleachdaidh Mochi agus innis beagan mu do dheidhinn fhèin do na h-uile."
+msgid "Say hello on the Mochi Users mailing list."
+msgstr "Cuir fàilte air liosta puist Mochi Users."
 
 #: ../../../lib/web/src/components/place-picker.tsx:82
 msgid "Search for a place"
@@ -790,7 +802,8 @@ msgstr "Tagh roghainn an ùrlair"
 msgid "Serif"
 msgstr "Serif"
 
-#: ../../../lib/web/src/components/server-documents-footer.tsx:7
+#: ../../../lib/web/src/components/server-documents-footer.tsx:16
+#: ../../../lib/web/src/features/document/document-page.tsx:37
 msgid "Server rules"
 msgstr "Riaghailtean an fhrithealaiche"
 
@@ -808,11 +821,7 @@ msgstr "Suidhich tùs is ceann-uidhe"
 msgid "Settings"
 msgstr "Roghainnean"
 
-#: src/features/help/contribute-dialog.tsx:44
-msgid "Share a bit about yourself with the Mochi community. Your post will appear on the Mochi users mailing list."
-msgstr "Co-roinn beagan mu do dheidhinn fhèin le coimhearsnachd Mochi. Nochdaidh am post agad air liosta puist nan luchd-cleachdaidh Mochi."
-
-#: src/features/help/contribute-dialog.tsx:72
+#: src/features/help/contribute-dialog.tsx:79
 msgid "Short title for your idea"
 msgstr "Tiotal goirid airson do bheachd"
 
@@ -843,33 +852,25 @@ msgstr "Beag"
 msgid "Spacious"
 msgstr "Farsaing"
 
-#: src/features/help/index.tsx:41
-msgid "Spotted something broken? File a bug ticket on the Mochi development project."
-msgstr "Am faca tu rudeigin briste? Cuir a-steach tiocaid buga air pròiseact leasachaidh Mochi."
-
 #: ../../../lib/web/src/components/coming-soon.tsx:12
 msgid "Stay tuned though!"
 msgstr "Fuirich an dùil ge-tà!"
-
-#: src/features/help/index.tsx:35
-msgid "Stuck on something? Ask the community on the Mochi users mailing list."
-msgstr "Air do dhuilgheadas le rudeigin? Faighnich don choimhearsnachd air liosta puist nan luchd-cleachdaidh Mochi."
 
 #: ../../../lib/web/src/features/access/access-list.tsx:187
 msgid "Subject"
 msgstr "Cuspair"
 
-#: src/features/help/contribute-dialog.tsx:69
+#: src/features/help/contribute-dialog.tsx:76
 #: src/features/help/index.tsx:46
-msgid "Suggest a new feature"
-msgstr "Mol feart ùr"
+msgid "Suggest a feature"
+msgstr "Mol gleus"
 
-#: src/features/help/contribute-dialog.tsx:75
+#: src/features/help/contribute-dialog.tsx:82
 msgid "Suggest feature"
 msgstr "Mol feart"
 
-#: src/features/help/contribute-dialog.tsx:61
-#: src/features/help/contribute-dialog.tsx:71
+#: src/features/help/contribute-dialog.tsx:68
+#: src/features/help/contribute-dialog.tsx:78
 msgid "Summary"
 msgstr "Geàrr-iomradh"
 
@@ -891,11 +892,12 @@ msgstr "Taga"
 msgid "Teams/Apps"
 msgstr "Sgiobaidhean/Aplacaidean"
 
-#: src/features/help/contribute-dialog.tsx:70
+#: src/features/help/contribute-dialog.tsx:77
 msgid "Tell the Mochi development team what you'd like Mochi to do."
 msgstr "Innis do sgioba leasachaidh Mochi dè bu mhath leat gun dèanadh Mochi."
 
-#: ../../../lib/web/src/components/server-documents-footer.tsx:11
+#: ../../../lib/web/src/components/server-documents-footer.tsx:20
+#: ../../../lib/web/src/features/document/document-page.tsx:39
 msgid "Terms and conditions"
 msgstr "Teirmichean is cùmhnantan"
 
@@ -1037,22 +1039,22 @@ msgstr "Tha an làrach-lìn fo obair-càraidh!"
 msgid "Wednesday"
 msgstr "Diciadain"
 
-#: src/features/help/index.tsx:76
-msgid "Welcome to Mochi. Here's how to get started."
-msgstr "Fàilte gu Mochi. Seo mar a thòisicheas tu."
-
-#: src/features/help/contribute-dialog.tsx:64
+#: src/features/help/contribute-dialog.tsx:71
 msgid "What did you do, what did you expect, what happened instead?"
 msgstr "Dè rinn thu, dè bha dùil agad, dè thachair na àite sin?"
 
-#: src/features/help/contribute-dialog.tsx:63
+#: src/features/help/contribute-dialog.tsx:70
 msgid "What happened"
 msgstr "Dè thachair"
 
-#: src/features/help/contribute-dialog.tsx:74
+#: src/features/help/contribute-dialog.tsx:61
+msgid "What have you tried, what did you expect, where are you stuck?"
+msgstr "Dè a dh'fheuch thu, dè bha dùil agad, càit a bheil thu an sàs?"
+
+#: src/features/help/contribute-dialog.tsx:81
 msgid "What would it do, who is it for, why does it matter?"
 msgstr "Dè dhèanadh e, cò dha a tha e, carson a tha e cudromach?"
 
-#: src/features/help/contribute-dialog.tsx:53
-msgid "Your question"
-msgstr "A' cheist agad"
+#: src/features/help/contribute-dialog.tsx:59
+msgid "What you want to ask, in one line"
+msgstr "Na tha thu airson faighneachd, ann an aon loidhne"

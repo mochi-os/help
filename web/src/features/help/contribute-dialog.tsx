@@ -15,20 +15,27 @@ import {
   shellNavigateTop,
   toast,
 } from '@mochi/web'
-import { Loader2 } from 'lucide-react'
+import { Bug, HelpCircle, Lightbulb, Loader2, Sparkles, X } from 'lucide-react'
 import { helpApi, type Kind } from '@/api/help'
+
+const KIND_ICONS: Record<Kind, typeof Sparkles> = {
+  intro: Sparkles,
+  question: HelpCircle,
+  bug: Bug,
+  feature: Lightbulb,
+}
 
 const NEEDS_TITLE: Record<Kind, boolean> = {
   intro: false,
-  question: false,
+  question: true,
   bug: true,
   feature: true,
 }
 
 interface CopyBundle {
   title: string
-  description: string
-  bodyLabel: string
+  description?: string
+  bodyLabel?: string
   bodyPlaceholder: string
   titleLabel?: string
   titlePlaceholder?: string
@@ -41,8 +48,6 @@ function useCopy(kind: Kind): CopyBundle {
     case 'intro':
       return {
         title: t`Introduce yourself`,
-        description: t`Share a bit about yourself with the Mochi community. Your post will appear on the Mochi users mailing list.`,
-        bodyLabel: t`About you`,
         bodyPlaceholder: t`Hi, I'm…`,
         submit: t`Post introduction`,
       }
@@ -50,8 +55,10 @@ function useCopy(kind: Kind): CopyBundle {
       return {
         title: t`Ask a question`,
         description: t`Ask the community on the Mochi users mailing list. Be specific about what you've tried so far.`,
-        bodyLabel: t`Your question`,
-        bodyPlaceholder: t`I'm trying to…`,
+        titleLabel: t`Question`,
+        titlePlaceholder: t`What you want to ask, in one line`,
+        bodyLabel: t`Details`,
+        bodyPlaceholder: t`What have you tried, what did you expect, where are you stuck?`,
         submit: t`Post question`,
       }
     case 'bug':
@@ -66,7 +73,7 @@ function useCopy(kind: Kind): CopyBundle {
       }
     case 'feature':
       return {
-        title: t`Suggest a new feature`,
+        title: t`Suggest a feature`,
         description: t`Tell the Mochi development team what you'd like Mochi to do.`,
         titleLabel: t`Summary`,
         titlePlaceholder: t`Short title for your idea`,
@@ -89,6 +96,7 @@ export function ContributeDialog({
   const { t } = useLingui()
   const copy = useCopy(kind)
   const needsTitle = NEEDS_TITLE[kind]
+  const KindIcon = KIND_ICONS[kind]
   const [title, setTitle] = useState('')
   const [body, setBody] = useState('')
   const [submitting, setSubmitting] = useState(false)
@@ -112,8 +120,15 @@ export function ContributeDialog({
     <ResponsiveDialog open={open} onOpenChange={onOpenChange}>
       <ResponsiveDialogContent>
         <ResponsiveDialogHeader>
-          <ResponsiveDialogTitle>{copy.title}</ResponsiveDialogTitle>
-          <ResponsiveDialogDescription>{copy.description}</ResponsiveDialogDescription>
+          <ResponsiveDialogTitle>
+            <span className='inline-flex items-center gap-2'>
+              <KindIcon className='h-5 w-5' />
+              {copy.title}
+            </span>
+          </ResponsiveDialogTitle>
+          {copy.description && (
+            <ResponsiveDialogDescription>{copy.description}</ResponsiveDialogDescription>
+          )}
         </ResponsiveDialogHeader>
 
         <div className='flex flex-col gap-4 px-4 sm:px-0'>
@@ -131,7 +146,7 @@ export function ContributeDialog({
             </div>
           )}
           <div className='flex flex-col gap-2'>
-            <Label htmlFor='help-body'>{copy.bodyLabel}</Label>
+            {copy.bodyLabel && <Label htmlFor='help-body'>{copy.bodyLabel}</Label>}
             <Textarea
               id='help-body'
               value={body}
@@ -146,6 +161,7 @@ export function ContributeDialog({
 
         <ResponsiveDialogFooter>
           <Button variant='outline' onClick={() => onOpenChange(false)} disabled={submitting}>
+            <X className='mr-2 h-4 w-4' />
             <Trans>Cancel</Trans>
           </Button>
           <Button
@@ -158,7 +174,10 @@ export function ContributeDialog({
                 <Trans>Posting…</Trans>
               </>
             ) : (
-              copy.submit
+              <>
+                <KindIcon className='mr-2 h-4 w-4' />
+                {copy.submit}
+              </>
             )}
           </Button>
         </ResponsiveDialogFooter>

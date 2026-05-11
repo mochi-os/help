@@ -24,6 +24,20 @@ def action_visit(a):
 	a.user.preference.set("help.visited", "true")
 	return {"data": {"visited": True}}
 
+# Serve one of the server-level documents (rules / terms / privacy) so the
+# footer in help's SPA can render them without linking cross-app to /settings/
+# (CLAUDE.md: an app must call its own actions for the data it displays).
+# Uses a.json() rather than `return {"data": …}` because DocumentPage in
+# lib/web reads `res.data.html` directly without unwrapping a data envelope.
+def action_document_get(a):
+	name = a.input("name", "")
+	if name not in ("rules", "terms", "privacy"):
+		a.error.label(404, "errors.unknown_document")
+		return
+	body = mochi.document.get(name)
+	html = mochi.text.markdown(body)
+	a.json({"name": name, "body": body, "html": html})
+
 def action_prepare(a):
 	if not a.user or not a.user.identity:
 		a.error.label(401, "errors.not_logged_in")
@@ -74,14 +88,8 @@ def action_contribute(a):
 		a.error.label(503, "errors.help_not_configured")
 		return
 
-	if kind in ("intro", "question"):
-		title = _intro_or_question_title(a.user, kind)
-		event = "app/post"
-		payload = {
-			"forum": target["entity_id"],
-			"title": title,
-			"body": body,
-		}
+	if kind == "intro":
+		title = _intro_title(a.user)
 	else:
 		title = (a.input("title", "") or "").strip()
 		if not title:
@@ -90,6 +98,19 @@ def action_contribute(a):
 		if len(title) > TITLE_MAX:
 			a.error.label(400, "errors.title_too_long")
 			return
+
+	if kind in ("intro", "question"):
+		event = "app/post"
+		payload = {
+			"forum": target["entity_id"],
+			"title": title,
+			"body": body,
+			# Tag the post so the forum's filter-by-tag UI can group
+			# help-app submissions. Tags are stored lowercase by
+			# validate_tag(), so use lowercase here for round-trip equality.
+			"tags": ["introduction" if kind == "intro" else "question"],
+		}
+	else:
 		event = "app/object/create"
 		payload = {
 			"project": target["entity_id"],
@@ -114,16 +135,16 @@ def action_contribute(a):
 		a.error.label(502, "errors.no_fingerprint_returned")
 		return
 
+	# SPA URLs use /<app>/<fingerprint>/<id> — bare; `/<app>/<fingerprint>/-/<id>`
+	# is the JSON action route and would render raw JSON in the browser.
+	# Forum posts land on the forum page (pending-moderation posts can't be
+	# read by the author until approved, so the post page is a dead end);
+	# project tickets land on the ticket itself (they're visible immediately).
 	if target["service"] == "forums":
 		redirect = "/forums/" + fingerprint + "/"
-		post_id = result.get("post", "") if result else ""
-		if post_id:
-			redirect = "/forums/" + fingerprint + "/-/" + post_id
 	else:
-		redirect = "/projects/" + fingerprint + "/"
 		obj_id = result.get("id", "") if result else ""
-		if obj_id:
-			redirect = "/projects/" + fingerprint + "/" + obj_id
+		redirect = "/projects/" + fingerprint + "/" + obj_id if obj_id else "/projects/" + fingerprint + "/"
 
 	return {"data": {"redirect": redirect}}
 
@@ -138,11 +159,9 @@ def _target_for_kind(kind):
 		return {"service": "projects", "entity_id": DEV_PROJECT, "entity_field": "project"}
 	return None
 
-def _intro_or_question_title(user, kind):
+def _intro_title(user):
 	name = user.identity.name or mochi.app.label("titles.someone")
-	if kind == "intro":
-		return mochi.app.label("titles.intro", name=name)
-	return mochi.app.label("titles.question", name=name)
+	return mochi.app.label("titles.intro", name=name)
 
 # Translate remote error keys (e.g. "errors.invalid_id") through the app's
 # label catalog before surfacing to the user. Falls back to the literal key.

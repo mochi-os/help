@@ -21,10 +21,6 @@ msgstr "Awa 12"
 msgid "24 hours"
 msgstr "Awa 24"
 
-#: src/features/help/contribute-dialog.tsx:45
-msgid "About you"
-msgstr "Game da kai"
-
 #: ../../../lib/web/src/lib/preference-utils.ts:48
 msgid "Absolute (date and time)"
 msgstr "Cikakke (kwanan wata da lokaci)"
@@ -110,12 +106,12 @@ msgstr "Ka tabbata kana son fita? Za ka buƙaci shiga kuma don shiga asusunka."
 msgid "Asc"
 msgstr "Asc"
 
-#: src/features/help/contribute-dialog.tsx:51
+#: src/features/help/contribute-dialog.tsx:56
 #: src/features/help/index.tsx:34
 msgid "Ask a question"
 msgstr "Yi tambaya"
 
-#: src/features/help/contribute-dialog.tsx:52
+#: src/features/help/contribute-dialog.tsx:57
 msgid "Ask the community on the Mochi users mailing list. Be specific about what you've tried so far."
 msgstr "Tambayi al'umma a jerin wasiƙun masu amfani da Mochi. Ka kasance bayyananne game da abin da ka gwada ya zuwa yanzu."
 
@@ -133,7 +129,7 @@ msgstr "Komawa ga Gida"
 msgid "Boost interest"
 msgstr "Ƙara sha'awa"
 
-#: src/features/help/contribute-dialog.tsx:62
+#: src/features/help/contribute-dialog.tsx:69
 msgid "Brief summary of the problem"
 msgstr "Taƙaitaccen taƙaitawar matsalar"
 
@@ -144,7 +140,7 @@ msgstr "Taƙaitaccen taƙaitawar matsalar"
 #: ../../../lib/web/src/features/access/access-list.tsx:255
 #: ../../../lib/web/src/features/accounts/account-add.tsx:185
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:86
-#: src/features/help/contribute-dialog.tsx:149
+#: src/features/help/contribute-dialog.tsx:165
 msgid "Cancel"
 msgstr "Soke"
 
@@ -253,11 +249,15 @@ msgstr "Ci gaba"
 msgid "Copy"
 msgstr "Kwafi"
 
+#: ../../../lib/web/src/features/document/document-page.tsx:81
+msgid "Could not load this document. Please try again later."
+msgstr "Ba a iya loda wannan takarda ba. Da fatan a sake gwadawa daga baya."
+
 #: src/features/help/index.tsx:66
 msgid "Couldn't reach the destination yet"
 msgstr "Ba mu iya isa ga inda muke nufa ba tukuna"
 
-#: src/features/help/contribute-dialog.tsx:104
+#: src/features/help/contribute-dialog.tsx:112
 msgid "Couldn't submit"
 msgstr "An kasa ƙaddamarwa"
 
@@ -286,11 +286,12 @@ msgstr "Default AI asusu"
 msgid "Desc"
 msgstr "Desc"
 
-#: src/features/help/contribute-dialog.tsx:60
+#: src/features/help/contribute-dialog.tsx:67
 msgid "Describe what went wrong. The Mochi development team will see it on the Mochi development project."
 msgstr "Bayyana abin da ya ɓaci. Tawagar ci gaban Mochi za ta gan shi a aikin ci gaban Mochi."
 
-#: src/features/help/contribute-dialog.tsx:73
+#: src/features/help/contribute-dialog.tsx:60
+#: src/features/help/contribute-dialog.tsx:80
 msgid "Details"
 msgstr "Cikakkun bayanai"
 
@@ -353,6 +354,10 @@ msgstr "An gaza sabunta category"
 msgid "Floating"
 msgstr "Mai yawo"
 
+#: src/features/help/index.tsx:41
+msgid "Found something broken? Tell the developers and they'll fix it."
+msgstr "Ka sami wani abu da ya lalace? Faɗa wa masu haɓakawa kuma za su gyara shi."
+
 #: ../../../lib/web/src/lib/preference-utils.ts:60
 msgid "Friday"
 msgstr "Jumma'a"
@@ -395,19 +400,24 @@ msgstr "Tafi shafi na gaba"
 msgid "Go to previous page"
 msgstr "Tafi shafi na baya"
 
+#: src/features/help/index.tsx:35
+msgid "Got a problem? Not sure what to do? Ask the community on the Mochi Users mailing list."
+msgstr "Kana da matsala? Ba ka da tabbacin abin da za ka yi? Tambayi al’umma a jerin saƙon Mochi Users."
+
 #: src/features/help/index.tsx:47
-msgid "Got an idea? Open a feature request on the Mochi development project."
-msgstr "Kana da ra'ayi? Buɗe buƙatar fasali a aikin ci gaban Mochi."
+msgid "Got an idea? Tell the developers and maybe they'll add it."
+msgstr "Kana da ra’ayi? Faɗa wa masu haɓakawa kuma watakila za su ƙara shi."
 
 #: ../../../lib/web/src/features/access/access-dialog.tsx:159
 msgid "Group"
 msgstr "Group"
 
-#: src/features/help/index.tsx:75
+#: src/features/help/index.tsx:74
+#: src/routes/_authenticated/route.tsx:13
 msgid "Help"
 msgstr "Taimako"
 
-#: src/features/help/contribute-dialog.tsx:46
+#: src/features/help/contribute-dialog.tsx:51
 msgid "Hi, I'm…"
 msgstr "Sannu, ni…"
 
@@ -426,10 +436,6 @@ msgstr "Gida"
 msgid "Hot"
 msgstr "Mai zafi"
 
-#: src/features/help/contribute-dialog.tsx:54
-msgid "I'm trying to…"
-msgstr "Ina ƙoƙarin…"
-
 #: ../../../lib/web/src/lib/preference-utils.ts:83
 msgid "Imperial"
 msgstr "Imperial"
@@ -442,7 +448,7 @@ msgstr "Inset"
 msgid "Interests"
 msgstr "Interests"
 
-#: src/features/help/contribute-dialog.tsx:43
+#: src/features/help/contribute-dialog.tsx:50
 #: src/features/help/index.tsx:28
 msgid "Introduce yourself"
 msgstr "Gabatar da kanka"
@@ -478,6 +484,7 @@ msgid "Load more"
 msgstr "Saukar da ƙari"
 
 #: ../../../lib/web/src/components/ui/load-more.tsx:32
+#: ../../../lib/web/src/features/document/document-page.tsx:87
 msgid "Loading…"
 msgstr "Ana saukarwa…"
 
@@ -619,19 +626,19 @@ msgstr "Sauran"
 msgid "Owner"
 msgstr "Mai shi"
 
-#: src/features/help/contribute-dialog.tsx:105
+#: src/features/help/contribute-dialog.tsx:113
 msgid "Please try again."
 msgstr "Da fatan za a sake gwadawa."
 
-#: src/features/help/contribute-dialog.tsx:47
+#: src/features/help/contribute-dialog.tsx:52
 msgid "Post introduction"
 msgstr "Buga gabatarwa"
 
-#: src/features/help/contribute-dialog.tsx:55
+#: src/features/help/contribute-dialog.tsx:62
 msgid "Post question"
 msgstr "Buga tambaya"
 
-#: src/features/help/contribute-dialog.tsx:158
+#: src/features/help/contribute-dialog.tsx:174
 msgid "Posting…"
 msgstr "Ana posting…"
 
@@ -639,7 +646,8 @@ msgstr "Ana posting…"
 msgid "Previous image"
 msgstr "Hoton da ya gabata"
 
-#: ../../../lib/web/src/components/server-documents-footer.tsx:15
+#: ../../../lib/web/src/components/server-documents-footer.tsx:24
+#: ../../../lib/web/src/features/document/document-page.tsx:41
 msgid "Privacy"
 msgstr "Sirri"
 
@@ -647,6 +655,10 @@ msgstr "Sirri"
 #: ../../../lib/web/src/components/profile-dropdown.tsx:111
 msgid "Profile"
 msgstr "Profile"
+
+#: src/features/help/contribute-dialog.tsx:58
+msgid "Question"
+msgstr "Tambaya"
 
 #: ../../../lib/web/src/components/search-entity-dialog.tsx:216
 #: ../../../lib/web/src/components/search-entity-page.tsx:191
@@ -687,12 +699,12 @@ msgstr "A cire damar shiga?"
 msgid "Remove interest"
 msgstr "Cire sha'awa"
 
-#: src/features/help/contribute-dialog.tsx:59
+#: src/features/help/contribute-dialog.tsx:66
 #: src/features/help/index.tsx:40
 msgid "Report a bug"
 msgstr "Bayar da rahoton kwaro"
 
-#: src/features/help/contribute-dialog.tsx:65
+#: src/features/help/contribute-dialog.tsx:72
 msgid "Report bug"
 msgstr "Rahoton kwaro"
 
@@ -717,8 +729,8 @@ msgid "Saturday"
 msgstr "Asabar"
 
 #: src/features/help/index.tsx:29
-msgid "Say hello on the Mochi users mailing list and tell everyone a little about yourself."
-msgstr "Yi sannu a jerin wasiƙun masu amfani da Mochi kuma ka gaya wa kowa kaɗan game da kanka."
+msgid "Say hello on the Mochi Users mailing list."
+msgstr "Yi sannu a jerin saƙon Mochi Users."
 
 #: ../../../lib/web/src/components/place-picker.tsx:82
 msgid "Search for a place"
@@ -790,7 +802,8 @@ msgstr "Zaɓi zaɓin theme"
 msgid "Serif"
 msgstr "Serif"
 
-#: ../../../lib/web/src/components/server-documents-footer.tsx:7
+#: ../../../lib/web/src/components/server-documents-footer.tsx:16
+#: ../../../lib/web/src/features/document/document-page.tsx:37
 msgid "Server rules"
 msgstr "Ƙa'idojin sabar"
 
@@ -808,11 +821,7 @@ msgstr "Saita tushe da makoma"
 msgid "Settings"
 msgstr "Saitunan"
 
-#: src/features/help/contribute-dialog.tsx:44
-msgid "Share a bit about yourself with the Mochi community. Your post will appear on the Mochi users mailing list."
-msgstr "Raba ɗan abu game da kanka tare da al'ummar Mochi. Sakonka zai bayyana a jerin wasiƙun masu amfani da Mochi."
-
-#: src/features/help/contribute-dialog.tsx:72
+#: src/features/help/contribute-dialog.tsx:79
 msgid "Short title for your idea"
 msgstr "Gajeren take don ra'ayinka"
 
@@ -843,33 +852,25 @@ msgstr "Karami"
 msgid "Spacious"
 msgstr "Faffaka"
 
-#: src/features/help/index.tsx:41
-msgid "Spotted something broken? File a bug ticket on the Mochi development project."
-msgstr "Ka hango wani abu da ya karye? Shigar da tikitin kwaro a aikin ci gaban Mochi."
-
 #: ../../../lib/web/src/components/coming-soon.tsx:12
 msgid "Stay tuned though!"
 msgstr "Ku kasance da mu!"
-
-#: src/features/help/index.tsx:35
-msgid "Stuck on something? Ask the community on the Mochi users mailing list."
-msgstr "Ka makale a kan wani abu? Tambayi al'umma a jerin wasiƙun masu amfani da Mochi."
 
 #: ../../../lib/web/src/features/access/access-list.tsx:187
 msgid "Subject"
 msgstr "Batu"
 
-#: src/features/help/contribute-dialog.tsx:69
+#: src/features/help/contribute-dialog.tsx:76
 #: src/features/help/index.tsx:46
-msgid "Suggest a new feature"
-msgstr "Ba da shawarar sabon fasali"
+msgid "Suggest a feature"
+msgstr "Ba da shawarar fasali"
 
-#: src/features/help/contribute-dialog.tsx:75
+#: src/features/help/contribute-dialog.tsx:82
 msgid "Suggest feature"
 msgstr "Ba da shawarar fasali"
 
-#: src/features/help/contribute-dialog.tsx:61
-#: src/features/help/contribute-dialog.tsx:71
+#: src/features/help/contribute-dialog.tsx:68
+#: src/features/help/contribute-dialog.tsx:78
 msgid "Summary"
 msgstr "Taƙaitawa"
 
@@ -891,11 +892,12 @@ msgstr "Tag"
 msgid "Teams/Apps"
 msgstr "Tawagogi/Apps"
 
-#: src/features/help/contribute-dialog.tsx:70
+#: src/features/help/contribute-dialog.tsx:77
 msgid "Tell the Mochi development team what you'd like Mochi to do."
 msgstr "Gaya wa tawagar ci gaban Mochi abin da kake son Mochi ya yi."
 
-#: ../../../lib/web/src/components/server-documents-footer.tsx:11
+#: ../../../lib/web/src/components/server-documents-footer.tsx:20
+#: ../../../lib/web/src/features/document/document-page.tsx:39
 msgid "Terms and conditions"
 msgstr "Sharuɗɗa da yanayi"
 
@@ -1037,22 +1039,22 @@ msgstr "Shafin yana cikin kulawa!"
 msgid "Wednesday"
 msgstr "Laraba"
 
-#: src/features/help/index.tsx:76
-msgid "Welcome to Mochi. Here's how to get started."
-msgstr "Barka da zuwa Mochi. Ga yadda za a fara."
-
-#: src/features/help/contribute-dialog.tsx:64
+#: src/features/help/contribute-dialog.tsx:71
 msgid "What did you do, what did you expect, what happened instead?"
 msgstr "Me ka yi, me ka yi tsammani, me ya faru maimakon haka?"
 
-#: src/features/help/contribute-dialog.tsx:63
+#: src/features/help/contribute-dialog.tsx:70
 msgid "What happened"
 msgstr "Me ya faru"
 
-#: src/features/help/contribute-dialog.tsx:74
+#: src/features/help/contribute-dialog.tsx:61
+msgid "What have you tried, what did you expect, where are you stuck?"
+msgstr "Me ka gwada, me ka yi tsammani, ina ka makale?"
+
+#: src/features/help/contribute-dialog.tsx:81
 msgid "What would it do, who is it for, why does it matter?"
 msgstr "Me zai yi, ga wa yake, me ya sa yake da muhimmanci?"
 
-#: src/features/help/contribute-dialog.tsx:53
-msgid "Your question"
-msgstr "Tambayarka"
+#: src/features/help/contribute-dialog.tsx:59
+msgid "What you want to ask, in one line"
+msgstr "Abin da kake son tambaya, a layi ɗaya"

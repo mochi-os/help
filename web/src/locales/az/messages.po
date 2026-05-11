@@ -21,10 +21,6 @@ msgstr "12 saat"
 msgid "24 hours"
 msgstr "24 saat"
 
-#: src/features/help/contribute-dialog.tsx:45
-msgid "About you"
-msgstr "Sizin haqqınızda"
-
 #: ../../../lib/web/src/lib/preference-utils.ts:48
 msgid "Absolute (date and time)"
 msgstr "Mütləq (tarix və saat)"
@@ -110,12 +106,12 @@ msgstr "Çıxmaq istədiyinizə əminsiniz? Hesabınıza giriş üçün yenidən
 msgid "Asc"
 msgstr "Artan"
 
-#: src/features/help/contribute-dialog.tsx:51
+#: src/features/help/contribute-dialog.tsx:56
 #: src/features/help/index.tsx:34
 msgid "Ask a question"
 msgstr "Sual verin"
 
-#: src/features/help/contribute-dialog.tsx:52
+#: src/features/help/contribute-dialog.tsx:57
 msgid "Ask the community on the Mochi users mailing list. Be specific about what you've tried so far."
 msgstr "Mochi istifadəçilərinin poçt siyahısında icmaya sual verin. İndiyə qədər nə cəhd etdiyinizi konkret göstərin."
 
@@ -133,7 +129,7 @@ msgstr "Ana səhifəyə geri"
 msgid "Boost interest"
 msgstr "Marağı artır"
 
-#: src/features/help/contribute-dialog.tsx:62
+#: src/features/help/contribute-dialog.tsx:69
 msgid "Brief summary of the problem"
 msgstr "Problemin qısa xülasəsi"
 
@@ -144,7 +140,7 @@ msgstr "Problemin qısa xülasəsi"
 #: ../../../lib/web/src/features/access/access-list.tsx:255
 #: ../../../lib/web/src/features/accounts/account-add.tsx:185
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:86
-#: src/features/help/contribute-dialog.tsx:149
+#: src/features/help/contribute-dialog.tsx:165
 msgid "Cancel"
 msgstr "Ləğv et"
 
@@ -253,11 +249,15 @@ msgstr "Davam et"
 msgid "Copy"
 msgstr "Kopyala"
 
+#: ../../../lib/web/src/features/document/document-page.tsx:81
+msgid "Could not load this document. Please try again later."
+msgstr "Bu sənəd yüklənə bilmədi. Daha sonra yenidən cəhd edin."
+
 #: src/features/help/index.tsx:66
 msgid "Couldn't reach the destination yet"
 msgstr "Hələ təyinata çatmaq mümkün olmadı"
 
-#: src/features/help/contribute-dialog.tsx:104
+#: src/features/help/contribute-dialog.tsx:112
 msgid "Couldn't submit"
 msgstr "Göndərmək mümkün olmadı"
 
@@ -286,11 +286,12 @@ msgstr "Default AI hesabı"
 msgid "Desc"
 msgstr "Azalan"
 
-#: src/features/help/contribute-dialog.tsx:60
+#: src/features/help/contribute-dialog.tsx:67
 msgid "Describe what went wrong. The Mochi development team will see it on the Mochi development project."
 msgstr "Nəyin səhv getdiyini təsvir edin. Mochi inkişaf komandası bunu Mochi inkişaf layihəsində görəcək."
 
-#: src/features/help/contribute-dialog.tsx:73
+#: src/features/help/contribute-dialog.tsx:60
+#: src/features/help/contribute-dialog.tsx:80
 msgid "Details"
 msgstr "Təfərrüatlar"
 
@@ -353,6 +354,10 @@ msgstr "Kateqoriyanı yeniləmək alınmadı"
 msgid "Floating"
 msgstr "Üzən"
 
+#: src/features/help/index.tsx:41
+msgid "Found something broken? Tell the developers and they'll fix it."
+msgstr "Sınıq bir şey tapdınız? Tərtibatçılara bildirin, onlar düzəldəcəklər."
+
 #: ../../../lib/web/src/lib/preference-utils.ts:60
 msgid "Friday"
 msgstr "Cümə"
@@ -395,19 +400,24 @@ msgstr "Növbəti səhifəyə get"
 msgid "Go to previous page"
 msgstr "Əvvəlki səhifəyə get"
 
+#: src/features/help/index.tsx:35
+msgid "Got a problem? Not sure what to do? Ask the community on the Mochi Users mailing list."
+msgstr "Probleminiz var? Nə edəcəyinizdən əmin deyilsiniz? Mochi Users poçt siyahısında icmadan soruşun."
+
 #: src/features/help/index.tsx:47
-msgid "Got an idea? Open a feature request on the Mochi development project."
-msgstr "Fikriniz var? Mochi inkişaf layihəsində xüsusiyyət sorğusu açın."
+msgid "Got an idea? Tell the developers and maybe they'll add it."
+msgstr "Bir fikriniz var? Tərtibatçılara deyin, bəlkə əlavə edərlər."
 
 #: ../../../lib/web/src/features/access/access-dialog.tsx:159
 msgid "Group"
 msgstr "Qrup"
 
-#: src/features/help/index.tsx:75
+#: src/features/help/index.tsx:74
+#: src/routes/_authenticated/route.tsx:13
 msgid "Help"
 msgstr "Kömək"
 
-#: src/features/help/contribute-dialog.tsx:46
+#: src/features/help/contribute-dialog.tsx:51
 msgid "Hi, I'm…"
 msgstr "Salam, mən…"
 
@@ -426,10 +436,6 @@ msgstr "Ev"
 msgid "Hot"
 msgstr "İsti"
 
-#: src/features/help/contribute-dialog.tsx:54
-msgid "I'm trying to…"
-msgstr "Çalışıram ki…"
-
 #: ../../../lib/web/src/lib/preference-utils.ts:83
 msgid "Imperial"
 msgstr "İmperial"
@@ -442,7 +448,7 @@ msgstr "İçəri"
 msgid "Interests"
 msgstr "Maraqlar"
 
-#: src/features/help/contribute-dialog.tsx:43
+#: src/features/help/contribute-dialog.tsx:50
 #: src/features/help/index.tsx:28
 msgid "Introduce yourself"
 msgstr "Özünüzü təqdim edin"
@@ -478,6 +484,7 @@ msgid "Load more"
 msgstr "Daha çox yüklə"
 
 #: ../../../lib/web/src/components/ui/load-more.tsx:32
+#: ../../../lib/web/src/features/document/document-page.tsx:87
 msgid "Loading…"
 msgstr "Yüklənir…"
 
@@ -619,19 +626,19 @@ msgstr "Digər"
 msgid "Owner"
 msgstr "Sahibi"
 
-#: src/features/help/contribute-dialog.tsx:105
+#: src/features/help/contribute-dialog.tsx:113
 msgid "Please try again."
 msgstr "Zəhmət olmasa yenidən cəhd edin."
 
-#: src/features/help/contribute-dialog.tsx:47
+#: src/features/help/contribute-dialog.tsx:52
 msgid "Post introduction"
 msgstr "Təqdimatı göndər"
 
-#: src/features/help/contribute-dialog.tsx:55
+#: src/features/help/contribute-dialog.tsx:62
 msgid "Post question"
 msgstr "Sualı göndər"
 
-#: src/features/help/contribute-dialog.tsx:158
+#: src/features/help/contribute-dialog.tsx:174
 msgid "Posting…"
 msgstr "Yerləşdirilir…"
 
@@ -639,7 +646,8 @@ msgstr "Yerləşdirilir…"
 msgid "Previous image"
 msgstr "Əvvəlki şəkil"
 
-#: ../../../lib/web/src/components/server-documents-footer.tsx:15
+#: ../../../lib/web/src/components/server-documents-footer.tsx:24
+#: ../../../lib/web/src/features/document/document-page.tsx:41
 msgid "Privacy"
 msgstr "Məxfilik"
 
@@ -647,6 +655,10 @@ msgstr "Məxfilik"
 #: ../../../lib/web/src/components/profile-dropdown.tsx:111
 msgid "Profile"
 msgstr "Profil"
+
+#: src/features/help/contribute-dialog.tsx:58
+msgid "Question"
+msgstr "Sual"
 
 #: ../../../lib/web/src/components/search-entity-dialog.tsx:216
 #: ../../../lib/web/src/components/search-entity-page.tsx:191
@@ -687,12 +699,12 @@ msgstr "Girişi silək?"
 msgid "Remove interest"
 msgstr "Marağı sil"
 
-#: src/features/help/contribute-dialog.tsx:59
+#: src/features/help/contribute-dialog.tsx:66
 #: src/features/help/index.tsx:40
 msgid "Report a bug"
 msgstr "Səhv bildir"
 
-#: src/features/help/contribute-dialog.tsx:65
+#: src/features/help/contribute-dialog.tsx:72
 msgid "Report bug"
 msgstr "Səhv bildir"
 
@@ -717,8 +729,8 @@ msgid "Saturday"
 msgstr "Şənbə"
 
 #: src/features/help/index.tsx:29
-msgid "Say hello on the Mochi users mailing list and tell everyone a little about yourself."
-msgstr "Mochi istifadəçilərinin poçt siyahısında salam deyin və hamıya özünüz haqqında bir az danışın."
+msgid "Say hello on the Mochi Users mailing list."
+msgstr "Mochi Users poçt siyahısında salam deyin."
 
 #: ../../../lib/web/src/components/place-picker.tsx:82
 msgid "Search for a place"
@@ -790,7 +802,8 @@ msgstr "Mövzu seçimini seçin"
 msgid "Serif"
 msgstr "Serif"
 
-#: ../../../lib/web/src/components/server-documents-footer.tsx:7
+#: ../../../lib/web/src/components/server-documents-footer.tsx:16
+#: ../../../lib/web/src/features/document/document-page.tsx:37
 msgid "Server rules"
 msgstr "Server qaydaları"
 
@@ -808,11 +821,7 @@ msgstr "Başlanğıc və təyinat nöqtəsini təyin et"
 msgid "Settings"
 msgstr "Parametrlər"
 
-#: src/features/help/contribute-dialog.tsx:44
-msgid "Share a bit about yourself with the Mochi community. Your post will appear on the Mochi users mailing list."
-msgstr "Mochi icması ilə özünüz haqqında bir az paylaşın. Yazınız Mochi istifadəçilərinin poçt siyahısında görünəcək."
-
-#: src/features/help/contribute-dialog.tsx:72
+#: src/features/help/contribute-dialog.tsx:79
 msgid "Short title for your idea"
 msgstr "Fikriniz üçün qısa başlıq"
 
@@ -843,33 +852,25 @@ msgstr "Kiçik"
 msgid "Spacious"
 msgstr "Geniş"
 
-#: src/features/help/index.tsx:41
-msgid "Spotted something broken? File a bug ticket on the Mochi development project."
-msgstr "Sınmış bir şey gördünüz? Mochi inkişaf layihəsində səhv bildirişi açın."
-
 #: ../../../lib/web/src/components/coming-soon.tsx:12
 msgid "Stay tuned though!"
 msgstr "Yenə də diqqətli olun!"
-
-#: src/features/help/index.tsx:35
-msgid "Stuck on something? Ask the community on the Mochi users mailing list."
-msgstr "Bir məsələdə ilişib qaldınız? Mochi istifadəçilərinin poçt siyahısında icmaya sual verin."
 
 #: ../../../lib/web/src/features/access/access-list.tsx:187
 msgid "Subject"
 msgstr "Mövzu"
 
-#: src/features/help/contribute-dialog.tsx:69
+#: src/features/help/contribute-dialog.tsx:76
 #: src/features/help/index.tsx:46
-msgid "Suggest a new feature"
-msgstr "Yeni xüsusiyyət təklif edin"
+msgid "Suggest a feature"
+msgstr "Funksiya təklif et"
 
-#: src/features/help/contribute-dialog.tsx:75
+#: src/features/help/contribute-dialog.tsx:82
 msgid "Suggest feature"
 msgstr "Xüsusiyyət təklif edin"
 
-#: src/features/help/contribute-dialog.tsx:61
-#: src/features/help/contribute-dialog.tsx:71
+#: src/features/help/contribute-dialog.tsx:68
+#: src/features/help/contribute-dialog.tsx:78
 msgid "Summary"
 msgstr "Xülasə"
 
@@ -891,11 +892,12 @@ msgstr "Etiket"
 msgid "Teams/Apps"
 msgstr "Komandalar/Tətbiqlər"
 
-#: src/features/help/contribute-dialog.tsx:70
+#: src/features/help/contribute-dialog.tsx:77
 msgid "Tell the Mochi development team what you'd like Mochi to do."
 msgstr "Mochi-nin nə etməsini istədiyinizi Mochi inkişaf komandasına bildirin."
 
-#: ../../../lib/web/src/components/server-documents-footer.tsx:11
+#: ../../../lib/web/src/components/server-documents-footer.tsx:20
+#: ../../../lib/web/src/features/document/document-page.tsx:39
 msgid "Terms and conditions"
 msgstr "Şərtlər və qaydalar"
 
@@ -1037,22 +1039,22 @@ msgstr "Həftə başlayır"
 msgid "Wednesday"
 msgstr "Digər wiki-lər bu wiki-ni replikasiya etdikdə burada görünəcəklər."
 
-#: src/features/help/index.tsx:76
-msgid "Welcome to Mochi. Here's how to get started."
-msgstr "Mochi-yə xoş gəlmisiniz. Başlamaq üçün budur."
-
-#: src/features/help/contribute-dialog.tsx:64
+#: src/features/help/contribute-dialog.tsx:71
 msgid "What did you do, what did you expect, what happened instead?"
 msgstr "Nə etdiniz, nə gözləyirdiniz, əvəzində nə baş verdi?"
 
-#: src/features/help/contribute-dialog.tsx:63
+#: src/features/help/contribute-dialog.tsx:70
 msgid "What happened"
 msgstr "Nə baş verdi"
 
-#: src/features/help/contribute-dialog.tsx:74
+#: src/features/help/contribute-dialog.tsx:61
+msgid "What have you tried, what did you expect, where are you stuck?"
+msgstr "Nə cəhd etmisiniz, nə gözləyirdiniz, harada ilişib qalmısınız?"
+
+#: src/features/help/contribute-dialog.tsx:81
 msgid "What would it do, who is it for, why does it matter?"
 msgstr "Bu nə edəcək, kimin üçündür, niyə vacibdir?"
 
-#: src/features/help/contribute-dialog.tsx:53
-msgid "Your question"
-msgstr "Sualınız"
+#: src/features/help/contribute-dialog.tsx:59
+msgid "What you want to ask, in one line"
+msgstr "Bir sətirdə nə soruşmaq istəyirsiniz"

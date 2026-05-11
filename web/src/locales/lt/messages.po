@@ -21,10 +21,6 @@ msgstr "12 valandų"
 msgid "24 hours"
 msgstr "24 valandos"
 
-#: src/features/help/contribute-dialog.tsx:45
-msgid "About you"
-msgstr "Apie jus"
-
 #: ../../../lib/web/src/lib/preference-utils.ts:48
 msgid "Absolute (date and time)"
 msgstr "Absoliutus (data ir laikas)"
@@ -110,12 +106,12 @@ msgstr "Ar tikrai norite atsijungti? Norėdami pasiekti paskyrą, turėsite vėl
 msgid "Asc"
 msgstr "Did."
 
-#: src/features/help/contribute-dialog.tsx:51
+#: src/features/help/contribute-dialog.tsx:56
 #: src/features/help/index.tsx:34
 msgid "Ask a question"
 msgstr "Užduoti klausimą"
 
-#: src/features/help/contribute-dialog.tsx:52
+#: src/features/help/contribute-dialog.tsx:57
 msgid "Ask the community on the Mochi users mailing list. Be specific about what you've tried so far."
 msgstr "Paklauskite bendruomenės Mochi naudotojų el. pašto sąraše. Konkrečiai nurodykite, ką jau išbandėte."
 
@@ -133,7 +129,7 @@ msgstr "Atgal į pradžią"
 msgid "Boost interest"
 msgstr "Padidinti susidomėjimą"
 
-#: src/features/help/contribute-dialog.tsx:62
+#: src/features/help/contribute-dialog.tsx:69
 msgid "Brief summary of the problem"
 msgstr "Trumpa problemos santrauka"
 
@@ -144,7 +140,7 @@ msgstr "Trumpa problemos santrauka"
 #: ../../../lib/web/src/features/access/access-list.tsx:255
 #: ../../../lib/web/src/features/accounts/account-add.tsx:185
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:86
-#: src/features/help/contribute-dialog.tsx:149
+#: src/features/help/contribute-dialog.tsx:165
 msgid "Cancel"
 msgstr "Atšaukti"
 
@@ -253,11 +249,15 @@ msgstr "Tęsti"
 msgid "Copy"
 msgstr "Kopijuoti"
 
+#: ../../../lib/web/src/features/document/document-page.tsx:81
+msgid "Could not load this document. Please try again later."
+msgstr "Nepavyko įkelti šio dokumento. Pabandykite dar kartą vėliau."
+
 #: src/features/help/index.tsx:66
 msgid "Couldn't reach the destination yet"
 msgstr "Paskirties vieta dar nepasiekta"
 
-#: src/features/help/contribute-dialog.tsx:104
+#: src/features/help/contribute-dialog.tsx:112
 msgid "Couldn't submit"
 msgstr "Nepavyko pateikti"
 
@@ -286,11 +286,12 @@ msgstr "Numatytoji DI paskyra"
 msgid "Desc"
 msgstr "Maž."
 
-#: src/features/help/contribute-dialog.tsx:60
+#: src/features/help/contribute-dialog.tsx:67
 msgid "Describe what went wrong. The Mochi development team will see it on the Mochi development project."
 msgstr "Aprašykite, kas nepavyko. Mochi kūrėjų komanda tai matys Mochi kūrimo projekte."
 
-#: src/features/help/contribute-dialog.tsx:73
+#: src/features/help/contribute-dialog.tsx:60
+#: src/features/help/contribute-dialog.tsx:80
 msgid "Details"
 msgstr "Detalės"
 
@@ -353,6 +354,10 @@ msgstr "Nepavyko atnaujinti kategorijos"
 msgid "Floating"
 msgstr "Plaukiojantis"
 
+#: src/features/help/index.tsx:41
+msgid "Found something broken? Tell the developers and they'll fix it."
+msgstr "Radote ką nors sugedusio? Pasakykite kūrėjams ir jie tai pataisys."
+
 #: ../../../lib/web/src/lib/preference-utils.ts:60
 msgid "Friday"
 msgstr "Penktadienis"
@@ -395,19 +400,24 @@ msgstr "Eiti į kitą puslapį"
 msgid "Go to previous page"
 msgstr "Eiti į ankstesnį puslapį"
 
+#: src/features/help/index.tsx:35
+msgid "Got a problem? Not sure what to do? Ask the community on the Mochi Users mailing list."
+msgstr "Turite problemą? Nežinote, ką daryti? Paklauskite bendruomenės Mochi Users adresų sąraše."
+
 #: src/features/help/index.tsx:47
-msgid "Got an idea? Open a feature request on the Mochi development project."
-msgstr "Turite idėją? Sukurkite funkcijos užklausą Mochi kūrimo projekte."
+msgid "Got an idea? Tell the developers and maybe they'll add it."
+msgstr "Turite idėją? Pasakykite kūrėjams ir galbūt jie ją pridės."
 
 #: ../../../lib/web/src/features/access/access-dialog.tsx:159
 msgid "Group"
 msgstr "Grupė"
 
-#: src/features/help/index.tsx:75
+#: src/features/help/index.tsx:74
+#: src/routes/_authenticated/route.tsx:13
 msgid "Help"
 msgstr "Pagalba"
 
-#: src/features/help/contribute-dialog.tsx:46
+#: src/features/help/contribute-dialog.tsx:51
 msgid "Hi, I'm…"
 msgstr "Sveiki, aš esu…"
 
@@ -426,10 +436,6 @@ msgstr "Pradžia"
 msgid "Hot"
 msgstr "Karšta"
 
-#: src/features/help/contribute-dialog.tsx:54
-msgid "I'm trying to…"
-msgstr "Bandau…"
-
 #: ../../../lib/web/src/lib/preference-utils.ts:83
 msgid "Imperial"
 msgstr "Imperinė"
@@ -442,7 +448,7 @@ msgstr "Įterptas"
 msgid "Interests"
 msgstr "Pomėgiai"
 
-#: src/features/help/contribute-dialog.tsx:43
+#: src/features/help/contribute-dialog.tsx:50
 #: src/features/help/index.tsx:28
 msgid "Introduce yourself"
 msgstr "Prisistatykite"
@@ -478,6 +484,7 @@ msgid "Load more"
 msgstr "Įkelti daugiau"
 
 #: ../../../lib/web/src/components/ui/load-more.tsx:32
+#: ../../../lib/web/src/features/document/document-page.tsx:87
 msgid "Loading…"
 msgstr "Įkeliama…"
 
@@ -619,19 +626,19 @@ msgstr "Kita"
 msgid "Owner"
 msgstr "Savininkas"
 
-#: src/features/help/contribute-dialog.tsx:105
+#: src/features/help/contribute-dialog.tsx:113
 msgid "Please try again."
 msgstr "Bandykite dar kartą."
 
-#: src/features/help/contribute-dialog.tsx:47
+#: src/features/help/contribute-dialog.tsx:52
 msgid "Post introduction"
 msgstr "Skelbti prisistatymą"
 
-#: src/features/help/contribute-dialog.tsx:55
+#: src/features/help/contribute-dialog.tsx:62
 msgid "Post question"
 msgstr "Skelbti klausimą"
 
-#: src/features/help/contribute-dialog.tsx:158
+#: src/features/help/contribute-dialog.tsx:174
 msgid "Posting…"
 msgstr "Skelbiama…"
 
@@ -639,7 +646,8 @@ msgstr "Skelbiama…"
 msgid "Previous image"
 msgstr "Ankstesnis paveikslėlis"
 
-#: ../../../lib/web/src/components/server-documents-footer.tsx:15
+#: ../../../lib/web/src/components/server-documents-footer.tsx:24
+#: ../../../lib/web/src/features/document/document-page.tsx:41
 msgid "Privacy"
 msgstr "Privatumas"
 
@@ -647,6 +655,10 @@ msgstr "Privatumas"
 #: ../../../lib/web/src/components/profile-dropdown.tsx:111
 msgid "Profile"
 msgstr "Profilis"
+
+#: src/features/help/contribute-dialog.tsx:58
+msgid "Question"
+msgstr "Klausimas"
 
 #: ../../../lib/web/src/components/search-entity-dialog.tsx:216
 #: ../../../lib/web/src/components/search-entity-page.tsx:191
@@ -687,12 +699,12 @@ msgstr "Šalinti prieigą?"
 msgid "Remove interest"
 msgstr "Šalinti susidomėjimą"
 
-#: src/features/help/contribute-dialog.tsx:59
+#: src/features/help/contribute-dialog.tsx:66
 #: src/features/help/index.tsx:40
 msgid "Report a bug"
 msgstr "Pranešti apie klaidą"
 
-#: src/features/help/contribute-dialog.tsx:65
+#: src/features/help/contribute-dialog.tsx:72
 msgid "Report bug"
 msgstr "Pranešti apie klaidą"
 
@@ -717,8 +729,8 @@ msgid "Saturday"
 msgstr "Šeštadienis"
 
 #: src/features/help/index.tsx:29
-msgid "Say hello on the Mochi users mailing list and tell everyone a little about yourself."
-msgstr "Pasisveikinkite Mochi naudotojų el. pašto sąraše ir šiek tiek papasakokite apie save."
+msgid "Say hello on the Mochi Users mailing list."
+msgstr "Pasisveikinkite Mochi Users adresų sąraše."
 
 #: ../../../lib/web/src/components/place-picker.tsx:82
 msgid "Search for a place"
@@ -790,7 +802,8 @@ msgstr "Pasirinkite temos nustatymą"
 msgid "Serif"
 msgstr "Serifinis"
 
-#: ../../../lib/web/src/components/server-documents-footer.tsx:7
+#: ../../../lib/web/src/components/server-documents-footer.tsx:16
+#: ../../../lib/web/src/features/document/document-page.tsx:37
 msgid "Server rules"
 msgstr "Serverio taisyklės"
 
@@ -808,11 +821,7 @@ msgstr "Nustatyti pradžią ir paskirties vietą"
 msgid "Settings"
 msgstr "Nustatymai"
 
-#: src/features/help/contribute-dialog.tsx:44
-msgid "Share a bit about yourself with the Mochi community. Your post will appear on the Mochi users mailing list."
-msgstr "Papasakokite šiek tiek apie save Mochi bendruomenei. Jūsų įrašas atsiras Mochi naudotojų el. pašto sąraše."
-
-#: src/features/help/contribute-dialog.tsx:72
+#: src/features/help/contribute-dialog.tsx:79
 msgid "Short title for your idea"
 msgstr "Trumpas jūsų idėjos pavadinimas"
 
@@ -843,33 +852,25 @@ msgstr "Mažas"
 msgid "Spacious"
 msgstr "Erdvus"
 
-#: src/features/help/index.tsx:41
-msgid "Spotted something broken? File a bug ticket on the Mochi development project."
-msgstr "Pastebėjote, kad kažkas neveikia? Užregistruokite klaidos bilietą Mochi kūrimo projekte."
-
 #: ../../../lib/web/src/components/coming-soon.tsx:12
 msgid "Stay tuned though!"
 msgstr "Bet būkite budrūs!"
-
-#: src/features/help/index.tsx:35
-msgid "Stuck on something? Ask the community on the Mochi users mailing list."
-msgstr "Užstrigote? Paklauskite bendruomenės Mochi naudotojų el. pašto sąraše."
 
 #: ../../../lib/web/src/features/access/access-list.tsx:187
 msgid "Subject"
 msgstr "Tema"
 
-#: src/features/help/contribute-dialog.tsx:69
+#: src/features/help/contribute-dialog.tsx:76
 #: src/features/help/index.tsx:46
-msgid "Suggest a new feature"
-msgstr "Pasiūlyti naują funkciją"
+msgid "Suggest a feature"
+msgstr "Pasiūlyti funkciją"
 
-#: src/features/help/contribute-dialog.tsx:75
+#: src/features/help/contribute-dialog.tsx:82
 msgid "Suggest feature"
 msgstr "Pasiūlyti funkciją"
 
-#: src/features/help/contribute-dialog.tsx:61
-#: src/features/help/contribute-dialog.tsx:71
+#: src/features/help/contribute-dialog.tsx:68
+#: src/features/help/contribute-dialog.tsx:78
 msgid "Summary"
 msgstr "Santrauka"
 
@@ -891,11 +892,12 @@ msgstr "Žyma"
 msgid "Teams/Apps"
 msgstr "Komandos / programėlės"
 
-#: src/features/help/contribute-dialog.tsx:70
+#: src/features/help/contribute-dialog.tsx:77
 msgid "Tell the Mochi development team what you'd like Mochi to do."
 msgstr "Pasakykite Mochi kūrėjų komandai, ką norėtumėte, kad Mochi darytų."
 
-#: ../../../lib/web/src/components/server-documents-footer.tsx:11
+#: ../../../lib/web/src/components/server-documents-footer.tsx:20
+#: ../../../lib/web/src/features/document/document-page.tsx:39
 msgid "Terms and conditions"
 msgstr "Sąlygos ir nuostatos"
 
@@ -1037,22 +1039,22 @@ msgstr "Svetainė atnaujinama!"
 msgid "Wednesday"
 msgstr "Trečiadienis"
 
-#: src/features/help/index.tsx:76
-msgid "Welcome to Mochi. Here's how to get started."
-msgstr "Sveiki atvykę į Mochi. Štai kaip pradėti."
-
-#: src/features/help/contribute-dialog.tsx:64
+#: src/features/help/contribute-dialog.tsx:71
 msgid "What did you do, what did you expect, what happened instead?"
 msgstr "Ką darėte, ko tikėjotės, kas nutiko vietoj to?"
 
-#: src/features/help/contribute-dialog.tsx:63
+#: src/features/help/contribute-dialog.tsx:70
 msgid "What happened"
 msgstr "Kas nutiko"
 
-#: src/features/help/contribute-dialog.tsx:74
+#: src/features/help/contribute-dialog.tsx:61
+msgid "What have you tried, what did you expect, where are you stuck?"
+msgstr "Ką bandėte, ko tikėjotės, kur užstrigote?"
+
+#: src/features/help/contribute-dialog.tsx:81
 msgid "What would it do, who is it for, why does it matter?"
 msgstr "Ką ji darytų, kam ji skirta, kodėl tai svarbu?"
 
-#: src/features/help/contribute-dialog.tsx:53
-msgid "Your question"
-msgstr "Jūsų klausimas"
+#: src/features/help/contribute-dialog.tsx:59
+msgid "What you want to ask, in one line"
+msgstr "Ką norite paklausti, vienoje eilutėje"
