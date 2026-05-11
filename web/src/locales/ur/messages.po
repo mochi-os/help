@@ -1,0 +1,1058 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2026-05-02 15:23+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: ur\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Plural-Forms: \n"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:39
+msgid "12 hours"
+msgstr "12 گھنٹے"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:38
+msgid "24 hours"
+msgstr "24 گھنٹے"
+
+#: src/features/help/contribute-dialog.tsx:45
+msgid "About you"
+msgstr "آپ کے بارے میں"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:48
+msgid "Absolute (date and time)"
+msgstr "مطلق (تاریخ اور وقت)"
+
+#: ../../../lib/web/src/features/errors/forbidden.tsx:12
+msgid "Access Forbidden"
+msgstr "رسائی ممنوع"
+
+#: ../../../lib/web/src/features/access/access-list.tsx:188
+msgid "Access level"
+msgstr "رسائی کی سطح"
+
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:208
+msgid "Account added"
+msgstr "اکاؤنٹ شامل کر دیا گیا"
+
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:224
+msgid "Account removed"
+msgstr "اکاؤنٹ ہٹا دیا گیا"
+
+#: ../../../lib/web/src/features/accounts/account-add.tsx:123
+msgid "Account type"
+msgstr "اکاؤنٹ کی قسم"
+
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:234
+msgid "Account verified"
+msgstr "اکاؤنٹ تصدیق شدہ"
+
+#: ../../../lib/web/src/features/accounts/account-add.tsx:117
+msgid "Add a new account"
+msgstr "نیا اکاؤنٹ شامل کریں"
+
+#: ../../../lib/web/src/features/access/access-dialog.tsx:145
+msgid "Add access"
+msgstr "رسائی شامل کریں"
+
+#: ../../../lib/web/src/features/accounts/account-add.tsx:116
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:280
+msgid "Add account"
+msgstr "اکاؤنٹ شامل کریں"
+
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:289
+msgid "Add an account to receive notifications and use services."
+msgstr "نوٹیفکیشنز وصول کرنے اور سروسز استعمال کرنے کے لیے اکاؤنٹ شامل کریں۔"
+
+#: ../../../lib/web/src/features/accounts/account-picker.tsx:98
+msgid "Add new account"
+msgstr "نیا اکاؤنٹ شامل کریں"
+
+#: ../../../lib/web/src/components/post-tags.tsx:119
+msgid "Add tag..."
+msgstr "ٹیگ شامل کریں..."
+
+#: ../../../lib/web/src/components/layout/team-switcher.tsx:80
+msgid "Add team/app"
+msgstr "ٹیم/ایپ شامل کریں"
+
+#: ../../../lib/web/src/features/accounts/account-add.tsx:159
+msgid "Add to existing notifications"
+msgstr "موجودہ نوٹیفکیشنز میں شامل کریں"
+
+#: ../../../lib/web/src/components/view-tabs.tsx:57
+msgid "Add view"
+msgstr "ویو شامل کریں"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:62
+msgid "Adjust the appearance and layout to suit your preferences."
+msgstr "اپنی ترجیحات کے مطابق ظاہری شکل اور layout کو ایڈجسٹ کریں۔"
+
+#: ../../../lib/web/src/components/ui/sort-selector.tsx:38
+msgid "AI"
+msgstr "AI"
+
+#: ../../../lib/web/src/components/notifications-dropdown.tsx:159
+msgid "All"
+msgstr "تمام"
+
+#: ../../../lib/web/src/components/sign-out-dialog.tsx:24
+msgid "Are you sure you want to log out? You will need to log in again to access your account."
+msgstr "کیا آپ واقعی لاگ آؤٹ کرنا چاہتے ہیں؟ آپ کو اپنے اکاؤنٹ تک رسائی کے لیے دوبارہ لاگ ان کرنا ہوگا۔"
+
+#: ../../../lib/web/src/components/data-table/column-header.tsx:56
+msgid "Asc"
+msgstr "بڑھتا ہوا"
+
+#: src/features/help/contribute-dialog.tsx:51
+#: src/features/help/index.tsx:34
+msgid "Ask a question"
+msgstr "سوال پوچھیں"
+
+#: src/features/help/contribute-dialog.tsx:52
+msgid "Ask the community on the Mochi users mailing list. Be specific about what you've tried so far."
+msgstr "Mochi صارفین کی میلنگ لسٹ پر کمیونٹی سے پوچھیں۔ اب تک آپ نے کیا کوشش کی ہے، اس کے بارے میں واضح رہیں۔"
+
+#: ../../../lib/web/src/components/place-picker.tsx:152
+msgid "Back"
+msgstr "واپس"
+
+#: ../../../lib/web/src/features/errors/forbidden.tsx:21
+#: ../../../lib/web/src/features/errors/not-found-error.tsx:21
+#: ../../../lib/web/src/features/errors/unauthorized-error.tsx:21
+msgid "Back to Home"
+msgstr "ہوم پر واپس"
+
+#: ../../../lib/web/src/components/post-tags.tsx:160
+msgid "Boost interest"
+msgstr "دلچسپی بڑھائیں"
+
+#: src/features/help/contribute-dialog.tsx:62
+msgid "Brief summary of the problem"
+msgstr "مسئلے کا مختصر خلاصہ"
+
+#: ../../../lib/web/src/components/responsive-confirm-dialog.tsx:64
+#: ../../../lib/web/src/components/travelling-picker.tsx:292
+#: ../../../lib/web/src/components/ui/create-entity-dialog.tsx:245
+#: ../../../lib/web/src/features/access/access-dialog.tsx:325
+#: ../../../lib/web/src/features/access/access-list.tsx:255
+#: ../../../lib/web/src/features/accounts/account-add.tsx:185
+#: ../../../lib/web/src/features/accounts/account-verify.tsx:86
+#: src/features/help/contribute-dialog.tsx:149
+msgid "Cancel"
+msgstr "منسوخ کریں"
+
+#: ../../../lib/web/src/components/notification-category-button.tsx:131
+msgid "Category for this notification"
+msgstr "اس نوٹیفکیشن کے لیے زمرہ"
+
+#: ../../../lib/web/src/components/notification-category-button.tsx:115
+msgid "Change notification category"
+msgstr "نوٹیفکیشن کا زمرہ تبدیل کریں"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:315
+msgid "Choose between default expanded, compact icon-only, or full layout mode"
+msgstr "ڈیفالٹ توسیع شدہ، کمپیکٹ صرف آئیکن، یا مکمل layout موڈ میں سے منتخب کریں"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:257
+msgid "Choose between inset, floating, or standard sidebar layout"
+msgstr "Inset، floating، یا معیاری سائڈ بار layout میں سے منتخب کریں"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:358
+msgid "Choose between left-to-right or right-to-left site direction"
+msgstr "بائیں سے دائیں یا دائیں سے بائیں سائٹ کی سمت میں سے منتخب کریں"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:213
+msgid "Choose between system preference, light mode, or dark mode"
+msgstr "سسٹم کی ترجیح، light موڈ، یا dark موڈ میں سے منتخب کریں"
+
+#: ../../../lib/web/src/components/language-picker.tsx:176
+msgid "Choose language"
+msgstr "زبان منتخب کریں"
+
+#: ../../../lib/web/src/components/colour-picker.tsx:304
+msgid "Clear"
+msgstr "صاف کریں"
+
+#: ../../../lib/web/src/components/filter-bar.tsx:64
+msgid "Clear all"
+msgstr "سب صاف کریں"
+
+#: ../../../lib/web/src/components/data-table/faceted-filter.tsx:137
+msgid "Clear filters"
+msgstr "Filters صاف کریں"
+
+#: ../../../lib/web/src/components/data-table/bulk-actions.tsx:164
+#: ../../../lib/web/src/components/data-table/bulk-actions.tsx:168
+msgid "Clear selection"
+msgstr "انتخاب صاف کریں"
+
+#: ../../../lib/web/src/components/data-table/bulk-actions.tsx:165
+msgid "Clear selection (Escape)"
+msgstr "انتخاب صاف کریں (Escape)"
+
+#: ../../../lib/web/src/components/ui/dialog.tsx:75
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:318
+#: ../../../lib/web/src/components/ui/sheet.tsx:76
+msgid "Close"
+msgstr "بند کریں"
+
+#: ../../../lib/web/src/components/layout/app-sidebar.tsx:97
+msgid "Close navigation"
+msgstr "نیویگیشن بند کریں"
+
+#: ../../../lib/web/src/components/layout/right-panel.tsx:254
+msgid "Close Panel"
+msgstr "پینل بند کریں"
+
+#: ../../../lib/web/src/components/header-search.tsx:51
+msgid "Close search"
+msgstr "تلاش بند کریں"
+
+#: ../../../lib/web/src/components/layout/app-sidebar.tsx:35
+msgid "Collapse sidebar"
+msgstr "سائڈ بار سکیڑیں"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:93
+msgid "Comfortable"
+msgstr "آرام دہ"
+
+#: ../../../lib/web/src/components/coming-soon.tsx:9
+msgid "Coming Soon!"
+msgstr "جلد آرہا ہے!"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:302
+#: ../../../lib/web/src/lib/preference-utils.ts:92
+msgid "Compact"
+msgstr "کمپیکٹ"
+
+#: ../../../lib/web/src/components/place-picker.tsx:155
+#: ../../../lib/web/src/components/travelling-picker.tsx:299
+msgid "Confirm"
+msgstr "تصدیق کریں"
+
+#: ../../../lib/web/src/lib/query-client.ts:78
+msgid "Content not modified"
+msgstr "مواد میں ترمیم نہیں"
+
+#: ../../../lib/web/src/components/layout/right-panel.tsx:145
+msgid "Contextual information and details."
+msgstr "سیاق و سباق کی معلومات اور تفصیلات۔"
+
+#: ../../../lib/web/src/components/responsive-confirm-dialog.tsx:72
+msgid "Continue"
+msgstr "جاری رکھیں"
+
+#: ../../../lib/web/src/components/ui/copy-button.tsx:60
+msgid "Copy"
+msgstr "کاپی کریں"
+
+#: src/features/help/index.tsx:66
+msgid "Couldn't reach the destination yet"
+msgstr "ابھی منزل تک نہیں پہنچ سکے"
+
+#: src/features/help/contribute-dialog.tsx:104
+msgid "Couldn't submit"
+msgstr "جمع نہیں ہو سکا"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:205
+#: ../../../lib/web/src/lib/preference-utils.ts:17
+msgid "Dark"
+msgstr "Dark"
+
+#: ../../../lib/web/src/components/layout/nav-user.tsx:88
+#: ../../../lib/web/src/components/layout/nav-user.tsx:151
+#: ../../../lib/web/src/components/layout/nav-user.tsx:202
+#: ../../../lib/web/src/components/profile-dropdown.tsx:84
+#: ../../../lib/web/src/components/profile-dropdown.tsx:120
+msgid "Dark mode"
+msgstr "Dark موڈ"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:297
+msgid "Default"
+msgstr "ڈیفالٹ"
+
+#: ../../../lib/web/src/features/accounts/account-add.tsx:169
+msgid "Default AI account"
+msgstr "ڈیفالٹ AI اکاؤنٹ"
+
+#: ../../../lib/web/src/components/data-table/column-header.tsx:60
+msgid "Desc"
+msgstr "گھٹتا ہوا"
+
+#: src/features/help/contribute-dialog.tsx:60
+msgid "Describe what went wrong. The Mochi development team will see it on the Mochi development project."
+msgstr "بیان کریں کہ کیا غلط ہوا۔ Mochi ڈیولپمنٹ ٹیم اسے Mochi ڈیولپمنٹ پروجیکٹ پر دیکھے گی۔"
+
+#: src/features/help/contribute-dialog.tsx:73
+msgid "Details"
+msgstr "تفصیلات"
+
+#: ../../../lib/web/src/components/layout/right-panel.tsx:144
+msgid "Details Panel"
+msgstr "تفصیلات کا پینل"
+
+#: ../../../lib/web/src/components/language-picker.tsx:154
+#: ../../../lib/web/src/components/timezone-select.tsx:43
+#: ../../../lib/web/src/components/timezone-select.tsx:80
+#: ../../../lib/web/src/lib/preference-utils.ts:25
+#: ../../../lib/web/src/lib/preference-utils.ts:37
+#: ../../../lib/web/src/lib/preference-utils.ts:55
+#: ../../../lib/web/src/lib/preference-utils.ts:69
+#: ../../../lib/web/src/lib/preference-utils.ts:81
+msgid "Detect from web browser"
+msgstr "ویب براؤزر سے پتہ لگائیں"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:327
+msgid "Direction"
+msgstr "سمت"
+
+#: ../../../lib/web/src/components/ui/sidebar.tsx:235
+msgid "Displays the mobile sidebar."
+msgstr "موبائل سائڈبار دکھاتا ہے۔"
+
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:312
+msgid "Download"
+msgstr "ڈاؤن لوڈ"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:134
+msgid "Dyslexia-friendly"
+msgstr "ڈسلیکسیا کے لیے موزوں"
+
+#: ../../../lib/web/src/components/layout/app-sidebar.tsx:35
+msgid "Expand sidebar"
+msgstr "سائڈبار پھیلائیں"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:124
+msgid "Extra large"
+msgstr "بہت بڑا"
+
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:217
+msgid "Failed to add account"
+msgstr "اکاؤنٹ شامل کرنے میں ناکامی"
+
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:226
+msgid "Failed to remove account"
+msgstr "اکاؤنٹ ہٹانے میں ناکامی"
+
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:249
+msgid "Failed to send verification code"
+msgstr "تصدیقی کوڈ بھیجنے میں ناکامی"
+
+#: ../../../lib/web/src/components/notification-category-button.tsx:104
+msgid "Failed to update category"
+msgstr "زمرہ اپڈیٹ کرنے میں ناکامی"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:244
+msgid "Floating"
+msgstr "فلوٹنگ"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:60
+msgid "Friday"
+msgstr "جمعہ"
+
+#: ../../../lib/web/src/components/travelling-picker.tsx:149
+msgid "From"
+msgstr "سے"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:91
+#: ../../../lib/web/src/lib/preference-utils.ts:101
+#: ../../../lib/web/src/lib/preference-utils.ts:112
+#: ../../../lib/web/src/lib/preference-utils.ts:120
+#: ../../../lib/web/src/lib/preference-utils.ts:131
+msgid "From theme"
+msgstr "تھیم سے"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:307
+msgid "Full layout"
+msgstr "مکمل لے آؤٹ"
+
+#: ../../../lib/web/src/features/errors/forbidden.tsx:19
+#: ../../../lib/web/src/features/errors/not-found-error.tsx:19
+#: ../../../lib/web/src/features/errors/unauthorized-error.tsx:19
+msgid "Go Back"
+msgstr "واپس جائیں"
+
+#: ../../../lib/web/src/components/data-table/pagination.tsx:75
+msgid "Go to first page"
+msgstr "پہلے صفحے پر جائیں"
+
+#: ../../../lib/web/src/components/data-table/pagination.tsx:121
+msgid "Go to last page"
+msgstr "آخری صفحے پر جائیں"
+
+#: ../../../lib/web/src/components/data-table/pagination.tsx:112
+msgid "Go to next page"
+msgstr "اگلے صفحے پر جائیں"
+
+#: ../../../lib/web/src/components/data-table/pagination.tsx:84
+msgid "Go to previous page"
+msgstr "پچھلے صفحے پر جائیں"
+
+#: src/features/help/index.tsx:47
+msgid "Got an idea? Open a feature request on the Mochi development project."
+msgstr "کوئی خیال ہے؟ Mochi ڈیولپمنٹ پروجیکٹ پر فیچر ریکوئسٹ کھولیں۔"
+
+#: ../../../lib/web/src/features/access/access-dialog.tsx:159
+msgid "Group"
+msgstr "گروپ"
+
+#: src/features/help/index.tsx:75
+msgid "Help"
+msgstr "مدد"
+
+#: src/features/help/contribute-dialog.tsx:46
+msgid "Hi, I'm…"
+msgstr "ہیلو، میں…"
+
+#: ../../../lib/web/src/components/data-table/column-header.tsx:67
+msgid "Hide"
+msgstr "چھپائیں"
+
+#: ../../../lib/web/src/components/layout/app-sidebar.tsx:82
+#: ../../../lib/web/src/components/layout/mochi-menu.tsx:142
+#: ../../../lib/web/src/components/layout/top-bar.tsx:62
+#: ../../../lib/web/src/components/layout/top-bar.tsx:91
+msgid "Home"
+msgstr "ہوم"
+
+#: ../../../lib/web/src/components/ui/sort-selector.tsx:41
+msgid "Hot"
+msgstr "ہاٹ"
+
+#: src/features/help/contribute-dialog.tsx:54
+msgid "I'm trying to…"
+msgstr "میں کوشش کر رہا ہوں…"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:83
+msgid "Imperial"
+msgstr "امپیریل"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:239
+msgid "Inset"
+msgstr "انسیٹ"
+
+#: ../../../lib/web/src/components/ui/sort-selector.tsx:39
+msgid "Interests"
+msgstr "دلچسپیاں"
+
+#: src/features/help/contribute-dialog.tsx:43
+#: src/features/help/index.tsx:28
+msgid "Introduce yourself"
+msgstr "اپنا تعارف کروائیں"
+
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:237
+msgid "Invalid verification code"
+msgstr "غلط تصدیقی کوڈ"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:105
+#: ../../../lib/web/src/lib/preference-utils.ts:123
+msgid "Large"
+msgstr "بڑا"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:273
+msgid "Layout"
+msgstr "لے آؤٹ"
+
+#: ../../../lib/web/src/components/learn-more.tsx:27
+msgid "Learn more"
+msgstr "مزید جانیں"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:341
+msgid "Left to Right"
+msgstr "بائیں سے دائیں"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:200
+#: ../../../lib/web/src/lib/preference-utils.ts:16
+msgid "Light"
+msgstr "لائٹ"
+
+#: ../../../lib/web/src/components/ui/load-more.tsx:32
+msgid "Load more"
+msgstr "مزید لوڈ کریں"
+
+#: ../../../lib/web/src/components/ui/load-more.tsx:32
+msgid "Loading…"
+msgstr "لوڈ ہو رہا ہے…"
+
+#: ../../../lib/web/src/components/layout/nav-user.tsx:98
+#: ../../../lib/web/src/components/layout/nav-user.tsx:164
+#: ../../../lib/web/src/components/layout/nav-user.tsx:212
+#: ../../../lib/web/src/components/profile-dropdown.tsx:66
+#: ../../../lib/web/src/components/profile-dropdown.tsx:95
+#: ../../../lib/web/src/components/sign-out-dialog.tsx:23
+#: ../../../lib/web/src/components/sign-out-dialog.tsx:25
+msgid "Log out"
+msgstr "لاگ آؤٹ"
+
+#: ../../../lib/web/src/hooks/use-logout.ts:16
+msgid "Logged out (with errors)"
+msgstr "لاگ آؤٹ ہو گئے (خرابیوں کے ساتھ)"
+
+#: ../../../lib/web/src/hooks/use-logout.ts:14
+msgid "Logged out successfully"
+msgstr "کامیابی سے لاگ آؤٹ ہو گئے"
+
+#: ../../../lib/web/src/components/sign-out-dialog.tsx:25
+msgid "Logging out…"
+msgstr "لاگ آؤٹ ہو رہا ہے…"
+
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:86
+#: ../../../lib/web/src/components/notifications-dropdown.tsx:220
+msgid "Mark all as read"
+msgstr "سب کو پڑھا ہوا نشان زد کریں"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:104
+msgid "Medium"
+msgstr "درمیانہ"
+
+#: ../../../lib/web/src/components/layout/mochi-menu.tsx:152
+msgid "Menu"
+msgstr "مینو"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:82
+msgid "Metric"
+msgstr "metric"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:56
+msgid "Monday"
+msgstr "پیر"
+
+#: ../../../lib/web/src/components/ui/sort-selector.tsx:40
+msgid "New"
+msgstr "نیا"
+
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:342
+msgid "Next image"
+msgstr "اگلی تصویر"
+
+#: ../../../lib/web/src/features/access/access-list.tsx:156
+msgid "No access rules configured. Add rules to control who can access this resource."
+msgstr "کوئی access rules configure نہیں ہیں۔ یہ کنٹرول کرنے کے لیے rules شامل کریں کہ اس resource تک کون رسائی حاصل کر سکتا ہے۔"
+
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:287
+msgid "No connected accounts"
+msgstr "کوئی منسلک اکاؤنٹس نہیں"
+
+#: ../../../lib/web/src/features/access/access-dialog.tsx:238
+msgid "No groups available"
+msgstr "کوئی گروپ دستیاب نہیں"
+
+#: ../../../lib/web/src/components/language-picker.tsx:186
+msgid "No matches."
+msgstr "کوئی matches نہیں۔"
+
+#: ../../../lib/web/src/components/place-picker.tsx:129
+msgid "No places found"
+msgstr "کوئی مقامات نہیں ملے"
+
+#: ../../../lib/web/src/components/profile-dropdown.tsx:55
+msgid "No profile"
+msgstr "کوئی پروفائل نہیں"
+
+#: ../../../lib/web/src/components/command-menu.tsx:52
+#: ../../../lib/web/src/components/data-table/faceted-filter.tsx:87
+msgid "No results found."
+msgstr "کوئی نتائج نہیں ملے۔"
+
+#: ../../../lib/web/src/components/timezone-select.tsx:64
+msgid "No time zone found."
+msgstr "کوئی time zone نہیں ملا۔"
+
+#: ../../../lib/web/src/components/notification-category-button.tsx:135
+msgid "No topic record yet — try again after the next notification."
+msgstr "ابھی تک کوئی topic record نہیں — اگلی notification کے بعد دوبارہ کوشش کریں۔"
+
+#: ../../../lib/web/src/features/access/access-dialog.tsx:203
+msgid "No users found"
+msgstr "کوئی صارفین نہیں ملے"
+
+#: ../../../lib/web/src/components/person-picker.tsx:349
+#: ../../../lib/web/src/lib/preference-utils.ts:102
+#: ../../../lib/web/src/lib/preference-utils.ts:113
+msgid "None"
+msgstr "کوئی نہیں"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:122
+msgid "Normal"
+msgstr "عام"
+
+#: ../../../lib/web/src/components/notifications-dropdown.tsx:132
+#: ../../../lib/web/src/components/notifications-dropdown.tsx:146
+#: ../../../lib/web/src/components/notifications-dropdown.tsx:247
+msgid "Notifications"
+msgstr "notifications"
+
+#: ../../../lib/web/src/features/errors/not-found-error.tsx:12
+msgid "Oops! Page Not Found!"
+msgstr "اوہ! صفحہ نہیں ملا!"
+
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:150
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:151
+msgid "Open account actions"
+msgstr "اکاؤنٹ کی actions کھولیں"
+
+#: ../../../lib/web/src/components/layout/top-bar.tsx:57
+msgid "Open navigation"
+msgstr "navigation کھولیں"
+
+#: ../../../lib/web/src/components/layout/top-nav.tsx:32
+#: ../../../lib/web/src/components/layout/top-nav.tsx:33
+msgid "Open navigation menu"
+msgstr "navigation مینو کھولیں"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:51
+msgid "Open theme settings"
+msgstr "تھیم سیٹنگز کھولیں"
+
+#: ../../../lib/web/src/features/access/access-dialog.tsx:163
+msgid "Other"
+msgstr "دیگر"
+
+#: ../../../lib/web/src/features/access/access-list.tsx:213
+msgid "Owner"
+msgstr "مالک"
+
+#: src/features/help/contribute-dialog.tsx:105
+msgid "Please try again."
+msgstr "براہ کرم دوبارہ کوشش کریں۔"
+
+#: src/features/help/contribute-dialog.tsx:47
+msgid "Post introduction"
+msgstr "تعارف پوسٹ کریں"
+
+#: src/features/help/contribute-dialog.tsx:55
+msgid "Post question"
+msgstr "سوال پوسٹ کریں"
+
+#: src/features/help/contribute-dialog.tsx:158
+msgid "Posting…"
+msgstr "پوسٹ ہو رہی ہے…"
+
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:332
+msgid "Previous image"
+msgstr "پچھلی تصویر"
+
+#: ../../../lib/web/src/components/server-documents-footer.tsx:15
+msgid "Privacy"
+msgstr "پرائیویسی"
+
+#: ../../../lib/web/src/components/layout/nav-user.tsx:134
+#: ../../../lib/web/src/components/profile-dropdown.tsx:111
+msgid "Profile"
+msgstr "پروفائل"
+
+#: ../../../lib/web/src/components/search-entity-dialog.tsx:216
+#: ../../../lib/web/src/components/search-entity-page.tsx:191
+msgid "Recommended"
+msgstr "تجویز کردہ"
+
+#: ../../../lib/web/src/components/layout/authenticated-layout.tsx:130
+msgid "Redirecting to login."
+msgstr "لاگ ان پر redirect ہو رہا ہے۔"
+
+#: ../../../lib/web/src/components/post-tags.tsx:175
+msgid "Reduce interest"
+msgstr "دلچسپی کم کریں"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:47
+msgid "Relative (5m, 3h, 2d)"
+msgstr "نسبتی (5m، 3h، 2d)"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:46
+msgid "Relative within 24 hours, else absolute"
+msgstr "24 گھنٹوں کے اندر نسبتی، ورنہ مطلق"
+
+#: ../../../lib/web/src/features/access/access-list.tsx:257
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:172
+msgid "Remove"
+msgstr "ہٹائیں"
+
+#: ../../../lib/web/src/features/access/access-list.tsx:241
+#: ../../../lib/web/src/features/access/access-list.tsx:242
+msgid "Remove access rule"
+msgstr "access rule ہٹائیں"
+
+#: ../../../lib/web/src/features/access/access-list.tsx:249
+msgid "Remove access?"
+msgstr "رسائی ہٹائیں؟"
+
+#: ../../../lib/web/src/components/post-tags.tsx:190
+msgid "Remove interest"
+msgstr "دلچسپی ہٹائیں"
+
+#: src/features/help/contribute-dialog.tsx:59
+#: src/features/help/index.tsx:40
+msgid "Report a bug"
+msgstr "بگ رپورٹ کریں"
+
+#: src/features/help/contribute-dialog.tsx:65
+msgid "Report bug"
+msgstr "بگ رپورٹ"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:77
+msgid "Reset"
+msgstr "reset کریں"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:75
+msgid "Reset all settings to default values"
+msgstr "تمام سیٹنگز کو ڈیفالٹ ویلیوز پر reset کریں"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:348
+msgid "Right to Left"
+msgstr "دائیں سے بائیں"
+
+#: ../../../lib/web/src/components/data-table/pagination.tsx:60
+msgid "Rows per page"
+msgstr "ہر صفحے پر قطاریں"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:61
+msgid "Saturday"
+msgstr "ہفتہ"
+
+#: src/features/help/index.tsx:29
+msgid "Say hello on the Mochi users mailing list and tell everyone a little about yourself."
+msgstr "Mochi صارفین کی میلنگ لسٹ پر سلام کہیں اور سب کو اپنے بارے میں تھوڑا بتائیں۔"
+
+#: ../../../lib/web/src/components/place-picker.tsx:82
+msgid "Search for a place"
+msgstr "جگہ تلاش کریں"
+
+#: ../../../lib/web/src/components/travelling-picker.tsx:234
+msgid "Search for destination..."
+msgstr "منزل تلاش کریں..."
+
+#: ../../../lib/web/src/components/travelling-picker.tsx:173
+msgid "Search for origin..."
+msgstr "ابتدائی مقام تلاش کریں..."
+
+#: ../../../lib/web/src/components/timezone-select.tsx:62
+msgid "Search time zone..."
+msgstr "ٹائم زون تلاش کریں..."
+
+#: ../../../lib/web/src/features/access/access-dialog.tsx:170
+msgid "Search users"
+msgstr "صارفین تلاش کریں"
+
+#: ../../../lib/web/src/components/person-picker.tsx:323
+msgid "Search..."
+msgstr "تلاش کریں..."
+
+#: ../../../lib/web/src/components/language-picker.tsx:184
+msgid "Search…"
+msgstr "تلاش کریں…"
+
+#: ../../../lib/web/src/components/search-entity-dialog.tsx:174
+#: ../../../lib/web/src/components/search-entity-page.tsx:149
+#: ../../../lib/web/src/features/access/access-dialog.tsx:199
+msgid "Searching..."
+msgstr "تلاش کیا جا رہا ہے..."
+
+#: ../../../lib/web/src/features/access/access-dialog.tsx:147
+msgid "Select a user, group, or other rule to grant access."
+msgstr "رسائی دینے کے لیے صارف، گروپ، یا کوئی اور قاعدہ منتخب کریں۔"
+
+#: ../../../lib/web/src/features/access/access-dialog.tsx:270
+msgid "Select access rule"
+msgstr "رسائی کا قاعدہ منتخب کریں"
+
+#: ../../../lib/web/src/features/accounts/account-add.tsx:126
+msgid "Select account type"
+msgstr "اکاؤنٹ کی قسم منتخب کریں"
+
+#: ../../../lib/web/src/features/access/access-dialog.tsx:228
+msgid "Select group"
+msgstr "گروپ منتخب کریں"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:291
+msgid "Select layout style"
+msgstr "لے آؤٹ سٹائل منتخب کریں"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:233
+msgid "Select sidebar style"
+msgstr "سائڈبار سٹائل منتخب کریں"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:335
+msgid "Select site direction"
+msgstr "سائٹ کی سمت منتخب کریں"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:189
+msgid "Select theme preference"
+msgstr "تھیم کی ترجیح منتخب کریں"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:133
+msgid "Serif"
+msgstr "سیرف"
+
+#: ../../../lib/web/src/components/server-documents-footer.tsx:7
+msgid "Server rules"
+msgstr "سرور قواعد"
+
+#: ../../../lib/web/src/lib/api-client.ts:224
+msgid "Session expired"
+msgstr "سیشن کی میعاد ختم ہو گئی"
+
+#: ../../../lib/web/src/components/travelling-picker.tsx:143
+msgid "Set origin and destination"
+msgstr "ابتدائی مقام اور منزل مقرر کریں"
+
+#: ../../../lib/web/src/components/layout/nav-user.tsx:81
+#: ../../../lib/web/src/components/layout/nav-user.tsx:145
+#: ../../../lib/web/src/components/layout/nav-user.tsx:195
+msgid "Settings"
+msgstr "سیٹنگز"
+
+#: src/features/help/contribute-dialog.tsx:44
+msgid "Share a bit about yourself with the Mochi community. Your post will appear on the Mochi users mailing list."
+msgstr "Mochi کمیونٹی کے ساتھ اپنے بارے میں کچھ شیئر کریں۔ آپ کی پوسٹ Mochi صارفین کی میلنگ لسٹ پر ظاہر ہوگی۔"
+
+#: src/features/help/contribute-dialog.tsx:72
+msgid "Short title for your idea"
+msgstr "اپنے خیال کا مختصر عنوان"
+
+#: ../../../lib/web/src/components/ui/load-more.tsx:36
+msgid "Showing {totalShown} of {total}"
+msgstr "{total} میں سے {totalShown} دکھائے جا رہے ہیں"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:225
+#: ../../../lib/web/src/components/config-drawer.tsx:249
+#: ../../../lib/web/src/components/ui/sidebar.tsx:234
+msgid "Sidebar"
+msgstr "سائڈبار"
+
+#: ../../../lib/web/src/components/layout/authenticated-layout.tsx:128
+msgid "Signing out..."
+msgstr "سائن آؤٹ کیا جا رہا ہے..."
+
+#: ../../../lib/web/src/components/skip-to-main.tsx:8
+msgid "Skip to Main"
+msgstr "مین پر جائیں"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:103
+#: ../../../lib/web/src/lib/preference-utils.ts:121
+msgid "Small"
+msgstr "چھوٹا"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:94
+msgid "Spacious"
+msgstr "کشادہ"
+
+#: src/features/help/index.tsx:41
+msgid "Spotted something broken? File a bug ticket on the Mochi development project."
+msgstr "کچھ خراب نظر آیا؟ Mochi ڈیولپمنٹ پروجیکٹ پر بگ ٹکٹ فائل کریں۔"
+
+#: ../../../lib/web/src/components/coming-soon.tsx:12
+msgid "Stay tuned though!"
+msgstr "البتہ منتظر رہیں!"
+
+#: src/features/help/index.tsx:35
+msgid "Stuck on something? Ask the community on the Mochi users mailing list."
+msgstr "کسی چیز میں پھنسے ہیں؟ Mochi صارفین کی میلنگ لسٹ پر کمیونٹی سے پوچھیں۔"
+
+#: ../../../lib/web/src/features/access/access-list.tsx:187
+msgid "Subject"
+msgstr "موضوع"
+
+#: src/features/help/contribute-dialog.tsx:69
+#: src/features/help/index.tsx:46
+msgid "Suggest a new feature"
+msgstr "نیا فیچر تجویز کریں"
+
+#: src/features/help/contribute-dialog.tsx:75
+msgid "Suggest feature"
+msgstr "فیچر تجویز کریں"
+
+#: src/features/help/contribute-dialog.tsx:61
+#: src/features/help/contribute-dialog.tsx:71
+msgid "Summary"
+msgstr "خلاصہ"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:62
+msgid "Sunday"
+msgstr "اتوار"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:195
+#: ../../../lib/web/src/lib/preference-utils.ts:18
+#: ../../../lib/web/src/lib/preference-utils.ts:132
+msgid "System"
+msgstr "سسٹم"
+
+#: ../../../lib/web/src/components/tag-input.tsx:91
+msgid "Tag"
+msgstr "ٹیگ"
+
+#: ../../../lib/web/src/components/layout/team-switcher.tsx:60
+msgid "Teams/Apps"
+msgstr "ٹیمز/ایپس"
+
+#: src/features/help/contribute-dialog.tsx:70
+msgid "Tell the Mochi development team what you'd like Mochi to do."
+msgstr "Mochi ڈیولپمنٹ ٹیم کو بتائیں کہ آپ Mochi سے کیا کرانا چاہتے ہیں۔"
+
+#: ../../../lib/web/src/components/server-documents-footer.tsx:11
+msgid "Terms and conditions"
+msgstr "شرائط و ضوابط"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:181
+msgid "Theme"
+msgstr "تھیم"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:60
+msgid "Theme Settings"
+msgstr "تھیم سیٹنگز"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:59
+msgid "Thursday"
+msgstr "جمعرات"
+
+#: ../../../lib/web/src/components/data-table/view-options.tsx:34
+msgid "Toggle columns"
+msgstr "کالم ٹوگل کریں"
+
+#: ../../../lib/web/src/components/layout/right-panel.tsx:227
+msgid "Toggle Right Panel"
+msgstr "دایاں پینل ٹوگل کریں"
+
+#: ../../../lib/web/src/components/ui/sidebar.tsx:312
+#: ../../../lib/web/src/components/ui/sidebar.tsx:324
+#: ../../../lib/web/src/components/ui/sidebar.tsx:327
+msgid "Toggle Sidebar"
+msgstr "سائڈبار ٹوگل کریں"
+
+#: ../../../lib/web/src/components/theme-switch.tsx:31
+msgid "Toggle theme"
+msgstr "تھیم ٹوگل کریں"
+
+#: ../../../lib/web/src/components/ui/sort-selector.tsx:42
+msgid "Top"
+msgstr "اوپر"
+
+#: ../../../lib/web/src/components/travelling-picker.tsx:141
+msgid "Travelling"
+msgstr "سفر کر رہے ہیں"
+
+#: ../../../lib/web/src/components/search-entity-dialog.tsx:190
+#: ../../../lib/web/src/components/search-entity-page.tsx:165
+msgid "Try adjusting your search terms"
+msgstr "اپنی تلاش کی اصطلاحات کو ایڈجسٹ کرنے کی کوشش کریں"
+
+#: ../../../lib/web/src/features/errors/general-error.tsx:125
+#: ../../../lib/web/src/features/errors/general-error.tsx:165
+#: ../../../lib/web/src/features/errors/maintenance-error.tsx:15
+msgid "Try again"
+msgstr "دوبارہ کوشش کریں"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:57
+msgid "Tuesday"
+msgstr "منگل"
+
+#: ../../../lib/web/src/components/command-menu.tsx:49
+msgid "Type a command or search..."
+msgstr "کمانڈ ٹائپ کریں یا تلاش کریں..."
+
+#: ../../../lib/web/src/features/access/access-dialog.tsx:188
+msgid "Type to search users"
+msgstr "صارفین تلاش کرنے کے لیے ٹائپ کریں"
+
+#: ../../../lib/web/src/features/access/access-dialog.tsx:180
+msgid "Type to search..."
+msgstr "تلاش کرنے کے لیے ٹائپ کریں..."
+
+#: ../../../lib/web/src/lib/auth-manager.ts:82
+#: ../../../lib/web/src/lib/auth-manager.ts:94
+msgid "Unable to redirect to login. Please try again."
+msgstr "لاگ ان پر ری ڈائریکٹ کرنے سے قاصر۔ براہ کرم دوبارہ کوشش کریں۔"
+
+#: ../../../lib/web/src/components/notification-category-button.tsx:143
+msgid "Unassigned"
+msgstr "غیر تفویض شدہ"
+
+#: ../../../lib/web/src/features/errors/unauthorized-error.tsx:12
+msgid "Unauthorized Access"
+msgstr "غیر مجاز رسائی"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:84
+msgid "United States"
+msgstr "ریاستہائے متحدہ"
+
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:131
+msgid "Unverified"
+msgstr "غیر تصدیق شدہ"
+
+#: ../../../lib/web/src/features/access/access-dialog.tsx:155
+msgid "User"
+msgstr "صارف"
+
+#: ../../../lib/web/src/features/accounts/account-verify.tsx:68
+msgid "Verification code"
+msgstr "تصدیقی کوڈ"
+
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:247
+msgid "Verification code sent"
+msgstr "تصدیقی کوڈ بھیج دیا گیا"
+
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:240
+msgid "Verification failed"
+msgstr "تصدیق ناکام"
+
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:164
+msgid "Verify"
+msgstr "تصدیق کریں"
+
+#: ../../../lib/web/src/features/accounts/account-verify.tsx:58
+msgid "Verify email address"
+msgstr "ای میل ایڈریس کی تصدیق کریں"
+
+#: ../../../lib/web/src/components/data-table/view-options.tsx:30
+msgid "View"
+msgstr "دیکھیں"
+
+#: ../../../lib/web/src/components/notifications-dropdown.tsx:173
+msgid "View all"
+msgstr "سب دیکھیں"
+
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:94
+msgid "View all notifications"
+msgstr "تمام نوٹیفکیشنز دیکھیں"
+
+#: ../../../lib/web/src/features/errors/maintenance-error.tsx:12
+msgid "We'll be back online shortly."
+msgstr "ہم جلد ہی واپس آن لائن ہوں گے۔"
+
+#: src/features/help/index.tsx:67
+msgid "We'll try again when you submit."
+msgstr "جب آپ جمع کریں گے تو ہم دوبارہ کوشش کریں گے۔"
+
+#: ../../../lib/web/src/features/errors/maintenance-error.tsx:9
+msgid "Website is under maintenance!"
+msgstr "ویب سائٹ مرمت کے تحت ہے!"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:58
+msgid "Wednesday"
+msgstr "بدھ"
+
+#: src/features/help/index.tsx:76
+msgid "Welcome to Mochi. Here's how to get started."
+msgstr "Mochi میں خوش آمدید۔ شروع کرنے کا طریقہ یہ ہے۔"
+
+#: src/features/help/contribute-dialog.tsx:64
+msgid "What did you do, what did you expect, what happened instead?"
+msgstr "آپ نے کیا کیا، آپ نے کیا توقع کی، اس کے بجائے کیا ہوا؟"
+
+#: src/features/help/contribute-dialog.tsx:63
+msgid "What happened"
+msgstr "کیا ہوا"
+
+#: src/features/help/contribute-dialog.tsx:74
+msgid "What would it do, who is it for, why does it matter?"
+msgstr "یہ کیا کرے گا، کس کے لیے ہے، یہ کیوں اہم ہے؟"
+
+#: src/features/help/contribute-dialog.tsx:53
+msgid "Your question"
+msgstr "آپ کا سوال"

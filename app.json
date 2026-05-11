@@ -1,0 +1,24 @@
+// Mochi Help app
+// Copyright Alistair Cunningham 2025-2026
+
+{
+	"version": "1.0",
+	"label": "app.name",
+	"paths": ["help"],
+
+	"architecture": {"engine": "starlark", "version": 4},
+	"execute": ["help.star"],
+
+	"icons": [
+		{"action": "", "label": "app.name", "file": "images/icon.svg"}
+	],
+
+	"actions": {
+		"": {"file": "web/dist/index.html"},
+		"assets": {"files": "web/dist/assets"},
+		"images": {"files": "web/dist/images"},
+		"-/visit": {"function": "action_visit"},
+		"-/prepare": {"function": "action_prepare"},
+		"-/contribute": {"function": "action_contribute"}
+	}
+}
