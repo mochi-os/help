@@ -55,13 +55,9 @@ export function Help() {
   const [openKind, setOpenKind] = useState<Kind | null>(null)
 
   useEffect(() => {
-    if (localStorage.getItem('help-visited') === 'true') return
-    helpApi
-      .visit()
-      .then(() => localStorage.setItem('help-visited', 'true'))
-      .catch(() => {
-        // Best-effort — failure here just leaves the home highlight in place.
-      })
+    helpApi.visit().catch(() => {
+      // Best-effort — failure here just leaves the home highlight in place.
+    })
   }, [])
 
   const handleCardClick = (kind: Kind) => {
