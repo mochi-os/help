@@ -20,7 +20,7 @@ BODY_MAX = 50000
 BODY_MIN = 20
 
 def action_visit(a):
-	if not a.user or not a.user.identity:
+	if not a.user:
 		a.error.label(401, "errors.not_logged_in")
 		return
 	a.user.preference.set("help.visited", "true")
@@ -41,7 +41,7 @@ def action_document_get(a):
 	a.json({"name": name, "body": body, "html": html})
 
 def action_prepare(a):
-	if not a.user or not a.user.identity:
+	if not a.user:
 		a.error.label(401, "errors.not_logged_in")
 		return
 
@@ -68,7 +68,7 @@ def action_prepare(a):
 	return {"data": result or {}}
 
 def action_contribute(a):
-	if not a.user or not a.user.identity:
+	if not a.user:
 		a.error.label(401, "errors.not_logged_in")
 		return
 
@@ -77,7 +77,7 @@ def action_contribute(a):
 		a.error.label(400, "errors.invalid_kind")
 		return
 
-	body = (a.input("body", "") or "").strip()
+	body = a.input("body", "").strip()
 	if len(body) < BODY_MIN:
 		a.error.label(400, "errors.body_is_required")
 		return
@@ -93,7 +93,7 @@ def action_contribute(a):
 	if kind == "intro":
 		title = _intro_title(a.user)
 	else:
-		title = (a.input("title", "") or "").strip()
+		title = a.input("title", "").strip()
 		if not title:
 			a.error.label(400, "errors.title_is_required")
 			return
@@ -133,7 +133,7 @@ def action_contribute(a):
 		return
 
 	fingerprint = result.get("fingerprint") if result else ""
-	if not fingerprint:
+	if not fingerprint or not mochi.text.valid(fingerprint, "fingerprint"):
 		a.error.label(502, "errors.no_fingerprint_returned")
 		return
 
@@ -145,8 +145,16 @@ def action_contribute(a):
 	if target["service"] == "forums":
 		redirect = "/forums/" + fingerprint + "/"
 	else:
+		# Defence-in-depth: the project owner is hardcoded to a trusted
+		# entity, but we still validate the returned object id before
+		# substituting it into a URL — a malformed value would render an
+		# unloadable page; an attacker-controlled value (if the trust
+		# boundary ever moves) could embed path traversal or query-string
+		# noise. Fall back to the project root when invalid.
 		obj_id = result.get("id", "") if result else ""
-		redirect = "/projects/" + fingerprint + "/" + obj_id if obj_id else "/projects/" + fingerprint + "/"
+		if obj_id and not mochi.text.valid(obj_id, "id"):
+			obj_id = ""
+		redirect = "/projects/" + fingerprint + "/" + obj_id
 
 	return {"data": {"redirect": redirect}}
 
@@ -166,11 +174,13 @@ def _intro_title(user):
 	return mochi.app.label("titles.intro", name=name)
 
 # Translate remote error keys (e.g. "errors.invalid_id") through the app's
-# label catalog before surfacing to the user. Falls back to the literal key.
+# label catalog before surfacing to the user. Non-prefixed remote errors are
+# replaced with a generic translated message — we don't pass arbitrary
+# remote-supplied text through to the user-facing error body.
 def _surface_remote_error(a, result):
 	code = result.get("code", 502)
 	err = result.get("error", "")
 	if err.startswith("errors."):
 		a.error.label(code, err)
 	else:
-		a.error(code, err or "Remote request failed")
+		a.error.label(code, "errors.remote_failed")
