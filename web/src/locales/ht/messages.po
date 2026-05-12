@@ -50,10 +50,10 @@ msgid "Account verified"
 msgstr "Kont verifye"
 
 #: src/features/help/contribute-dialog.tsx:100
-msgid "Actual"
-msgstr ""
+#~ msgid "Actual"
+#~ msgstr ""
 
-#: src/features/help/contribute-dialog.tsx:224
+#: src/features/help/contribute-dialog.tsx:249
 msgid "Add a bit more detail."
 msgstr ""
 
@@ -114,12 +114,12 @@ msgstr "Èske ou sèten ou vle dekonekte? Ou pral bezwen konekte ankò pou aksed
 msgid "Asc"
 msgstr "Mont"
 
-#: src/features/help/contribute-dialog.tsx:61
+#: src/features/help/contribute-dialog.tsx:77
 #: src/features/help/index.tsx:34
 msgid "Ask a question"
 msgstr "Poze yon kesyon"
 
-#: src/features/help/contribute-dialog.tsx:62
+#: src/features/help/contribute-dialog.tsx:78
 msgid "Ask the community on the Mochi users mailing list. Be specific about what you've tried so far."
 msgstr "Mande kominote a sou lis imèl itilizatè Mochi yo. Bay detay sou sa ou deja eseye."
 
@@ -137,13 +137,13 @@ msgstr "Retounen nan Akèy"
 msgid "Boost interest"
 msgstr "Ogmante enterè"
 
-#: src/features/help/contribute-dialog.tsx:74
+#: src/features/help/contribute-dialog.tsx:90
 msgid "Brief summary of the problem"
 msgstr "Rezime kout pwoblèm nan"
 
 #: src/features/help/contribute-dialog.tsx:102
-msgid "Browser / device"
-msgstr ""
+#~ msgid "Browser / device"
+#~ msgstr ""
 
 #: ../../../lib/web/src/components/responsive-confirm-dialog.tsx:64
 #: ../../../lib/web/src/components/travelling-picker.tsx:292
@@ -152,7 +152,7 @@ msgstr ""
 #: ../../../lib/web/src/features/access/access-list.tsx:255
 #: ../../../lib/web/src/features/accounts/account-add.tsx:185
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:86
-#: src/features/help/contribute-dialog.tsx:237
+#: src/features/help/contribute-dialog.tsx:262
 msgid "Cancel"
 msgstr "Anile"
 
@@ -262,8 +262,8 @@ msgid "Copy"
 msgstr "Kopye"
 
 #: ../../../lib/web/src/features/document/document-page.tsx:81
-#~ msgid "Could not load this document. Please try again later."
-#~ msgstr "Pa t kapab chaje dokiman sa a. Tanpri eseye ankò pita."
+msgid "Could not load this document. Please try again later."
+msgstr "Pa t kapab chaje dokiman sa a. Tanpri eseye ankò pita."
 
 #: src/features/help/index.tsx:66
 msgid "Couldn't reach the destination yet"
@@ -298,12 +298,12 @@ msgstr "Kont AI defo"
 msgid "Desc"
 msgstr "Desann"
 
-#: src/features/help/contribute-dialog.tsx:72
+#: src/features/help/contribute-dialog.tsx:88
 msgid "Describe what went wrong. The Mochi development team will see it on the Mochi development project."
 msgstr "Dekri sa ki pa t mache. Ekip devlopman Mochi a pral wè li sou pwojè devlopman Mochi a."
 
-#: src/features/help/contribute-dialog.tsx:65
-#: src/features/help/contribute-dialog.tsx:85
+#: src/features/help/contribute-dialog.tsx:81
+#: src/features/help/contribute-dialog.tsx:101
 msgid "Details"
 msgstr "Detay"
 
@@ -326,11 +326,11 @@ msgstr "Detekte nan navigatè web"
 msgid "Direction"
 msgstr "Direksyon"
 
-#: src/features/help/contribute-dialog.tsx:262
+#: src/features/help/contribute-dialog.tsx:287
 msgid "Discard"
 msgstr ""
 
-#: src/features/help/contribute-dialog.tsx:259
+#: src/features/help/contribute-dialog.tsx:284
 msgid "Discard draft?"
 msgstr ""
 
@@ -351,8 +351,8 @@ msgid "Expand sidebar"
 msgstr "Elaji ba kote"
 
 #: src/features/help/contribute-dialog.tsx:98
-msgid "Expected"
-msgstr ""
+#~ msgid "Expected"
+#~ msgstr ""
 
 #: ../../../lib/web/src/lib/preference-utils.ts:124
 msgid "Extra large"
@@ -441,16 +441,21 @@ msgid "Group"
 msgstr "Gwoup"
 
 #: src/features/help/index.tsx:75
+#: src/routes/_authenticated/route.tsx:13
 msgid "Help"
 msgstr "Èd"
 
-#: src/features/help/contribute-dialog.tsx:56
+#: src/features/help/contribute-dialog.tsx:72
 msgid "Hi, I'm…"
 msgstr "Bonjou, mwen se…"
 
 #: ../../../lib/web/src/components/data-table/column-header.tsx:67
 msgid "Hide"
 msgstr "Kache"
+
+#: src/features/help/contribute-dialog.tsx:229
+msgid "High"
+msgstr ""
 
 #: ../../../lib/web/src/components/layout/app-sidebar.tsx:82
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx:142
@@ -475,7 +480,7 @@ msgstr "Inset"
 msgid "Interests"
 msgstr "Enterè"
 
-#: src/features/help/contribute-dialog.tsx:55
+#: src/features/help/contribute-dialog.tsx:71
 #: src/features/help/index.tsx:28
 msgid "Introduce yourself"
 msgstr "Prezante tèt ou"
@@ -484,7 +489,7 @@ msgstr "Prezante tèt ou"
 msgid "Invalid verification code"
 msgstr "Kòd verifikasyon envalid"
 
-#: src/features/help/contribute-dialog.tsx:261
+#: src/features/help/contribute-dialog.tsx:286
 msgid "Keep editing"
 msgstr ""
 
@@ -515,6 +520,7 @@ msgid "Load more"
 msgstr "Chaje plis"
 
 #: ../../../lib/web/src/components/ui/load-more.tsx:32
+#: ../../../lib/web/src/features/document/document-page.tsx:87
 msgid "Loading…"
 msgstr "Ap chaje…"
 
@@ -540,12 +546,17 @@ msgstr "Dekonekte avèk siksè"
 msgid "Logging out…"
 msgstr "Ap dekonekte…"
 
+#: src/features/help/contribute-dialog.tsx:227
+msgid "Low"
+msgstr ""
+
 #: ../../../lib/web/src/components/layout/notification-menu.tsx:86
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:220
 msgid "Mark all as read"
 msgstr "Make tout kòm li"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:104
+#: src/features/help/contribute-dialog.tsx:228
 msgid "Medium"
 msgstr "Mwayen"
 
@@ -660,11 +671,11 @@ msgstr "Pwopriyetè"
 msgid "Please try again."
 msgstr "Tanpri, eseye ankò."
 
-#: src/features/help/contribute-dialog.tsx:57
+#: src/features/help/contribute-dialog.tsx:73
 msgid "Post introduction"
 msgstr "Pibliye prezantasyon"
 
-#: src/features/help/contribute-dialog.tsx:67
+#: src/features/help/contribute-dialog.tsx:83
 msgid "Post question"
 msgstr "Pibliye kesyon"
 
@@ -672,7 +683,7 @@ msgstr "Pibliye kesyon"
 msgid "Posted"
 msgstr ""
 
-#: src/features/help/contribute-dialog.tsx:243
+#: src/features/help/contribute-dialog.tsx:268
 msgid "Posting…"
 msgstr "Ap poste…"
 
@@ -680,7 +691,12 @@ msgstr "Ap poste…"
 msgid "Previous image"
 msgstr "Imaj anvan"
 
-#: ../../../lib/web/src/components/server-documents-footer.tsx:15
+#: src/features/help/contribute-dialog.tsx:212
+msgid "Priority"
+msgstr ""
+
+#: ../../../lib/web/src/components/server-documents-footer.tsx:24
+#: ../../../lib/web/src/features/document/document-page.tsx:41
 msgid "Privacy"
 msgstr "Konfidansyalite"
 
@@ -689,7 +705,7 @@ msgstr "Konfidansyalite"
 msgid "Profile"
 msgstr "Pwofil"
 
-#: src/features/help/contribute-dialog.tsx:63
+#: src/features/help/contribute-dialog.tsx:79
 msgid "Question"
 msgstr "Kesyon"
 
@@ -732,12 +748,12 @@ msgstr "Retire aksè?"
 msgid "Remove interest"
 msgstr "Retire enterè"
 
-#: src/features/help/contribute-dialog.tsx:71
+#: src/features/help/contribute-dialog.tsx:87
 #: src/features/help/index.tsx:40
 msgid "Report a bug"
 msgstr "Rapòte yon erè"
 
-#: src/features/help/contribute-dialog.tsx:77
+#: src/features/help/contribute-dialog.tsx:93
 msgid "Report bug"
 msgstr "Rapòte erè"
 
@@ -839,7 +855,8 @@ msgstr "Chwazi preferans tèm"
 msgid "Serif"
 msgstr "Serif"
 
-#: ../../../lib/web/src/components/server-documents-footer.tsx:7
+#: ../../../lib/web/src/components/server-documents-footer.tsx:16
+#: ../../../lib/web/src/features/document/document-page.tsx:37
 msgid "Server rules"
 msgstr "Règ sèvè"
 
@@ -857,7 +874,7 @@ msgstr "Mete orijin ak destinasyon"
 msgid "Settings"
 msgstr "Paramèt"
 
-#: src/features/help/contribute-dialog.tsx:84
+#: src/features/help/contribute-dialog.tsx:100
 msgid "Short title for your idea"
 msgstr "Tit kout pou ide ou"
 
@@ -897,7 +914,11 @@ msgid "Stay tuned though!"
 msgstr "Men rete kanpe!"
 
 #: src/features/help/contribute-dialog.tsx:95
-msgid "Steps to reproduce"
+#~ msgid "Steps to reproduce"
+#~ msgstr ""
+
+#: src/features/help/contribute-dialog.tsx:92
+msgid "Steps to reproduce, what you expected, and what actually happened. Include your browser and device if relevant."
 msgstr ""
 
 #: src/features/help/index.tsx:35
@@ -912,17 +933,17 @@ msgstr "Sijè"
 #~ msgid "Suggest a feature"
 #~ msgstr "Sijere yon karakteristik"
 
-#: src/features/help/contribute-dialog.tsx:81
+#: src/features/help/contribute-dialog.tsx:97
 #: src/features/help/index.tsx:46
 msgid "Suggest a new feature"
 msgstr ""
 
-#: src/features/help/contribute-dialog.tsx:87
+#: src/features/help/contribute-dialog.tsx:103
 msgid "Suggest feature"
 msgstr "Sijere karakteristik"
 
-#: src/features/help/contribute-dialog.tsx:73
-#: src/features/help/contribute-dialog.tsx:83
+#: src/features/help/contribute-dialog.tsx:89
+#: src/features/help/contribute-dialog.tsx:99
 msgid "Summary"
 msgstr "Rezime"
 
@@ -948,11 +969,12 @@ msgstr ""
 msgid "Teams/Apps"
 msgstr "Ekip/App"
 
-#: src/features/help/contribute-dialog.tsx:82
+#: src/features/help/contribute-dialog.tsx:98
 msgid "Tell the Mochi development team what you'd like Mochi to do."
 msgstr "Di ekip devlopman Mochi a sa ou ta renmen Mochi fè."
 
-#: ../../../lib/web/src/components/server-documents-footer.tsx:11
+#: ../../../lib/web/src/components/server-documents-footer.tsx:20
+#: ../../../lib/web/src/features/document/document-page.tsx:39
 msgid "Terms and conditions"
 msgstr "Kondisyon"
 
@@ -1099,25 +1121,25 @@ msgid "Welcome to Mochi. Here's how to get started."
 msgstr ""
 
 #: src/features/help/contribute-dialog.tsx:76
-msgid "What did you do, what did you expect, what happened instead?"
-msgstr "Kisa ou te fè, kisa ou te atann, kisa ki te pase olye?"
+#~ msgid "What did you do, what did you expect, what happened instead?"
+#~ msgstr "Kisa ou te fè, kisa ou te atann, kisa ki te pase olye?"
 
-#: src/features/help/contribute-dialog.tsx:75
+#: src/features/help/contribute-dialog.tsx:91
 msgid "What happened"
 msgstr "Kisa ki te pase"
 
-#: src/features/help/contribute-dialog.tsx:66
+#: src/features/help/contribute-dialog.tsx:82
 msgid "What have you tried, what did you expect, where are you stuck?"
 msgstr "Sa ou eseye, sa ou te atann, kote ou bloke?"
 
-#: src/features/help/contribute-dialog.tsx:86
+#: src/features/help/contribute-dialog.tsx:102
 msgid "What would it do, who is it for, why does it matter?"
 msgstr "Kisa li ta fè, pou ki moun li ye, poukisa li enpòtan?"
 
-#: src/features/help/contribute-dialog.tsx:64
+#: src/features/help/contribute-dialog.tsx:80
 msgid "What you want to ask, in one line"
 msgstr "Sa ou vle mande, nan yon sèl liy"
 
-#: src/features/help/contribute-dialog.tsx:260
+#: src/features/help/contribute-dialog.tsx:285
 msgid "Your text will be lost."
 msgstr ""

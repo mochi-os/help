@@ -17,6 +17,9 @@ import { Route as errors404RouteImport } from './routes/(errors)/404'
 import { Route as errors403RouteImport } from './routes/(errors)/403'
 import { Route as errors401RouteImport } from './routes/(errors)/401'
 import { Route as AuthenticatedErrorsErrorRouteImport } from './routes/_authenticated/errors/$error'
+import { Route as AuthenticatedDocumentTermsRouteImport } from './routes/_authenticated/document/terms'
+import { Route as AuthenticatedDocumentRulesRouteImport } from './routes/_authenticated/document/rules'
+import { Route as AuthenticatedDocumentPrivacyRouteImport } from './routes/_authenticated/document/privacy'
 
 const AuthenticatedRouteRoute = AuthenticatedRouteRouteImport.update({
   id: '/_authenticated',
@@ -58,6 +61,24 @@ const AuthenticatedErrorsErrorRoute =
     path: '/errors/$error',
     getParentRoute: () => AuthenticatedRouteRoute,
   } as any)
+const AuthenticatedDocumentTermsRoute =
+  AuthenticatedDocumentTermsRouteImport.update({
+    id: '/document/terms',
+    path: '/document/terms',
+    getParentRoute: () => AuthenticatedRouteRoute,
+  } as any)
+const AuthenticatedDocumentRulesRoute =
+  AuthenticatedDocumentRulesRouteImport.update({
+    id: '/document/rules',
+    path: '/document/rules',
+    getParentRoute: () => AuthenticatedRouteRoute,
+  } as any)
+const AuthenticatedDocumentPrivacyRoute =
+  AuthenticatedDocumentPrivacyRouteImport.update({
+    id: '/document/privacy',
+    path: '/document/privacy',
+    getParentRoute: () => AuthenticatedRouteRoute,
+  } as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof AuthenticatedIndexRoute
@@ -66,6 +87,9 @@ export interface FileRoutesByFullPath {
   '/404': typeof errors404Route
   '/500': typeof errors500Route
   '/503': typeof errors503Route
+  '/document/privacy': typeof AuthenticatedDocumentPrivacyRoute
+  '/document/rules': typeof AuthenticatedDocumentRulesRoute
+  '/document/terms': typeof AuthenticatedDocumentTermsRoute
   '/errors/$error': typeof AuthenticatedErrorsErrorRoute
 }
 export interface FileRoutesByTo {
@@ -75,6 +99,9 @@ export interface FileRoutesByTo {
   '/500': typeof errors500Route
   '/503': typeof errors503Route
   '/': typeof AuthenticatedIndexRoute
+  '/document/privacy': typeof AuthenticatedDocumentPrivacyRoute
+  '/document/rules': typeof AuthenticatedDocumentRulesRoute
+  '/document/terms': typeof AuthenticatedDocumentTermsRoute
   '/errors/$error': typeof AuthenticatedErrorsErrorRoute
 }
 export interface FileRoutesById {
@@ -86,13 +113,36 @@ export interface FileRoutesById {
   '/(errors)/500': typeof errors500Route
   '/(errors)/503': typeof errors503Route
   '/_authenticated/': typeof AuthenticatedIndexRoute
+  '/_authenticated/document/privacy': typeof AuthenticatedDocumentPrivacyRoute
+  '/_authenticated/document/rules': typeof AuthenticatedDocumentRulesRoute
+  '/_authenticated/document/terms': typeof AuthenticatedDocumentTermsRoute
   '/_authenticated/errors/$error': typeof AuthenticatedErrorsErrorRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/401' | '/403' | '/404' | '/500' | '/503' | '/errors/$error'
+  fullPaths:
+    | '/'
+    | '/401'
+    | '/403'
+    | '/404'
+    | '/500'
+    | '/503'
+    | '/document/privacy'
+    | '/document/rules'
+    | '/document/terms'
+    | '/errors/$error'
   fileRoutesByTo: FileRoutesByTo
-  to: '/401' | '/403' | '/404' | '/500' | '/503' | '/' | '/errors/$error'
+  to:
+    | '/401'
+    | '/403'
+    | '/404'
+    | '/500'
+    | '/503'
+    | '/'
+    | '/document/privacy'
+    | '/document/rules'
+    | '/document/terms'
+    | '/errors/$error'
   id:
     | '__root__'
     | '/_authenticated'
@@ -102,6 +152,9 @@ export interface FileRouteTypes {
     | '/(errors)/500'
     | '/(errors)/503'
     | '/_authenticated/'
+    | '/_authenticated/document/privacy'
+    | '/_authenticated/document/rules'
+    | '/_authenticated/document/terms'
     | '/_authenticated/errors/$error'
   fileRoutesById: FileRoutesById
 }
@@ -172,16 +225,43 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof AuthenticatedErrorsErrorRouteImport
       parentRoute: typeof AuthenticatedRouteRoute
     }
+    '/_authenticated/document/terms': {
+      id: '/_authenticated/document/terms'
+      path: '/document/terms'
+      fullPath: '/document/terms'
+      preLoaderRoute: typeof AuthenticatedDocumentTermsRouteImport
+      parentRoute: typeof AuthenticatedRouteRoute
+    }
+    '/_authenticated/document/rules': {
+      id: '/_authenticated/document/rules'
+      path: '/document/rules'
+      fullPath: '/document/rules'
+      preLoaderRoute: typeof AuthenticatedDocumentRulesRouteImport
+      parentRoute: typeof AuthenticatedRouteRoute
+    }
+    '/_authenticated/document/privacy': {
+      id: '/_authenticated/document/privacy'
+      path: '/document/privacy'
+      fullPath: '/document/privacy'
+      preLoaderRoute: typeof AuthenticatedDocumentPrivacyRouteImport
+      parentRoute: typeof AuthenticatedRouteRoute
+    }
   }
 }
 
 interface AuthenticatedRouteRouteChildren {
   AuthenticatedIndexRoute: typeof AuthenticatedIndexRoute
+  AuthenticatedDocumentPrivacyRoute: typeof AuthenticatedDocumentPrivacyRoute
+  AuthenticatedDocumentRulesRoute: typeof AuthenticatedDocumentRulesRoute
+  AuthenticatedDocumentTermsRoute: typeof AuthenticatedDocumentTermsRoute
   AuthenticatedErrorsErrorRoute: typeof AuthenticatedErrorsErrorRoute
 }
 
 const AuthenticatedRouteRouteChildren: AuthenticatedRouteRouteChildren = {
   AuthenticatedIndexRoute: AuthenticatedIndexRoute,
+  AuthenticatedDocumentPrivacyRoute: AuthenticatedDocumentPrivacyRoute,
+  AuthenticatedDocumentRulesRoute: AuthenticatedDocumentRulesRoute,
+  AuthenticatedDocumentTermsRoute: AuthenticatedDocumentTermsRoute,
   AuthenticatedErrorsErrorRoute: AuthenticatedErrorsErrorRoute,
 }
 

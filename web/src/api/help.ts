@@ -2,6 +2,7 @@ import endpoints from '@/api/endpoints'
 import { requestHelpers } from '@mochi/web'
 
 export type Kind = 'intro' | 'question' | 'bug' | 'feature'
+export type Priority = 'low' | 'medium' | 'high'
 
 interface PrepareResponse {
   fingerprint?: string
@@ -28,13 +29,13 @@ const contribute = async (
   kind: Kind,
   body: string,
   title?: string,
+  priority?: Priority,
 ): Promise<ContributeResponse> => {
   const params = new URLSearchParams()
   params.append('kind', kind)
   params.append('body', body)
-  if (title) {
-    params.append('title', title)
-  }
+  if (title) params.append('title', title)
+  if (priority) params.append('priority', priority)
   return requestHelpers.post<ContributeResponse>(endpoints.contribute, params.toString(), {
     headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
   })

@@ -50,10 +50,10 @@ msgid "Account verified"
 msgstr "حساب تایید شو"
 
 #: src/features/help/contribute-dialog.tsx:100
-msgid "Actual"
-msgstr ""
+#~ msgid "Actual"
+#~ msgstr ""
 
-#: src/features/help/contribute-dialog.tsx:224
+#: src/features/help/contribute-dialog.tsx:249
 msgid "Add a bit more detail."
 msgstr ""
 
@@ -114,12 +114,12 @@ msgstr "ایا تاسو ډاډه یاست چې غواړئ وتل وکړئ؟ تا
 msgid "Asc"
 msgstr "صعودي"
 
-#: src/features/help/contribute-dialog.tsx:61
+#: src/features/help/contribute-dialog.tsx:77
 #: src/features/help/index.tsx:34
 msgid "Ask a question"
 msgstr "پوښتنه وکړئ"
 
-#: src/features/help/contribute-dialog.tsx:62
+#: src/features/help/contribute-dialog.tsx:78
 msgid "Ask the community on the Mochi users mailing list. Be specific about what you've tried so far."
 msgstr "د Mochi کاروونکو په میلنګ لیست کې له ټولنې پوښتنه وکړئ. د هغه څه په اړه چې تر اوسه مو هڅه کړې، دقیق اوسئ."
 
@@ -137,13 +137,13 @@ msgstr "بیرته کور ته"
 msgid "Boost interest"
 msgstr "دلچسپي ډیره کړه"
 
-#: src/features/help/contribute-dialog.tsx:74
+#: src/features/help/contribute-dialog.tsx:90
 msgid "Brief summary of the problem"
 msgstr "د ستونزې لنډه لنډیز"
 
 #: src/features/help/contribute-dialog.tsx:102
-msgid "Browser / device"
-msgstr ""
+#~ msgid "Browser / device"
+#~ msgstr ""
 
 #: ../../../lib/web/src/components/responsive-confirm-dialog.tsx:64
 #: ../../../lib/web/src/components/travelling-picker.tsx:292
@@ -152,7 +152,7 @@ msgstr ""
 #: ../../../lib/web/src/features/access/access-list.tsx:255
 #: ../../../lib/web/src/features/accounts/account-add.tsx:185
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:86
-#: src/features/help/contribute-dialog.tsx:237
+#: src/features/help/contribute-dialog.tsx:262
 msgid "Cancel"
 msgstr "لغوه کول"
 
@@ -262,8 +262,8 @@ msgid "Copy"
 msgstr "کاپي کړئ"
 
 #: ../../../lib/web/src/features/document/document-page.tsx:81
-#~ msgid "Could not load this document. Please try again later."
-#~ msgstr "دا سند نشي پورته کیدلی. مهرباني وکړئ وروسته بیا هڅه وکړئ."
+msgid "Could not load this document. Please try again later."
+msgstr "دا سند نشي پورته کیدلی. مهرباني وکړئ وروسته بیا هڅه وکړئ."
 
 #: src/features/help/index.tsx:66
 msgid "Couldn't reach the destination yet"
@@ -298,12 +298,12 @@ msgstr "د AI ډیفالټ حساب"
 msgid "Desc"
 msgstr "نزولي"
 
-#: src/features/help/contribute-dialog.tsx:72
+#: src/features/help/contribute-dialog.tsx:88
 msgid "Describe what went wrong. The Mochi development team will see it on the Mochi development project."
 msgstr "تشریح کړئ چې څه غلط شول. د Mochi پراختیایي ټیم به یې د Mochi پراختیایي پروژه کې وویني."
 
-#: src/features/help/contribute-dialog.tsx:65
-#: src/features/help/contribute-dialog.tsx:85
+#: src/features/help/contribute-dialog.tsx:81
+#: src/features/help/contribute-dialog.tsx:101
 msgid "Details"
 msgstr "تفصیلات"
 
@@ -326,11 +326,11 @@ msgstr "د ویب براوزر څخه ومومئ"
 msgid "Direction"
 msgstr "لوری"
 
-#: src/features/help/contribute-dialog.tsx:262
+#: src/features/help/contribute-dialog.tsx:287
 msgid "Discard"
 msgstr ""
 
-#: src/features/help/contribute-dialog.tsx:259
+#: src/features/help/contribute-dialog.tsx:284
 msgid "Discard draft?"
 msgstr ""
 
@@ -351,8 +351,8 @@ msgid "Expand sidebar"
 msgstr "څنګلوري لیست خلاص کړئ"
 
 #: src/features/help/contribute-dialog.tsx:98
-msgid "Expected"
-msgstr ""
+#~ msgid "Expected"
+#~ msgstr ""
 
 #: ../../../lib/web/src/lib/preference-utils.ts:124
 msgid "Extra large"
@@ -441,16 +441,21 @@ msgid "Group"
 msgstr "ګروپ"
 
 #: src/features/help/index.tsx:75
+#: src/routes/_authenticated/route.tsx:13
 msgid "Help"
 msgstr "مرسته"
 
-#: src/features/help/contribute-dialog.tsx:56
+#: src/features/help/contribute-dialog.tsx:72
 msgid "Hi, I'm…"
 msgstr "سلام، زه…"
 
 #: ../../../lib/web/src/components/data-table/column-header.tsx:67
 msgid "Hide"
 msgstr "پټ کړه"
+
+#: src/features/help/contribute-dialog.tsx:229
+msgid "High"
+msgstr ""
 
 #: ../../../lib/web/src/components/layout/app-sidebar.tsx:82
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx:142
@@ -475,7 +480,7 @@ msgstr "Inset"
 msgid "Interests"
 msgstr "علاقې"
 
-#: src/features/help/contribute-dialog.tsx:55
+#: src/features/help/contribute-dialog.tsx:71
 #: src/features/help/index.tsx:28
 msgid "Introduce yourself"
 msgstr "ځان معرفي کړئ"
@@ -484,7 +489,7 @@ msgstr "ځان معرفي کړئ"
 msgid "Invalid verification code"
 msgstr "د تصدیق ناسم کوډ"
 
-#: src/features/help/contribute-dialog.tsx:261
+#: src/features/help/contribute-dialog.tsx:286
 msgid "Keep editing"
 msgstr ""
 
@@ -515,6 +520,7 @@ msgid "Load more"
 msgstr "نور بار کړئ"
 
 #: ../../../lib/web/src/components/ui/load-more.tsx:32
+#: ../../../lib/web/src/features/document/document-page.tsx:87
 msgid "Loading…"
 msgstr "بار کیږي…"
 
@@ -540,12 +546,17 @@ msgstr "په بریالیتوب سره لاګ آوټ شو"
 msgid "Logging out…"
 msgstr "لاګ آوټ کیږي…"
 
+#: src/features/help/contribute-dialog.tsx:227
+msgid "Low"
+msgstr ""
+
 #: ../../../lib/web/src/components/layout/notification-menu.tsx:86
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:220
 msgid "Mark all as read"
 msgstr "ټول د لوستل شویو په توګه نښه کړئ"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:104
+#: src/features/help/contribute-dialog.tsx:228
 msgid "Medium"
 msgstr "منځنی"
 
@@ -660,11 +671,11 @@ msgstr "مالک"
 msgid "Please try again."
 msgstr "مهرباني وکړئ بیا هڅه وکړئ."
 
-#: src/features/help/contribute-dialog.tsx:57
+#: src/features/help/contribute-dialog.tsx:73
 msgid "Post introduction"
 msgstr "د معرفۍ خپرول"
 
-#: src/features/help/contribute-dialog.tsx:67
+#: src/features/help/contribute-dialog.tsx:83
 msgid "Post question"
 msgstr "د پوښتنې خپرول"
 
@@ -672,7 +683,7 @@ msgstr "د پوښتنې خپرول"
 msgid "Posted"
 msgstr ""
 
-#: src/features/help/contribute-dialog.tsx:243
+#: src/features/help/contribute-dialog.tsx:268
 msgid "Posting…"
 msgstr "پوسټ کول…"
 
@@ -680,7 +691,12 @@ msgstr "پوسټ کول…"
 msgid "Previous image"
 msgstr "تېر انځور"
 
-#: ../../../lib/web/src/components/server-documents-footer.tsx:15
+#: src/features/help/contribute-dialog.tsx:212
+msgid "Priority"
+msgstr ""
+
+#: ../../../lib/web/src/components/server-documents-footer.tsx:24
+#: ../../../lib/web/src/features/document/document-page.tsx:41
 msgid "Privacy"
 msgstr "محرمیت"
 
@@ -689,7 +705,7 @@ msgstr "محرمیت"
 msgid "Profile"
 msgstr "پروفایل"
 
-#: src/features/help/contribute-dialog.tsx:63
+#: src/features/help/contribute-dialog.tsx:79
 msgid "Question"
 msgstr "پوښتنه"
 
@@ -732,12 +748,12 @@ msgstr "لاسرسی لرې کړو؟"
 msgid "Remove interest"
 msgstr "علاقه لرې کړئ"
 
-#: src/features/help/contribute-dialog.tsx:71
+#: src/features/help/contribute-dialog.tsx:87
 #: src/features/help/index.tsx:40
 msgid "Report a bug"
 msgstr "د بګ راپور ورکړئ"
 
-#: src/features/help/contribute-dialog.tsx:77
+#: src/features/help/contribute-dialog.tsx:93
 msgid "Report bug"
 msgstr "د بګ راپور"
 
@@ -839,7 +855,8 @@ msgstr "د ښکارندوی غوره توب وټاکئ"
 msgid "Serif"
 msgstr "سيريف"
 
-#: ../../../lib/web/src/components/server-documents-footer.tsx:7
+#: ../../../lib/web/src/components/server-documents-footer.tsx:16
+#: ../../../lib/web/src/features/document/document-page.tsx:37
 msgid "Server rules"
 msgstr "د Server قواعد"
 
@@ -857,7 +874,7 @@ msgstr "سرچینه او منزل وټاکئ"
 msgid "Settings"
 msgstr "ترتیبات"
 
-#: src/features/help/contribute-dialog.tsx:84
+#: src/features/help/contribute-dialog.tsx:100
 msgid "Short title for your idea"
 msgstr "ستاسو د نظر لپاره لنډ سرلیک"
 
@@ -897,7 +914,11 @@ msgid "Stay tuned though!"
 msgstr "خو خبر اوسئ!"
 
 #: src/features/help/contribute-dialog.tsx:95
-msgid "Steps to reproduce"
+#~ msgid "Steps to reproduce"
+#~ msgstr ""
+
+#: src/features/help/contribute-dialog.tsx:92
+msgid "Steps to reproduce, what you expected, and what actually happened. Include your browser and device if relevant."
 msgstr ""
 
 #: src/features/help/index.tsx:35
@@ -912,17 +933,17 @@ msgstr "موضوع"
 #~ msgid "Suggest a feature"
 #~ msgstr "یوه ځانګړتیا وړاندیز کړئ"
 
-#: src/features/help/contribute-dialog.tsx:81
+#: src/features/help/contribute-dialog.tsx:97
 #: src/features/help/index.tsx:46
 msgid "Suggest a new feature"
 msgstr ""
 
-#: src/features/help/contribute-dialog.tsx:87
+#: src/features/help/contribute-dialog.tsx:103
 msgid "Suggest feature"
 msgstr "د ځانګړتیا وړاندیز"
 
-#: src/features/help/contribute-dialog.tsx:73
-#: src/features/help/contribute-dialog.tsx:83
+#: src/features/help/contribute-dialog.tsx:89
+#: src/features/help/contribute-dialog.tsx:99
 msgid "Summary"
 msgstr "لنډیز"
 
@@ -948,11 +969,12 @@ msgstr ""
 msgid "Teams/Apps"
 msgstr "ټیمونه/اپلیکیشنونه"
 
-#: src/features/help/contribute-dialog.tsx:82
+#: src/features/help/contribute-dialog.tsx:98
 msgid "Tell the Mochi development team what you'd like Mochi to do."
 msgstr "د Mochi پراختیایي ټیم ته ووایاست چې غواړئ Mochi څه وکړي."
 
-#: ../../../lib/web/src/components/server-documents-footer.tsx:11
+#: ../../../lib/web/src/components/server-documents-footer.tsx:20
+#: ../../../lib/web/src/features/document/document-page.tsx:39
 msgid "Terms and conditions"
 msgstr "شرایط او مقررات"
 
@@ -1099,25 +1121,25 @@ msgid "Welcome to Mochi. Here's how to get started."
 msgstr ""
 
 #: src/features/help/contribute-dialog.tsx:76
-msgid "What did you do, what did you expect, what happened instead?"
-msgstr "تاسو څه وکړل، څه مو تمه درلوده، د هغې پر ځای څه وشول؟"
+#~ msgid "What did you do, what did you expect, what happened instead?"
+#~ msgstr "تاسو څه وکړل، څه مو تمه درلوده، د هغې پر ځای څه وشول؟"
 
-#: src/features/help/contribute-dialog.tsx:75
+#: src/features/help/contribute-dialog.tsx:91
 msgid "What happened"
 msgstr "څه وشول"
 
-#: src/features/help/contribute-dialog.tsx:66
+#: src/features/help/contribute-dialog.tsx:82
 msgid "What have you tried, what did you expect, where are you stuck?"
 msgstr "تاسو څه هڅه کړې، څه مو تمه درلوده، چیرته بند یاست؟"
 
-#: src/features/help/contribute-dialog.tsx:86
+#: src/features/help/contribute-dialog.tsx:102
 msgid "What would it do, who is it for, why does it matter?"
 msgstr "دا به څه وکړي، د چا لپاره دی، ولې مهم دی؟"
 
-#: src/features/help/contribute-dialog.tsx:64
+#: src/features/help/contribute-dialog.tsx:80
 msgid "What you want to ask, in one line"
 msgstr "څه چې غواړئ پوښتنه وکړئ، په یوه کرښه کې"
 
-#: src/features/help/contribute-dialog.tsx:260
+#: src/features/help/contribute-dialog.tsx:285
 msgid "Your text will be lost."
 msgstr ""

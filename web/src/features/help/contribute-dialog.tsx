@@ -12,16 +12,32 @@ import {
   ResponsiveDialogHeader,
   ResponsiveDialogTitle,
   Textarea,
+  cn,
   getErrorMessage,
   shellNavigateTop,
   toast,
 } from '@mochi/web'
 import { Bug, HelpCircle, Lightbulb, Loader2, Sparkles, X } from 'lucide-react'
-import { helpApi, type Kind } from '@/api/help'
+import { helpApi, type Kind, type Priority } from '@/api/help'
 
 // Mirrors BODY_MAX / BODY_MIN in help.star.
 const BODY_MAX = 50000
 const BODY_MIN = 20
+
+const PRIORITY_STYLES: Record<Priority, { base: string; active: string }> = {
+  low: {
+    base: 'border-border text-muted-foreground hover:border-muted-foreground/50',
+    active: 'border-slate-400 bg-slate-400/10 text-slate-300',
+  },
+  medium: {
+    base: 'border-border text-muted-foreground hover:border-amber-500/50',
+    active: 'border-amber-500 bg-amber-500/10 text-amber-400',
+  },
+  high: {
+    base: 'border-border text-muted-foreground hover:border-red-500/50',
+    active: 'border-red-500 bg-red-500/10 text-red-400',
+  },
+}
 
 const KIND_ICONS: Record<Kind, typeof Sparkles> = {
   intro: Sparkles,
@@ -73,7 +89,7 @@ function useCopy(kind: Kind): CopyBundle {
         titleLabel: t`Summary`,
         titlePlaceholder: t`Brief summary of the problem`,
         bodyLabel: t`What happened`,
-        bodyPlaceholder: t`What did you do, what did you expect, what happened instead?`,
+        bodyPlaceholder: t`Steps to reproduce, what you expected, and what actually happened. Include your browser and device if relevant.`,
         submit: t`Report bug`,
       }
     case 'feature':
@@ -89,21 +105,6 @@ function useCopy(kind: Kind): CopyBundle {
   }
 }
 
-function useBugTemplate(): string {
-  const { t } = useLingui()
-  return [
-    `**${t`Steps to reproduce`}**`,
-    '1. ',
-    '',
-    `**${t`Expected`}**`,
-    '',
-    `**${t`Actual`}**`,
-    '',
-    `**${t`Browser / device`}**`,
-    '',
-  ].join('\n')
-}
-
 export function ContributeDialog({
   kind,
   open,
@@ -115,12 +116,11 @@ export function ContributeDialog({
 }) {
   const { t } = useLingui()
   const copy = useCopy(kind)
-  const bugTemplate = useBugTemplate()
   const needsTitle = NEEDS_TITLE[kind]
   const KindIcon = KIND_ICONS[kind]
-  const initialBody = kind === 'bug' ? bugTemplate : ''
   const [title, setTitle] = useState('')
-  const [body, setBody] = useState(initialBody)
+  const [body, setBody] = useState('')
+  const [priority, setPriority] = useState<Priority>('medium')
   const [submitting, setSubmitting] = useState(false)
   const [discardOpen, setDiscardOpen] = useState(false)
 
@@ -128,13 +128,12 @@ export function ContributeDialog({
   const trimmedTitle = title.trim()
   const bodyTooShort = trimmedBody.length < BODY_MIN
   const bodyTooLong = body.length > BODY_MAX
-  const isDirty = title !== '' || body !== initialBody
+  const isDirty = title !== '' || body !== ''
   const canSubmit =
     !submitting &&
     !bodyTooShort &&
     !bodyTooLong &&
-    (!needsTitle || trimmedTitle.length > 0) &&
-    body !== initialBody
+    (!needsTitle || trimmedTitle.length > 0)
 
   const handleSubmit = async () => {
     if (!canSubmit) return
@@ -144,6 +143,7 @@ export function ContributeDialog({
         kind,
         trimmedBody,
         needsTitle ? trimmedTitle : undefined,
+        kind === 'bug' ? priority : undefined,
       )
       toast.success(t`Posted`, {
         description: t`Taking you there now.`,
@@ -205,6 +205,31 @@ export function ContributeDialog({
                   autoFocus
                   disabled={submitting}
                 />
+              </div>
+            )}
+            {kind === 'bug' && (
+              <div className='flex flex-col gap-2'>
+                <Label><Trans>Priority</Trans></Label>
+                <div className='flex gap-2'>
+                  {(['low', 'medium', 'high'] as const).map((p) => (
+                    <button
+                      key={p}
+                      type='button'
+                      disabled={submitting}
+                      onClick={() => setPriority(p)}
+                      className={cn(
+                        'flex-1 rounded-md border px-3 py-1.5 text-sm font-medium transition-colors disabled:opacity-50',
+                        priority === p
+                          ? PRIORITY_STYLES[p].active
+                          : PRIORITY_STYLES[p].base,
+                      )}
+                    >
+                      {p === 'low' && <Trans>Low</Trans>}
+                      {p === 'medium' && <Trans>Medium</Trans>}
+                      {p === 'high' && <Trans>High</Trans>}
+                    </button>
+                  ))}
+                </div>
               </div>
             )}
             <div className='flex flex-col gap-2'>
