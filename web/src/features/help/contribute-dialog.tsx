@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { Trans, useLingui } from '@lingui/react/macro'
 import {
   Button,
+  ConfirmDialog,
   Input,
   Label,
   ResponsiveDialog,
@@ -17,6 +18,10 @@ import {
 } from '@mochi/web'
 import { Bug, HelpCircle, Lightbulb, Loader2, Sparkles, X } from 'lucide-react'
 import { helpApi, type Kind } from '@/api/help'
+
+// Mirrors BODY_MAX / BODY_MIN in help.star.
+const BODY_MAX = 50000
+const BODY_MIN = 20
 
 const KIND_ICONS: Record<Kind, typeof Sparkles> = {
   intro: Sparkles,
@@ -73,7 +78,7 @@ function useCopy(kind: Kind): CopyBundle {
       }
     case 'feature':
       return {
-        title: t`Suggest a feature`,
+        title: t`Suggest a new feature`,
         description: t`Tell the Mochi development team what you'd like Mochi to do.`,
         titleLabel: t`Summary`,
         titlePlaceholder: t`Short title for your idea`,
@@ -82,6 +87,21 @@ function useCopy(kind: Kind): CopyBundle {
         submit: t`Suggest feature`,
       }
   }
+}
+
+function useBugTemplate(): string {
+  const { t } = useLingui()
+  return [
+    `**${t`Steps to reproduce`}**`,
+    '1. ',
+    '',
+    `**${t`Expected`}**`,
+    '',
+    `**${t`Actual`}**`,
+    '',
+    `**${t`Browser / device`}**`,
+    '',
+  ].join('\n')
 }
 
 export function ContributeDialog({
@@ -95,18 +115,39 @@ export function ContributeDialog({
 }) {
   const { t } = useLingui()
   const copy = useCopy(kind)
+  const bugTemplate = useBugTemplate()
   const needsTitle = NEEDS_TITLE[kind]
   const KindIcon = KIND_ICONS[kind]
+  const initialBody = kind === 'bug' ? bugTemplate : ''
   const [title, setTitle] = useState('')
-  const [body, setBody] = useState('')
+  const [body, setBody] = useState(initialBody)
   const [submitting, setSubmitting] = useState(false)
+  const [discardOpen, setDiscardOpen] = useState(false)
+
+  const trimmedBody = body.trim()
+  const trimmedTitle = title.trim()
+  const bodyTooShort = trimmedBody.length < BODY_MIN
+  const bodyTooLong = body.length > BODY_MAX
+  const isDirty = title !== '' || body !== initialBody
+  const canSubmit =
+    !submitting &&
+    !bodyTooShort &&
+    !bodyTooLong &&
+    (!needsTitle || trimmedTitle.length > 0) &&
+    body !== initialBody
 
   const handleSubmit = async () => {
-    if (!body.trim()) return
-    if (needsTitle && !title.trim()) return
+    if (!canSubmit) return
     setSubmitting(true)
     try {
-      const result = await helpApi.contribute(kind, body.trim(), needsTitle ? title.trim() : undefined)
+      const result = await helpApi.contribute(
+        kind,
+        trimmedBody,
+        needsTitle ? trimmedTitle : undefined,
+      )
+      toast.success(t`Posted`, {
+        description: t`Taking you there now.`,
+      })
       shellNavigateTop(result.redirect)
     } catch (err) {
       toast.error(t`Couldn't submit`, {
@@ -116,72 +157,115 @@ export function ContributeDialog({
     }
   }
 
-  return (
-    <ResponsiveDialog open={open} onOpenChange={onOpenChange}>
-      <ResponsiveDialogContent>
-        <ResponsiveDialogHeader>
-          <ResponsiveDialogTitle>
-            <span className='inline-flex items-center gap-2'>
-              <KindIcon className='h-5 w-5' />
-              {copy.title}
-            </span>
-          </ResponsiveDialogTitle>
-          {copy.description && (
-            <ResponsiveDialogDescription>{copy.description}</ResponsiveDialogDescription>
-          )}
-        </ResponsiveDialogHeader>
+  const requestClose = (next: boolean) => {
+    if (next) {
+      onOpenChange(true)
+      return
+    }
+    if (submitting) return
+    if (isDirty) {
+      setDiscardOpen(true)
+      return
+    }
+    onOpenChange(false)
+  }
 
-        <div className='flex flex-col gap-4 px-4 sm:px-0'>
-          {needsTitle && (
+  const remaining = BODY_MAX - body.length
+  const counterTone = bodyTooLong
+    ? 'text-destructive'
+    : remaining < 500
+      ? 'text-amber-500'
+      : 'text-muted-foreground'
+
+  return (
+    <>
+      <ResponsiveDialog open={open} onOpenChange={requestClose}>
+        <ResponsiveDialogContent>
+          <ResponsiveDialogHeader>
+            <ResponsiveDialogTitle>
+              <span className='inline-flex items-center gap-2'>
+                <KindIcon className='h-5 w-5' />
+                {copy.title}
+              </span>
+            </ResponsiveDialogTitle>
+            {copy.description && (
+              <ResponsiveDialogDescription>{copy.description}</ResponsiveDialogDescription>
+            )}
+          </ResponsiveDialogHeader>
+
+          <div className='flex flex-col gap-4 px-4 sm:px-0'>
+            {needsTitle && (
+              <div className='flex flex-col gap-2'>
+                <Label htmlFor='help-title'>{copy.titleLabel}</Label>
+                <Input
+                  id='help-title'
+                  value={title}
+                  onChange={(e) => setTitle(e.target.value)}
+                  placeholder={copy.titlePlaceholder}
+                  autoFocus
+                  disabled={submitting}
+                />
+              </div>
+            )}
             <div className='flex flex-col gap-2'>
-              <Label htmlFor='help-title'>{copy.titleLabel}</Label>
-              <Input
-                id='help-title'
-                value={title}
-                onChange={(e) => setTitle(e.target.value)}
-                placeholder={copy.titlePlaceholder}
-                autoFocus
+              {copy.bodyLabel && <Label htmlFor='help-body'>{copy.bodyLabel}</Label>}
+              <Textarea
+                id='help-body'
+                value={body}
+                onChange={(e) => setBody(e.target.value)}
+                placeholder={copy.bodyPlaceholder}
+                rows={10}
+                autoFocus={!needsTitle}
                 disabled={submitting}
               />
+              <div className='flex items-center justify-between text-xs'>
+                <span className='text-muted-foreground'>
+                  {bodyTooShort && body.length > 0 && (
+                    <Trans>Add a bit more detail.</Trans>
+                  )}
+                </span>
+                <span className={counterTone}>
+                  {body.length.toLocaleString()} / {BODY_MAX.toLocaleString()}
+                </span>
+              </div>
             </div>
-          )}
-          <div className='flex flex-col gap-2'>
-            {copy.bodyLabel && <Label htmlFor='help-body'>{copy.bodyLabel}</Label>}
-            <Textarea
-              id='help-body'
-              value={body}
-              onChange={(e) => setBody(e.target.value)}
-              placeholder={copy.bodyPlaceholder}
-              rows={8}
-              autoFocus={!needsTitle}
-              disabled={submitting}
-            />
           </div>
-        </div>
 
-        <ResponsiveDialogFooter>
-          <Button variant='outline' onClick={() => onOpenChange(false)} disabled={submitting}>
-            <X className='mr-2 h-4 w-4' />
-            <Trans>Cancel</Trans>
-          </Button>
-          <Button
-            onClick={handleSubmit}
-            disabled={submitting || !body.trim() || (needsTitle && !title.trim())}
-          >
-            {submitting ? (
-              <>
-                <Loader2 className='mr-2 h-4 w-4 animate-spin' />
-                <Trans>Posting…</Trans>
-              </>
-            ) : (
-              <>
-                <KindIcon className='mr-2 h-4 w-4' />
-                {copy.submit}
-              </>
-            )}
-          </Button>
-        </ResponsiveDialogFooter>
-      </ResponsiveDialogContent>
-    </ResponsiveDialog>
+          <ResponsiveDialogFooter>
+            <Button variant='outline' onClick={() => requestClose(false)} disabled={submitting}>
+              <X className='mr-2 h-4 w-4' />
+              <Trans>Cancel</Trans>
+            </Button>
+            <Button onClick={handleSubmit} disabled={!canSubmit}>
+              {submitting ? (
+                <>
+                  <Loader2 className='mr-2 h-4 w-4 animate-spin' />
+                  <Trans>Posting…</Trans>
+                </>
+              ) : (
+                <>
+                  <KindIcon className='mr-2 h-4 w-4' />
+                  {copy.submit}
+                </>
+              )}
+            </Button>
+          </ResponsiveDialogFooter>
+        </ResponsiveDialogContent>
+      </ResponsiveDialog>
+
+      <ConfirmDialog
+        open={discardOpen}
+        onOpenChange={setDiscardOpen}
+        title={t`Discard draft?`}
+        desc={t`Your text will be lost.`}
+        cancelBtnText={t`Keep editing`}
+        confirmText={t`Discard`}
+        destructive
+        handleConfirm={() => {
+          setDiscardOpen(false)
+          onOpenChange(false)
+        }}
+      />
+    </>
   )
 }

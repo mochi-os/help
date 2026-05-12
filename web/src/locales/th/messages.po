@@ -49,6 +49,14 @@ msgstr "ประเภทบัญชี"
 msgid "Account verified"
 msgstr "ยืนยันบัญชีแล้ว"
 
+#: src/features/help/contribute-dialog.tsx:100
+msgid "Actual"
+msgstr ""
+
+#: src/features/help/contribute-dialog.tsx:224
+msgid "Add a bit more detail."
+msgstr ""
+
 #: ../../../lib/web/src/features/accounts/account-add.tsx:117
 msgid "Add a new account"
 msgstr "เพิ่มบัญชีใหม่"
@@ -106,12 +114,12 @@ msgstr "คุณแน่ใจหรือไม่ว่าต้องกา
 msgid "Asc"
 msgstr "น้อยไปมาก"
 
-#: src/features/help/contribute-dialog.tsx:56
+#: src/features/help/contribute-dialog.tsx:61
 #: src/features/help/index.tsx:34
 msgid "Ask a question"
 msgstr "ถามคำถาม"
 
-#: src/features/help/contribute-dialog.tsx:57
+#: src/features/help/contribute-dialog.tsx:62
 msgid "Ask the community on the Mochi users mailing list. Be specific about what you've tried so far."
 msgstr "ถามชุมชนในเมลลิ่งลิสต์ผู้ใช้ Mochi โปรดระบุให้ชัดเจนว่าคุณได้ลองอะไรไปแล้วบ้าง"
 
@@ -129,9 +137,13 @@ msgstr "กลับไปยังหน้าแรก"
 msgid "Boost interest"
 msgstr "เพิ่มความสนใจ"
 
-#: src/features/help/contribute-dialog.tsx:69
+#: src/features/help/contribute-dialog.tsx:74
 msgid "Brief summary of the problem"
 msgstr "สรุปปัญหาโดยย่อ"
+
+#: src/features/help/contribute-dialog.tsx:102
+msgid "Browser / device"
+msgstr ""
 
 #: ../../../lib/web/src/components/responsive-confirm-dialog.tsx:64
 #: ../../../lib/web/src/components/travelling-picker.tsx:292
@@ -140,7 +152,7 @@ msgstr "สรุปปัญหาโดยย่อ"
 #: ../../../lib/web/src/features/access/access-list.tsx:255
 #: ../../../lib/web/src/features/accounts/account-add.tsx:185
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:86
-#: src/features/help/contribute-dialog.tsx:165
+#: src/features/help/contribute-dialog.tsx:237
 msgid "Cancel"
 msgstr "ยกเลิก"
 
@@ -168,7 +180,7 @@ msgstr "เลือกระหว่างทิศทางเว็บไซ
 msgid "Choose between system preference, light mode, or dark mode"
 msgstr "เลือกระหว่างการตั้งค่าระบบ โหมดสว่าง หรือโหมดมืด"
 
-#: ../../../lib/web/src/components/language-picker.tsx:176
+#: ../../../lib/web/src/components/language-picker.tsx:174
 msgid "Choose language"
 msgstr "เลือกภาษา"
 
@@ -250,14 +262,14 @@ msgid "Copy"
 msgstr "คัดลอก"
 
 #: ../../../lib/web/src/features/document/document-page.tsx:81
-msgid "Could not load this document. Please try again later."
-msgstr "ไม่สามารถโหลดเอกสารนี้ได้ โปรดลองอีกครั้งในภายหลัง"
+#~ msgid "Could not load this document. Please try again later."
+#~ msgstr "ไม่สามารถโหลดเอกสารนี้ได้ โปรดลองอีกครั้งในภายหลัง"
 
 #: src/features/help/index.tsx:66
 msgid "Couldn't reach the destination yet"
 msgstr "ยังไม่สามารถส่งถึงปลายทางได้"
 
-#: src/features/help/contribute-dialog.tsx:112
+#: src/features/help/contribute-dialog.tsx:153
 msgid "Couldn't submit"
 msgstr "ส่งไม่สำเร็จ"
 
@@ -286,12 +298,12 @@ msgstr "บัญชี AI เริ่มต้น"
 msgid "Desc"
 msgstr "มากไปน้อย"
 
-#: src/features/help/contribute-dialog.tsx:67
+#: src/features/help/contribute-dialog.tsx:72
 msgid "Describe what went wrong. The Mochi development team will see it on the Mochi development project."
 msgstr "อธิบายว่าเกิดอะไรขึ้น ทีมพัฒนา Mochi จะเห็นในโปรเจกต์พัฒนา Mochi"
 
-#: src/features/help/contribute-dialog.tsx:60
-#: src/features/help/contribute-dialog.tsx:80
+#: src/features/help/contribute-dialog.tsx:65
+#: src/features/help/contribute-dialog.tsx:85
 msgid "Details"
 msgstr "รายละเอียด"
 
@@ -299,7 +311,7 @@ msgstr "รายละเอียด"
 msgid "Details Panel"
 msgstr "แผงรายละเอียด"
 
-#: ../../../lib/web/src/components/language-picker.tsx:154
+#: ../../../lib/web/src/components/language-picker.tsx:152
 #: ../../../lib/web/src/components/timezone-select.tsx:43
 #: ../../../lib/web/src/components/timezone-select.tsx:80
 #: ../../../lib/web/src/lib/preference-utils.ts:25
@@ -313,6 +325,14 @@ msgstr "ตรวจจับจากเว็บเบราว์เซอร
 #: ../../../lib/web/src/components/config-drawer.tsx:327
 msgid "Direction"
 msgstr "ทิศทาง"
+
+#: src/features/help/contribute-dialog.tsx:262
+msgid "Discard"
+msgstr ""
+
+#: src/features/help/contribute-dialog.tsx:259
+msgid "Discard draft?"
+msgstr ""
 
 #: ../../../lib/web/src/components/ui/sidebar.tsx:235
 msgid "Displays the mobile sidebar."
@@ -329,6 +349,10 @@ msgstr "เหมาะสำหรับผู้บกพร่องการ
 #: ../../../lib/web/src/components/layout/app-sidebar.tsx:35
 msgid "Expand sidebar"
 msgstr "ขยายแถบด้านข้าง"
+
+#: src/features/help/contribute-dialog.tsx:98
+msgid "Expected"
+msgstr ""
 
 #: ../../../lib/web/src/lib/preference-utils.ts:124
 msgid "Extra large"
@@ -355,8 +379,8 @@ msgid "Floating"
 msgstr "ลอย"
 
 #: src/features/help/index.tsx:41
-msgid "Found something broken? Tell the developers and they'll fix it."
-msgstr "พบปัญหาหรือไม่? แจ้งให้นักพัฒนาทราบ แล้วพวกเขาจะแก้ไขให้"
+#~ msgid "Found something broken? Tell the developers and they'll fix it."
+#~ msgstr "พบปัญหาหรือไม่? แจ้งให้นักพัฒนาทราบ แล้วพวกเขาจะแก้ไขให้"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:60
 msgid "Friday"
@@ -401,23 +425,26 @@ msgid "Go to previous page"
 msgstr "ไปหน้าก่อนหน้า"
 
 #: src/features/help/index.tsx:35
-msgid "Got a problem? Not sure what to do? Ask the community on the Mochi Users mailing list."
-msgstr "มีปัญหาหรือไม่? ไม่แน่ใจว่าต้องทำอย่างไร? ถามชุมชนได้ที่เมลลิงลิสต์ Mochi Users"
+#~ msgid "Got a problem? Not sure what to do? Ask the community on the Mochi Users mailing list."
+#~ msgstr "มีปัญหาหรือไม่? ไม่แน่ใจว่าต้องทำอย่างไร? ถามชุมชนได้ที่เมลลิงลิสต์ Mochi Users"
 
 #: src/features/help/index.tsx:47
-msgid "Got an idea? Tell the developers and maybe they'll add it."
-msgstr "มีไอเดียหรือไม่? แจ้งให้นักพัฒนาทราบ บางทีพวกเขาอาจเพิ่มให้"
+msgid "Got an idea? Open a feature request on the Mochi development project."
+msgstr ""
+
+#: src/features/help/index.tsx:47
+#~ msgid "Got an idea? Tell the developers and maybe they'll add it."
+#~ msgstr "มีไอเดียหรือไม่? แจ้งให้นักพัฒนาทราบ บางทีพวกเขาอาจเพิ่มให้"
 
 #: ../../../lib/web/src/features/access/access-dialog.tsx:159
 msgid "Group"
 msgstr "กลุ่ม"
 
-#: src/features/help/index.tsx:74
-#: src/routes/_authenticated/route.tsx:13
+#: src/features/help/index.tsx:75
 msgid "Help"
 msgstr "ช่วยเหลือ"
 
-#: src/features/help/contribute-dialog.tsx:51
+#: src/features/help/contribute-dialog.tsx:56
 msgid "Hi, I'm…"
 msgstr "สวัสดี ฉันชื่อ…"
 
@@ -448,7 +475,7 @@ msgstr "ฝังเข้าด้านใน"
 msgid "Interests"
 msgstr "ความสนใจ"
 
-#: src/features/help/contribute-dialog.tsx:50
+#: src/features/help/contribute-dialog.tsx:55
 #: src/features/help/index.tsx:28
 msgid "Introduce yourself"
 msgstr "แนะนำตัว"
@@ -456,6 +483,10 @@ msgstr "แนะนำตัว"
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:237
 msgid "Invalid verification code"
 msgstr "รหัสยืนยันไม่ถูกต้อง"
+
+#: src/features/help/contribute-dialog.tsx:261
+msgid "Keep editing"
+msgstr ""
 
 #: ../../../lib/web/src/lib/preference-utils.ts:105
 #: ../../../lib/web/src/lib/preference-utils.ts:123
@@ -484,7 +515,6 @@ msgid "Load more"
 msgstr "โหลดเพิ่ม"
 
 #: ../../../lib/web/src/components/ui/load-more.tsx:32
-#: ../../../lib/web/src/features/document/document-page.tsx:87
 msgid "Loading…"
 msgstr "กำลังโหลด…"
 
@@ -552,8 +582,8 @@ msgid "No groups available"
 msgstr "ไม่มีกลุ่มที่ใช้งานได้"
 
 #: ../../../lib/web/src/components/language-picker.tsx:186
-msgid "No matches."
-msgstr "ไม่พบรายการที่ตรงกัน"
+#~ msgid "No matches."
+#~ msgstr "ไม่พบรายการที่ตรงกัน"
 
 #: ../../../lib/web/src/components/place-picker.tsx:129
 msgid "No places found"
@@ -626,19 +656,23 @@ msgstr "อื่น ๆ"
 msgid "Owner"
 msgstr "เจ้าของ"
 
-#: src/features/help/contribute-dialog.tsx:113
+#: src/features/help/contribute-dialog.tsx:154
 msgid "Please try again."
 msgstr "โปรดลองอีกครั้ง"
 
-#: src/features/help/contribute-dialog.tsx:52
+#: src/features/help/contribute-dialog.tsx:57
 msgid "Post introduction"
 msgstr "โพสต์แนะนำตัว"
 
-#: src/features/help/contribute-dialog.tsx:62
+#: src/features/help/contribute-dialog.tsx:67
 msgid "Post question"
 msgstr "โพสต์คำถาม"
 
-#: src/features/help/contribute-dialog.tsx:174
+#: src/features/help/contribute-dialog.tsx:148
+msgid "Posted"
+msgstr ""
+
+#: src/features/help/contribute-dialog.tsx:243
 msgid "Posting…"
 msgstr "กำลังโพสต์…"
 
@@ -646,8 +680,7 @@ msgstr "กำลังโพสต์…"
 msgid "Previous image"
 msgstr "รูปก่อนหน้า"
 
-#: ../../../lib/web/src/components/server-documents-footer.tsx:24
-#: ../../../lib/web/src/features/document/document-page.tsx:41
+#: ../../../lib/web/src/components/server-documents-footer.tsx:15
 msgid "Privacy"
 msgstr "ความเป็นส่วนตัว"
 
@@ -656,7 +689,7 @@ msgstr "ความเป็นส่วนตัว"
 msgid "Profile"
 msgstr "โปรไฟล์"
 
-#: src/features/help/contribute-dialog.tsx:58
+#: src/features/help/contribute-dialog.tsx:63
 msgid "Question"
 msgstr "คำถาม"
 
@@ -699,12 +732,12 @@ msgstr "ลบสิทธิ์การเข้าถึง?"
 msgid "Remove interest"
 msgstr "ลบความสนใจ"
 
-#: src/features/help/contribute-dialog.tsx:66
+#: src/features/help/contribute-dialog.tsx:71
 #: src/features/help/index.tsx:40
 msgid "Report a bug"
 msgstr "รายงานบั๊ก"
 
-#: src/features/help/contribute-dialog.tsx:72
+#: src/features/help/contribute-dialog.tsx:77
 msgid "Report bug"
 msgstr "รายงานบั๊ก"
 
@@ -729,8 +762,12 @@ msgid "Saturday"
 msgstr "วันเสาร์"
 
 #: src/features/help/index.tsx:29
-msgid "Say hello on the Mochi Users mailing list."
-msgstr "ทักทายกันที่เมลลิงลิสต์ Mochi Users"
+msgid "Say hello on the Mochi users mailing list and tell everyone a little about yourself."
+msgstr ""
+
+#: src/features/help/index.tsx:29
+#~ msgid "Say hello on the Mochi Users mailing list."
+#~ msgstr "ทักทายกันที่เมลลิงลิสต์ Mochi Users"
 
 #: ../../../lib/web/src/components/place-picker.tsx:82
 msgid "Search for a place"
@@ -757,8 +794,8 @@ msgid "Search..."
 msgstr "ค้นหา..."
 
 #: ../../../lib/web/src/components/language-picker.tsx:184
-msgid "Search…"
-msgstr "ค้นหา…"
+#~ msgid "Search…"
+#~ msgstr "ค้นหา…"
 
 #: ../../../lib/web/src/components/search-entity-dialog.tsx:174
 #: ../../../lib/web/src/components/search-entity-page.tsx:149
@@ -802,8 +839,7 @@ msgstr "เลือกการตั้งค่าธีม"
 msgid "Serif"
 msgstr "เซริฟ"
 
-#: ../../../lib/web/src/components/server-documents-footer.tsx:16
-#: ../../../lib/web/src/features/document/document-page.tsx:37
+#: ../../../lib/web/src/components/server-documents-footer.tsx:7
 msgid "Server rules"
 msgstr "กฎของเซิร์ฟเวอร์"
 
@@ -821,7 +857,7 @@ msgstr "ตั้งค่าต้นทางและปลายทาง"
 msgid "Settings"
 msgstr "การตั้งค่า"
 
-#: src/features/help/contribute-dialog.tsx:79
+#: src/features/help/contribute-dialog.tsx:84
 msgid "Short title for your idea"
 msgstr "หัวข้อสั้น ๆ สำหรับไอเดียของคุณ"
 
@@ -852,25 +888,41 @@ msgstr "เล็ก"
 msgid "Spacious"
 msgstr "กว้างขวาง"
 
+#: src/features/help/index.tsx:41
+msgid "Spotted something broken? File a bug ticket on the Mochi development project."
+msgstr ""
+
 #: ../../../lib/web/src/components/coming-soon.tsx:12
 msgid "Stay tuned though!"
 msgstr "โปรดรอติดตาม!"
+
+#: src/features/help/contribute-dialog.tsx:95
+msgid "Steps to reproduce"
+msgstr ""
+
+#: src/features/help/index.tsx:35
+msgid "Stuck on something? Ask the community on the Mochi users mailing list."
+msgstr ""
 
 #: ../../../lib/web/src/features/access/access-list.tsx:187
 msgid "Subject"
 msgstr "หัวเรื่อง"
 
 #: src/features/help/contribute-dialog.tsx:76
-#: src/features/help/index.tsx:46
-msgid "Suggest a feature"
-msgstr "เสนอฟีเจอร์"
+#~ msgid "Suggest a feature"
+#~ msgstr "เสนอฟีเจอร์"
 
-#: src/features/help/contribute-dialog.tsx:82
+#: src/features/help/contribute-dialog.tsx:81
+#: src/features/help/index.tsx:46
+msgid "Suggest a new feature"
+msgstr ""
+
+#: src/features/help/contribute-dialog.tsx:87
 msgid "Suggest feature"
 msgstr "เสนอฟีเจอร์"
 
-#: src/features/help/contribute-dialog.tsx:68
-#: src/features/help/contribute-dialog.tsx:78
+#: src/features/help/contribute-dialog.tsx:73
+#: src/features/help/contribute-dialog.tsx:83
 msgid "Summary"
 msgstr "สรุป"
 
@@ -888,16 +940,19 @@ msgstr "ระบบ"
 msgid "Tag"
 msgstr "แท็ก"
 
+#: src/features/help/contribute-dialog.tsx:149
+msgid "Taking you there now."
+msgstr ""
+
 #: ../../../lib/web/src/components/layout/team-switcher.tsx:60
 msgid "Teams/Apps"
 msgstr "ทีม/แอป"
 
-#: src/features/help/contribute-dialog.tsx:77
+#: src/features/help/contribute-dialog.tsx:82
 msgid "Tell the Mochi development team what you'd like Mochi to do."
 msgstr "บอกทีมพัฒนา Mochi ว่าคุณอยากให้ Mochi ทำอะไร"
 
-#: ../../../lib/web/src/components/server-documents-footer.tsx:20
-#: ../../../lib/web/src/features/document/document-page.tsx:39
+#: ../../../lib/web/src/components/server-documents-footer.tsx:11
 msgid "Terms and conditions"
 msgstr "ข้อกำหนดและเงื่อนไข"
 
@@ -1039,22 +1094,30 @@ msgstr "เว็บไซต์อยู่ระหว่างการบำ
 msgid "Wednesday"
 msgstr "วันพุธ"
 
-#: src/features/help/contribute-dialog.tsx:71
+#: src/features/help/index.tsx:76
+msgid "Welcome to Mochi. Here's how to get started."
+msgstr ""
+
+#: src/features/help/contribute-dialog.tsx:76
 msgid "What did you do, what did you expect, what happened instead?"
 msgstr "คุณทำอะไร คุณคาดหวังอะไร เกิดอะไรขึ้นจริง ๆ?"
 
-#: src/features/help/contribute-dialog.tsx:70
+#: src/features/help/contribute-dialog.tsx:75
 msgid "What happened"
 msgstr "เกิดอะไรขึ้น"
 
-#: src/features/help/contribute-dialog.tsx:61
+#: src/features/help/contribute-dialog.tsx:66
 msgid "What have you tried, what did you expect, where are you stuck?"
 msgstr "คุณลองอะไรมาแล้ว คาดหวังอะไร และติดตรงไหน?"
 
-#: src/features/help/contribute-dialog.tsx:81
+#: src/features/help/contribute-dialog.tsx:86
 msgid "What would it do, who is it for, why does it matter?"
 msgstr "มันจะทำอะไร เพื่อใคร และทำไมจึงสำคัญ?"
 
-#: src/features/help/contribute-dialog.tsx:59
+#: src/features/help/contribute-dialog.tsx:64
 msgid "What you want to ask, in one line"
 msgstr "สิ่งที่คุณอยากถาม ในบรรทัดเดียว"
+
+#: src/features/help/contribute-dialog.tsx:260
+msgid "Your text will be lost."
+msgstr ""

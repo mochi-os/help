@@ -49,6 +49,14 @@ msgstr "ගිණුම් වර්ගය"
 msgid "Account verified"
 msgstr "ගිණුම සත්‍යාපනය කරන ලදී"
 
+#: src/features/help/contribute-dialog.tsx:100
+msgid "Actual"
+msgstr ""
+
+#: src/features/help/contribute-dialog.tsx:224
+msgid "Add a bit more detail."
+msgstr ""
+
 #: ../../../lib/web/src/features/accounts/account-add.tsx:117
 msgid "Add a new account"
 msgstr "නව ගිණුමක් එක් කරන්න"
@@ -106,12 +114,12 @@ msgstr "ඔබට පිටවීමට අවශ්‍ය බව විශ්�
 msgid "Asc"
 msgstr "ආරෝහණ"
 
-#: src/features/help/contribute-dialog.tsx:56
+#: src/features/help/contribute-dialog.tsx:61
 #: src/features/help/index.tsx:34
 msgid "Ask a question"
 msgstr "ප්‍රශ්නයක් අසන්න"
 
-#: src/features/help/contribute-dialog.tsx:57
+#: src/features/help/contribute-dialog.tsx:62
 msgid "Ask the community on the Mochi users mailing list. Be specific about what you've tried so far."
 msgstr "Mochi පරිශීලක තැපැල් ලැයිස්තුවේ ප්‍රජාවෙන් අසන්න. මෙතෙක් උත්සාහ කළ දේ ගැන නිශ්චිතව කියන්න."
 
@@ -129,9 +137,13 @@ msgstr "මුල් පිටුවට ආපසු"
 msgid "Boost interest"
 msgstr "කැමැත්ත වැඩි කරන්න"
 
-#: src/features/help/contribute-dialog.tsx:69
+#: src/features/help/contribute-dialog.tsx:74
 msgid "Brief summary of the problem"
 msgstr "ගැටලුවේ කෙටි සාරාංශය"
+
+#: src/features/help/contribute-dialog.tsx:102
+msgid "Browser / device"
+msgstr ""
 
 #: ../../../lib/web/src/components/responsive-confirm-dialog.tsx:64
 #: ../../../lib/web/src/components/travelling-picker.tsx:292
@@ -140,7 +152,7 @@ msgstr "ගැටලුවේ කෙටි සාරාංශය"
 #: ../../../lib/web/src/features/access/access-list.tsx:255
 #: ../../../lib/web/src/features/accounts/account-add.tsx:185
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:86
-#: src/features/help/contribute-dialog.tsx:165
+#: src/features/help/contribute-dialog.tsx:237
 msgid "Cancel"
 msgstr "අවලංගු කරන්න"
 
@@ -168,7 +180,7 @@ msgstr "වමේ-සිට-දකුණට හෝ දකුණේ-සිට-ව
 msgid "Choose between system preference, light mode, or dark mode"
 msgstr "පද්ධති අභිරුචිය, ආලෝකමත් ආකාරය හෝ අඳුරු ආකාරය අතර තෝරන්න"
 
-#: ../../../lib/web/src/components/language-picker.tsx:176
+#: ../../../lib/web/src/components/language-picker.tsx:174
 msgid "Choose language"
 msgstr "භාෂාව තෝරන්න"
 
@@ -250,14 +262,14 @@ msgid "Copy"
 msgstr "පිටපත් කරන්න"
 
 #: ../../../lib/web/src/features/document/document-page.tsx:81
-msgid "Could not load this document. Please try again later."
-msgstr "මෙම ලේඛනය පූරණය කළ නොහැකි විය. කරුණාකර පසුව නැවත උත්සාහ කරන්න."
+#~ msgid "Could not load this document. Please try again later."
+#~ msgstr "මෙම ලේඛනය පූරණය කළ නොහැකි විය. කරුණාකර පසුව නැවත උත්සාහ කරන්න."
 
 #: src/features/help/index.tsx:66
 msgid "Couldn't reach the destination yet"
 msgstr "තවම ගමනාන්තයට ළඟා විය නොහැකි විය"
 
-#: src/features/help/contribute-dialog.tsx:112
+#: src/features/help/contribute-dialog.tsx:153
 msgid "Couldn't submit"
 msgstr "ඉදිරිපත් කළ නොහැකි විය"
 
@@ -286,12 +298,12 @@ msgstr "පෙරනිමි AI ගිණුම"
 msgid "Desc"
 msgstr "අවරෝහණ"
 
-#: src/features/help/contribute-dialog.tsx:67
+#: src/features/help/contribute-dialog.tsx:72
 msgid "Describe what went wrong. The Mochi development team will see it on the Mochi development project."
 msgstr "වැරදී ගියේ කුමක්දැයි විස්තර කරන්න. Mochi සංවර්ධන කණ්ඩායමට එය Mochi සංවර්ධන ව්‍යාපෘතියේ දැකගත හැකි වේ."
 
-#: src/features/help/contribute-dialog.tsx:60
-#: src/features/help/contribute-dialog.tsx:80
+#: src/features/help/contribute-dialog.tsx:65
+#: src/features/help/contribute-dialog.tsx:85
 msgid "Details"
 msgstr "විස්තර"
 
@@ -299,7 +311,7 @@ msgstr "විස්තර"
 msgid "Details Panel"
 msgstr "විස්තර Panel"
 
-#: ../../../lib/web/src/components/language-picker.tsx:154
+#: ../../../lib/web/src/components/language-picker.tsx:152
 #: ../../../lib/web/src/components/timezone-select.tsx:43
 #: ../../../lib/web/src/components/timezone-select.tsx:80
 #: ../../../lib/web/src/lib/preference-utils.ts:25
@@ -313,6 +325,14 @@ msgstr "වෙබ් බ්‍රවුසරයෙන් හඳුනාගන�
 #: ../../../lib/web/src/components/config-drawer.tsx:327
 msgid "Direction"
 msgstr "දිශාව"
+
+#: src/features/help/contribute-dialog.tsx:262
+msgid "Discard"
+msgstr ""
+
+#: src/features/help/contribute-dialog.tsx:259
+msgid "Discard draft?"
+msgstr ""
 
 #: ../../../lib/web/src/components/ui/sidebar.tsx:235
 msgid "Displays the mobile sidebar."
@@ -329,6 +349,10 @@ msgstr "ඩිස්ලෙක්සියාවට මිත්‍ර"
 #: ../../../lib/web/src/components/layout/app-sidebar.tsx:35
 msgid "Expand sidebar"
 msgstr "පැති තීරුව ප්‍රසාරණය කරන්න"
+
+#: src/features/help/contribute-dialog.tsx:98
+msgid "Expected"
+msgstr ""
 
 #: ../../../lib/web/src/lib/preference-utils.ts:124
 msgid "Extra large"
@@ -355,8 +379,8 @@ msgid "Floating"
 msgstr "පාවෙන"
 
 #: src/features/help/index.tsx:41
-msgid "Found something broken? Tell the developers and they'll fix it."
-msgstr "කැඩුණු දෙයක් හමු වුණාද? සංවර්ධකයින්ට කියන්න, ඔවුන් එය නිවැරදි කරයි."
+#~ msgid "Found something broken? Tell the developers and they'll fix it."
+#~ msgstr "කැඩුණු දෙයක් හමු වුණාද? සංවර්ධකයින්ට කියන්න, ඔවුන් එය නිවැරදි කරයි."
 
 #: ../../../lib/web/src/lib/preference-utils.ts:60
 msgid "Friday"
@@ -401,23 +425,26 @@ msgid "Go to previous page"
 msgstr "පෙර පිටුවට යන්න"
 
 #: src/features/help/index.tsx:35
-msgid "Got a problem? Not sure what to do? Ask the community on the Mochi Users mailing list."
-msgstr "ගැටලුවක්ද? කුමක් කළ යුතුද කියා නොදන්නවාද? Mochi Users තැපැල් ලැයිස්තුවේ ප්‍රජාවෙන් අසන්න."
+#~ msgid "Got a problem? Not sure what to do? Ask the community on the Mochi Users mailing list."
+#~ msgstr "ගැටලුවක්ද? කුමක් කළ යුතුද කියා නොදන්නවාද? Mochi Users තැපැල් ලැයිස්තුවේ ප්‍රජාවෙන් අසන්න."
 
 #: src/features/help/index.tsx:47
-msgid "Got an idea? Tell the developers and maybe they'll add it."
-msgstr "අදහසක් තිබේද? සංවර්ධකයින්ට කියන්න, සමහරවිට ඔවුන් එය එක් කරයි."
+msgid "Got an idea? Open a feature request on the Mochi development project."
+msgstr ""
+
+#: src/features/help/index.tsx:47
+#~ msgid "Got an idea? Tell the developers and maybe they'll add it."
+#~ msgstr "අදහසක් තිබේද? සංවර්ධකයින්ට කියන්න, සමහරවිට ඔවුන් එය එක් කරයි."
 
 #: ../../../lib/web/src/features/access/access-dialog.tsx:159
 msgid "Group"
 msgstr "කණ්ඩායම"
 
-#: src/features/help/index.tsx:74
-#: src/routes/_authenticated/route.tsx:13
+#: src/features/help/index.tsx:75
 msgid "Help"
 msgstr "උදව්"
 
-#: src/features/help/contribute-dialog.tsx:51
+#: src/features/help/contribute-dialog.tsx:56
 msgid "Hi, I'm…"
 msgstr "ආයුබෝවන්, මම…"
 
@@ -448,7 +475,7 @@ msgstr "ඇතුළත"
 msgid "Interests"
 msgstr "උනන්දු"
 
-#: src/features/help/contribute-dialog.tsx:50
+#: src/features/help/contribute-dialog.tsx:55
 #: src/features/help/index.tsx:28
 msgid "Introduce yourself"
 msgstr "ඔබව හඳුන්වා දෙන්න"
@@ -456,6 +483,10 @@ msgstr "ඔබව හඳුන්වා දෙන්න"
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:237
 msgid "Invalid verification code"
 msgstr "අවලංගු සත්‍යාපන කේතය"
+
+#: src/features/help/contribute-dialog.tsx:261
+msgid "Keep editing"
+msgstr ""
 
 #: ../../../lib/web/src/lib/preference-utils.ts:105
 #: ../../../lib/web/src/lib/preference-utils.ts:123
@@ -484,7 +515,6 @@ msgid "Load more"
 msgstr "තවත් පූරණය කරන්න"
 
 #: ../../../lib/web/src/components/ui/load-more.tsx:32
-#: ../../../lib/web/src/features/document/document-page.tsx:87
 msgid "Loading…"
 msgstr "පූරණය වෙමින්…"
 
@@ -552,8 +582,8 @@ msgid "No groups available"
 msgstr "කණ්ඩායම් ලබා ගත නොහැක"
 
 #: ../../../lib/web/src/components/language-picker.tsx:186
-msgid "No matches."
-msgstr "ගැලපීම් නැත."
+#~ msgid "No matches."
+#~ msgstr "ගැලපීම් නැත."
 
 #: ../../../lib/web/src/components/place-picker.tsx:129
 msgid "No places found"
@@ -626,19 +656,23 @@ msgstr "වෙනත්"
 msgid "Owner"
 msgstr "හිමිකරු"
 
-#: src/features/help/contribute-dialog.tsx:113
+#: src/features/help/contribute-dialog.tsx:154
 msgid "Please try again."
 msgstr "කරුණාකර නැවත උත්සාහ කරන්න."
 
-#: src/features/help/contribute-dialog.tsx:52
+#: src/features/help/contribute-dialog.tsx:57
 msgid "Post introduction"
 msgstr "හැඳින්වීම පළ කරන්න"
 
-#: src/features/help/contribute-dialog.tsx:62
+#: src/features/help/contribute-dialog.tsx:67
 msgid "Post question"
 msgstr "ප්‍රශ්නය පළ කරන්න"
 
-#: src/features/help/contribute-dialog.tsx:174
+#: src/features/help/contribute-dialog.tsx:148
+msgid "Posted"
+msgstr ""
+
+#: src/features/help/contribute-dialog.tsx:243
 msgid "Posting…"
 msgstr "පළ කරමින්…"
 
@@ -646,8 +680,7 @@ msgstr "පළ කරමින්…"
 msgid "Previous image"
 msgstr "පෙර පින්තූරය"
 
-#: ../../../lib/web/src/components/server-documents-footer.tsx:24
-#: ../../../lib/web/src/features/document/document-page.tsx:41
+#: ../../../lib/web/src/components/server-documents-footer.tsx:15
 msgid "Privacy"
 msgstr "පෞද්ගලිකත්වය"
 
@@ -656,7 +689,7 @@ msgstr "පෞද්ගලිකත්වය"
 msgid "Profile"
 msgstr "පැතිකඩ"
 
-#: src/features/help/contribute-dialog.tsx:58
+#: src/features/help/contribute-dialog.tsx:63
 msgid "Question"
 msgstr "ප්‍රශ්නය"
 
@@ -699,12 +732,12 @@ msgstr "ප්‍රවේශය ඉවත් කරන්නද?"
 msgid "Remove interest"
 msgstr "උනන්දුව ඉවත් කරන්න"
 
-#: src/features/help/contribute-dialog.tsx:66
+#: src/features/help/contribute-dialog.tsx:71
 #: src/features/help/index.tsx:40
 msgid "Report a bug"
 msgstr "දෝෂයක් වාර්තා කරන්න"
 
-#: src/features/help/contribute-dialog.tsx:72
+#: src/features/help/contribute-dialog.tsx:77
 msgid "Report bug"
 msgstr "දෝෂය වාර්තා කරන්න"
 
@@ -729,8 +762,12 @@ msgid "Saturday"
 msgstr "සෙනසුරාදා"
 
 #: src/features/help/index.tsx:29
-msgid "Say hello on the Mochi Users mailing list."
-msgstr "Mochi Users තැපැල් ලැයිස්තුවේ ආයුබෝවන් කියන්න."
+msgid "Say hello on the Mochi users mailing list and tell everyone a little about yourself."
+msgstr ""
+
+#: src/features/help/index.tsx:29
+#~ msgid "Say hello on the Mochi Users mailing list."
+#~ msgstr "Mochi Users තැපැල් ලැයිස්තුවේ ආයුබෝවන් කියන්න."
 
 #: ../../../lib/web/src/components/place-picker.tsx:82
 msgid "Search for a place"
@@ -757,8 +794,8 @@ msgid "Search..."
 msgstr "සොයන්න..."
 
 #: ../../../lib/web/src/components/language-picker.tsx:184
-msgid "Search…"
-msgstr "සොයන්න…"
+#~ msgid "Search…"
+#~ msgstr "සොයන්න…"
 
 #: ../../../lib/web/src/components/search-entity-dialog.tsx:174
 #: ../../../lib/web/src/components/search-entity-page.tsx:149
@@ -802,8 +839,7 @@ msgstr "theme මනාපය තෝරන්න"
 msgid "Serif"
 msgstr "සෙරිෆ්"
 
-#: ../../../lib/web/src/components/server-documents-footer.tsx:16
-#: ../../../lib/web/src/features/document/document-page.tsx:37
+#: ../../../lib/web/src/components/server-documents-footer.tsx:7
 msgid "Server rules"
 msgstr "සේවාදායක නීති"
 
@@ -821,7 +857,7 @@ msgstr "මූලාරම්භය සහ ගමනාන්තය සකසන
 msgid "Settings"
 msgstr "සැකසුම්"
 
-#: src/features/help/contribute-dialog.tsx:79
+#: src/features/help/contribute-dialog.tsx:84
 msgid "Short title for your idea"
 msgstr "ඔබේ අදහස සඳහා කෙටි මාතෘකාව"
 
@@ -852,25 +888,41 @@ msgstr "කුඩා"
 msgid "Spacious"
 msgstr "විශාල"
 
+#: src/features/help/index.tsx:41
+msgid "Spotted something broken? File a bug ticket on the Mochi development project."
+msgstr ""
+
 #: ../../../lib/web/src/components/coming-soon.tsx:12
 msgid "Stay tuned though!"
 msgstr "නමුත් රැඳී සිටින්න!"
+
+#: src/features/help/contribute-dialog.tsx:95
+msgid "Steps to reproduce"
+msgstr ""
+
+#: src/features/help/index.tsx:35
+msgid "Stuck on something? Ask the community on the Mochi users mailing list."
+msgstr ""
 
 #: ../../../lib/web/src/features/access/access-list.tsx:187
 msgid "Subject"
 msgstr "විෂය"
 
 #: src/features/help/contribute-dialog.tsx:76
-#: src/features/help/index.tsx:46
-msgid "Suggest a feature"
-msgstr "අංගයක් යෝජනා කරන්න"
+#~ msgid "Suggest a feature"
+#~ msgstr "අංගයක් යෝජනා කරන්න"
 
-#: src/features/help/contribute-dialog.tsx:82
+#: src/features/help/contribute-dialog.tsx:81
+#: src/features/help/index.tsx:46
+msgid "Suggest a new feature"
+msgstr ""
+
+#: src/features/help/contribute-dialog.tsx:87
 msgid "Suggest feature"
 msgstr "විශේෂාංගය යෝජනා කරන්න"
 
-#: src/features/help/contribute-dialog.tsx:68
-#: src/features/help/contribute-dialog.tsx:78
+#: src/features/help/contribute-dialog.tsx:73
+#: src/features/help/contribute-dialog.tsx:83
 msgid "Summary"
 msgstr "සාරාංශය"
 
@@ -888,16 +940,19 @@ msgstr "පද්ධතිය"
 msgid "Tag"
 msgstr "ටැගය"
 
+#: src/features/help/contribute-dialog.tsx:149
+msgid "Taking you there now."
+msgstr ""
+
 #: ../../../lib/web/src/components/layout/team-switcher.tsx:60
 msgid "Teams/Apps"
 msgstr "කණ්ඩායම්/යෙදුම්"
 
-#: src/features/help/contribute-dialog.tsx:77
+#: src/features/help/contribute-dialog.tsx:82
 msgid "Tell the Mochi development team what you'd like Mochi to do."
 msgstr "Mochi කිරීමට අවශ්‍ය දේ Mochi සංවර්ධන කණ්ඩායමට කියන්න."
 
-#: ../../../lib/web/src/components/server-documents-footer.tsx:20
-#: ../../../lib/web/src/features/document/document-page.tsx:39
+#: ../../../lib/web/src/components/server-documents-footer.tsx:11
 msgid "Terms and conditions"
 msgstr "නියම සහ කොන්දේසි"
 
@@ -1039,22 +1094,30 @@ msgstr "වෙබ් අඩවිය නඩත්තු යටතේ පවත�
 msgid "Wednesday"
 msgstr "බදාදා"
 
-#: src/features/help/contribute-dialog.tsx:71
+#: src/features/help/index.tsx:76
+msgid "Welcome to Mochi. Here's how to get started."
+msgstr ""
+
+#: src/features/help/contribute-dialog.tsx:76
 msgid "What did you do, what did you expect, what happened instead?"
 msgstr "ඔබ කළේ කුමක්ද, අපේක්ෂා කළේ කුමක්ද, ඒ වෙනුවට සිදු වූයේ කුමක්ද?"
 
-#: src/features/help/contribute-dialog.tsx:70
+#: src/features/help/contribute-dialog.tsx:75
 msgid "What happened"
 msgstr "සිදු වූයේ කුමක්ද"
 
-#: src/features/help/contribute-dialog.tsx:61
+#: src/features/help/contribute-dialog.tsx:66
 msgid "What have you tried, what did you expect, where are you stuck?"
 msgstr "ඔබ උත්සාහ කළේ කුමක්ද, බලාපොරොත්තු වූයේ කුමක්ද, ඔබ සිරවී සිටින්නේ කොතැනද?"
 
-#: src/features/help/contribute-dialog.tsx:81
+#: src/features/help/contribute-dialog.tsx:86
 msgid "What would it do, who is it for, why does it matter?"
 msgstr "එය කරන්නේ කුමක්ද, එය කවුරුන් සඳහාද, එය වැදගත් වන්නේ ඇයි?"
 
-#: src/features/help/contribute-dialog.tsx:59
+#: src/features/help/contribute-dialog.tsx:64
 msgid "What you want to ask, in one line"
 msgstr "ඔබට අසන්න අවශ්‍ය දේ, එක පේළියකින්"
+
+#: src/features/help/contribute-dialog.tsx:260
+msgid "Your text will be lost."
+msgstr ""

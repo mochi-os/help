@@ -70,13 +70,13 @@ export function Help() {
   }
 
   return (
-    <>
+    <div className='flex h-full flex-col'>
       <PageHeader
         title={t`Help`}
         description={t`Welcome to Mochi. Here's how to get started.`}
       />
-      <Main>
-        <div className='mx-auto max-w-3xl px-4 py-6 sm:px-6 lg:px-8'>
+      <Main className='flex flex-1 flex-col'>
+        <div className='mx-auto w-full max-w-3xl flex-1 px-4 py-6 sm:px-6 lg:px-8'>
           <div className='grid grid-cols-1 gap-4 sm:grid-cols-2'>
             {cards.map((card) => (
               <button
@@ -95,8 +95,8 @@ export function Help() {
               </button>
             ))}
           </div>
-          <ServerDocumentsFooter />
         </div>
+        <ServerDocumentsFooter />
       </Main>
 
       {openKind && (
@@ -108,6 +108,6 @@ export function Help() {
           }}
         />
       )}
-    </>
+    </div>
   )
 }

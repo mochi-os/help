@@ -13,9 +13,11 @@ DEV_TICKET_CLASS = "ticket"
 VALID_KINDS = ["intro", "question", "bug", "feature"]
 
 # Length limits roughly mirror forums: 500 char title, 50000 char body.
+# BODY_MIN of 20 chars stops one-letter "x" posts while still letting short
+# bug reports through; the help SPA enforces the same minimum client-side.
 TITLE_MAX = 500
 BODY_MAX = 50000
-BODY_MIN = 1
+BODY_MIN = 20
 
 def action_visit(a):
 	if not a.user or not a.user.identity:
