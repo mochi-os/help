@@ -26,25 +26,25 @@ function useCards(): CardConfig[] {
       kind: 'intro',
       icon: Sparkles,
       title: t`Introduce yourself`,
-      description: t`Say hello on the Mochi users mailing list and tell everyone a little about yourself.`,
+      description: t`Say hello on the Mochi Users mailing list.`,
     },
     {
       kind: 'question',
       icon: HelpCircle,
       title: t`Ask a question`,
-      description: t`Stuck on something? Ask the community on the Mochi users mailing list.`,
+      description: t`Got a problem? Not sure what to do? Ask the community on the Mochi Users mailing list.`,
     },
     {
       kind: 'bug',
       icon: Bug,
       title: t`Report a bug`,
-      description: t`Spotted something broken? File a bug ticket on the Mochi development project.`,
+      description: t`Found something broken? Tell the developers and they'll fix it.`,
     },
     {
       kind: 'feature',
       icon: Lightbulb,
-      title: t`Suggest a new feature`,
-      description: t`Got an idea? Open a feature request on the Mochi development project.`,
+      title: t`Suggest a feature`,
+      description: t`Got an idea? Tell the developers and maybe they'll add it.`,
     },
   ]
 }
@@ -71,10 +71,7 @@ export function Help() {
 
   return (
     <>
-      <PageHeader
-        title={t`Help`}
-        description={t`Welcome to Mochi. Here's how to get started.`}
-      />
+      <PageHeader title={t`Help`} />
       <Main>
         <div className='mx-auto max-w-3xl px-4 py-6 sm:px-6 lg:px-8'>
           <div className='grid grid-cols-1 gap-4 sm:grid-cols-2'>
@@ -83,9 +80,9 @@ export function Help() {
                 key={card.kind}
                 type='button'
                 onClick={() => handleCardClick(card.kind)}
-                className='text-left'
+                className='text-center'
               >
-                <Card className='hover:border-primary/40 hover:bg-hover h-full p-6 transition-all duration-200'>
+                <Card className='hover:border-primary/40 hover:bg-hover flex h-full flex-col items-center p-6 transition-all duration-200'>
                   <div className='mb-3 flex h-10 w-10 items-center justify-center rounded-lg bg-primary/10 text-primary'>
                     <card.icon className='h-5 w-5' />
                   </div>
