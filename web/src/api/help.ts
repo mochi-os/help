@@ -3,12 +3,12 @@ import { requestHelpers } from '@mochi/web'
 
 export type Kind = 'intro' | 'question' | 'bug' | 'feature'
 
-export interface PrepareResponse {
+interface PrepareResponse {
   fingerprint?: string
   already_subscribed?: boolean
 }
 
-export interface ContributeResponse {
+interface ContributeResponse {
   redirect: string
 }
 
