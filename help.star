@@ -11,7 +11,6 @@ DEV_PROJECT = "1KEog9eeM2F4VFkz76FCSgKo8nf7ENyoX3aRjUKzL9wfDsDRSE"
 DEV_TICKET_CLASS = "ticket"
 
 VALID_KINDS = ["intro", "question", "bug", "feature"]
-VALID_PRIORITIES = ["low", "medium", "high"]
 
 # Length limits roughly mirror forums: 500 char title, 50000 char body.
 # BODY_MIN of 20 chars stops one-letter "x" posts while still letting short
@@ -114,17 +113,13 @@ def action_contribute(a):
 			"tags": ["introduction" if kind == "intro" else "question"],
 		}
 	else:
-		values = {"category": kind}
-		priority = (a.input("priority", "") or "").strip()
-		if priority in VALID_PRIORITIES:
-			values["priority"] = priority
 		event = "app/object/create"
 		payload = {
 			"project": target["entity_id"],
 			"class": DEV_TICKET_CLASS,
 			"title": title,
 			"body": body,
-			"values": values,
+			"values": {"category": kind},
 		}
 
 	result = mochi.remote.request(

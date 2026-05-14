@@ -12,32 +12,16 @@ import {
   ResponsiveDialogHeader,
   ResponsiveDialogTitle,
   Textarea,
-  cn,
   getErrorMessage,
   shellNavigateTop,
   toast,
 } from '@mochi/web'
 import { Bug, HelpCircle, Lightbulb, Loader2, Sparkles, X } from 'lucide-react'
-import { helpApi, type Kind, type Priority } from '@/api/help'
+import { helpApi, type Kind } from '@/api/help'
 
 // Mirrors BODY_MAX / BODY_MIN in help.star.
 const BODY_MAX = 50000
 const BODY_MIN = 20
-
-const PRIORITY_STYLES: Record<Priority, { base: string; active: string }> = {
-  low: {
-    base: 'border-border text-muted-foreground hover:border-muted-foreground/50',
-    active: 'border-slate-400 bg-slate-400/10 text-slate-300',
-  },
-  medium: {
-    base: 'border-border text-muted-foreground hover:border-amber-500/50',
-    active: 'border-amber-500 bg-amber-500/10 text-amber-400',
-  },
-  high: {
-    base: 'border-border text-muted-foreground hover:border-red-500/50',
-    active: 'border-red-500 bg-red-500/10 text-red-400',
-  },
-}
 
 const KIND_ICONS: Record<Kind, typeof Sparkles> = {
   intro: Sparkles,
@@ -120,7 +104,6 @@ export function ContributeDialog({
   const KindIcon = KIND_ICONS[kind]
   const [title, setTitle] = useState('')
   const [body, setBody] = useState('')
-  const [priority, setPriority] = useState<Priority>('medium')
   const [submitting, setSubmitting] = useState(false)
   const [discardOpen, setDiscardOpen] = useState(false)
 
@@ -143,7 +126,6 @@ export function ContributeDialog({
         kind,
         trimmedBody,
         needsTitle ? trimmedTitle : undefined,
-        kind === 'bug' ? priority : undefined,
       )
       toast.success(t`Posted`, {
         description: t`Taking you there now.`,
@@ -205,31 +187,6 @@ export function ContributeDialog({
                   autoFocus
                   disabled={submitting}
                 />
-              </div>
-            )}
-            {kind === 'bug' && (
-              <div className='flex flex-col gap-2'>
-                <Label><Trans>Priority</Trans></Label>
-                <div className='flex gap-2'>
-                  {(['low', 'medium', 'high'] as const).map((p) => (
-                    <button
-                      key={p}
-                      type='button'
-                      disabled={submitting}
-                      onClick={() => setPriority(p)}
-                      className={cn(
-                        'flex-1 rounded-md border px-3 py-1.5 text-sm font-medium transition-colors disabled:opacity-50',
-                        priority === p
-                          ? PRIORITY_STYLES[p].active
-                          : PRIORITY_STYLES[p].base,
-                      )}
-                    >
-                      {p === 'low' && <Trans>Low</Trans>}
-                      {p === 'medium' && <Trans>Medium</Trans>}
-                      {p === 'high' && <Trans>High</Trans>}
-                    </button>
-                  ))}
-                </div>
               </div>
             )}
             <div className='flex flex-col gap-2'>
