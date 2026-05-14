@@ -1,11 +1,11 @@
 import { useEffect, useState } from 'react'
-import { useLingui } from '@lingui/react/macro'
+import { Trans, useLingui } from '@lingui/react/macro'
+import { Link } from '@tanstack/react-router'
 import { Bug, HelpCircle, Lightbulb, Sparkles } from 'lucide-react'
 import {
   Card,
   Main,
   PageHeader,
-  ServerDocumentsFooter,
   toast,
   getErrorMessage,
 } from '@mochi/web'
@@ -96,7 +96,19 @@ export function Help() {
             ))}
           </div>
         </div>
-        <ServerDocumentsFooter />
+        <p className='text-muted-foreground space-x-2 pb-6 pt-2 text-center text-sm'>
+          <Link to='/document/rules' className='hover:text-foreground transition-colors'>
+            <Trans>Server rules</Trans>
+          </Link>
+          <span aria-hidden='true'>·</span>
+          <Link to='/document/terms' className='hover:text-foreground transition-colors'>
+            <Trans>Terms and conditions</Trans>
+          </Link>
+          <span aria-hidden='true'>·</span>
+          <Link to='/document/privacy' className='hover:text-foreground transition-colors'>
+            <Trans>Privacy</Trans>
+          </Link>
+        </p>
       </Main>
 
       {openKind && (
