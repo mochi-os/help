@@ -53,7 +53,7 @@ msgstr "هەژمار پشتڕاست کرایەوە"
 #~ msgid "Actual"
 #~ msgstr ""
 
-#: src/features/help/contribute-dialog.tsx:249
+#: src/features/help/contribute-dialog.tsx:206
 msgid "Add a bit more detail."
 msgstr ""
 
@@ -114,12 +114,12 @@ msgstr "ئایا دڵنیایت لە چوونە دەرەوە؟ پێویستە د
 msgid "Asc"
 msgstr "سەرەوە"
 
-#: src/features/help/contribute-dialog.tsx:77
+#: src/features/help/contribute-dialog.tsx:61
 #: src/features/help/index.tsx:34
 msgid "Ask a question"
 msgstr "پرسیارێک بکە"
 
-#: src/features/help/contribute-dialog.tsx:78
+#: src/features/help/contribute-dialog.tsx:62
 msgid "Ask the community on the Mochi users mailing list. Be specific about what you've tried so far."
 msgstr "لە لیستی پۆستی بەکارهێنەرانی Mochi پرسیار لە کۆمەڵگا بکە. ڕوون بە لەسەر ئەوەی تا ئێستا تاقیت کردووەتەوە."
 
@@ -137,7 +137,7 @@ msgstr "گەڕانەوە بۆ ماڵەوە"
 msgid "Boost interest"
 msgstr "بەهێزکردنی بایەخ"
 
-#: src/features/help/contribute-dialog.tsx:90
+#: src/features/help/contribute-dialog.tsx:74
 msgid "Brief summary of the problem"
 msgstr "پوختەیەکی کورت لەسەر کێشەکە"
 
@@ -152,7 +152,7 @@ msgstr "پوختەیەکی کورت لەسەر کێشەکە"
 #: ../../../lib/web/src/features/access/access-list.tsx:255
 #: ../../../lib/web/src/features/accounts/account-add.tsx:185
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:86
-#: src/features/help/contribute-dialog.tsx:262
+#: src/features/help/contribute-dialog.tsx:219
 msgid "Cancel"
 msgstr "هەڵوەشاندنەوە"
 
@@ -269,7 +269,7 @@ msgstr "ئەم دۆکومێنتە نەخوێنرایەوە. تکایە دوات�
 msgid "Couldn't reach the destination yet"
 msgstr "هێشتا نەگەیشتووینەتە مەبەست"
 
-#: src/features/help/contribute-dialog.tsx:153
+#: src/features/help/contribute-dialog.tsx:135
 msgid "Couldn't submit"
 msgstr "ناردن سەرکەوتوو نەبوو"
 
@@ -298,12 +298,12 @@ msgstr "هەژماری بنەڕەتی AI"
 msgid "Desc"
 msgstr "خوارەوە"
 
-#: src/features/help/contribute-dialog.tsx:88
+#: src/features/help/contribute-dialog.tsx:72
 msgid "Describe what went wrong. The Mochi development team will see it on the Mochi development project."
 msgstr "ڕوونی بکەرەوە چی هەڵە چووە. تیمی گەشەپێدانی Mochi لە پڕۆژەی گەشەپێدانی Mochi دەیبینێت."
 
-#: src/features/help/contribute-dialog.tsx:81
-#: src/features/help/contribute-dialog.tsx:101
+#: src/features/help/contribute-dialog.tsx:65
+#: src/features/help/contribute-dialog.tsx:85
 msgid "Details"
 msgstr "وردەکارییەکان"
 
@@ -326,11 +326,11 @@ msgstr "دۆزینەوە لە وێبگەڕ"
 msgid "Direction"
 msgstr "ئاراستە"
 
-#: src/features/help/contribute-dialog.tsx:287
+#: src/features/help/contribute-dialog.tsx:244
 msgid "Discard"
 msgstr ""
 
-#: src/features/help/contribute-dialog.tsx:284
+#: src/features/help/contribute-dialog.tsx:241
 msgid "Discard draft?"
 msgstr ""
 
@@ -445,7 +445,7 @@ msgstr "گرووپ"
 msgid "Help"
 msgstr "یارمەتی"
 
-#: src/features/help/contribute-dialog.tsx:72
+#: src/features/help/contribute-dialog.tsx:56
 msgid "Hi, I'm…"
 msgstr "سڵاو، من…"
 
@@ -454,8 +454,8 @@ msgid "Hide"
 msgstr "شاردنەوە"
 
 #: src/features/help/contribute-dialog.tsx:229
-msgid "High"
-msgstr ""
+#~ msgid "High"
+#~ msgstr ""
 
 #: ../../../lib/web/src/components/layout/app-sidebar.tsx:82
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx:142
@@ -480,7 +480,7 @@ msgstr "ناوەوە"
 msgid "Interests"
 msgstr "ئارەزووەکان"
 
-#: src/features/help/contribute-dialog.tsx:71
+#: src/features/help/contribute-dialog.tsx:55
 #: src/features/help/index.tsx:28
 msgid "Introduce yourself"
 msgstr "خۆت بناسێنە"
@@ -489,7 +489,7 @@ msgstr "خۆت بناسێنە"
 msgid "Invalid verification code"
 msgstr "کۆدی پشتڕاستکردنەوەی نادروست"
 
-#: src/features/help/contribute-dialog.tsx:286
+#: src/features/help/contribute-dialog.tsx:243
 msgid "Keep editing"
 msgstr ""
 
@@ -547,8 +547,8 @@ msgid "Logging out…"
 msgstr "دەردەچێت…"
 
 #: src/features/help/contribute-dialog.tsx:227
-msgid "Low"
-msgstr ""
+#~ msgid "Low"
+#~ msgstr ""
 
 #: ../../../lib/web/src/components/layout/notification-menu.tsx:86
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:220
@@ -556,7 +556,6 @@ msgid "Mark all as read"
 msgstr "نیشانەکردنی هەمووان وەک خوێندراوە"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:104
-#: src/features/help/contribute-dialog.tsx:228
 msgid "Medium"
 msgstr "مامناوەند"
 
@@ -667,23 +666,23 @@ msgstr "هیتر"
 msgid "Owner"
 msgstr "خاوەن"
 
-#: src/features/help/contribute-dialog.tsx:154
+#: src/features/help/contribute-dialog.tsx:136
 msgid "Please try again."
 msgstr "تکایە دووبارە هەوڵ بدەرەوە."
 
-#: src/features/help/contribute-dialog.tsx:73
+#: src/features/help/contribute-dialog.tsx:57
 msgid "Post introduction"
 msgstr "بڵاوکردنەوەی ناساندن"
 
-#: src/features/help/contribute-dialog.tsx:83
+#: src/features/help/contribute-dialog.tsx:67
 msgid "Post question"
 msgstr "بڵاوکردنەوەی پرسیار"
 
-#: src/features/help/contribute-dialog.tsx:148
+#: src/features/help/contribute-dialog.tsx:130
 msgid "Posted"
 msgstr ""
 
-#: src/features/help/contribute-dialog.tsx:268
+#: src/features/help/contribute-dialog.tsx:225
 msgid "Posting…"
 msgstr "پۆستکردن…"
 
@@ -692,11 +691,12 @@ msgid "Previous image"
 msgstr "وێنەی پێشوو"
 
 #: src/features/help/contribute-dialog.tsx:212
-msgid "Priority"
-msgstr ""
+#~ msgid "Priority"
+#~ msgstr ""
 
 #: ../../../lib/web/src/components/server-documents-footer.tsx:24
 #: ../../../lib/web/src/features/document/document-page.tsx:41
+#: src/features/help/index.tsx:109
 msgid "Privacy"
 msgstr "تایبەتمەندی"
 
@@ -705,7 +705,7 @@ msgstr "تایبەتمەندی"
 msgid "Profile"
 msgstr "پڕۆفایل"
 
-#: src/features/help/contribute-dialog.tsx:79
+#: src/features/help/contribute-dialog.tsx:63
 msgid "Question"
 msgstr "پرسیار"
 
@@ -748,12 +748,12 @@ msgstr "دەستڕاگەیشتن لاببەیت؟"
 msgid "Remove interest"
 msgstr "لابردنی بەرژەوەندی"
 
-#: src/features/help/contribute-dialog.tsx:87
+#: src/features/help/contribute-dialog.tsx:71
 #: src/features/help/index.tsx:40
 msgid "Report a bug"
 msgstr "هەڵە ڕاپۆرت بکە"
 
-#: src/features/help/contribute-dialog.tsx:93
+#: src/features/help/contribute-dialog.tsx:77
 msgid "Report bug"
 msgstr "ڕاپۆرتی هەڵە"
 
@@ -857,6 +857,7 @@ msgstr "سێریف"
 
 #: ../../../lib/web/src/components/server-documents-footer.tsx:16
 #: ../../../lib/web/src/features/document/document-page.tsx:37
+#: src/features/help/index.tsx:101
 msgid "Server rules"
 msgstr "ڕێساکانی ڕاژەکار"
 
@@ -874,7 +875,7 @@ msgstr "سەرچاوە و مەبەست دیاریبکە"
 msgid "Settings"
 msgstr "ڕێکخستنەکان"
 
-#: src/features/help/contribute-dialog.tsx:100
+#: src/features/help/contribute-dialog.tsx:84
 msgid "Short title for your idea"
 msgstr "ناونیشانێکی کورت بۆ بیرۆکەکەت"
 
@@ -917,7 +918,7 @@ msgstr "لەگەڵمان بمێنەوە!"
 #~ msgid "Steps to reproduce"
 #~ msgstr ""
 
-#: src/features/help/contribute-dialog.tsx:92
+#: src/features/help/contribute-dialog.tsx:76
 msgid "Steps to reproduce, what you expected, and what actually happened. Include your browser and device if relevant."
 msgstr ""
 
@@ -933,17 +934,17 @@ msgstr "بابەت"
 #~ msgid "Suggest a feature"
 #~ msgstr "تایبەتمەندییەک پێشنیار بکە"
 
-#: src/features/help/contribute-dialog.tsx:97
+#: src/features/help/contribute-dialog.tsx:81
 #: src/features/help/index.tsx:46
 msgid "Suggest a new feature"
 msgstr ""
 
-#: src/features/help/contribute-dialog.tsx:103
+#: src/features/help/contribute-dialog.tsx:87
 msgid "Suggest feature"
 msgstr "پێشنیاری تایبەتمەندی"
 
-#: src/features/help/contribute-dialog.tsx:89
-#: src/features/help/contribute-dialog.tsx:99
+#: src/features/help/contribute-dialog.tsx:73
+#: src/features/help/contribute-dialog.tsx:83
 msgid "Summary"
 msgstr "پوختە"
 
@@ -961,7 +962,7 @@ msgstr "سیستەم"
 msgid "Tag"
 msgstr "تاگ"
 
-#: src/features/help/contribute-dialog.tsx:149
+#: src/features/help/contribute-dialog.tsx:131
 msgid "Taking you there now."
 msgstr ""
 
@@ -969,12 +970,13 @@ msgstr ""
 msgid "Teams/Apps"
 msgstr "تیمەکان/ئەپەکان"
 
-#: src/features/help/contribute-dialog.tsx:98
+#: src/features/help/contribute-dialog.tsx:82
 msgid "Tell the Mochi development team what you'd like Mochi to do."
 msgstr "بە تیمی گەشەپێدانی Mochi بڵێ دەتەوێت Mochi چی بکات."
 
 #: ../../../lib/web/src/components/server-documents-footer.tsx:20
 #: ../../../lib/web/src/features/document/document-page.tsx:39
+#: src/features/help/index.tsx:105
 msgid "Terms and conditions"
 msgstr "مەرج و یاساکان"
 
@@ -1124,22 +1126,22 @@ msgstr ""
 #~ msgid "What did you do, what did you expect, what happened instead?"
 #~ msgstr "چیت کرد، چاوەڕێی چیت دەکرد، لە جیاتی ئەوە چی ڕوویدا؟"
 
-#: src/features/help/contribute-dialog.tsx:91
+#: src/features/help/contribute-dialog.tsx:75
 msgid "What happened"
 msgstr "چی ڕوویدا"
 
-#: src/features/help/contribute-dialog.tsx:82
+#: src/features/help/contribute-dialog.tsx:66
 msgid "What have you tried, what did you expect, where are you stuck?"
 msgstr "چیت تاقیکردووەتەوە، چاوەڕێی چیت دەکرد، لە کوێ گیرت کردووە؟"
 
-#: src/features/help/contribute-dialog.tsx:102
+#: src/features/help/contribute-dialog.tsx:86
 msgid "What would it do, who is it for, why does it matter?"
 msgstr "چی دەکات، بۆ کێیە، بۆچی گرنگە؟"
 
-#: src/features/help/contribute-dialog.tsx:80
+#: src/features/help/contribute-dialog.tsx:64
 msgid "What you want to ask, in one line"
 msgstr "چی دەتەوێت بپرسیت، لە یەک هێڵدا"
 
-#: src/features/help/contribute-dialog.tsx:285
+#: src/features/help/contribute-dialog.tsx:242
 msgid "Your text will be lost."
 msgstr ""

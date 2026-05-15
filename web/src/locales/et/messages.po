@@ -53,7 +53,7 @@ msgstr "Konto kinnitatud"
 #~ msgid "Actual"
 #~ msgstr ""
 
-#: src/features/help/contribute-dialog.tsx:249
+#: src/features/help/contribute-dialog.tsx:206
 msgid "Add a bit more detail."
 msgstr ""
 
@@ -114,12 +114,12 @@ msgstr "Kas oled kindel, et soovid välja logida? Konto kasutamiseks pead uuesti
 msgid "Asc"
 msgstr "Tõusev"
 
-#: src/features/help/contribute-dialog.tsx:77
+#: src/features/help/contribute-dialog.tsx:61
 #: src/features/help/index.tsx:34
 msgid "Ask a question"
 msgstr "Esita küsimus"
 
-#: src/features/help/contribute-dialog.tsx:78
+#: src/features/help/contribute-dialog.tsx:62
 msgid "Ask the community on the Mochi users mailing list. Be specific about what you've tried so far."
 msgstr "Küsi kogukonnalt Mochi kasutajate meililistis. Ole konkreetne selles, mida oled siiani proovinud."
 
@@ -137,7 +137,7 @@ msgstr "Tagasi avalehele"
 msgid "Boost interest"
 msgstr "Tõsta huvi"
 
-#: src/features/help/contribute-dialog.tsx:90
+#: src/features/help/contribute-dialog.tsx:74
 msgid "Brief summary of the problem"
 msgstr "Lühike kokkuvõte probleemist"
 
@@ -152,7 +152,7 @@ msgstr "Lühike kokkuvõte probleemist"
 #: ../../../lib/web/src/features/access/access-list.tsx:255
 #: ../../../lib/web/src/features/accounts/account-add.tsx:185
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:86
-#: src/features/help/contribute-dialog.tsx:262
+#: src/features/help/contribute-dialog.tsx:219
 msgid "Cancel"
 msgstr "Tühista"
 
@@ -269,7 +269,7 @@ msgstr "Selle dokumendi laadimine ebaõnnestus. Palun proovi hiljem uuesti."
 msgid "Couldn't reach the destination yet"
 msgstr "Sihtkohta veel ei jõutud"
 
-#: src/features/help/contribute-dialog.tsx:153
+#: src/features/help/contribute-dialog.tsx:135
 msgid "Couldn't submit"
 msgstr "Saatmine ebaõnnestus"
 
@@ -298,12 +298,12 @@ msgstr "Vaikimisi AI konto"
 msgid "Desc"
 msgstr "Kahanev"
 
-#: src/features/help/contribute-dialog.tsx:88
+#: src/features/help/contribute-dialog.tsx:72
 msgid "Describe what went wrong. The Mochi development team will see it on the Mochi development project."
 msgstr "Kirjelda, mis läks valesti. Mochi arendusmeeskond näeb seda Mochi arendusprojektis."
 
-#: src/features/help/contribute-dialog.tsx:81
-#: src/features/help/contribute-dialog.tsx:101
+#: src/features/help/contribute-dialog.tsx:65
+#: src/features/help/contribute-dialog.tsx:85
 msgid "Details"
 msgstr "Üksikasjad"
 
@@ -326,11 +326,11 @@ msgstr "Tuvasta veebibrauserist"
 msgid "Direction"
 msgstr "Suund"
 
-#: src/features/help/contribute-dialog.tsx:287
+#: src/features/help/contribute-dialog.tsx:244
 msgid "Discard"
 msgstr ""
 
-#: src/features/help/contribute-dialog.tsx:284
+#: src/features/help/contribute-dialog.tsx:241
 msgid "Discard draft?"
 msgstr ""
 
@@ -445,7 +445,7 @@ msgstr "Grupp"
 msgid "Help"
 msgstr "Abi"
 
-#: src/features/help/contribute-dialog.tsx:72
+#: src/features/help/contribute-dialog.tsx:56
 msgid "Hi, I'm…"
 msgstr "Tere, mina olen…"
 
@@ -454,8 +454,8 @@ msgid "Hide"
 msgstr "Peida"
 
 #: src/features/help/contribute-dialog.tsx:229
-msgid "High"
-msgstr ""
+#~ msgid "High"
+#~ msgstr ""
 
 #: ../../../lib/web/src/components/layout/app-sidebar.tsx:82
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx:142
@@ -480,7 +480,7 @@ msgstr "Sissevajutatud"
 msgid "Interests"
 msgstr "Huvid"
 
-#: src/features/help/contribute-dialog.tsx:71
+#: src/features/help/contribute-dialog.tsx:55
 #: src/features/help/index.tsx:28
 msgid "Introduce yourself"
 msgstr "Tutvusta ennast"
@@ -489,7 +489,7 @@ msgstr "Tutvusta ennast"
 msgid "Invalid verification code"
 msgstr "Vigane kinnituskood"
 
-#: src/features/help/contribute-dialog.tsx:286
+#: src/features/help/contribute-dialog.tsx:243
 msgid "Keep editing"
 msgstr ""
 
@@ -547,8 +547,8 @@ msgid "Logging out…"
 msgstr "Välja logimine…"
 
 #: src/features/help/contribute-dialog.tsx:227
-msgid "Low"
-msgstr ""
+#~ msgid "Low"
+#~ msgstr ""
 
 #: ../../../lib/web/src/components/layout/notification-menu.tsx:86
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:220
@@ -556,7 +556,6 @@ msgid "Mark all as read"
 msgstr "Märgi kõik loetuks"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:104
-#: src/features/help/contribute-dialog.tsx:228
 msgid "Medium"
 msgstr "Keskmine"
 
@@ -667,23 +666,23 @@ msgstr "Muu"
 msgid "Owner"
 msgstr "Omanik"
 
-#: src/features/help/contribute-dialog.tsx:154
+#: src/features/help/contribute-dialog.tsx:136
 msgid "Please try again."
 msgstr "Proovi uuesti."
 
-#: src/features/help/contribute-dialog.tsx:73
+#: src/features/help/contribute-dialog.tsx:57
 msgid "Post introduction"
 msgstr "Postita tutvustus"
 
-#: src/features/help/contribute-dialog.tsx:83
+#: src/features/help/contribute-dialog.tsx:67
 msgid "Post question"
 msgstr "Postita küsimus"
 
-#: src/features/help/contribute-dialog.tsx:148
+#: src/features/help/contribute-dialog.tsx:130
 msgid "Posted"
 msgstr ""
 
-#: src/features/help/contribute-dialog.tsx:268
+#: src/features/help/contribute-dialog.tsx:225
 msgid "Posting…"
 msgstr "Postitamine…"
 
@@ -692,11 +691,12 @@ msgid "Previous image"
 msgstr "Eelmine pilt"
 
 #: src/features/help/contribute-dialog.tsx:212
-msgid "Priority"
-msgstr ""
+#~ msgid "Priority"
+#~ msgstr ""
 
 #: ../../../lib/web/src/components/server-documents-footer.tsx:24
 #: ../../../lib/web/src/features/document/document-page.tsx:41
+#: src/features/help/index.tsx:109
 msgid "Privacy"
 msgstr "Privaatsus"
 
@@ -705,7 +705,7 @@ msgstr "Privaatsus"
 msgid "Profile"
 msgstr "Profiil"
 
-#: src/features/help/contribute-dialog.tsx:79
+#: src/features/help/contribute-dialog.tsx:63
 msgid "Question"
 msgstr "Küsimus"
 
@@ -748,12 +748,12 @@ msgstr "Kas eemaldada juurdepääs?"
 msgid "Remove interest"
 msgstr "Eemalda huvi"
 
-#: src/features/help/contribute-dialog.tsx:87
+#: src/features/help/contribute-dialog.tsx:71
 #: src/features/help/index.tsx:40
 msgid "Report a bug"
 msgstr "Teata vea"
 
-#: src/features/help/contribute-dialog.tsx:93
+#: src/features/help/contribute-dialog.tsx:77
 msgid "Report bug"
 msgstr "Teata vea"
 
@@ -857,6 +857,7 @@ msgstr "Seriif"
 
 #: ../../../lib/web/src/components/server-documents-footer.tsx:16
 #: ../../../lib/web/src/features/document/document-page.tsx:37
+#: src/features/help/index.tsx:101
 msgid "Server rules"
 msgstr "Serveri reeglid"
 
@@ -874,7 +875,7 @@ msgstr "Määra lähtekoht ja sihtkoht"
 msgid "Settings"
 msgstr "Seaded"
 
-#: src/features/help/contribute-dialog.tsx:100
+#: src/features/help/contribute-dialog.tsx:84
 msgid "Short title for your idea"
 msgstr "Lühike pealkiri sinu ideele"
 
@@ -917,7 +918,7 @@ msgstr "Aga jää kuulma!"
 #~ msgid "Steps to reproduce"
 #~ msgstr ""
 
-#: src/features/help/contribute-dialog.tsx:92
+#: src/features/help/contribute-dialog.tsx:76
 msgid "Steps to reproduce, what you expected, and what actually happened. Include your browser and device if relevant."
 msgstr ""
 
@@ -933,17 +934,17 @@ msgstr "Teema"
 #~ msgid "Suggest a feature"
 #~ msgstr "Soovita funktsiooni"
 
-#: src/features/help/contribute-dialog.tsx:97
+#: src/features/help/contribute-dialog.tsx:81
 #: src/features/help/index.tsx:46
 msgid "Suggest a new feature"
 msgstr ""
 
-#: src/features/help/contribute-dialog.tsx:103
+#: src/features/help/contribute-dialog.tsx:87
 msgid "Suggest feature"
 msgstr "Paku funktsiooni"
 
-#: src/features/help/contribute-dialog.tsx:89
-#: src/features/help/contribute-dialog.tsx:99
+#: src/features/help/contribute-dialog.tsx:73
+#: src/features/help/contribute-dialog.tsx:83
 msgid "Summary"
 msgstr "Kokkuvõte"
 
@@ -961,7 +962,7 @@ msgstr "Süsteem"
 msgid "Tag"
 msgstr "Silt"
 
-#: src/features/help/contribute-dialog.tsx:149
+#: src/features/help/contribute-dialog.tsx:131
 msgid "Taking you there now."
 msgstr ""
 
@@ -969,12 +970,13 @@ msgstr ""
 msgid "Teams/Apps"
 msgstr "Tiimid/Rakendused"
 
-#: src/features/help/contribute-dialog.tsx:98
+#: src/features/help/contribute-dialog.tsx:82
 msgid "Tell the Mochi development team what you'd like Mochi to do."
 msgstr "Räägi Mochi arendusmeeskonnale, mida sa tahaksid, et Mochi teeks."
 
 #: ../../../lib/web/src/components/server-documents-footer.tsx:20
 #: ../../../lib/web/src/features/document/document-page.tsx:39
+#: src/features/help/index.tsx:105
 msgid "Terms and conditions"
 msgstr "Tingimused"
 
@@ -1124,22 +1126,22 @@ msgstr ""
 #~ msgid "What did you do, what did you expect, what happened instead?"
 #~ msgstr "Mida sa tegid, mida ootasid, mis selle asemel juhtus?"
 
-#: src/features/help/contribute-dialog.tsx:91
+#: src/features/help/contribute-dialog.tsx:75
 msgid "What happened"
 msgstr "Mis juhtus"
 
-#: src/features/help/contribute-dialog.tsx:82
+#: src/features/help/contribute-dialog.tsx:66
 msgid "What have you tried, what did you expect, where are you stuck?"
 msgstr "Mida sa proovinud oled, mida ootasid, kus sa kinni jäid?"
 
-#: src/features/help/contribute-dialog.tsx:102
+#: src/features/help/contribute-dialog.tsx:86
 msgid "What would it do, who is it for, why does it matter?"
 msgstr "Mida see teeks, kellele see on, miks see oluline on?"
 
-#: src/features/help/contribute-dialog.tsx:80
+#: src/features/help/contribute-dialog.tsx:64
 msgid "What you want to ask, in one line"
 msgstr "Mida sa tahad küsida, ühel real"
 
-#: src/features/help/contribute-dialog.tsx:285
+#: src/features/help/contribute-dialog.tsx:242
 msgid "Your text will be lost."
 msgstr ""

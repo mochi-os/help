@@ -13,7 +13,7 @@ import {
   ResponsiveDialogTitle,
   Textarea,
   getErrorMessage,
-  shellNavigateTop,
+  shellNavigateExternal,
   toast,
 } from '@mochi/web'
 import { Bug, HelpCircle, Lightbulb, Loader2, Sparkles, X } from 'lucide-react'
@@ -130,7 +130,7 @@ export function ContributeDialog({
       toast.success(t`Posted`, {
         description: t`Taking you there now.`,
       })
-      shellNavigateTop(result.redirect)
+      shellNavigateExternal(result.redirect)
     } catch (err) {
       toast.error(t`Couldn't submit`, {
         description: getErrorMessage(err, t`Please try again.`),
