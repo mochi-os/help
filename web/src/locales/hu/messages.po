@@ -55,7 +55,7 @@ msgstr "Fiók ellenőrizve"
 
 #: src/features/help/contribute-dialog.tsx:206
 msgid "Add a bit more detail."
-msgstr ""
+msgstr "Adj hozzá még egy kis részletet."
 
 #: ../../../lib/web/src/features/accounts/account-add.tsx:117
 msgid "Add a new account"
@@ -328,11 +328,11 @@ msgstr "Irány"
 
 #: src/features/help/contribute-dialog.tsx:244
 msgid "Discard"
-msgstr ""
+msgstr "Elvetés"
 
 #: src/features/help/contribute-dialog.tsx:241
 msgid "Discard draft?"
-msgstr ""
+msgstr "Elveted a piszkozatot?"
 
 #: ../../../lib/web/src/components/ui/sidebar.tsx:235
 msgid "Displays the mobile sidebar."
@@ -430,7 +430,7 @@ msgstr "Ugrás az előző oldalra"
 
 #: src/features/help/index.tsx:47
 msgid "Got an idea? Open a feature request on the Mochi development project."
-msgstr ""
+msgstr "Van egy ötleted? Nyiss egy funkciókérést a Mochi fejlesztési projektben."
 
 #: src/features/help/index.tsx:47
 #~ msgid "Got an idea? Tell the developers and maybe they'll add it."
@@ -491,7 +491,7 @@ msgstr "Érvénytelen ellenőrző kód"
 
 #: src/features/help/contribute-dialog.tsx:243
 msgid "Keep editing"
-msgstr ""
+msgstr "Szerkesztés folytatása"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:105
 #: ../../../lib/web/src/lib/preference-utils.ts:123
@@ -680,7 +680,7 @@ msgstr "Kérdés közzététele"
 
 #: src/features/help/contribute-dialog.tsx:130
 msgid "Posted"
-msgstr ""
+msgstr "Közzétéve"
 
 #: src/features/help/contribute-dialog.tsx:225
 msgid "Posting…"
@@ -779,7 +779,7 @@ msgstr "Szombat"
 
 #: src/features/help/index.tsx:29
 msgid "Say hello on the Mochi users mailing list and tell everyone a little about yourself."
-msgstr ""
+msgstr "Köszönj a Mochi felhasználói levelezőlistán, és mesélj egy kicsit magadról."
 
 #: src/features/help/index.tsx:29
 #~ msgid "Say hello on the Mochi Users mailing list."
@@ -908,7 +908,7 @@ msgstr "Tágas"
 
 #: src/features/help/index.tsx:41
 msgid "Spotted something broken? File a bug ticket on the Mochi development project."
-msgstr ""
+msgstr "Találtál valami hibásat? Nyiss egy hibajegyet a Mochi fejlesztési projektben."
 
 #: ../../../lib/web/src/components/coming-soon.tsx:12
 msgid "Stay tuned though!"
@@ -920,11 +920,11 @@ msgstr "De maradjon velünk!"
 
 #: src/features/help/contribute-dialog.tsx:76
 msgid "Steps to reproduce, what you expected, and what actually happened. Include your browser and device if relevant."
-msgstr ""
+msgstr "Reprodukálási lépések, hogy mire számítottál, és mi történt valójában. Add meg a böngésződet és eszközödet, ha releváns."
 
 #: src/features/help/index.tsx:35
 msgid "Stuck on something? Ask the community on the Mochi users mailing list."
-msgstr ""
+msgstr "Elakadtál valamiben? Kérdezd a közösséget a Mochi felhasználói levelezőlistán."
 
 #: ../../../lib/web/src/features/access/access-list.tsx:187
 msgid "Subject"
@@ -937,7 +937,7 @@ msgstr "Tárgy"
 #: src/features/help/contribute-dialog.tsx:81
 #: src/features/help/index.tsx:46
 msgid "Suggest a new feature"
-msgstr ""
+msgstr "Új funkció javaslása"
 
 #: src/features/help/contribute-dialog.tsx:87
 msgid "Suggest feature"
@@ -964,7 +964,7 @@ msgstr "Címke"
 
 #: src/features/help/contribute-dialog.tsx:131
 msgid "Taking you there now."
-msgstr ""
+msgstr "Most odaviszünk."
 
 #: ../../../lib/web/src/components/layout/team-switcher.tsx:60
 msgid "Teams/Apps"
@@ -1120,7 +1120,7 @@ msgstr "Szerda"
 
 #: src/features/help/index.tsx:76
 msgid "Welcome to Mochi. Here's how to get started."
-msgstr ""
+msgstr "Üdv a Mochiban. Így indulj el."
 
 #: src/features/help/contribute-dialog.tsx:76
 #~ msgid "What did you do, what did you expect, what happened instead?"
@@ -1144,4 +1144,4 @@ msgstr "Mit szeretnél kérdezni, egy sorban"
 
 #: src/features/help/contribute-dialog.tsx:242
 msgid "Your text will be lost."
-msgstr ""
+msgstr "A szöveged elvész."

@@ -55,7 +55,7 @@ msgstr "Cunntas dearbhte"
 
 #: src/features/help/contribute-dialog.tsx:206
 msgid "Add a bit more detail."
-msgstr ""
+msgstr "Cuir beagan a bharrachd fiosrachaidh ris."
 
 #: ../../../lib/web/src/features/accounts/account-add.tsx:117
 msgid "Add a new account"
@@ -328,11 +328,11 @@ msgstr "Comhair"
 
 #: src/features/help/contribute-dialog.tsx:244
 msgid "Discard"
-msgstr ""
+msgstr "Tilg air falbh"
 
 #: src/features/help/contribute-dialog.tsx:241
 msgid "Discard draft?"
-msgstr ""
+msgstr "A bheil thu airson an dreachd a thilgeil air falbh?"
 
 #: ../../../lib/web/src/components/ui/sidebar.tsx:235
 msgid "Displays the mobile sidebar."
@@ -430,7 +430,7 @@ msgstr "Rach dhan duilleag roimhe"
 
 #: src/features/help/index.tsx:47
 msgid "Got an idea? Open a feature request on the Mochi development project."
-msgstr ""
+msgstr "A bheil beachd agad? Fosgail iarrtas gleus air pròiseact leasachaidh Mochi."
 
 #: src/features/help/index.tsx:47
 #~ msgid "Got an idea? Tell the developers and maybe they'll add it."
@@ -491,7 +491,7 @@ msgstr "Còd dearbhaidh mì-dhligheach"
 
 #: src/features/help/contribute-dialog.tsx:243
 msgid "Keep editing"
-msgstr ""
+msgstr "Lean ort a' deasachadh"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:105
 #: ../../../lib/web/src/lib/preference-utils.ts:123
@@ -680,7 +680,7 @@ msgstr "Postaich a' cheist"
 
 #: src/features/help/contribute-dialog.tsx:130
 msgid "Posted"
-msgstr ""
+msgstr "Air a phostadh"
 
 #: src/features/help/contribute-dialog.tsx:225
 msgid "Posting…"
@@ -779,7 +779,7 @@ msgstr "Disathairne"
 
 #: src/features/help/index.tsx:29
 msgid "Say hello on the Mochi users mailing list and tell everyone a little about yourself."
-msgstr ""
+msgstr "Abair halò air liosta puist nan cleachdaichean Mochi agus innis beagan mu do dheidhinn fhèin do gach duine."
 
 #: src/features/help/index.tsx:29
 #~ msgid "Say hello on the Mochi Users mailing list."
@@ -908,7 +908,7 @@ msgstr "Farsaing"
 
 #: src/features/help/index.tsx:41
 msgid "Spotted something broken? File a bug ticket on the Mochi development project."
-msgstr ""
+msgstr "Am faca tu rudeigin briste? Clàraich tiocaid buga air pròiseact leasachaidh Mochi."
 
 #: ../../../lib/web/src/components/coming-soon.tsx:12
 msgid "Stay tuned though!"
@@ -920,11 +920,11 @@ msgstr "Fuirich an dùil ge-tà!"
 
 #: src/features/help/contribute-dialog.tsx:76
 msgid "Steps to reproduce, what you expected, and what actually happened. Include your browser and device if relevant."
-msgstr ""
+msgstr "Na ceumannan gus ath-chruthachadh, na bha dùil agad ris, agus na thachair gu fìor. Gabh a-steach do bhrabhsair agus an t-uidheam agad ma tha e iomchaidh."
 
 #: src/features/help/index.tsx:35
 msgid "Stuck on something? Ask the community on the Mochi users mailing list."
-msgstr ""
+msgstr "An do chac thu air rudeigin? Faighnich dhen choimhearsnachd air liosta puist nan cleachdaichean Mochi."
 
 #: ../../../lib/web/src/features/access/access-list.tsx:187
 msgid "Subject"
@@ -937,7 +937,7 @@ msgstr "Cuspair"
 #: src/features/help/contribute-dialog.tsx:81
 #: src/features/help/index.tsx:46
 msgid "Suggest a new feature"
-msgstr ""
+msgstr "Mol gleus ùr"
 
 #: src/features/help/contribute-dialog.tsx:87
 msgid "Suggest feature"
@@ -964,7 +964,7 @@ msgstr "Taga"
 
 #: src/features/help/contribute-dialog.tsx:131
 msgid "Taking you there now."
-msgstr ""
+msgstr "Gad thoirt ann an-dràsta."
 
 #: ../../../lib/web/src/components/layout/team-switcher.tsx:60
 msgid "Teams/Apps"
@@ -1120,7 +1120,7 @@ msgstr "Diciadain"
 
 #: src/features/help/index.tsx:76
 msgid "Welcome to Mochi. Here's how to get started."
-msgstr ""
+msgstr "Fàilte gu Mochi. Seo mar a thòisicheas tu."
 
 #: src/features/help/contribute-dialog.tsx:76
 #~ msgid "What did you do, what did you expect, what happened instead?"
@@ -1144,4 +1144,4 @@ msgstr "Na tha thu airson faighneachd, ann an aon loidhne"
 
 #: src/features/help/contribute-dialog.tsx:242
 msgid "Your text will be lost."
-msgstr ""
+msgstr "Thèid an teacsa agad air chall."

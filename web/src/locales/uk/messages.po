@@ -55,7 +55,7 @@ msgstr "Обліковий запис підтверджено"
 
 #: src/features/help/contribute-dialog.tsx:206
 msgid "Add a bit more detail."
-msgstr ""
+msgstr "Додайте трохи більше деталей."
 
 #: ../../../lib/web/src/features/accounts/account-add.tsx:117
 msgid "Add a new account"
@@ -328,11 +328,11 @@ msgstr "Напрямок"
 
 #: src/features/help/contribute-dialog.tsx:244
 msgid "Discard"
-msgstr ""
+msgstr "Відхилити"
 
 #: src/features/help/contribute-dialog.tsx:241
 msgid "Discard draft?"
-msgstr ""
+msgstr "Відхилити чернетку?"
 
 #: ../../../lib/web/src/components/ui/sidebar.tsx:235
 msgid "Displays the mobile sidebar."
@@ -430,7 +430,7 @@ msgstr "Перейти на попередню сторінку"
 
 #: src/features/help/index.tsx:47
 msgid "Got an idea? Open a feature request on the Mochi development project."
-msgstr ""
+msgstr "Маєте ідею? Відкрийте запит на нову функцію у проєкті розробки Mochi."
 
 #: src/features/help/index.tsx:47
 #~ msgid "Got an idea? Tell the developers and maybe they'll add it."
@@ -491,7 +491,7 @@ msgstr "Недійсний код підтвердження"
 
 #: src/features/help/contribute-dialog.tsx:243
 msgid "Keep editing"
-msgstr ""
+msgstr "Продовжити редагування"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:105
 #: ../../../lib/web/src/lib/preference-utils.ts:123
@@ -680,7 +680,7 @@ msgstr "Опублікувати запитання"
 
 #: src/features/help/contribute-dialog.tsx:130
 msgid "Posted"
-msgstr ""
+msgstr "Опубліковано"
 
 #: src/features/help/contribute-dialog.tsx:225
 msgid "Posting…"
@@ -779,7 +779,7 @@ msgstr "Субота"
 
 #: src/features/help/index.tsx:29
 msgid "Say hello on the Mochi users mailing list and tell everyone a little about yourself."
-msgstr ""
+msgstr "Привітайтеся у списку розсилки користувачів Mochi і розкажіть усім трохи про себе."
 
 #: src/features/help/index.tsx:29
 #~ msgid "Say hello on the Mochi Users mailing list."
@@ -908,7 +908,7 @@ msgstr "Просторий"
 
 #: src/features/help/index.tsx:41
 msgid "Spotted something broken? File a bug ticket on the Mochi development project."
-msgstr ""
+msgstr "Помітили щось зламане? Створіть тікет про помилку у проєкті розробки Mochi."
 
 #: ../../../lib/web/src/components/coming-soon.tsx:12
 msgid "Stay tuned though!"
@@ -920,11 +920,11 @@ msgstr "Слідкуйте за оновленнями!"
 
 #: src/features/help/contribute-dialog.tsx:76
 msgid "Steps to reproduce, what you expected, and what actually happened. Include your browser and device if relevant."
-msgstr ""
+msgstr "Кроки для відтворення, що ви очікували та що сталося насправді. Вкажіть свій браузер і пристрій, якщо це доречно."
 
 #: src/features/help/index.tsx:35
 msgid "Stuck on something? Ask the community on the Mochi users mailing list."
-msgstr ""
+msgstr "Застрягли на чомусь? Запитайте спільноту у списку розсилки користувачів Mochi."
 
 #: ../../../lib/web/src/features/access/access-list.tsx:187
 msgid "Subject"
@@ -937,7 +937,7 @@ msgstr "Тема"
 #: src/features/help/contribute-dialog.tsx:81
 #: src/features/help/index.tsx:46
 msgid "Suggest a new feature"
-msgstr ""
+msgstr "Запропонувати нову функцію"
 
 #: src/features/help/contribute-dialog.tsx:87
 msgid "Suggest feature"
@@ -964,7 +964,7 @@ msgstr "Тег"
 
 #: src/features/help/contribute-dialog.tsx:131
 msgid "Taking you there now."
-msgstr ""
+msgstr "Переходимо туди зараз."
 
 #: ../../../lib/web/src/components/layout/team-switcher.tsx:60
 msgid "Teams/Apps"
@@ -1120,7 +1120,7 @@ msgstr "Середа"
 
 #: src/features/help/index.tsx:76
 msgid "Welcome to Mochi. Here's how to get started."
-msgstr ""
+msgstr "Ласкаво просимо до Mochi. Ось як почати."
 
 #: src/features/help/contribute-dialog.tsx:76
 #~ msgid "What did you do, what did you expect, what happened instead?"
@@ -1144,4 +1144,4 @@ msgstr "Що ви хочете запитати, в одному рядку"
 
 #: src/features/help/contribute-dialog.tsx:242
 msgid "Your text will be lost."
-msgstr ""
+msgstr "Ваш текст буде втрачено."

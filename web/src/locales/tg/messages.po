@@ -55,7 +55,7 @@ msgstr "Ҳисоб тасдиқ карда шуд"
 
 #: src/features/help/contribute-dialog.tsx:206
 msgid "Add a bit more detail."
-msgstr ""
+msgstr "Каме бештар тафсилот илова кунед."
 
 #: ../../../lib/web/src/features/accounts/account-add.tsx:117
 msgid "Add a new account"
@@ -328,11 +328,11 @@ msgstr "Самт"
 
 #: src/features/help/contribute-dialog.tsx:244
 msgid "Discard"
-msgstr ""
+msgstr "Партофтан"
 
 #: src/features/help/contribute-dialog.tsx:241
 msgid "Discard draft?"
-msgstr ""
+msgstr "Сиёҳнависро партофта мешавад?"
 
 #: ../../../lib/web/src/components/ui/sidebar.tsx:235
 msgid "Displays the mobile sidebar."
@@ -430,7 +430,7 @@ msgstr "Ба саҳифаи қаблӣ рафтан"
 
 #: src/features/help/index.tsx:47
 msgid "Got an idea? Open a feature request on the Mochi development project."
-msgstr ""
+msgstr "Ғоя доред? Дар лоиҳаи таҳияи Mochi дархости хусусият кушоед."
 
 #: src/features/help/index.tsx:47
 #~ msgid "Got an idea? Tell the developers and maybe they'll add it."
@@ -491,7 +491,7 @@ msgstr "Рамзи тасдиқ нодуруст"
 
 #: src/features/help/contribute-dialog.tsx:243
 msgid "Keep editing"
-msgstr ""
+msgstr "Таҳрирро давом диҳед"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:105
 #: ../../../lib/web/src/lib/preference-utils.ts:123
@@ -680,7 +680,7 @@ msgstr "Саволро интишор кардан"
 
 #: src/features/help/contribute-dialog.tsx:130
 msgid "Posted"
-msgstr ""
+msgstr "Нашр шуд"
 
 #: src/features/help/contribute-dialog.tsx:225
 msgid "Posting…"
@@ -779,7 +779,7 @@ msgstr "Шанбе"
 
 #: src/features/help/index.tsx:29
 msgid "Say hello on the Mochi users mailing list and tell everyone a little about yourself."
-msgstr ""
+msgstr "Дар рӯйхати почтаи корбарони Mochi салом гӯед ва ба ҳама дар бораи худатон каме нақл кунед."
 
 #: src/features/help/index.tsx:29
 #~ msgid "Say hello on the Mochi Users mailing list."
@@ -908,7 +908,7 @@ msgstr "Васеъ"
 
 #: src/features/help/index.tsx:41
 msgid "Spotted something broken? File a bug ticket on the Mochi development project."
-msgstr ""
+msgstr "Чизи вайроншударо пайхас кардед? Дар лоиҳаи таҳияи Mochi чиптаи хато сабт кунед."
 
 #: ../../../lib/web/src/components/coming-soon.tsx:12
 msgid "Stay tuned though!"
@@ -920,11 +920,11 @@ msgstr "Аммо мунтазир бошед!"
 
 #: src/features/help/contribute-dialog.tsx:76
 msgid "Steps to reproduce, what you expected, and what actually happened. Include your browser and device if relevant."
-msgstr ""
+msgstr "Қадамҳои такрор, чӣ интизор будед ва воқеан чӣ рӯй дод. Дар сурати марбут будан браузер ва дастгоҳи худро дохил кунед."
 
 #: src/features/help/index.tsx:35
 msgid "Stuck on something? Ask the community on the Mochi users mailing list."
-msgstr ""
+msgstr "Дар чизе бандед? Дар рӯйхати почтаи корбарони Mochi аз ҷомеа пурсед."
 
 #: ../../../lib/web/src/features/access/access-list.tsx:187
 msgid "Subject"
@@ -937,7 +937,7 @@ msgstr "Мавзӯъ"
 #: src/features/help/contribute-dialog.tsx:81
 #: src/features/help/index.tsx:46
 msgid "Suggest a new feature"
-msgstr ""
+msgstr "Хусусияти нав пешниҳод кунед"
 
 #: src/features/help/contribute-dialog.tsx:87
 msgid "Suggest feature"
@@ -964,7 +964,7 @@ msgstr "Барчасп"
 
 #: src/features/help/contribute-dialog.tsx:131
 msgid "Taking you there now."
-msgstr ""
+msgstr "Шуморо ҳозир ба он ҷо мебарам."
 
 #: ../../../lib/web/src/components/layout/team-switcher.tsx:60
 msgid "Teams/Apps"
@@ -1120,7 +1120,7 @@ msgstr "Чоршанбе"
 
 #: src/features/help/index.tsx:76
 msgid "Welcome to Mochi. Here's how to get started."
-msgstr ""
+msgstr "Хуш омадед ба Mochi. Тарзи оғоз кардан ин ҷост."
 
 #: src/features/help/contribute-dialog.tsx:76
 #~ msgid "What did you do, what did you expect, what happened instead?"
@@ -1144,4 +1144,4 @@ msgstr "Чӣ пурсидан мехоҳед, дар як сатр"
 
 #: src/features/help/contribute-dialog.tsx:242
 msgid "Your text will be lost."
-msgstr ""
+msgstr "Матни шумо гум мешавад."

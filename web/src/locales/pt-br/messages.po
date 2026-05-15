@@ -55,7 +55,7 @@ msgstr "Conta verificada"
 
 #: src/features/help/contribute-dialog.tsx:206
 msgid "Add a bit more detail."
-msgstr ""
+msgstr "Adicione um pouco mais de detalhes."
 
 #: ../../../lib/web/src/features/accounts/account-add.tsx:117
 msgid "Add a new account"
@@ -328,11 +328,11 @@ msgstr "Direção"
 
 #: src/features/help/contribute-dialog.tsx:244
 msgid "Discard"
-msgstr ""
+msgstr "Descartar"
 
 #: src/features/help/contribute-dialog.tsx:241
 msgid "Discard draft?"
-msgstr ""
+msgstr "Descartar rascunho?"
 
 #: ../../../lib/web/src/components/ui/sidebar.tsx:235
 msgid "Displays the mobile sidebar."
@@ -430,7 +430,7 @@ msgstr "Ir para a página anterior"
 
 #: src/features/help/index.tsx:47
 msgid "Got an idea? Open a feature request on the Mochi development project."
-msgstr ""
+msgstr "Tem uma ideia? Abra uma solicitação de recurso no projeto de desenvolvimento do Mochi."
 
 #: src/features/help/index.tsx:47
 #~ msgid "Got an idea? Tell the developers and maybe they'll add it."
@@ -491,7 +491,7 @@ msgstr "Código de verificação inválido"
 
 #: src/features/help/contribute-dialog.tsx:243
 msgid "Keep editing"
-msgstr ""
+msgstr "Continuar editando"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:105
 #: ../../../lib/web/src/lib/preference-utils.ts:123
@@ -680,7 +680,7 @@ msgstr "Publicar pergunta"
 
 #: src/features/help/contribute-dialog.tsx:130
 msgid "Posted"
-msgstr ""
+msgstr "Publicado"
 
 #: src/features/help/contribute-dialog.tsx:225
 msgid "Posting…"
@@ -779,7 +779,7 @@ msgstr "Sábado"
 
 #: src/features/help/index.tsx:29
 msgid "Say hello on the Mochi users mailing list and tell everyone a little about yourself."
-msgstr ""
+msgstr "Diga olá na lista de discussão dos usuários do Mochi e conte um pouco sobre você."
 
 #: src/features/help/index.tsx:29
 #~ msgid "Say hello on the Mochi Users mailing list."
@@ -908,7 +908,7 @@ msgstr "Espaçoso"
 
 #: src/features/help/index.tsx:41
 msgid "Spotted something broken? File a bug ticket on the Mochi development project."
-msgstr ""
+msgstr "Encontrou algo quebrado? Abra um ticket de bug no projeto de desenvolvimento do Mochi."
 
 #: ../../../lib/web/src/components/coming-soon.tsx:12
 msgid "Stay tuned though!"
@@ -920,11 +920,11 @@ msgstr "Mas fique atento!"
 
 #: src/features/help/contribute-dialog.tsx:76
 msgid "Steps to reproduce, what you expected, and what actually happened. Include your browser and device if relevant."
-msgstr ""
+msgstr "Passos para reproduzir, o que você esperava e o que realmente aconteceu. Inclua seu navegador e dispositivo se for relevante."
 
 #: src/features/help/index.tsx:35
 msgid "Stuck on something? Ask the community on the Mochi users mailing list."
-msgstr ""
+msgstr "Travou em algo? Pergunte à comunidade na lista de discussão dos usuários do Mochi."
 
 #: ../../../lib/web/src/features/access/access-list.tsx:187
 msgid "Subject"
@@ -937,7 +937,7 @@ msgstr "Assunto"
 #: src/features/help/contribute-dialog.tsx:81
 #: src/features/help/index.tsx:46
 msgid "Suggest a new feature"
-msgstr ""
+msgstr "Sugerir um novo recurso"
 
 #: src/features/help/contribute-dialog.tsx:87
 msgid "Suggest feature"
@@ -964,7 +964,7 @@ msgstr "Tag"
 
 #: src/features/help/contribute-dialog.tsx:131
 msgid "Taking you there now."
-msgstr ""
+msgstr "Levando você até lá agora."
 
 #: ../../../lib/web/src/components/layout/team-switcher.tsx:60
 msgid "Teams/Apps"
@@ -1120,7 +1120,7 @@ msgstr "Quarta-feira"
 
 #: src/features/help/index.tsx:76
 msgid "Welcome to Mochi. Here's how to get started."
-msgstr ""
+msgstr "Bem-vindo ao Mochi. Veja como começar."
 
 #: src/features/help/contribute-dialog.tsx:76
 #~ msgid "What did you do, what did you expect, what happened instead?"
@@ -1144,4 +1144,4 @@ msgstr "O que você quer perguntar, em uma linha"
 
 #: src/features/help/contribute-dialog.tsx:242
 msgid "Your text will be lost."
-msgstr ""
+msgstr "Seu texto será perdido."

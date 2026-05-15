@@ -55,7 +55,7 @@ msgstr "A ti fọwọ́sí àkáǹtì"
 
 #: src/features/help/contribute-dialog.tsx:206
 msgid "Add a bit more detail."
-msgstr ""
+msgstr "Fi awọn alaye diẹ sii kun."
 
 #: ../../../lib/web/src/features/accounts/account-add.tsx:117
 msgid "Add a new account"
@@ -328,11 +328,11 @@ msgstr "Ìtọ́sọ́nà"
 
 #: src/features/help/contribute-dialog.tsx:244
 msgid "Discard"
-msgstr ""
+msgstr "Sọnu"
 
 #: src/features/help/contribute-dialog.tsx:241
 msgid "Discard draft?"
-msgstr ""
+msgstr "Sọ àkọ̀tẹ́lẹ̀ nù?"
 
 #: ../../../lib/web/src/components/ui/sidebar.tsx:235
 msgid "Displays the mobile sidebar."
@@ -430,7 +430,7 @@ msgstr "Lọ sí ojú-ewé tí ó ṣáájú"
 
 #: src/features/help/index.tsx:47
 msgid "Got an idea? Open a feature request on the Mochi development project."
-msgstr ""
+msgstr "Ní èrò kan? Ṣí ìbéèrè ẹ̀yà tuntun lórí iṣẹ́ àgbékalẹ̀ Mochi."
 
 #: src/features/help/index.tsx:47
 #~ msgid "Got an idea? Tell the developers and maybe they'll add it."
@@ -491,7 +491,7 @@ msgstr "Kóòdù ìjẹ́rìí aláìdára"
 
 #: src/features/help/contribute-dialog.tsx:243
 msgid "Keep editing"
-msgstr ""
+msgstr "Máa bá àtúnṣe lọ"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:105
 #: ../../../lib/web/src/lib/preference-utils.ts:123
@@ -680,7 +680,7 @@ msgstr "Fi ìbéèrè ránṣẹ́"
 
 #: src/features/help/contribute-dialog.tsx:130
 msgid "Posted"
-msgstr ""
+msgstr "Tí gbé jáde"
 
 #: src/features/help/contribute-dialog.tsx:225
 msgid "Posting…"
@@ -779,7 +779,7 @@ msgstr "Ọjọ́ Àbámẹ́ta"
 
 #: src/features/help/index.tsx:29
 msgid "Say hello on the Mochi users mailing list and tell everyone a little about yourself."
-msgstr ""
+msgstr "Kí ní àtòjọ ìfìwéránṣẹ́ àwọn olùmúlò Mochi, kí o sì sọ díẹ̀ nípa ara rẹ fún gbogbo ènìyàn."
 
 #: src/features/help/index.tsx:29
 #~ msgid "Say hello on the Mochi Users mailing list."
@@ -908,7 +908,7 @@ msgstr "Àáyè"
 
 #: src/features/help/index.tsx:41
 msgid "Spotted something broken? File a bug ticket on the Mochi development project."
-msgstr ""
+msgstr "Rí nǹkan tó bàjẹ́? Fi ìròyìn àṣìṣe sílẹ̀ lórí iṣẹ́ àgbékalẹ̀ Mochi."
 
 #: ../../../lib/web/src/components/coming-soon.tsx:12
 msgid "Stay tuned though!"
@@ -920,11 +920,11 @@ msgstr "Ṣùgbọ́n dúró tì wá!"
 
 #: src/features/help/contribute-dialog.tsx:76
 msgid "Steps to reproduce, what you expected, and what actually happened. Include your browser and device if relevant."
-msgstr ""
+msgstr "Àwọn ìgbésẹ̀ láti tún ṣe, ohun tí o retí, àti ohun tí ó ṣẹlẹ̀ ní gidi. Fi ẹ̀rọ aṣàwákiri àti ohun èlò rẹ kún tí ó bá yẹ."
 
 #: src/features/help/index.tsx:35
 msgid "Stuck on something? Ask the community on the Mochi users mailing list."
-msgstr ""
+msgstr "Dí lórí nǹkan kan? Bi àwùjọ lérè ní àtòjọ ìfìwéránṣẹ́ àwọn olùmúlò Mochi."
 
 #: ../../../lib/web/src/features/access/access-list.tsx:187
 msgid "Subject"
@@ -937,7 +937,7 @@ msgstr "Àkòrí"
 #: src/features/help/contribute-dialog.tsx:81
 #: src/features/help/index.tsx:46
 msgid "Suggest a new feature"
-msgstr ""
+msgstr "Dábàá ẹ̀yà tuntun"
 
 #: src/features/help/contribute-dialog.tsx:87
 msgid "Suggest feature"
@@ -964,7 +964,7 @@ msgstr "Tag"
 
 #: src/features/help/contribute-dialog.tsx:131
 msgid "Taking you there now."
-msgstr ""
+msgstr "À ń mú ọ lọ síbẹ̀ báyìí."
 
 #: ../../../lib/web/src/components/layout/team-switcher.tsx:60
 msgid "Teams/Apps"
@@ -1120,7 +1120,7 @@ msgstr "Ọjọ́rú"
 
 #: src/features/help/index.tsx:76
 msgid "Welcome to Mochi. Here's how to get started."
-msgstr ""
+msgstr "Káàbọ̀ sí Mochi. Báyìí ni a ṣe lè bẹ̀rẹ̀."
 
 #: src/features/help/contribute-dialog.tsx:76
 #~ msgid "What did you do, what did you expect, what happened instead?"
@@ -1144,4 +1144,4 @@ msgstr "Ohun tí o fẹ́ béèrè, ní ìlà kan"
 
 #: src/features/help/contribute-dialog.tsx:242
 msgid "Your text will be lost."
-msgstr ""
+msgstr "Ọ̀rọ̀ rẹ yóò sọnù."
