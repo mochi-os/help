@@ -25,7 +25,7 @@ msgstr "24 awr"
 msgid "Absolute (date and time)"
 msgstr "Absoliwt (dyddiad ac amser)"
 
-#: ../../../lib/web/src/features/errors/forbidden.tsx:12
+#: ../../../lib/web/src/features/errors/forbidden.tsx:13
 msgid "Access Forbidden"
 msgstr "Mynediad wedi'i wahardd"
 
@@ -49,9 +49,9 @@ msgstr "Math o gyfrif"
 msgid "Account verified"
 msgstr "Cyfrif wedi'i wirio"
 
-#: src/features/help/contribute-dialog.tsx:100
-#~ msgid "Actual"
-#~ msgstr ""
+#: ../../../lib/web/src/features/accounts/account-add.tsx:193
+msgid "Add"
+msgstr "Ychwanegu"
 
 #: src/features/help/contribute-dialog.tsx:206
 msgid "Add a bit more detail."
@@ -127,11 +127,11 @@ msgstr "Gofynnwch i'r gymuned ar restr bostio defnyddwyr Mochi. Byddwch yn benod
 msgid "Back"
 msgstr "Yn ôl"
 
-#: ../../../lib/web/src/features/errors/forbidden.tsx:21
-#: ../../../lib/web/src/features/errors/not-found-error.tsx:21
-#: ../../../lib/web/src/features/errors/unauthorized-error.tsx:21
-msgid "Back to Home"
-msgstr "Yn ôl i'r Hafan"
+#: ../../../lib/web/src/features/errors/forbidden.tsx:23
+#: ../../../lib/web/src/features/errors/not-found-error.tsx:23
+#: ../../../lib/web/src/features/errors/unauthorized-error.tsx:23
+msgid "Back to home"
+msgstr ""
 
 #: ../../../lib/web/src/components/post-tags.tsx:160
 msgid "Boost interest"
@@ -140,10 +140,6 @@ msgstr "Hybu diddordeb"
 #: src/features/help/contribute-dialog.tsx:74
 msgid "Brief summary of the problem"
 msgstr "Crynodeb byr o'r broblem"
-
-#: src/features/help/contribute-dialog.tsx:102
-#~ msgid "Browser / device"
-#~ msgstr ""
 
 #: ../../../lib/web/src/components/responsive-confirm-dialog.tsx:64
 #: ../../../lib/web/src/components/travelling-picker.tsx:292
@@ -216,8 +212,8 @@ msgid "Close navigation"
 msgstr "Cau llywio"
 
 #: ../../../lib/web/src/components/layout/right-panel.tsx:254
-msgid "Close Panel"
-msgstr "Cau panel"
+msgid "Close panel"
+msgstr ""
 
 #: ../../../lib/web/src/components/header-search.tsx:51
 msgid "Close search"
@@ -350,10 +346,6 @@ msgstr "Cyfeillgar i ddyslecsia"
 msgid "Expand sidebar"
 msgstr "Ehangu'r bar ochr"
 
-#: src/features/help/contribute-dialog.tsx:98
-#~ msgid "Expected"
-#~ msgstr ""
-
 #: ../../../lib/web/src/lib/preference-utils.ts:124
 msgid "Extra large"
 msgstr "Ychwanegol o fawr"
@@ -378,10 +370,6 @@ msgstr "Methwyd diweddaru'r categori"
 msgid "Floating"
 msgstr "Arnofiol"
 
-#: src/features/help/index.tsx:41
-#~ msgid "Found something broken? Tell the developers and they'll fix it."
-#~ msgstr "Wedi dod o hyd i rywbeth wedi torri? Dywedwch wrth y datblygwyr a byddan nhw'n ei drwsio."
-
 #: ../../../lib/web/src/lib/preference-utils.ts:60
 msgid "Friday"
 msgstr "Dydd Gwener"
@@ -402,11 +390,11 @@ msgstr "O'r thema"
 msgid "Full layout"
 msgstr "Cynllun llawn"
 
-#: ../../../lib/web/src/features/errors/forbidden.tsx:19
-#: ../../../lib/web/src/features/errors/not-found-error.tsx:19
-#: ../../../lib/web/src/features/errors/unauthorized-error.tsx:19
-msgid "Go Back"
-msgstr "Yn ôl"
+#: ../../../lib/web/src/features/errors/forbidden.tsx:21
+#: ../../../lib/web/src/features/errors/not-found-error.tsx:21
+#: ../../../lib/web/src/features/errors/unauthorized-error.tsx:21
+msgid "Go back"
+msgstr ""
 
 #: ../../../lib/web/src/components/data-table/pagination.tsx:75
 msgid "Go to first page"
@@ -420,21 +408,17 @@ msgstr "Mynd i'r dudalen olaf"
 msgid "Go to next page"
 msgstr "Mynd i'r dudalen nesaf"
 
+#: ../../../lib/web/src/components/data-table/pagination.tsx:99
+msgid "Go to page {pageNumber}"
+msgstr ""
+
 #: ../../../lib/web/src/components/data-table/pagination.tsx:84
 msgid "Go to previous page"
 msgstr "Mynd i'r dudalen flaenorol"
 
-#: src/features/help/index.tsx:35
-#~ msgid "Got a problem? Not sure what to do? Ask the community on the Mochi Users mailing list."
-#~ msgstr "Oes problem gennych? Ddim yn siŵr beth i'w wneud? Gofynnwch i'r gymuned ar restr bostio Mochi Users."
-
 #: src/features/help/index.tsx:47
 msgid "Got an idea? Open a feature request on the Mochi development project."
 msgstr "Oes gennych chi syniad? Agorwch gais nodwedd ar brosiect datblygu Mochi."
-
-#: src/features/help/index.tsx:47
-#~ msgid "Got an idea? Tell the developers and maybe they'll add it."
-#~ msgstr "Oes syniad gennych? Dywedwch wrth y datblygwyr ac efallai y byddan nhw'n ei ychwanegu."
 
 #: ../../../lib/web/src/features/access/access-dialog.tsx:159
 msgid "Group"
@@ -452,10 +436,6 @@ msgstr "Helô, fi yw…"
 #: ../../../lib/web/src/components/data-table/column-header.tsx:67
 msgid "Hide"
 msgstr "Cuddio"
-
-#: src/features/help/contribute-dialog.tsx:229
-#~ msgid "High"
-#~ msgstr ""
 
 #: ../../../lib/web/src/components/layout/app-sidebar.tsx:82
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx:142
@@ -546,10 +526,6 @@ msgstr "Allgofnodwyd yn llwyddiannus"
 msgid "Logging out…"
 msgstr "Yn allgofnodi…"
 
-#: src/features/help/contribute-dialog.tsx:227
-#~ msgid "Low"
-#~ msgstr ""
-
 #: ../../../lib/web/src/components/layout/notification-menu.tsx:86
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:220
 msgid "Mark all as read"
@@ -590,10 +566,6 @@ msgstr "Dim cyfrifon wedi'u cysylltu"
 #: ../../../lib/web/src/features/access/access-dialog.tsx:238
 msgid "No groups available"
 msgstr "Dim grwpiau ar gael"
-
-#: ../../../lib/web/src/components/language-picker.tsx:186
-#~ msgid "No matches."
-#~ msgstr "Dim canlyniadau."
 
 #: ../../../lib/web/src/components/place-picker.tsx:129
 msgid "No places found"
@@ -636,7 +608,7 @@ msgstr "Arferol"
 msgid "Notifications"
 msgstr "Hysbysiadau"
 
-#: ../../../lib/web/src/features/errors/not-found-error.tsx:12
+#: ../../../lib/web/src/features/errors/not-found-error.tsx:13
 msgid "Oops! Page Not Found!"
 msgstr "Wps! Heb Ddod o Hyd i'r Dudalen!"
 
@@ -689,10 +661,6 @@ msgstr "Yn postio…"
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:332
 msgid "Previous image"
 msgstr "Delwedd flaenorol"
-
-#: src/features/help/contribute-dialog.tsx:212
-#~ msgid "Priority"
-#~ msgstr ""
 
 #: ../../../lib/web/src/components/server-documents-footer.tsx:24
 #: ../../../lib/web/src/features/document/document-page.tsx:41
@@ -758,6 +726,7 @@ msgid "Report bug"
 msgstr "Riportio nam"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:77
+#: ../../../lib/web/src/components/data-table/toolbar.tsx:78
 msgid "Reset"
 msgstr "Ailosod"
 
@@ -780,10 +749,6 @@ msgstr "Dydd Sadwrn"
 #: src/features/help/index.tsx:29
 msgid "Say hello on the Mochi users mailing list and tell everyone a little about yourself."
 msgstr "Dywedwch helo ar restr bostio defnyddwyr Mochi a dywedwch ychydig wrth bawb amdanoch chi'ch hun."
-
-#: src/features/help/index.tsx:29
-#~ msgid "Say hello on the Mochi Users mailing list."
-#~ msgstr "Dywedwch helo ar restr bostio Mochi Users."
 
 #: ../../../lib/web/src/components/place-picker.tsx:82
 msgid "Search for a place"
@@ -808,10 +773,6 @@ msgstr "Chwilio defnyddwyr"
 #: ../../../lib/web/src/components/person-picker.tsx:323
 msgid "Search..."
 msgstr "Chwilio..."
-
-#: ../../../lib/web/src/components/language-picker.tsx:184
-#~ msgid "Search…"
-#~ msgstr "Chwilio…"
 
 #: ../../../lib/web/src/components/search-entity-dialog.tsx:174
 #: ../../../lib/web/src/components/search-entity-page.tsx:149
@@ -850,6 +811,10 @@ msgstr "Dewis cyfeiriad y safle"
 #: ../../../lib/web/src/components/config-drawer.tsx:189
 msgid "Select theme preference"
 msgstr "Dewis dewis thema"
+
+#: ../../../lib/web/src/features/accounts/account-verify.tsx:95
+msgid "Send again"
+msgstr ""
 
 #: ../../../lib/web/src/lib/preference-utils.ts:133
 msgid "Serif"
@@ -914,10 +879,6 @@ msgstr "Wedi sylwi ar rywbeth wedi torri? Cyflwynwch docyn bỳg ar brosiect dat
 msgid "Stay tuned though!"
 msgstr "Cadwch lygad serch hynny!"
 
-#: src/features/help/contribute-dialog.tsx:95
-#~ msgid "Steps to reproduce"
-#~ msgstr ""
-
 #: src/features/help/contribute-dialog.tsx:76
 msgid "Steps to reproduce, what you expected, and what actually happened. Include your browser and device if relevant."
 msgstr "Camau i'w hailadrodd, beth oeddech yn ei ddisgwyl, a beth ddigwyddodd mewn gwirionedd. Cynhwyswch eich porwr a'ch dyfais os yw'n berthnasol."
@@ -929,10 +890,6 @@ msgstr "Yn sownd ar rywbeth? Gofynnwch i'r gymuned ar restr bostio defnyddwyr Mo
 #: ../../../lib/web/src/features/access/access-list.tsx:187
 msgid "Subject"
 msgstr "Pwnc"
-
-#: src/features/help/contribute-dialog.tsx:76
-#~ msgid "Suggest a feature"
-#~ msgstr "Awgrymu nodwedd"
 
 #: src/features/help/contribute-dialog.tsx:81
 #: src/features/help/index.tsx:46
@@ -997,10 +954,13 @@ msgid "Toggle columns"
 msgstr "Toglo colofnau"
 
 #: ../../../lib/web/src/components/layout/right-panel.tsx:227
-msgid "Toggle Right Panel"
-msgstr "Toglo'r Panel Dde"
+msgid "Toggle right panel"
+msgstr ""
 
 #: ../../../lib/web/src/components/ui/sidebar.tsx:312
+msgid "Toggle sidebar"
+msgstr ""
+
 #: ../../../lib/web/src/components/ui/sidebar.tsx:324
 #: ../../../lib/web/src/components/ui/sidebar.tsx:327
 msgid "Toggle Sidebar"
@@ -1025,7 +985,7 @@ msgstr "Ceisiwch addasu eich termau chwilio"
 
 #: ../../../lib/web/src/features/errors/general-error.tsx:125
 #: ../../../lib/web/src/features/errors/general-error.tsx:165
-#: ../../../lib/web/src/features/errors/maintenance-error.tsx:15
+#: ../../../lib/web/src/features/errors/maintenance-error.tsx:16
 msgid "Try again"
 msgstr "Rhoi cynnig arall"
 
@@ -1054,7 +1014,7 @@ msgstr "Methu ailgyfeirio i fewngofnodi. Rhowch gynnig arall arni."
 msgid "Unassigned"
 msgstr "Heb ei neilltuo"
 
-#: ../../../lib/web/src/features/errors/unauthorized-error.tsx:12
+#: ../../../lib/web/src/features/errors/unauthorized-error.tsx:13
 msgid "Unauthorized Access"
 msgstr "Mynediad Heb Awdurdod"
 
@@ -1083,6 +1043,7 @@ msgid "Verification failed"
 msgstr "Dilysiad wedi methu"
 
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:164
+#: ../../../lib/web/src/features/accounts/account-verify.tsx:106
 msgid "Verify"
 msgstr "Dilysu"
 
@@ -1102,7 +1063,7 @@ msgstr "Gweld pob un"
 msgid "View all notifications"
 msgstr "Gweld pob hysbysiad"
 
-#: ../../../lib/web/src/features/errors/maintenance-error.tsx:12
+#: ../../../lib/web/src/features/errors/maintenance-error.tsx:13
 msgid "We'll be back online shortly."
 msgstr "Byddwn yn ôl ar-lein yn fuan."
 
@@ -1110,7 +1071,7 @@ msgstr "Byddwn yn ôl ar-lein yn fuan."
 msgid "We'll try again when you submit."
 msgstr "Byddwn yn rhoi cynnig arall arni pan fyddwch chi'n cyflwyno."
 
-#: ../../../lib/web/src/features/errors/maintenance-error.tsx:9
+#: ../../../lib/web/src/features/errors/maintenance-error.tsx:10
 msgid "Website is under maintenance!"
 msgstr "Mae'r wefan yn cael ei chynnal!"
 
@@ -1121,10 +1082,6 @@ msgstr "Dydd Mercher"
 #: src/features/help/index.tsx:76
 msgid "Welcome to Mochi. Here's how to get started."
 msgstr "Croeso i Mochi. Dyma sut i ddechrau."
-
-#: src/features/help/contribute-dialog.tsx:76
-#~ msgid "What did you do, what did you expect, what happened instead?"
-#~ msgstr "Beth wnaethoch chi, beth oeddech chi'n ei ddisgwyl, beth ddigwyddodd yn lle hynny?"
 
 #: src/features/help/contribute-dialog.tsx:75
 msgid "What happened"

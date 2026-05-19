@@ -25,7 +25,7 @@ msgstr "24 saat"
 msgid "Absolute (date and time)"
 msgstr "Mütləq (tarix və saat)"
 
-#: ../../../lib/web/src/features/errors/forbidden.tsx:12
+#: ../../../lib/web/src/features/errors/forbidden.tsx:13
 msgid "Access Forbidden"
 msgstr "Giriş qadağandır"
 
@@ -49,9 +49,9 @@ msgstr "Hesab tipi"
 msgid "Account verified"
 msgstr "Hesab təsdiqləndi"
 
-#: src/features/help/contribute-dialog.tsx:100
-#~ msgid "Actual"
-#~ msgstr ""
+#: ../../../lib/web/src/features/accounts/account-add.tsx:193
+msgid "Add"
+msgstr "Əlavə et"
 
 #: src/features/help/contribute-dialog.tsx:206
 msgid "Add a bit more detail."
@@ -127,11 +127,11 @@ msgstr "Mochi istifadəçilərinin poçt siyahısında icmaya sual verin. İndiy
 msgid "Back"
 msgstr "Geri"
 
-#: ../../../lib/web/src/features/errors/forbidden.tsx:21
-#: ../../../lib/web/src/features/errors/not-found-error.tsx:21
-#: ../../../lib/web/src/features/errors/unauthorized-error.tsx:21
-msgid "Back to Home"
-msgstr "Ana səhifəyə geri"
+#: ../../../lib/web/src/features/errors/forbidden.tsx:23
+#: ../../../lib/web/src/features/errors/not-found-error.tsx:23
+#: ../../../lib/web/src/features/errors/unauthorized-error.tsx:23
+msgid "Back to home"
+msgstr ""
 
 #: ../../../lib/web/src/components/post-tags.tsx:160
 msgid "Boost interest"
@@ -140,10 +140,6 @@ msgstr "Marağı artır"
 #: src/features/help/contribute-dialog.tsx:74
 msgid "Brief summary of the problem"
 msgstr "Problemin qısa xülasəsi"
-
-#: src/features/help/contribute-dialog.tsx:102
-#~ msgid "Browser / device"
-#~ msgstr ""
 
 #: ../../../lib/web/src/components/responsive-confirm-dialog.tsx:64
 #: ../../../lib/web/src/components/travelling-picker.tsx:292
@@ -216,8 +212,8 @@ msgid "Close navigation"
 msgstr "Naviqasiyanı bağla"
 
 #: ../../../lib/web/src/components/layout/right-panel.tsx:254
-msgid "Close Panel"
-msgstr "Paneli bağla"
+msgid "Close panel"
+msgstr ""
 
 #: ../../../lib/web/src/components/header-search.tsx:51
 msgid "Close search"
@@ -350,10 +346,6 @@ msgstr "Disleksiya üçün uyğun"
 msgid "Expand sidebar"
 msgstr "Yan paneli genişləndir"
 
-#: src/features/help/contribute-dialog.tsx:98
-#~ msgid "Expected"
-#~ msgstr ""
-
 #: ../../../lib/web/src/lib/preference-utils.ts:124
 msgid "Extra large"
 msgstr "Çox böyük"
@@ -378,10 +370,6 @@ msgstr "Kateqoriyanı yeniləmək alınmadı"
 msgid "Floating"
 msgstr "Üzən"
 
-#: src/features/help/index.tsx:41
-#~ msgid "Found something broken? Tell the developers and they'll fix it."
-#~ msgstr "Sınıq bir şey tapdınız? Tərtibatçılara bildirin, onlar düzəldəcəklər."
-
 #: ../../../lib/web/src/lib/preference-utils.ts:60
 msgid "Friday"
 msgstr "Cümə"
@@ -402,11 +390,11 @@ msgstr "Mövzudan"
 msgid "Full layout"
 msgstr "Tam tərtibat"
 
-#: ../../../lib/web/src/features/errors/forbidden.tsx:19
-#: ../../../lib/web/src/features/errors/not-found-error.tsx:19
-#: ../../../lib/web/src/features/errors/unauthorized-error.tsx:19
-msgid "Go Back"
-msgstr "Geri qayıt"
+#: ../../../lib/web/src/features/errors/forbidden.tsx:21
+#: ../../../lib/web/src/features/errors/not-found-error.tsx:21
+#: ../../../lib/web/src/features/errors/unauthorized-error.tsx:21
+msgid "Go back"
+msgstr ""
 
 #: ../../../lib/web/src/components/data-table/pagination.tsx:75
 msgid "Go to first page"
@@ -420,21 +408,17 @@ msgstr "Son səhifəyə get"
 msgid "Go to next page"
 msgstr "Növbəti səhifəyə get"
 
+#: ../../../lib/web/src/components/data-table/pagination.tsx:99
+msgid "Go to page {pageNumber}"
+msgstr ""
+
 #: ../../../lib/web/src/components/data-table/pagination.tsx:84
 msgid "Go to previous page"
 msgstr "Əvvəlki səhifəyə get"
 
-#: src/features/help/index.tsx:35
-#~ msgid "Got a problem? Not sure what to do? Ask the community on the Mochi Users mailing list."
-#~ msgstr "Probleminiz var? Nə edəcəyinizdən əmin deyilsiniz? Mochi Users poçt siyahısında icmadan soruşun."
-
 #: src/features/help/index.tsx:47
 msgid "Got an idea? Open a feature request on the Mochi development project."
 msgstr "Bir fikriniz var? Mochi inkişaf layihəsində funksiya tələbi açın."
-
-#: src/features/help/index.tsx:47
-#~ msgid "Got an idea? Tell the developers and maybe they'll add it."
-#~ msgstr "Bir fikriniz var? Tərtibatçılara deyin, bəlkə əlavə edərlər."
 
 #: ../../../lib/web/src/features/access/access-dialog.tsx:159
 msgid "Group"
@@ -452,10 +436,6 @@ msgstr "Salam, mən…"
 #: ../../../lib/web/src/components/data-table/column-header.tsx:67
 msgid "Hide"
 msgstr "Gizlət"
-
-#: src/features/help/contribute-dialog.tsx:229
-#~ msgid "High"
-#~ msgstr ""
 
 #: ../../../lib/web/src/components/layout/app-sidebar.tsx:82
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx:142
@@ -546,10 +526,6 @@ msgstr "Uğurla çıxış edildi"
 msgid "Logging out…"
 msgstr "Çıxış edilir…"
 
-#: src/features/help/contribute-dialog.tsx:227
-#~ msgid "Low"
-#~ msgstr ""
-
 #: ../../../lib/web/src/components/layout/notification-menu.tsx:86
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:220
 msgid "Mark all as read"
@@ -590,10 +566,6 @@ msgstr "Bağlı hesab yoxdur"
 #: ../../../lib/web/src/features/access/access-dialog.tsx:238
 msgid "No groups available"
 msgstr "Mövcud qrup yoxdur"
-
-#: ../../../lib/web/src/components/language-picker.tsx:186
-#~ msgid "No matches."
-#~ msgstr "Uyğunluq yoxdur."
 
 #: ../../../lib/web/src/components/place-picker.tsx:129
 msgid "No places found"
@@ -636,7 +608,7 @@ msgstr "Normal"
 msgid "Notifications"
 msgstr "Bildirişlər"
 
-#: ../../../lib/web/src/features/errors/not-found-error.tsx:12
+#: ../../../lib/web/src/features/errors/not-found-error.tsx:13
 msgid "Oops! Page Not Found!"
 msgstr "Hopa! Səhifə Tapılmadı!"
 
@@ -689,10 +661,6 @@ msgstr "Yerləşdirilir…"
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:332
 msgid "Previous image"
 msgstr "Əvvəlki şəkil"
-
-#: src/features/help/contribute-dialog.tsx:212
-#~ msgid "Priority"
-#~ msgstr ""
 
 #: ../../../lib/web/src/components/server-documents-footer.tsx:24
 #: ../../../lib/web/src/features/document/document-page.tsx:41
@@ -758,6 +726,7 @@ msgid "Report bug"
 msgstr "Səhv bildir"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:77
+#: ../../../lib/web/src/components/data-table/toolbar.tsx:78
 msgid "Reset"
 msgstr "Sıfırla"
 
@@ -780,10 +749,6 @@ msgstr "Şənbə"
 #: src/features/help/index.tsx:29
 msgid "Say hello on the Mochi users mailing list and tell everyone a little about yourself."
 msgstr "Mochi istifadəçilər poçt siyahısında salam deyin və hamıya özünüz haqqında bir az danışın."
-
-#: src/features/help/index.tsx:29
-#~ msgid "Say hello on the Mochi Users mailing list."
-#~ msgstr "Mochi Users poçt siyahısında salam deyin."
 
 #: ../../../lib/web/src/components/place-picker.tsx:82
 msgid "Search for a place"
@@ -808,10 +773,6 @@ msgstr "İstifadəçi axtar"
 #: ../../../lib/web/src/components/person-picker.tsx:323
 msgid "Search..."
 msgstr "Axtar..."
-
-#: ../../../lib/web/src/components/language-picker.tsx:184
-#~ msgid "Search…"
-#~ msgstr "Axtar…"
 
 #: ../../../lib/web/src/components/search-entity-dialog.tsx:174
 #: ../../../lib/web/src/components/search-entity-page.tsx:149
@@ -850,6 +811,10 @@ msgstr "Sayt istiqamətini seçin"
 #: ../../../lib/web/src/components/config-drawer.tsx:189
 msgid "Select theme preference"
 msgstr "Mövzu seçimini seçin"
+
+#: ../../../lib/web/src/features/accounts/account-verify.tsx:95
+msgid "Send again"
+msgstr ""
 
 #: ../../../lib/web/src/lib/preference-utils.ts:133
 msgid "Serif"
@@ -914,10 +879,6 @@ msgstr "Sınıq bir şey gördünüz? Mochi inkişaf layihəsində xəta bileti 
 msgid "Stay tuned though!"
 msgstr "Yenə də diqqətli olun!"
 
-#: src/features/help/contribute-dialog.tsx:95
-#~ msgid "Steps to reproduce"
-#~ msgstr ""
-
 #: src/features/help/contribute-dialog.tsx:76
 msgid "Steps to reproduce, what you expected, and what actually happened. Include your browser and device if relevant."
 msgstr "Təkrarlamaq üçün addımlar, gözlədiyiniz və faktiki baş verən. Aidiyyəti varsa, brauzer və cihazınızı daxil edin."
@@ -929,10 +890,6 @@ msgstr "Bir şey ilə bağlı çətinlik çəkirsiniz? Mochi istifadəçilər po
 #: ../../../lib/web/src/features/access/access-list.tsx:187
 msgid "Subject"
 msgstr "Mövzu"
-
-#: src/features/help/contribute-dialog.tsx:76
-#~ msgid "Suggest a feature"
-#~ msgstr "Funksiya təklif et"
 
 #: src/features/help/contribute-dialog.tsx:81
 #: src/features/help/index.tsx:46
@@ -997,10 +954,13 @@ msgid "Toggle columns"
 msgstr "Görünüş seçimlərini açıb-bağla"
 
 #: ../../../lib/web/src/components/layout/right-panel.tsx:227
-msgid "Toggle Right Panel"
-msgstr "Sütunları açıb-bağla"
+msgid "Toggle right panel"
+msgstr ""
 
 #: ../../../lib/web/src/components/ui/sidebar.tsx:312
+msgid "Toggle sidebar"
+msgstr ""
+
 #: ../../../lib/web/src/components/ui/sidebar.tsx:324
 #: ../../../lib/web/src/components/ui/sidebar.tsx:327
 msgid "Toggle Sidebar"
@@ -1025,7 +985,7 @@ msgstr "Fərqli axtarış termini sınayın."
 
 #: ../../../lib/web/src/features/errors/general-error.tsx:125
 #: ../../../lib/web/src/features/errors/general-error.tsx:165
-#: ../../../lib/web/src/features/errors/maintenance-error.tsx:15
+#: ../../../lib/web/src/features/errors/maintenance-error.tsx:16
 msgid "Try again"
 msgstr "Çərşənbə axşamı"
 
@@ -1054,7 +1014,7 @@ msgstr "Təyin edilməyib"
 msgid "Unassigned"
 msgstr "İcazəsiz giriş"
 
-#: ../../../lib/web/src/features/errors/unauthorized-error.tsx:12
+#: ../../../lib/web/src/features/errors/unauthorized-error.tsx:13
 msgid "Unauthorized Access"
 msgstr "Banı götür"
 
@@ -1083,6 +1043,7 @@ msgid "Verification failed"
 msgstr "Yoxla"
 
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:164
+#: ../../../lib/web/src/features/accounts/account-verify.tsx:106
 msgid "Verify"
 msgstr "DNS-i yoxla"
 
@@ -1102,7 +1063,7 @@ msgstr "Bütün yazılara bax"
 msgid "View all notifications"
 msgstr "Element təfərrüatlarına baxın və redaktə edin"
 
-#: ../../../lib/web/src/features/errors/maintenance-error.tsx:12
+#: ../../../lib/web/src/features/errors/maintenance-error.tsx:13
 msgid "We'll be back online shortly."
 msgstr "Mochi-ni sınamağa və dürüst rəy bildirməyə hazır olan erkən istifadəçiləri axtarırıq. Versiya 0.3-dür, bəzi xətaları var, lakin gündəlik istifadə üçün hazırdır."
 
@@ -1110,7 +1071,7 @@ msgstr "Mochi-ni sınamağa və dürüst rəy bildirməyə hazır olan erkən is
 msgid "We'll try again when you submit."
 msgstr "Siz göndərdiyiniz zaman yenidən cəhd edəcəyik."
 
-#: ../../../lib/web/src/features/errors/maintenance-error.tsx:9
+#: ../../../lib/web/src/features/errors/maintenance-error.tsx:10
 msgid "Website is under maintenance!"
 msgstr "Həftə başlayır"
 
@@ -1121,10 +1082,6 @@ msgstr "Digər wiki-lər bu wiki-ni replikasiya etdikdə burada görünəcəklə
 #: src/features/help/index.tsx:76
 msgid "Welcome to Mochi. Here's how to get started."
 msgstr "Mochi-yə xoş gəlmisiniz. Necə başlamağın yolu budur."
-
-#: src/features/help/contribute-dialog.tsx:76
-#~ msgid "What did you do, what did you expect, what happened instead?"
-#~ msgstr "Nə etdiniz, nə gözləyirdiniz, əvəzində nə baş verdi?"
 
 #: src/features/help/contribute-dialog.tsx:75
 msgid "What happened"

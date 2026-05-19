@@ -25,7 +25,7 @@ msgstr "24 ordu"
 msgid "Absolute (date and time)"
 msgstr "Absolutua (data eta ordua)"
 
-#: ../../../lib/web/src/features/errors/forbidden.tsx:12
+#: ../../../lib/web/src/features/errors/forbidden.tsx:13
 msgid "Access Forbidden"
 msgstr "Sarbidea debekatua"
 
@@ -49,9 +49,9 @@ msgstr "Kontu mota"
 msgid "Account verified"
 msgstr "Kontua egiaztatua"
 
-#: src/features/help/contribute-dialog.tsx:100
-#~ msgid "Actual"
-#~ msgstr ""
+#: ../../../lib/web/src/features/accounts/account-add.tsx:193
+msgid "Add"
+msgstr "Gehitu"
 
 #: src/features/help/contribute-dialog.tsx:206
 msgid "Add a bit more detail."
@@ -127,11 +127,11 @@ msgstr "Galdetu komunitateari Mochi erabiltzaileen posta-zerrendan. Zehaztu zer 
 msgid "Back"
 msgstr "Atzera"
 
-#: ../../../lib/web/src/features/errors/forbidden.tsx:21
-#: ../../../lib/web/src/features/errors/not-found-error.tsx:21
-#: ../../../lib/web/src/features/errors/unauthorized-error.tsx:21
-msgid "Back to Home"
-msgstr "Itzuli hasierara"
+#: ../../../lib/web/src/features/errors/forbidden.tsx:23
+#: ../../../lib/web/src/features/errors/not-found-error.tsx:23
+#: ../../../lib/web/src/features/errors/unauthorized-error.tsx:23
+msgid "Back to home"
+msgstr ""
 
 #: ../../../lib/web/src/components/post-tags.tsx:160
 msgid "Boost interest"
@@ -140,10 +140,6 @@ msgstr "Bultzatu interesa"
 #: src/features/help/contribute-dialog.tsx:74
 msgid "Brief summary of the problem"
 msgstr "Arazoaren laburpen labur bat"
-
-#: src/features/help/contribute-dialog.tsx:102
-#~ msgid "Browser / device"
-#~ msgstr ""
 
 #: ../../../lib/web/src/components/responsive-confirm-dialog.tsx:64
 #: ../../../lib/web/src/components/travelling-picker.tsx:292
@@ -216,8 +212,8 @@ msgid "Close navigation"
 msgstr "Itxi nabigazioa"
 
 #: ../../../lib/web/src/components/layout/right-panel.tsx:254
-msgid "Close Panel"
-msgstr "Itxi panela"
+msgid "Close panel"
+msgstr ""
 
 #: ../../../lib/web/src/components/header-search.tsx:51
 msgid "Close search"
@@ -350,10 +346,6 @@ msgstr "Dislexiarako egokia"
 msgid "Expand sidebar"
 msgstr "Zabaldu alboko barra"
 
-#: src/features/help/contribute-dialog.tsx:98
-#~ msgid "Expected"
-#~ msgstr ""
-
 #: ../../../lib/web/src/lib/preference-utils.ts:124
 msgid "Extra large"
 msgstr "Oso handia"
@@ -378,10 +370,6 @@ msgstr "Ezin izan da kategoria eguneratu"
 msgid "Floating"
 msgstr "Flotatzailea"
 
-#: src/features/help/index.tsx:41
-#~ msgid "Found something broken? Tell the developers and they'll fix it."
-#~ msgstr "Akatsen bat aurkitu duzu? Esan garatzaileei eta konponduko dute."
-
 #: ../../../lib/web/src/lib/preference-utils.ts:60
 msgid "Friday"
 msgstr "Ostirala"
@@ -402,11 +390,11 @@ msgstr "Gaiatik"
 msgid "Full layout"
 msgstr "Diseinu osoa"
 
-#: ../../../lib/web/src/features/errors/forbidden.tsx:19
-#: ../../../lib/web/src/features/errors/not-found-error.tsx:19
-#: ../../../lib/web/src/features/errors/unauthorized-error.tsx:19
-msgid "Go Back"
-msgstr "Itzuli"
+#: ../../../lib/web/src/features/errors/forbidden.tsx:21
+#: ../../../lib/web/src/features/errors/not-found-error.tsx:21
+#: ../../../lib/web/src/features/errors/unauthorized-error.tsx:21
+msgid "Go back"
+msgstr ""
 
 #: ../../../lib/web/src/components/data-table/pagination.tsx:75
 msgid "Go to first page"
@@ -420,21 +408,17 @@ msgstr "Joan azken orrira"
 msgid "Go to next page"
 msgstr "Joan hurrengo orrira"
 
+#: ../../../lib/web/src/components/data-table/pagination.tsx:99
+msgid "Go to page {pageNumber}"
+msgstr ""
+
 #: ../../../lib/web/src/components/data-table/pagination.tsx:84
 msgid "Go to previous page"
 msgstr "Joan aurreko orrira"
 
-#: src/features/help/index.tsx:35
-#~ msgid "Got a problem? Not sure what to do? Ask the community on the Mochi Users mailing list."
-#~ msgstr "Arazoren bat duzu? Ez dakizu zer egin? Galdetu komunitateari Mochi Users posta-zerrendan."
-
 #: src/features/help/index.tsx:47
 msgid "Got an idea? Open a feature request on the Mochi development project."
 msgstr "Iradokizunen bat? Ireki ezaugarri-eskaera bat Mochi garapen-proiektuan."
-
-#: src/features/help/index.tsx:47
-#~ msgid "Got an idea? Tell the developers and maybe they'll add it."
-#~ msgstr "Ideiaren bat duzu? Esan garatzaileei eta agian gehituko dute."
 
 #: ../../../lib/web/src/features/access/access-dialog.tsx:159
 msgid "Group"
@@ -452,10 +436,6 @@ msgstr "Kaixo, ni…"
 #: ../../../lib/web/src/components/data-table/column-header.tsx:67
 msgid "Hide"
 msgstr "Ezkutatu"
-
-#: src/features/help/contribute-dialog.tsx:229
-#~ msgid "High"
-#~ msgstr ""
 
 #: ../../../lib/web/src/components/layout/app-sidebar.tsx:82
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx:142
@@ -546,10 +526,6 @@ msgstr "Saioa ondo amaituta"
 msgid "Logging out…"
 msgstr "Saioa amaitzen…"
 
-#: src/features/help/contribute-dialog.tsx:227
-#~ msgid "Low"
-#~ msgstr ""
-
 #: ../../../lib/web/src/components/layout/notification-menu.tsx:86
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:220
 msgid "Mark all as read"
@@ -590,10 +566,6 @@ msgstr "Konektatutako konturik ez"
 #: ../../../lib/web/src/features/access/access-dialog.tsx:238
 msgid "No groups available"
 msgstr "Ez dago talde erabilgarririk"
-
-#: ../../../lib/web/src/components/language-picker.tsx:186
-#~ msgid "No matches."
-#~ msgstr "Bat etortzerik ez."
 
 #: ../../../lib/web/src/components/place-picker.tsx:129
 msgid "No places found"
@@ -636,7 +608,7 @@ msgstr "Arrunta"
 msgid "Notifications"
 msgstr "Jakinarazpenak"
 
-#: ../../../lib/web/src/features/errors/not-found-error.tsx:12
+#: ../../../lib/web/src/features/errors/not-found-error.tsx:13
 msgid "Oops! Page Not Found!"
 msgstr "Hutsegitea! Ez da orria aurkitu!"
 
@@ -689,10 +661,6 @@ msgstr "Argitaratzen…"
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:332
 msgid "Previous image"
 msgstr "Aurreko irudia"
-
-#: src/features/help/contribute-dialog.tsx:212
-#~ msgid "Priority"
-#~ msgstr ""
 
 #: ../../../lib/web/src/components/server-documents-footer.tsx:24
 #: ../../../lib/web/src/features/document/document-page.tsx:41
@@ -758,6 +726,7 @@ msgid "Report bug"
 msgstr "Eman akatsaren berri"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:77
+#: ../../../lib/web/src/components/data-table/toolbar.tsx:78
 msgid "Reset"
 msgstr "Berrezarri"
 
@@ -780,10 +749,6 @@ msgstr "Larunbata"
 #: src/features/help/index.tsx:29
 msgid "Say hello on the Mochi users mailing list and tell everyone a little about yourself."
 msgstr "Agurtu Mochi erabiltzaileen posta-zerrendan eta kontatu zerbait zure buruari buruz."
-
-#: src/features/help/index.tsx:29
-#~ msgid "Say hello on the Mochi Users mailing list."
-#~ msgstr "Agurtu Mochi Users posta-zerrendan."
 
 #: ../../../lib/web/src/components/place-picker.tsx:82
 msgid "Search for a place"
@@ -808,10 +773,6 @@ msgstr "Bilatu erabiltzaileak"
 #: ../../../lib/web/src/components/person-picker.tsx:323
 msgid "Search..."
 msgstr "Bilatu..."
-
-#: ../../../lib/web/src/components/language-picker.tsx:184
-#~ msgid "Search…"
-#~ msgstr "Bilatu…"
 
 #: ../../../lib/web/src/components/search-entity-dialog.tsx:174
 #: ../../../lib/web/src/components/search-entity-page.tsx:149
@@ -850,6 +811,10 @@ msgstr "Hautatu gunearen norabidea"
 #: ../../../lib/web/src/components/config-drawer.tsx:189
 msgid "Select theme preference"
 msgstr "Hautatu gaiaren hobespena"
+
+#: ../../../lib/web/src/features/accounts/account-verify.tsx:95
+msgid "Send again"
+msgstr ""
 
 #: ../../../lib/web/src/lib/preference-utils.ts:133
 msgid "Serif"
@@ -914,10 +879,6 @@ msgstr "Hautsita dagoen zerbait ikusi duzu? Bidali akats-txartel bat Mochi garap
 msgid "Stay tuned though!"
 msgstr "Egon adi, ordea!"
 
-#: src/features/help/contribute-dialog.tsx:95
-#~ msgid "Steps to reproduce"
-#~ msgstr ""
-
 #: src/features/help/contribute-dialog.tsx:76
 msgid "Steps to reproduce, what you expected, and what actually happened. Include your browser and device if relevant."
 msgstr "Berregiteko urratsak, zer espero zenuen eta zer gertatu den benetan. Sartu zure nabigatzailea eta gailua garrantzitsua bada."
@@ -929,10 +890,6 @@ msgstr "Trabatuta? Galdetu komunitateari Mochi erabiltzaileen posta-zerrendan."
 #: ../../../lib/web/src/features/access/access-list.tsx:187
 msgid "Subject"
 msgstr "Gaia"
-
-#: src/features/help/contribute-dialog.tsx:76
-#~ msgid "Suggest a feature"
-#~ msgstr "Iradoki funtzionalitate bat"
 
 #: src/features/help/contribute-dialog.tsx:81
 #: src/features/help/index.tsx:46
@@ -997,10 +954,13 @@ msgid "Toggle columns"
 msgstr "Txandakatu zutabeak"
 
 #: ../../../lib/web/src/components/layout/right-panel.tsx:227
-msgid "Toggle Right Panel"
-msgstr "Txandakatu eskuineko panela"
+msgid "Toggle right panel"
+msgstr ""
 
 #: ../../../lib/web/src/components/ui/sidebar.tsx:312
+msgid "Toggle sidebar"
+msgstr ""
+
 #: ../../../lib/web/src/components/ui/sidebar.tsx:324
 #: ../../../lib/web/src/components/ui/sidebar.tsx:327
 msgid "Toggle Sidebar"
@@ -1025,7 +985,7 @@ msgstr "Saiatu zure bilaketa-terminoak doitzen"
 
 #: ../../../lib/web/src/features/errors/general-error.tsx:125
 #: ../../../lib/web/src/features/errors/general-error.tsx:165
-#: ../../../lib/web/src/features/errors/maintenance-error.tsx:15
+#: ../../../lib/web/src/features/errors/maintenance-error.tsx:16
 msgid "Try again"
 msgstr "Saiatu berriro"
 
@@ -1054,7 +1014,7 @@ msgstr "Ezin da saio-hasierara birbideratu. Saiatu berriro."
 msgid "Unassigned"
 msgstr "Esleitu gabe"
 
-#: ../../../lib/web/src/features/errors/unauthorized-error.tsx:12
+#: ../../../lib/web/src/features/errors/unauthorized-error.tsx:13
 msgid "Unauthorized Access"
 msgstr "Baimen gabeko sarbidea"
 
@@ -1083,6 +1043,7 @@ msgid "Verification failed"
 msgstr "Egiaztatzeak huts egin du"
 
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:164
+#: ../../../lib/web/src/features/accounts/account-verify.tsx:106
 msgid "Verify"
 msgstr "Egiaztatu"
 
@@ -1102,7 +1063,7 @@ msgstr "Ikusi guztiak"
 msgid "View all notifications"
 msgstr "Ikusi jakinarazpen guztiak"
 
-#: ../../../lib/web/src/features/errors/maintenance-error.tsx:12
+#: ../../../lib/web/src/features/errors/maintenance-error.tsx:13
 msgid "We'll be back online shortly."
 msgstr "Laster online egongo gara berriro."
 
@@ -1110,7 +1071,7 @@ msgstr "Laster online egongo gara berriro."
 msgid "We'll try again when you submit."
 msgstr "Bidaltzen duzunean berriro saiatuko gara."
 
-#: ../../../lib/web/src/features/errors/maintenance-error.tsx:9
+#: ../../../lib/web/src/features/errors/maintenance-error.tsx:10
 msgid "Website is under maintenance!"
 msgstr "Webgunea mantentze-lanetan dago!"
 
@@ -1121,10 +1082,6 @@ msgstr "Asteazkena"
 #: src/features/help/index.tsx:76
 msgid "Welcome to Mochi. Here's how to get started."
 msgstr "Ongi etorri Mochira. Hona hemen nola hasi."
-
-#: src/features/help/contribute-dialog.tsx:76
-#~ msgid "What did you do, what did you expect, what happened instead?"
-#~ msgstr "Zer egin zenuen, zer espero zenuen eta zer gertatu zen horren ordez?"
 
 #: src/features/help/contribute-dialog.tsx:75
 msgid "What happened"

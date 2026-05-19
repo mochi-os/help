@@ -25,7 +25,7 @@ msgstr "24 stundas"
 msgid "Absolute (date and time)"
 msgstr "Absolūts (datums un laiks)"
 
-#: ../../../lib/web/src/features/errors/forbidden.tsx:12
+#: ../../../lib/web/src/features/errors/forbidden.tsx:13
 msgid "Access Forbidden"
 msgstr "Piekļuve aizliegta"
 
@@ -49,9 +49,9 @@ msgstr "Konta veids"
 msgid "Account verified"
 msgstr "Konts verificēts"
 
-#: src/features/help/contribute-dialog.tsx:100
-#~ msgid "Actual"
-#~ msgstr ""
+#: ../../../lib/web/src/features/accounts/account-add.tsx:193
+msgid "Add"
+msgstr "Pievienot"
 
 #: src/features/help/contribute-dialog.tsx:206
 msgid "Add a bit more detail."
@@ -127,11 +127,11 @@ msgstr "Pajautā kopienai Mochi lietotāju adresātu sarakstā. Esi konkrēts pa
 msgid "Back"
 msgstr "Atpakaļ"
 
-#: ../../../lib/web/src/features/errors/forbidden.tsx:21
-#: ../../../lib/web/src/features/errors/not-found-error.tsx:21
-#: ../../../lib/web/src/features/errors/unauthorized-error.tsx:21
-msgid "Back to Home"
-msgstr "Atpakaļ uz sākumu"
+#: ../../../lib/web/src/features/errors/forbidden.tsx:23
+#: ../../../lib/web/src/features/errors/not-found-error.tsx:23
+#: ../../../lib/web/src/features/errors/unauthorized-error.tsx:23
+msgid "Back to home"
+msgstr ""
 
 #: ../../../lib/web/src/components/post-tags.tsx:160
 msgid "Boost interest"
@@ -140,10 +140,6 @@ msgstr "Veicināt interesi"
 #: src/features/help/contribute-dialog.tsx:74
 msgid "Brief summary of the problem"
 msgstr "Īss problēmas kopsavilkums"
-
-#: src/features/help/contribute-dialog.tsx:102
-#~ msgid "Browser / device"
-#~ msgstr ""
 
 #: ../../../lib/web/src/components/responsive-confirm-dialog.tsx:64
 #: ../../../lib/web/src/components/travelling-picker.tsx:292
@@ -216,8 +212,8 @@ msgid "Close navigation"
 msgstr "Aizvērt navigāciju"
 
 #: ../../../lib/web/src/components/layout/right-panel.tsx:254
-msgid "Close Panel"
-msgstr "Aizvērt paneli"
+msgid "Close panel"
+msgstr ""
 
 #: ../../../lib/web/src/components/header-search.tsx:51
 msgid "Close search"
@@ -350,10 +346,6 @@ msgstr "Disleksijai draudzīgs"
 msgid "Expand sidebar"
 msgstr "Izvērst sānjoslu"
 
-#: src/features/help/contribute-dialog.tsx:98
-#~ msgid "Expected"
-#~ msgstr ""
-
 #: ../../../lib/web/src/lib/preference-utils.ts:124
 msgid "Extra large"
 msgstr "Ļoti liels"
@@ -378,10 +370,6 @@ msgstr "Neizdevās atjaunināt kategoriju"
 msgid "Floating"
 msgstr "Peldošs"
 
-#: src/features/help/index.tsx:41
-#~ msgid "Found something broken? Tell the developers and they'll fix it."
-#~ msgstr "Atradi kļūdu? Pasaki izstrādātājiem, un viņi to izlabos."
-
 #: ../../../lib/web/src/lib/preference-utils.ts:60
 msgid "Friday"
 msgstr "Piektdiena"
@@ -402,11 +390,11 @@ msgstr "No motīva"
 msgid "Full layout"
 msgstr "Pilns izkārtojums"
 
-#: ../../../lib/web/src/features/errors/forbidden.tsx:19
-#: ../../../lib/web/src/features/errors/not-found-error.tsx:19
-#: ../../../lib/web/src/features/errors/unauthorized-error.tsx:19
-msgid "Go Back"
-msgstr "Atpakaļ"
+#: ../../../lib/web/src/features/errors/forbidden.tsx:21
+#: ../../../lib/web/src/features/errors/not-found-error.tsx:21
+#: ../../../lib/web/src/features/errors/unauthorized-error.tsx:21
+msgid "Go back"
+msgstr ""
 
 #: ../../../lib/web/src/components/data-table/pagination.tsx:75
 msgid "Go to first page"
@@ -420,21 +408,17 @@ msgstr "Iet uz pēdējo lapu"
 msgid "Go to next page"
 msgstr "Iet uz nākamo lapu"
 
+#: ../../../lib/web/src/components/data-table/pagination.tsx:99
+msgid "Go to page {pageNumber}"
+msgstr ""
+
 #: ../../../lib/web/src/components/data-table/pagination.tsx:84
 msgid "Go to previous page"
 msgstr "Iet uz iepriekšējo lapu"
 
-#: src/features/help/index.tsx:35
-#~ msgid "Got a problem? Not sure what to do? Ask the community on the Mochi Users mailing list."
-#~ msgstr "Vai tev ir problēma? Nezini, ko darīt? Pajautā kopienai e-pasta sarakstā Mochi Users."
-
 #: src/features/help/index.tsx:47
 msgid "Got an idea? Open a feature request on the Mochi development project."
 msgstr "Ir ideja? Atver funkcijas pieprasījumu Mochi izstrādes projektā."
-
-#: src/features/help/index.tsx:47
-#~ msgid "Got an idea? Tell the developers and maybe they'll add it."
-#~ msgstr "Vai tev ir ideja? Pastāsti izstrādātājiem, un varbūt viņi to pievienos."
 
 #: ../../../lib/web/src/features/access/access-dialog.tsx:159
 msgid "Group"
@@ -452,10 +436,6 @@ msgstr "Sveiki, es esmu…"
 #: ../../../lib/web/src/components/data-table/column-header.tsx:67
 msgid "Hide"
 msgstr "Slēpt"
-
-#: src/features/help/contribute-dialog.tsx:229
-#~ msgid "High"
-#~ msgstr ""
 
 #: ../../../lib/web/src/components/layout/app-sidebar.tsx:82
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx:142
@@ -546,10 +526,6 @@ msgstr "Izrakstīšanās veiksmīga"
 msgid "Logging out…"
 msgstr "Izrakstās…"
 
-#: src/features/help/contribute-dialog.tsx:227
-#~ msgid "Low"
-#~ msgstr ""
-
 #: ../../../lib/web/src/components/layout/notification-menu.tsx:86
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:220
 msgid "Mark all as read"
@@ -590,10 +566,6 @@ msgstr "Nav saistītu kontu"
 #: ../../../lib/web/src/features/access/access-dialog.tsx:238
 msgid "No groups available"
 msgstr "Nav pieejamu grupu"
-
-#: ../../../lib/web/src/components/language-picker.tsx:186
-#~ msgid "No matches."
-#~ msgstr "Nav atbilstību."
 
 #: ../../../lib/web/src/components/place-picker.tsx:129
 msgid "No places found"
@@ -636,7 +608,7 @@ msgstr "Normāls"
 msgid "Notifications"
 msgstr "Paziņojumi"
 
-#: ../../../lib/web/src/features/errors/not-found-error.tsx:12
+#: ../../../lib/web/src/features/errors/not-found-error.tsx:13
 msgid "Oops! Page Not Found!"
 msgstr "Hops! Lapa nav atrasta!"
 
@@ -689,10 +661,6 @@ msgstr "Publicē..."
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:332
 msgid "Previous image"
 msgstr "Iepriekšējais attēls"
-
-#: src/features/help/contribute-dialog.tsx:212
-#~ msgid "Priority"
-#~ msgstr ""
 
 #: ../../../lib/web/src/components/server-documents-footer.tsx:24
 #: ../../../lib/web/src/features/document/document-page.tsx:41
@@ -758,6 +726,7 @@ msgid "Report bug"
 msgstr "Ziņot par kļūdu"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:77
+#: ../../../lib/web/src/components/data-table/toolbar.tsx:78
 msgid "Reset"
 msgstr "Atiestatīt"
 
@@ -780,10 +749,6 @@ msgstr "Sestdiena"
 #: src/features/help/index.tsx:29
 msgid "Say hello on the Mochi users mailing list and tell everyone a little about yourself."
 msgstr "Pasveicini Mochi lietotāju vēstkopā un pastāsti citiem mazliet par sevi."
-
-#: src/features/help/index.tsx:29
-#~ msgid "Say hello on the Mochi Users mailing list."
-#~ msgstr "Pasaki sveiki e-pasta sarakstā Mochi Users."
 
 #: ../../../lib/web/src/components/place-picker.tsx:82
 msgid "Search for a place"
@@ -808,10 +773,6 @@ msgstr "Meklēt lietotājus"
 #: ../../../lib/web/src/components/person-picker.tsx:323
 msgid "Search..."
 msgstr "Meklēt..."
-
-#: ../../../lib/web/src/components/language-picker.tsx:184
-#~ msgid "Search…"
-#~ msgstr "Meklē…"
 
 #: ../../../lib/web/src/components/search-entity-dialog.tsx:174
 #: ../../../lib/web/src/components/search-entity-page.tsx:149
@@ -850,6 +811,10 @@ msgstr "Izvēlieties vietnes virzienu"
 #: ../../../lib/web/src/components/config-drawer.tsx:189
 msgid "Select theme preference"
 msgstr "Izvēlieties motīva preferenci"
+
+#: ../../../lib/web/src/features/accounts/account-verify.tsx:95
+msgid "Send again"
+msgstr ""
 
 #: ../../../lib/web/src/lib/preference-utils.ts:133
 msgid "Serif"
@@ -914,10 +879,6 @@ msgstr "Pamanīji kaut ko salauztu? Iesniedz kļūdas pieteikumu Mochi izstrāde
 msgid "Stay tuned though!"
 msgstr "Tomēr palieciet uz viļņa!"
 
-#: src/features/help/contribute-dialog.tsx:95
-#~ msgid "Steps to reproduce"
-#~ msgstr ""
-
 #: src/features/help/contribute-dialog.tsx:76
 msgid "Steps to reproduce, what you expected, and what actually happened. Include your browser and device if relevant."
 msgstr "Soļi atkārtošanai, ko gaidīji un kas patiesībā notika. Pievieno savu pārlūku un ierīci, ja tas ir būtiski."
@@ -929,10 +890,6 @@ msgstr "Iestrēdzi kādā jautājumā? Jautā kopienai Mochi lietotāju vēstkop
 #: ../../../lib/web/src/features/access/access-list.tsx:187
 msgid "Subject"
 msgstr "Tēma"
-
-#: src/features/help/contribute-dialog.tsx:76
-#~ msgid "Suggest a feature"
-#~ msgstr "Ieteikt funkciju"
 
 #: src/features/help/contribute-dialog.tsx:81
 #: src/features/help/index.tsx:46
@@ -997,10 +954,13 @@ msgid "Toggle columns"
 msgstr "Pārslēgt kolonnas"
 
 #: ../../../lib/web/src/components/layout/right-panel.tsx:227
-msgid "Toggle Right Panel"
-msgstr "Pārslēgt labo paneli"
+msgid "Toggle right panel"
+msgstr ""
 
 #: ../../../lib/web/src/components/ui/sidebar.tsx:312
+msgid "Toggle sidebar"
+msgstr ""
+
 #: ../../../lib/web/src/components/ui/sidebar.tsx:324
 #: ../../../lib/web/src/components/ui/sidebar.tsx:327
 msgid "Toggle Sidebar"
@@ -1025,7 +985,7 @@ msgstr "Mēģiniet pielāgot meklēšanas vārdus"
 
 #: ../../../lib/web/src/features/errors/general-error.tsx:125
 #: ../../../lib/web/src/features/errors/general-error.tsx:165
-#: ../../../lib/web/src/features/errors/maintenance-error.tsx:15
+#: ../../../lib/web/src/features/errors/maintenance-error.tsx:16
 msgid "Try again"
 msgstr "Mēģināt vēlreiz"
 
@@ -1054,7 +1014,7 @@ msgstr "Nevar pāradresēt uz pieteikšanos. Lūdzu, mēģiniet vēlreiz."
 msgid "Unassigned"
 msgstr "Nepiešķirts"
 
-#: ../../../lib/web/src/features/errors/unauthorized-error.tsx:12
+#: ../../../lib/web/src/features/errors/unauthorized-error.tsx:13
 msgid "Unauthorized Access"
 msgstr "Nesankcionēta piekļuve"
 
@@ -1083,6 +1043,7 @@ msgid "Verification failed"
 msgstr "Verifikācija neizdevās"
 
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:164
+#: ../../../lib/web/src/features/accounts/account-verify.tsx:106
 msgid "Verify"
 msgstr "Verificēt"
 
@@ -1102,7 +1063,7 @@ msgstr "Skatīt visu"
 msgid "View all notifications"
 msgstr "Skatīt visus paziņojumus"
 
-#: ../../../lib/web/src/features/errors/maintenance-error.tsx:12
+#: ../../../lib/web/src/features/errors/maintenance-error.tsx:13
 msgid "We'll be back online shortly."
 msgstr "Mēs drīz būsim atpakaļ tiešsaistē."
 
@@ -1110,7 +1071,7 @@ msgstr "Mēs drīz būsim atpakaļ tiešsaistē."
 msgid "We'll try again when you submit."
 msgstr "Mēģināsim vēlreiz, kad iesniegsi."
 
-#: ../../../lib/web/src/features/errors/maintenance-error.tsx:9
+#: ../../../lib/web/src/features/errors/maintenance-error.tsx:10
 msgid "Website is under maintenance!"
 msgstr "Vietne tiek apkopta!"
 
@@ -1121,10 +1082,6 @@ msgstr "Trešdiena"
 #: src/features/help/index.tsx:76
 msgid "Welcome to Mochi. Here's how to get started."
 msgstr "Laipni lūdzam Mochi. Lūk, kā sākt."
-
-#: src/features/help/contribute-dialog.tsx:76
-#~ msgid "What did you do, what did you expect, what happened instead?"
-#~ msgstr "Ko tu darīji, ko gaidīji, kas notika tā vietā?"
 
 #: src/features/help/contribute-dialog.tsx:75
 msgid "What happened"

@@ -25,7 +25,7 @@ msgstr "24 години"
 msgid "Absolute (date and time)"
 msgstr "Абсолютне (дата й час)"
 
-#: ../../../lib/web/src/features/errors/forbidden.tsx:12
+#: ../../../lib/web/src/features/errors/forbidden.tsx:13
 msgid "Access Forbidden"
 msgstr "Доступ заборонено"
 
@@ -49,9 +49,9 @@ msgstr "Тип облікового запису"
 msgid "Account verified"
 msgstr "Обліковий запис підтверджено"
 
-#: src/features/help/contribute-dialog.tsx:100
-#~ msgid "Actual"
-#~ msgstr ""
+#: ../../../lib/web/src/features/accounts/account-add.tsx:193
+msgid "Add"
+msgstr "Додати"
 
 #: src/features/help/contribute-dialog.tsx:206
 msgid "Add a bit more detail."
@@ -127,11 +127,11 @@ msgstr "Запитайте спільноту в розсилці користу
 msgid "Back"
 msgstr "Назад"
 
-#: ../../../lib/web/src/features/errors/forbidden.tsx:21
-#: ../../../lib/web/src/features/errors/not-found-error.tsx:21
-#: ../../../lib/web/src/features/errors/unauthorized-error.tsx:21
-msgid "Back to Home"
-msgstr "Назад на головну"
+#: ../../../lib/web/src/features/errors/forbidden.tsx:23
+#: ../../../lib/web/src/features/errors/not-found-error.tsx:23
+#: ../../../lib/web/src/features/errors/unauthorized-error.tsx:23
+msgid "Back to home"
+msgstr ""
 
 #: ../../../lib/web/src/components/post-tags.tsx:160
 msgid "Boost interest"
@@ -140,10 +140,6 @@ msgstr "Підвищити інтерес"
 #: src/features/help/contribute-dialog.tsx:74
 msgid "Brief summary of the problem"
 msgstr "Короткий опис проблеми"
-
-#: src/features/help/contribute-dialog.tsx:102
-#~ msgid "Browser / device"
-#~ msgstr ""
 
 #: ../../../lib/web/src/components/responsive-confirm-dialog.tsx:64
 #: ../../../lib/web/src/components/travelling-picker.tsx:292
@@ -216,8 +212,8 @@ msgid "Close navigation"
 msgstr "Закрити навігацію"
 
 #: ../../../lib/web/src/components/layout/right-panel.tsx:254
-msgid "Close Panel"
-msgstr "Закрити панель"
+msgid "Close panel"
+msgstr ""
 
 #: ../../../lib/web/src/components/header-search.tsx:51
 msgid "Close search"
@@ -350,10 +346,6 @@ msgstr "Підходить при дислексії"
 msgid "Expand sidebar"
 msgstr "Розгорнути бічну панель"
 
-#: src/features/help/contribute-dialog.tsx:98
-#~ msgid "Expected"
-#~ msgstr ""
-
 #: ../../../lib/web/src/lib/preference-utils.ts:124
 msgid "Extra large"
 msgstr "Дуже великий"
@@ -378,10 +370,6 @@ msgstr "Не вдалося оновити категорію"
 msgid "Floating"
 msgstr "Плаваючий"
 
-#: src/features/help/index.tsx:41
-#~ msgid "Found something broken? Tell the developers and they'll fix it."
-#~ msgstr "Знайшли щось зламане? Повідомте розробників, і вони це виправлять."
-
 #: ../../../lib/web/src/lib/preference-utils.ts:60
 msgid "Friday"
 msgstr "П'ятниця"
@@ -402,11 +390,11 @@ msgstr "З теми"
 msgid "Full layout"
 msgstr "Повний макет"
 
-#: ../../../lib/web/src/features/errors/forbidden.tsx:19
-#: ../../../lib/web/src/features/errors/not-found-error.tsx:19
-#: ../../../lib/web/src/features/errors/unauthorized-error.tsx:19
-msgid "Go Back"
-msgstr "Назад"
+#: ../../../lib/web/src/features/errors/forbidden.tsx:21
+#: ../../../lib/web/src/features/errors/not-found-error.tsx:21
+#: ../../../lib/web/src/features/errors/unauthorized-error.tsx:21
+msgid "Go back"
+msgstr ""
 
 #: ../../../lib/web/src/components/data-table/pagination.tsx:75
 msgid "Go to first page"
@@ -420,21 +408,17 @@ msgstr "Перейти на останню сторінку"
 msgid "Go to next page"
 msgstr "Перейти на наступну сторінку"
 
+#: ../../../lib/web/src/components/data-table/pagination.tsx:99
+msgid "Go to page {pageNumber}"
+msgstr ""
+
 #: ../../../lib/web/src/components/data-table/pagination.tsx:84
 msgid "Go to previous page"
 msgstr "Перейти на попередню сторінку"
 
-#: src/features/help/index.tsx:35
-#~ msgid "Got a problem? Not sure what to do? Ask the community on the Mochi Users mailing list."
-#~ msgstr "Виникла проблема? Не знаєте, що робити? Запитайте спільноту в розсилці Mochi Users."
-
 #: src/features/help/index.tsx:47
 msgid "Got an idea? Open a feature request on the Mochi development project."
 msgstr "Маєте ідею? Відкрийте запит на нову функцію у проєкті розробки Mochi."
-
-#: src/features/help/index.tsx:47
-#~ msgid "Got an idea? Tell the developers and maybe they'll add it."
-#~ msgstr "Маєте ідею? Розкажіть розробникам, і, можливо, вони її додадуть."
 
 #: ../../../lib/web/src/features/access/access-dialog.tsx:159
 msgid "Group"
@@ -452,10 +436,6 @@ msgstr "Привіт, мене звати…"
 #: ../../../lib/web/src/components/data-table/column-header.tsx:67
 msgid "Hide"
 msgstr "Приховати"
-
-#: src/features/help/contribute-dialog.tsx:229
-#~ msgid "High"
-#~ msgstr ""
 
 #: ../../../lib/web/src/components/layout/app-sidebar.tsx:82
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx:142
@@ -546,10 +526,6 @@ msgstr "Вихід виконано успішно"
 msgid "Logging out…"
 msgstr "Виконується вихід…"
 
-#: src/features/help/contribute-dialog.tsx:227
-#~ msgid "Low"
-#~ msgstr ""
-
 #: ../../../lib/web/src/components/layout/notification-menu.tsx:86
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:220
 msgid "Mark all as read"
@@ -590,10 +566,6 @@ msgstr "Немає підключених облікових записів"
 #: ../../../lib/web/src/features/access/access-dialog.tsx:238
 msgid "No groups available"
 msgstr "Немає доступних груп"
-
-#: ../../../lib/web/src/components/language-picker.tsx:186
-#~ msgid "No matches."
-#~ msgstr "Збігів немає."
 
 #: ../../../lib/web/src/components/place-picker.tsx:129
 msgid "No places found"
@@ -636,7 +608,7 @@ msgstr "Звичайний"
 msgid "Notifications"
 msgstr "Сповіщення"
 
-#: ../../../lib/web/src/features/errors/not-found-error.tsx:12
+#: ../../../lib/web/src/features/errors/not-found-error.tsx:13
 msgid "Oops! Page Not Found!"
 msgstr "Ой! Сторінку не знайдено!"
 
@@ -689,10 +661,6 @@ msgstr "Публікація…"
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:332
 msgid "Previous image"
 msgstr "Попереднє зображення"
-
-#: src/features/help/contribute-dialog.tsx:212
-#~ msgid "Priority"
-#~ msgstr ""
 
 #: ../../../lib/web/src/components/server-documents-footer.tsx:24
 #: ../../../lib/web/src/features/document/document-page.tsx:41
@@ -758,6 +726,7 @@ msgid "Report bug"
 msgstr "Повідомити про помилку"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:77
+#: ../../../lib/web/src/components/data-table/toolbar.tsx:78
 msgid "Reset"
 msgstr "Скинути"
 
@@ -780,10 +749,6 @@ msgstr "Субота"
 #: src/features/help/index.tsx:29
 msgid "Say hello on the Mochi users mailing list and tell everyone a little about yourself."
 msgstr "Привітайтеся у списку розсилки користувачів Mochi і розкажіть усім трохи про себе."
-
-#: src/features/help/index.tsx:29
-#~ msgid "Say hello on the Mochi Users mailing list."
-#~ msgstr "Привітайтеся в розсилці Mochi Users."
 
 #: ../../../lib/web/src/components/place-picker.tsx:82
 msgid "Search for a place"
@@ -808,10 +773,6 @@ msgstr "Пошук користувачів"
 #: ../../../lib/web/src/components/person-picker.tsx:323
 msgid "Search..."
 msgstr "Пошук..."
-
-#: ../../../lib/web/src/components/language-picker.tsx:184
-#~ msgid "Search…"
-#~ msgstr "Пошук…"
 
 #: ../../../lib/web/src/components/search-entity-dialog.tsx:174
 #: ../../../lib/web/src/components/search-entity-page.tsx:149
@@ -850,6 +811,10 @@ msgstr "Виберіть напрямок сайту"
 #: ../../../lib/web/src/components/config-drawer.tsx:189
 msgid "Select theme preference"
 msgstr "Виберіть тему"
+
+#: ../../../lib/web/src/features/accounts/account-verify.tsx:95
+msgid "Send again"
+msgstr ""
 
 #: ../../../lib/web/src/lib/preference-utils.ts:133
 msgid "Serif"
@@ -914,10 +879,6 @@ msgstr "Помітили щось зламане? Створіть тікет п
 msgid "Stay tuned though!"
 msgstr "Слідкуйте за оновленнями!"
 
-#: src/features/help/contribute-dialog.tsx:95
-#~ msgid "Steps to reproduce"
-#~ msgstr ""
-
 #: src/features/help/contribute-dialog.tsx:76
 msgid "Steps to reproduce, what you expected, and what actually happened. Include your browser and device if relevant."
 msgstr "Кроки для відтворення, що ви очікували та що сталося насправді. Вкажіть свій браузер і пристрій, якщо це доречно."
@@ -929,10 +890,6 @@ msgstr "Застрягли на чомусь? Запитайте спільно�
 #: ../../../lib/web/src/features/access/access-list.tsx:187
 msgid "Subject"
 msgstr "Тема"
-
-#: src/features/help/contribute-dialog.tsx:76
-#~ msgid "Suggest a feature"
-#~ msgstr "Запропонувати функцію"
 
 #: src/features/help/contribute-dialog.tsx:81
 #: src/features/help/index.tsx:46
@@ -997,10 +954,13 @@ msgid "Toggle columns"
 msgstr "Перемкнути стовпці"
 
 #: ../../../lib/web/src/components/layout/right-panel.tsx:227
-msgid "Toggle Right Panel"
-msgstr "Перемкнути праву панель"
+msgid "Toggle right panel"
+msgstr ""
 
 #: ../../../lib/web/src/components/ui/sidebar.tsx:312
+msgid "Toggle sidebar"
+msgstr ""
+
 #: ../../../lib/web/src/components/ui/sidebar.tsx:324
 #: ../../../lib/web/src/components/ui/sidebar.tsx:327
 msgid "Toggle Sidebar"
@@ -1025,7 +985,7 @@ msgstr "Спробуйте змінити пошукові терміни"
 
 #: ../../../lib/web/src/features/errors/general-error.tsx:125
 #: ../../../lib/web/src/features/errors/general-error.tsx:165
-#: ../../../lib/web/src/features/errors/maintenance-error.tsx:15
+#: ../../../lib/web/src/features/errors/maintenance-error.tsx:16
 msgid "Try again"
 msgstr "Спробувати знову"
 
@@ -1054,7 +1014,7 @@ msgstr "Не вдається перенаправити на сторінку �
 msgid "Unassigned"
 msgstr "Не призначено"
 
-#: ../../../lib/web/src/features/errors/unauthorized-error.tsx:12
+#: ../../../lib/web/src/features/errors/unauthorized-error.tsx:13
 msgid "Unauthorized Access"
 msgstr "Неавторизований доступ"
 
@@ -1083,6 +1043,7 @@ msgid "Verification failed"
 msgstr "Перевірка не вдалася"
 
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:164
+#: ../../../lib/web/src/features/accounts/account-verify.tsx:106
 msgid "Verify"
 msgstr "Перевірити"
 
@@ -1102,7 +1063,7 @@ msgstr "Переглянути всі"
 msgid "View all notifications"
 msgstr "Переглянути всі сповіщення"
 
-#: ../../../lib/web/src/features/errors/maintenance-error.tsx:12
+#: ../../../lib/web/src/features/errors/maintenance-error.tsx:13
 msgid "We'll be back online shortly."
 msgstr "Ми скоро повернемося онлайн."
 
@@ -1110,7 +1071,7 @@ msgstr "Ми скоро повернемося онлайн."
 msgid "We'll try again when you submit."
 msgstr "Ми повторимо спробу під час надсилання."
 
-#: ../../../lib/web/src/features/errors/maintenance-error.tsx:9
+#: ../../../lib/web/src/features/errors/maintenance-error.tsx:10
 msgid "Website is under maintenance!"
 msgstr "Вебсайт на технічному обслуговуванні!"
 
@@ -1121,10 +1082,6 @@ msgstr "Середа"
 #: src/features/help/index.tsx:76
 msgid "Welcome to Mochi. Here's how to get started."
 msgstr "Ласкаво просимо до Mochi. Ось як почати."
-
-#: src/features/help/contribute-dialog.tsx:76
-#~ msgid "What did you do, what did you expect, what happened instead?"
-#~ msgstr "Що ви зробили, що очікували та що сталося натомість?"
 
 #: src/features/help/contribute-dialog.tsx:75
 msgid "What happened"
