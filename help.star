@@ -103,7 +103,14 @@ def action_contribute(a):
 
 	if kind in ("intro", "question"):
 		event = "app/post"
+		# Mint the post id here so the forum-side handler dedups
+		# correctly under any future multi-host fan-out (today the
+		# call uses mochi.remote.request which is single-fire, so
+		# the id is a single source). Convention from the cross-app
+		# event-atomicity audit (task #43): callers carry event
+		# identity, receivers never mint.
 		payload = {
+			"id": mochi.uid(),
 			"forum": target["entity_id"],
 			"title": title,
 			"body": body,
