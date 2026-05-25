@@ -53,7 +53,7 @@ msgstr "账户已验证"
 msgid "Add"
 msgstr "添加"
 
-#: src/features/help/contribute-dialog.tsx:206
+#: src/features/help/contribute-dialog.tsx:242
 msgid "Add a bit more detail."
 msgstr "再添加一些细节。"
 
@@ -114,12 +114,12 @@ msgstr "确定要退出登录吗?你需要重新登录才能访问账户。"
 msgid "Asc"
 msgstr "升序"
 
-#: src/features/help/contribute-dialog.tsx:61
+#: src/features/help/contribute-dialog.tsx:71
 #: src/features/help/index.tsx:34
 msgid "Ask a question"
 msgstr "提问"
 
-#: src/features/help/contribute-dialog.tsx:62
+#: src/features/help/contribute-dialog.tsx:72
 msgid "Ask the community on the Mochi users mailing list. Be specific about what you've tried so far."
 msgstr "在 Mochi 用户邮件列表上向社区提问。请具体说明你已经尝试过的方法。"
 
@@ -137,9 +137,13 @@ msgstr "返回首页"
 msgid "Boost interest"
 msgstr "提升兴趣"
 
-#: src/features/help/contribute-dialog.tsx:74
+#: src/features/help/contribute-dialog.tsx:85
 msgid "Brief summary of the problem"
 msgstr "问题的简短描述"
+
+#: src/features/help/contribute-dialog.tsx:89
+msgid "Bug report submitted."
+msgstr ""
 
 #: ../../../lib/web/src/components/responsive-confirm-dialog.tsx:64
 #: ../../../lib/web/src/components/travelling-picker.tsx:292
@@ -148,15 +152,15 @@ msgstr "问题的简短描述"
 #: ../../../lib/web/src/features/access/access-list.tsx:255
 #: ../../../lib/web/src/features/accounts/account-add.tsx:185
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:86
-#: src/features/help/contribute-dialog.tsx:219
+#: src/features/help/contribute-dialog.tsx:269
 msgid "Cancel"
 msgstr "取消"
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:131
+#: ../../../lib/web/src/components/notification-category-button.tsx:135
 msgid "Category for this notification"
 msgstr "该通知的分类"
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:115
+#: ../../../lib/web/src/components/notification-category-button.tsx:119
 msgid "Change notification category"
 msgstr "更改通知分类"
 
@@ -204,6 +208,7 @@ msgstr "清除选择(Esc)"
 #: ../../../lib/web/src/components/ui/dialog.tsx:75
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:318
 #: ../../../lib/web/src/components/ui/sheet.tsx:76
+#: src/features/help/contribute-dialog.tsx:257
 msgid "Close"
 msgstr "关闭"
 
@@ -265,7 +270,7 @@ msgstr "无法加载此文档。请稍后重试。"
 msgid "Couldn't reach the destination yet"
 msgstr "尚未送达目标"
 
-#: src/features/help/contribute-dialog.tsx:135
+#: src/features/help/contribute-dialog.tsx:159
 msgid "Couldn't submit"
 msgstr "无法提交"
 
@@ -294,12 +299,12 @@ msgstr "默认 AI 账户"
 msgid "Desc"
 msgstr "降序"
 
-#: src/features/help/contribute-dialog.tsx:72
+#: src/features/help/contribute-dialog.tsx:83
 msgid "Describe what went wrong. The Mochi development team will see it on the Mochi development project."
 msgstr "请描述出了什么问题。Mochi 开发团队会在 Mochi 开发项目中看到。"
 
-#: src/features/help/contribute-dialog.tsx:65
-#: src/features/help/contribute-dialog.tsx:85
+#: src/features/help/contribute-dialog.tsx:75
+#: src/features/help/contribute-dialog.tsx:97
 msgid "Details"
 msgstr "详情"
 
@@ -322,11 +327,11 @@ msgstr "从浏览器检测"
 msgid "Direction"
 msgstr "方向"
 
-#: src/features/help/contribute-dialog.tsx:244
+#: src/features/help/contribute-dialog.tsx:296
 msgid "Discard"
 msgstr "放弃"
 
-#: src/features/help/contribute-dialog.tsx:241
+#: src/features/help/contribute-dialog.tsx:293
 msgid "Discard draft?"
 msgstr "放弃草稿?"
 
@@ -362,9 +367,13 @@ msgstr "移除账户失败"
 msgid "Failed to send verification code"
 msgstr "发送验证码失败"
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:104
+#: ../../../lib/web/src/components/notification-category-button.tsx:108
 msgid "Failed to update category"
 msgstr "更新分类失败"
+
+#: src/features/help/contribute-dialog.tsx:100
+msgid "Feature request submitted."
+msgstr ""
 
 #: ../../../lib/web/src/components/config-drawer.tsx:244
 msgid "Floating"
@@ -400,6 +409,10 @@ msgstr "返回"
 msgid "Go to first page"
 msgstr "跳转到第一页"
 
+#: src/features/help/contribute-dialog.tsx:261
+msgid "Go to forum"
+msgstr ""
+
 #: ../../../lib/web/src/components/data-table/pagination.tsx:121
 msgid "Go to last page"
 msgstr "跳转到最后一页"
@@ -429,7 +442,7 @@ msgstr "群组"
 msgid "Help"
 msgstr "帮助"
 
-#: src/features/help/contribute-dialog.tsx:56
+#: src/features/help/contribute-dialog.tsx:65
 msgid "Hi, I'm…"
 msgstr "你好,我是……"
 
@@ -460,7 +473,7 @@ msgstr "嵌入"
 msgid "Interests"
 msgstr "兴趣"
 
-#: src/features/help/contribute-dialog.tsx:55
+#: src/features/help/contribute-dialog.tsx:64
 #: src/features/help/index.tsx:28
 msgid "Introduce yourself"
 msgstr "自我介绍"
@@ -469,7 +482,7 @@ msgstr "自我介绍"
 msgid "Invalid verification code"
 msgstr "验证码无效"
 
-#: src/features/help/contribute-dialog.tsx:243
+#: src/features/help/contribute-dialog.tsx:295
 msgid "Keep editing"
 msgstr "继续编辑"
 
@@ -584,7 +597,7 @@ msgstr "未找到结果。"
 msgid "No time zone found."
 msgstr "未找到时区。"
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:135
+#: ../../../lib/web/src/components/notification-category-button.tsx:139
 msgid "No topic record yet — try again after the next notification."
 msgstr "暂无主题记录,请在下次通知后重试。"
 
@@ -638,23 +651,23 @@ msgstr "其他"
 msgid "Owner"
 msgstr "所有者"
 
-#: src/features/help/contribute-dialog.tsx:136
+#: src/features/help/contribute-dialog.tsx:160
 msgid "Please try again."
 msgstr "请重试。"
 
-#: src/features/help/contribute-dialog.tsx:57
+#: src/features/help/contribute-dialog.tsx:66
 msgid "Post introduction"
 msgstr "发布自我介绍"
 
-#: src/features/help/contribute-dialog.tsx:67
+#: src/features/help/contribute-dialog.tsx:77
 msgid "Post question"
 msgstr "发布问题"
 
-#: src/features/help/contribute-dialog.tsx:130
+#: src/features/help/contribute-dialog.tsx:153
 msgid "Posted"
 msgstr "已发布"
 
-#: src/features/help/contribute-dialog.tsx:225
+#: src/features/help/contribute-dialog.tsx:275
 msgid "Posting…"
 msgstr "正在发布…"
 
@@ -673,7 +686,7 @@ msgstr "隐私"
 msgid "Profile"
 msgstr "个人资料"
 
-#: src/features/help/contribute-dialog.tsx:63
+#: src/features/help/contribute-dialog.tsx:73
 msgid "Question"
 msgstr "问题"
 
@@ -716,12 +729,12 @@ msgstr "移除访问权限?"
 msgid "Remove interest"
 msgstr "移除兴趣"
 
-#: src/features/help/contribute-dialog.tsx:71
+#: src/features/help/contribute-dialog.tsx:82
 #: src/features/help/index.tsx:40
 msgid "Report a bug"
 msgstr "报告 bug"
 
-#: src/features/help/contribute-dialog.tsx:77
+#: src/features/help/contribute-dialog.tsx:88
 msgid "Report bug"
 msgstr "报告 bug"
 
@@ -840,7 +853,7 @@ msgstr "设置起点和终点"
 msgid "Settings"
 msgstr "设置"
 
-#: src/features/help/contribute-dialog.tsx:84
+#: src/features/help/contribute-dialog.tsx:96
 msgid "Short title for your idea"
 msgstr "想法的简短标题"
 
@@ -879,7 +892,7 @@ msgstr "发现问题了?在 Mochi 开发项目中提交一个缺陷工单。"
 msgid "Stay tuned though!"
 msgstr "敬请期待!"
 
-#: src/features/help/contribute-dialog.tsx:76
+#: src/features/help/contribute-dialog.tsx:87
 msgid "Steps to reproduce, what you expected, and what actually happened. Include your browser and device if relevant."
 msgstr "复现步骤、你的预期结果以及实际发生的情况。如有相关,请包含你的浏览器和设备信息。"
 
@@ -891,17 +904,21 @@ msgstr "遇到问题了?在 Mochi 用户邮件列表上向社区提问。"
 msgid "Subject"
 msgstr "主题"
 
-#: src/features/help/contribute-dialog.tsx:81
+#: src/features/help/contribute-dialog.tsx:210
+msgid "Submitted successfully"
+msgstr ""
+
+#: src/features/help/contribute-dialog.tsx:93
 #: src/features/help/index.tsx:46
 msgid "Suggest a new feature"
 msgstr "建议新功能"
 
-#: src/features/help/contribute-dialog.tsx:87
+#: src/features/help/contribute-dialog.tsx:99
 msgid "Suggest feature"
 msgstr "建议功能"
 
-#: src/features/help/contribute-dialog.tsx:73
-#: src/features/help/contribute-dialog.tsx:83
+#: src/features/help/contribute-dialog.tsx:84
+#: src/features/help/contribute-dialog.tsx:95
 msgid "Summary"
 msgstr "摘要"
 
@@ -919,7 +936,7 @@ msgstr "系统"
 msgid "Tag"
 msgstr "标签"
 
-#: src/features/help/contribute-dialog.tsx:131
+#: src/features/help/contribute-dialog.tsx:154
 msgid "Taking you there now."
 msgstr "正在带你前往。"
 
@@ -927,7 +944,7 @@ msgstr "正在带你前往。"
 msgid "Teams/Apps"
 msgstr "团队/应用"
 
-#: src/features/help/contribute-dialog.tsx:82
+#: src/features/help/contribute-dialog.tsx:94
 msgid "Tell the Mochi development team what you'd like Mochi to do."
 msgstr "告诉 Mochi 开发团队你希望 Mochi 实现什么。"
 
@@ -1010,7 +1027,7 @@ msgstr "输入以搜索..."
 msgid "Unable to redirect to login. Please try again."
 msgstr "无法重定向到登录页面。请重试。"
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:143
+#: ../../../lib/web/src/components/notification-category-button.tsx:147
 msgid "Unassigned"
 msgstr "未分配"
 
@@ -1083,22 +1100,30 @@ msgstr "星期三"
 msgid "Welcome to Mochi. Here's how to get started."
 msgstr "欢迎使用 Mochi。这是入门指南。"
 
-#: src/features/help/contribute-dialog.tsx:75
+#: src/features/help/contribute-dialog.tsx:86
 msgid "What happened"
 msgstr "发生了什么"
 
-#: src/features/help/contribute-dialog.tsx:66
+#: src/features/help/contribute-dialog.tsx:76
 msgid "What have you tried, what did you expect, where are you stuck?"
 msgstr "你试过什么,期望什么,卡在哪里?"
 
-#: src/features/help/contribute-dialog.tsx:86
+#: src/features/help/contribute-dialog.tsx:98
 msgid "What would it do, who is it for, why does it matter?"
 msgstr "它有什么功能?面向谁?为什么重要?"
 
-#: src/features/help/contribute-dialog.tsx:64
+#: src/features/help/contribute-dialog.tsx:74
 msgid "What you want to ask, in one line"
 msgstr "你想问什么,一句话"
 
-#: src/features/help/contribute-dialog.tsx:242
+#: src/features/help/contribute-dialog.tsx:67
+msgid "Your introduction has been submitted and will appear after moderation."
+msgstr ""
+
+#: src/features/help/contribute-dialog.tsx:78
+msgid "Your question has been submitted and will appear after moderation."
+msgstr ""
+
+#: src/features/help/contribute-dialog.tsx:294
 msgid "Your text will be lost."
 msgstr "你的内容将会丢失。"

@@ -53,7 +53,7 @@ msgstr "アカウントを確認しました"
 msgid "Add"
 msgstr "追加"
 
-#: src/features/help/contribute-dialog.tsx:206
+#: src/features/help/contribute-dialog.tsx:242
 msgid "Add a bit more detail."
 msgstr "もう少し詳しく書いてください。"
 
@@ -114,12 +114,12 @@ msgstr "本当にログアウトしますか？再度アクセスするにはロ
 msgid "Asc"
 msgstr "昇順"
 
-#: src/features/help/contribute-dialog.tsx:61
+#: src/features/help/contribute-dialog.tsx:71
 #: src/features/help/index.tsx:34
 msgid "Ask a question"
 msgstr "質問する"
 
-#: src/features/help/contribute-dialog.tsx:62
+#: src/features/help/contribute-dialog.tsx:72
 msgid "Ask the community on the Mochi users mailing list. Be specific about what you've tried so far."
 msgstr "Mochi ユーザーメーリングリストでコミュニティに質問してみましょう。これまでに試したことを具体的に書いてください。"
 
@@ -137,9 +137,13 @@ msgstr "ホームに戻る"
 msgid "Boost interest"
 msgstr "関心を高める"
 
-#: src/features/help/contribute-dialog.tsx:74
+#: src/features/help/contribute-dialog.tsx:85
 msgid "Brief summary of the problem"
 msgstr "問題の簡単な概要"
+
+#: src/features/help/contribute-dialog.tsx:89
+msgid "Bug report submitted."
+msgstr ""
 
 #: ../../../lib/web/src/components/responsive-confirm-dialog.tsx:64
 #: ../../../lib/web/src/components/travelling-picker.tsx:292
@@ -148,15 +152,15 @@ msgstr "問題の簡単な概要"
 #: ../../../lib/web/src/features/access/access-list.tsx:255
 #: ../../../lib/web/src/features/accounts/account-add.tsx:185
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:86
-#: src/features/help/contribute-dialog.tsx:219
+#: src/features/help/contribute-dialog.tsx:269
 msgid "Cancel"
 msgstr "キャンセル"
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:131
+#: ../../../lib/web/src/components/notification-category-button.tsx:135
 msgid "Category for this notification"
 msgstr "この通知のカテゴリ"
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:115
+#: ../../../lib/web/src/components/notification-category-button.tsx:119
 msgid "Change notification category"
 msgstr "通知カテゴリを変更"
 
@@ -204,6 +208,7 @@ msgstr "選択をクリア（Esc）"
 #: ../../../lib/web/src/components/ui/dialog.tsx:75
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:318
 #: ../../../lib/web/src/components/ui/sheet.tsx:76
+#: src/features/help/contribute-dialog.tsx:257
 msgid "Close"
 msgstr "閉じる"
 
@@ -265,7 +270,7 @@ msgstr "このドキュメントを読み込めませんでした。後ほども
 msgid "Couldn't reach the destination yet"
 msgstr "まだ送信先に到達できていません"
 
-#: src/features/help/contribute-dialog.tsx:135
+#: src/features/help/contribute-dialog.tsx:159
 msgid "Couldn't submit"
 msgstr "送信できませんでした"
 
@@ -294,12 +299,12 @@ msgstr "デフォルト AI アカウント"
 msgid "Desc"
 msgstr "降順"
 
-#: src/features/help/contribute-dialog.tsx:72
+#: src/features/help/contribute-dialog.tsx:83
 msgid "Describe what went wrong. The Mochi development team will see it on the Mochi development project."
 msgstr "何が起きたかを記載してください。Mochi 開発チームが Mochi 開発プロジェクトで確認します。"
 
-#: src/features/help/contribute-dialog.tsx:65
-#: src/features/help/contribute-dialog.tsx:85
+#: src/features/help/contribute-dialog.tsx:75
+#: src/features/help/contribute-dialog.tsx:97
 msgid "Details"
 msgstr "詳細"
 
@@ -322,11 +327,11 @@ msgstr "ウェブブラウザから検出"
 msgid "Direction"
 msgstr "方向"
 
-#: src/features/help/contribute-dialog.tsx:244
+#: src/features/help/contribute-dialog.tsx:296
 msgid "Discard"
 msgstr "破棄"
 
-#: src/features/help/contribute-dialog.tsx:241
+#: src/features/help/contribute-dialog.tsx:293
 msgid "Discard draft?"
 msgstr "下書きを破棄しますか？"
 
@@ -362,9 +367,13 @@ msgstr "アカウントの削除に失敗しました"
 msgid "Failed to send verification code"
 msgstr "確認コードの送信に失敗しました"
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:104
+#: ../../../lib/web/src/components/notification-category-button.tsx:108
 msgid "Failed to update category"
 msgstr "カテゴリの更新に失敗しました"
+
+#: src/features/help/contribute-dialog.tsx:100
+msgid "Feature request submitted."
+msgstr ""
 
 #: ../../../lib/web/src/components/config-drawer.tsx:244
 msgid "Floating"
@@ -400,6 +409,10 @@ msgstr "戻る"
 msgid "Go to first page"
 msgstr "最初のページへ"
 
+#: src/features/help/contribute-dialog.tsx:261
+msgid "Go to forum"
+msgstr ""
+
 #: ../../../lib/web/src/components/data-table/pagination.tsx:121
 msgid "Go to last page"
 msgstr "最後のページへ"
@@ -429,7 +442,7 @@ msgstr "グループ"
 msgid "Help"
 msgstr "ヘルプ"
 
-#: src/features/help/contribute-dialog.tsx:56
+#: src/features/help/contribute-dialog.tsx:65
 msgid "Hi, I'm…"
 msgstr "こんにちは、私は…"
 
@@ -460,7 +473,7 @@ msgstr "インセット"
 msgid "Interests"
 msgstr "興味"
 
-#: src/features/help/contribute-dialog.tsx:55
+#: src/features/help/contribute-dialog.tsx:64
 #: src/features/help/index.tsx:28
 msgid "Introduce yourself"
 msgstr "自己紹介"
@@ -469,7 +482,7 @@ msgstr "自己紹介"
 msgid "Invalid verification code"
 msgstr "確認コードが無効です"
 
-#: src/features/help/contribute-dialog.tsx:243
+#: src/features/help/contribute-dialog.tsx:295
 msgid "Keep editing"
 msgstr "編集を続ける"
 
@@ -584,7 +597,7 @@ msgstr "結果が見つかりません。"
 msgid "No time zone found."
 msgstr "タイムゾーンが見つかりません。"
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:135
+#: ../../../lib/web/src/components/notification-category-button.tsx:139
 msgid "No topic record yet — try again after the next notification."
 msgstr "まだトピック記録がありません — 次の通知後にもう一度お試しください。"
 
@@ -638,23 +651,23 @@ msgstr "その他"
 msgid "Owner"
 msgstr "オーナー"
 
-#: src/features/help/contribute-dialog.tsx:136
+#: src/features/help/contribute-dialog.tsx:160
 msgid "Please try again."
 msgstr "もう一度お試しください。"
 
-#: src/features/help/contribute-dialog.tsx:57
+#: src/features/help/contribute-dialog.tsx:66
 msgid "Post introduction"
 msgstr "自己紹介を投稿"
 
-#: src/features/help/contribute-dialog.tsx:67
+#: src/features/help/contribute-dialog.tsx:77
 msgid "Post question"
 msgstr "質問を投稿"
 
-#: src/features/help/contribute-dialog.tsx:130
+#: src/features/help/contribute-dialog.tsx:153
 msgid "Posted"
 msgstr "投稿しました"
 
-#: src/features/help/contribute-dialog.tsx:225
+#: src/features/help/contribute-dialog.tsx:275
 msgid "Posting…"
 msgstr "投稿中…"
 
@@ -673,7 +686,7 @@ msgstr "プライバシー"
 msgid "Profile"
 msgstr "プロフィール"
 
-#: src/features/help/contribute-dialog.tsx:63
+#: src/features/help/contribute-dialog.tsx:73
 msgid "Question"
 msgstr "質問"
 
@@ -716,12 +729,12 @@ msgstr "アクセスを削除しますか?"
 msgid "Remove interest"
 msgstr "関心を削除"
 
-#: src/features/help/contribute-dialog.tsx:71
+#: src/features/help/contribute-dialog.tsx:82
 #: src/features/help/index.tsx:40
 msgid "Report a bug"
 msgstr "バグを報告する"
 
-#: src/features/help/contribute-dialog.tsx:77
+#: src/features/help/contribute-dialog.tsx:88
 msgid "Report bug"
 msgstr "バグを報告"
 
@@ -840,7 +853,7 @@ msgstr "出発地と目的地を設定"
 msgid "Settings"
 msgstr "設定"
 
-#: src/features/help/contribute-dialog.tsx:84
+#: src/features/help/contribute-dialog.tsx:96
 msgid "Short title for your idea"
 msgstr "アイデアの短いタイトル"
 
@@ -879,7 +892,7 @@ msgstr "おかしなところを見つけましたか？Mochi 開発プロジェ
 msgid "Stay tuned though!"
 msgstr "今後の更新にご期待ください!"
 
-#: src/features/help/contribute-dialog.tsx:76
+#: src/features/help/contribute-dialog.tsx:87
 msgid "Steps to reproduce, what you expected, and what actually happened. Include your browser and device if relevant."
 msgstr "再現手順、期待した動作、実際に起きたことを書いてください。関係があればブラウザとデバイスも教えてください。"
 
@@ -891,17 +904,21 @@ msgstr "困っていますか？Mochi ユーザーメーリングリストでコ
 msgid "Subject"
 msgstr "件名"
 
-#: src/features/help/contribute-dialog.tsx:81
+#: src/features/help/contribute-dialog.tsx:210
+msgid "Submitted successfully"
+msgstr ""
+
+#: src/features/help/contribute-dialog.tsx:93
 #: src/features/help/index.tsx:46
 msgid "Suggest a new feature"
 msgstr "新しい機能を提案"
 
-#: src/features/help/contribute-dialog.tsx:87
+#: src/features/help/contribute-dialog.tsx:99
 msgid "Suggest feature"
 msgstr "機能を提案"
 
-#: src/features/help/contribute-dialog.tsx:73
-#: src/features/help/contribute-dialog.tsx:83
+#: src/features/help/contribute-dialog.tsx:84
+#: src/features/help/contribute-dialog.tsx:95
 msgid "Summary"
 msgstr "要約"
 
@@ -919,7 +936,7 @@ msgstr "システム"
 msgid "Tag"
 msgstr "タグ"
 
-#: src/features/help/contribute-dialog.tsx:131
+#: src/features/help/contribute-dialog.tsx:154
 msgid "Taking you there now."
 msgstr "今すぐ移動します。"
 
@@ -927,7 +944,7 @@ msgstr "今すぐ移動します。"
 msgid "Teams/Apps"
 msgstr "チーム/アプリ"
 
-#: src/features/help/contribute-dialog.tsx:82
+#: src/features/help/contribute-dialog.tsx:94
 msgid "Tell the Mochi development team what you'd like Mochi to do."
 msgstr "Mochi にしてほしいことを Mochi 開発チームに伝えてください。"
 
@@ -1010,7 +1027,7 @@ msgstr "入力して検索…"
 msgid "Unable to redirect to login. Please try again."
 msgstr "ログインページにリダイレクトできません。再試行してください。"
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:143
+#: ../../../lib/web/src/components/notification-category-button.tsx:147
 msgid "Unassigned"
 msgstr "未割り当て"
 
@@ -1083,22 +1100,30 @@ msgstr "水曜日"
 msgid "Welcome to Mochi. Here's how to get started."
 msgstr "Mochi へようこそ。さっそく始めましょう。"
 
-#: src/features/help/contribute-dialog.tsx:75
+#: src/features/help/contribute-dialog.tsx:86
 msgid "What happened"
 msgstr "何が起きたか"
 
-#: src/features/help/contribute-dialog.tsx:66
+#: src/features/help/contribute-dialog.tsx:76
 msgid "What have you tried, what did you expect, where are you stuck?"
 msgstr "何を試して、何を期待していて、どこで詰まっていますか?"
 
-#: src/features/help/contribute-dialog.tsx:86
+#: src/features/help/contribute-dialog.tsx:98
 msgid "What would it do, who is it for, why does it matter?"
 msgstr "何をするものですか?誰のためのものですか?なぜ重要ですか?"
 
-#: src/features/help/contribute-dialog.tsx:64
+#: src/features/help/contribute-dialog.tsx:74
 msgid "What you want to ask, in one line"
 msgstr "聞きたいことを一行で"
 
-#: src/features/help/contribute-dialog.tsx:242
+#: src/features/help/contribute-dialog.tsx:67
+msgid "Your introduction has been submitted and will appear after moderation."
+msgstr ""
+
+#: src/features/help/contribute-dialog.tsx:78
+msgid "Your question has been submitted and will appear after moderation."
+msgstr ""
+
+#: src/features/help/contribute-dialog.tsx:294
 msgid "Your text will be lost."
 msgstr "入力したテキストは失われます。"

@@ -53,7 +53,7 @@ msgstr "Đã xác minh tài khoản"
 msgid "Add"
 msgstr "Thêm"
 
-#: src/features/help/contribute-dialog.tsx:206
+#: src/features/help/contribute-dialog.tsx:242
 msgid "Add a bit more detail."
 msgstr "Thêm một chút chi tiết."
 
@@ -114,12 +114,12 @@ msgstr "Bạn có chắc muốn đăng xuất? Bạn sẽ cần đăng nhập l�
 msgid "Asc"
 msgstr "Tăng dần"
 
-#: src/features/help/contribute-dialog.tsx:61
+#: src/features/help/contribute-dialog.tsx:71
 #: src/features/help/index.tsx:34
 msgid "Ask a question"
 msgstr "Đặt câu hỏi"
 
-#: src/features/help/contribute-dialog.tsx:62
+#: src/features/help/contribute-dialog.tsx:72
 msgid "Ask the community on the Mochi users mailing list. Be specific about what you've tried so far."
 msgstr "Hỏi cộng đồng trên danh sách thư người dùng Mochi. Hãy nêu cụ thể những gì bạn đã thử."
 
@@ -137,9 +137,13 @@ msgstr "Về trang chủ"
 msgid "Boost interest"
 msgstr "Đẩy mạnh sở thích"
 
-#: src/features/help/contribute-dialog.tsx:74
+#: src/features/help/contribute-dialog.tsx:85
 msgid "Brief summary of the problem"
 msgstr "Tóm tắt ngắn gọn về vấn đề"
+
+#: src/features/help/contribute-dialog.tsx:89
+msgid "Bug report submitted."
+msgstr ""
 
 #: ../../../lib/web/src/components/responsive-confirm-dialog.tsx:64
 #: ../../../lib/web/src/components/travelling-picker.tsx:292
@@ -148,15 +152,15 @@ msgstr "Tóm tắt ngắn gọn về vấn đề"
 #: ../../../lib/web/src/features/access/access-list.tsx:255
 #: ../../../lib/web/src/features/accounts/account-add.tsx:185
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:86
-#: src/features/help/contribute-dialog.tsx:219
+#: src/features/help/contribute-dialog.tsx:269
 msgid "Cancel"
 msgstr "Hủy"
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:131
+#: ../../../lib/web/src/components/notification-category-button.tsx:135
 msgid "Category for this notification"
 msgstr "Danh mục cho thông báo này"
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:115
+#: ../../../lib/web/src/components/notification-category-button.tsx:119
 msgid "Change notification category"
 msgstr "Đổi danh mục thông báo"
 
@@ -204,6 +208,7 @@ msgstr "Bỏ chọn (Escape)"
 #: ../../../lib/web/src/components/ui/dialog.tsx:75
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:318
 #: ../../../lib/web/src/components/ui/sheet.tsx:76
+#: src/features/help/contribute-dialog.tsx:257
 msgid "Close"
 msgstr "Đóng"
 
@@ -265,7 +270,7 @@ msgstr "Không thể tải tài liệu này. Vui lòng thử lại sau."
 msgid "Couldn't reach the destination yet"
 msgstr "Chưa thể kết nối đến đích"
 
-#: src/features/help/contribute-dialog.tsx:135
+#: src/features/help/contribute-dialog.tsx:159
 msgid "Couldn't submit"
 msgstr "Không thể gửi"
 
@@ -294,12 +299,12 @@ msgstr "Tài khoản AI mặc định"
 msgid "Desc"
 msgstr "Giảm dần"
 
-#: src/features/help/contribute-dialog.tsx:72
+#: src/features/help/contribute-dialog.tsx:83
 msgid "Describe what went wrong. The Mochi development team will see it on the Mochi development project."
 msgstr "Mô tả điều đã xảy ra. Đội phát triển Mochi sẽ xem trên dự án phát triển Mochi."
 
-#: src/features/help/contribute-dialog.tsx:65
-#: src/features/help/contribute-dialog.tsx:85
+#: src/features/help/contribute-dialog.tsx:75
+#: src/features/help/contribute-dialog.tsx:97
 msgid "Details"
 msgstr "Chi tiết"
 
@@ -322,11 +327,11 @@ msgstr "Phát hiện từ trình duyệt web"
 msgid "Direction"
 msgstr "Hướng"
 
-#: src/features/help/contribute-dialog.tsx:244
+#: src/features/help/contribute-dialog.tsx:296
 msgid "Discard"
 msgstr "Hủy bỏ"
 
-#: src/features/help/contribute-dialog.tsx:241
+#: src/features/help/contribute-dialog.tsx:293
 msgid "Discard draft?"
 msgstr "Hủy bản nháp?"
 
@@ -362,9 +367,13 @@ msgstr "Không xoá tài khoản được"
 msgid "Failed to send verification code"
 msgstr "Không gửi mã xác minh được"
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:104
+#: ../../../lib/web/src/components/notification-category-button.tsx:108
 msgid "Failed to update category"
 msgstr "Không cập nhật danh mục được"
+
+#: src/features/help/contribute-dialog.tsx:100
+msgid "Feature request submitted."
+msgstr ""
 
 #: ../../../lib/web/src/components/config-drawer.tsx:244
 msgid "Floating"
@@ -400,6 +409,10 @@ msgstr "Quay lại"
 msgid "Go to first page"
 msgstr "Đến trang đầu"
 
+#: src/features/help/contribute-dialog.tsx:261
+msgid "Go to forum"
+msgstr ""
+
 #: ../../../lib/web/src/components/data-table/pagination.tsx:121
 msgid "Go to last page"
 msgstr "Đến trang cuối"
@@ -429,7 +442,7 @@ msgstr "Nhóm"
 msgid "Help"
 msgstr "Trợ giúp"
 
-#: src/features/help/contribute-dialog.tsx:56
+#: src/features/help/contribute-dialog.tsx:65
 msgid "Hi, I'm…"
 msgstr "Xin chào, tôi là…"
 
@@ -460,7 +473,7 @@ msgstr "Lõm vào"
 msgid "Interests"
 msgstr "Sở thích"
 
-#: src/features/help/contribute-dialog.tsx:55
+#: src/features/help/contribute-dialog.tsx:64
 #: src/features/help/index.tsx:28
 msgid "Introduce yourself"
 msgstr "Giới thiệu bản thân"
@@ -469,7 +482,7 @@ msgstr "Giới thiệu bản thân"
 msgid "Invalid verification code"
 msgstr "Mã xác minh không hợp lệ"
 
-#: src/features/help/contribute-dialog.tsx:243
+#: src/features/help/contribute-dialog.tsx:295
 msgid "Keep editing"
 msgstr "Tiếp tục chỉnh sửa"
 
@@ -584,7 +597,7 @@ msgstr "Không tìm thấy kết quả nào."
 msgid "No time zone found."
 msgstr "Không tìm thấy múi giờ."
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:135
+#: ../../../lib/web/src/components/notification-category-button.tsx:139
 msgid "No topic record yet — try again after the next notification."
 msgstr "Chưa có bản ghi chủ đề — hãy thử lại sau thông báo tiếp theo."
 
@@ -638,23 +651,23 @@ msgstr "Khác"
 msgid "Owner"
 msgstr "Chủ sở hữu"
 
-#: src/features/help/contribute-dialog.tsx:136
+#: src/features/help/contribute-dialog.tsx:160
 msgid "Please try again."
 msgstr "Vui lòng thử lại."
 
-#: src/features/help/contribute-dialog.tsx:57
+#: src/features/help/contribute-dialog.tsx:66
 msgid "Post introduction"
 msgstr "Đăng giới thiệu"
 
-#: src/features/help/contribute-dialog.tsx:67
+#: src/features/help/contribute-dialog.tsx:77
 msgid "Post question"
 msgstr "Đăng câu hỏi"
 
-#: src/features/help/contribute-dialog.tsx:130
+#: src/features/help/contribute-dialog.tsx:153
 msgid "Posted"
 msgstr "Đã đăng"
 
-#: src/features/help/contribute-dialog.tsx:225
+#: src/features/help/contribute-dialog.tsx:275
 msgid "Posting…"
 msgstr "Đang đăng…"
 
@@ -673,7 +686,7 @@ msgstr "Quyền riêng tư"
 msgid "Profile"
 msgstr "Hồ sơ"
 
-#: src/features/help/contribute-dialog.tsx:63
+#: src/features/help/contribute-dialog.tsx:73
 msgid "Question"
 msgstr "Câu hỏi"
 
@@ -716,12 +729,12 @@ msgstr "Xoá quyền truy cập?"
 msgid "Remove interest"
 msgstr "Xoá sở thích"
 
-#: src/features/help/contribute-dialog.tsx:71
+#: src/features/help/contribute-dialog.tsx:82
 #: src/features/help/index.tsx:40
 msgid "Report a bug"
 msgstr "Báo lỗi"
 
-#: src/features/help/contribute-dialog.tsx:77
+#: src/features/help/contribute-dialog.tsx:88
 msgid "Report bug"
 msgstr "Báo lỗi"
 
@@ -840,7 +853,7 @@ msgstr "Đặt điểm xuất phát và điểm đến"
 msgid "Settings"
 msgstr "Cài đặt"
 
-#: src/features/help/contribute-dialog.tsx:84
+#: src/features/help/contribute-dialog.tsx:96
 msgid "Short title for your idea"
 msgstr "Tiêu đề ngắn cho ý tưởng của bạn"
 
@@ -879,7 +892,7 @@ msgstr "Phát hiện thứ gì đó bị hỏng? Gửi báo cáo lỗi trên d�
 msgid "Stay tuned though!"
 msgstr "Hãy đón xem nhé!"
 
-#: src/features/help/contribute-dialog.tsx:76
+#: src/features/help/contribute-dialog.tsx:87
 msgid "Steps to reproduce, what you expected, and what actually happened. Include your browser and device if relevant."
 msgstr "Các bước tái hiện, điều bạn mong đợi, và điều thực sự đã xảy ra. Bao gồm trình duyệt và thiết bị của bạn nếu liên quan."
 
@@ -891,17 +904,21 @@ msgstr "Gặp khó khăn? Hỏi cộng đồng trên danh sách thư người d�
 msgid "Subject"
 msgstr "Tiêu đề"
 
-#: src/features/help/contribute-dialog.tsx:81
+#: src/features/help/contribute-dialog.tsx:210
+msgid "Submitted successfully"
+msgstr ""
+
+#: src/features/help/contribute-dialog.tsx:93
 #: src/features/help/index.tsx:46
 msgid "Suggest a new feature"
 msgstr "Đề xuất tính năng mới"
 
-#: src/features/help/contribute-dialog.tsx:87
+#: src/features/help/contribute-dialog.tsx:99
 msgid "Suggest feature"
 msgstr "Đề xuất tính năng"
 
-#: src/features/help/contribute-dialog.tsx:73
-#: src/features/help/contribute-dialog.tsx:83
+#: src/features/help/contribute-dialog.tsx:84
+#: src/features/help/contribute-dialog.tsx:95
 msgid "Summary"
 msgstr "Tóm tắt"
 
@@ -919,7 +936,7 @@ msgstr "Hệ thống"
 msgid "Tag"
 msgstr "Thẻ"
 
-#: src/features/help/contribute-dialog.tsx:131
+#: src/features/help/contribute-dialog.tsx:154
 msgid "Taking you there now."
 msgstr "Đang đưa bạn đến đó."
 
@@ -927,7 +944,7 @@ msgstr "Đang đưa bạn đến đó."
 msgid "Teams/Apps"
 msgstr "Đội/Ứng dụng"
 
-#: src/features/help/contribute-dialog.tsx:82
+#: src/features/help/contribute-dialog.tsx:94
 msgid "Tell the Mochi development team what you'd like Mochi to do."
 msgstr "Cho đội phát triển Mochi biết bạn muốn Mochi làm gì."
 
@@ -1010,7 +1027,7 @@ msgstr "Nhập để tìm kiếm..."
 msgid "Unable to redirect to login. Please try again."
 msgstr "Không thể chuyển hướng đến trang đăng nhập. Vui lòng thử lại."
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:143
+#: ../../../lib/web/src/components/notification-category-button.tsx:147
 msgid "Unassigned"
 msgstr "Chưa phân công"
 
@@ -1083,22 +1100,30 @@ msgstr "Thứ tư"
 msgid "Welcome to Mochi. Here's how to get started."
 msgstr "Chào mừng đến với Mochi. Đây là cách để bắt đầu."
 
-#: src/features/help/contribute-dialog.tsx:75
+#: src/features/help/contribute-dialog.tsx:86
 msgid "What happened"
 msgstr "Điều đã xảy ra"
 
-#: src/features/help/contribute-dialog.tsx:66
+#: src/features/help/contribute-dialog.tsx:76
 msgid "What have you tried, what did you expect, where are you stuck?"
 msgstr "Bạn đã thử gì, bạn mong đợi gì, bạn bị kẹt ở đâu?"
 
-#: src/features/help/contribute-dialog.tsx:86
+#: src/features/help/contribute-dialog.tsx:98
 msgid "What would it do, who is it for, why does it matter?"
 msgstr "Nó sẽ làm gì, dành cho ai, vì sao quan trọng?"
 
-#: src/features/help/contribute-dialog.tsx:64
+#: src/features/help/contribute-dialog.tsx:74
 msgid "What you want to ask, in one line"
 msgstr "Điều bạn muốn hỏi, trong một dòng"
 
-#: src/features/help/contribute-dialog.tsx:242
+#: src/features/help/contribute-dialog.tsx:67
+msgid "Your introduction has been submitted and will appear after moderation."
+msgstr ""
+
+#: src/features/help/contribute-dialog.tsx:78
+msgid "Your question has been submitted and will appear after moderation."
+msgstr ""
+
+#: src/features/help/contribute-dialog.tsx:294
 msgid "Your text will be lost."
 msgstr "Nội dung của bạn sẽ bị mất."

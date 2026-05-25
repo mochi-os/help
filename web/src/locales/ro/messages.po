@@ -53,7 +53,7 @@ msgstr "Cont verificat"
 msgid "Add"
 msgstr "Adaugă"
 
-#: src/features/help/contribute-dialog.tsx:206
+#: src/features/help/contribute-dialog.tsx:242
 msgid "Add a bit more detail."
 msgstr "Adaugă un pic mai multe detalii."
 
@@ -114,12 +114,12 @@ msgstr "Sigur vrei să te deconectezi? Va trebui să te autentifici din nou pent
 msgid "Asc"
 msgstr "Cresc."
 
-#: src/features/help/contribute-dialog.tsx:61
+#: src/features/help/contribute-dialog.tsx:71
 #: src/features/help/index.tsx:34
 msgid "Ask a question"
 msgstr "Pune o întrebare"
 
-#: src/features/help/contribute-dialog.tsx:62
+#: src/features/help/contribute-dialog.tsx:72
 msgid "Ask the community on the Mochi users mailing list. Be specific about what you've tried so far."
 msgstr "Întreabă comunitatea pe lista de discuții a utilizatorilor Mochi. Fii specific cu privire la ce ai încercat până acum."
 
@@ -137,9 +137,13 @@ msgstr "Înapoi la pornire"
 msgid "Boost interest"
 msgstr "Promovează interesul"
 
-#: src/features/help/contribute-dialog.tsx:74
+#: src/features/help/contribute-dialog.tsx:85
 msgid "Brief summary of the problem"
 msgstr "Scurt rezumat al problemei"
+
+#: src/features/help/contribute-dialog.tsx:89
+msgid "Bug report submitted."
+msgstr ""
 
 #: ../../../lib/web/src/components/responsive-confirm-dialog.tsx:64
 #: ../../../lib/web/src/components/travelling-picker.tsx:292
@@ -148,15 +152,15 @@ msgstr "Scurt rezumat al problemei"
 #: ../../../lib/web/src/features/access/access-list.tsx:255
 #: ../../../lib/web/src/features/accounts/account-add.tsx:185
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:86
-#: src/features/help/contribute-dialog.tsx:219
+#: src/features/help/contribute-dialog.tsx:269
 msgid "Cancel"
 msgstr "Anulează"
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:131
+#: ../../../lib/web/src/components/notification-category-button.tsx:135
 msgid "Category for this notification"
 msgstr "Categorie pentru această notificare"
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:115
+#: ../../../lib/web/src/components/notification-category-button.tsx:119
 msgid "Change notification category"
 msgstr "Schimbă categoria notificării"
 
@@ -204,6 +208,7 @@ msgstr "Golește selecția (Escape)"
 #: ../../../lib/web/src/components/ui/dialog.tsx:75
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:318
 #: ../../../lib/web/src/components/ui/sheet.tsx:76
+#: src/features/help/contribute-dialog.tsx:257
 msgid "Close"
 msgstr "Închide"
 
@@ -265,7 +270,7 @@ msgstr "Nu s-a putut încărca acest document. Încearcă din nou mai târziu."
 msgid "Couldn't reach the destination yet"
 msgstr "Destinația nu poate fi încă contactată"
 
-#: src/features/help/contribute-dialog.tsx:135
+#: src/features/help/contribute-dialog.tsx:159
 msgid "Couldn't submit"
 msgstr "Trimiterea nu a reușit"
 
@@ -294,12 +299,12 @@ msgstr "Cont AI implicit"
 msgid "Desc"
 msgstr "Descresc."
 
-#: src/features/help/contribute-dialog.tsx:72
+#: src/features/help/contribute-dialog.tsx:83
 msgid "Describe what went wrong. The Mochi development team will see it on the Mochi development project."
 msgstr "Descrie ce nu a funcționat. Echipa de dezvoltare Mochi va vedea raportul în proiectul de dezvoltare Mochi."
 
-#: src/features/help/contribute-dialog.tsx:65
-#: src/features/help/contribute-dialog.tsx:85
+#: src/features/help/contribute-dialog.tsx:75
+#: src/features/help/contribute-dialog.tsx:97
 msgid "Details"
 msgstr "Detalii"
 
@@ -322,11 +327,11 @@ msgstr "Detectează din browser"
 msgid "Direction"
 msgstr "Direcție"
 
-#: src/features/help/contribute-dialog.tsx:244
+#: src/features/help/contribute-dialog.tsx:296
 msgid "Discard"
 msgstr "Renunță"
 
-#: src/features/help/contribute-dialog.tsx:241
+#: src/features/help/contribute-dialog.tsx:293
 msgid "Discard draft?"
 msgstr "Renunți la ciornă?"
 
@@ -362,9 +367,13 @@ msgstr "Eliminarea contului a eșuat"
 msgid "Failed to send verification code"
 msgstr "Trimiterea codului de verificare a eșuat"
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:104
+#: ../../../lib/web/src/components/notification-category-button.tsx:108
 msgid "Failed to update category"
 msgstr "Actualizarea categoriei a eșuat"
+
+#: src/features/help/contribute-dialog.tsx:100
+msgid "Feature request submitted."
+msgstr ""
 
 #: ../../../lib/web/src/components/config-drawer.tsx:244
 msgid "Floating"
@@ -400,6 +409,10 @@ msgstr "Înapoi"
 msgid "Go to first page"
 msgstr "Mergi la prima pagină"
 
+#: src/features/help/contribute-dialog.tsx:261
+msgid "Go to forum"
+msgstr ""
+
 #: ../../../lib/web/src/components/data-table/pagination.tsx:121
 msgid "Go to last page"
 msgstr "Mergi la ultima pagină"
@@ -429,7 +442,7 @@ msgstr "Grup"
 msgid "Help"
 msgstr "Ajutor"
 
-#: src/features/help/contribute-dialog.tsx:56
+#: src/features/help/contribute-dialog.tsx:65
 msgid "Hi, I'm…"
 msgstr "Salut, sunt…"
 
@@ -460,7 +473,7 @@ msgstr "Încastrat"
 msgid "Interests"
 msgstr "Interese"
 
-#: src/features/help/contribute-dialog.tsx:55
+#: src/features/help/contribute-dialog.tsx:64
 #: src/features/help/index.tsx:28
 msgid "Introduce yourself"
 msgstr "Prezintă-te"
@@ -469,7 +482,7 @@ msgstr "Prezintă-te"
 msgid "Invalid verification code"
 msgstr "Cod de verificare invalid"
 
-#: src/features/help/contribute-dialog.tsx:243
+#: src/features/help/contribute-dialog.tsx:295
 msgid "Keep editing"
 msgstr "Continuă editarea"
 
@@ -584,7 +597,7 @@ msgstr "Nu s-au găsit rezultate."
 msgid "No time zone found."
 msgstr "Nu s-a găsit niciun fus orar."
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:135
+#: ../../../lib/web/src/components/notification-category-button.tsx:139
 msgid "No topic record yet — try again after the next notification."
 msgstr "Încă nu există înregistrare de subiect — încearcă din nou după următoarea notificare."
 
@@ -638,23 +651,23 @@ msgstr "Altele"
 msgid "Owner"
 msgstr "Proprietar"
 
-#: src/features/help/contribute-dialog.tsx:136
+#: src/features/help/contribute-dialog.tsx:160
 msgid "Please try again."
 msgstr "Încearcă din nou."
 
-#: src/features/help/contribute-dialog.tsx:57
+#: src/features/help/contribute-dialog.tsx:66
 msgid "Post introduction"
 msgstr "Publică prezentarea"
 
-#: src/features/help/contribute-dialog.tsx:67
+#: src/features/help/contribute-dialog.tsx:77
 msgid "Post question"
 msgstr "Publică întrebarea"
 
-#: src/features/help/contribute-dialog.tsx:130
+#: src/features/help/contribute-dialog.tsx:153
 msgid "Posted"
 msgstr "Publicat"
 
-#: src/features/help/contribute-dialog.tsx:225
+#: src/features/help/contribute-dialog.tsx:275
 msgid "Posting…"
 msgstr "Se postează…"
 
@@ -673,7 +686,7 @@ msgstr "Confidențialitate"
 msgid "Profile"
 msgstr "Profil"
 
-#: src/features/help/contribute-dialog.tsx:63
+#: src/features/help/contribute-dialog.tsx:73
 msgid "Question"
 msgstr "Întrebare"
 
@@ -716,12 +729,12 @@ msgstr "Elimini accesul?"
 msgid "Remove interest"
 msgstr "Elimină interesul"
 
-#: src/features/help/contribute-dialog.tsx:71
+#: src/features/help/contribute-dialog.tsx:82
 #: src/features/help/index.tsx:40
 msgid "Report a bug"
 msgstr "Raportează un bug"
 
-#: src/features/help/contribute-dialog.tsx:77
+#: src/features/help/contribute-dialog.tsx:88
 msgid "Report bug"
 msgstr "Raportează bug"
 
@@ -840,7 +853,7 @@ msgstr "Setează originea și destinația"
 msgid "Settings"
 msgstr "Setări"
 
-#: src/features/help/contribute-dialog.tsx:84
+#: src/features/help/contribute-dialog.tsx:96
 msgid "Short title for your idea"
 msgstr "Titlu scurt pentru ideea ta"
 
@@ -879,7 +892,7 @@ msgstr "Ai văzut ceva stricat? Deschide un tichet de bug în proiectul de dezvo
 msgid "Stay tuned though!"
 msgstr "Rămâi pe aproape totuși!"
 
-#: src/features/help/contribute-dialog.tsx:76
+#: src/features/help/contribute-dialog.tsx:87
 msgid "Steps to reproduce, what you expected, and what actually happened. Include your browser and device if relevant."
 msgstr "Pașii pentru reproducere, la ce te așteptai și ce s-a întâmplat de fapt. Include browserul și dispozitivul dacă e relevant."
 
@@ -891,17 +904,21 @@ msgstr "Te-ai blocat la ceva? Întreabă comunitatea pe lista de discuții a uti
 msgid "Subject"
 msgstr "Subiect"
 
-#: src/features/help/contribute-dialog.tsx:81
+#: src/features/help/contribute-dialog.tsx:210
+msgid "Submitted successfully"
+msgstr ""
+
+#: src/features/help/contribute-dialog.tsx:93
 #: src/features/help/index.tsx:46
 msgid "Suggest a new feature"
 msgstr "Sugerează o funcționalitate nouă"
 
-#: src/features/help/contribute-dialog.tsx:87
+#: src/features/help/contribute-dialog.tsx:99
 msgid "Suggest feature"
 msgstr "Sugerează funcționalitate"
 
-#: src/features/help/contribute-dialog.tsx:73
-#: src/features/help/contribute-dialog.tsx:83
+#: src/features/help/contribute-dialog.tsx:84
+#: src/features/help/contribute-dialog.tsx:95
 msgid "Summary"
 msgstr "Sumar"
 
@@ -919,7 +936,7 @@ msgstr "Sistem"
 msgid "Tag"
 msgstr "Etichetă"
 
-#: src/features/help/contribute-dialog.tsx:131
+#: src/features/help/contribute-dialog.tsx:154
 msgid "Taking you there now."
 msgstr "Te ducem acolo acum."
 
@@ -927,7 +944,7 @@ msgstr "Te ducem acolo acum."
 msgid "Teams/Apps"
 msgstr "Echipe/Aplicații"
 
-#: src/features/help/contribute-dialog.tsx:82
+#: src/features/help/contribute-dialog.tsx:94
 msgid "Tell the Mochi development team what you'd like Mochi to do."
 msgstr "Spune-i echipei de dezvoltare Mochi ce ai vrea ca Mochi să facă."
 
@@ -1010,7 +1027,7 @@ msgstr "Tastează pentru a căuta..."
 msgid "Unable to redirect to login. Please try again."
 msgstr "Nu se poate redirecționa la conectare. Încearcă din nou."
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:143
+#: ../../../lib/web/src/components/notification-category-button.tsx:147
 msgid "Unassigned"
 msgstr "Neatribuit"
 
@@ -1083,22 +1100,30 @@ msgstr "Miercuri"
 msgid "Welcome to Mochi. Here's how to get started."
 msgstr "Bun venit la Mochi. Iată cum poți începe."
 
-#: src/features/help/contribute-dialog.tsx:75
+#: src/features/help/contribute-dialog.tsx:86
 msgid "What happened"
 msgstr "Ce s-a întâmplat"
 
-#: src/features/help/contribute-dialog.tsx:66
+#: src/features/help/contribute-dialog.tsx:76
 msgid "What have you tried, what did you expect, where are you stuck?"
 msgstr "Ce ai încercat, la ce te așteptai, unde te-ai blocat?"
 
-#: src/features/help/contribute-dialog.tsx:86
+#: src/features/help/contribute-dialog.tsx:98
 msgid "What would it do, who is it for, why does it matter?"
 msgstr "Ce ar face, pentru cine este și de ce contează?"
 
-#: src/features/help/contribute-dialog.tsx:64
+#: src/features/help/contribute-dialog.tsx:74
 msgid "What you want to ask, in one line"
 msgstr "Ce vrei să întrebi, într-o singură linie"
 
-#: src/features/help/contribute-dialog.tsx:242
+#: src/features/help/contribute-dialog.tsx:67
+msgid "Your introduction has been submitted and will appear after moderation."
+msgstr ""
+
+#: src/features/help/contribute-dialog.tsx:78
+msgid "Your question has been submitted and will appear after moderation."
+msgstr ""
+
+#: src/features/help/contribute-dialog.tsx:294
 msgid "Your text will be lost."
 msgstr "Textul tău va fi pierdut."

@@ -53,7 +53,7 @@ msgstr "계정이 인증되었어요"
 msgid "Add"
 msgstr "추가"
 
-#: src/features/help/contribute-dialog.tsx:206
+#: src/features/help/contribute-dialog.tsx:242
 msgid "Add a bit more detail."
 msgstr "조금 더 자세히 적어 주세요."
 
@@ -114,12 +114,12 @@ msgstr "로그아웃할까요? 계정에 다시 접근하려면 다시 로그인
 msgid "Asc"
 msgstr "오름차순"
 
-#: src/features/help/contribute-dialog.tsx:61
+#: src/features/help/contribute-dialog.tsx:71
 #: src/features/help/index.tsx:34
 msgid "Ask a question"
 msgstr "질문하기"
 
-#: src/features/help/contribute-dialog.tsx:62
+#: src/features/help/contribute-dialog.tsx:72
 msgid "Ask the community on the Mochi users mailing list. Be specific about what you've tried so far."
 msgstr "Mochi 사용자 메일링 리스트에서 커뮤니티에 질문해 보세요. 지금까지 시도해 본 내용을 구체적으로 적어 주세요."
 
@@ -137,9 +137,13 @@ msgstr "홈으로 돌아가기"
 msgid "Boost interest"
 msgstr "관심도 부스트"
 
-#: src/features/help/contribute-dialog.tsx:74
+#: src/features/help/contribute-dialog.tsx:85
 msgid "Brief summary of the problem"
 msgstr "문제에 대한 간단한 요약"
+
+#: src/features/help/contribute-dialog.tsx:89
+msgid "Bug report submitted."
+msgstr ""
 
 #: ../../../lib/web/src/components/responsive-confirm-dialog.tsx:64
 #: ../../../lib/web/src/components/travelling-picker.tsx:292
@@ -148,15 +152,15 @@ msgstr "문제에 대한 간단한 요약"
 #: ../../../lib/web/src/features/access/access-list.tsx:255
 #: ../../../lib/web/src/features/accounts/account-add.tsx:185
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:86
-#: src/features/help/contribute-dialog.tsx:219
+#: src/features/help/contribute-dialog.tsx:269
 msgid "Cancel"
 msgstr "취소"
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:131
+#: ../../../lib/web/src/components/notification-category-button.tsx:135
 msgid "Category for this notification"
 msgstr "이 알림의 카테고리"
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:115
+#: ../../../lib/web/src/components/notification-category-button.tsx:119
 msgid "Change notification category"
 msgstr "알림 카테고리 변경"
 
@@ -204,6 +208,7 @@ msgstr "선택 해제 (Escape)"
 #: ../../../lib/web/src/components/ui/dialog.tsx:75
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:318
 #: ../../../lib/web/src/components/ui/sheet.tsx:76
+#: src/features/help/contribute-dialog.tsx:257
 msgid "Close"
 msgstr "닫기"
 
@@ -265,7 +270,7 @@ msgstr "이 문서를 불러올 수 없었습니다. 잠시 후 다시 시도해
 msgid "Couldn't reach the destination yet"
 msgstr "아직 대상에 도달하지 못했습니다"
 
-#: src/features/help/contribute-dialog.tsx:135
+#: src/features/help/contribute-dialog.tsx:159
 msgid "Couldn't submit"
 msgstr "제출하지 못했습니다"
 
@@ -294,12 +299,12 @@ msgstr "기본 AI 계정"
 msgid "Desc"
 msgstr "내림차순"
 
-#: src/features/help/contribute-dialog.tsx:72
+#: src/features/help/contribute-dialog.tsx:83
 msgid "Describe what went wrong. The Mochi development team will see it on the Mochi development project."
 msgstr "무엇이 잘못되었는지 설명해 주세요. Mochi 개발팀이 Mochi 개발 프로젝트에서 확인합니다."
 
-#: src/features/help/contribute-dialog.tsx:65
-#: src/features/help/contribute-dialog.tsx:85
+#: src/features/help/contribute-dialog.tsx:75
+#: src/features/help/contribute-dialog.tsx:97
 msgid "Details"
 msgstr "세부 정보"
 
@@ -322,11 +327,11 @@ msgstr "웹 브라우저에서 감지"
 msgid "Direction"
 msgstr "방향"
 
-#: src/features/help/contribute-dialog.tsx:244
+#: src/features/help/contribute-dialog.tsx:296
 msgid "Discard"
 msgstr "버리기"
 
-#: src/features/help/contribute-dialog.tsx:241
+#: src/features/help/contribute-dialog.tsx:293
 msgid "Discard draft?"
 msgstr "초안을 버릴까요?"
 
@@ -362,9 +367,13 @@ msgstr "계정 제거에 실패했어요"
 msgid "Failed to send verification code"
 msgstr "인증 코드 전송에 실패했어요"
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:104
+#: ../../../lib/web/src/components/notification-category-button.tsx:108
 msgid "Failed to update category"
 msgstr "카테고리 업데이트에 실패했어요"
+
+#: src/features/help/contribute-dialog.tsx:100
+msgid "Feature request submitted."
+msgstr ""
 
 #: ../../../lib/web/src/components/config-drawer.tsx:244
 msgid "Floating"
@@ -400,6 +409,10 @@ msgstr "뒤로"
 msgid "Go to first page"
 msgstr "첫 페이지로 이동"
 
+#: src/features/help/contribute-dialog.tsx:261
+msgid "Go to forum"
+msgstr ""
+
 #: ../../../lib/web/src/components/data-table/pagination.tsx:121
 msgid "Go to last page"
 msgstr "마지막 페이지로 이동"
@@ -429,7 +442,7 @@ msgstr "그룹"
 msgid "Help"
 msgstr "도움말"
 
-#: src/features/help/contribute-dialog.tsx:56
+#: src/features/help/contribute-dialog.tsx:65
 msgid "Hi, I'm…"
 msgstr "안녕하세요, 저는…"
 
@@ -460,7 +473,7 @@ msgstr "인셋"
 msgid "Interests"
 msgstr "관심사"
 
-#: src/features/help/contribute-dialog.tsx:55
+#: src/features/help/contribute-dialog.tsx:64
 #: src/features/help/index.tsx:28
 msgid "Introduce yourself"
 msgstr "자기소개"
@@ -469,7 +482,7 @@ msgstr "자기소개"
 msgid "Invalid verification code"
 msgstr "잘못된 인증 코드"
 
-#: src/features/help/contribute-dialog.tsx:243
+#: src/features/help/contribute-dialog.tsx:295
 msgid "Keep editing"
 msgstr "계속 편집"
 
@@ -584,7 +597,7 @@ msgstr "결과를 찾을 수 없어요."
 msgid "No time zone found."
 msgstr "타임존을 찾을 수 없어요."
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:135
+#: ../../../lib/web/src/components/notification-category-button.tsx:139
 msgid "No topic record yet — try again after the next notification."
 msgstr "아직 토픽 기록이 없어요 — 다음 알림 후에 다시 시도해 주세요."
 
@@ -638,23 +651,23 @@ msgstr "기타"
 msgid "Owner"
 msgstr "소유자"
 
-#: src/features/help/contribute-dialog.tsx:136
+#: src/features/help/contribute-dialog.tsx:160
 msgid "Please try again."
 msgstr "다시 시도해 주세요."
 
-#: src/features/help/contribute-dialog.tsx:57
+#: src/features/help/contribute-dialog.tsx:66
 msgid "Post introduction"
 msgstr "자기소개 게시"
 
-#: src/features/help/contribute-dialog.tsx:67
+#: src/features/help/contribute-dialog.tsx:77
 msgid "Post question"
 msgstr "질문 게시"
 
-#: src/features/help/contribute-dialog.tsx:130
+#: src/features/help/contribute-dialog.tsx:153
 msgid "Posted"
 msgstr "게시됨"
 
-#: src/features/help/contribute-dialog.tsx:225
+#: src/features/help/contribute-dialog.tsx:275
 msgid "Posting…"
 msgstr "게시 중…"
 
@@ -673,7 +686,7 @@ msgstr "개인정보"
 msgid "Profile"
 msgstr "프로필"
 
-#: src/features/help/contribute-dialog.tsx:63
+#: src/features/help/contribute-dialog.tsx:73
 msgid "Question"
 msgstr "질문"
 
@@ -716,12 +729,12 @@ msgstr "접근 권한을 제거할까요?"
 msgid "Remove interest"
 msgstr "관심사 제거"
 
-#: src/features/help/contribute-dialog.tsx:71
+#: src/features/help/contribute-dialog.tsx:82
 #: src/features/help/index.tsx:40
 msgid "Report a bug"
 msgstr "버그 신고하기"
 
-#: src/features/help/contribute-dialog.tsx:77
+#: src/features/help/contribute-dialog.tsx:88
 msgid "Report bug"
 msgstr "버그 신고"
 
@@ -840,7 +853,7 @@ msgstr "출발지와 도착지 설정"
 msgid "Settings"
 msgstr "설정"
 
-#: src/features/help/contribute-dialog.tsx:84
+#: src/features/help/contribute-dialog.tsx:96
 msgid "Short title for your idea"
 msgstr "아이디어의 짧은 제목"
 
@@ -879,7 +892,7 @@ msgstr "문제가 발견됐나요? Mochi 개발 프로젝트에 버그 티켓을
 msgid "Stay tuned though!"
 msgstr "기대해 주세요!"
 
-#: src/features/help/contribute-dialog.tsx:76
+#: src/features/help/contribute-dialog.tsx:87
 msgid "Steps to reproduce, what you expected, and what actually happened. Include your browser and device if relevant."
 msgstr "재현 단계, 예상한 결과, 그리고 실제로 일어난 일을 적어 주세요. 관련이 있다면 브라우저와 기기도 함께 알려 주세요."
 
@@ -891,17 +904,21 @@ msgstr "막힌 부분이 있나요? Mochi 사용자 메일링 리스트에서 �
 msgid "Subject"
 msgstr "제목"
 
-#: src/features/help/contribute-dialog.tsx:81
+#: src/features/help/contribute-dialog.tsx:210
+msgid "Submitted successfully"
+msgstr ""
+
+#: src/features/help/contribute-dialog.tsx:93
 #: src/features/help/index.tsx:46
 msgid "Suggest a new feature"
 msgstr "새 기능 제안"
 
-#: src/features/help/contribute-dialog.tsx:87
+#: src/features/help/contribute-dialog.tsx:99
 msgid "Suggest feature"
 msgstr "기능 제안"
 
-#: src/features/help/contribute-dialog.tsx:73
-#: src/features/help/contribute-dialog.tsx:83
+#: src/features/help/contribute-dialog.tsx:84
+#: src/features/help/contribute-dialog.tsx:95
 msgid "Summary"
 msgstr "요약"
 
@@ -919,7 +936,7 @@ msgstr "시스템"
 msgid "Tag"
 msgstr "태그"
 
-#: src/features/help/contribute-dialog.tsx:131
+#: src/features/help/contribute-dialog.tsx:154
 msgid "Taking you there now."
 msgstr "지금 이동하고 있어요."
 
@@ -927,7 +944,7 @@ msgstr "지금 이동하고 있어요."
 msgid "Teams/Apps"
 msgstr "팀/앱"
 
-#: src/features/help/contribute-dialog.tsx:82
+#: src/features/help/contribute-dialog.tsx:94
 msgid "Tell the Mochi development team what you'd like Mochi to do."
 msgstr "Mochi가 어떤 기능을 했으면 좋겠는지 Mochi 개발팀에 알려 주세요."
 
@@ -1010,7 +1027,7 @@ msgstr "입력하여 검색..."
 msgid "Unable to redirect to login. Please try again."
 msgstr "로그인으로 리디렉션할 수 없어요. 다시 시도해 주세요."
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:143
+#: ../../../lib/web/src/components/notification-category-button.tsx:147
 msgid "Unassigned"
 msgstr "할당되지 않음"
 
@@ -1083,22 +1100,30 @@ msgstr "수요일"
 msgid "Welcome to Mochi. Here's how to get started."
 msgstr "Mochi에 오신 것을 환영해요. 시작하는 방법을 안내해 드릴게요."
 
-#: src/features/help/contribute-dialog.tsx:75
+#: src/features/help/contribute-dialog.tsx:86
 msgid "What happened"
 msgstr "무슨 일이 있었나요"
 
-#: src/features/help/contribute-dialog.tsx:66
+#: src/features/help/contribute-dialog.tsx:76
 msgid "What have you tried, what did you expect, where are you stuck?"
 msgstr "무엇을 시도했고, 무엇을 기대했고, 어디서 막혔나요?"
 
-#: src/features/help/contribute-dialog.tsx:86
+#: src/features/help/contribute-dialog.tsx:98
 msgid "What would it do, who is it for, why does it matter?"
 msgstr "어떤 기능인가요? 누구를 위한 것인가요? 왜 중요한가요?"
 
-#: src/features/help/contribute-dialog.tsx:64
+#: src/features/help/contribute-dialog.tsx:74
 msgid "What you want to ask, in one line"
 msgstr "묻고 싶은 내용을 한 줄로"
 
-#: src/features/help/contribute-dialog.tsx:242
+#: src/features/help/contribute-dialog.tsx:67
+msgid "Your introduction has been submitted and will appear after moderation."
+msgstr ""
+
+#: src/features/help/contribute-dialog.tsx:78
+msgid "Your question has been submitted and will appear after moderation."
+msgstr ""
+
+#: src/features/help/contribute-dialog.tsx:294
 msgid "Your text will be lost."
 msgstr "작성한 내용이 사라져요."

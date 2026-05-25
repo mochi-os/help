@@ -53,7 +53,7 @@ msgstr "Hisob tasdiqlandi"
 msgid "Add"
 msgstr "Qoʻshish"
 
-#: src/features/help/contribute-dialog.tsx:206
+#: src/features/help/contribute-dialog.tsx:242
 msgid "Add a bit more detail."
 msgstr "Bir oz batafsilroq tafsilot qo'shing."
 
@@ -114,12 +114,12 @@ msgstr "Chiqishga ishonchingiz komilmi? Hisobingizga kirish uchun yana kirishing
 msgid "Asc"
 msgstr "Oʻsib"
 
-#: src/features/help/contribute-dialog.tsx:61
+#: src/features/help/contribute-dialog.tsx:71
 #: src/features/help/index.tsx:34
 msgid "Ask a question"
 msgstr "Savol berish"
 
-#: src/features/help/contribute-dialog.tsx:62
+#: src/features/help/contribute-dialog.tsx:72
 msgid "Ask the community on the Mochi users mailing list. Be specific about what you've tried so far."
 msgstr "Mochi foydalanuvchilari pochta ro'yxatida hamjamiyatdan so'rang. Hozirgacha nima sinab ko'rganingizni aniq yozing."
 
@@ -137,9 +137,13 @@ msgstr "Bosh sahifaga qaytish"
 msgid "Boost interest"
 msgstr "Qiziqishni kuchaytirish"
 
-#: src/features/help/contribute-dialog.tsx:74
+#: src/features/help/contribute-dialog.tsx:85
 msgid "Brief summary of the problem"
 msgstr "Muammoning qisqacha tavsifi"
+
+#: src/features/help/contribute-dialog.tsx:89
+msgid "Bug report submitted."
+msgstr ""
 
 #: ../../../lib/web/src/components/responsive-confirm-dialog.tsx:64
 #: ../../../lib/web/src/components/travelling-picker.tsx:292
@@ -148,15 +152,15 @@ msgstr "Muammoning qisqacha tavsifi"
 #: ../../../lib/web/src/features/access/access-list.tsx:255
 #: ../../../lib/web/src/features/accounts/account-add.tsx:185
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:86
-#: src/features/help/contribute-dialog.tsx:219
+#: src/features/help/contribute-dialog.tsx:269
 msgid "Cancel"
 msgstr "Bekor qilish"
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:131
+#: ../../../lib/web/src/components/notification-category-button.tsx:135
 msgid "Category for this notification"
 msgstr "Bu bildirishnoma uchun toifa"
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:115
+#: ../../../lib/web/src/components/notification-category-button.tsx:119
 msgid "Change notification category"
 msgstr "Bildirishnoma toifasini oʻzgartirish"
 
@@ -204,6 +208,7 @@ msgstr "Tanlovni tozalash (Escape)"
 #: ../../../lib/web/src/components/ui/dialog.tsx:75
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:318
 #: ../../../lib/web/src/components/ui/sheet.tsx:76
+#: src/features/help/contribute-dialog.tsx:257
 msgid "Close"
 msgstr "Yopish"
 
@@ -265,7 +270,7 @@ msgstr "Bu hujjatni yuklab boʻlmadi. Iltimos, keyinroq qayta urinib koʻring."
 msgid "Couldn't reach the destination yet"
 msgstr "Manzilga hali yetib bo'lmadi"
 
-#: src/features/help/contribute-dialog.tsx:135
+#: src/features/help/contribute-dialog.tsx:159
 msgid "Couldn't submit"
 msgstr "Yuborib bo'lmadi"
 
@@ -294,12 +299,12 @@ msgstr "Standart AI hisobi"
 msgid "Desc"
 msgstr "Pasayuvchi"
 
-#: src/features/help/contribute-dialog.tsx:72
+#: src/features/help/contribute-dialog.tsx:83
 msgid "Describe what went wrong. The Mochi development team will see it on the Mochi development project."
 msgstr "Nima noto'g'ri ketganini tasvirlab bering. Mochi ishlab chiqish jamoasi buni Mochi ishlab chiqish loyihasida ko'radi."
 
-#: src/features/help/contribute-dialog.tsx:65
-#: src/features/help/contribute-dialog.tsx:85
+#: src/features/help/contribute-dialog.tsx:75
+#: src/features/help/contribute-dialog.tsx:97
 msgid "Details"
 msgstr "Tafsilotlar"
 
@@ -322,11 +327,11 @@ msgstr "Veb-brauzerdan aniqlash"
 msgid "Direction"
 msgstr "Yoʻnalish"
 
-#: src/features/help/contribute-dialog.tsx:244
+#: src/features/help/contribute-dialog.tsx:296
 msgid "Discard"
 msgstr "Bekor qilish"
 
-#: src/features/help/contribute-dialog.tsx:241
+#: src/features/help/contribute-dialog.tsx:293
 msgid "Discard draft?"
 msgstr "Qoralama bekor qilinsinmi?"
 
@@ -362,9 +367,13 @@ msgstr "Hisobni olib tashlab boʻlmadi"
 msgid "Failed to send verification code"
 msgstr "Tasdiqlash kodini yuborib boʻlmadi"
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:104
+#: ../../../lib/web/src/components/notification-category-button.tsx:108
 msgid "Failed to update category"
 msgstr "Toifani yangilab boʻlmadi"
+
+#: src/features/help/contribute-dialog.tsx:100
+msgid "Feature request submitted."
+msgstr ""
 
 #: ../../../lib/web/src/components/config-drawer.tsx:244
 msgid "Floating"
@@ -400,6 +409,10 @@ msgstr "Orqaga"
 msgid "Go to first page"
 msgstr "Birinchi sahifaga oʻtish"
 
+#: src/features/help/contribute-dialog.tsx:261
+msgid "Go to forum"
+msgstr ""
+
 #: ../../../lib/web/src/components/data-table/pagination.tsx:121
 msgid "Go to last page"
 msgstr "Oxirgi sahifaga oʻtish"
@@ -429,7 +442,7 @@ msgstr "Guruh"
 msgid "Help"
 msgstr "Yordam"
 
-#: src/features/help/contribute-dialog.tsx:56
+#: src/features/help/contribute-dialog.tsx:65
 msgid "Hi, I'm…"
 msgstr "Salom, men…"
 
@@ -460,7 +473,7 @@ msgstr "Ichkari"
 msgid "Interests"
 msgstr "Qiziqishlar"
 
-#: src/features/help/contribute-dialog.tsx:55
+#: src/features/help/contribute-dialog.tsx:64
 #: src/features/help/index.tsx:28
 msgid "Introduce yourself"
 msgstr "O'zingizni tanishtiring"
@@ -469,7 +482,7 @@ msgstr "O'zingizni tanishtiring"
 msgid "Invalid verification code"
 msgstr "Notoʻgʻri tasdiqlash kodi"
 
-#: src/features/help/contribute-dialog.tsx:243
+#: src/features/help/contribute-dialog.tsx:295
 msgid "Keep editing"
 msgstr "Tahrirlashda davom etish"
 
@@ -584,7 +597,7 @@ msgstr "Natijalar topilmadi."
 msgid "No time zone found."
 msgstr "Vaqt mintaqasi topilmadi."
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:135
+#: ../../../lib/web/src/components/notification-category-button.tsx:139
 msgid "No topic record yet — try again after the next notification."
 msgstr "Hozircha mavzu yozuvi yoʻq — keyingi bildirishnomadan keyin qayta urinib koʻring."
 
@@ -638,23 +651,23 @@ msgstr "Boshqa"
 msgid "Owner"
 msgstr "Egasi"
 
-#: src/features/help/contribute-dialog.tsx:136
+#: src/features/help/contribute-dialog.tsx:160
 msgid "Please try again."
 msgstr "Iltimos, qayta urinib ko'ring."
 
-#: src/features/help/contribute-dialog.tsx:57
+#: src/features/help/contribute-dialog.tsx:66
 msgid "Post introduction"
 msgstr "Tanishuvni joylash"
 
-#: src/features/help/contribute-dialog.tsx:67
+#: src/features/help/contribute-dialog.tsx:77
 msgid "Post question"
 msgstr "Savolni joylash"
 
-#: src/features/help/contribute-dialog.tsx:130
+#: src/features/help/contribute-dialog.tsx:153
 msgid "Posted"
 msgstr "Joylandi"
 
-#: src/features/help/contribute-dialog.tsx:225
+#: src/features/help/contribute-dialog.tsx:275
 msgid "Posting…"
 msgstr "Joylanmoqda…"
 
@@ -673,7 +686,7 @@ msgstr "Maxfiylik"
 msgid "Profile"
 msgstr "Profil"
 
-#: src/features/help/contribute-dialog.tsx:63
+#: src/features/help/contribute-dialog.tsx:73
 msgid "Question"
 msgstr "Savol"
 
@@ -716,12 +729,12 @@ msgstr "Kirishni olib tashlasinmi?"
 msgid "Remove interest"
 msgstr "Qiziqishni olib tashlash"
 
-#: src/features/help/contribute-dialog.tsx:71
+#: src/features/help/contribute-dialog.tsx:82
 #: src/features/help/index.tsx:40
 msgid "Report a bug"
 msgstr "Xato haqida xabar berish"
 
-#: src/features/help/contribute-dialog.tsx:77
+#: src/features/help/contribute-dialog.tsx:88
 msgid "Report bug"
 msgstr "Xatoni xabar qilish"
 
@@ -840,7 +853,7 @@ msgstr "Boshlang‘ich va manzilni belgilash"
 msgid "Settings"
 msgstr "Sozlamalar"
 
-#: src/features/help/contribute-dialog.tsx:84
+#: src/features/help/contribute-dialog.tsx:96
 msgid "Short title for your idea"
 msgstr "Fikringiz uchun qisqa sarlavha"
 
@@ -879,7 +892,7 @@ msgstr "Biror narsa buzilganini ko'rdingizmi? Mochi ishlab chiqish loyihasida xa
 msgid "Stay tuned though!"
 msgstr "Lekin kuzatishda davom eting!"
 
-#: src/features/help/contribute-dialog.tsx:76
+#: src/features/help/contribute-dialog.tsx:87
 msgid "Steps to reproduce, what you expected, and what actually happened. Include your browser and device if relevant."
 msgstr "Takrorlash bosqichlari, nimani kutgandingiz va aslida nima sodir bo'ldi. Tegishli bo'lsa, brauzeringiz va qurilmangizni ham kiriting."
 
@@ -891,17 +904,21 @@ msgstr "Biror narsada qiynalyapsizmi? Mochi foydalanuvchilari pochta ro'yxatida 
 msgid "Subject"
 msgstr "Mavzu"
 
-#: src/features/help/contribute-dialog.tsx:81
+#: src/features/help/contribute-dialog.tsx:210
+msgid "Submitted successfully"
+msgstr ""
+
+#: src/features/help/contribute-dialog.tsx:93
 #: src/features/help/index.tsx:46
 msgid "Suggest a new feature"
 msgstr "Yangi funksiya taklif qiling"
 
-#: src/features/help/contribute-dialog.tsx:87
+#: src/features/help/contribute-dialog.tsx:99
 msgid "Suggest feature"
 msgstr "Funksiya taklif qilish"
 
-#: src/features/help/contribute-dialog.tsx:73
-#: src/features/help/contribute-dialog.tsx:83
+#: src/features/help/contribute-dialog.tsx:84
+#: src/features/help/contribute-dialog.tsx:95
 msgid "Summary"
 msgstr "Qisqacha"
 
@@ -919,7 +936,7 @@ msgstr "Tizim"
 msgid "Tag"
 msgstr "Teg"
 
-#: src/features/help/contribute-dialog.tsx:131
+#: src/features/help/contribute-dialog.tsx:154
 msgid "Taking you there now."
 msgstr "Sizni hozir o'sha yerga olib boryapmiz."
 
@@ -927,7 +944,7 @@ msgstr "Sizni hozir o'sha yerga olib boryapmiz."
 msgid "Teams/Apps"
 msgstr "Jamoalar/Ilovalar"
 
-#: src/features/help/contribute-dialog.tsx:82
+#: src/features/help/contribute-dialog.tsx:94
 msgid "Tell the Mochi development team what you'd like Mochi to do."
 msgstr "Mochi ishlab chiqish jamoasiga Mochi nima qilishini istashingizni ayting."
 
@@ -1010,7 +1027,7 @@ msgstr "Qidirish uchun yozing..."
 msgid "Unable to redirect to login. Please try again."
 msgstr "Kirish sahifasiga yoʻnaltirib boʻlmadi. Qayta urinib koʻring."
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:143
+#: ../../../lib/web/src/components/notification-category-button.tsx:147
 msgid "Unassigned"
 msgstr "Tayinlanmagan"
 
@@ -1083,22 +1100,30 @@ msgstr "Chorshanba"
 msgid "Welcome to Mochi. Here's how to get started."
 msgstr "Mochi'ga xush kelibsiz. Boshlash uchun mana shu."
 
-#: src/features/help/contribute-dialog.tsx:75
+#: src/features/help/contribute-dialog.tsx:86
 msgid "What happened"
 msgstr "Nima sodir bo'ldi"
 
-#: src/features/help/contribute-dialog.tsx:66
+#: src/features/help/contribute-dialog.tsx:76
 msgid "What have you tried, what did you expect, where are you stuck?"
 msgstr "Nima harakat qildingiz, nimani kutdingiz, qayerda tiqilib qoldingiz?"
 
-#: src/features/help/contribute-dialog.tsx:86
+#: src/features/help/contribute-dialog.tsx:98
 msgid "What would it do, who is it for, why does it matter?"
 msgstr "U nima qiladi, kim uchun mo'ljallangan, nega bu muhim?"
 
-#: src/features/help/contribute-dialog.tsx:64
+#: src/features/help/contribute-dialog.tsx:74
 msgid "What you want to ask, in one line"
 msgstr "Nima soramoqchisiz, bir qatorda"
 
-#: src/features/help/contribute-dialog.tsx:242
+#: src/features/help/contribute-dialog.tsx:67
+msgid "Your introduction has been submitted and will appear after moderation."
+msgstr ""
+
+#: src/features/help/contribute-dialog.tsx:78
+msgid "Your question has been submitted and will appear after moderation."
+msgstr ""
+
+#: src/features/help/contribute-dialog.tsx:294
 msgid "Your text will be lost."
 msgstr "Matningiz yo'qoladi."

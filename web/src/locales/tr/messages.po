@@ -53,7 +53,7 @@ msgstr "Hesap doğrulandı"
 msgid "Add"
 msgstr "Ekle"
 
-#: src/features/help/contribute-dialog.tsx:206
+#: src/features/help/contribute-dialog.tsx:242
 msgid "Add a bit more detail."
 msgstr "Biraz daha ayrıntı ekleyin."
 
@@ -114,12 +114,12 @@ msgstr "Çıkış yapmak istediğinizden emin misiniz? Hesabınıza erişmek iç
 msgid "Asc"
 msgstr "Artan"
 
-#: src/features/help/contribute-dialog.tsx:61
+#: src/features/help/contribute-dialog.tsx:71
 #: src/features/help/index.tsx:34
 msgid "Ask a question"
 msgstr "Soru sor"
 
-#: src/features/help/contribute-dialog.tsx:62
+#: src/features/help/contribute-dialog.tsx:72
 msgid "Ask the community on the Mochi users mailing list. Be specific about what you've tried so far."
 msgstr "Mochi kullanıcı posta listesinde topluluğa sorun. Şimdiye kadar denediklerinizi açıkça belirtin."
 
@@ -137,9 +137,13 @@ msgstr "Ana sayfaya dön"
 msgid "Boost interest"
 msgstr "İlgiyi artır"
 
-#: src/features/help/contribute-dialog.tsx:74
+#: src/features/help/contribute-dialog.tsx:85
 msgid "Brief summary of the problem"
 msgstr "Sorunun kısa özeti"
+
+#: src/features/help/contribute-dialog.tsx:89
+msgid "Bug report submitted."
+msgstr ""
 
 #: ../../../lib/web/src/components/responsive-confirm-dialog.tsx:64
 #: ../../../lib/web/src/components/travelling-picker.tsx:292
@@ -148,15 +152,15 @@ msgstr "Sorunun kısa özeti"
 #: ../../../lib/web/src/features/access/access-list.tsx:255
 #: ../../../lib/web/src/features/accounts/account-add.tsx:185
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:86
-#: src/features/help/contribute-dialog.tsx:219
+#: src/features/help/contribute-dialog.tsx:269
 msgid "Cancel"
 msgstr "İptal"
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:131
+#: ../../../lib/web/src/components/notification-category-button.tsx:135
 msgid "Category for this notification"
 msgstr "Bu bildirim için kategori"
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:115
+#: ../../../lib/web/src/components/notification-category-button.tsx:119
 msgid "Change notification category"
 msgstr "Bildirim kategorisini değiştir"
 
@@ -204,6 +208,7 @@ msgstr "Seçimi temizle (Escape)"
 #: ../../../lib/web/src/components/ui/dialog.tsx:75
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:318
 #: ../../../lib/web/src/components/ui/sheet.tsx:76
+#: src/features/help/contribute-dialog.tsx:257
 msgid "Close"
 msgstr "Kapat"
 
@@ -265,7 +270,7 @@ msgstr "Bu belge yüklenemedi. Lütfen daha sonra tekrar deneyin."
 msgid "Couldn't reach the destination yet"
 msgstr "Hedefe henüz ulaşılamadı"
 
-#: src/features/help/contribute-dialog.tsx:135
+#: src/features/help/contribute-dialog.tsx:159
 msgid "Couldn't submit"
 msgstr "Gönderilemedi"
 
@@ -294,12 +299,12 @@ msgstr "Varsayılan AI hesabı"
 msgid "Desc"
 msgstr "Azalan"
 
-#: src/features/help/contribute-dialog.tsx:72
+#: src/features/help/contribute-dialog.tsx:83
 msgid "Describe what went wrong. The Mochi development team will see it on the Mochi development project."
 msgstr "Neyin yanlış gittiğini anlatın. Mochi geliştirme ekibi bunu Mochi geliştirme projesinde görecek."
 
-#: src/features/help/contribute-dialog.tsx:65
-#: src/features/help/contribute-dialog.tsx:85
+#: src/features/help/contribute-dialog.tsx:75
+#: src/features/help/contribute-dialog.tsx:97
 msgid "Details"
 msgstr "Ayrıntılar"
 
@@ -322,11 +327,11 @@ msgstr "Web tarayıcıdan algıla"
 msgid "Direction"
 msgstr "Yön"
 
-#: src/features/help/contribute-dialog.tsx:244
+#: src/features/help/contribute-dialog.tsx:296
 msgid "Discard"
 msgstr "Vazgeç"
 
-#: src/features/help/contribute-dialog.tsx:241
+#: src/features/help/contribute-dialog.tsx:293
 msgid "Discard draft?"
 msgstr "Taslak silinsin mi?"
 
@@ -362,9 +367,13 @@ msgstr "Hesap kaldırılamadı"
 msgid "Failed to send verification code"
 msgstr "Doğrulama kodu gönderilemedi"
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:104
+#: ../../../lib/web/src/components/notification-category-button.tsx:108
 msgid "Failed to update category"
 msgstr "Kategori güncellenemedi"
+
+#: src/features/help/contribute-dialog.tsx:100
+msgid "Feature request submitted."
+msgstr ""
 
 #: ../../../lib/web/src/components/config-drawer.tsx:244
 msgid "Floating"
@@ -400,6 +409,10 @@ msgstr "Geri"
 msgid "Go to first page"
 msgstr "İlk sayfaya git"
 
+#: src/features/help/contribute-dialog.tsx:261
+msgid "Go to forum"
+msgstr ""
+
 #: ../../../lib/web/src/components/data-table/pagination.tsx:121
 msgid "Go to last page"
 msgstr "Son sayfaya git"
@@ -429,7 +442,7 @@ msgstr "Grup"
 msgid "Help"
 msgstr "Yardım"
 
-#: src/features/help/contribute-dialog.tsx:56
+#: src/features/help/contribute-dialog.tsx:65
 msgid "Hi, I'm…"
 msgstr "Merhaba, ben…"
 
@@ -460,7 +473,7 @@ msgstr "İç"
 msgid "Interests"
 msgstr "İlgi alanları"
 
-#: src/features/help/contribute-dialog.tsx:55
+#: src/features/help/contribute-dialog.tsx:64
 #: src/features/help/index.tsx:28
 msgid "Introduce yourself"
 msgstr "Kendinizi tanıtın"
@@ -469,7 +482,7 @@ msgstr "Kendinizi tanıtın"
 msgid "Invalid verification code"
 msgstr "Geçersiz doğrulama kodu"
 
-#: src/features/help/contribute-dialog.tsx:243
+#: src/features/help/contribute-dialog.tsx:295
 msgid "Keep editing"
 msgstr "Düzenlemeye devam et"
 
@@ -584,7 +597,7 @@ msgstr "Sonuç bulunamadı."
 msgid "No time zone found."
 msgstr "Saat dilimi bulunamadı."
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:135
+#: ../../../lib/web/src/components/notification-category-button.tsx:139
 msgid "No topic record yet — try again after the next notification."
 msgstr "Henüz konu kaydı yok — bir sonraki bildirimden sonra tekrar deneyin."
 
@@ -638,23 +651,23 @@ msgstr "Diğer"
 msgid "Owner"
 msgstr "Sahip"
 
-#: src/features/help/contribute-dialog.tsx:136
+#: src/features/help/contribute-dialog.tsx:160
 msgid "Please try again."
 msgstr "Lütfen tekrar deneyin."
 
-#: src/features/help/contribute-dialog.tsx:57
+#: src/features/help/contribute-dialog.tsx:66
 msgid "Post introduction"
 msgstr "Tanıtımı gönder"
 
-#: src/features/help/contribute-dialog.tsx:67
+#: src/features/help/contribute-dialog.tsx:77
 msgid "Post question"
 msgstr "Soruyu gönder"
 
-#: src/features/help/contribute-dialog.tsx:130
+#: src/features/help/contribute-dialog.tsx:153
 msgid "Posted"
 msgstr "Gönderildi"
 
-#: src/features/help/contribute-dialog.tsx:225
+#: src/features/help/contribute-dialog.tsx:275
 msgid "Posting…"
 msgstr "Gönderiliyor…"
 
@@ -673,7 +686,7 @@ msgstr "Gizlilik"
 msgid "Profile"
 msgstr "Profil"
 
-#: src/features/help/contribute-dialog.tsx:63
+#: src/features/help/contribute-dialog.tsx:73
 msgid "Question"
 msgstr "Soru"
 
@@ -716,12 +729,12 @@ msgstr "Erişim kaldırılsın mı?"
 msgid "Remove interest"
 msgstr "İlgiyi kaldır"
 
-#: src/features/help/contribute-dialog.tsx:71
+#: src/features/help/contribute-dialog.tsx:82
 #: src/features/help/index.tsx:40
 msgid "Report a bug"
 msgstr "Hata bildir"
 
-#: src/features/help/contribute-dialog.tsx:77
+#: src/features/help/contribute-dialog.tsx:88
 msgid "Report bug"
 msgstr "Hata bildir"
 
@@ -840,7 +853,7 @@ msgstr "Başlangıç ve hedef belirle"
 msgid "Settings"
 msgstr "Ayarlar"
 
-#: src/features/help/contribute-dialog.tsx:84
+#: src/features/help/contribute-dialog.tsx:96
 msgid "Short title for your idea"
 msgstr "Fikriniz için kısa bir başlık"
 
@@ -879,7 +892,7 @@ msgstr "Bozuk bir şey mi gördünüz? Mochi geliştirme projesinde bir hata bil
 msgid "Stay tuned though!"
 msgstr "Yine de takipte kal!"
 
-#: src/features/help/contribute-dialog.tsx:76
+#: src/features/help/contribute-dialog.tsx:87
 msgid "Steps to reproduce, what you expected, and what actually happened. Include your browser and device if relevant."
 msgstr "Tekrarlama adımları, beklediğiniz şey ve gerçekte ne olduğu. İlgiliyse tarayıcınızı ve cihazınızı da ekleyin."
 
@@ -891,17 +904,21 @@ msgstr "Bir konuda takıldınız mı? Mochi kullanıcı posta listesinde toplulu
 msgid "Subject"
 msgstr "Konu"
 
-#: src/features/help/contribute-dialog.tsx:81
+#: src/features/help/contribute-dialog.tsx:210
+msgid "Submitted successfully"
+msgstr ""
+
+#: src/features/help/contribute-dialog.tsx:93
 #: src/features/help/index.tsx:46
 msgid "Suggest a new feature"
 msgstr "Yeni bir özellik öner"
 
-#: src/features/help/contribute-dialog.tsx:87
+#: src/features/help/contribute-dialog.tsx:99
 msgid "Suggest feature"
 msgstr "Özellik öner"
 
-#: src/features/help/contribute-dialog.tsx:73
-#: src/features/help/contribute-dialog.tsx:83
+#: src/features/help/contribute-dialog.tsx:84
+#: src/features/help/contribute-dialog.tsx:95
 msgid "Summary"
 msgstr "Özet"
 
@@ -919,7 +936,7 @@ msgstr "Sistem"
 msgid "Tag"
 msgstr "Etiket"
 
-#: src/features/help/contribute-dialog.tsx:131
+#: src/features/help/contribute-dialog.tsx:154
 msgid "Taking you there now."
 msgstr "Sizi şimdi oraya götürüyoruz."
 
@@ -927,7 +944,7 @@ msgstr "Sizi şimdi oraya götürüyoruz."
 msgid "Teams/Apps"
 msgstr "Takımlar/Uygulamalar"
 
-#: src/features/help/contribute-dialog.tsx:82
+#: src/features/help/contribute-dialog.tsx:94
 msgid "Tell the Mochi development team what you'd like Mochi to do."
 msgstr "Mochi'nin ne yapmasını istediğinizi Mochi geliştirme ekibine anlatın."
 
@@ -1010,7 +1027,7 @@ msgstr "Aramak için yaz..."
 msgid "Unable to redirect to login. Please try again."
 msgstr "Giriş sayfasına yönlendirilemedi. Lütfen tekrar dene."
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:143
+#: ../../../lib/web/src/components/notification-category-button.tsx:147
 msgid "Unassigned"
 msgstr "Atanmamış"
 
@@ -1083,22 +1100,30 @@ msgstr "Çarşamba"
 msgid "Welcome to Mochi. Here's how to get started."
 msgstr "Mochi'ye hoş geldiniz. Başlamak için işte yapmanız gerekenler."
 
-#: src/features/help/contribute-dialog.tsx:75
+#: src/features/help/contribute-dialog.tsx:86
 msgid "What happened"
 msgstr "Ne oldu"
 
-#: src/features/help/contribute-dialog.tsx:66
+#: src/features/help/contribute-dialog.tsx:76
 msgid "What have you tried, what did you expect, where are you stuck?"
 msgstr "Neyi denedin, ne bekliyordun, nerede takıldın?"
 
-#: src/features/help/contribute-dialog.tsx:86
+#: src/features/help/contribute-dialog.tsx:98
 msgid "What would it do, who is it for, why does it matter?"
 msgstr "Ne yapacak, kimin için, neden önemli?"
 
-#: src/features/help/contribute-dialog.tsx:64
+#: src/features/help/contribute-dialog.tsx:74
 msgid "What you want to ask, in one line"
 msgstr "Sormak istediğin şey, tek satırda"
 
-#: src/features/help/contribute-dialog.tsx:242
+#: src/features/help/contribute-dialog.tsx:67
+msgid "Your introduction has been submitted and will appear after moderation."
+msgstr ""
+
+#: src/features/help/contribute-dialog.tsx:78
+msgid "Your question has been submitted and will appear after moderation."
+msgstr ""
+
+#: src/features/help/contribute-dialog.tsx:294
 msgid "Your text will be lost."
 msgstr "Metniniz kaybolacak."

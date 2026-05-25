@@ -53,7 +53,7 @@ msgstr "החשבון אומת"
 msgid "Add"
 msgstr "הוספה"
 
-#: src/features/help/contribute-dialog.tsx:206
+#: src/features/help/contribute-dialog.tsx:242
 msgid "Add a bit more detail."
 msgstr "הוסיפו עוד קצת פרטים."
 
@@ -114,12 +114,12 @@ msgstr "האם אתה בטוח שברצונך להתנתק? יהיה עליך ל
 msgid "Asc"
 msgstr "עולה"
 
-#: src/features/help/contribute-dialog.tsx:61
+#: src/features/help/contribute-dialog.tsx:71
 #: src/features/help/index.tsx:34
 msgid "Ask a question"
 msgstr "שאל שאלה"
 
-#: src/features/help/contribute-dialog.tsx:62
+#: src/features/help/contribute-dialog.tsx:72
 msgid "Ask the community on the Mochi users mailing list. Be specific about what you've tried so far."
 msgstr "שאל את הקהילה ברשימת התפוצה של משתמשי Mochi. היה ספציפי לגבי מה שניסית עד כה."
 
@@ -137,9 +137,13 @@ msgstr "חזרה לבית"
 msgid "Boost interest"
 msgstr "הגבר עניין"
 
-#: src/features/help/contribute-dialog.tsx:74
+#: src/features/help/contribute-dialog.tsx:85
 msgid "Brief summary of the problem"
 msgstr "סיכום קצר של הבעיה"
+
+#: src/features/help/contribute-dialog.tsx:89
+msgid "Bug report submitted."
+msgstr ""
 
 #: ../../../lib/web/src/components/responsive-confirm-dialog.tsx:64
 #: ../../../lib/web/src/components/travelling-picker.tsx:292
@@ -148,15 +152,15 @@ msgstr "סיכום קצר של הבעיה"
 #: ../../../lib/web/src/features/access/access-list.tsx:255
 #: ../../../lib/web/src/features/accounts/account-add.tsx:185
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:86
-#: src/features/help/contribute-dialog.tsx:219
+#: src/features/help/contribute-dialog.tsx:269
 msgid "Cancel"
 msgstr "ביטול"
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:131
+#: ../../../lib/web/src/components/notification-category-button.tsx:135
 msgid "Category for this notification"
 msgstr "קטגוריה עבור התראה זו"
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:115
+#: ../../../lib/web/src/components/notification-category-button.tsx:119
 msgid "Change notification category"
 msgstr "שנה קטגוריית התראה"
 
@@ -204,6 +208,7 @@ msgstr "נקה בחירה (Escape)"
 #: ../../../lib/web/src/components/ui/dialog.tsx:75
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:318
 #: ../../../lib/web/src/components/ui/sheet.tsx:76
+#: src/features/help/contribute-dialog.tsx:257
 msgid "Close"
 msgstr "סגור"
 
@@ -265,7 +270,7 @@ msgstr "לא ניתן היה לטעון מסמך זה. אנא נסה שוב מא
 msgid "Couldn't reach the destination yet"
 msgstr "לא הצלחנו להגיע ליעד עדיין"
 
-#: src/features/help/contribute-dialog.tsx:135
+#: src/features/help/contribute-dialog.tsx:159
 msgid "Couldn't submit"
 msgstr "השליחה נכשלה"
 
@@ -294,12 +299,12 @@ msgstr "חשבון AI ברירת מחדל"
 msgid "Desc"
 msgstr "יורד"
 
-#: src/features/help/contribute-dialog.tsx:72
+#: src/features/help/contribute-dialog.tsx:83
 msgid "Describe what went wrong. The Mochi development team will see it on the Mochi development project."
 msgstr "תאר מה השתבש. צוות הפיתוח של Mochi יראה זאת בפרויקט הפיתוח של Mochi."
 
-#: src/features/help/contribute-dialog.tsx:65
-#: src/features/help/contribute-dialog.tsx:85
+#: src/features/help/contribute-dialog.tsx:75
+#: src/features/help/contribute-dialog.tsx:97
 msgid "Details"
 msgstr "פרטים"
 
@@ -322,11 +327,11 @@ msgstr "זיהוי מהדפדפן"
 msgid "Direction"
 msgstr "כיוון"
 
-#: src/features/help/contribute-dialog.tsx:244
+#: src/features/help/contribute-dialog.tsx:296
 msgid "Discard"
 msgstr "מחיקה"
 
-#: src/features/help/contribute-dialog.tsx:241
+#: src/features/help/contribute-dialog.tsx:293
 msgid "Discard draft?"
 msgstr "למחוק את הטיוטה?"
 
@@ -362,9 +367,13 @@ msgstr "הסרת החשבון נכשלה"
 msgid "Failed to send verification code"
 msgstr "שליחת קוד האימות נכשלה"
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:104
+#: ../../../lib/web/src/components/notification-category-button.tsx:108
 msgid "Failed to update category"
 msgstr "עדכון הקטגוריה נכשל"
+
+#: src/features/help/contribute-dialog.tsx:100
+msgid "Feature request submitted."
+msgstr ""
 
 #: ../../../lib/web/src/components/config-drawer.tsx:244
 msgid "Floating"
@@ -400,6 +409,10 @@ msgstr "חזרה"
 msgid "Go to first page"
 msgstr "עבור לדף הראשון"
 
+#: src/features/help/contribute-dialog.tsx:261
+msgid "Go to forum"
+msgstr ""
+
 #: ../../../lib/web/src/components/data-table/pagination.tsx:121
 msgid "Go to last page"
 msgstr "עבור לדף האחרון"
@@ -429,7 +442,7 @@ msgstr "קבוצה"
 msgid "Help"
 msgstr "עזרה"
 
-#: src/features/help/contribute-dialog.tsx:56
+#: src/features/help/contribute-dialog.tsx:65
 msgid "Hi, I'm…"
 msgstr "היי, אני…"
 
@@ -460,7 +473,7 @@ msgstr "פנימי"
 msgid "Interests"
 msgstr "תחומי עניין"
 
-#: src/features/help/contribute-dialog.tsx:55
+#: src/features/help/contribute-dialog.tsx:64
 #: src/features/help/index.tsx:28
 msgid "Introduce yourself"
 msgstr "הצג את עצמך"
@@ -469,7 +482,7 @@ msgstr "הצג את עצמך"
 msgid "Invalid verification code"
 msgstr "קוד אימות לא תקין"
 
-#: src/features/help/contribute-dialog.tsx:243
+#: src/features/help/contribute-dialog.tsx:295
 msgid "Keep editing"
 msgstr "להמשיך לערוך"
 
@@ -584,7 +597,7 @@ msgstr "לא נמצאו תוצאות."
 msgid "No time zone found."
 msgstr "לא נמצא אזור זמן."
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:135
+#: ../../../lib/web/src/components/notification-category-button.tsx:139
 msgid "No topic record yet — try again after the next notification."
 msgstr "עדיין אין רשומת נושא — נסה שוב לאחר ההתראה הבאה."
 
@@ -638,23 +651,23 @@ msgstr "אחר"
 msgid "Owner"
 msgstr "בעלים"
 
-#: src/features/help/contribute-dialog.tsx:136
+#: src/features/help/contribute-dialog.tsx:160
 msgid "Please try again."
 msgstr "אנא נסה שוב."
 
-#: src/features/help/contribute-dialog.tsx:57
+#: src/features/help/contribute-dialog.tsx:66
 msgid "Post introduction"
 msgstr "פרסם הצגה עצמית"
 
-#: src/features/help/contribute-dialog.tsx:67
+#: src/features/help/contribute-dialog.tsx:77
 msgid "Post question"
 msgstr "פרסם שאלה"
 
-#: src/features/help/contribute-dialog.tsx:130
+#: src/features/help/contribute-dialog.tsx:153
 msgid "Posted"
 msgstr "פורסם"
 
-#: src/features/help/contribute-dialog.tsx:225
+#: src/features/help/contribute-dialog.tsx:275
 msgid "Posting…"
 msgstr "מפרסם…"
 
@@ -673,7 +686,7 @@ msgstr "פרטיות"
 msgid "Profile"
 msgstr "פרופיל"
 
-#: src/features/help/contribute-dialog.tsx:63
+#: src/features/help/contribute-dialog.tsx:73
 msgid "Question"
 msgstr "שאלה"
 
@@ -716,12 +729,12 @@ msgstr "להסיר גישה?"
 msgid "Remove interest"
 msgstr "הסר עניין"
 
-#: src/features/help/contribute-dialog.tsx:71
+#: src/features/help/contribute-dialog.tsx:82
 #: src/features/help/index.tsx:40
 msgid "Report a bug"
 msgstr "דווח על באג"
 
-#: src/features/help/contribute-dialog.tsx:77
+#: src/features/help/contribute-dialog.tsx:88
 msgid "Report bug"
 msgstr "דווח על באג"
 
@@ -840,7 +853,7 @@ msgstr "קבע מקור ויעד"
 msgid "Settings"
 msgstr "הגדרות"
 
-#: src/features/help/contribute-dialog.tsx:84
+#: src/features/help/contribute-dialog.tsx:96
 msgid "Short title for your idea"
 msgstr "כותרת קצרה לרעיון שלך"
 
@@ -879,7 +892,7 @@ msgstr "מצאתם משהו שבור? פתחו כרטיס באג בפרויקט 
 msgid "Stay tuned though!"
 msgstr "הישאר מעודכן!"
 
-#: src/features/help/contribute-dialog.tsx:76
+#: src/features/help/contribute-dialog.tsx:87
 msgid "Steps to reproduce, what you expected, and what actually happened. Include your browser and device if relevant."
 msgstr "שלבים לשחזור, מה ציפיתם שיקרה, ומה קרה בפועל. כללו את הדפדפן והמכשיר שלכם אם רלוונטי."
 
@@ -891,17 +904,21 @@ msgstr "תקועים על משהו? שאלו את הקהילה ברשימת הת
 msgid "Subject"
 msgstr "נושא"
 
-#: src/features/help/contribute-dialog.tsx:81
+#: src/features/help/contribute-dialog.tsx:210
+msgid "Submitted successfully"
+msgstr ""
+
+#: src/features/help/contribute-dialog.tsx:93
 #: src/features/help/index.tsx:46
 msgid "Suggest a new feature"
 msgstr "הצעת תכונה חדשה"
 
-#: src/features/help/contribute-dialog.tsx:87
+#: src/features/help/contribute-dialog.tsx:99
 msgid "Suggest feature"
 msgstr "הצע תכונה"
 
-#: src/features/help/contribute-dialog.tsx:73
-#: src/features/help/contribute-dialog.tsx:83
+#: src/features/help/contribute-dialog.tsx:84
+#: src/features/help/contribute-dialog.tsx:95
 msgid "Summary"
 msgstr "סיכום"
 
@@ -919,7 +936,7 @@ msgstr "מערכת"
 msgid "Tag"
 msgstr "תגית"
 
-#: src/features/help/contribute-dialog.tsx:131
+#: src/features/help/contribute-dialog.tsx:154
 msgid "Taking you there now."
 msgstr "לוקחים אתכם לשם עכשיו."
 
@@ -927,7 +944,7 @@ msgstr "לוקחים אתכם לשם עכשיו."
 msgid "Teams/Apps"
 msgstr "צוותים/אפליקציות"
 
-#: src/features/help/contribute-dialog.tsx:82
+#: src/features/help/contribute-dialog.tsx:94
 msgid "Tell the Mochi development team what you'd like Mochi to do."
 msgstr "ספר לצוות הפיתוח של Mochi מה היית רוצה ש-Mochi יעשה."
 
@@ -1010,7 +1027,7 @@ msgstr "הקלד לחיפוש..."
 msgid "Unable to redirect to login. Please try again."
 msgstr "לא ניתן להפנות להתחברות. נסה שוב."
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:143
+#: ../../../lib/web/src/components/notification-category-button.tsx:147
 msgid "Unassigned"
 msgstr "לא משויך"
 
@@ -1083,22 +1100,30 @@ msgstr "יום רביעי"
 msgid "Welcome to Mochi. Here's how to get started."
 msgstr "ברוכים הבאים ל-Mochi. הנה איך להתחיל."
 
-#: src/features/help/contribute-dialog.tsx:75
+#: src/features/help/contribute-dialog.tsx:86
 msgid "What happened"
 msgstr "מה קרה"
 
-#: src/features/help/contribute-dialog.tsx:66
+#: src/features/help/contribute-dialog.tsx:76
 msgid "What have you tried, what did you expect, where are you stuck?"
 msgstr "מה ניסית, מה ציפית, איפה אתה תקוע?"
 
-#: src/features/help/contribute-dialog.tsx:86
+#: src/features/help/contribute-dialog.tsx:98
 msgid "What would it do, who is it for, why does it matter?"
 msgstr "מה היא תעשה, למי היא מיועדת, למה זה חשוב?"
 
-#: src/features/help/contribute-dialog.tsx:64
+#: src/features/help/contribute-dialog.tsx:74
 msgid "What you want to ask, in one line"
 msgstr "מה אתה רוצה לשאול, בשורה אחת"
 
-#: src/features/help/contribute-dialog.tsx:242
+#: src/features/help/contribute-dialog.tsx:67
+msgid "Your introduction has been submitted and will appear after moderation."
+msgstr ""
+
+#: src/features/help/contribute-dialog.tsx:78
+msgid "Your question has been submitted and will appear after moderation."
+msgstr ""
+
+#: src/features/help/contribute-dialog.tsx:294
 msgid "Your text will be lost."
 msgstr "הטקסט שלכם יאבד."

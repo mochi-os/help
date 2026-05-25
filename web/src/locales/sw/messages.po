@@ -53,7 +53,7 @@ msgstr "Akaunti imethibitishwa"
 msgid "Add"
 msgstr "Ongeza"
 
-#: src/features/help/contribute-dialog.tsx:206
+#: src/features/help/contribute-dialog.tsx:242
 msgid "Add a bit more detail."
 msgstr "Ongeza maelezo zaidi kidogo."
 
@@ -114,12 +114,12 @@ msgstr "Una uhakika unataka kuondoka? Utahitaji kuingia tena kufikia akaunti yak
 msgid "Asc"
 msgstr "Pandisha"
 
-#: src/features/help/contribute-dialog.tsx:61
+#: src/features/help/contribute-dialog.tsx:71
 #: src/features/help/index.tsx:34
 msgid "Ask a question"
 msgstr "Uliza swali"
 
-#: src/features/help/contribute-dialog.tsx:62
+#: src/features/help/contribute-dialog.tsx:72
 msgid "Ask the community on the Mochi users mailing list. Be specific about what you've tried so far."
 msgstr "Uliza jumuiya kwenye orodha ya barua pepe ya watumiaji wa Mochi. Eleza kwa undani kile umejaribu hadi sasa."
 
@@ -137,9 +137,13 @@ msgstr "Rudi mwanzo"
 msgid "Boost interest"
 msgstr "Ongeza mvuto"
 
-#: src/features/help/contribute-dialog.tsx:74
+#: src/features/help/contribute-dialog.tsx:85
 msgid "Brief summary of the problem"
 msgstr "Muhtasari mfupi wa tatizo"
+
+#: src/features/help/contribute-dialog.tsx:89
+msgid "Bug report submitted."
+msgstr ""
 
 #: ../../../lib/web/src/components/responsive-confirm-dialog.tsx:64
 #: ../../../lib/web/src/components/travelling-picker.tsx:292
@@ -148,15 +152,15 @@ msgstr "Muhtasari mfupi wa tatizo"
 #: ../../../lib/web/src/features/access/access-list.tsx:255
 #: ../../../lib/web/src/features/accounts/account-add.tsx:185
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:86
-#: src/features/help/contribute-dialog.tsx:219
+#: src/features/help/contribute-dialog.tsx:269
 msgid "Cancel"
 msgstr "Ghairi"
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:131
+#: ../../../lib/web/src/components/notification-category-button.tsx:135
 msgid "Category for this notification"
 msgstr "Kategoria ya arifa hii"
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:115
+#: ../../../lib/web/src/components/notification-category-button.tsx:119
 msgid "Change notification category"
 msgstr "Badilisha kategoria ya arifa"
 
@@ -204,6 +208,7 @@ msgstr "Futa uteuzi (Escape)"
 #: ../../../lib/web/src/components/ui/dialog.tsx:75
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:318
 #: ../../../lib/web/src/components/ui/sheet.tsx:76
+#: src/features/help/contribute-dialog.tsx:257
 msgid "Close"
 msgstr "Funga"
 
@@ -265,7 +270,7 @@ msgstr "Haikuweza kupakia hati hii. Tafadhali jaribu tena baadaye."
 msgid "Couldn't reach the destination yet"
 msgstr "Bado haikuweza kufika lengwa"
 
-#: src/features/help/contribute-dialog.tsx:135
+#: src/features/help/contribute-dialog.tsx:159
 msgid "Couldn't submit"
 msgstr "Haikuweza kuwasilisha"
 
@@ -294,12 +299,12 @@ msgstr "Akaunti chaguo-msingi ya AI"
 msgid "Desc"
 msgstr "Shusha"
 
-#: src/features/help/contribute-dialog.tsx:72
+#: src/features/help/contribute-dialog.tsx:83
 msgid "Describe what went wrong. The Mochi development team will see it on the Mochi development project."
 msgstr "Eleza kilichokwenda vibaya. Timu ya maendeleo ya Mochi itaiona kwenye mradi wa maendeleo wa Mochi."
 
-#: src/features/help/contribute-dialog.tsx:65
-#: src/features/help/contribute-dialog.tsx:85
+#: src/features/help/contribute-dialog.tsx:75
+#: src/features/help/contribute-dialog.tsx:97
 msgid "Details"
 msgstr "Undani"
 
@@ -322,11 +327,11 @@ msgstr "Tambua kutoka kwa kivinjari cha wavuti"
 msgid "Direction"
 msgstr "Mwelekeo"
 
-#: src/features/help/contribute-dialog.tsx:244
+#: src/features/help/contribute-dialog.tsx:296
 msgid "Discard"
 msgstr "Tupa"
 
-#: src/features/help/contribute-dialog.tsx:241
+#: src/features/help/contribute-dialog.tsx:293
 msgid "Discard draft?"
 msgstr "Tupa rasimu?"
 
@@ -362,9 +367,13 @@ msgstr "Imeshindwa kuondoa akaunti"
 msgid "Failed to send verification code"
 msgstr "Imeshindwa kutuma msimbo wa uthibitisho"
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:104
+#: ../../../lib/web/src/components/notification-category-button.tsx:108
 msgid "Failed to update category"
 msgstr "Imeshindwa kusasisha kategoria"
+
+#: src/features/help/contribute-dialog.tsx:100
+msgid "Feature request submitted."
+msgstr ""
 
 #: ../../../lib/web/src/components/config-drawer.tsx:244
 msgid "Floating"
@@ -400,6 +409,10 @@ msgstr "Rudi"
 msgid "Go to first page"
 msgstr "Nenda kwenye ukurasa wa kwanza"
 
+#: src/features/help/contribute-dialog.tsx:261
+msgid "Go to forum"
+msgstr ""
+
 #: ../../../lib/web/src/components/data-table/pagination.tsx:121
 msgid "Go to last page"
 msgstr "Nenda kwenye ukurasa wa mwisho"
@@ -429,7 +442,7 @@ msgstr "Kikundi"
 msgid "Help"
 msgstr "Msaada"
 
-#: src/features/help/contribute-dialog.tsx:56
+#: src/features/help/contribute-dialog.tsx:65
 msgid "Hi, I'm…"
 msgstr "Hujambo, mimi ni…"
 
@@ -460,7 +473,7 @@ msgstr "Ndani"
 msgid "Interests"
 msgstr "Mivuto"
 
-#: src/features/help/contribute-dialog.tsx:55
+#: src/features/help/contribute-dialog.tsx:64
 #: src/features/help/index.tsx:28
 msgid "Introduce yourself"
 msgstr "Jitambulishe"
@@ -469,7 +482,7 @@ msgstr "Jitambulishe"
 msgid "Invalid verification code"
 msgstr "Msimbo wa uthibitisho batili"
 
-#: src/features/help/contribute-dialog.tsx:243
+#: src/features/help/contribute-dialog.tsx:295
 msgid "Keep editing"
 msgstr "Endelea kuhariri"
 
@@ -584,7 +597,7 @@ msgstr "Hakuna matokeo yaliyopatikana."
 msgid "No time zone found."
 msgstr "Hakuna saa za eneo zilizopatikana."
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:135
+#: ../../../lib/web/src/components/notification-category-button.tsx:139
 msgid "No topic record yet — try again after the next notification."
 msgstr "Hakuna rekodi ya mada bado — jaribu tena baada ya arifa inayofuata."
 
@@ -638,23 +651,23 @@ msgstr "Nyingine"
 msgid "Owner"
 msgstr "Mmiliki"
 
-#: src/features/help/contribute-dialog.tsx:136
+#: src/features/help/contribute-dialog.tsx:160
 msgid "Please try again."
 msgstr "Tafadhali jaribu tena."
 
-#: src/features/help/contribute-dialog.tsx:57
+#: src/features/help/contribute-dialog.tsx:66
 msgid "Post introduction"
 msgstr "Tuma utangulizi"
 
-#: src/features/help/contribute-dialog.tsx:67
+#: src/features/help/contribute-dialog.tsx:77
 msgid "Post question"
 msgstr "Tuma swali"
 
-#: src/features/help/contribute-dialog.tsx:130
+#: src/features/help/contribute-dialog.tsx:153
 msgid "Posted"
 msgstr "Imechapishwa"
 
-#: src/features/help/contribute-dialog.tsx:225
+#: src/features/help/contribute-dialog.tsx:275
 msgid "Posting…"
 msgstr "Inachapisha…"
 
@@ -673,7 +686,7 @@ msgstr "Faragha"
 msgid "Profile"
 msgstr "Wasifu"
 
-#: src/features/help/contribute-dialog.tsx:63
+#: src/features/help/contribute-dialog.tsx:73
 msgid "Question"
 msgstr "Swali"
 
@@ -716,12 +729,12 @@ msgstr "Ondoa ufikiaji?"
 msgid "Remove interest"
 msgstr "Ondoa shauku"
 
-#: src/features/help/contribute-dialog.tsx:71
+#: src/features/help/contribute-dialog.tsx:82
 #: src/features/help/index.tsx:40
 msgid "Report a bug"
 msgstr "Ripoti hitilafu"
 
-#: src/features/help/contribute-dialog.tsx:77
+#: src/features/help/contribute-dialog.tsx:88
 msgid "Report bug"
 msgstr "Ripoti hitilafu"
 
@@ -840,7 +853,7 @@ msgstr "Weka chanzo na marudio"
 msgid "Settings"
 msgstr "Mipangilio"
 
-#: src/features/help/contribute-dialog.tsx:84
+#: src/features/help/contribute-dialog.tsx:96
 msgid "Short title for your idea"
 msgstr "Kichwa kifupi cha wazo lako"
 
@@ -879,7 +892,7 @@ msgstr "Umeona kitu kibovu? Wasilisha tikiti ya bug kwenye mradi wa maendeleo wa
 msgid "Stay tuned though!"
 msgstr "Endelea kufuatilia!"
 
-#: src/features/help/contribute-dialog.tsx:76
+#: src/features/help/contribute-dialog.tsx:87
 msgid "Steps to reproduce, what you expected, and what actually happened. Include your browser and device if relevant."
 msgstr "Hatua za kurudia, ulichotarajia, na kilichotokea hasa. Jumuisha kivinjari na kifaa chako ikiwa kinahusika."
 
@@ -891,17 +904,21 @@ msgstr "Umekwama kwenye kitu? Uliza jamii kwenye orodha ya barua pepe ya watumia
 msgid "Subject"
 msgstr "Mada"
 
-#: src/features/help/contribute-dialog.tsx:81
+#: src/features/help/contribute-dialog.tsx:210
+msgid "Submitted successfully"
+msgstr ""
+
+#: src/features/help/contribute-dialog.tsx:93
 #: src/features/help/index.tsx:46
 msgid "Suggest a new feature"
 msgstr "Pendekeza kipengele kipya"
 
-#: src/features/help/contribute-dialog.tsx:87
+#: src/features/help/contribute-dialog.tsx:99
 msgid "Suggest feature"
 msgstr "Pendekeza kipengele"
 
-#: src/features/help/contribute-dialog.tsx:73
-#: src/features/help/contribute-dialog.tsx:83
+#: src/features/help/contribute-dialog.tsx:84
+#: src/features/help/contribute-dialog.tsx:95
 msgid "Summary"
 msgstr "Muhtasari"
 
@@ -919,7 +936,7 @@ msgstr "Mfumo"
 msgid "Tag"
 msgstr "Lebo"
 
-#: src/features/help/contribute-dialog.tsx:131
+#: src/features/help/contribute-dialog.tsx:154
 msgid "Taking you there now."
 msgstr "Tunakupeleka huko sasa."
 
@@ -927,7 +944,7 @@ msgstr "Tunakupeleka huko sasa."
 msgid "Teams/Apps"
 msgstr "Timu/Programu"
 
-#: src/features/help/contribute-dialog.tsx:82
+#: src/features/help/contribute-dialog.tsx:94
 msgid "Tell the Mochi development team what you'd like Mochi to do."
 msgstr "Iambie timu ya maendeleo ya Mochi kile ungependa Mochi ifanye."
 
@@ -1010,7 +1027,7 @@ msgstr "Andika kutafuta..."
 msgid "Unable to redirect to login. Please try again."
 msgstr "Imeshindwa kuelekeza upya kwenye kuingia. Tafadhali jaribu tena."
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:143
+#: ../../../lib/web/src/components/notification-category-button.tsx:147
 msgid "Unassigned"
 msgstr "Haijapewa"
 
@@ -1083,22 +1100,30 @@ msgstr "Jumatano"
 msgid "Welcome to Mochi. Here's how to get started."
 msgstr "Karibu Mochi. Hivi ndivyo unavyoanza."
 
-#: src/features/help/contribute-dialog.tsx:75
+#: src/features/help/contribute-dialog.tsx:86
 msgid "What happened"
 msgstr "Nini kilitokea"
 
-#: src/features/help/contribute-dialog.tsx:66
+#: src/features/help/contribute-dialog.tsx:76
 msgid "What have you tried, what did you expect, where are you stuck?"
 msgstr "Umejaribu nini, ulitarajia nini, umekwama wapi?"
 
-#: src/features/help/contribute-dialog.tsx:86
+#: src/features/help/contribute-dialog.tsx:98
 msgid "What would it do, who is it for, why does it matter?"
 msgstr "Itafanya nini, ni ya nani, kwa nini ni muhimu?"
 
-#: src/features/help/contribute-dialog.tsx:64
+#: src/features/help/contribute-dialog.tsx:74
 msgid "What you want to ask, in one line"
 msgstr "Unachotaka kuuliza, kwa mstari mmoja"
 
-#: src/features/help/contribute-dialog.tsx:242
+#: src/features/help/contribute-dialog.tsx:67
+msgid "Your introduction has been submitted and will appear after moderation."
+msgstr ""
+
+#: src/features/help/contribute-dialog.tsx:78
+msgid "Your question has been submitted and will appear after moderation."
+msgstr ""
+
+#: src/features/help/contribute-dialog.tsx:294
 msgid "Your text will be lost."
 msgstr "Maandishi yako yatapotea."

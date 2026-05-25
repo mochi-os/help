@@ -53,7 +53,7 @@ msgstr "Тіркелгі расталды"
 msgid "Add"
 msgstr "Қосу"
 
-#: src/features/help/contribute-dialog.tsx:206
+#: src/features/help/contribute-dialog.tsx:242
 msgid "Add a bit more detail."
 msgstr "Сәл толығырақ мәлімет қосыңыз."
 
@@ -114,12 +114,12 @@ msgstr "Шынымен шыққыңыз келе ме? Тіркелгіге қо
 msgid "Asc"
 msgstr "Өсу ретімен"
 
-#: src/features/help/contribute-dialog.tsx:61
+#: src/features/help/contribute-dialog.tsx:71
 #: src/features/help/index.tsx:34
 msgid "Ask a question"
 msgstr "Сұрақ қою"
 
-#: src/features/help/contribute-dialog.tsx:62
+#: src/features/help/contribute-dialog.tsx:72
 msgid "Ask the community on the Mochi users mailing list. Be specific about what you've tried so far."
 msgstr "Mochi пайдаланушыларының тарату тізімінде қауымдастықтан сұраңыз. Осы уақытқа дейін не істегеніңізді нақты көрсетіңіз."
 
@@ -137,9 +137,13 @@ msgstr "Басты бетке оралу"
 msgid "Boost interest"
 msgstr "Қызығушылықты арттыру"
 
-#: src/features/help/contribute-dialog.tsx:74
+#: src/features/help/contribute-dialog.tsx:85
 msgid "Brief summary of the problem"
 msgstr "Мәселенің қысқаша сипаттамасы"
+
+#: src/features/help/contribute-dialog.tsx:89
+msgid "Bug report submitted."
+msgstr ""
 
 #: ../../../lib/web/src/components/responsive-confirm-dialog.tsx:64
 #: ../../../lib/web/src/components/travelling-picker.tsx:292
@@ -148,15 +152,15 @@ msgstr "Мәселенің қысқаша сипаттамасы"
 #: ../../../lib/web/src/features/access/access-list.tsx:255
 #: ../../../lib/web/src/features/accounts/account-add.tsx:185
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:86
-#: src/features/help/contribute-dialog.tsx:219
+#: src/features/help/contribute-dialog.tsx:269
 msgid "Cancel"
 msgstr "Болдырмау"
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:131
+#: ../../../lib/web/src/components/notification-category-button.tsx:135
 msgid "Category for this notification"
 msgstr "Осы хабарландырудың санаты"
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:115
+#: ../../../lib/web/src/components/notification-category-button.tsx:119
 msgid "Change notification category"
 msgstr "Хабарландыру санатын өзгерту"
 
@@ -204,6 +208,7 @@ msgstr "Таңдауды тазалау (Escape)"
 #: ../../../lib/web/src/components/ui/dialog.tsx:75
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:318
 #: ../../../lib/web/src/components/ui/sheet.tsx:76
+#: src/features/help/contribute-dialog.tsx:257
 msgid "Close"
 msgstr "Жабу"
 
@@ -265,7 +270,7 @@ msgstr "Бұл құжатты жүктеу мүмкін болмады. Кейі
 msgid "Couldn't reach the destination yet"
 msgstr "Әлі межелі жерге жете алмадық"
 
-#: src/features/help/contribute-dialog.tsx:135
+#: src/features/help/contribute-dialog.tsx:159
 msgid "Couldn't submit"
 msgstr "Жіберу мүмкін болмады"
 
@@ -294,12 +299,12 @@ msgstr "Әдепкі AI тіркелгісі"
 msgid "Desc"
 msgstr "Кему ретімен"
 
-#: src/features/help/contribute-dialog.tsx:72
+#: src/features/help/contribute-dialog.tsx:83
 msgid "Describe what went wrong. The Mochi development team will see it on the Mochi development project."
 msgstr "Не дұрыс болмағанын сипаттаңыз. Mochi әзірлеу тобы оны Mochi әзірлеу жобасында көреді."
 
-#: src/features/help/contribute-dialog.tsx:65
-#: src/features/help/contribute-dialog.tsx:85
+#: src/features/help/contribute-dialog.tsx:75
+#: src/features/help/contribute-dialog.tsx:97
 msgid "Details"
 msgstr "Мәліметтер"
 
@@ -322,11 +327,11 @@ msgstr "Веб-браузерден анықтау"
 msgid "Direction"
 msgstr "Бағыт"
 
-#: src/features/help/contribute-dialog.tsx:244
+#: src/features/help/contribute-dialog.tsx:296
 msgid "Discard"
 msgstr "Алып тастау"
 
-#: src/features/help/contribute-dialog.tsx:241
+#: src/features/help/contribute-dialog.tsx:293
 msgid "Discard draft?"
 msgstr "Жобаны алып тастау керек пе?"
 
@@ -362,9 +367,13 @@ msgstr "Тіркелгіні жою сәтсіз аяқталды"
 msgid "Failed to send verification code"
 msgstr "Растау кодын жіберу сәтсіз аяқталды"
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:104
+#: ../../../lib/web/src/components/notification-category-button.tsx:108
 msgid "Failed to update category"
 msgstr "Санатты жаңарту сәтсіз аяқталды"
+
+#: src/features/help/contribute-dialog.tsx:100
+msgid "Feature request submitted."
+msgstr ""
 
 #: ../../../lib/web/src/components/config-drawer.tsx:244
 msgid "Floating"
@@ -400,6 +409,10 @@ msgstr "Артқа"
 msgid "Go to first page"
 msgstr "Бірінші бетке өту"
 
+#: src/features/help/contribute-dialog.tsx:261
+msgid "Go to forum"
+msgstr ""
+
 #: ../../../lib/web/src/components/data-table/pagination.tsx:121
 msgid "Go to last page"
 msgstr "Соңғы бетке өту"
@@ -429,7 +442,7 @@ msgstr "Топ"
 msgid "Help"
 msgstr "Анықтама"
 
-#: src/features/help/contribute-dialog.tsx:56
+#: src/features/help/contribute-dialog.tsx:65
 msgid "Hi, I'm…"
 msgstr "Сәлем, мен…"
 
@@ -460,7 +473,7 @@ msgstr "Ішкі"
 msgid "Interests"
 msgstr "Қызығушылықтар"
 
-#: src/features/help/contribute-dialog.tsx:55
+#: src/features/help/contribute-dialog.tsx:64
 #: src/features/help/index.tsx:28
 msgid "Introduce yourself"
 msgstr "Өзіңізді таныстырыңыз"
@@ -469,7 +482,7 @@ msgstr "Өзіңізді таныстырыңыз"
 msgid "Invalid verification code"
 msgstr "Жарамсыз растау коды"
 
-#: src/features/help/contribute-dialog.tsx:243
+#: src/features/help/contribute-dialog.tsx:295
 msgid "Keep editing"
 msgstr "Өңдеуді жалғастыру"
 
@@ -584,7 +597,7 @@ msgstr "Нәтижелер табылмады."
 msgid "No time zone found."
 msgstr "Уақыт белдеуі табылмады."
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:135
+#: ../../../lib/web/src/components/notification-category-button.tsx:139
 msgid "No topic record yet — try again after the next notification."
 msgstr "Тақырып жазбасы әлі жоқ — келесі хабарландырудан кейін қайталап көріңіз."
 
@@ -638,23 +651,23 @@ msgstr "Басқа"
 msgid "Owner"
 msgstr "Иесі"
 
-#: src/features/help/contribute-dialog.tsx:136
+#: src/features/help/contribute-dialog.tsx:160
 msgid "Please try again."
 msgstr "Қайталап көріңіз."
 
-#: src/features/help/contribute-dialog.tsx:57
+#: src/features/help/contribute-dialog.tsx:66
 msgid "Post introduction"
 msgstr "Таныстыруды жіберу"
 
-#: src/features/help/contribute-dialog.tsx:67
+#: src/features/help/contribute-dialog.tsx:77
 msgid "Post question"
 msgstr "Сұрақты жіберу"
 
-#: src/features/help/contribute-dialog.tsx:130
+#: src/features/help/contribute-dialog.tsx:153
 msgid "Posted"
 msgstr "Жарияланды"
 
-#: src/features/help/contribute-dialog.tsx:225
+#: src/features/help/contribute-dialog.tsx:275
 msgid "Posting…"
 msgstr "Жариялау…"
 
@@ -673,7 +686,7 @@ msgstr "Құпиялылық"
 msgid "Profile"
 msgstr "Профиль"
 
-#: src/features/help/contribute-dialog.tsx:63
+#: src/features/help/contribute-dialog.tsx:73
 msgid "Question"
 msgstr "Сұрақ"
 
@@ -716,12 +729,12 @@ msgstr "Қатынауды жою керек пе?"
 msgid "Remove interest"
 msgstr "Қызығушылықты жою"
 
-#: src/features/help/contribute-dialog.tsx:71
+#: src/features/help/contribute-dialog.tsx:82
 #: src/features/help/index.tsx:40
 msgid "Report a bug"
 msgstr "Қате туралы хабарлау"
 
-#: src/features/help/contribute-dialog.tsx:77
+#: src/features/help/contribute-dialog.tsx:88
 msgid "Report bug"
 msgstr "Қате туралы хабарлау"
 
@@ -840,7 +853,7 @@ msgstr "Шығу және бару нүктесін орнату"
 msgid "Settings"
 msgstr "Параметрлер"
 
-#: src/features/help/contribute-dialog.tsx:84
+#: src/features/help/contribute-dialog.tsx:96
 msgid "Short title for your idea"
 msgstr "Идеяңызға қысқаша атау"
 
@@ -879,7 +892,7 @@ msgstr "Бір нәрсенің бүлінгенін байқадыңыз ба? 
 msgid "Stay tuned though!"
 msgstr "Хабарласып тұрыңыз!"
 
-#: src/features/help/contribute-dialog.tsx:76
+#: src/features/help/contribute-dialog.tsx:87
 msgid "Steps to reproduce, what you expected, and what actually happened. Include your browser and device if relevant."
 msgstr "Қайта жасау қадамдары, не күткеніңіз және не болғаны. Қажет болса, браузер мен құрылғыңызды қосыңыз."
 
@@ -891,17 +904,21 @@ msgstr "Бір нәрседе тоқтап қалдыңыз ба? Mochi пайд
 msgid "Subject"
 msgstr "Тақырып"
 
-#: src/features/help/contribute-dialog.tsx:81
+#: src/features/help/contribute-dialog.tsx:210
+msgid "Submitted successfully"
+msgstr ""
+
+#: src/features/help/contribute-dialog.tsx:93
 #: src/features/help/index.tsx:46
 msgid "Suggest a new feature"
 msgstr "Жаңа мүмкіндік ұсыну"
 
-#: src/features/help/contribute-dialog.tsx:87
+#: src/features/help/contribute-dialog.tsx:99
 msgid "Suggest feature"
 msgstr "Мүмкіндік ұсыну"
 
-#: src/features/help/contribute-dialog.tsx:73
-#: src/features/help/contribute-dialog.tsx:83
+#: src/features/help/contribute-dialog.tsx:84
+#: src/features/help/contribute-dialog.tsx:95
 msgid "Summary"
 msgstr "Қысқаша мазмұны"
 
@@ -919,7 +936,7 @@ msgstr "Жүйе"
 msgid "Tag"
 msgstr "Тег"
 
-#: src/features/help/contribute-dialog.tsx:131
+#: src/features/help/contribute-dialog.tsx:154
 msgid "Taking you there now."
 msgstr "Сізді қазір сонда апарамыз."
 
@@ -927,7 +944,7 @@ msgstr "Сізді қазір сонда апарамыз."
 msgid "Teams/Apps"
 msgstr "Командалар/Қолданбалар"
 
-#: src/features/help/contribute-dialog.tsx:82
+#: src/features/help/contribute-dialog.tsx:94
 msgid "Tell the Mochi development team what you'd like Mochi to do."
 msgstr "Mochi не істегенін қалайтыныңызды Mochi әзірлеу тобына айтыңыз."
 
@@ -1010,7 +1027,7 @@ msgstr "Іздеу үшін теріңіз..."
 msgid "Unable to redirect to login. Please try again."
 msgstr "Кіру бетіне қайта бағыттау мүмкін болмады. Қайталап көріңіз."
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:143
+#: ../../../lib/web/src/components/notification-category-button.tsx:147
 msgid "Unassigned"
 msgstr "Тағайындалмаған"
 
@@ -1083,22 +1100,30 @@ msgstr "Сәрсенбі"
 msgid "Welcome to Mochi. Here's how to get started."
 msgstr "Mochi-ге қош келдіңіз. Бастау жолы мынау."
 
-#: src/features/help/contribute-dialog.tsx:75
+#: src/features/help/contribute-dialog.tsx:86
 msgid "What happened"
 msgstr "Не болды"
 
-#: src/features/help/contribute-dialog.tsx:66
+#: src/features/help/contribute-dialog.tsx:76
 msgid "What have you tried, what did you expect, where are you stuck?"
 msgstr "Не қолданып көрдіңіз, не күттіңіз, қай жерде тұрып қалдыңыз?"
 
-#: src/features/help/contribute-dialog.tsx:86
+#: src/features/help/contribute-dialog.tsx:98
 msgid "What would it do, who is it for, why does it matter?"
 msgstr "Ол не істейді, кімге арналған, неге маңызды?"
 
-#: src/features/help/contribute-dialog.tsx:64
+#: src/features/help/contribute-dialog.tsx:74
 msgid "What you want to ask, in one line"
 msgstr "Не сұрағыңыз келеді, бір жолда"
 
-#: src/features/help/contribute-dialog.tsx:242
+#: src/features/help/contribute-dialog.tsx:67
+msgid "Your introduction has been submitted and will appear after moderation."
+msgstr ""
+
+#: src/features/help/contribute-dialog.tsx:78
+msgid "Your question has been submitted and will appear after moderation."
+msgstr ""
+
+#: src/features/help/contribute-dialog.tsx:294
 msgid "Your text will be lost."
 msgstr "Мәтініңіз жоғалады."

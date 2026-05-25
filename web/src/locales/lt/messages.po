@@ -53,7 +53,7 @@ msgstr "Paskyra patvirtinta"
 msgid "Add"
 msgstr "Pridėti"
 
-#: src/features/help/contribute-dialog.tsx:206
+#: src/features/help/contribute-dialog.tsx:242
 msgid "Add a bit more detail."
 msgstr "Pridėk šiek tiek daugiau detalių."
 
@@ -114,12 +114,12 @@ msgstr "Ar tikrai norite atsijungti? Norėdami pasiekti paskyrą, turėsite vėl
 msgid "Asc"
 msgstr "Did."
 
-#: src/features/help/contribute-dialog.tsx:61
+#: src/features/help/contribute-dialog.tsx:71
 #: src/features/help/index.tsx:34
 msgid "Ask a question"
 msgstr "Užduoti klausimą"
 
-#: src/features/help/contribute-dialog.tsx:62
+#: src/features/help/contribute-dialog.tsx:72
 msgid "Ask the community on the Mochi users mailing list. Be specific about what you've tried so far."
 msgstr "Paklauskite bendruomenės Mochi naudotojų el. pašto sąraše. Konkrečiai nurodykite, ką jau išbandėte."
 
@@ -137,9 +137,13 @@ msgstr "Atgal į pradžią"
 msgid "Boost interest"
 msgstr "Padidinti susidomėjimą"
 
-#: src/features/help/contribute-dialog.tsx:74
+#: src/features/help/contribute-dialog.tsx:85
 msgid "Brief summary of the problem"
 msgstr "Trumpa problemos santrauka"
+
+#: src/features/help/contribute-dialog.tsx:89
+msgid "Bug report submitted."
+msgstr ""
 
 #: ../../../lib/web/src/components/responsive-confirm-dialog.tsx:64
 #: ../../../lib/web/src/components/travelling-picker.tsx:292
@@ -148,15 +152,15 @@ msgstr "Trumpa problemos santrauka"
 #: ../../../lib/web/src/features/access/access-list.tsx:255
 #: ../../../lib/web/src/features/accounts/account-add.tsx:185
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:86
-#: src/features/help/contribute-dialog.tsx:219
+#: src/features/help/contribute-dialog.tsx:269
 msgid "Cancel"
 msgstr "Atšaukti"
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:131
+#: ../../../lib/web/src/components/notification-category-button.tsx:135
 msgid "Category for this notification"
 msgstr "Šio pranešimo kategorija"
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:115
+#: ../../../lib/web/src/components/notification-category-button.tsx:119
 msgid "Change notification category"
 msgstr "Pakeisti pranešimo kategoriją"
 
@@ -204,6 +208,7 @@ msgstr "Išvalyti pasirinkimą (Escape)"
 #: ../../../lib/web/src/components/ui/dialog.tsx:75
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:318
 #: ../../../lib/web/src/components/ui/sheet.tsx:76
+#: src/features/help/contribute-dialog.tsx:257
 msgid "Close"
 msgstr "Uždaryti"
 
@@ -265,7 +270,7 @@ msgstr "Nepavyko įkelti šio dokumento. Pabandykite dar kartą vėliau."
 msgid "Couldn't reach the destination yet"
 msgstr "Paskirties vieta dar nepasiekta"
 
-#: src/features/help/contribute-dialog.tsx:135
+#: src/features/help/contribute-dialog.tsx:159
 msgid "Couldn't submit"
 msgstr "Nepavyko pateikti"
 
@@ -294,12 +299,12 @@ msgstr "Numatytoji DI paskyra"
 msgid "Desc"
 msgstr "Maž."
 
-#: src/features/help/contribute-dialog.tsx:72
+#: src/features/help/contribute-dialog.tsx:83
 msgid "Describe what went wrong. The Mochi development team will see it on the Mochi development project."
 msgstr "Aprašykite, kas nepavyko. Mochi kūrėjų komanda tai matys Mochi kūrimo projekte."
 
-#: src/features/help/contribute-dialog.tsx:65
-#: src/features/help/contribute-dialog.tsx:85
+#: src/features/help/contribute-dialog.tsx:75
+#: src/features/help/contribute-dialog.tsx:97
 msgid "Details"
 msgstr "Detalės"
 
@@ -322,11 +327,11 @@ msgstr "Aptikti iš naršyklės"
 msgid "Direction"
 msgstr "Kryptis"
 
-#: src/features/help/contribute-dialog.tsx:244
+#: src/features/help/contribute-dialog.tsx:296
 msgid "Discard"
 msgstr "Atmesti"
 
-#: src/features/help/contribute-dialog.tsx:241
+#: src/features/help/contribute-dialog.tsx:293
 msgid "Discard draft?"
 msgstr "Atmesti juodraštį?"
 
@@ -362,9 +367,13 @@ msgstr "Nepavyko pašalinti paskyros"
 msgid "Failed to send verification code"
 msgstr "Nepavyko išsiųsti patvirtinimo kodo"
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:104
+#: ../../../lib/web/src/components/notification-category-button.tsx:108
 msgid "Failed to update category"
 msgstr "Nepavyko atnaujinti kategorijos"
+
+#: src/features/help/contribute-dialog.tsx:100
+msgid "Feature request submitted."
+msgstr ""
 
 #: ../../../lib/web/src/components/config-drawer.tsx:244
 msgid "Floating"
@@ -400,6 +409,10 @@ msgstr "Atgal"
 msgid "Go to first page"
 msgstr "Eiti į pirmą puslapį"
 
+#: src/features/help/contribute-dialog.tsx:261
+msgid "Go to forum"
+msgstr ""
+
 #: ../../../lib/web/src/components/data-table/pagination.tsx:121
 msgid "Go to last page"
 msgstr "Eiti į paskutinį puslapį"
@@ -429,7 +442,7 @@ msgstr "Grupė"
 msgid "Help"
 msgstr "Pagalba"
 
-#: src/features/help/contribute-dialog.tsx:56
+#: src/features/help/contribute-dialog.tsx:65
 msgid "Hi, I'm…"
 msgstr "Sveiki, aš esu…"
 
@@ -460,7 +473,7 @@ msgstr "Įterptas"
 msgid "Interests"
 msgstr "Pomėgiai"
 
-#: src/features/help/contribute-dialog.tsx:55
+#: src/features/help/contribute-dialog.tsx:64
 #: src/features/help/index.tsx:28
 msgid "Introduce yourself"
 msgstr "Prisistatykite"
@@ -469,7 +482,7 @@ msgstr "Prisistatykite"
 msgid "Invalid verification code"
 msgstr "Netinkamas patvirtinimo kodas"
 
-#: src/features/help/contribute-dialog.tsx:243
+#: src/features/help/contribute-dialog.tsx:295
 msgid "Keep editing"
 msgstr "Toliau redaguoti"
 
@@ -584,7 +597,7 @@ msgstr "Rezultatų nerasta."
 msgid "No time zone found."
 msgstr "Laiko juostų nerasta."
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:135
+#: ../../../lib/web/src/components/notification-category-button.tsx:139
 msgid "No topic record yet — try again after the next notification."
 msgstr "Dar nėra temos įrašo — bandykite dar kartą po kito pranešimo."
 
@@ -638,23 +651,23 @@ msgstr "Kita"
 msgid "Owner"
 msgstr "Savininkas"
 
-#: src/features/help/contribute-dialog.tsx:136
+#: src/features/help/contribute-dialog.tsx:160
 msgid "Please try again."
 msgstr "Bandykite dar kartą."
 
-#: src/features/help/contribute-dialog.tsx:57
+#: src/features/help/contribute-dialog.tsx:66
 msgid "Post introduction"
 msgstr "Skelbti prisistatymą"
 
-#: src/features/help/contribute-dialog.tsx:67
+#: src/features/help/contribute-dialog.tsx:77
 msgid "Post question"
 msgstr "Skelbti klausimą"
 
-#: src/features/help/contribute-dialog.tsx:130
+#: src/features/help/contribute-dialog.tsx:153
 msgid "Posted"
 msgstr "Paskelbta"
 
-#: src/features/help/contribute-dialog.tsx:225
+#: src/features/help/contribute-dialog.tsx:275
 msgid "Posting…"
 msgstr "Skelbiama…"
 
@@ -673,7 +686,7 @@ msgstr "Privatumas"
 msgid "Profile"
 msgstr "Profilis"
 
-#: src/features/help/contribute-dialog.tsx:63
+#: src/features/help/contribute-dialog.tsx:73
 msgid "Question"
 msgstr "Klausimas"
 
@@ -716,12 +729,12 @@ msgstr "Šalinti prieigą?"
 msgid "Remove interest"
 msgstr "Šalinti susidomėjimą"
 
-#: src/features/help/contribute-dialog.tsx:71
+#: src/features/help/contribute-dialog.tsx:82
 #: src/features/help/index.tsx:40
 msgid "Report a bug"
 msgstr "Pranešti apie klaidą"
 
-#: src/features/help/contribute-dialog.tsx:77
+#: src/features/help/contribute-dialog.tsx:88
 msgid "Report bug"
 msgstr "Pranešti apie klaidą"
 
@@ -840,7 +853,7 @@ msgstr "Nustatyti pradžią ir paskirties vietą"
 msgid "Settings"
 msgstr "Nustatymai"
 
-#: src/features/help/contribute-dialog.tsx:84
+#: src/features/help/contribute-dialog.tsx:96
 msgid "Short title for your idea"
 msgstr "Trumpas jūsų idėjos pavadinimas"
 
@@ -879,7 +892,7 @@ msgstr "Pastebėjai kažką sugedusio? Užregistruok klaidos bilietą Mochi kūr
 msgid "Stay tuned though!"
 msgstr "Bet būkite budrūs!"
 
-#: src/features/help/contribute-dialog.tsx:76
+#: src/features/help/contribute-dialog.tsx:87
 msgid "Steps to reproduce, what you expected, and what actually happened. Include your browser and device if relevant."
 msgstr "Atkūrimo žingsniai, ko tikėjaisi ir kas iš tikrųjų nutiko. Jei aktualu, nurodyk naršyklę ir įrenginį."
 
@@ -891,17 +904,21 @@ msgstr "Užstrigai? Paklausk bendruomenės Mochi naudotojų pašto sąraše."
 msgid "Subject"
 msgstr "Tema"
 
-#: src/features/help/contribute-dialog.tsx:81
+#: src/features/help/contribute-dialog.tsx:210
+msgid "Submitted successfully"
+msgstr ""
+
+#: src/features/help/contribute-dialog.tsx:93
 #: src/features/help/index.tsx:46
 msgid "Suggest a new feature"
 msgstr "Pasiūlyti naują funkciją"
 
-#: src/features/help/contribute-dialog.tsx:87
+#: src/features/help/contribute-dialog.tsx:99
 msgid "Suggest feature"
 msgstr "Pasiūlyti funkciją"
 
-#: src/features/help/contribute-dialog.tsx:73
-#: src/features/help/contribute-dialog.tsx:83
+#: src/features/help/contribute-dialog.tsx:84
+#: src/features/help/contribute-dialog.tsx:95
 msgid "Summary"
 msgstr "Santrauka"
 
@@ -919,7 +936,7 @@ msgstr "Sistema"
 msgid "Tag"
 msgstr "Žyma"
 
-#: src/features/help/contribute-dialog.tsx:131
+#: src/features/help/contribute-dialog.tsx:154
 msgid "Taking you there now."
 msgstr "Tuoj nukelsime."
 
@@ -927,7 +944,7 @@ msgstr "Tuoj nukelsime."
 msgid "Teams/Apps"
 msgstr "Komandos / programėlės"
 
-#: src/features/help/contribute-dialog.tsx:82
+#: src/features/help/contribute-dialog.tsx:94
 msgid "Tell the Mochi development team what you'd like Mochi to do."
 msgstr "Pasakykite Mochi kūrėjų komandai, ką norėtumėte, kad Mochi darytų."
 
@@ -1010,7 +1027,7 @@ msgstr "Įveskite, kad ieškotumėte..."
 msgid "Unable to redirect to login. Please try again."
 msgstr "Nepavyko peradresuoti į prisijungimą. Bandykite dar kartą."
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:143
+#: ../../../lib/web/src/components/notification-category-button.tsx:147
 msgid "Unassigned"
 msgstr "Nepriskirta"
 
@@ -1083,22 +1100,30 @@ msgstr "Trečiadienis"
 msgid "Welcome to Mochi. Here's how to get started."
 msgstr "Sveiki atvykę į Mochi. Štai kaip pradėti."
 
-#: src/features/help/contribute-dialog.tsx:75
+#: src/features/help/contribute-dialog.tsx:86
 msgid "What happened"
 msgstr "Kas nutiko"
 
-#: src/features/help/contribute-dialog.tsx:66
+#: src/features/help/contribute-dialog.tsx:76
 msgid "What have you tried, what did you expect, where are you stuck?"
 msgstr "Ką bandėte, ko tikėjotės, kur užstrigote?"
 
-#: src/features/help/contribute-dialog.tsx:86
+#: src/features/help/contribute-dialog.tsx:98
 msgid "What would it do, who is it for, why does it matter?"
 msgstr "Ką ji darytų, kam ji skirta, kodėl tai svarbu?"
 
-#: src/features/help/contribute-dialog.tsx:64
+#: src/features/help/contribute-dialog.tsx:74
 msgid "What you want to ask, in one line"
 msgstr "Ką norite paklausti, vienoje eilutėje"
 
-#: src/features/help/contribute-dialog.tsx:242
+#: src/features/help/contribute-dialog.tsx:67
+msgid "Your introduction has been submitted and will appear after moderation."
+msgstr ""
+
+#: src/features/help/contribute-dialog.tsx:78
+msgid "Your question has been submitted and will appear after moderation."
+msgstr ""
+
+#: src/features/help/contribute-dialog.tsx:294
 msgid "Your text will be lost."
 msgstr "Tavo tekstas bus prarastas."

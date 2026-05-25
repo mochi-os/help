@@ -53,7 +53,7 @@ msgstr "Na-verify ang account"
 msgid "Add"
 msgstr "Idagdag"
 
-#: src/features/help/contribute-dialog.tsx:206
+#: src/features/help/contribute-dialog.tsx:242
 msgid "Add a bit more detail."
 msgstr "Magdagdag ng kaunti pang detalye."
 
@@ -114,12 +114,12 @@ msgstr "Sigurado ka bang gusto mong mag-log out? Kakailanganin mong mag-log in m
 msgid "Asc"
 msgstr "Asc"
 
-#: src/features/help/contribute-dialog.tsx:61
+#: src/features/help/contribute-dialog.tsx:71
 #: src/features/help/index.tsx:34
 msgid "Ask a question"
 msgstr "Magtanong"
 
-#: src/features/help/contribute-dialog.tsx:62
+#: src/features/help/contribute-dialog.tsx:72
 msgid "Ask the community on the Mochi users mailing list. Be specific about what you've tried so far."
 msgstr "Itanong sa komunidad sa mailing list ng mga user ng Mochi. Maging tiyak tungkol sa nasubukan mo na."
 
@@ -137,9 +137,13 @@ msgstr "Bumalik sa home"
 msgid "Boost interest"
 msgstr "Palakasin ang interes"
 
-#: src/features/help/contribute-dialog.tsx:74
+#: src/features/help/contribute-dialog.tsx:85
 msgid "Brief summary of the problem"
 msgstr "Maikling buod ng problema"
+
+#: src/features/help/contribute-dialog.tsx:89
+msgid "Bug report submitted."
+msgstr ""
 
 #: ../../../lib/web/src/components/responsive-confirm-dialog.tsx:64
 #: ../../../lib/web/src/components/travelling-picker.tsx:292
@@ -148,15 +152,15 @@ msgstr "Maikling buod ng problema"
 #: ../../../lib/web/src/features/access/access-list.tsx:255
 #: ../../../lib/web/src/features/accounts/account-add.tsx:185
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:86
-#: src/features/help/contribute-dialog.tsx:219
+#: src/features/help/contribute-dialog.tsx:269
 msgid "Cancel"
 msgstr "Kanselahin"
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:131
+#: ../../../lib/web/src/components/notification-category-button.tsx:135
 msgid "Category for this notification"
 msgstr "Category para sa notification na ito"
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:115
+#: ../../../lib/web/src/components/notification-category-button.tsx:119
 msgid "Change notification category"
 msgstr "Baguhin ang category ng notification"
 
@@ -204,6 +208,7 @@ msgstr "Burahin ang piniling (Escape)"
 #: ../../../lib/web/src/components/ui/dialog.tsx:75
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:318
 #: ../../../lib/web/src/components/ui/sheet.tsx:76
+#: src/features/help/contribute-dialog.tsx:257
 msgid "Close"
 msgstr "Isara"
 
@@ -265,7 +270,7 @@ msgstr "Hindi ma-load ang document na ito. Subukan muli mamaya."
 msgid "Couldn't reach the destination yet"
 msgstr "Hindi pa naaabot ang destinasyon"
 
-#: src/features/help/contribute-dialog.tsx:135
+#: src/features/help/contribute-dialog.tsx:159
 msgid "Couldn't submit"
 msgstr "Hindi maipasa"
 
@@ -294,12 +299,12 @@ msgstr "Default na AI account"
 msgid "Desc"
 msgstr "Desc"
 
-#: src/features/help/contribute-dialog.tsx:72
+#: src/features/help/contribute-dialog.tsx:83
 msgid "Describe what went wrong. The Mochi development team will see it on the Mochi development project."
 msgstr "Ilarawan kung ano ang nangyari. Makikita ito ng Mochi development team sa Mochi development project."
 
-#: src/features/help/contribute-dialog.tsx:65
-#: src/features/help/contribute-dialog.tsx:85
+#: src/features/help/contribute-dialog.tsx:75
+#: src/features/help/contribute-dialog.tsx:97
 msgid "Details"
 msgstr "Mga detalye"
 
@@ -322,11 +327,11 @@ msgstr "Tukuyin mula sa web browser"
 msgid "Direction"
 msgstr "Direksyon"
 
-#: src/features/help/contribute-dialog.tsx:244
+#: src/features/help/contribute-dialog.tsx:296
 msgid "Discard"
 msgstr "Itapon"
 
-#: src/features/help/contribute-dialog.tsx:241
+#: src/features/help/contribute-dialog.tsx:293
 msgid "Discard draft?"
 msgstr "Itapon ang draft?"
 
@@ -362,9 +367,13 @@ msgstr "Nabigong tanggalin ang account"
 msgid "Failed to send verification code"
 msgstr "Nabigong magpadala ng verification code"
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:104
+#: ../../../lib/web/src/components/notification-category-button.tsx:108
 msgid "Failed to update category"
 msgstr "Nabigong i-update ang category"
+
+#: src/features/help/contribute-dialog.tsx:100
+msgid "Feature request submitted."
+msgstr ""
 
 #: ../../../lib/web/src/components/config-drawer.tsx:244
 msgid "Floating"
@@ -400,6 +409,10 @@ msgstr "Bumalik"
 msgid "Go to first page"
 msgstr "Pumunta sa unang page"
 
+#: src/features/help/contribute-dialog.tsx:261
+msgid "Go to forum"
+msgstr ""
+
 #: ../../../lib/web/src/components/data-table/pagination.tsx:121
 msgid "Go to last page"
 msgstr "Pumunta sa huling page"
@@ -429,7 +442,7 @@ msgstr "Group"
 msgid "Help"
 msgstr "Tulong"
 
-#: src/features/help/contribute-dialog.tsx:56
+#: src/features/help/contribute-dialog.tsx:65
 msgid "Hi, I'm…"
 msgstr "Hi, ako si…"
 
@@ -460,7 +473,7 @@ msgstr "Inset"
 msgid "Interests"
 msgstr "Mga interest"
 
-#: src/features/help/contribute-dialog.tsx:55
+#: src/features/help/contribute-dialog.tsx:64
 #: src/features/help/index.tsx:28
 msgid "Introduce yourself"
 msgstr "Ipakilala ang sarili"
@@ -469,7 +482,7 @@ msgstr "Ipakilala ang sarili"
 msgid "Invalid verification code"
 msgstr "Invalid na verification code"
 
-#: src/features/help/contribute-dialog.tsx:243
+#: src/features/help/contribute-dialog.tsx:295
 msgid "Keep editing"
 msgstr "Magpatuloy sa pag-edit"
 
@@ -584,7 +597,7 @@ msgstr "Walang nakitang resulta."
 msgid "No time zone found."
 msgstr "Walang nakitang time zone."
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:135
+#: ../../../lib/web/src/components/notification-category-button.tsx:139
 msgid "No topic record yet — try again after the next notification."
 msgstr "Wala pang topic record — subukan muli pagkatapos ng susunod na notification."
 
@@ -638,23 +651,23 @@ msgstr "Iba pa"
 msgid "Owner"
 msgstr "May-ari"
 
-#: src/features/help/contribute-dialog.tsx:136
+#: src/features/help/contribute-dialog.tsx:160
 msgid "Please try again."
 msgstr "Pakisubukan muli."
 
-#: src/features/help/contribute-dialog.tsx:57
+#: src/features/help/contribute-dialog.tsx:66
 msgid "Post introduction"
 msgstr "I-post ang pagpapakilala"
 
-#: src/features/help/contribute-dialog.tsx:67
+#: src/features/help/contribute-dialog.tsx:77
 msgid "Post question"
 msgstr "I-post ang tanong"
 
-#: src/features/help/contribute-dialog.tsx:130
+#: src/features/help/contribute-dialog.tsx:153
 msgid "Posted"
 msgstr "Na-post na"
 
-#: src/features/help/contribute-dialog.tsx:225
+#: src/features/help/contribute-dialog.tsx:275
 msgid "Posting…"
 msgstr "Nagpo-post…"
 
@@ -673,7 +686,7 @@ msgstr "Privacy"
 msgid "Profile"
 msgstr "Profile"
 
-#: src/features/help/contribute-dialog.tsx:63
+#: src/features/help/contribute-dialog.tsx:73
 msgid "Question"
 msgstr "Tanong"
 
@@ -716,12 +729,12 @@ msgstr "Alisin ang access?"
 msgid "Remove interest"
 msgstr "Alisin ang interes"
 
-#: src/features/help/contribute-dialog.tsx:71
+#: src/features/help/contribute-dialog.tsx:82
 #: src/features/help/index.tsx:40
 msgid "Report a bug"
 msgstr "Mag-ulat ng bug"
 
-#: src/features/help/contribute-dialog.tsx:77
+#: src/features/help/contribute-dialog.tsx:88
 msgid "Report bug"
 msgstr "Mag-ulat ng bug"
 
@@ -840,7 +853,7 @@ msgstr "Itakda ang origin at destination"
 msgid "Settings"
 msgstr "Mga setting"
 
-#: src/features/help/contribute-dialog.tsx:84
+#: src/features/help/contribute-dialog.tsx:96
 msgid "Short title for your idea"
 msgstr "Maikling pamagat para sa iyong ideya"
 
@@ -879,7 +892,7 @@ msgstr "May nakita kang sira? Mag-file ng bug ticket sa Mochi development projec
 msgid "Stay tuned though!"
 msgstr "Pero manatiling nakaabang!"
 
-#: src/features/help/contribute-dialog.tsx:76
+#: src/features/help/contribute-dialog.tsx:87
 msgid "Steps to reproduce, what you expected, and what actually happened. Include your browser and device if relevant."
 msgstr "Mga hakbang para maulit, ang inaasahan mo, at ang aktwal na nangyari. Isama ang iyong browser at device kung may kinalaman."
 
@@ -891,17 +904,21 @@ msgstr "Nahihirapan ka ba sa isang bagay? Magtanong sa komunidad sa Mochi users 
 msgid "Subject"
 msgstr "Paksa"
 
-#: src/features/help/contribute-dialog.tsx:81
+#: src/features/help/contribute-dialog.tsx:210
+msgid "Submitted successfully"
+msgstr ""
+
+#: src/features/help/contribute-dialog.tsx:93
 #: src/features/help/index.tsx:46
 msgid "Suggest a new feature"
 msgstr "Magmungkahi ng bagong feature"
 
-#: src/features/help/contribute-dialog.tsx:87
+#: src/features/help/contribute-dialog.tsx:99
 msgid "Suggest feature"
 msgstr "Magmungkahi ng feature"
 
-#: src/features/help/contribute-dialog.tsx:73
-#: src/features/help/contribute-dialog.tsx:83
+#: src/features/help/contribute-dialog.tsx:84
+#: src/features/help/contribute-dialog.tsx:95
 msgid "Summary"
 msgstr "Buod"
 
@@ -919,7 +936,7 @@ msgstr "System"
 msgid "Tag"
 msgstr "Tag"
 
-#: src/features/help/contribute-dialog.tsx:131
+#: src/features/help/contribute-dialog.tsx:154
 msgid "Taking you there now."
 msgstr "Dadalhin ka namin doon ngayon."
 
@@ -927,7 +944,7 @@ msgstr "Dadalhin ka namin doon ngayon."
 msgid "Teams/Apps"
 msgstr "Teams/Apps"
 
-#: src/features/help/contribute-dialog.tsx:82
+#: src/features/help/contribute-dialog.tsx:94
 msgid "Tell the Mochi development team what you'd like Mochi to do."
 msgstr "Sabihin sa Mochi development team kung ano ang gusto mong gawin ng Mochi."
 
@@ -1010,7 +1027,7 @@ msgstr "Mag-type para maghanap..."
 msgid "Unable to redirect to login. Please try again."
 msgstr "Hindi maka-redirect sa login. Pakisubukang muli."
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:143
+#: ../../../lib/web/src/components/notification-category-button.tsx:147
 msgid "Unassigned"
 msgstr "Walang nakatalaga"
 
@@ -1083,22 +1100,30 @@ msgstr "Miyerkules"
 msgid "Welcome to Mochi. Here's how to get started."
 msgstr "Maligayang pagdating sa Mochi. Narito kung paano magsimula."
 
-#: src/features/help/contribute-dialog.tsx:75
+#: src/features/help/contribute-dialog.tsx:86
 msgid "What happened"
 msgstr "Ano ang nangyari"
 
-#: src/features/help/contribute-dialog.tsx:66
+#: src/features/help/contribute-dialog.tsx:76
 msgid "What have you tried, what did you expect, where are you stuck?"
 msgstr "Ano ang sinubukan mo, ano ang inaasahan mo, saan ka na-stuck?"
 
-#: src/features/help/contribute-dialog.tsx:86
+#: src/features/help/contribute-dialog.tsx:98
 msgid "What would it do, who is it for, why does it matter?"
 msgstr "Ano ang gagawin nito, para kanino, bakit ito mahalaga?"
 
-#: src/features/help/contribute-dialog.tsx:64
+#: src/features/help/contribute-dialog.tsx:74
 msgid "What you want to ask, in one line"
 msgstr "Ang gusto mong itanong, sa isang linya"
 
-#: src/features/help/contribute-dialog.tsx:242
+#: src/features/help/contribute-dialog.tsx:67
+msgid "Your introduction has been submitted and will appear after moderation."
+msgstr ""
+
+#: src/features/help/contribute-dialog.tsx:78
+msgid "Your question has been submitted and will appear after moderation."
+msgstr ""
+
+#: src/features/help/contribute-dialog.tsx:294
 msgid "Your text will be lost."
 msgstr "Mawawala ang iyong teksto."

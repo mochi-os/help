@@ -53,7 +53,7 @@ msgstr "حساب تأیید شد"
 msgid "Add"
 msgstr "افزودن"
 
-#: src/features/help/contribute-dialog.tsx:206
+#: src/features/help/contribute-dialog.tsx:242
 msgid "Add a bit more detail."
 msgstr "کمی جزئیات بیشتر اضافه کنید."
 
@@ -114,12 +114,12 @@ msgstr "آیا از خروج از حساب مطمئن هستید؟ برای دس
 msgid "Asc"
 msgstr "صعودی"
 
-#: src/features/help/contribute-dialog.tsx:61
+#: src/features/help/contribute-dialog.tsx:71
 #: src/features/help/index.tsx:34
 msgid "Ask a question"
 msgstr "پرسیدن سؤال"
 
-#: src/features/help/contribute-dialog.tsx:62
+#: src/features/help/contribute-dialog.tsx:72
 msgid "Ask the community on the Mochi users mailing list. Be specific about what you've tried so far."
 msgstr "از جامعه در فهرست پستی کاربران Mochi بپرسید. درباره آنچه تاکنون امتحان کرده‌اید دقیق باشید."
 
@@ -137,9 +137,13 @@ msgstr "بازگشت به خانه"
 msgid "Boost interest"
 msgstr "تقویت علاقه"
 
-#: src/features/help/contribute-dialog.tsx:74
+#: src/features/help/contribute-dialog.tsx:85
 msgid "Brief summary of the problem"
 msgstr "خلاصه‌ای کوتاه از مشکل"
+
+#: src/features/help/contribute-dialog.tsx:89
+msgid "Bug report submitted."
+msgstr ""
 
 #: ../../../lib/web/src/components/responsive-confirm-dialog.tsx:64
 #: ../../../lib/web/src/components/travelling-picker.tsx:292
@@ -148,15 +152,15 @@ msgstr "خلاصه‌ای کوتاه از مشکل"
 #: ../../../lib/web/src/features/access/access-list.tsx:255
 #: ../../../lib/web/src/features/accounts/account-add.tsx:185
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:86
-#: src/features/help/contribute-dialog.tsx:219
+#: src/features/help/contribute-dialog.tsx:269
 msgid "Cancel"
 msgstr "لغو"
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:131
+#: ../../../lib/web/src/components/notification-category-button.tsx:135
 msgid "Category for this notification"
 msgstr "دستهٔ این اعلان"
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:115
+#: ../../../lib/web/src/components/notification-category-button.tsx:119
 msgid "Change notification category"
 msgstr "تغییر دستهٔ اعلان"
 
@@ -204,6 +208,7 @@ msgstr "پاک کردن انتخاب (Escape)"
 #: ../../../lib/web/src/components/ui/dialog.tsx:75
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:318
 #: ../../../lib/web/src/components/ui/sheet.tsx:76
+#: src/features/help/contribute-dialog.tsx:257
 msgid "Close"
 msgstr "بستن"
 
@@ -265,7 +270,7 @@ msgstr "بارگذاری این سند ممکن نشد. لطفاً بعداً د
 msgid "Couldn't reach the destination yet"
 msgstr "هنوز نتوانستیم به مقصد برسیم"
 
-#: src/features/help/contribute-dialog.tsx:135
+#: src/features/help/contribute-dialog.tsx:159
 msgid "Couldn't submit"
 msgstr "ارسال ممکن نشد"
 
@@ -294,12 +299,12 @@ msgstr "حساب پیش‌فرض هوش مصنوعی"
 msgid "Desc"
 msgstr "نزولی"
 
-#: src/features/help/contribute-dialog.tsx:72
+#: src/features/help/contribute-dialog.tsx:83
 msgid "Describe what went wrong. The Mochi development team will see it on the Mochi development project."
 msgstr "توضیح دهید چه اشتباهی رخ داده است. تیم توسعه Mochi آن را در پروژه توسعه Mochi خواهد دید."
 
-#: src/features/help/contribute-dialog.tsx:65
-#: src/features/help/contribute-dialog.tsx:85
+#: src/features/help/contribute-dialog.tsx:75
+#: src/features/help/contribute-dialog.tsx:97
 msgid "Details"
 msgstr "جزئیات"
 
@@ -322,11 +327,11 @@ msgstr "تشخیص از مرورگر وب"
 msgid "Direction"
 msgstr "جهت"
 
-#: src/features/help/contribute-dialog.tsx:244
+#: src/features/help/contribute-dialog.tsx:296
 msgid "Discard"
 msgstr "دور انداختن"
 
-#: src/features/help/contribute-dialog.tsx:241
+#: src/features/help/contribute-dialog.tsx:293
 msgid "Discard draft?"
 msgstr "پیش‌نویس دور انداخته شود؟"
 
@@ -362,9 +367,13 @@ msgstr "حذف حساب ناموفق بود"
 msgid "Failed to send verification code"
 msgstr "ارسال کد تأیید ناموفق بود"
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:104
+#: ../../../lib/web/src/components/notification-category-button.tsx:108
 msgid "Failed to update category"
 msgstr "به‌روزرسانی دسته ناموفق بود"
+
+#: src/features/help/contribute-dialog.tsx:100
+msgid "Feature request submitted."
+msgstr ""
 
 #: ../../../lib/web/src/components/config-drawer.tsx:244
 msgid "Floating"
@@ -400,6 +409,10 @@ msgstr "بازگشت"
 msgid "Go to first page"
 msgstr "رفتن به صفحه اول"
 
+#: src/features/help/contribute-dialog.tsx:261
+msgid "Go to forum"
+msgstr ""
+
 #: ../../../lib/web/src/components/data-table/pagination.tsx:121
 msgid "Go to last page"
 msgstr "رفتن به صفحه آخر"
@@ -429,7 +442,7 @@ msgstr "گروه"
 msgid "Help"
 msgstr "راهنما"
 
-#: src/features/help/contribute-dialog.tsx:56
+#: src/features/help/contribute-dialog.tsx:65
 msgid "Hi, I'm…"
 msgstr "سلام، من…"
 
@@ -460,7 +473,7 @@ msgstr "تورفته"
 msgid "Interests"
 msgstr "علاقه‌مندی‌ها"
 
-#: src/features/help/contribute-dialog.tsx:55
+#: src/features/help/contribute-dialog.tsx:64
 #: src/features/help/index.tsx:28
 msgid "Introduce yourself"
 msgstr "خودتان را معرفی کنید"
@@ -469,7 +482,7 @@ msgstr "خودتان را معرفی کنید"
 msgid "Invalid verification code"
 msgstr "کد تأیید نامعتبر"
 
-#: src/features/help/contribute-dialog.tsx:243
+#: src/features/help/contribute-dialog.tsx:295
 msgid "Keep editing"
 msgstr "ادامهٔ ویرایش"
 
@@ -584,7 +597,7 @@ msgstr "نتیجه‌ای یافت نشد."
 msgid "No time zone found."
 msgstr "منطقه زمانی یافت نشد."
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:135
+#: ../../../lib/web/src/components/notification-category-button.tsx:139
 msgid "No topic record yet — try again after the next notification."
 msgstr "هنوز هیچ رکوردی برای موضوع وجود ندارد — پس از اعلان بعدی دوباره تلاش کنید."
 
@@ -638,23 +651,23 @@ msgstr "سایر"
 msgid "Owner"
 msgstr "مالک"
 
-#: src/features/help/contribute-dialog.tsx:136
+#: src/features/help/contribute-dialog.tsx:160
 msgid "Please try again."
 msgstr "لطفاً دوباره تلاش کنید."
 
-#: src/features/help/contribute-dialog.tsx:57
+#: src/features/help/contribute-dialog.tsx:66
 msgid "Post introduction"
 msgstr "ارسال معرفی"
 
-#: src/features/help/contribute-dialog.tsx:67
+#: src/features/help/contribute-dialog.tsx:77
 msgid "Post question"
 msgstr "ارسال سؤال"
 
-#: src/features/help/contribute-dialog.tsx:130
+#: src/features/help/contribute-dialog.tsx:153
 msgid "Posted"
 msgstr "ارسال شد"
 
-#: src/features/help/contribute-dialog.tsx:225
+#: src/features/help/contribute-dialog.tsx:275
 msgid "Posting…"
 msgstr "در حال ارسال…"
 
@@ -673,7 +686,7 @@ msgstr "حریم خصوصی"
 msgid "Profile"
 msgstr "پروفایل"
 
-#: src/features/help/contribute-dialog.tsx:63
+#: src/features/help/contribute-dialog.tsx:73
 msgid "Question"
 msgstr "پرسش"
 
@@ -716,12 +729,12 @@ msgstr "حذف دسترسی؟"
 msgid "Remove interest"
 msgstr "حذف علاقه"
 
-#: src/features/help/contribute-dialog.tsx:71
+#: src/features/help/contribute-dialog.tsx:82
 #: src/features/help/index.tsx:40
 msgid "Report a bug"
 msgstr "گزارش اشکال"
 
-#: src/features/help/contribute-dialog.tsx:77
+#: src/features/help/contribute-dialog.tsx:88
 msgid "Report bug"
 msgstr "گزارش اشکال"
 
@@ -840,7 +853,7 @@ msgstr "تنظیم مبدأ و مقصد"
 msgid "Settings"
 msgstr "تنظیمات"
 
-#: src/features/help/contribute-dialog.tsx:84
+#: src/features/help/contribute-dialog.tsx:96
 msgid "Short title for your idea"
 msgstr "عنوان کوتاه برای ایده شما"
 
@@ -879,7 +892,7 @@ msgstr "چیز خرابی دیدید؟ یک گزارش باگ در پروژهٔ 
 msgid "Stay tuned though!"
 msgstr "اما با ما همراه بمانید!"
 
-#: src/features/help/contribute-dialog.tsx:76
+#: src/features/help/contribute-dialog.tsx:87
 msgid "Steps to reproduce, what you expected, and what actually happened. Include your browser and device if relevant."
 msgstr "مراحل بازتولید، آنچه انتظار داشتید و آنچه واقعاً رخ داد. در صورت ارتباط، مرورگر و دستگاه خود را ذکر کنید."
 
@@ -891,17 +904,21 @@ msgstr "گیر کرده‌اید؟ از انجمن در فهرست پستی کا
 msgid "Subject"
 msgstr "موضوع"
 
-#: src/features/help/contribute-dialog.tsx:81
+#: src/features/help/contribute-dialog.tsx:210
+msgid "Submitted successfully"
+msgstr ""
+
+#: src/features/help/contribute-dialog.tsx:93
 #: src/features/help/index.tsx:46
 msgid "Suggest a new feature"
 msgstr "پیشنهاد قابلیت جدید"
 
-#: src/features/help/contribute-dialog.tsx:87
+#: src/features/help/contribute-dialog.tsx:99
 msgid "Suggest feature"
 msgstr "پیشنهاد ویژگی"
 
-#: src/features/help/contribute-dialog.tsx:73
-#: src/features/help/contribute-dialog.tsx:83
+#: src/features/help/contribute-dialog.tsx:84
+#: src/features/help/contribute-dialog.tsx:95
 msgid "Summary"
 msgstr "خلاصه"
 
@@ -919,7 +936,7 @@ msgstr "سیستم"
 msgid "Tag"
 msgstr "برچسب"
 
-#: src/features/help/contribute-dialog.tsx:131
+#: src/features/help/contribute-dialog.tsx:154
 msgid "Taking you there now."
 msgstr "همین حالا شما را به آنجا می‌بریم."
 
@@ -927,7 +944,7 @@ msgstr "همین حالا شما را به آنجا می‌بریم."
 msgid "Teams/Apps"
 msgstr "تیم‌ها/اپ‌ها"
 
-#: src/features/help/contribute-dialog.tsx:82
+#: src/features/help/contribute-dialog.tsx:94
 msgid "Tell the Mochi development team what you'd like Mochi to do."
 msgstr "به تیم توسعه Mochi بگویید دوست دارید Mochi چه کاری انجام دهد."
 
@@ -1010,7 +1027,7 @@ msgstr "برای جست‌وجو تایپ کنید..."
 msgid "Unable to redirect to login. Please try again."
 msgstr "ریدایرکت به ورود ممکن نیست. لطفاً دوباره تلاش کنید."
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:143
+#: ../../../lib/web/src/components/notification-category-button.tsx:147
 msgid "Unassigned"
 msgstr "بدون اختصاص"
 
@@ -1083,22 +1100,30 @@ msgstr "چهارشنبه"
 msgid "Welcome to Mochi. Here's how to get started."
 msgstr "به Mochi خوش آمدید. در ادامه نحوهٔ شروع را می‌بینید."
 
-#: src/features/help/contribute-dialog.tsx:75
+#: src/features/help/contribute-dialog.tsx:86
 msgid "What happened"
 msgstr "چه اتفاقی افتاد"
 
-#: src/features/help/contribute-dialog.tsx:66
+#: src/features/help/contribute-dialog.tsx:76
 msgid "What have you tried, what did you expect, where are you stuck?"
 msgstr "چه چیزی را امتحان کرده‌اید، چه انتظاری داشتید، کجا گیر کرده‌اید؟"
 
-#: src/features/help/contribute-dialog.tsx:86
+#: src/features/help/contribute-dialog.tsx:98
 msgid "What would it do, who is it for, why does it matter?"
 msgstr "چه کار می‌کند، برای چه کسی است، چرا مهم است؟"
 
-#: src/features/help/contribute-dialog.tsx:64
+#: src/features/help/contribute-dialog.tsx:74
 msgid "What you want to ask, in one line"
 msgstr "آنچه می‌خواهید بپرسید، در یک خط"
 
-#: src/features/help/contribute-dialog.tsx:242
+#: src/features/help/contribute-dialog.tsx:67
+msgid "Your introduction has been submitted and will appear after moderation."
+msgstr ""
+
+#: src/features/help/contribute-dialog.tsx:78
+msgid "Your question has been submitted and will appear after moderation."
+msgstr ""
+
+#: src/features/help/contribute-dialog.tsx:294
 msgid "Your text will be lost."
 msgstr "متن شما از بین خواهد رفت."

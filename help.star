@@ -132,10 +132,25 @@ def action_contribute(a):
 		_surface_remote_error(a, result)
 		return
 
-	fingerprint = result.get("fingerprint") if result else ""
-	if not fingerprint or not mochi.text.valid(fingerprint, "fingerprint"):
-		a.error.label(502, "errors.no_fingerprint_returned")
+	# If the remote call returned nothing at all, treat as a hard failure.
+	if not result:
+		a.error.label(502, "errors.remote_failed")
 		return
+
+	fingerprint = result.get("fingerprint") if result else ""
+	# Validate the fingerprint when present.
+	if fingerprint and not mochi.text.valid(fingerprint, "fingerprint"):
+		fingerprint = ""
+
+	# Project tickets must have a valid fingerprint to build the redirect URL
+	# (the ticket page won't load without it). Forum posts (intro/question)
+	# show an in-app success state in the client so the redirect is only used
+	# for the optional "Go to forum" link — fall back to the forum root if
+	# the fingerprint is missing or invalid.
+	if kind in ("bug", "feature"):
+		if not fingerprint:
+			a.error.label(502, "errors.no_fingerprint_returned")
+			return
 
 	# SPA URLs use /<app>/<fingerprint>/<id> — bare; `/<app>/<fingerprint>/-/<id>`
 	# is the JSON action route and would render raw JSON in the browser.
@@ -143,7 +158,7 @@ def action_contribute(a):
 	# read by the author until approved, so the post page is a dead end);
 	# project tickets land on the ticket itself (they're visible immediately).
 	if target["service"] == "forums":
-		redirect = "/forums/" + fingerprint + "/"
+		redirect = ("/forums/" + fingerprint + "/") if fingerprint else "/forums/"
 	else:
 		# Defence-in-depth: the project owner is hardcoded to a trusted
 		# entity, but we still validate the returned object id before

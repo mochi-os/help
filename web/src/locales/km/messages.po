@@ -53,7 +53,7 @@ msgstr "គណនីត្រូវបានផ្ទៀងផ្ទាត់"
 msgid "Add"
 msgstr "បន្ថែម"
 
-#: src/features/help/contribute-dialog.tsx:206
+#: src/features/help/contribute-dialog.tsx:242
 msgid "Add a bit more detail."
 msgstr "បន្ថែមព័ត៌មានលម្អិតបន្តិចទៀត។"
 
@@ -114,12 +114,12 @@ msgstr "តើអ្នកប្រាកដថាចង់ចាកចេញម
 msgid "Asc"
 msgstr "ឡើង"
 
-#: src/features/help/contribute-dialog.tsx:61
+#: src/features/help/contribute-dialog.tsx:71
 #: src/features/help/index.tsx:34
 msgid "Ask a question"
 msgstr "សួរសំណួរ"
 
-#: src/features/help/contribute-dialog.tsx:62
+#: src/features/help/contribute-dialog.tsx:72
 msgid "Ask the community on the Mochi users mailing list. Be specific about what you've tried so far."
 msgstr "សួរសហគមន៍នៅក្នុងបញ្ជីអ៊ីមែលអ្នកប្រើ Mochi។ សូមបញ្ជាក់ច្បាស់នូវអ្វីដែលអ្នកបានសាកល្បងរួច។"
 
@@ -137,9 +137,13 @@ msgstr "ត្រឡប់ទៅទំព័រដើម"
 msgid "Boost interest"
 msgstr "បង្កើនចំណាប់អារម្មណ៍"
 
-#: src/features/help/contribute-dialog.tsx:74
+#: src/features/help/contribute-dialog.tsx:85
 msgid "Brief summary of the problem"
 msgstr "សេចក្តីសង្ខេបខ្លីៗអំពីបញ្ហា"
+
+#: src/features/help/contribute-dialog.tsx:89
+msgid "Bug report submitted."
+msgstr ""
 
 #: ../../../lib/web/src/components/responsive-confirm-dialog.tsx:64
 #: ../../../lib/web/src/components/travelling-picker.tsx:292
@@ -148,15 +152,15 @@ msgstr "សេចក្តីសង្ខេបខ្លីៗអំពីបញ
 #: ../../../lib/web/src/features/access/access-list.tsx:255
 #: ../../../lib/web/src/features/accounts/account-add.tsx:185
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:86
-#: src/features/help/contribute-dialog.tsx:219
+#: src/features/help/contribute-dialog.tsx:269
 msgid "Cancel"
 msgstr "បោះបង់"
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:131
+#: ../../../lib/web/src/components/notification-category-button.tsx:135
 msgid "Category for this notification"
 msgstr "ប្រភេទសម្រាប់ការជូនដំណឹងនេះ"
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:115
+#: ../../../lib/web/src/components/notification-category-button.tsx:119
 msgid "Change notification category"
 msgstr "ប្ដូរប្រភេទការជូនដំណឹង"
 
@@ -204,6 +208,7 @@ msgstr "សម្អាតការជ្រើសរើស (Escape)"
 #: ../../../lib/web/src/components/ui/dialog.tsx:75
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:318
 #: ../../../lib/web/src/components/ui/sheet.tsx:76
+#: src/features/help/contribute-dialog.tsx:257
 msgid "Close"
 msgstr "បិទ"
 
@@ -265,7 +270,7 @@ msgstr "មិនអាចផ្ទុកឯកសារនេះ។ សូម�
 msgid "Couldn't reach the destination yet"
 msgstr "មិនទាន់អាចទៅដល់ទិសដៅបានទេ"
 
-#: src/features/help/contribute-dialog.tsx:135
+#: src/features/help/contribute-dialog.tsx:159
 msgid "Couldn't submit"
 msgstr "មិនអាចដាក់ស្នើបានទេ"
 
@@ -294,12 +299,12 @@ msgstr "គណនី AI លំនាំដើម"
 msgid "Desc"
 msgstr "ចុះ"
 
-#: src/features/help/contribute-dialog.tsx:72
+#: src/features/help/contribute-dialog.tsx:83
 msgid "Describe what went wrong. The Mochi development team will see it on the Mochi development project."
 msgstr "ពណ៌នាអំពីអ្វីដែលមានបញ្ហា។ ក្រុមអភិវឌ្ឍន៍ Mochi នឹងឃើញវានៅក្នុងគម្រោងអភិវឌ្ឍន៍ Mochi។"
 
-#: src/features/help/contribute-dialog.tsx:65
-#: src/features/help/contribute-dialog.tsx:85
+#: src/features/help/contribute-dialog.tsx:75
+#: src/features/help/contribute-dialog.tsx:97
 msgid "Details"
 msgstr "ព័ត៌មានលម្អិត"
 
@@ -322,11 +327,11 @@ msgstr "រកឃើញពីកម្មវិធីរុករកគេហទ
 msgid "Direction"
 msgstr "ទិស"
 
-#: src/features/help/contribute-dialog.tsx:244
+#: src/features/help/contribute-dialog.tsx:296
 msgid "Discard"
 msgstr "បោះបង់"
 
-#: src/features/help/contribute-dialog.tsx:241
+#: src/features/help/contribute-dialog.tsx:293
 msgid "Discard draft?"
 msgstr "បោះបង់សេចក្ដីព្រាងឬ?"
 
@@ -362,9 +367,13 @@ msgstr "បរាជ័យក្នុងការដកគណនី"
 msgid "Failed to send verification code"
 msgstr "បរាជ័យក្នុងការផ្ញើកូដផ្ទៀងផ្ទាត់"
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:104
+#: ../../../lib/web/src/components/notification-category-button.tsx:108
 msgid "Failed to update category"
 msgstr "បរាជ័យក្នុងការធ្វើបច្ចុប្បន្នភាពប្រភេទ"
+
+#: src/features/help/contribute-dialog.tsx:100
+msgid "Feature request submitted."
+msgstr ""
 
 #: ../../../lib/web/src/components/config-drawer.tsx:244
 msgid "Floating"
@@ -400,6 +409,10 @@ msgstr "ត្រឡប់ក្រោយ"
 msgid "Go to first page"
 msgstr "ទៅទំព័រដំបូង"
 
+#: src/features/help/contribute-dialog.tsx:261
+msgid "Go to forum"
+msgstr ""
+
 #: ../../../lib/web/src/components/data-table/pagination.tsx:121
 msgid "Go to last page"
 msgstr "ទៅទំព័រចុងក្រោយ"
@@ -429,7 +442,7 @@ msgstr "ក្រុម"
 msgid "Help"
 msgstr "ជំនួយ"
 
-#: src/features/help/contribute-dialog.tsx:56
+#: src/features/help/contribute-dialog.tsx:65
 msgid "Hi, I'm…"
 msgstr "សួស្តី ខ្ញុំឈ្មោះ…"
 
@@ -460,7 +473,7 @@ msgstr "ខាងក្នុង"
 msgid "Interests"
 msgstr "ចំណាប់អារម្មណ៍"
 
-#: src/features/help/contribute-dialog.tsx:55
+#: src/features/help/contribute-dialog.tsx:64
 #: src/features/help/index.tsx:28
 msgid "Introduce yourself"
 msgstr "ណែនាំខ្លួន"
@@ -469,7 +482,7 @@ msgstr "ណែនាំខ្លួន"
 msgid "Invalid verification code"
 msgstr "កូដផ្ទៀងផ្ទាត់មិនត្រឹមត្រូវ"
 
-#: src/features/help/contribute-dialog.tsx:243
+#: src/features/help/contribute-dialog.tsx:295
 msgid "Keep editing"
 msgstr "បន្តកែសម្រួល"
 
@@ -584,7 +597,7 @@ msgstr "រកមិនឃើញលទ្ធផល។"
 msgid "No time zone found."
 msgstr "រកមិនឃើញតំបន់ពេលវេលា។"
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:135
+#: ../../../lib/web/src/components/notification-category-button.tsx:139
 msgid "No topic record yet — try again after the next notification."
 msgstr "មិនទាន់មានកំណត់ត្រាប្រធានបទ — សាកល្បងម្តងទៀតបន្ទាប់ពីការជូនដំណឹងលើកក្រោយ។"
 
@@ -638,23 +651,23 @@ msgstr "ផ្សេងទៀត"
 msgid "Owner"
 msgstr "ម្ចាស់"
 
-#: src/features/help/contribute-dialog.tsx:136
+#: src/features/help/contribute-dialog.tsx:160
 msgid "Please try again."
 msgstr "សូមព្យាយាមម្តងទៀត។"
 
-#: src/features/help/contribute-dialog.tsx:57
+#: src/features/help/contribute-dialog.tsx:66
 msgid "Post introduction"
 msgstr "បង្ហោះការណែនាំខ្លួន"
 
-#: src/features/help/contribute-dialog.tsx:67
+#: src/features/help/contribute-dialog.tsx:77
 msgid "Post question"
 msgstr "បង្ហោះសំណួរ"
 
-#: src/features/help/contribute-dialog.tsx:130
+#: src/features/help/contribute-dialog.tsx:153
 msgid "Posted"
 msgstr "បានបង្ហោះ"
 
-#: src/features/help/contribute-dialog.tsx:225
+#: src/features/help/contribute-dialog.tsx:275
 msgid "Posting…"
 msgstr "កំពុងប្រកាស…"
 
@@ -673,7 +686,7 @@ msgstr "ឯកជនភាព"
 msgid "Profile"
 msgstr "ប្រវត្តិរូប"
 
-#: src/features/help/contribute-dialog.tsx:63
+#: src/features/help/contribute-dialog.tsx:73
 msgid "Question"
 msgstr "សំណួរ"
 
@@ -716,12 +729,12 @@ msgstr "យកសិទ្ធិចូលប្រើចេញ?"
 msgid "Remove interest"
 msgstr "យកចំណាប់អារម្មណ៍ចេញ"
 
-#: src/features/help/contribute-dialog.tsx:71
+#: src/features/help/contribute-dialog.tsx:82
 #: src/features/help/index.tsx:40
 msgid "Report a bug"
 msgstr "រាយការណ៍កំហុស"
 
-#: src/features/help/contribute-dialog.tsx:77
+#: src/features/help/contribute-dialog.tsx:88
 msgid "Report bug"
 msgstr "រាយការណ៍កំហុស"
 
@@ -840,7 +853,7 @@ msgstr "កំណត់ចំណុចចេញដំណើរ និងគោ�
 msgid "Settings"
 msgstr "ការកំណត់"
 
-#: src/features/help/contribute-dialog.tsx:84
+#: src/features/help/contribute-dialog.tsx:96
 msgid "Short title for your idea"
 msgstr "ចំណងជើងខ្លីសម្រាប់គំនិតរបស់អ្នក"
 
@@ -879,7 +892,7 @@ msgstr "ឃើញអ្វីខូចមែនទេ? ដាក់សំបុ�
 msgid "Stay tuned though!"
 msgstr "ប៉ុន្តែសូមតាមដាន!"
 
-#: src/features/help/contribute-dialog.tsx:76
+#: src/features/help/contribute-dialog.tsx:87
 msgid "Steps to reproduce, what you expected, and what actually happened. Include your browser and device if relevant."
 msgstr "ជំហានដើម្បីផលិតឡើងវិញ អ្វីដែលអ្នករំពឹង និងអ្វីដែលបានកើតឡើងពិតប្រាកដ។ បញ្ចូលកម្មវិធីរុករក និងឧបករណ៍របស់អ្នកប្រសិនបើពាក់ព័ន្ធ។"
 
@@ -891,17 +904,21 @@ msgstr "ជាប់គាំងលើអ្វីមួយមែនទេ? ស�
 msgid "Subject"
 msgstr "ប្រធានបទ"
 
-#: src/features/help/contribute-dialog.tsx:81
+#: src/features/help/contribute-dialog.tsx:210
+msgid "Submitted successfully"
+msgstr ""
+
+#: src/features/help/contribute-dialog.tsx:93
 #: src/features/help/index.tsx:46
 msgid "Suggest a new feature"
 msgstr "ស្នើមុខងារថ្មី"
 
-#: src/features/help/contribute-dialog.tsx:87
+#: src/features/help/contribute-dialog.tsx:99
 msgid "Suggest feature"
 msgstr "ស្នើមុខងារ"
 
-#: src/features/help/contribute-dialog.tsx:73
-#: src/features/help/contribute-dialog.tsx:83
+#: src/features/help/contribute-dialog.tsx:84
+#: src/features/help/contribute-dialog.tsx:95
 msgid "Summary"
 msgstr "សង្ខេប"
 
@@ -919,7 +936,7 @@ msgstr "ប្រព័ន្ធ"
 msgid "Tag"
 msgstr "ស្លាក"
 
-#: src/features/help/contribute-dialog.tsx:131
+#: src/features/help/contribute-dialog.tsx:154
 msgid "Taking you there now."
 msgstr "កំពុងនាំអ្នកទៅទីនោះឥឡូវនេះ។"
 
@@ -927,7 +944,7 @@ msgstr "កំពុងនាំអ្នកទៅទីនោះឥឡូវន
 msgid "Teams/Apps"
 msgstr "ក្រុម/កម្មវិធី"
 
-#: src/features/help/contribute-dialog.tsx:82
+#: src/features/help/contribute-dialog.tsx:94
 msgid "Tell the Mochi development team what you'd like Mochi to do."
 msgstr "ប្រាប់ក្រុមអភិវឌ្ឍន៍ Mochi នូវអ្វីដែលអ្នកចង់ឱ្យ Mochi ធ្វើ។"
 
@@ -1010,7 +1027,7 @@ msgstr "វាយដើម្បីស្វែងរក..."
 msgid "Unable to redirect to login. Please try again."
 msgstr "មិនអាចប្តូរទិសទៅការចូល។ សូមព្យាយាមម្តងទៀត។"
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:143
+#: ../../../lib/web/src/components/notification-category-button.tsx:147
 msgid "Unassigned"
 msgstr "មិនបានកំណត់"
 
@@ -1083,22 +1100,30 @@ msgstr "ថ្ងៃពុធ"
 msgid "Welcome to Mochi. Here's how to get started."
 msgstr "សូមស្វាគមន៍មកកាន់ Mochi។ នេះជារបៀបចាប់ផ្ដើម។"
 
-#: src/features/help/contribute-dialog.tsx:75
+#: src/features/help/contribute-dialog.tsx:86
 msgid "What happened"
 msgstr "មានអ្វីកើតឡើង"
 
-#: src/features/help/contribute-dialog.tsx:66
+#: src/features/help/contribute-dialog.tsx:76
 msgid "What have you tried, what did you expect, where are you stuck?"
 msgstr "តើអ្នកបានសាកល្បងអ្វី តើអ្នករំពឹងអ្វី តើអ្នកជាប់ត្រង់ណា?"
 
-#: src/features/help/contribute-dialog.tsx:86
+#: src/features/help/contribute-dialog.tsx:98
 msgid "What would it do, who is it for, why does it matter?"
 msgstr "វានឹងធ្វើអ្វី? សម្រាប់នរណា? ហេតុអ្វីបានជាសំខាន់?"
 
-#: src/features/help/contribute-dialog.tsx:64
+#: src/features/help/contribute-dialog.tsx:74
 msgid "What you want to ask, in one line"
 msgstr "អ្វីដែលអ្នកចង់សួរ ក្នុងមួយជួរ"
 
-#: src/features/help/contribute-dialog.tsx:242
+#: src/features/help/contribute-dialog.tsx:67
+msgid "Your introduction has been submitted and will appear after moderation."
+msgstr ""
+
+#: src/features/help/contribute-dialog.tsx:78
+msgid "Your question has been submitted and will appear after moderation."
+msgstr ""
+
+#: src/features/help/contribute-dialog.tsx:294
 msgid "Your text will be lost."
 msgstr "អត្ថបទរបស់អ្នកនឹងបាត់បង់។"
