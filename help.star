@@ -1,7 +1,9 @@
 # Mochi Help app
 # Copyright Alistair Cunningham 2025-2026
 
-# Canonical Mochi entities on the public Mochi instance.
+# Fallback entity IDs used when no server setting overrides them.
+# On a self-hosted instance, configure help_users_forum and help_dev_project
+# in Settings (Admin → Settings) to point at local forum/project entities.
 USERS_FORUM = "126YM4PAEioT47rkAionhLKowZw6kWugijf9AAF6jFtxwRbo1Mo"
 DEV_PROJECT = "1KEog9eeM2F4VFkz76FCSgKo8nf7ENyoX3aRjUKzL9wfDsDRSE"
 
@@ -134,6 +136,12 @@ def action_contribute(a):
 		payload,
 	)
 	if result and result.get("error"):
+		code = result.get("code", 502)
+		# Surface timeout/connectivity failures as 503 with a specific label so
+		# the frontend can show "service unavailable" rather than a generic error.
+		if code == 504:
+			a.error.label(503, "errors.service_unavailable")
+			return
 		_surface_remote_error(a, result)
 		return
 
@@ -179,14 +187,16 @@ def action_contribute(a):
 	return {"data": {"redirect": redirect}}
 
 def _target_for_kind(kind):
+	users_forum = mochi.setting.get("help_users_forum") or USERS_FORUM
+	dev_project = mochi.setting.get("help_dev_project") or DEV_PROJECT
 	if kind in ("intro", "question"):
-		if not USERS_FORUM:
+		if not users_forum:
 			return None
-		return {"service": "forums", "entity_id": USERS_FORUM, "entity_field": "forum"}
+		return {"service": "forums", "entity_id": users_forum, "entity_field": "forum"}
 	if kind in ("bug", "feature"):
-		if not DEV_PROJECT:
+		if not dev_project:
 			return None
-		return {"service": "projects", "entity_id": DEV_PROJECT, "entity_field": "project"}
+		return {"service": "projects", "entity_id": dev_project, "entity_field": "project"}
 	return None
 
 def _intro_title(user):
