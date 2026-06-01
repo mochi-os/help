@@ -2,7 +2,7 @@
 // Copyright Alistair Cunningham 2025-2026
 
 {
-	"version": "1.11",
+	"version": "1.14",
 	"label": "app.name",
 	"paths": ["help"],
 

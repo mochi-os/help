@@ -15,6 +15,7 @@ import {
   getErrorMessage,
   shellNavigateExternal,
   toast,
+  useFormat,
 } from '@mochi/web'
 import { Bug, CheckCircle, HelpCircle, Lightbulb, Loader2, Sparkles, X } from 'lucide-react'
 import { helpApi, type Kind } from '@/api/help'
@@ -112,6 +113,7 @@ export function ContributeDialog({
   onOpenChange: (open: boolean) => void
 }) {
   const { t } = useLingui()
+  const { formatNumber } = useFormat()
   const copy = useCopy(kind)
   const needsTitle = NEEDS_TITLE[kind]
   const isForumKind = IS_FORUM_KIND[kind]
@@ -243,7 +245,7 @@ export function ContributeDialog({
                     )}
                   </span>
                   <span className={counterTone}>
-                    {body.length.toLocaleString()} / {BODY_MAX.toLocaleString()}
+                    {formatNumber(body.length)} / {formatNumber(BODY_MAX)}
                   </span>
                 </div>
               </div>

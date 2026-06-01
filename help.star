@@ -61,11 +61,9 @@ def action_prepare(a):
 		"app/subscribe",
 		{target["entity_field"]: target["entity_id"]},
 	)
-	if result and result.get("error"):
-		_surface_remote_error(a, result)
-		return
-
-	return {"data": result or {}}
+	# prepare is best-effort pre-subscription: remote errors (including timeouts)
+	# are non-fatal. The client handles failure gracefully without blocking the user.
+	return {"data": (result if result and not result.get("error") else {})}
 
 def action_contribute(a):
 	if not a.user:
