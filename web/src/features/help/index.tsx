@@ -2,13 +2,7 @@ import { useEffect, useState } from 'react'
 import { Trans, useLingui } from '@lingui/react/macro'
 import { Link } from '@tanstack/react-router'
 import { Bug, HelpCircle, Lightbulb, Sparkles } from 'lucide-react'
-import {
-  Card,
-  Main,
-  PageHeader,
-  toast,
-  getErrorMessage,
-} from '@mochi/web'
+import { Card, Main, PageHeader } from '@mochi/web'
 import { helpApi, type Kind } from '@/api/help'
 import { ContributeDialog } from '@/features/help/contribute-dialog'
 
@@ -62,11 +56,6 @@ export function Help() {
 
   const handleCardClick = (kind: Kind) => {
     setOpenKind(kind)
-    helpApi.prepare(kind).catch((err) => {
-      toast.warning(t`Couldn't reach the destination yet`, {
-        description: getErrorMessage(err, t`We'll try again when you submit.`),
-      })
-    })
   }
 
   return (

@@ -54,8 +54,10 @@ def action_prepare(a):
 
 	target = _target_for_kind(kind)
 	if not target:
-		a.error.label(503, "errors.help_not_configured")
-		return
+		return {"data": {
+			"available": False,
+			"message": mochi.app.label("errors.help_not_configured"),
+		}}
 
 	result = mochi.remote.request(
 		a.user.identity.id,
@@ -63,9 +65,30 @@ def action_prepare(a):
 		"app/subscribe",
 		{target["entity_field"]: target["entity_id"]},
 	)
-	# prepare is best-effort pre-subscription: remote errors (including timeouts)
-	# are non-fatal. The client handles failure gracefully without blocking the user.
-	return {"data": (result if result and not result.get("error") else {})}
+	# prepare is a non-destructive preflight. Return availability information
+	# instead of throwing so the dialog can explain problems inline before the
+	# user spends time writing a full post.
+	if result and result.get("error"):
+		code = result.get("code", 502)
+		message = (
+			mochi.app.label("errors.service_unavailable")
+			if code == 504
+			else _remote_error_message(result)
+		)
+		return {"data": {
+			"available": False,
+			"message": message,
+		}}
+
+	if not result:
+		return {"data": {
+			"available": False,
+			"message": mochi.app.label("errors.remote_failed"),
+		}}
+
+	data = {"available": True}
+	data.update(result)
+	return {"data": data}
 
 def action_contribute(a):
 	if not a.user:
@@ -214,3 +237,9 @@ def _surface_remote_error(a, result):
 		a.error.label(code, err)
 	else:
 		a.error.label(code, "errors.remote_failed")
+
+def _remote_error_message(result):
+	err = result.get("error", "")
+	if err.startswith("errors."):
+		return mochi.app.label(err)
+	return mochi.app.label("errors.remote_failed")

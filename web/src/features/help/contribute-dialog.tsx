@@ -1,6 +1,9 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { Trans, useLingui } from '@lingui/react/macro'
 import {
+  Alert,
+  AlertDescription,
+  AlertTitle,
   Button,
   ConfirmDialog,
   Input,
@@ -17,7 +20,7 @@ import {
   toast,
   useFormat,
 } from '@mochi/web'
-import { Bug, CheckCircle, HelpCircle, Lightbulb, Loader2, Sparkles, X } from 'lucide-react'
+import { Bug, CheckCircle, CircleAlert, HelpCircle, Lightbulb, Loader2, Sparkles, X } from 'lucide-react'
 import { helpApi, type Kind } from '@/api/help'
 
 // Mirrors BODY_MAX / BODY_MIN in help.star.
@@ -56,6 +59,11 @@ interface CopyBundle {
   submit: string
   successMessage: string
 }
+
+type DestinationStatus =
+  | { status: 'checking' }
+  | { status: 'ready' }
+  | { status: 'unavailable'; message: string }
 
 function useCopy(kind: Kind): CopyBundle {
   const { t } = useLingui()
@@ -124,17 +132,57 @@ export function ContributeDialog({
   const [discardOpen, setDiscardOpen] = useState(false)
   const [submitted, setSubmitted] = useState(false)
   const [redirectUrl, setRedirectUrl] = useState('')
+  const [prepareAttempt, setPrepareAttempt] = useState(0)
+  const [destinationStatus, setDestinationStatus] = useState<DestinationStatus>({
+    status: 'checking',
+  })
 
   const trimmedBody = body.trim()
   const trimmedTitle = title.trim()
   const bodyTooShort = trimmedBody.length < BODY_MIN
   const bodyTooLong = body.length > BODY_MAX
   const isDirty = title !== '' || body !== ''
+  const destinationReady = destinationStatus.status === 'ready'
   const canSubmit =
     !submitting &&
     !bodyTooShort &&
     !bodyTooLong &&
+    destinationReady &&
     (!needsTitle || trimmedTitle.length > 0)
+
+  useEffect(() => {
+    if (!open || submitted) return
+
+    let cancelled = false
+
+    const prepareDestination = async () => {
+      setDestinationStatus({ status: 'checking' })
+      try {
+        const result = await helpApi.prepare(kind)
+        if (cancelled) return
+        if (result.available === false) {
+          setDestinationStatus({
+            status: 'unavailable',
+            message: result.message || t`Please try again.`,
+          })
+          return
+        }
+        setDestinationStatus({ status: 'ready' })
+      } catch (err) {
+        if (cancelled) return
+        setDestinationStatus({
+          status: 'unavailable',
+          message: getErrorMessage(err, t`Please try again.`),
+        })
+      }
+    }
+
+    void prepareDestination()
+
+    return () => {
+      cancelled = true
+    }
+  }, [kind, open, prepareAttempt, submitted, t])
 
   const handleSubmit = async () => {
     if (!canSubmit) return
@@ -214,6 +262,35 @@ export function ContributeDialog({
             </div>
           ) : (
             <div className='flex flex-col gap-4 px-4 sm:px-0'>
+              {destinationStatus.status === 'checking' && (
+                <div className='text-muted-foreground flex items-center gap-2 text-sm'>
+                  <Loader2 className='h-4 w-4 animate-spin' />
+                  <Trans>Loading…</Trans>
+                </div>
+              )}
+              {destinationStatus.status === 'unavailable' && (
+                <Alert
+                  variant='destructive'
+                  className='border-amber-200 bg-amber-50 text-amber-900 dark:border-amber-800/60 dark:bg-amber-950/20 dark:text-amber-100'
+                >
+                  <CircleAlert className='text-amber-700 dark:text-amber-300' />
+                  <AlertTitle><Trans>Couldn't reach the destination yet</Trans></AlertTitle>
+                  <AlertDescription className='text-amber-800 dark:text-amber-200'>
+                    <p>{destinationStatus.message}</p>
+                    <Button
+                      type='button'
+                      variant='outline'
+                      size='sm'
+                      onClick={() => {
+                        setDestinationStatus({ status: 'checking' })
+                        setPrepareAttempt((attempt) => attempt + 1)
+                      }}
+                    >
+                      <Trans>Try again</Trans>
+                    </Button>
+                  </AlertDescription>
+                </Alert>
+              )}
               {needsTitle && (
                 <div className='flex flex-col gap-2'>
                   <Label htmlFor='help-title'>{copy.titleLabel}</Label>

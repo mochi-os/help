@@ -4,6 +4,8 @@ import { requestHelpers } from '@mochi/web'
 export type Kind = 'intro' | 'question' | 'bug' | 'feature'
 
 interface PrepareResponse {
+  available: boolean
+  message?: string
   fingerprint?: string
   already_subscribed?: boolean
 }
