@@ -53,7 +53,7 @@ msgstr "Compte vérifié"
 msgid "Add"
 msgstr "Ajouter"
 
-#: src/features/help/contribute-dialog.tsx:242
+#: src/features/help/contribute-dialog.tsx:321
 msgid "Add a bit more detail."
 msgstr "Ajoutez un peu plus de détails."
 
@@ -114,14 +114,18 @@ msgstr "Voulez-vous vraiment vous déconnecter ? Vous devrez vous reconnecter po
 msgid "Asc"
 msgstr "Croissant"
 
-#: src/features/help/contribute-dialog.tsx:71
-#: src/features/help/index.tsx:34
+#: src/features/help/contribute-dialog.tsx:80
+#: src/features/help/index.tsx:28
 msgid "Ask a question"
 msgstr "Poser une question"
 
-#: src/features/help/contribute-dialog.tsx:72
+#: src/features/help/contribute-dialog.tsx:81
 msgid "Ask the community on the Mochi users mailing list. Be specific about what you've tried so far."
 msgstr "Posez votre question à la communauté sur la liste de diffusion des utilisateurs Mochi. Précisez ce que vous avez déjà essayé."
+
+#: ../../../lib/web/src/components/step-up-dialog.tsx:312
+msgid "Authenticator code"
+msgstr "Code d'authentification"
 
 #: ../../../lib/web/src/components/place-picker.tsx:152
 msgid "Back"
@@ -137,22 +141,23 @@ msgstr "Retour à l’accueil"
 msgid "Boost interest"
 msgstr "Augmenter l'intérêt"
 
-#: src/features/help/contribute-dialog.tsx:85
+#: src/features/help/contribute-dialog.tsx:94
 msgid "Brief summary of the problem"
 msgstr "Bref résumé du problème"
 
-#: src/features/help/contribute-dialog.tsx:89
+#: src/features/help/contribute-dialog.tsx:98
 msgid "Bug report submitted."
-msgstr ""
+msgstr "Rapport de bogue envoyé."
 
 #: ../../../lib/web/src/components/responsive-confirm-dialog.tsx:64
+#: ../../../lib/web/src/components/step-up-dialog.tsx:360
 #: ../../../lib/web/src/components/travelling-picker.tsx:292
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx:245
 #: ../../../lib/web/src/features/access/access-dialog.tsx:325
 #: ../../../lib/web/src/features/access/access-list.tsx:255
 #: ../../../lib/web/src/features/accounts/account-add.tsx:185
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:86
-#: src/features/help/contribute-dialog.tsx:269
+#: src/features/help/contribute-dialog.tsx:348
 msgid "Cancel"
 msgstr "Annuler"
 
@@ -208,7 +213,7 @@ msgstr "Effacer la sélection (Échap)"
 #: ../../../lib/web/src/components/ui/dialog.tsx:75
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:318
 #: ../../../lib/web/src/components/ui/sheet.tsx:76
-#: src/features/help/contribute-dialog.tsx:257
+#: src/features/help/contribute-dialog.tsx:336
 msgid "Close"
 msgstr "Fermer"
 
@@ -258,6 +263,10 @@ msgstr "Informations contextuelles et détails."
 msgid "Continue"
 msgstr "Continuer"
 
+#: ../../../lib/web/src/components/step-up-dialog.tsx:349
+msgid "Continue with {label}"
+msgstr "Continuer avec {label}"
+
 #: ../../../lib/web/src/components/ui/copy-button.tsx:60
 msgid "Copy"
 msgstr "Copier"
@@ -266,13 +275,25 @@ msgstr "Copier"
 msgid "Could not load this document. Please try again later."
 msgstr "Impossible de charger ce document. Veuillez réessayer plus tard."
 
-#: src/features/help/index.tsx:66
+#: src/features/help/contribute-dialog.tsx:277
 msgid "Couldn't reach the destination yet"
 msgstr "Impossible de joindre la destination pour le moment"
 
-#: src/features/help/contribute-dialog.tsx:159
+#: ../../../lib/web/src/components/step-up-dialog.tsx:181
+msgid "Couldn't send the code. Please try again."
+msgstr "Impossible d'envoyer le code. Veuillez réessayer."
+
+#: ../../../lib/web/src/components/step-up-dialog.tsx:133
+msgid "Couldn't start re-authentication. Please try again."
+msgstr "Impossible de démarrer la réauthentification. Veuillez réessayer."
+
+#: src/features/help/contribute-dialog.tsx:209
 msgid "Couldn't submit"
 msgstr "Échec de l'envoi"
+
+#: ../../../lib/web/src/components/step-up-dialog.tsx:218
+msgid "Couldn't verify with that account. Please try again."
+msgstr "Impossible de vérifier avec ce compte. Veuillez réessayer."
 
 #: ../../../lib/web/src/components/config-drawer.tsx:205
 #: ../../../lib/web/src/lib/preference-utils.ts:17
@@ -295,16 +316,20 @@ msgstr "Par défaut"
 msgid "Default AI account"
 msgstr "Compte IA par défaut"
 
+#: ../../../lib/web/src/components/restore-banner.tsx:90
+msgid "Delete your account on the old server"
+msgstr "Supprimez votre compte sur l'ancien serveur"
+
 #: ../../../lib/web/src/components/data-table/column-header.tsx:60
 msgid "Desc"
 msgstr "Décroissant"
 
-#: src/features/help/contribute-dialog.tsx:83
+#: src/features/help/contribute-dialog.tsx:92
 msgid "Describe what went wrong. The Mochi development team will see it on the Mochi development project."
 msgstr "Décrivez ce qui n'a pas fonctionné. L'équipe de développement Mochi le verra sur le projet de développement Mochi."
 
-#: src/features/help/contribute-dialog.tsx:75
-#: src/features/help/contribute-dialog.tsx:97
+#: src/features/help/contribute-dialog.tsx:84
+#: src/features/help/contribute-dialog.tsx:106
 msgid "Details"
 msgstr "Détails"
 
@@ -327,13 +352,17 @@ msgstr "Détecter depuis le navigateur web"
 msgid "Direction"
 msgstr "Direction"
 
-#: src/features/help/contribute-dialog.tsx:296
+#: src/features/help/contribute-dialog.tsx:375
 msgid "Discard"
 msgstr "Abandonner"
 
-#: src/features/help/contribute-dialog.tsx:293
+#: src/features/help/contribute-dialog.tsx:372
 msgid "Discard draft?"
 msgstr "Abandonner le brouillon ?"
+
+#: ../../../lib/web/src/components/restore-banner.tsx:73
+msgid "Dismiss"
+msgstr "Ignorer"
 
 #: ../../../lib/web/src/components/ui/sidebar.tsx:235
 msgid "Displays the mobile sidebar."
@@ -346,6 +375,18 @@ msgstr "Télécharger"
 #: ../../../lib/web/src/lib/preference-utils.ts:134
 msgid "Dyslexia-friendly"
 msgstr "Adapté à la dyslexie"
+
+#: ../../../lib/web/src/components/step-up-dialog.tsx:286
+msgid "Email code"
+msgstr "Code par e-mail"
+
+#: ../../../lib/web/src/components/step-up-dialog.tsx:296
+msgid "Enter the code from your email"
+msgstr "Saisissez le code reçu par e-mail"
+
+#: ../../../lib/web/src/components/step-up-dialog.tsx:321
+msgid "Enter your authenticator code"
+msgstr "Saisissez le code de votre application d'authentification"
 
 #: ../../../lib/web/src/components/layout/app-sidebar.tsx:35
 msgid "Expand sidebar"
@@ -371,9 +412,13 @@ msgstr "Échec de l'envoi du code de vérification"
 msgid "Failed to update category"
 msgstr "Échec de la mise à jour de la catégorie"
 
-#: src/features/help/contribute-dialog.tsx:100
+#: src/features/help/contribute-dialog.tsx:109
 msgid "Feature request submitted."
-msgstr ""
+msgstr "Demande de fonctionnalité envoyée."
+
+#: ../../../lib/web/src/components/restore-banner.tsx:79
+msgid "Finish moving your account"
+msgstr "Terminez de déplacer votre compte"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:244
 msgid "Floating"
@@ -409,9 +454,9 @@ msgstr "Retour"
 msgid "Go to first page"
 msgstr "Aller à la première page"
 
-#: src/features/help/contribute-dialog.tsx:261
+#: src/features/help/contribute-dialog.tsx:340
 msgid "Go to forum"
-msgstr ""
+msgstr "Aller au forum"
 
 #: ../../../lib/web/src/components/data-table/pagination.tsx:121
 msgid "Go to last page"
@@ -429,7 +474,7 @@ msgstr "Aller à la page {pageNumber}"
 msgid "Go to previous page"
 msgstr "Aller à la page précédente"
 
-#: src/features/help/index.tsx:47
+#: src/features/help/index.tsx:41
 msgid "Got an idea? Open a feature request on the Mochi development project."
 msgstr "Une idée ? Ouvrez une demande de feature sur le projet de développement Mochi."
 
@@ -437,12 +482,15 @@ msgstr "Une idée ? Ouvrez une demande de feature sur le projet de développemen
 msgid "Group"
 msgstr "Groupe"
 
-#: src/features/help/index.tsx:75
+#: src/features/help/index.tsx:64
+#: src/routes/_authenticated/document/privacy.tsx:11
+#: src/routes/_authenticated/document/rules.tsx:11
+#: src/routes/_authenticated/document/terms.tsx:11
 #: src/routes/_authenticated/route.tsx:13
 msgid "Help"
 msgstr "Aide"
 
-#: src/features/help/contribute-dialog.tsx:65
+#: src/features/help/contribute-dialog.tsx:74
 msgid "Hi, I'm…"
 msgstr "Bonjour, je suis…"
 
@@ -473,8 +521,8 @@ msgstr "Encastré"
 msgid "Interests"
 msgstr "Centres d'intérêt"
 
-#: src/features/help/contribute-dialog.tsx:64
-#: src/features/help/index.tsx:28
+#: src/features/help/contribute-dialog.tsx:73
+#: src/features/help/index.tsx:22
 msgid "Introduce yourself"
 msgstr "Présentez-vous"
 
@@ -482,7 +530,7 @@ msgstr "Présentez-vous"
 msgid "Invalid verification code"
 msgstr "Code de vérification invalide"
 
-#: src/features/help/contribute-dialog.tsx:295
+#: src/features/help/contribute-dialog.tsx:374
 msgid "Keep editing"
 msgstr "Continuer à modifier"
 
@@ -514,6 +562,7 @@ msgstr "Charger plus"
 
 #: ../../../lib/web/src/components/ui/load-more.tsx:32
 #: ../../../lib/web/src/features/document/document-page.tsx:87
+#: src/features/help/contribute-dialog.tsx:268
 msgid "Loading…"
 msgstr "Chargement…"
 
@@ -651,23 +700,37 @@ msgstr "Autre"
 msgid "Owner"
 msgstr "Propriétaire"
 
-#: src/features/help/contribute-dialog.tsx:160
+#: ../../../lib/web/src/components/step-up-dialog.tsx:331
+msgid "Passkey"
+msgstr "Clé d'accès"
+
+#: ../../../lib/web/src/components/step-up-dialog.tsx:206
+msgid "Passkey verification failed. Please try again."
+msgstr "La vérification par clé d'accès a échoué. Veuillez réessayer."
+
+#: ../../../lib/web/src/components/restore-banner.tsx:126
+msgid "Passkeys"
+msgstr "Clés d'accès"
+
+#: src/features/help/contribute-dialog.tsx:166
+#: src/features/help/contribute-dialog.tsx:175
+#: src/features/help/contribute-dialog.tsx:210
 msgid "Please try again."
 msgstr "Veuillez réessayer."
 
-#: src/features/help/contribute-dialog.tsx:66
+#: src/features/help/contribute-dialog.tsx:75
 msgid "Post introduction"
 msgstr "Publier la présentation"
 
-#: src/features/help/contribute-dialog.tsx:77
+#: src/features/help/contribute-dialog.tsx:86
 msgid "Post question"
 msgstr "Publier la question"
 
-#: src/features/help/contribute-dialog.tsx:153
+#: src/features/help/contribute-dialog.tsx:203
 msgid "Posted"
 msgstr "Publié"
 
-#: src/features/help/contribute-dialog.tsx:275
+#: src/features/help/contribute-dialog.tsx:354
 msgid "Posting…"
 msgstr "Publication…"
 
@@ -677,7 +740,7 @@ msgstr "Image précédente"
 
 #: ../../../lib/web/src/components/server-documents-footer.tsx:24
 #: ../../../lib/web/src/features/document/document-page.tsx:41
-#: src/features/help/index.tsx:109
+#: src/features/help/index.tsx:98
 msgid "Privacy"
 msgstr "Confidentialité"
 
@@ -686,9 +749,17 @@ msgstr "Confidentialité"
 msgid "Profile"
 msgstr "Profil"
 
-#: src/features/help/contribute-dialog.tsx:73
+#: src/features/help/contribute-dialog.tsx:82
 msgid "Question"
 msgstr "Question"
+
+#: ../../../lib/web/src/components/restore-banner.tsx:98
+msgid "Re-link your accounts on this server"
+msgstr "Relinkez vos comptes sur ce serveur"
+
+#: ../../../lib/web/src/components/restore-banner.tsx:120
+msgid "Re-register your passkeys on this server"
+msgstr "Réenregistrez vos clés d'accès sur ce serveur"
 
 #: ../../../lib/web/src/components/search-entity-dialog.tsx:216
 #: ../../../lib/web/src/components/search-entity-page.tsx:191
@@ -729,14 +800,18 @@ msgstr "Supprimer l'accès ?"
 msgid "Remove interest"
 msgstr "Supprimer l'intérêt"
 
-#: src/features/help/contribute-dialog.tsx:82
-#: src/features/help/index.tsx:40
+#: src/features/help/contribute-dialog.tsx:91
+#: src/features/help/index.tsx:34
 msgid "Report a bug"
 msgstr "Signaler un bug"
 
-#: src/features/help/contribute-dialog.tsx:88
+#: src/features/help/contribute-dialog.tsx:97
 msgid "Report bug"
 msgstr "Signaler le bug"
+
+#: ../../../lib/web/src/components/step-up-dialog.tsx:364
+msgid "Resend email"
+msgstr "Renvoyer l'e-mail"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:77
 #: ../../../lib/web/src/components/data-table/toolbar.tsx:78
@@ -759,7 +834,7 @@ msgstr "Lignes par page"
 msgid "Saturday"
 msgstr "Samedi"
 
-#: src/features/help/index.tsx:29
+#: src/features/help/index.tsx:23
 msgid "Say hello on the Mochi users mailing list and tell everyone a little about yourself."
 msgstr "Dites bonjour sur la liste de diffusion des utilisateurs Mochi et présentez-vous un peu."
 
@@ -829,13 +904,17 @@ msgstr "Sélectionner la préférence de thème"
 msgid "Send again"
 msgstr "Renvoyer"
 
+#: ../../../lib/web/src/components/step-up-dialog.tsx:304
+msgid "Send email"
+msgstr "Envoyer l'e-mail"
+
 #: ../../../lib/web/src/lib/preference-utils.ts:133
 msgid "Serif"
 msgstr "Serif"
 
 #: ../../../lib/web/src/components/server-documents-footer.tsx:16
 #: ../../../lib/web/src/features/document/document-page.tsx:37
-#: src/features/help/index.tsx:101
+#: src/features/help/index.tsx:90
 msgid "Server rules"
 msgstr "Règles du serveur"
 
@@ -853,7 +932,7 @@ msgstr "Définir l'origine et la destination"
 msgid "Settings"
 msgstr "Paramètres"
 
-#: src/features/help/contribute-dialog.tsx:96
+#: src/features/help/contribute-dialog.tsx:105
 msgid "Short title for your idea"
 msgstr "Titre court pour votre idée"
 
@@ -884,7 +963,7 @@ msgstr "Petit"
 msgid "Spacious"
 msgstr "Spacieux"
 
-#: src/features/help/index.tsx:41
+#: src/features/help/index.tsx:35
 msgid "Spotted something broken? File a bug ticket on the Mochi development project."
 msgstr "Vous avez repéré un bug ? Ouvrez un ticket sur le projet de développement Mochi."
 
@@ -892,11 +971,11 @@ msgstr "Vous avez repéré un bug ? Ouvrez un ticket sur le projet de développe
 msgid "Stay tuned though!"
 msgstr "Restez à l'écoute !"
 
-#: src/features/help/contribute-dialog.tsx:87
+#: src/features/help/contribute-dialog.tsx:96
 msgid "Steps to reproduce, what you expected, and what actually happened. Include your browser and device if relevant."
 msgstr "Étapes pour reproduire, ce que vous attendiez et ce qui s'est réellement passé. Indiquez votre navigateur et votre appareil si c'est pertinent."
 
-#: src/features/help/index.tsx:35
+#: src/features/help/index.tsx:29
 msgid "Stuck on something? Ask the community on the Mochi users mailing list."
 msgstr "Vous êtes bloqué ? Demandez à la communauté sur la liste de diffusion des utilisateurs Mochi."
 
@@ -904,21 +983,21 @@ msgstr "Vous êtes bloqué ? Demandez à la communauté sur la liste de diffusio
 msgid "Subject"
 msgstr "Sujet"
 
-#: src/features/help/contribute-dialog.tsx:210
+#: src/features/help/contribute-dialog.tsx:260
 msgid "Submitted successfully"
-msgstr ""
+msgstr "Envoyé avec succès"
 
-#: src/features/help/contribute-dialog.tsx:93
-#: src/features/help/index.tsx:46
+#: src/features/help/contribute-dialog.tsx:102
+#: src/features/help/index.tsx:40
 msgid "Suggest a new feature"
 msgstr "Suggérer une nouvelle feature"
 
-#: src/features/help/contribute-dialog.tsx:99
+#: src/features/help/contribute-dialog.tsx:108
 msgid "Suggest feature"
 msgstr "Suggérer la fonctionnalité"
 
-#: src/features/help/contribute-dialog.tsx:84
-#: src/features/help/contribute-dialog.tsx:95
+#: src/features/help/contribute-dialog.tsx:93
+#: src/features/help/contribute-dialog.tsx:104
 msgid "Summary"
 msgstr "Résumé"
 
@@ -936,7 +1015,7 @@ msgstr "Système"
 msgid "Tag"
 msgstr "Étiquette"
 
-#: src/features/help/contribute-dialog.tsx:154
+#: src/features/help/contribute-dialog.tsx:204
 msgid "Taking you there now."
 msgstr "On vous y emmène."
 
@@ -944,15 +1023,19 @@ msgstr "On vous y emmène."
 msgid "Teams/Apps"
 msgstr "Équipes/Applications"
 
-#: src/features/help/contribute-dialog.tsx:94
+#: src/features/help/contribute-dialog.tsx:103
 msgid "Tell the Mochi development team what you'd like Mochi to do."
 msgstr "Dites à l'équipe de développement Mochi ce que vous aimeriez que Mochi fasse."
 
 #: ../../../lib/web/src/components/server-documents-footer.tsx:20
 #: ../../../lib/web/src/features/document/document-page.tsx:39
-#: src/features/help/index.tsx:105
+#: src/features/help/index.tsx:94
 msgid "Terms and conditions"
 msgstr "Conditions générales"
+
+#: ../../../lib/web/src/components/step-up-dialog.tsx:192
+msgid "That code is incorrect or has expired."
+msgstr "Ce code est incorrect ou a expiré."
 
 #: ../../../lib/web/src/components/config-drawer.tsx:181
 msgid "Theme"
@@ -1003,6 +1086,7 @@ msgstr "Essayez d'ajuster vos termes de recherche"
 #: ../../../lib/web/src/features/errors/general-error.tsx:125
 #: ../../../lib/web/src/features/errors/general-error.tsx:165
 #: ../../../lib/web/src/features/errors/maintenance-error.tsx:16
+#: src/features/help/contribute-dialog.tsx:289
 msgid "Try again"
 msgstr "Réessayer"
 
@@ -1043,6 +1127,10 @@ msgstr "États-Unis"
 msgid "Unverified"
 msgstr "Non vérifié"
 
+#: ../../../lib/web/src/components/step-up-dialog.tsx:335
+msgid "Use your passkey"
+msgstr "Utiliser votre clé d'accès"
+
 #: ../../../lib/web/src/features/access/access-dialog.tsx:155
 msgid "User"
 msgstr "Utilisateur"
@@ -1059,6 +1147,7 @@ msgstr "Code de vérification envoyé"
 msgid "Verification failed"
 msgstr "Échec de la vérification"
 
+#: ../../../lib/web/src/components/step-up-dialog.tsx:385
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:164
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:106
 msgid "Verify"
@@ -1067,6 +1156,10 @@ msgstr "Vérifier"
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:58
 msgid "Verify email address"
 msgstr "Vérifier l'adresse e-mail"
+
+#: ../../../lib/web/src/components/attachment-gallery.tsx:63
+msgid "Video thumbnail"
+msgstr "Miniature de la vidéo"
 
 #: ../../../lib/web/src/components/data-table/view-options.tsx:30
 msgid "View"
@@ -1084,10 +1177,6 @@ msgstr "Voir toutes les notifications"
 msgid "We'll be back online shortly."
 msgstr "Nous serons de retour en ligne sous peu."
 
-#: src/features/help/index.tsx:67
-msgid "We'll try again when you submit."
-msgstr "Nous réessaierons à votre prochain envoi."
-
 #: ../../../lib/web/src/features/errors/maintenance-error.tsx:10
 msgid "Website is under maintenance!"
 msgstr "Le site est en maintenance !"
@@ -1096,34 +1185,38 @@ msgstr "Le site est en maintenance !"
 msgid "Wednesday"
 msgstr "Mercredi"
 
-#: src/features/help/index.tsx:76
+#: src/features/help/index.tsx:65
 msgid "Welcome to Mochi. Here's how to get started."
 msgstr "Bienvenue sur Mochi. Voici comment commencer."
 
-#: src/features/help/contribute-dialog.tsx:86
+#: src/features/help/contribute-dialog.tsx:95
 msgid "What happened"
 msgstr "Ce qui s'est passé"
 
-#: src/features/help/contribute-dialog.tsx:76
+#: src/features/help/contribute-dialog.tsx:85
 msgid "What have you tried, what did you expect, where are you stuck?"
 msgstr "Qu'as-tu essayé, à quoi t'attendais-tu, où es-tu bloqué ?"
 
-#: src/features/help/contribute-dialog.tsx:98
+#: src/features/help/contribute-dialog.tsx:107
 msgid "What would it do, who is it for, why does it matter?"
 msgstr "Que ferait-elle, à qui s'adresse-t-elle, pourquoi est-ce important ?"
 
-#: src/features/help/contribute-dialog.tsx:74
+#: src/features/help/contribute-dialog.tsx:83
 msgid "What you want to ask, in one line"
 msgstr "Ce que tu veux demander, en une ligne"
 
-#: src/features/help/contribute-dialog.tsx:67
+#: ../../../lib/web/src/components/restore-banner.tsx:82
+msgid "Your account was moved here from {source}. Until you delete it there, messages and notifications may reach both servers, some of your content keeps being served from the old server, and followers may take a few minutes to find you here."
+msgstr "Votre compte a été déplacé ici depuis {source}. Tant que vous ne le supprimez pas là-bas, les messages et notifications peuvent parvenir aux deux serveurs, une partie de votre contenu continue d'être servie depuis l'ancien serveur, et vos abonnés peuvent avoir besoin de quelques minutes pour vous trouver ici."
+
+#: src/features/help/contribute-dialog.tsx:76
 msgid "Your introduction has been submitted and will appear after moderation."
-msgstr ""
+msgstr "Votre présentation a été envoyée et apparaîtra après modération."
 
-#: src/features/help/contribute-dialog.tsx:78
+#: src/features/help/contribute-dialog.tsx:87
 msgid "Your question has been submitted and will appear after moderation."
-msgstr ""
+msgstr "Votre question a été envoyée et apparaîtra après modération."
 
-#: src/features/help/contribute-dialog.tsx:294
+#: src/features/help/contribute-dialog.tsx:373
 msgid "Your text will be lost."
 msgstr "Votre texte sera perdu."
