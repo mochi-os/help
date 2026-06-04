@@ -86,8 +86,13 @@ def action_prepare(a):
 			"message": mochi.app.label("errors.remote_failed"),
 		}}
 
+	# Whitelist only the fields the dialog consumes rather than spreading the
+	# whole remote reply through to the browser.
 	data = {"available": True}
-	data.update(result)
+	if "fingerprint" in result:
+		data["fingerprint"] = result["fingerprint"]
+	if "already_subscribed" in result:
+		data["already_subscribed"] = result["already_subscribed"]
 	return {"data": data}
 
 def action_contribute(a):
