@@ -106,6 +106,14 @@ msgstr "AI"
 msgid "All"
 msgstr "Tümü"
 
+#: ../../../lib/web/src/lib/api-client.ts:189
+msgid "An error occurred"
+msgstr "Bir hata oluştu"
+
+#: ../../../lib/web/src/lib/api-client.ts:252
+msgid "An unexpected error occurred"
+msgstr "Beklenmeyen bir hata oluştu"
+
 #: ../../../lib/web/src/components/sign-out-dialog.tsx:24
 msgid "Are you sure you want to log out? You will need to log in again to access your account."
 msgstr "Çıkış yapmak istediğinizden emin misiniz? Hesabınıza erişmek için tekrar giriş yapmanız gerekecek."
@@ -609,6 +617,10 @@ msgstr "Metrik"
 msgid "Monday"
 msgstr "Pazartesi"
 
+#: ../../../lib/web/src/lib/api-client.ts:297
+msgid "Network error"
+msgstr "Ağ hatası"
+
 #: ../../../lib/web/src/components/ui/sort-selector.tsx:40
 msgid "New"
 msgstr "Yeni"
@@ -711,6 +723,10 @@ msgstr "Geçiş anahtarı doğrulaması başarısız oldu. Lütfen tekrar deneyi
 #: ../../../lib/web/src/components/restore-banner.tsx:126
 msgid "Passkeys"
 msgstr "Passkey'ler"
+
+#: ../../../lib/web/src/lib/api-client.ts:298
+msgid "Please check your internet connection and try again."
+msgstr "Lütfen internet bağlantınızı kontrol edip tekrar deneyin."
 
 #: src/features/help/contribute-dialog.tsx:166
 #: src/features/help/contribute-dialog.tsx:175
@@ -912,6 +928,11 @@ msgstr "E-posta gönder"
 msgid "Serif"
 msgstr "Tırnaklı"
 
+#: ../../../lib/web/src/lib/api-client.ts:256
+#: ../../../lib/web/src/lib/api-client.ts:281
+msgid "Server error"
+msgstr "Sunucu hatası"
+
 #: ../../../lib/web/src/components/server-documents-footer.tsx:16
 #: ../../../lib/web/src/features/document/document-page.tsx:37
 #: src/features/help/index.tsx:90
@@ -1105,6 +1126,10 @@ msgstr "Kullanıcı aramak için yaz"
 #: ../../../lib/web/src/features/access/access-dialog.tsx:180
 msgid "Type to search..."
 msgstr "Aramak için yaz..."
+
+#: ../../../lib/web/src/lib/api-client.ts:277
+msgid "Unable to connect to remote server"
+msgstr "Uzak sunucuya bağlanılamadı"
 
 #: ../../../lib/web/src/lib/auth-manager.ts:82
 #: ../../../lib/web/src/lib/auth-manager.ts:94

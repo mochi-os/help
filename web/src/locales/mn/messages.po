@@ -106,6 +106,14 @@ msgstr "AI"
 msgid "All"
 msgstr "Бүгд"
 
+#: ../../../lib/web/src/lib/api-client.ts:189
+msgid "An error occurred"
+msgstr "Алдаа гарлаа"
+
+#: ../../../lib/web/src/lib/api-client.ts:252
+msgid "An unexpected error occurred"
+msgstr "Гэнэтийн алдаа гарлаа"
+
 #: ../../../lib/web/src/components/sign-out-dialog.tsx:24
 msgid "Are you sure you want to log out? You will need to log in again to access your account."
 msgstr "Гарахдаа итгэлтэй байна уу? Бүртгэлдээ дахин нэвтрэхдээ дахин нэвтрэх шаардлагатай."
@@ -609,6 +617,10 @@ msgstr "Метрик"
 msgid "Monday"
 msgstr "Даваа"
 
+#: ../../../lib/web/src/lib/api-client.ts:297
+msgid "Network error"
+msgstr "Сүлжээний алдаа"
+
 #: ../../../lib/web/src/components/ui/sort-selector.tsx:40
 msgid "New"
 msgstr "Шинэ"
@@ -711,6 +723,10 @@ msgstr "Нэвтрэх түлхүүрийн баталгаажуулалт ам�
 #: ../../../lib/web/src/components/restore-banner.tsx:126
 msgid "Passkeys"
 msgstr "Passkey-ууд"
+
+#: ../../../lib/web/src/lib/api-client.ts:298
+msgid "Please check your internet connection and try again."
+msgstr "Интернет холболтоо шалгаад дахин оролдоно уу."
 
 #: src/features/help/contribute-dialog.tsx:166
 #: src/features/help/contribute-dialog.tsx:175
@@ -912,6 +928,11 @@ msgstr "Имэйл илгээх"
 msgid "Serif"
 msgstr "Сериф"
 
+#: ../../../lib/web/src/lib/api-client.ts:256
+#: ../../../lib/web/src/lib/api-client.ts:281
+msgid "Server error"
+msgstr "Серверийн алдаа"
+
 #: ../../../lib/web/src/components/server-documents-footer.tsx:16
 #: ../../../lib/web/src/features/document/document-page.tsx:37
 #: src/features/help/index.tsx:90
@@ -1105,6 +1126,10 @@ msgstr "Хэрэглэгч хайхын тулд бичих"
 #: ../../../lib/web/src/features/access/access-dialog.tsx:180
 msgid "Type to search..."
 msgstr "Хайхын тулд бичих..."
+
+#: ../../../lib/web/src/lib/api-client.ts:277
+msgid "Unable to connect to remote server"
+msgstr "Алсын сервер рүү холбогдож чадсангүй"
 
 #: ../../../lib/web/src/lib/auth-manager.ts:82
 #: ../../../lib/web/src/lib/auth-manager.ts:94

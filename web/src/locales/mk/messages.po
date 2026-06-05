@@ -106,6 +106,14 @@ msgstr "AI"
 msgid "All"
 msgstr "Сите"
 
+#: ../../../lib/web/src/lib/api-client.ts:189
+msgid "An error occurred"
+msgstr "Се појави грешка"
+
+#: ../../../lib/web/src/lib/api-client.ts:252
+msgid "An unexpected error occurred"
+msgstr "Се појави неочекувана грешка"
+
 #: ../../../lib/web/src/components/sign-out-dialog.tsx:24
 msgid "Are you sure you want to log out? You will need to log in again to access your account."
 msgstr "Сигурен ли си дека сакаш да се одјавиш? Ќе треба повторно да се најавиш за да пристапиш до твојата сметка."
@@ -609,6 +617,10 @@ msgstr "Metric"
 msgid "Monday"
 msgstr "Понеделник"
 
+#: ../../../lib/web/src/lib/api-client.ts:297
+msgid "Network error"
+msgstr "Грешка во мрежата"
+
 #: ../../../lib/web/src/components/ui/sort-selector.tsx:40
 msgid "New"
 msgstr "Ново"
@@ -711,6 +723,10 @@ msgstr "Потврдата на passkey не успеа. Обидете се п�
 #: ../../../lib/web/src/components/restore-banner.tsx:126
 msgid "Passkeys"
 msgstr "Passkey-и"
+
+#: ../../../lib/web/src/lib/api-client.ts:298
+msgid "Please check your internet connection and try again."
+msgstr "Проверете ја вашата интернет-врска и обидете се повторно."
 
 #: src/features/help/contribute-dialog.tsx:166
 #: src/features/help/contribute-dialog.tsx:175
@@ -912,6 +928,11 @@ msgstr "Испрати е-пошта"
 msgid "Serif"
 msgstr "Сериф"
 
+#: ../../../lib/web/src/lib/api-client.ts:256
+#: ../../../lib/web/src/lib/api-client.ts:281
+msgid "Server error"
+msgstr "Грешка на серверот"
+
 #: ../../../lib/web/src/components/server-documents-footer.tsx:16
 #: ../../../lib/web/src/features/document/document-page.tsx:37
 #: src/features/help/index.tsx:90
@@ -1105,6 +1126,10 @@ msgstr "Внесете за да пребарувате корисници"
 #: ../../../lib/web/src/features/access/access-dialog.tsx:180
 msgid "Type to search..."
 msgstr "Внесете за пребарување..."
+
+#: ../../../lib/web/src/lib/api-client.ts:277
+msgid "Unable to connect to remote server"
+msgstr "Не може да се поврзе со далечинскиот сервер"
 
 #: ../../../lib/web/src/lib/auth-manager.ts:82
 #: ../../../lib/web/src/lib/auth-manager.ts:94

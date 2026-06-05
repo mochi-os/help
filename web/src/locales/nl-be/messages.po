@@ -106,6 +106,14 @@ msgstr "AI"
 msgid "All"
 msgstr "Alle"
 
+#: ../../../lib/web/src/lib/api-client.ts:189
+msgid "An error occurred"
+msgstr "Er is een fout opgetreden"
+
+#: ../../../lib/web/src/lib/api-client.ts:252
+msgid "An unexpected error occurred"
+msgstr "Er is een onverwachte fout opgetreden"
+
 #: ../../../lib/web/src/components/sign-out-dialog.tsx:24
 msgid "Are you sure you want to log out? You will need to log in again to access your account."
 msgstr "Weet u zeker dat u wilt uitloggen? U moet opnieuw inloggen om toegang te krijgen tot uw account."
@@ -609,6 +617,10 @@ msgstr "Metrisch"
 msgid "Monday"
 msgstr "Maandag"
 
+#: ../../../lib/web/src/lib/api-client.ts:297
+msgid "Network error"
+msgstr "Netwerkfout"
+
 #: ../../../lib/web/src/components/ui/sort-selector.tsx:40
 msgid "New"
 msgstr "Nieuw"
@@ -702,7 +714,7 @@ msgstr "Eigenaar"
 
 #: ../../../lib/web/src/components/step-up-dialog.tsx:331
 msgid "Passkey"
-msgstr ""
+msgstr "Toegangssleutel"
 
 #: ../../../lib/web/src/components/step-up-dialog.tsx:206
 msgid "Passkey verification failed. Please try again."
@@ -711,6 +723,10 @@ msgstr "Verificatie met passkey is mislukt. Probeer het opnieuw."
 #: ../../../lib/web/src/components/restore-banner.tsx:126
 msgid "Passkeys"
 msgstr "Toegangssleutels"
+
+#: ../../../lib/web/src/lib/api-client.ts:298
+msgid "Please check your internet connection and try again."
+msgstr "Controleer je internetverbinding en probeer het opnieuw."
 
 #: src/features/help/contribute-dialog.tsx:166
 #: src/features/help/contribute-dialog.tsx:175
@@ -912,6 +928,11 @@ msgstr "E-mail verzenden"
 msgid "Serif"
 msgstr "Schreefletter"
 
+#: ../../../lib/web/src/lib/api-client.ts:256
+#: ../../../lib/web/src/lib/api-client.ts:281
+msgid "Server error"
+msgstr "Serverfout"
+
 #: ../../../lib/web/src/components/server-documents-footer.tsx:16
 #: ../../../lib/web/src/features/document/document-page.tsx:37
 #: src/features/help/index.tsx:90
@@ -1105,6 +1126,10 @@ msgstr "Typ om gebruikers te zoeken"
 #: ../../../lib/web/src/features/access/access-dialog.tsx:180
 msgid "Type to search..."
 msgstr "Typ om te zoeken..."
+
+#: ../../../lib/web/src/lib/api-client.ts:277
+msgid "Unable to connect to remote server"
+msgstr "Kan geen verbinding maken met de externe server"
 
 #: ../../../lib/web/src/lib/auth-manager.ts:82
 #: ../../../lib/web/src/lib/auth-manager.ts:94

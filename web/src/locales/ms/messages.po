@@ -106,6 +106,14 @@ msgstr "AI"
 msgid "All"
 msgstr "Semua"
 
+#: ../../../lib/web/src/lib/api-client.ts:189
+msgid "An error occurred"
+msgstr "Ralat berlaku"
+
+#: ../../../lib/web/src/lib/api-client.ts:252
+msgid "An unexpected error occurred"
+msgstr "Ralat yang tidak dijangka berlaku"
+
 #: ../../../lib/web/src/components/sign-out-dialog.tsx:24
 msgid "Are you sure you want to log out? You will need to log in again to access your account."
 msgstr "Adakah anda pasti mahu log keluar? Anda perlu log masuk semula untuk mengakses akaun anda."
@@ -609,6 +617,10 @@ msgstr "Metrik"
 msgid "Monday"
 msgstr "Isnin"
 
+#: ../../../lib/web/src/lib/api-client.ts:297
+msgid "Network error"
+msgstr "Ralat rangkaian"
+
 #: ../../../lib/web/src/components/ui/sort-selector.tsx:40
 msgid "New"
 msgstr "Baharu"
@@ -711,6 +723,10 @@ msgstr "Pengesahan kunci laluan gagal. Sila cuba lagi."
 #: ../../../lib/web/src/components/restore-banner.tsx:126
 msgid "Passkeys"
 msgstr "Passkey"
+
+#: ../../../lib/web/src/lib/api-client.ts:298
+msgid "Please check your internet connection and try again."
+msgstr "Sila semak sambungan internet anda dan cuba lagi."
 
 #: src/features/help/contribute-dialog.tsx:166
 #: src/features/help/contribute-dialog.tsx:175
@@ -912,6 +928,11 @@ msgstr "Hantar e-mel"
 msgid "Serif"
 msgstr "Serif"
 
+#: ../../../lib/web/src/lib/api-client.ts:256
+#: ../../../lib/web/src/lib/api-client.ts:281
+msgid "Server error"
+msgstr "Ralat pelayan"
+
 #: ../../../lib/web/src/components/server-documents-footer.tsx:16
 #: ../../../lib/web/src/features/document/document-page.tsx:37
 #: src/features/help/index.tsx:90
@@ -1105,6 +1126,10 @@ msgstr "Taip untuk mencari pengguna"
 #: ../../../lib/web/src/features/access/access-dialog.tsx:180
 msgid "Type to search..."
 msgstr "Taip untuk mencari..."
+
+#: ../../../lib/web/src/lib/api-client.ts:277
+msgid "Unable to connect to remote server"
+msgstr "Tidak dapat menyambung ke pelayan jauh"
 
 #: ../../../lib/web/src/lib/auth-manager.ts:82
 #: ../../../lib/web/src/lib/auth-manager.ts:94

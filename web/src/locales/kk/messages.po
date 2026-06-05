@@ -106,6 +106,14 @@ msgstr "AI"
 msgid "All"
 msgstr "Барлығы"
 
+#: ../../../lib/web/src/lib/api-client.ts:189
+msgid "An error occurred"
+msgstr "Қате орын алды"
+
+#: ../../../lib/web/src/lib/api-client.ts:252
+msgid "An unexpected error occurred"
+msgstr "Күтпеген қате орын алды"
+
 #: ../../../lib/web/src/components/sign-out-dialog.tsx:24
 msgid "Are you sure you want to log out? You will need to log in again to access your account."
 msgstr "Шынымен шыққыңыз келе ме? Тіркелгіге қол жеткізу үшін қайта кіруге тура келеді."
@@ -609,6 +617,10 @@ msgstr "Метрикалық"
 msgid "Monday"
 msgstr "Дүйсенбі"
 
+#: ../../../lib/web/src/lib/api-client.ts:297
+msgid "Network error"
+msgstr "Желі қатесі"
+
 #: ../../../lib/web/src/components/ui/sort-selector.tsx:40
 msgid "New"
 msgstr "Жаңа"
@@ -702,7 +714,7 @@ msgstr "Иесі"
 
 #: ../../../lib/web/src/components/step-up-dialog.tsx:331
 msgid "Passkey"
-msgstr ""
+msgstr "Кіру кілті"
 
 #: ../../../lib/web/src/components/step-up-dialog.tsx:206
 msgid "Passkey verification failed. Please try again."
@@ -711,6 +723,10 @@ msgstr "Passkey тексеруі сәтсіз аяқталды. Қайталап
 #: ../../../lib/web/src/components/restore-banner.tsx:126
 msgid "Passkeys"
 msgstr "Passkey-лер"
+
+#: ../../../lib/web/src/lib/api-client.ts:298
+msgid "Please check your internet connection and try again."
+msgstr "Интернет байланысын тексеріп, қайталап көріңіз."
 
 #: src/features/help/contribute-dialog.tsx:166
 #: src/features/help/contribute-dialog.tsx:175
@@ -912,6 +928,11 @@ msgstr "Электрондық пошта жіберу"
 msgid "Serif"
 msgstr "Серифті"
 
+#: ../../../lib/web/src/lib/api-client.ts:256
+#: ../../../lib/web/src/lib/api-client.ts:281
+msgid "Server error"
+msgstr "Сервер қатесі"
+
 #: ../../../lib/web/src/components/server-documents-footer.tsx:16
 #: ../../../lib/web/src/features/document/document-page.tsx:37
 #: src/features/help/index.tsx:90
@@ -1105,6 +1126,10 @@ msgstr "Пайдаланушыларды іздеу үшін теріңіз"
 #: ../../../lib/web/src/features/access/access-dialog.tsx:180
 msgid "Type to search..."
 msgstr "Іздеу үшін теріңіз..."
+
+#: ../../../lib/web/src/lib/api-client.ts:277
+msgid "Unable to connect to remote server"
+msgstr "Қашықтағы серверге қосылу мүмкін болмады"
 
 #: ../../../lib/web/src/lib/auth-manager.ts:82
 #: ../../../lib/web/src/lib/auth-manager.ts:94
