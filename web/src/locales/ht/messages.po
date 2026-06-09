@@ -193,7 +193,7 @@ msgstr "Chwazi ant direksyon sit gòch-a-dwat oswa dwat-a-gòch"
 msgid "Choose between system preference, light mode, or dark mode"
 msgstr "Chwazi ant preferans sistèm, mòd klè, oswa mòd fonse"
 
-#: ../../../lib/web/src/components/language-picker.tsx:174
+#: ../../../lib/web/src/components/language-picker.tsx:294
 msgid "Choose language"
 msgstr "Chwazi lang"
 
@@ -219,7 +219,7 @@ msgid "Clear selection (Escape)"
 msgstr "Efase seleksyon (Escape)"
 
 #: ../../../lib/web/src/components/ui/dialog.tsx:75
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:318
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:321
 #: ../../../lib/web/src/components/ui/sheet.tsx:76
 #: src/features/help/contribute-dialog.tsx:336
 msgid "Close"
@@ -345,7 +345,7 @@ msgstr "Detay"
 msgid "Details Panel"
 msgstr "Panèl Detay"
 
-#: ../../../lib/web/src/components/language-picker.tsx:152
+#: ../../../lib/web/src/components/language-picker.tsx:272
 #: ../../../lib/web/src/components/timezone-select.tsx:43
 #: ../../../lib/web/src/components/timezone-select.tsx:80
 #: ../../../lib/web/src/lib/preference-utils.ts:25
@@ -376,7 +376,7 @@ msgstr "Rejte"
 msgid "Displays the mobile sidebar."
 msgstr "Afiche ba kote mobil la."
 
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:312
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:315
 msgid "Download"
 msgstr "Telechaje"
 
@@ -625,7 +625,7 @@ msgstr "Erè rezo"
 msgid "New"
 msgstr "Nouvo"
 
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:342
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:345
 msgid "Next image"
 msgstr "Pwochen imaj"
 
@@ -750,7 +750,7 @@ msgstr "Pibliye"
 msgid "Posting…"
 msgstr "Ap poste…"
 
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:332
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:335
 msgid "Previous image"
 msgstr "Imaj anvan"
 
@@ -849,6 +849,10 @@ msgstr "Ranje pa paj"
 #: ../../../lib/web/src/lib/preference-utils.ts:61
 msgid "Saturday"
 msgstr "Samdi"
+
+#: ../../../lib/web/src/components/ui/secret-field.tsx:74
+msgid "Save"
+msgstr "Sove"
 
 #: src/features/help/index.tsx:23
 msgid "Say hello on the Mochi users mailing list and tell everyone a little about yourself."

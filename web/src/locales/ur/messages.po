@@ -193,7 +193,7 @@ msgstr "بائیں سے دائیں یا دائیں سے بائیں سائٹ کی
 msgid "Choose between system preference, light mode, or dark mode"
 msgstr "سسٹم کی ترجیح، light موڈ، یا dark موڈ میں سے منتخب کریں"
 
-#: ../../../lib/web/src/components/language-picker.tsx:174
+#: ../../../lib/web/src/components/language-picker.tsx:294
 msgid "Choose language"
 msgstr "زبان منتخب کریں"
 
@@ -219,7 +219,7 @@ msgid "Clear selection (Escape)"
 msgstr "انتخاب صاف کریں (Escape)"
 
 #: ../../../lib/web/src/components/ui/dialog.tsx:75
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:318
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:321
 #: ../../../lib/web/src/components/ui/sheet.tsx:76
 #: src/features/help/contribute-dialog.tsx:336
 msgid "Close"
@@ -345,7 +345,7 @@ msgstr "تفصیلات"
 msgid "Details Panel"
 msgstr "تفصیلات کا پینل"
 
-#: ../../../lib/web/src/components/language-picker.tsx:152
+#: ../../../lib/web/src/components/language-picker.tsx:272
 #: ../../../lib/web/src/components/timezone-select.tsx:43
 #: ../../../lib/web/src/components/timezone-select.tsx:80
 #: ../../../lib/web/src/lib/preference-utils.ts:25
@@ -376,7 +376,7 @@ msgstr "برخاست کریں"
 msgid "Displays the mobile sidebar."
 msgstr "موبائل سائڈبار دکھاتا ہے۔"
 
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:312
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:315
 msgid "Download"
 msgstr "ڈاؤن لوڈ"
 
@@ -625,7 +625,7 @@ msgstr "نیٹ ورک کی خرابی"
 msgid "New"
 msgstr "نیا"
 
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:342
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:345
 msgid "Next image"
 msgstr "اگلی تصویر"
 
@@ -750,7 +750,7 @@ msgstr "پوسٹ ہو گیا"
 msgid "Posting…"
 msgstr "پوسٹ ہو رہی ہے…"
 
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:332
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:335
 msgid "Previous image"
 msgstr "پچھلی تصویر"
 
@@ -849,6 +849,10 @@ msgstr "ہر صفحے پر قطاریں"
 #: ../../../lib/web/src/lib/preference-utils.ts:61
 msgid "Saturday"
 msgstr "ہفتہ"
+
+#: ../../../lib/web/src/components/ui/secret-field.tsx:74
+msgid "Save"
+msgstr "محفوظ کریں"
 
 #: src/features/help/index.tsx:23
 msgid "Say hello on the Mochi users mailing list and tell everyone a little about yourself."

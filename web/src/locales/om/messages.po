@@ -193,7 +193,7 @@ msgstr "Kallatti weebsaayitii bitaa-irraa-mirgatti ykn mirgaa-irraa-bitaa gidduu
 msgid "Choose between system preference, light mode, or dark mode"
 msgstr "Filannoo sirnaa, ifaan, ykn dukkanaan gidduu filadhu"
 
-#: ../../../lib/web/src/components/language-picker.tsx:174
+#: ../../../lib/web/src/components/language-picker.tsx:294
 msgid "Choose language"
 msgstr "Afaan filadhu"
 
@@ -219,7 +219,7 @@ msgid "Clear selection (Escape)"
 msgstr "Filannoo cilliisi (Escape)"
 
 #: ../../../lib/web/src/components/ui/dialog.tsx:75
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:318
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:321
 #: ../../../lib/web/src/components/ui/sheet.tsx:76
 #: src/features/help/contribute-dialog.tsx:336
 msgid "Close"
@@ -345,7 +345,7 @@ msgstr "Bal'inaan"
 msgid "Details Panel"
 msgstr "Paanelii Bal'inaan"
 
-#: ../../../lib/web/src/components/language-picker.tsx:152
+#: ../../../lib/web/src/components/language-picker.tsx:272
 #: ../../../lib/web/src/components/timezone-select.tsx:43
 #: ../../../lib/web/src/components/timezone-select.tsx:80
 #: ../../../lib/web/src/lib/preference-utils.ts:25
@@ -376,7 +376,7 @@ msgstr "Dhiisi"
 msgid "Displays the mobile sidebar."
 msgstr "Cinaa moobaayilaa mul'isa."
 
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:312
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:315
 msgid "Download"
 msgstr "Buufadhu"
 
@@ -625,7 +625,7 @@ msgstr "Dogoggora networkii"
 msgid "New"
 msgstr "Haaraa"
 
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:342
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:345
 msgid "Next image"
 msgstr "Suuraa itti aanu"
 
@@ -750,7 +750,7 @@ msgstr "Maxxanfame"
 msgid "Posting…"
 msgstr "Maxxansaa jira…"
 
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:332
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:335
 msgid "Previous image"
 msgstr "Suuraa duraa"
 
@@ -849,6 +849,10 @@ msgstr "Fuula tokko keessa tarjaalee"
 #: ../../../lib/web/src/lib/preference-utils.ts:61
 msgid "Saturday"
 msgstr "Sanbata"
+
+#: ../../../lib/web/src/components/ui/secret-field.tsx:74
+msgid "Save"
+msgstr "Olkaa'i"
 
 #: src/features/help/index.tsx:23
 msgid "Say hello on the Mochi users mailing list and tell everyone a little about yourself."

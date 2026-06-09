@@ -193,7 +193,7 @@ msgstr "बायाँ-देखि-दायाँ वा दायाँ-द�
 msgid "Choose between system preference, light mode, or dark mode"
 msgstr "सिस्टम प्राथमिकता, उज्यालो मोड, वा अँध्यारो मोडबीच छनोट गर्नुहोस्"
 
-#: ../../../lib/web/src/components/language-picker.tsx:174
+#: ../../../lib/web/src/components/language-picker.tsx:294
 msgid "Choose language"
 msgstr "भाषा छनोट गर्नुहोस्"
 
@@ -219,7 +219,7 @@ msgid "Clear selection (Escape)"
 msgstr "चयन खाली गर्नुहोस् (Escape)"
 
 #: ../../../lib/web/src/components/ui/dialog.tsx:75
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:318
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:321
 #: ../../../lib/web/src/components/ui/sheet.tsx:76
 #: src/features/help/contribute-dialog.tsx:336
 msgid "Close"
@@ -345,7 +345,7 @@ msgstr "विवरणहरू"
 msgid "Details Panel"
 msgstr "विवरण प्यानल"
 
-#: ../../../lib/web/src/components/language-picker.tsx:152
+#: ../../../lib/web/src/components/language-picker.tsx:272
 #: ../../../lib/web/src/components/timezone-select.tsx:43
 #: ../../../lib/web/src/components/timezone-select.tsx:80
 #: ../../../lib/web/src/lib/preference-utils.ts:25
@@ -376,7 +376,7 @@ msgstr "हटाउनुहोस्"
 msgid "Displays the mobile sidebar."
 msgstr "मोबाइल साइडबार देखाउँछ।"
 
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:312
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:315
 msgid "Download"
 msgstr "डाउनलोड"
 
@@ -625,7 +625,7 @@ msgstr "नेटवर्क त्रुटि"
 msgid "New"
 msgstr "नयाँ"
 
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:342
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:345
 msgid "Next image"
 msgstr "अर्को तस्बिर"
 
@@ -750,7 +750,7 @@ msgstr "पोस्ट गरियो"
 msgid "Posting…"
 msgstr "पोस्ट गर्दै…"
 
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:332
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:335
 msgid "Previous image"
 msgstr "अघिल्लो तस्बिर"
 
@@ -849,6 +849,10 @@ msgstr "प्रति पृष्ठ पङ्क्तिहरू"
 #: ../../../lib/web/src/lib/preference-utils.ts:61
 msgid "Saturday"
 msgstr "शनिबार"
+
+#: ../../../lib/web/src/components/ui/secret-field.tsx:74
+msgid "Save"
+msgstr "सुरक्षित गर्नुहोस्"
 
 #: src/features/help/index.tsx:23
 msgid "Say hello on the Mochi users mailing list and tell everyone a little about yourself."
