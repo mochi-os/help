@@ -20,7 +20,7 @@ import {
   toast,
   useFormat,
 } from '@mochi/web'
-import { Bug, CheckCircle, CircleAlert, HelpCircle, Lightbulb, Loader2, Sparkles, X } from 'lucide-react'
+import { ArrowRight, Bug, CheckCircle, CircleAlert, HelpCircle, Lightbulb, Loader2, Sparkles, X } from 'lucide-react'
 import { helpApi, type Kind } from '@/api/help'
 
 // Mirrors BODY_MAX / BODY_MIN in help.star.
@@ -337,6 +337,7 @@ export function ContributeDialog({
                 </Button>
                 {redirectUrl && (
                   <Button onClick={() => shellNavigateExternal(redirectUrl)}>
+                    <ArrowRight className='size-4' />
                     <Trans>Go to forum</Trans>
                   </Button>
                 )}
