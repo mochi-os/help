@@ -256,7 +256,7 @@ export function ContributeDialog({
           {submitted ? (
             /* In-app success state for forum posts */
             <div className='flex flex-col items-center gap-4 px-4 py-6 text-center sm:px-0'>
-              <CheckCircle className='h-12 w-12 text-green-500' />
+              <CheckCircle className='h-12 w-12 text-success' />
               <p className='text-base font-medium'><Trans>Submitted successfully</Trans></p>
               <p className='text-muted-foreground text-sm'>{copy.successMessage}</p>
             </div>
