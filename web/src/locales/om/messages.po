@@ -90,7 +90,8 @@ msgstr "Garee/appii dabali"
 msgid "Add to existing notifications"
 msgstr "Beeksisaalee jiranitti dabali"
 
-#: ../../../lib/web/src/components/view-tabs.tsx:57
+#: ../../../lib/web/src/components/view-tabs.tsx:81
+#: ../../../lib/web/src/components/view-tabs.tsx:82
 msgid "Add view"
 msgstr "Mul'ata dabali"
 
@@ -161,11 +162,12 @@ msgstr "Gabaasni rakkoo ergameera."
 #: ../../../lib/web/src/components/step-up-dialog.tsx:360
 #: ../../../lib/web/src/components/travelling-picker.tsx:292
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx:245
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:129
 #: ../../../lib/web/src/features/access/access-dialog.tsx:325
 #: ../../../lib/web/src/features/access/access-list.tsx:255
 #: ../../../lib/web/src/features/accounts/account-add.tsx:185
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:86
-#: src/features/help/contribute-dialog.tsx:348
+#: src/features/help/contribute-dialog.tsx:349
 msgid "Cancel"
 msgstr "Haquu"
 
@@ -255,8 +257,8 @@ msgstr "Dhihoo Dhufuuf!"
 msgid "Compact"
 msgstr "Compact"
 
-#: ../../../lib/web/src/components/place-picker.tsx:155
-#: ../../../lib/web/src/components/travelling-picker.tsx:299
+#: ../../../lib/web/src/components/place-picker.tsx:156
+#: ../../../lib/web/src/components/travelling-picker.tsx:300
 msgid "Confirm"
 msgstr "Mirkaneessi"
 
@@ -365,11 +367,11 @@ msgstr "Weeb biraawsarii irraa argi"
 msgid "Direction"
 msgstr "Kallatti"
 
-#: src/features/help/contribute-dialog.tsx:375
+#: src/features/help/contribute-dialog.tsx:376
 msgid "Discard"
 msgstr "Gati"
 
-#: src/features/help/contribute-dialog.tsx:372
+#: src/features/help/contribute-dialog.tsx:373
 msgid "Discard draft?"
 msgstr "Wixinee gatuu?"
 
@@ -385,9 +387,13 @@ msgstr "Cinaa moobaayilaa mul'isa."
 msgid "Download"
 msgstr "Buufadhu"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:134
+#: ../../../lib/web/src/lib/preference-utils.ts:143
 msgid "Dyslexia-friendly"
 msgstr "Dyslexiyaa Walitti Dhufu"
+
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:151
+msgid "Edit {label}"
+msgstr "{label} gulaali"
 
 #: ../../../lib/web/src/components/step-up-dialog.tsx:286
 msgid "Email code"
@@ -405,7 +411,7 @@ msgstr "Koodii mirkaneessaa kee galchi"
 msgid "Expand sidebar"
 msgstr "Sidebar baldhisi"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:124
+#: ../../../lib/web/src/lib/preference-utils.ts:133
 msgid "Extra large"
 msgstr "Guddaa Akkaan"
 
@@ -433,6 +439,10 @@ msgstr "Gaaffiin amala ergameera."
 msgid "Finish moving your account"
 msgstr "Akkaawuntii kee jijjiiruu fixadhu"
 
+#: ../../../lib/web/src/lib/preference-utils.ts:113
+msgid "Flat"
+msgstr "Diriiraa"
+
 #: ../../../lib/web/src/components/config-drawer.tsx:244
 msgid "Floating"
 msgstr "Bilisa"
@@ -448,8 +458,9 @@ msgstr "Irraa"
 #: ../../../lib/web/src/lib/preference-utils.ts:91
 #: ../../../lib/web/src/lib/preference-utils.ts:101
 #: ../../../lib/web/src/lib/preference-utils.ts:112
-#: ../../../lib/web/src/lib/preference-utils.ts:120
-#: ../../../lib/web/src/lib/preference-utils.ts:131
+#: ../../../lib/web/src/lib/preference-utils.ts:121
+#: ../../../lib/web/src/lib/preference-utils.ts:129
+#: ../../../lib/web/src/lib/preference-utils.ts:140
 msgid "From theme"
 msgstr "Akeeka irraa"
 
@@ -467,7 +478,7 @@ msgstr "Duubatti deebi’uu"
 msgid "Go to first page"
 msgstr "Fuula jalqabaa deemi"
 
-#: src/features/help/contribute-dialog.tsx:340
+#: src/features/help/contribute-dialog.tsx:341
 msgid "Go to forum"
 msgstr "Gara waltajjii deemi"
 
@@ -543,12 +554,12 @@ msgstr "Of beeksisi"
 msgid "Invalid verification code"
 msgstr "Koodii mirkanaa sirrii hin taane"
 
-#: src/features/help/contribute-dialog.tsx:374
+#: src/features/help/contribute-dialog.tsx:375
 msgid "Keep editing"
 msgstr "Gulaaluu itti fufi"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:105
-#: ../../../lib/web/src/lib/preference-utils.ts:123
+#: ../../../lib/web/src/lib/preference-utils.ts:132
 msgid "Large"
 msgstr "Guddaa"
 
@@ -673,13 +684,17 @@ msgstr "Fayyadamtoonni hin argamne"
 
 #: ../../../lib/web/src/components/person-picker.tsx:349
 #: ../../../lib/web/src/lib/preference-utils.ts:102
-#: ../../../lib/web/src/lib/preference-utils.ts:113
+#: ../../../lib/web/src/lib/preference-utils.ts:122
 msgid "None"
 msgstr "Tokko illee"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:122
+#: ../../../lib/web/src/lib/preference-utils.ts:131
 msgid "Normal"
 msgstr "Idilee"
+
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:143
+msgid "Not set"
+msgstr "Hin qabamne"
 
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:132
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:146
@@ -755,7 +770,7 @@ msgstr "Gaaffii maxxansi"
 msgid "Posted"
 msgstr "Maxxanfame"
 
-#: src/features/help/contribute-dialog.tsx:354
+#: src/features/help/contribute-dialog.tsx:355
 msgid "Posting…"
 msgstr "Maxxansaa jira…"
 
@@ -777,6 +792,10 @@ msgstr "Piroofaayilii"
 #: src/features/help/contribute-dialog.tsx:82
 msgid "Question"
 msgstr "Gaaffii"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:114
+msgid "Raised"
+msgstr "Ol kaafame"
 
 #: ../../../lib/web/src/components/restore-banner.tsx:98
 msgid "Re-link your accounts on this server"
@@ -859,6 +878,7 @@ msgstr "Fuula tokko keessa tarjaalee"
 msgid "Saturday"
 msgstr "Sanbata"
 
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:119
 #: ../../../lib/web/src/components/ui/secret-field.tsx:74
 msgid "Save"
 msgstr "Olkaa'i"
@@ -937,7 +957,7 @@ msgstr "Ammas erguu"
 msgid "Send email"
 msgstr "Imeelii ergi"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:133
+#: ../../../lib/web/src/lib/preference-utils.ts:142
 msgid "Serif"
 msgstr "Serif"
 
@@ -989,7 +1009,7 @@ msgid "Skip to Main"
 msgstr "Gara isa Guddaatti darbi"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:103
-#: ../../../lib/web/src/lib/preference-utils.ts:121
+#: ../../../lib/web/src/lib/preference-utils.ts:130
 msgid "Small"
 msgstr "Xiqqaa"
 
@@ -1041,7 +1061,7 @@ msgstr "Dilbata"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:195
 #: ../../../lib/web/src/lib/preference-utils.ts:18
-#: ../../../lib/web/src/lib/preference-utils.ts:132
+#: ../../../lib/web/src/lib/preference-utils.ts:141
 msgid "System"
 msgstr "Sirna"
 
@@ -1255,6 +1275,6 @@ msgstr "Beeksisni kee ergameera, erga sakatta'amee booda ni mul'ata."
 msgid "Your question has been submitted and will appear after moderation."
 msgstr "Gaaffiin kee ergameera, erga sakatta'amee booda ni mul'ata."
 
-#: src/features/help/contribute-dialog.tsx:373
+#: src/features/help/contribute-dialog.tsx:374
 msgid "Your text will be lost."
 msgstr "Barreeffamni kee ni bada."

@@ -90,7 +90,8 @@ msgstr "Equipo/app yapay"
 msgid "Add to existing notifications"
 msgstr "Kawsachkan willaykuna-man yapay"
 
-#: ../../../lib/web/src/components/view-tabs.tsx:57
+#: ../../../lib/web/src/components/view-tabs.tsx:81
+#: ../../../lib/web/src/components/view-tabs.tsx:82
 msgid "Add view"
 msgstr "Vista yapay"
 
@@ -161,11 +162,12 @@ msgstr "Pantasqamanta willay apachikurqan."
 #: ../../../lib/web/src/components/step-up-dialog.tsx:360
 #: ../../../lib/web/src/components/travelling-picker.tsx:292
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx:245
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:129
 #: ../../../lib/web/src/features/access/access-dialog.tsx:325
 #: ../../../lib/web/src/features/access/access-list.tsx:255
 #: ../../../lib/web/src/features/accounts/account-add.tsx:185
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:86
-#: src/features/help/contribute-dialog.tsx:348
+#: src/features/help/contribute-dialog.tsx:349
 msgid "Cancel"
 msgstr "Mana ruway"
 
@@ -255,8 +257,8 @@ msgstr "Hamuchkan!"
 msgid "Compact"
 msgstr "Pisi"
 
-#: ../../../lib/web/src/components/place-picker.tsx:155
-#: ../../../lib/web/src/components/travelling-picker.tsx:299
+#: ../../../lib/web/src/components/place-picker.tsx:156
+#: ../../../lib/web/src/components/travelling-picker.tsx:300
 msgid "Confirm"
 msgstr "Takyachiy"
 
@@ -365,11 +367,11 @@ msgstr "Web browser-manta tariy"
 msgid "Direction"
 msgstr "Imayna"
 
-#: src/features/help/contribute-dialog.tsx:375
+#: src/features/help/contribute-dialog.tsx:376
 msgid "Discard"
 msgstr "Wikch'uy"
 
-#: src/features/help/contribute-dialog.tsx:372
+#: src/features/help/contribute-dialog.tsx:373
 msgid "Discard draft?"
 msgstr "¿Qillqa qallariyta wikch'unkichu?"
 
@@ -385,9 +387,13 @@ msgstr "Movil sidebar qhawachin."
 msgid "Download"
 msgstr "Uray chaskiy"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:134
+#: ../../../lib/web/src/lib/preference-utils.ts:143
 msgid "Dyslexia-friendly"
 msgstr "Disleksia llamkaywanmi"
+
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:151
+msgid "Edit {label}"
+msgstr "{label} allinchay"
 
 #: ../../../lib/web/src/components/step-up-dialog.tsx:286
 msgid "Email code"
@@ -405,7 +411,7 @@ msgstr "Takyachiqniykiq codigonta yaykuchiy"
 msgid "Expand sidebar"
 msgstr "Sidebarta kichay"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:124
+#: ../../../lib/web/src/lib/preference-utils.ts:133
 msgid "Extra large"
 msgstr "Sinchi hatun"
 
@@ -433,6 +439,10 @@ msgstr "Ruwana mañakuy apachikurqan."
 msgid "Finish moving your account"
 msgstr "Cuenta-ykita apaykachay tukuchiy"
 
+#: ../../../lib/web/src/lib/preference-utils.ts:113
+msgid "Flat"
+msgstr "Pampa"
+
 #: ../../../lib/web/src/components/config-drawer.tsx:244
 msgid "Floating"
 msgstr "Phawaq"
@@ -448,8 +458,9 @@ msgstr "Manta"
 #: ../../../lib/web/src/lib/preference-utils.ts:91
 #: ../../../lib/web/src/lib/preference-utils.ts:101
 #: ../../../lib/web/src/lib/preference-utils.ts:112
-#: ../../../lib/web/src/lib/preference-utils.ts:120
-#: ../../../lib/web/src/lib/preference-utils.ts:131
+#: ../../../lib/web/src/lib/preference-utils.ts:121
+#: ../../../lib/web/src/lib/preference-utils.ts:129
+#: ../../../lib/web/src/lib/preference-utils.ts:140
 msgid "From theme"
 msgstr "Temamanta"
 
@@ -467,7 +478,7 @@ msgstr "Kutiy"
 msgid "Go to first page"
 msgstr "Ñawpaq paginaman riy"
 
-#: src/features/help/contribute-dialog.tsx:340
+#: src/features/help/contribute-dialog.tsx:341
 msgid "Go to forum"
 msgstr "Rimanakuyman riy"
 
@@ -543,12 +554,12 @@ msgstr "Qamllataq riqsichikuy"
 msgid "Invalid verification code"
 msgstr "Mana allin sut'inchay código"
 
-#: src/features/help/contribute-dialog.tsx:374
+#: src/features/help/contribute-dialog.tsx:375
 msgid "Keep editing"
 msgstr "Llamk'achkayllapuni"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:105
-#: ../../../lib/web/src/lib/preference-utils.ts:123
+#: ../../../lib/web/src/lib/preference-utils.ts:132
 msgid "Large"
 msgstr "Hatun"
 
@@ -673,13 +684,17 @@ msgstr "Mana usuariokuna tarisqachu"
 
 #: ../../../lib/web/src/components/person-picker.tsx:349
 #: ../../../lib/web/src/lib/preference-utils.ts:102
-#: ../../../lib/web/src/lib/preference-utils.ts:113
+#: ../../../lib/web/src/lib/preference-utils.ts:122
 msgid "None"
 msgstr "Mana"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:122
+#: ../../../lib/web/src/lib/preference-utils.ts:131
 msgid "Normal"
 msgstr "Walliq"
+
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:143
+msgid "Not set"
+msgstr "Mana churasqa"
 
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:132
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:146
@@ -755,7 +770,7 @@ msgstr "Tapuyta apachiy"
 msgid "Posted"
 msgstr "Churasqa"
 
-#: src/features/help/contribute-dialog.tsx:354
+#: src/features/help/contribute-dialog.tsx:355
 msgid "Posting…"
 msgstr "Qillqashan…"
 
@@ -777,6 +792,10 @@ msgstr "Perfil"
 #: src/features/help/contribute-dialog.tsx:82
 msgid "Question"
 msgstr "Tapuy"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:114
+msgid "Raised"
+msgstr "Hoqarisqa"
 
 #: ../../../lib/web/src/components/restore-banner.tsx:98
 msgid "Re-link your accounts on this server"
@@ -859,6 +878,7 @@ msgstr "Sapa páginapi filakuna"
 msgid "Saturday"
 msgstr "Sábado"
 
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:119
 #: ../../../lib/web/src/components/ui/secret-field.tsx:74
 msgid "Save"
 msgstr "Waqaychay"
@@ -937,7 +957,7 @@ msgstr "Watiqmanta apachiy"
 msgid "Send email"
 msgstr "Email apachiy"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:133
+#: ../../../lib/web/src/lib/preference-utils.ts:142
 msgid "Serif"
 msgstr "Serif"
 
@@ -989,7 +1009,7 @@ msgid "Skip to Main"
 msgstr "Mainman pasay"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:103
-#: ../../../lib/web/src/lib/preference-utils.ts:121
+#: ../../../lib/web/src/lib/preference-utils.ts:130
 msgid "Small"
 msgstr "Huch'uy"
 
@@ -1041,7 +1061,7 @@ msgstr "Intichaw"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:195
 #: ../../../lib/web/src/lib/preference-utils.ts:18
-#: ../../../lib/web/src/lib/preference-utils.ts:132
+#: ../../../lib/web/src/lib/preference-utils.ts:141
 msgid "System"
 msgstr "Sistema"
 
@@ -1255,6 +1275,6 @@ msgstr "Riqsichikuyniyki apachikurqan, qhawapayasqa qhipanta rikhurinqa."
 msgid "Your question has been submitted and will appear after moderation."
 msgstr "Tapuyniyki apachikurqan, qhawapayasqa qhipanta rikhurinqa."
 
-#: src/features/help/contribute-dialog.tsx:373
+#: src/features/help/contribute-dialog.tsx:374
 msgid "Your text will be lost."
 msgstr "Qillqasqayki chinkanqa."

@@ -90,7 +90,8 @@ msgstr "Lisa meeskond/rakendus"
 msgid "Add to existing notifications"
 msgstr "Lisa olemasolevatele teavitustele"
 
-#: ../../../lib/web/src/components/view-tabs.tsx:57
+#: ../../../lib/web/src/components/view-tabs.tsx:81
+#: ../../../lib/web/src/components/view-tabs.tsx:82
 msgid "Add view"
 msgstr "Lisa vaade"
 
@@ -161,11 +162,12 @@ msgstr "Veateade saadetud."
 #: ../../../lib/web/src/components/step-up-dialog.tsx:360
 #: ../../../lib/web/src/components/travelling-picker.tsx:292
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx:245
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:129
 #: ../../../lib/web/src/features/access/access-dialog.tsx:325
 #: ../../../lib/web/src/features/access/access-list.tsx:255
 #: ../../../lib/web/src/features/accounts/account-add.tsx:185
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:86
-#: src/features/help/contribute-dialog.tsx:348
+#: src/features/help/contribute-dialog.tsx:349
 msgid "Cancel"
 msgstr "Tühista"
 
@@ -255,8 +257,8 @@ msgstr "Tulekul!"
 msgid "Compact"
 msgstr "Kompaktne"
 
-#: ../../../lib/web/src/components/place-picker.tsx:155
-#: ../../../lib/web/src/components/travelling-picker.tsx:299
+#: ../../../lib/web/src/components/place-picker.tsx:156
+#: ../../../lib/web/src/components/travelling-picker.tsx:300
 msgid "Confirm"
 msgstr "Kinnita"
 
@@ -365,11 +367,11 @@ msgstr "Tuvasta veebibrauserist"
 msgid "Direction"
 msgstr "Suund"
 
-#: src/features/help/contribute-dialog.tsx:375
+#: src/features/help/contribute-dialog.tsx:376
 msgid "Discard"
 msgstr "Loobu"
 
-#: src/features/help/contribute-dialog.tsx:372
+#: src/features/help/contribute-dialog.tsx:373
 msgid "Discard draft?"
 msgstr "Kas loobuda mustandist?"
 
@@ -385,9 +387,13 @@ msgstr "Kuvab mobiilse külgriba."
 msgid "Download"
 msgstr "Laadi alla"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:134
+#: ../../../lib/web/src/lib/preference-utils.ts:143
 msgid "Dyslexia-friendly"
 msgstr "Düsleksiasõbralik"
+
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:151
+msgid "Edit {label}"
+msgstr "Muuda {label}"
 
 #: ../../../lib/web/src/components/step-up-dialog.tsx:286
 msgid "Email code"
@@ -405,7 +411,7 @@ msgstr "Sisestage oma autentimisrakenduse kood"
 msgid "Expand sidebar"
 msgstr "Laienda külgriba"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:124
+#: ../../../lib/web/src/lib/preference-utils.ts:133
 msgid "Extra large"
 msgstr "Eriti suur"
 
@@ -433,6 +439,10 @@ msgstr "Funktsioonisoov saadetud."
 msgid "Finish moving your account"
 msgstr "Lõpeta konto koliminen"
 
+#: ../../../lib/web/src/lib/preference-utils.ts:113
+msgid "Flat"
+msgstr "Lame"
+
 #: ../../../lib/web/src/components/config-drawer.tsx:244
 msgid "Floating"
 msgstr "Hõljuv"
@@ -448,8 +458,9 @@ msgstr "Saatja"
 #: ../../../lib/web/src/lib/preference-utils.ts:91
 #: ../../../lib/web/src/lib/preference-utils.ts:101
 #: ../../../lib/web/src/lib/preference-utils.ts:112
-#: ../../../lib/web/src/lib/preference-utils.ts:120
-#: ../../../lib/web/src/lib/preference-utils.ts:131
+#: ../../../lib/web/src/lib/preference-utils.ts:121
+#: ../../../lib/web/src/lib/preference-utils.ts:129
+#: ../../../lib/web/src/lib/preference-utils.ts:140
 msgid "From theme"
 msgstr "Teemast"
 
@@ -467,7 +478,7 @@ msgstr "Tagasi"
 msgid "Go to first page"
 msgstr "Mine esimesele lehele"
 
-#: src/features/help/contribute-dialog.tsx:340
+#: src/features/help/contribute-dialog.tsx:341
 msgid "Go to forum"
 msgstr "Mine foorumisse"
 
@@ -543,12 +554,12 @@ msgstr "Tutvusta ennast"
 msgid "Invalid verification code"
 msgstr "Vigane kinnituskood"
 
-#: src/features/help/contribute-dialog.tsx:374
+#: src/features/help/contribute-dialog.tsx:375
 msgid "Keep editing"
 msgstr "Jätka muutmist"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:105
-#: ../../../lib/web/src/lib/preference-utils.ts:123
+#: ../../../lib/web/src/lib/preference-utils.ts:132
 msgid "Large"
 msgstr "Suur"
 
@@ -673,13 +684,17 @@ msgstr "Kasutajaid ei leitud"
 
 #: ../../../lib/web/src/components/person-picker.tsx:349
 #: ../../../lib/web/src/lib/preference-utils.ts:102
-#: ../../../lib/web/src/lib/preference-utils.ts:113
+#: ../../../lib/web/src/lib/preference-utils.ts:122
 msgid "None"
 msgstr "Puudub"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:122
+#: ../../../lib/web/src/lib/preference-utils.ts:131
 msgid "Normal"
 msgstr "Tavaline"
+
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:143
+msgid "Not set"
+msgstr "Pole määratud"
 
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:132
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:146
@@ -755,7 +770,7 @@ msgstr "Postita küsimus"
 msgid "Posted"
 msgstr "Postitatud"
 
-#: src/features/help/contribute-dialog.tsx:354
+#: src/features/help/contribute-dialog.tsx:355
 msgid "Posting…"
 msgstr "Postitamine…"
 
@@ -777,6 +792,10 @@ msgstr "Profiil"
 #: src/features/help/contribute-dialog.tsx:82
 msgid "Question"
 msgstr "Küsimus"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:114
+msgid "Raised"
+msgstr "Kõrgendatud"
 
 #: ../../../lib/web/src/components/restore-banner.tsx:98
 msgid "Re-link your accounts on this server"
@@ -859,6 +878,7 @@ msgstr "Ridu lehel"
 msgid "Saturday"
 msgstr "Laupäev"
 
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:119
 #: ../../../lib/web/src/components/ui/secret-field.tsx:74
 msgid "Save"
 msgstr "Salvesta"
@@ -937,7 +957,7 @@ msgstr "Saada uuesti"
 msgid "Send email"
 msgstr "Saada e-kiri"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:133
+#: ../../../lib/web/src/lib/preference-utils.ts:142
 msgid "Serif"
 msgstr "Seriif"
 
@@ -989,7 +1009,7 @@ msgid "Skip to Main"
 msgstr "Liigu põhisisule"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:103
-#: ../../../lib/web/src/lib/preference-utils.ts:121
+#: ../../../lib/web/src/lib/preference-utils.ts:130
 msgid "Small"
 msgstr "Väike"
 
@@ -1041,7 +1061,7 @@ msgstr "Pühapäev"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:195
 #: ../../../lib/web/src/lib/preference-utils.ts:18
-#: ../../../lib/web/src/lib/preference-utils.ts:132
+#: ../../../lib/web/src/lib/preference-utils.ts:141
 msgid "System"
 msgstr "Süsteem"
 
@@ -1255,6 +1275,6 @@ msgstr "Sinu tutvustus on saadetud ja ilmub pärast modereerimist."
 msgid "Your question has been submitted and will appear after moderation."
 msgstr "Sinu küsimus on saadetud ja ilmub pärast modereerimist."
 
-#: src/features/help/contribute-dialog.tsx:373
+#: src/features/help/contribute-dialog.tsx:374
 msgid "Your text will be lost."
 msgstr "Sinu tekst läheb kaotsi."

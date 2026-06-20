@@ -90,7 +90,8 @@ msgstr "Команда/колдонмо кошуу"
 msgid "Add to existing notifications"
 msgstr "Учурдагы эскертүүлөргө кошуу"
 
-#: ../../../lib/web/src/components/view-tabs.tsx:57
+#: ../../../lib/web/src/components/view-tabs.tsx:81
+#: ../../../lib/web/src/components/view-tabs.tsx:82
 msgid "Add view"
 msgstr "Көрүнүш кошуу"
 
@@ -161,11 +162,12 @@ msgstr "Ката тууралуу билдирүү жөнөтүлдү."
 #: ../../../lib/web/src/components/step-up-dialog.tsx:360
 #: ../../../lib/web/src/components/travelling-picker.tsx:292
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx:245
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:129
 #: ../../../lib/web/src/features/access/access-dialog.tsx:325
 #: ../../../lib/web/src/features/access/access-list.tsx:255
 #: ../../../lib/web/src/features/accounts/account-add.tsx:185
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:86
-#: src/features/help/contribute-dialog.tsx:348
+#: src/features/help/contribute-dialog.tsx:349
 msgid "Cancel"
 msgstr "Жокко чыгаруу"
 
@@ -255,8 +257,8 @@ msgstr "Жакында!"
 msgid "Compact"
 msgstr "Компакттык"
 
-#: ../../../lib/web/src/components/place-picker.tsx:155
-#: ../../../lib/web/src/components/travelling-picker.tsx:299
+#: ../../../lib/web/src/components/place-picker.tsx:156
+#: ../../../lib/web/src/components/travelling-picker.tsx:300
 msgid "Confirm"
 msgstr "Ырастоо"
 
@@ -365,11 +367,11 @@ msgstr "Веб-браузерден аныктоо"
 msgid "Direction"
 msgstr "Багыт"
 
-#: src/features/help/contribute-dialog.tsx:375
+#: src/features/help/contribute-dialog.tsx:376
 msgid "Discard"
 msgstr "Жокко чыгаруу"
 
-#: src/features/help/contribute-dialog.tsx:372
+#: src/features/help/contribute-dialog.tsx:373
 msgid "Discard draft?"
 msgstr "Долбоорду жокко чыгарасызбы?"
 
@@ -385,9 +387,13 @@ msgstr "Мобилдик каптал тилкесин көрсөтөт."
 msgid "Download"
 msgstr "Жүктөп алуу"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:134
+#: ../../../lib/web/src/lib/preference-utils.ts:143
 msgid "Dyslexia-friendly"
 msgstr "Дислексияга ыңгайлуу"
+
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:151
+msgid "Edit {label}"
+msgstr "{label} түзөтүү"
 
 #: ../../../lib/web/src/components/step-up-dialog.tsx:286
 msgid "Email code"
@@ -405,7 +411,7 @@ msgstr "Authenticator кодун киргизиңиз"
 msgid "Expand sidebar"
 msgstr "Каптал тилкесин жайылтуу"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:124
+#: ../../../lib/web/src/lib/preference-utils.ts:133
 msgid "Extra large"
 msgstr "Өтө чоң"
 
@@ -433,6 +439,10 @@ msgstr "Функция сурамы жөнөтүлдү."
 msgid "Finish moving your account"
 msgstr "Аккаунтуңузду көчүрүүнү аяктаңыз"
 
+#: ../../../lib/web/src/lib/preference-utils.ts:113
+msgid "Flat"
+msgstr "Жалпак"
+
 #: ../../../lib/web/src/components/config-drawer.tsx:244
 msgid "Floating"
 msgstr "Калкып жүргөн"
@@ -448,8 +458,9 @@ msgstr "Кимден"
 #: ../../../lib/web/src/lib/preference-utils.ts:91
 #: ../../../lib/web/src/lib/preference-utils.ts:101
 #: ../../../lib/web/src/lib/preference-utils.ts:112
-#: ../../../lib/web/src/lib/preference-utils.ts:120
-#: ../../../lib/web/src/lib/preference-utils.ts:131
+#: ../../../lib/web/src/lib/preference-utils.ts:121
+#: ../../../lib/web/src/lib/preference-utils.ts:129
+#: ../../../lib/web/src/lib/preference-utils.ts:140
 msgid "From theme"
 msgstr "Темадан"
 
@@ -467,7 +478,7 @@ msgstr "Артка"
 msgid "Go to first page"
 msgstr "Биринчи бетке өтүү"
 
-#: src/features/help/contribute-dialog.tsx:340
+#: src/features/help/contribute-dialog.tsx:341
 msgid "Go to forum"
 msgstr "Форумга өтүү"
 
@@ -543,12 +554,12 @@ msgstr "Өзүңүздү тааныштырыңыз"
 msgid "Invalid verification code"
 msgstr "Жараксыз текшерүү коду"
 
-#: src/features/help/contribute-dialog.tsx:374
+#: src/features/help/contribute-dialog.tsx:375
 msgid "Keep editing"
 msgstr "Түзөтүүнү улантуу"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:105
-#: ../../../lib/web/src/lib/preference-utils.ts:123
+#: ../../../lib/web/src/lib/preference-utils.ts:132
 msgid "Large"
 msgstr "Чоң"
 
@@ -673,13 +684,17 @@ msgstr "Колдонуучулар табылган жок"
 
 #: ../../../lib/web/src/components/person-picker.tsx:349
 #: ../../../lib/web/src/lib/preference-utils.ts:102
-#: ../../../lib/web/src/lib/preference-utils.ts:113
+#: ../../../lib/web/src/lib/preference-utils.ts:122
 msgid "None"
 msgstr "Эч кимиси"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:122
+#: ../../../lib/web/src/lib/preference-utils.ts:131
 msgid "Normal"
 msgstr "Кадимки"
+
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:143
+msgid "Not set"
+msgstr "Орнотулган эмес"
 
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:132
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:146
@@ -755,7 +770,7 @@ msgstr "Сурооңузду жөнөтүү"
 msgid "Posted"
 msgstr "Жарыяланды"
 
-#: src/features/help/contribute-dialog.tsx:354
+#: src/features/help/contribute-dialog.tsx:355
 msgid "Posting…"
 msgstr "Жарыяланууда…"
 
@@ -777,6 +792,10 @@ msgstr "Профиль"
 #: src/features/help/contribute-dialog.tsx:82
 msgid "Question"
 msgstr "Суроо"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:114
+msgid "Raised"
+msgstr "Көтөрүлгөн"
 
 #: ../../../lib/web/src/components/restore-banner.tsx:98
 msgid "Re-link your accounts on this server"
@@ -859,6 +878,7 @@ msgstr "Бир барактагы саптар"
 msgid "Saturday"
 msgstr "Ишемби"
 
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:119
 #: ../../../lib/web/src/components/ui/secret-field.tsx:74
 msgid "Save"
 msgstr "Сактоо"
@@ -937,7 +957,7 @@ msgstr "Кайра жөнөтүү"
 msgid "Send email"
 msgstr "Электрондук почта жөнөтүү"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:133
+#: ../../../lib/web/src/lib/preference-utils.ts:142
 msgid "Serif"
 msgstr "Серифтүү"
 
@@ -989,7 +1009,7 @@ msgid "Skip to Main"
 msgstr "Башкыга өтүү"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:103
-#: ../../../lib/web/src/lib/preference-utils.ts:121
+#: ../../../lib/web/src/lib/preference-utils.ts:130
 msgid "Small"
 msgstr "Кичине"
 
@@ -1041,7 +1061,7 @@ msgstr "Жекшемби"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:195
 #: ../../../lib/web/src/lib/preference-utils.ts:18
-#: ../../../lib/web/src/lib/preference-utils.ts:132
+#: ../../../lib/web/src/lib/preference-utils.ts:141
 msgid "System"
 msgstr "Системалык"
 
@@ -1255,6 +1275,6 @@ msgstr "Сиздин таанышууңуз жөнөтүлдү жана моде
 msgid "Your question has been submitted and will appear after moderation."
 msgstr "Сиздин сурооңуз жөнөтүлдү жана модерациядан кийин пайда болот."
 
-#: src/features/help/contribute-dialog.tsx:373
+#: src/features/help/contribute-dialog.tsx:374
 msgid "Your text will be lost."
 msgstr "Текстиңиз жоголот."

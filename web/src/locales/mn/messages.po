@@ -90,7 +90,8 @@ msgstr "Баг/апп нэмэх"
 msgid "Add to existing notifications"
 msgstr "Одоогийн мэдэгдэлд нэмэх"
 
-#: ../../../lib/web/src/components/view-tabs.tsx:57
+#: ../../../lib/web/src/components/view-tabs.tsx:81
+#: ../../../lib/web/src/components/view-tabs.tsx:82
 msgid "Add view"
 msgstr "Харагдац нэмэх"
 
@@ -161,11 +162,12 @@ msgstr "Алдааны мэдээллийг илгээлээ."
 #: ../../../lib/web/src/components/step-up-dialog.tsx:360
 #: ../../../lib/web/src/components/travelling-picker.tsx:292
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx:245
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:129
 #: ../../../lib/web/src/features/access/access-dialog.tsx:325
 #: ../../../lib/web/src/features/access/access-list.tsx:255
 #: ../../../lib/web/src/features/accounts/account-add.tsx:185
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:86
-#: src/features/help/contribute-dialog.tsx:348
+#: src/features/help/contribute-dialog.tsx:349
 msgid "Cancel"
 msgstr "Цуцлах"
 
@@ -255,8 +257,8 @@ msgstr "Удахгүй!"
 msgid "Compact"
 msgstr "Хумисан"
 
-#: ../../../lib/web/src/components/place-picker.tsx:155
-#: ../../../lib/web/src/components/travelling-picker.tsx:299
+#: ../../../lib/web/src/components/place-picker.tsx:156
+#: ../../../lib/web/src/components/travelling-picker.tsx:300
 msgid "Confirm"
 msgstr "Баталгаажуулах"
 
@@ -365,11 +367,11 @@ msgstr "Хөтчөөс илрүүлэх"
 msgid "Direction"
 msgstr "Чиглэл"
 
-#: src/features/help/contribute-dialog.tsx:375
+#: src/features/help/contribute-dialog.tsx:376
 msgid "Discard"
 msgstr "Хаях"
 
-#: src/features/help/contribute-dialog.tsx:372
+#: src/features/help/contribute-dialog.tsx:373
 msgid "Discard draft?"
 msgstr "Ноорогийг хаах уу?"
 
@@ -385,9 +387,13 @@ msgstr "Гар утасны хажуугийн самбарыг харуулна
 msgid "Download"
 msgstr "Татах"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:134
+#: ../../../lib/web/src/lib/preference-utils.ts:143
 msgid "Dyslexia-friendly"
 msgstr "Дислексид зориулсан"
+
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:151
+msgid "Edit {label}"
+msgstr "{label} засах"
 
 #: ../../../lib/web/src/components/step-up-dialog.tsx:286
 msgid "Email code"
@@ -405,7 +411,7 @@ msgstr "Баталгаажуулагчийн кодоо оруулна уу"
 msgid "Expand sidebar"
 msgstr "Хажуугийн самбарыг тэлэх"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:124
+#: ../../../lib/web/src/lib/preference-utils.ts:133
 msgid "Extra large"
 msgstr "Маш том"
 
@@ -433,6 +439,10 @@ msgstr "Боломжийн хүсэлтийг илгээлээ."
 msgid "Finish moving your account"
 msgstr "Бүртгэлээ шилжүүлэхийг дуусгана уу"
 
+#: ../../../lib/web/src/lib/preference-utils.ts:113
+msgid "Flat"
+msgstr "Хавтгай"
+
 #: ../../../lib/web/src/components/config-drawer.tsx:244
 msgid "Floating"
 msgstr "Хөвөгч"
@@ -448,8 +458,9 @@ msgstr "Эхлэх"
 #: ../../../lib/web/src/lib/preference-utils.ts:91
 #: ../../../lib/web/src/lib/preference-utils.ts:101
 #: ../../../lib/web/src/lib/preference-utils.ts:112
-#: ../../../lib/web/src/lib/preference-utils.ts:120
-#: ../../../lib/web/src/lib/preference-utils.ts:131
+#: ../../../lib/web/src/lib/preference-utils.ts:121
+#: ../../../lib/web/src/lib/preference-utils.ts:129
+#: ../../../lib/web/src/lib/preference-utils.ts:140
 msgid "From theme"
 msgstr "Загвараас"
 
@@ -467,7 +478,7 @@ msgstr "Буцах"
 msgid "Go to first page"
 msgstr "Эхний хуудас руу очих"
 
-#: src/features/help/contribute-dialog.tsx:340
+#: src/features/help/contribute-dialog.tsx:341
 msgid "Go to forum"
 msgstr "Чуулга руу очих"
 
@@ -543,12 +554,12 @@ msgstr "Өөрийгөө танилцуулах"
 msgid "Invalid verification code"
 msgstr "Баталгаажуулах код хүчингүй"
 
-#: src/features/help/contribute-dialog.tsx:374
+#: src/features/help/contribute-dialog.tsx:375
 msgid "Keep editing"
 msgstr "Засварлахаа үргэлжлүүл"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:105
-#: ../../../lib/web/src/lib/preference-utils.ts:123
+#: ../../../lib/web/src/lib/preference-utils.ts:132
 msgid "Large"
 msgstr "Том"
 
@@ -673,13 +684,17 @@ msgstr "Хэрэглэгч олдсонгүй"
 
 #: ../../../lib/web/src/components/person-picker.tsx:349
 #: ../../../lib/web/src/lib/preference-utils.ts:102
-#: ../../../lib/web/src/lib/preference-utils.ts:113
+#: ../../../lib/web/src/lib/preference-utils.ts:122
 msgid "None"
 msgstr "Алга"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:122
+#: ../../../lib/web/src/lib/preference-utils.ts:131
 msgid "Normal"
 msgstr "Энгийн"
+
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:143
+msgid "Not set"
+msgstr "Тохируулаагүй"
 
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:132
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:146
@@ -755,7 +770,7 @@ msgstr "Асуулт нийтлэх"
 msgid "Posted"
 msgstr "Нийтлэгдсэн"
 
-#: src/features/help/contribute-dialog.tsx:354
+#: src/features/help/contribute-dialog.tsx:355
 msgid "Posting…"
 msgstr "Нийтэлж байна…"
 
@@ -777,6 +792,10 @@ msgstr "Профайл"
 #: src/features/help/contribute-dialog.tsx:82
 msgid "Question"
 msgstr "Асуулт"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:114
+msgid "Raised"
+msgstr "Өргөгдсөн"
 
 #: ../../../lib/web/src/components/restore-banner.tsx:98
 msgid "Re-link your accounts on this server"
@@ -859,6 +878,7 @@ msgstr "Хуудас тутамын мөр"
 msgid "Saturday"
 msgstr "Бямба"
 
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:119
 #: ../../../lib/web/src/components/ui/secret-field.tsx:74
 msgid "Save"
 msgstr "Хадгалах"
@@ -937,7 +957,7 @@ msgstr "Дахин илгээх"
 msgid "Send email"
 msgstr "Имэйл илгээх"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:133
+#: ../../../lib/web/src/lib/preference-utils.ts:142
 msgid "Serif"
 msgstr "Сериф"
 
@@ -989,7 +1009,7 @@ msgid "Skip to Main"
 msgstr "Үндсэн рүү алгасах"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:103
-#: ../../../lib/web/src/lib/preference-utils.ts:121
+#: ../../../lib/web/src/lib/preference-utils.ts:130
 msgid "Small"
 msgstr "Жижиг"
 
@@ -1041,7 +1061,7 @@ msgstr "Ням гараг"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:195
 #: ../../../lib/web/src/lib/preference-utils.ts:18
-#: ../../../lib/web/src/lib/preference-utils.ts:132
+#: ../../../lib/web/src/lib/preference-utils.ts:141
 msgid "System"
 msgstr "Систем"
 
@@ -1255,6 +1275,6 @@ msgstr "Таны танилцуулгыг илгээсэн бөгөөд хяна
 msgid "Your question has been submitted and will appear after moderation."
 msgstr "Таны асуултыг илгээсэн бөгөөд хяналт шалгалтын дараа харагдана."
 
-#: src/features/help/contribute-dialog.tsx:373
+#: src/features/help/contribute-dialog.tsx:374
 msgid "Your text will be lost."
 msgstr "Чиний текст алдагдана."

@@ -90,7 +90,8 @@ msgstr "Tîm/sepan zêde bike"
 msgid "Add to existing notifications"
 msgstr "Li agahdariyên heyî zêde bike"
 
-#: ../../../lib/web/src/components/view-tabs.tsx:57
+#: ../../../lib/web/src/components/view-tabs.tsx:81
+#: ../../../lib/web/src/components/view-tabs.tsx:82
 msgid "Add view"
 msgstr "Dîtin zêde bike"
 
@@ -161,11 +162,12 @@ msgstr "Rapora çewtiyê hat şandin."
 #: ../../../lib/web/src/components/step-up-dialog.tsx:360
 #: ../../../lib/web/src/components/travelling-picker.tsx:292
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx:245
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:129
 #: ../../../lib/web/src/features/access/access-dialog.tsx:325
 #: ../../../lib/web/src/features/access/access-list.tsx:255
 #: ../../../lib/web/src/features/accounts/account-add.tsx:185
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:86
-#: src/features/help/contribute-dialog.tsx:348
+#: src/features/help/contribute-dialog.tsx:349
 msgid "Cancel"
 msgstr "Betal bike"
 
@@ -255,8 +257,8 @@ msgstr "Zû tê!"
 msgid "Compact"
 msgstr "Kompakt"
 
-#: ../../../lib/web/src/components/place-picker.tsx:155
-#: ../../../lib/web/src/components/travelling-picker.tsx:299
+#: ../../../lib/web/src/components/place-picker.tsx:156
+#: ../../../lib/web/src/components/travelling-picker.tsx:300
 msgid "Confirm"
 msgstr "Piştrast bike"
 
@@ -365,11 +367,11 @@ msgstr "Ji geroka webê tespît bike"
 msgid "Direction"
 msgstr "Arasteyî"
 
-#: src/features/help/contribute-dialog.tsx:375
+#: src/features/help/contribute-dialog.tsx:376
 msgid "Discard"
 msgstr "Bavêje"
 
-#: src/features/help/contribute-dialog.tsx:372
+#: src/features/help/contribute-dialog.tsx:373
 msgid "Discard draft?"
 msgstr "Reşnivîs bê avêtin?"
 
@@ -385,9 +387,13 @@ msgstr "Panela kêlekê ya mobîl nîşan dide."
 msgid "Download"
 msgstr "Daxe"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:134
+#: ../../../lib/web/src/lib/preference-utils.ts:143
 msgid "Dyslexia-friendly"
 msgstr "Hevhewş ji bo dîslêksiyê"
+
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:151
+msgid "Edit {label}"
+msgstr "{label} biguherîne"
 
 #: ../../../lib/web/src/components/step-up-dialog.tsx:286
 msgid "Email code"
@@ -405,7 +411,7 @@ msgstr "Koda authenticator-a xwe têkevê"
 msgid "Expand sidebar"
 msgstr "Bargeyê fireh bike"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:124
+#: ../../../lib/web/src/lib/preference-utils.ts:133
 msgid "Extra large"
 msgstr "Pir mezin"
 
@@ -433,6 +439,10 @@ msgstr "Daxwaza taybetmendiyê hat şandin."
 msgid "Finish moving your account"
 msgstr "Veguheztina hesabê xwe biqedînin"
 
+#: ../../../lib/web/src/lib/preference-utils.ts:113
+msgid "Flat"
+msgstr "Tasî"
+
 #: ../../../lib/web/src/components/config-drawer.tsx:244
 msgid "Floating"
 msgstr "Belavbûyî"
@@ -448,8 +458,9 @@ msgstr "Ji"
 #: ../../../lib/web/src/lib/preference-utils.ts:91
 #: ../../../lib/web/src/lib/preference-utils.ts:101
 #: ../../../lib/web/src/lib/preference-utils.ts:112
-#: ../../../lib/web/src/lib/preference-utils.ts:120
-#: ../../../lib/web/src/lib/preference-utils.ts:131
+#: ../../../lib/web/src/lib/preference-utils.ts:121
+#: ../../../lib/web/src/lib/preference-utils.ts:129
+#: ../../../lib/web/src/lib/preference-utils.ts:140
 msgid "From theme"
 msgstr "Ji temayê"
 
@@ -467,7 +478,7 @@ msgstr "Vegere"
 msgid "Go to first page"
 msgstr "Biçe rûpelê yekem"
 
-#: src/features/help/contribute-dialog.tsx:340
+#: src/features/help/contribute-dialog.tsx:341
 msgid "Go to forum"
 msgstr "Biçe forumê"
 
@@ -543,12 +554,12 @@ msgstr "Xwe bide nasîn"
 msgid "Invalid verification code"
 msgstr "Koda rastandinê nederbasdar"
 
-#: src/features/help/contribute-dialog.tsx:374
+#: src/features/help/contribute-dialog.tsx:375
 msgid "Keep editing"
 msgstr "Berdewam serrast bike"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:105
-#: ../../../lib/web/src/lib/preference-utils.ts:123
+#: ../../../lib/web/src/lib/preference-utils.ts:132
 msgid "Large"
 msgstr "Mezin"
 
@@ -673,13 +684,17 @@ msgstr "Tu bikarhêner nehatin dîtin"
 
 #: ../../../lib/web/src/components/person-picker.tsx:349
 #: ../../../lib/web/src/lib/preference-utils.ts:102
-#: ../../../lib/web/src/lib/preference-utils.ts:113
+#: ../../../lib/web/src/lib/preference-utils.ts:122
 msgid "None"
 msgstr "Tu"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:122
+#: ../../../lib/web/src/lib/preference-utils.ts:131
 msgid "Normal"
 msgstr "Asayî"
+
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:143
+msgid "Not set"
+msgstr "Nehatiye danîn"
 
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:132
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:146
@@ -755,7 +770,7 @@ msgstr "Pirsê biweşîne"
 msgid "Posted"
 msgstr "Hat şandin"
 
-#: src/features/help/contribute-dialog.tsx:354
+#: src/features/help/contribute-dialog.tsx:355
 msgid "Posting…"
 msgstr "Tê postkirin…"
 
@@ -777,6 +792,10 @@ msgstr "Profîl"
 #: src/features/help/contribute-dialog.tsx:82
 msgid "Question"
 msgstr "Pirs"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:114
+msgid "Raised"
+msgstr "Bilindkirî"
 
 #: ../../../lib/web/src/components/restore-banner.tsx:98
 msgid "Re-link your accounts on this server"
@@ -859,6 +878,7 @@ msgstr "Rêz li ser her rûpel"
 msgid "Saturday"
 msgstr "Şemî"
 
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:119
 #: ../../../lib/web/src/components/ui/secret-field.tsx:74
 msgid "Save"
 msgstr "Tomar bike"
@@ -937,7 +957,7 @@ msgstr "Dîsa bişîne"
 msgid "Send email"
 msgstr "E-nameyê bişîne"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:133
+#: ../../../lib/web/src/lib/preference-utils.ts:142
 msgid "Serif"
 msgstr "Serîf"
 
@@ -989,7 +1009,7 @@ msgid "Skip to Main"
 msgstr "Bibihure ji bo Sereke"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:103
-#: ../../../lib/web/src/lib/preference-utils.ts:121
+#: ../../../lib/web/src/lib/preference-utils.ts:130
 msgid "Small"
 msgstr "Biçûk"
 
@@ -1041,7 +1061,7 @@ msgstr "Yekşem"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:195
 #: ../../../lib/web/src/lib/preference-utils.ts:18
-#: ../../../lib/web/src/lib/preference-utils.ts:132
+#: ../../../lib/web/src/lib/preference-utils.ts:141
 msgid "System"
 msgstr "Pergal"
 
@@ -1255,6 +1275,6 @@ msgstr "Danasîna te hat şandin û dê piştî çavdêriyê xuya bibe."
 msgid "Your question has been submitted and will appear after moderation."
 msgstr "Pirsa te hat şandin û dê piştî çavdêriyê xuya bibe."
 
-#: src/features/help/contribute-dialog.tsx:373
+#: src/features/help/contribute-dialog.tsx:374
 msgid "Your text will be lost."
 msgstr "Nivîsa te dê winda bibe."
