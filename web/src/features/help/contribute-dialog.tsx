@@ -203,7 +203,10 @@ export function ContributeDialog({
         {
           loading: t`Submitting...`,
           success: false,
-          error: (err) => getErrorMessage(err, t`Couldn't submit`),
+          error: t`Couldn't submit`,
+          errorOptions: (err) => ({
+            description: getErrorMessage(err, t`Please try again.`),
+          }),
         }
       )
       if (isForumKind) {
