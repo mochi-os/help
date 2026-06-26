@@ -23,6 +23,7 @@ import {
   getErrorMessage,
   shellNavigateExternal,
   toast,
+  toastAction,
   useFormat,
 } from '@mochi/web'
 import { ArrowRight, Bug, CheckCircle, CircleAlert, HelpCircle, Lightbulb, Loader2, Sparkles, X } from 'lucide-react'
@@ -193,10 +194,17 @@ export function ContributeDialog({
     if (!canSubmit) return
     setSubmitting(true)
     try {
-      const result = await helpApi.contribute(
-        kind,
-        trimmedBody,
-        needsTitle ? trimmedTitle : undefined,
+      const result = await toastAction(
+        helpApi.contribute(
+          kind,
+          trimmedBody,
+          needsTitle ? trimmedTitle : undefined
+        ),
+        {
+          loading: t`Submitting...`,
+          success: false,
+          error: (err) => getErrorMessage(err, t`Couldn't submit`),
+        }
       )
       if (isForumKind) {
         // Forum posts go to moderation — show in-app success so the user isn't
@@ -210,10 +218,8 @@ export function ContributeDialog({
         })
         shellNavigateExternal(result.redirect)
       }
-    } catch (err) {
-      toast.error(t`Couldn't submit`, {
-        description: getErrorMessage(err, t`Please try again.`),
-      })
+    } catch {
+      // toastAction already showed error
       setSubmitting(false)
     }
   }
