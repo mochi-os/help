@@ -2,7 +2,7 @@
 // Copyright © 2026 Mochi OÜ
 
 {
-	"version": "1.21",
+	"version": "1.22",
 	"label": "app.name",
 	"paths": ["help"],
 
