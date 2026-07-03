@@ -78,7 +78,7 @@ msgstr "Shto një llogari për të marrë njoftime dhe për të përdorur shërb
 msgid "Add new account"
 msgstr "Shto llogari të re"
 
-#: ../../../lib/web/src/components/post-tags.tsx:129
+#: ../../../lib/web/src/components/post-tags.tsx:133
 msgid "Add tag..."
 msgstr "Shto etiketë..."
 
@@ -107,11 +107,11 @@ msgstr "AI"
 msgid "All"
 msgstr "Të gjitha"
 
-#: ../../../lib/web/src/lib/api-client.ts:192
+#: ../../../lib/web/src/lib/api-response-interceptors.ts:159
 msgid "An error occurred"
 msgstr "Ndodhi një gabim"
 
-#: ../../../lib/web/src/lib/api-client.ts:255
+#: ../../../lib/web/src/lib/api-response-interceptors.ts:241
 msgid "An unexpected error occurred"
 msgstr "Ndodhi një gabim i papritur"
 
@@ -150,8 +150,8 @@ msgstr "Mbrapa"
 msgid "Back to home"
 msgstr "Kthehu në fillim"
 
-#: ../../../lib/web/src/components/post-tags.tsx:172
-#: ../../../lib/web/src/components/post-tags.tsx:184
+#: ../../../lib/web/src/components/post-tags.tsx:176
+#: ../../../lib/web/src/components/post-tags.tsx:188
 msgid "Boost interest"
 msgstr "Rrit interesin"
 
@@ -233,8 +233,8 @@ msgid "Clear selection (Escape)"
 msgstr "Pastro përzgjedhjen (Escape)"
 
 #: ../../../lib/web/src/components/ui/dialog.tsx:78
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:332
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:335
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:354
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:357
 #: ../../../lib/web/src/components/ui/sheet.tsx:79
 #: src/features/help/contribute-dialog.tsx:341
 msgid "Close"
@@ -256,8 +256,8 @@ msgstr "Mbyll kërkimin"
 
 #: ../../../lib/web/src/components/comment-tree-layout.tsx:101
 #: ../../../lib/web/src/components/comment-tree-layout.tsx:110
-#: ../../../lib/web/src/components/tree-row.tsx:255
-#: ../../../lib/web/src/components/tree-row.tsx:269
+#: ../../../lib/web/src/components/tree-row.tsx:338
+#: ../../../lib/web/src/components/tree-row.tsx:352
 msgid "Collapse"
 msgstr "Palos"
 
@@ -409,10 +409,14 @@ msgstr "Hidhe"
 msgid "Displays the mobile sidebar."
 msgstr "Shfaq anën mobile."
 
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:320
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:326
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:338
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:348
 msgid "Download"
 msgstr "Shkarko"
+
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:68
+msgid "Download failed"
+msgstr "Shkarkimi dështoi"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:146
 msgid "Dyslexia-friendly"
@@ -436,8 +440,8 @@ msgstr "Vendosni kodin e aplikacionit të vërtetimit"
 
 #: ../../../lib/web/src/components/comment-tree-layout.tsx:101
 #: ../../../lib/web/src/components/comment-tree-layout.tsx:110
-#: ../../../lib/web/src/components/tree-row.tsx:255
-#: ../../../lib/web/src/components/tree-row.tsx:269
+#: ../../../lib/web/src/components/tree-row.tsx:338
+#: ../../../lib/web/src/components/tree-row.tsx:352
 msgid "Expand"
 msgstr "Zgjero"
 
@@ -623,6 +627,10 @@ msgstr "E çelët"
 msgid "Load more"
 msgstr "Ngarko më shumë"
 
+#: ../../../lib/web/src/components/ui/loading-content.tsx:29
+msgid "Loading content…"
+msgstr "Po ngarkohet përmbajtja…"
+
 #: ../../../lib/web/src/components/ui/load-more.tsx:35
 #: ../../../lib/web/src/features/document/document-page.tsx:90
 #: src/features/help/contribute-dialog.tsx:273
@@ -673,7 +681,7 @@ msgstr "Metrik"
 msgid "Monday"
 msgstr "E hënë"
 
-#: ../../../lib/web/src/lib/api-client.ts:300
+#: ../../../lib/web/src/lib/api-response-interceptors.ts:288
 msgid "Network error"
 msgstr "Gabim rrjeti"
 
@@ -681,8 +689,8 @@ msgstr "Gabim rrjeti"
 msgid "New"
 msgstr "I ri"
 
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:366
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:371
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:388
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:393
 msgid "Next image"
 msgstr "Imazhi tjetër"
 
@@ -754,8 +762,8 @@ msgstr "Ups! Faqja s'u gjet!"
 msgid "Open account actions"
 msgstr "Hap veprimet e llogarisë"
 
-#: ../../../lib/web/src/components/layout/nav-group.tsx:152
-#: ../../../lib/web/src/components/layout/nav-group.tsx:157
+#: ../../../lib/web/src/components/layout/nav-group.tsx:182
+#: ../../../lib/web/src/components/layout/nav-group.tsx:187
 msgid "Open actions"
 msgstr "Hap veprimet"
 
@@ -794,7 +802,7 @@ msgstr "Verifikimi i çelësit të hyrjes dështoi. Ju lutemi provoni përsëri.
 msgid "Passkeys"
 msgstr "Kyçet"
 
-#: ../../../lib/web/src/lib/api-client.ts:301
+#: ../../../lib/web/src/lib/api-response-interceptors.ts:289
 msgid "Please check your internet connection and try again."
 msgstr "Kontrolloni lidhjen tuaj me internetin dhe provoni përsëri."
 
@@ -820,8 +828,8 @@ msgstr "Postuar"
 msgid "Posting…"
 msgstr "Duke postuar…"
 
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:351
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:356
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:373
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:378
 msgid "Previous image"
 msgstr "Imazhi i mëparshëm"
 
@@ -861,8 +869,8 @@ msgstr "I rekomanduar"
 msgid "Redirecting to login."
 msgstr "Duke ridrejtuar te hyrja."
 
-#: ../../../lib/web/src/components/post-tags.tsx:192
-#: ../../../lib/web/src/components/post-tags.tsx:204
+#: ../../../lib/web/src/components/post-tags.tsx:196
+#: ../../../lib/web/src/components/post-tags.tsx:208
 msgid "Reduce interest"
 msgstr "Zvogëlo interesin"
 
@@ -888,8 +896,8 @@ msgstr "Hiq rregullin e qasjes"
 msgid "Remove access?"
 msgstr "Të hiqet qasja?"
 
-#: ../../../lib/web/src/components/post-tags.tsx:212
-#: ../../../lib/web/src/components/post-tags.tsx:224
+#: ../../../lib/web/src/components/post-tags.tsx:216
+#: ../../../lib/web/src/components/post-tags.tsx:228
 msgid "Remove interest"
 msgstr "Hiq interesin"
 
@@ -1010,8 +1018,8 @@ msgstr "Dërgo email"
 msgid "Serif"
 msgstr "Me serif"
 
-#: ../../../lib/web/src/lib/api-client.ts:259
-#: ../../../lib/web/src/lib/api-client.ts:284
+#: ../../../lib/web/src/lib/api-response-interceptors.ts:245
+#: ../../../lib/web/src/lib/api-response-interceptors.ts:271
 msgid "Server error"
 msgstr "Gabim serveri"
 
@@ -1021,7 +1029,7 @@ msgstr "Gabim serveri"
 msgid "Server rules"
 msgstr "Rregullat e serverit"
 
-#: ../../../lib/web/src/lib/api-client.ts:227
+#: ../../../lib/web/src/lib/api-response-interceptors.ts:209
 msgid "Session expired"
 msgstr "Sesioni skadoi"
 
@@ -1129,8 +1137,8 @@ msgstr "Sistemi"
 msgid "Tag"
 msgstr "Etiketa"
 
-#: ../../../lib/web/src/components/post-tags.tsx:96
-#: ../../../lib/web/src/components/post-tags.tsx:107
+#: ../../../lib/web/src/components/post-tags.tsx:100
+#: ../../../lib/web/src/components/post-tags.tsx:111
 msgid "Tags"
 msgstr "Etiketat"
 
@@ -1177,10 +1185,10 @@ msgstr "Ndrysho kolonat"
 msgid "Toggle right panel"
 msgstr "Ndërro panelin e djathtë"
 
-#: ../../../lib/web/src/components/layout/nav-group.tsx:321
-#: ../../../lib/web/src/components/layout/nav-group.tsx:328
-#: ../../../lib/web/src/components/layout/nav-group.tsx:451
-#: ../../../lib/web/src/components/layout/nav-group.tsx:458
+#: ../../../lib/web/src/components/layout/nav-group.tsx:351
+#: ../../../lib/web/src/components/layout/nav-group.tsx:358
+#: ../../../lib/web/src/components/layout/nav-group.tsx:481
+#: ../../../lib/web/src/components/layout/nav-group.tsx:488
 msgid "Toggle section"
 msgstr "Ndrysho seksionin"
 
@@ -1235,7 +1243,7 @@ msgstr "Shkruaj për të kërkuar përdorues"
 msgid "Type to search..."
 msgstr "Shkruaj për të kërkuar..."
 
-#: ../../../lib/web/src/lib/api-client.ts:280
+#: ../../../lib/web/src/lib/api-response-interceptors.ts:267
 msgid "Unable to connect to remote server"
 msgstr "Nuk u lidh dot me serverin në distancë"
 
