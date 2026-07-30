@@ -251,6 +251,15 @@ def _intro_title(user):
 # remote-supplied text through to the user-facing error body.
 def _surface_remote_error(a, result):
 	code = result.get("code", 502)
+	# The code is remote-supplied — forwarded from the destination owner's
+	# reply — so clamp it to the error range: a hostile or buggy destination
+	# must not make help answer with a success or redirect status, or abort
+	# a.error.label with a non-integer. Floats survive JSON decoding of
+	# integer values, so accept and truncate them first.
+	if type(code) == "float":
+		code = int(code)
+	if type(code) != "int" or code < 400 or code > 599:
+		code = 502
 	err = result.get("error", "")
 	if err.startswith("errors."):
 		a.error.label(code, err)
