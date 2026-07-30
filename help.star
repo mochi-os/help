@@ -62,15 +62,19 @@ def action_prepare(a):
 			"message": mochi.app.label("errors.help_not_configured"),
 		}}
 
+	# app/check is read-only: it verifies the destination exists, its owner is
+	# reachable, and the user may post there, without subscribing — the
+	# subscription happens on submission (the app/post and app/object/create
+	# handlers subscribe first as an idempotent safety net), so a user who
+	# opens a dialog and cancels leaves no trace.
 	result = mochi.remote.request(
 		a.user.identity.id,
 		target["service"],
-		"app/subscribe",
+		"app/check",
 		{target["entity_field"]: target["entity_id"]},
 	)
-	# prepare is a non-destructive preflight. Return availability information
-	# instead of throwing so the dialog can explain problems inline before the
-	# user spends time writing a full post.
+	# Return availability information instead of throwing so the dialog can
+	# explain problems inline before the user spends time writing a full post.
 	if result and result.get("error"):
 		code = result.get("code", 502)
 		message = (
