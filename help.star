@@ -28,7 +28,11 @@ def action_visit(a):
 	if not a.user:
 		a.error.label(401, "errors.not_logged_in")
 		return
-	a.user.preference.set("help.visited", "true")
+	# The SPA calls this on every Help mount, but only the first visit changes
+	# anything (home.star checks != "true"), so skip the versioned preference
+	# write once it holds — the get reads the request's in-memory map for free.
+	if a.user.preference.get("help.visited") != "true":
+		a.user.preference.set("help.visited", "true")
 	return {"data": {"visited": True}}
 
 # Serve one of the server-level documents (rules / terms / privacy) so the
