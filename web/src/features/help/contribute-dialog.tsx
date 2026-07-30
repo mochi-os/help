@@ -28,10 +28,17 @@ import {
 import { ArrowRight, Bug, CheckCircle, CircleAlert, HelpCircle, Lightbulb, Loader2, Sparkles, X } from 'lucide-react'
 import { helpApi, type Kind } from '@/api/help'
 
-// Mirrors BODY_MAX / BODY_MIN / TITLE_MAX in help.star.
+// Mirrors BODY_MAX / BODY_MIN / TITLE_MAX in help.star. The server (and the
+// forums/projects handlers behind it) measures UTF-8 bytes — Starlark len() —
+// so the client must too: JavaScript .length counts UTF-16 code units, which
+// undercounts CJK text threefold and would let the counter promise room the
+// server refuses.
 const BODY_MAX = 50000
 const BODY_MIN = 20
 const TITLE_MAX = 500
+
+const encoder = new TextEncoder()
+const byteLength = (text: string) => encoder.encode(text).length
 
 const KIND_ICONS: Record<Kind, typeof Sparkles> = {
   intro: Sparkles,
@@ -145,8 +152,9 @@ export function ContributeDialog({
 
   const trimmedBody = body.trim()
   const trimmedTitle = title.trim()
-  const bodyTooShort = trimmedBody.length < BODY_MIN
-  const bodyTooLong = body.length > BODY_MAX
+  const bodyBytes = byteLength(body)
+  const bodyTooShort = byteLength(trimmedBody) < BODY_MIN
+  const bodyTooLong = bodyBytes > BODY_MAX
   const isDirty = title !== '' || body !== ''
   const destinationReady = destinationStatus.status === 'ready'
   const canSubmit =
@@ -154,7 +162,7 @@ export function ContributeDialog({
     !bodyTooShort &&
     !bodyTooLong &&
     destinationReady &&
-    (!needsTitle || (trimmedTitle.length > 0 && trimmedTitle.length <= TITLE_MAX))
+    (!needsTitle || (trimmedTitle.length > 0 && byteLength(trimmedTitle) <= TITLE_MAX))
 
   useEffect(() => {
     if (!open || submitted) return
@@ -236,7 +244,7 @@ export function ContributeDialog({
     onOpenChange(false)
   }
 
-  const remaining = BODY_MAX - body.length
+  const remaining = BODY_MAX - bodyBytes
   const counterTone = bodyTooLong
     ? 'text-destructive'
     : remaining < 500
@@ -305,7 +313,6 @@ export function ContributeDialog({
                     value={title}
                     onChange={(e) => setTitle(e.target.value)}
                     placeholder={copy.titlePlaceholder}
-                    maxLength={TITLE_MAX}
                     autoFocus
                     disabled={submitting}
                   />
@@ -329,7 +336,7 @@ export function ContributeDialog({
                     )}
                   </span>
                   <span className={counterTone}>
-                    {formatNumber(body.length)} / {formatNumber(BODY_MAX)}
+                    {formatNumber(bodyBytes)} / {formatNumber(BODY_MAX)}
                   </span>
                 </div>
               </div>
