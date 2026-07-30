@@ -52,6 +52,10 @@ msgstr "{selectedCount, plural, other {# არჩეული}}"
 msgid "{selectedCount, plural, one {Bulk actions for # selected {entityName}} other {Bulk actions for # selected {manyName}}}"
 msgstr "{selectedCount, plural, other {მასობრივი მოქმედებები # არჩეული {manyName}-სთვის}}"
 
+#: ../../../lib/web/src/components/ui/upload-progress.tsx:52
+msgid "{sentLabel} of {totalLabel}"
+msgstr "{sentLabel} / {totalLabel}"
+
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx:132
 msgid "{unreadCount, plural, one {Open menu (# unread notification)} other {Open menu (# unread notifications)}}"
 msgstr "{unreadCount, plural, other {მენიუს გახსნა (# წაუკითხავი შეტყობინება)}}"
@@ -268,12 +272,12 @@ msgstr "შეცდომის ანგარიში გაიგზავ�
 msgid "Cancel"
 msgstr "გაუქმება"
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:143
+#: ../../../lib/web/src/components/notification-category-button.tsx:146
 msgid "Category for this notification"
 msgstr "ამ შეტყობინების კატეგორია"
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:124
-#: ../../../lib/web/src/components/notification-category-button.tsx:135
+#: ../../../lib/web/src/components/notification-category-button.tsx:127
+#: ../../../lib/web/src/components/notification-category-button.tsx:138
 msgid "Change notification category"
 msgstr "შეტყობინების კატეგორიის შეცვლა"
 
@@ -547,10 +551,12 @@ msgstr "მიმართულება"
 msgid "Directory"
 msgstr "კატალოგი"
 
+#: ../../../lib/web/src/components/comment-composer.tsx:300
 #: src/features/help/contribute-dialog.tsx:381
 msgid "Discard"
 msgstr "გაუქმება"
 
+#: ../../../lib/web/src/components/comment-composer.tsx:298
 #: src/features/help/contribute-dialog.tsx:378
 msgid "Discard draft?"
 msgstr "გავაუქმოთ მონახაზი?"
@@ -654,7 +660,7 @@ msgstr "ანგარიშის წაშლა ვერ მოხერხ
 msgid "Failed to send verification code"
 msgstr "დადასტურების კოდის გაგზავნა ვერ მოხერხდა"
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:111
+#: ../../../lib/web/src/components/notification-category-button.tsx:114
 msgid "Failed to update category"
 msgstr "კატეგორიის განახლება ვერ მოხერხდა"
 
@@ -993,7 +999,7 @@ msgstr "შედეგები ვერ მოიძებნა."
 msgid "No time zone found."
 msgstr "დროის სარტყელი ვერ მოიძებნა."
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:147
+#: ../../../lib/web/src/components/notification-category-button.tsx:150
 msgid "No topic record yet — try again after the next notification."
 msgstr "თემის ჩანაწერი ჯერ არ არის — სცადეთ ხელახლა შემდეგი შეტყობინების შემდეგ."
 
@@ -1099,6 +1105,7 @@ msgstr "Passkey-ები"
 msgid "Pick a date"
 msgstr "აირჩიეთ თარიღი"
 
+#: ../../../lib/web/src/components/comment-composer.tsx:95
 #: ../../../lib/web/src/features/errors/general-error.tsx:54
 #: ../../../lib/web/src/lib/api-response-interceptors.ts:304
 msgid "Please check your internet connection and try again."
@@ -1145,6 +1152,10 @@ msgstr "წინა სურათი"
 #: src/features/help/index.tsx:103
 msgid "Privacy"
 msgstr "კონფიდენციალურობა"
+
+#: ../../../lib/web/src/components/ui/upload-progress.tsx:50
+msgid "Processing…"
+msgstr "მუშავდება…"
 
 #: ../../../lib/web/src/components/layout/nav-user.tsx:137
 #: ../../../lib/web/src/components/profile-dropdown.tsx:114
@@ -1201,6 +1212,7 @@ msgstr "ფარდობითი (5წ, 3ს, 2დ)"
 msgid "Relative within 24 hours, else absolute"
 msgstr "ფარდობითი 24 საათში, წინააღმდეგ შემთხვევაში აბსოლუტური"
 
+#: ../../../lib/web/src/components/comment-composer.tsx:232
 #: ../../../lib/web/src/features/access/access-list.tsx:270
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:180
 msgid "Remove"
@@ -1257,6 +1269,10 @@ msgstr "{title}-ის აღდგენა"
 #: ../../../lib/web/src/components/config-drawer.tsx:85
 msgid "Reset all settings to default values"
 msgstr "ყველა პარამეტრის გადაყენება ნაგულისხმევ მნიშვნელობებზე"
+
+#: ../../../lib/web/src/components/comment-composer.tsx:249
+msgid "Retry"
+msgstr "ხელახლა ცდა"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:362
 msgid "Right to Left"
@@ -1663,7 +1679,7 @@ msgstr "დისტანციურ სერვერთან დაკა�
 msgid "Unable to redirect to login. Please try again."
 msgstr "ვერსიის ინფორმაციის ჩატვირთვა ვერ ხერხდება"
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:155
+#: ../../../lib/web/src/components/notification-category-button.tsx:158
 msgid "Unassigned"
 msgstr "ფიდების სერვისთან სინქრონიზება ვერ ხერხდება. ნაჩვენებია ქეშირებული მონაცემები."
 
@@ -1687,6 +1703,10 @@ msgstr "ერთეულები"
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:135
 msgid "Unverified"
 msgstr "უსათაურო ლისტინგი"
+
+#: ../../../lib/web/src/components/ui/upload-progress.tsx:34
+msgid "Upload progress"
+msgstr "ატვირთვის მიმდინარეობა"
 
 #: ../../../lib/web/src/components/step-up-dialog.tsx:338
 msgid "Use your passkey"
@@ -1806,6 +1826,10 @@ msgstr "ყველაფერი ნანახია!"
 msgid "Your account was moved here from {source}. Until you delete it there, messages and notifications may reach both servers, some of your content keeps being served from the old server, and followers may take a few minutes to find you here."
 msgstr "თქვენი ანგარიში გადმოტანილია {source}-დან. სანამ იქ წაშლით, შეტყობინებები და ნოტიფიკაციები შეიძლება ორივე სერვერს მიაღწიოს, თქვენი კონტენტის ნაწილი კვლავ ძველი სერვერიდან ხელმისაწვდომია, ხოლო მიმდევრებს შეიძლება რამდენიმე წუთი დასჭირდეთ თქვენი პოვნისთვის."
 
+#: ../../../lib/web/src/components/comment-composer.tsx:291
+msgid "Your attachments will be lost."
+msgstr "თქვენი დანართები დაიკარგება."
+
 #: src/features/help/contribute-dialog.tsx:81
 msgid "Your introduction has been submitted and will appear after moderation."
 msgstr "თქვენი წარდგენა გაიგზავნა და გამოჩნდება მოდერაციის შემდეგ."
@@ -1814,6 +1838,11 @@ msgstr "თქვენი წარდგენა გაიგზავნა 
 msgid "Your question has been submitted and will appear after moderation."
 msgstr "თქვენი შეკითხვა გაიგზავნა და გამოჩნდება მოდერაციის შემდეგ."
 
+#: ../../../lib/web/src/components/comment-composer.tsx:289
+msgid "Your text and attachments will be lost."
+msgstr "თქვენი ტექსტი და დანართები დაიკარგება."
+
+#: ../../../lib/web/src/components/comment-composer.tsx:292
 #: src/features/help/contribute-dialog.tsx:379
 msgid "Your text will be lost."
 msgstr "შენი ტექსტი დაიკარგება."

@@ -52,6 +52,10 @@ msgstr "{selectedCount, plural, one {# hilbijartî} other {# hilbijartî}}"
 msgid "{selectedCount, plural, one {Bulk actions for # selected {entityName}} other {Bulk actions for # selected {manyName}}}"
 msgstr "{selectedCount, plural, one {Kiryarên girseyî ji bo # {entityName} hilbijartî} other {Kiryarên girseyî ji bo # {manyName} hilbijartî}}"
 
+#: ../../../lib/web/src/components/ui/upload-progress.tsx:52
+msgid "{sentLabel} of {totalLabel}"
+msgstr "{sentLabel} ji {totalLabel}"
+
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx:132
 msgid "{unreadCount, plural, one {Open menu (# unread notification)} other {Open menu (# unread notifications)}}"
 msgstr "{unreadCount, plural, one {Pêşek veke (# agahdariya nexwendî)} other {Pêşek veke (# agahdariyên nexwendî)}}"
@@ -268,12 +272,12 @@ msgstr "Rapora çewtiyê hat şandin."
 msgid "Cancel"
 msgstr "Betal bike"
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:143
+#: ../../../lib/web/src/components/notification-category-button.tsx:146
 msgid "Category for this notification"
 msgstr "Kategoriya vê agahdariyê"
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:124
-#: ../../../lib/web/src/components/notification-category-button.tsx:135
+#: ../../../lib/web/src/components/notification-category-button.tsx:127
+#: ../../../lib/web/src/components/notification-category-button.tsx:138
 msgid "Change notification category"
 msgstr "Kategoriya agahdariyê biguherîne"
 
@@ -547,10 +551,12 @@ msgstr "Arasteyî"
 msgid "Directory"
 msgstr "Peldank"
 
+#: ../../../lib/web/src/components/comment-composer.tsx:300
 #: src/features/help/contribute-dialog.tsx:381
 msgid "Discard"
 msgstr "Bavêje"
 
+#: ../../../lib/web/src/components/comment-composer.tsx:298
 #: src/features/help/contribute-dialog.tsx:378
 msgid "Discard draft?"
 msgstr "Reşnivîs bê avêtin?"
@@ -654,7 +660,7 @@ msgstr "Rakirina hesabê neserkeftî bû"
 msgid "Failed to send verification code"
 msgstr "Şandina koda rastandinê neserkeftî bû"
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:111
+#: ../../../lib/web/src/components/notification-category-button.tsx:114
 msgid "Failed to update category"
 msgstr "Rojanekirina kategoriyê neserkeftî bû"
 
@@ -993,7 +999,7 @@ msgstr "Tu encam nehatin dîtin."
 msgid "No time zone found."
 msgstr "Tu herêma demê nehat dîtin."
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:147
+#: ../../../lib/web/src/components/notification-category-button.tsx:150
 msgid "No topic record yet — try again after the next notification."
 msgstr "Hêj tu tomarê mijarê tune — piştî agahdariya pêştir dîsa biceribîne."
 
@@ -1099,6 +1105,7 @@ msgstr "Passkey"
 msgid "Pick a date"
 msgstr "Dîrokek hilbijêre"
 
+#: ../../../lib/web/src/components/comment-composer.tsx:95
 #: ../../../lib/web/src/features/errors/general-error.tsx:54
 #: ../../../lib/web/src/lib/api-response-interceptors.ts:304
 msgid "Please check your internet connection and try again."
@@ -1145,6 +1152,10 @@ msgstr "Wêneya pêştir"
 #: src/features/help/index.tsx:103
 msgid "Privacy"
 msgstr "Nepenî"
+
+#: ../../../lib/web/src/components/ui/upload-progress.tsx:50
+msgid "Processing…"
+msgstr "Tê pêvajokirin…"
 
 #: ../../../lib/web/src/components/layout/nav-user.tsx:137
 #: ../../../lib/web/src/components/profile-dropdown.tsx:114
@@ -1201,6 +1212,7 @@ msgstr "Goreyî (5d, 3s, 2r)"
 msgid "Relative within 24 hours, else absolute"
 msgstr "Goreyî di nav 24 saetan de, ne wisa be mutleq"
 
+#: ../../../lib/web/src/components/comment-composer.tsx:232
 #: ../../../lib/web/src/features/access/access-list.tsx:270
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:180
 msgid "Remove"
@@ -1257,6 +1269,10 @@ msgstr "{title} ji nû ve saz bike"
 #: ../../../lib/web/src/components/config-drawer.tsx:85
 msgid "Reset all settings to default values"
 msgstr "Hemû mîhengan ber bi standardan ve veguhêze"
+
+#: ../../../lib/web/src/components/comment-composer.tsx:249
+msgid "Retry"
+msgstr "Dîsa biceribîne"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:362
 msgid "Right to Left"
@@ -1663,7 +1679,7 @@ msgstr "Nikare bi rajekarê dûr ve girê bide"
 msgid "Unable to redirect to login. Please try again."
 msgstr "Beralîkirina bo têketinê ne mumkin e. Ji kerema xwe dîsa biceribîne."
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:155
+#: ../../../lib/web/src/components/notification-category-button.tsx:158
 msgid "Unassigned"
 msgstr "Nehatiye diyarkirin"
 
@@ -1687,6 +1703,10 @@ msgstr "Nediyar"
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:135
 msgid "Unverified"
 msgstr "Nehatiye verast kirin"
+
+#: ../../../lib/web/src/components/ui/upload-progress.tsx:34
+msgid "Upload progress"
+msgstr "Pêşketina barkirinê"
 
 #: ../../../lib/web/src/components/step-up-dialog.tsx:338
 msgid "Use your passkey"
@@ -1806,6 +1826,10 @@ msgstr "Te hemû dît!"
 msgid "Your account was moved here from {source}. Until you delete it there, messages and notifications may reach both servers, some of your content keeps being served from the old server, and followers may take a few minutes to find you here."
 msgstr "Hesabê we ji {source} hat vir veguheztin. Heya ku hûn wê li wir jênebin, peyam û agahdarî dikarin gihîjin her du servaran, hin naveroka we ji serverê kevn tê dayîn û şopîner dibe ku çend hûrdeman hewce bikin ku we li vir bibînin."
 
+#: ../../../lib/web/src/components/comment-composer.tsx:291
+msgid "Your attachments will be lost."
+msgstr "Pêvekên te wê winda bibin."
+
 #: src/features/help/contribute-dialog.tsx:81
 msgid "Your introduction has been submitted and will appear after moderation."
 msgstr "Danasîna te hat şandin û dê piştî çavdêriyê xuya bibe."
@@ -1814,6 +1838,11 @@ msgstr "Danasîna te hat şandin û dê piştî çavdêriyê xuya bibe."
 msgid "Your question has been submitted and will appear after moderation."
 msgstr "Pirsa te hat şandin û dê piştî çavdêriyê xuya bibe."
 
+#: ../../../lib/web/src/components/comment-composer.tsx:289
+msgid "Your text and attachments will be lost."
+msgstr "Nivîs û pêvekên te wê winda bibin."
+
+#: ../../../lib/web/src/components/comment-composer.tsx:292
 #: src/features/help/contribute-dialog.tsx:379
 msgid "Your text will be lost."
 msgstr "Nivîsa te dê winda bibe."

@@ -52,6 +52,10 @@ msgstr "{selectedCount, plural, one {# valittu} other {# valittu}}"
 msgid "{selectedCount, plural, one {Bulk actions for # selected {entityName}} other {Bulk actions for # selected {manyName}}}"
 msgstr "{selectedCount, plural, one {Joukkotoiminnot # valitulle {entityName}} other {Joukkotoiminnot # valitulle {manyName}}}"
 
+#: ../../../lib/web/src/components/ui/upload-progress.tsx:52
+msgid "{sentLabel} of {totalLabel}"
+msgstr "{sentLabel} / {totalLabel}"
+
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx:132
 msgid "{unreadCount, plural, one {Open menu (# unread notification)} other {Open menu (# unread notifications)}}"
 msgstr "{unreadCount, plural, one {Avaa valikko (# lukematon ilmoitus)} other {Avaa valikko (# lukematonta ilmoitusta)}}"
@@ -268,12 +272,12 @@ msgstr "Vikailmoitus lähetetty."
 msgid "Cancel"
 msgstr "Peruuta"
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:143
+#: ../../../lib/web/src/components/notification-category-button.tsx:146
 msgid "Category for this notification"
 msgstr "Tämän ilmoituksen kategoria"
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:124
-#: ../../../lib/web/src/components/notification-category-button.tsx:135
+#: ../../../lib/web/src/components/notification-category-button.tsx:127
+#: ../../../lib/web/src/components/notification-category-button.tsx:138
 msgid "Change notification category"
 msgstr "Vaihda ilmoituksen kategoria"
 
@@ -547,10 +551,12 @@ msgstr "Suunta"
 msgid "Directory"
 msgstr "Hakemisto"
 
+#: ../../../lib/web/src/components/comment-composer.tsx:300
 #: src/features/help/contribute-dialog.tsx:381
 msgid "Discard"
 msgstr "Hylkää"
 
+#: ../../../lib/web/src/components/comment-composer.tsx:298
 #: src/features/help/contribute-dialog.tsx:378
 msgid "Discard draft?"
 msgstr "Hylätäänkö luonnos?"
@@ -654,7 +660,7 @@ msgstr "Tilin poisto epäonnistui"
 msgid "Failed to send verification code"
 msgstr "Vahvistuskoodin lähetys epäonnistui"
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:111
+#: ../../../lib/web/src/components/notification-category-button.tsx:114
 msgid "Failed to update category"
 msgstr "Kategorian päivitys epäonnistui"
 
@@ -993,7 +999,7 @@ msgstr "Tuloksia ei löytynyt."
 msgid "No time zone found."
 msgstr "Aikavyöhykettä ei löytynyt."
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:147
+#: ../../../lib/web/src/components/notification-category-button.tsx:150
 msgid "No topic record yet — try again after the next notification."
 msgstr "Ei vielä aihetietoa — yritä uudelleen seuraavan ilmoituksen jälkeen."
 
@@ -1099,6 +1105,7 @@ msgstr "Avainkoodit"
 msgid "Pick a date"
 msgstr "Valitse päivä"
 
+#: ../../../lib/web/src/components/comment-composer.tsx:95
 #: ../../../lib/web/src/features/errors/general-error.tsx:54
 #: ../../../lib/web/src/lib/api-response-interceptors.ts:304
 msgid "Please check your internet connection and try again."
@@ -1145,6 +1152,10 @@ msgstr "Edellinen kuva"
 #: src/features/help/index.tsx:103
 msgid "Privacy"
 msgstr "Yksityisyys"
+
+#: ../../../lib/web/src/components/ui/upload-progress.tsx:50
+msgid "Processing…"
+msgstr "Käsitellään…"
 
 #: ../../../lib/web/src/components/layout/nav-user.tsx:137
 #: ../../../lib/web/src/components/profile-dropdown.tsx:114
@@ -1201,6 +1212,7 @@ msgstr "Suhteellinen (5m, 3h, 2d)"
 msgid "Relative within 24 hours, else absolute"
 msgstr "Suhteellinen 24 tunnin sisällä, muuten absoluuttinen"
 
+#: ../../../lib/web/src/components/comment-composer.tsx:232
 #: ../../../lib/web/src/features/access/access-list.tsx:270
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:180
 msgid "Remove"
@@ -1257,6 +1269,10 @@ msgstr "Palauta {title}"
 #: ../../../lib/web/src/components/config-drawer.tsx:85
 msgid "Reset all settings to default values"
 msgstr "Palauta kaikki asetukset oletusarvoihin"
+
+#: ../../../lib/web/src/components/comment-composer.tsx:249
+msgid "Retry"
+msgstr "Yritä uudelleen"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:362
 msgid "Right to Left"
@@ -1663,7 +1679,7 @@ msgstr "Etäpalvelimeen ei saatu yhteyttä"
 msgid "Unable to redirect to login. Please try again."
 msgstr "Kirjautumiseen ei voi siirtyä. Yritä uudelleen."
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:155
+#: ../../../lib/web/src/components/notification-category-button.tsx:158
 msgid "Unassigned"
 msgstr "Ei määritetty"
 
@@ -1687,6 +1703,10 @@ msgstr "Tuntematon"
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:135
 msgid "Unverified"
 msgstr "Vahvistamaton"
+
+#: ../../../lib/web/src/components/ui/upload-progress.tsx:34
+msgid "Upload progress"
+msgstr "Latauksen edistyminen"
 
 #: ../../../lib/web/src/components/step-up-dialog.tsx:338
 msgid "Use your passkey"
@@ -1806,6 +1826,10 @@ msgstr "Olet ajan tasalla!"
 msgid "Your account was moved here from {source}. Until you delete it there, messages and notifications may reach both servers, some of your content keeps being served from the old server, and followers may take a few minutes to find you here."
 msgstr "Tilisi siirrettiin tänne kohteesta {source}. Kunnes poistat sen sieltä, viestit ja ilmoitukset voivat tavoittaa molemmat palvelimet, osa sisällöstäsi toimitetaan edelleen vanhalta palvelimelta ja seuraajillasi voi kestää muutama minuutti löytää sinut täältä."
 
+#: ../../../lib/web/src/components/comment-composer.tsx:291
+msgid "Your attachments will be lost."
+msgstr "Liitteesi menetetään."
+
 #: src/features/help/contribute-dialog.tsx:81
 msgid "Your introduction has been submitted and will appear after moderation."
 msgstr "Esittelysi on lähetetty ja tulee näkyviin moderoinnin jälkeen."
@@ -1814,6 +1838,11 @@ msgstr "Esittelysi on lähetetty ja tulee näkyviin moderoinnin jälkeen."
 msgid "Your question has been submitted and will appear after moderation."
 msgstr "Kysymyksesi on lähetetty ja tulee näkyviin moderoinnin jälkeen."
 
+#: ../../../lib/web/src/components/comment-composer.tsx:289
+msgid "Your text and attachments will be lost."
+msgstr "Tekstisi ja liitteesi menetetään."
+
+#: ../../../lib/web/src/components/comment-composer.tsx:292
 #: src/features/help/contribute-dialog.tsx:379
 msgid "Your text will be lost."
 msgstr "Tekstisi menetetään."

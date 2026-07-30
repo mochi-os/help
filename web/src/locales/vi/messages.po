@@ -52,6 +52,10 @@ msgstr "{selectedCount, plural, one {# đã chọn} other {# đã chọn}}"
 msgid "{selectedCount, plural, one {Bulk actions for # selected {entityName}} other {Bulk actions for # selected {manyName}}}"
 msgstr "{selectedCount, plural, one {Thao tác hàng loạt cho # {entityName} đã chọn} other {Thao tác hàng loạt cho # {manyName} đã chọn}}"
 
+#: ../../../lib/web/src/components/ui/upload-progress.tsx:52
+msgid "{sentLabel} of {totalLabel}"
+msgstr "{sentLabel} trên {totalLabel}"
+
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx:132
 msgid "{unreadCount, plural, one {Open menu (# unread notification)} other {Open menu (# unread notifications)}}"
 msgstr "{unreadCount, plural, one {Mở menu (# thông báo chưa đọc)} other {Mở menu (# thông báo chưa đọc)}}"
@@ -268,12 +272,12 @@ msgstr "Đã gửi báo cáo lỗi."
 msgid "Cancel"
 msgstr "Hủy"
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:143
+#: ../../../lib/web/src/components/notification-category-button.tsx:146
 msgid "Category for this notification"
 msgstr "Danh mục cho thông báo này"
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:124
-#: ../../../lib/web/src/components/notification-category-button.tsx:135
+#: ../../../lib/web/src/components/notification-category-button.tsx:127
+#: ../../../lib/web/src/components/notification-category-button.tsx:138
 msgid "Change notification category"
 msgstr "Đổi danh mục thông báo"
 
@@ -547,10 +551,12 @@ msgstr "Hướng"
 msgid "Directory"
 msgstr "Danh bạ"
 
+#: ../../../lib/web/src/components/comment-composer.tsx:300
 #: src/features/help/contribute-dialog.tsx:381
 msgid "Discard"
 msgstr "Hủy bỏ"
 
+#: ../../../lib/web/src/components/comment-composer.tsx:298
 #: src/features/help/contribute-dialog.tsx:378
 msgid "Discard draft?"
 msgstr "Hủy bản nháp?"
@@ -654,7 +660,7 @@ msgstr "Không xoá tài khoản được"
 msgid "Failed to send verification code"
 msgstr "Không gửi mã xác minh được"
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:111
+#: ../../../lib/web/src/components/notification-category-button.tsx:114
 msgid "Failed to update category"
 msgstr "Không cập nhật danh mục được"
 
@@ -993,7 +999,7 @@ msgstr "Không tìm thấy kết quả nào."
 msgid "No time zone found."
 msgstr "Không tìm thấy múi giờ."
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:147
+#: ../../../lib/web/src/components/notification-category-button.tsx:150
 msgid "No topic record yet — try again after the next notification."
 msgstr "Chưa có bản ghi chủ đề — hãy thử lại sau thông báo tiếp theo."
 
@@ -1099,6 +1105,7 @@ msgstr "Passkey"
 msgid "Pick a date"
 msgstr "Chọn ngày"
 
+#: ../../../lib/web/src/components/comment-composer.tsx:95
 #: ../../../lib/web/src/features/errors/general-error.tsx:54
 #: ../../../lib/web/src/lib/api-response-interceptors.ts:304
 msgid "Please check your internet connection and try again."
@@ -1145,6 +1152,10 @@ msgstr "Hình trước"
 #: src/features/help/index.tsx:103
 msgid "Privacy"
 msgstr "Quyền riêng tư"
+
+#: ../../../lib/web/src/components/ui/upload-progress.tsx:50
+msgid "Processing…"
+msgstr "Đang xử lý…"
 
 #: ../../../lib/web/src/components/layout/nav-user.tsx:137
 #: ../../../lib/web/src/components/profile-dropdown.tsx:114
@@ -1201,6 +1212,7 @@ msgstr "Tương đối (5m, 3h, 2d)"
 msgid "Relative within 24 hours, else absolute"
 msgstr "Tương đối trong vòng 24 giờ, ngoài ra dùng tuyệt đối"
 
+#: ../../../lib/web/src/components/comment-composer.tsx:232
 #: ../../../lib/web/src/features/access/access-list.tsx:270
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:180
 msgid "Remove"
@@ -1257,6 +1269,10 @@ msgstr "Đặt lại {title}"
 #: ../../../lib/web/src/components/config-drawer.tsx:85
 msgid "Reset all settings to default values"
 msgstr "Đặt lại tất cả cài đặt về giá trị mặc định"
+
+#: ../../../lib/web/src/components/comment-composer.tsx:249
+msgid "Retry"
+msgstr "Thử lại"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:362
 msgid "Right to Left"
@@ -1663,7 +1679,7 @@ msgstr "Không thể kết nối đến máy chủ từ xa"
 msgid "Unable to redirect to login. Please try again."
 msgstr "Không thể chuyển hướng đến trang đăng nhập. Vui lòng thử lại."
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:155
+#: ../../../lib/web/src/components/notification-category-button.tsx:158
 msgid "Unassigned"
 msgstr "Chưa phân công"
 
@@ -1687,6 +1703,10 @@ msgstr "Không rõ"
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:135
 msgid "Unverified"
 msgstr "Chưa xác minh"
+
+#: ../../../lib/web/src/components/ui/upload-progress.tsx:34
+msgid "Upload progress"
+msgstr "Tiến trình tải lên"
 
 #: ../../../lib/web/src/components/step-up-dialog.tsx:338
 msgid "Use your passkey"
@@ -1806,6 +1826,10 @@ msgstr "Bạn đã xem hết!"
 msgid "Your account was moved here from {source}. Until you delete it there, messages and notifications may reach both servers, some of your content keeps being served from the old server, and followers may take a few minutes to find you here."
 msgstr "Tài khoản của bạn đã được chuyển đến đây từ {source}. Cho đến khi bạn xóa nó ở đó, tin nhắn và thông báo có thể đến cả hai máy chủ, một số nội dung của bạn vẫn được phục vụ từ máy chủ cũ và người theo dõi có thể mất vài phút để tìm thấy bạn ở đây."
 
+#: ../../../lib/web/src/components/comment-composer.tsx:291
+msgid "Your attachments will be lost."
+msgstr "Tệp đính kèm của bạn sẽ bị mất."
+
 #: src/features/help/contribute-dialog.tsx:81
 msgid "Your introduction has been submitted and will appear after moderation."
 msgstr "Phần giới thiệu của bạn đã được gửi và sẽ xuất hiện sau khi được kiểm duyệt."
@@ -1814,6 +1838,11 @@ msgstr "Phần giới thiệu của bạn đã được gửi và sẽ xuất hi
 msgid "Your question has been submitted and will appear after moderation."
 msgstr "Câu hỏi của bạn đã được gửi và sẽ xuất hiện sau khi được kiểm duyệt."
 
+#: ../../../lib/web/src/components/comment-composer.tsx:289
+msgid "Your text and attachments will be lost."
+msgstr "Văn bản và tệp đính kèm của bạn sẽ bị mất."
+
+#: ../../../lib/web/src/components/comment-composer.tsx:292
 #: src/features/help/contribute-dialog.tsx:379
 msgid "Your text will be lost."
 msgstr "Nội dung của bạn sẽ bị mất."

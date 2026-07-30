@@ -52,6 +52,10 @@ msgstr "{selectedCount, plural, one {# izbranih} two {# izbranih} few {# izbrani
 msgid "{selectedCount, plural, one {Bulk actions for # selected {entityName}} other {Bulk actions for # selected {manyName}}}"
 msgstr "{selectedCount, plural, one {Množična dejanja za # izbran {entityName}} two {Množična dejanja za # izbrana {manyName}} few {Množična dejanja za # izbrane {manyName}} other {Množična dejanja za # izbranih {manyName}}}"
 
+#: ../../../lib/web/src/components/ui/upload-progress.tsx:52
+msgid "{sentLabel} of {totalLabel}"
+msgstr "{sentLabel} od {totalLabel}"
+
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx:132
 msgid "{unreadCount, plural, one {Open menu (# unread notification)} other {Open menu (# unread notifications)}}"
 msgstr "{unreadCount, plural, one {Odpri meni (# neprebrano obvestilo)} two {Odpri meni (# neprebrani obvestili)} few {Odpri meni (# neprebrana obvestila)} other {Odpri meni (# neprebranih obvestil)}}"
@@ -268,12 +272,12 @@ msgstr "Poročilo o napaki je bilo poslano."
 msgid "Cancel"
 msgstr "Prekliči"
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:143
+#: ../../../lib/web/src/components/notification-category-button.tsx:146
 msgid "Category for this notification"
 msgstr "Kategorija za to obvestilo"
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:124
-#: ../../../lib/web/src/components/notification-category-button.tsx:135
+#: ../../../lib/web/src/components/notification-category-button.tsx:127
+#: ../../../lib/web/src/components/notification-category-button.tsx:138
 msgid "Change notification category"
 msgstr "Spremeni kategorijo obvestil"
 
@@ -547,10 +551,12 @@ msgstr "Smer"
 msgid "Directory"
 msgstr "Imenik"
 
+#: ../../../lib/web/src/components/comment-composer.tsx:300
 #: src/features/help/contribute-dialog.tsx:381
 msgid "Discard"
 msgstr "Zavrzi"
 
+#: ../../../lib/web/src/components/comment-composer.tsx:298
 #: src/features/help/contribute-dialog.tsx:378
 msgid "Discard draft?"
 msgstr "Zavržem osnutek?"
@@ -654,7 +660,7 @@ msgstr "Neuspešna odstranitev računa"
 msgid "Failed to send verification code"
 msgstr "Neuspešno pošiljanje potrditvene kode"
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:111
+#: ../../../lib/web/src/components/notification-category-button.tsx:114
 msgid "Failed to update category"
 msgstr "Neuspešna posodobitev kategorije"
 
@@ -993,7 +999,7 @@ msgstr "Ni najdenih rezultatov."
 msgid "No time zone found."
 msgstr "Časovnega pasu ni mogoče najti."
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:147
+#: ../../../lib/web/src/components/notification-category-button.tsx:150
 msgid "No topic record yet — try again after the next notification."
 msgstr "Še ni zapisa o temi — poskusite znova po naslednjem obvestilu."
 
@@ -1099,6 +1105,7 @@ msgstr "Geslo-ključi"
 msgid "Pick a date"
 msgstr "Izberite datum"
 
+#: ../../../lib/web/src/components/comment-composer.tsx:95
 #: ../../../lib/web/src/features/errors/general-error.tsx:54
 #: ../../../lib/web/src/lib/api-response-interceptors.ts:304
 msgid "Please check your internet connection and try again."
@@ -1145,6 +1152,10 @@ msgstr "Prejšnja slika"
 #: src/features/help/index.tsx:103
 msgid "Privacy"
 msgstr "Zasebnost"
+
+#: ../../../lib/web/src/components/ui/upload-progress.tsx:50
+msgid "Processing…"
+msgstr "Obdelava…"
 
 #: ../../../lib/web/src/components/layout/nav-user.tsx:137
 #: ../../../lib/web/src/components/profile-dropdown.tsx:114
@@ -1201,6 +1212,7 @@ msgstr "Relativno (5m, 3h, 2d)"
 msgid "Relative within 24 hours, else absolute"
 msgstr "Relativno v 24 urah, sicer absolutno"
 
+#: ../../../lib/web/src/components/comment-composer.tsx:232
 #: ../../../lib/web/src/features/access/access-list.tsx:270
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:180
 msgid "Remove"
@@ -1257,6 +1269,10 @@ msgstr "Ponastavi {title}"
 #: ../../../lib/web/src/components/config-drawer.tsx:85
 msgid "Reset all settings to default values"
 msgstr "Ponastavi vse nastavitve na privzete vrednosti"
+
+#: ../../../lib/web/src/components/comment-composer.tsx:249
+msgid "Retry"
+msgstr "Poskusi znova"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:362
 msgid "Right to Left"
@@ -1663,7 +1679,7 @@ msgstr "Povezava z oddaljenim strežnikom ni mogoča"
 msgid "Unable to redirect to login. Please try again."
 msgstr "Preusmeritev na prijavo ni mogoča. Poskusi znova."
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:155
+#: ../../../lib/web/src/components/notification-category-button.tsx:158
 msgid "Unassigned"
 msgstr "Nedodeljeno"
 
@@ -1687,6 +1703,10 @@ msgstr "Neznano"
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:135
 msgid "Unverified"
 msgstr "Nepreverjeno"
+
+#: ../../../lib/web/src/components/ui/upload-progress.tsx:34
+msgid "Upload progress"
+msgstr "Potek nalaganja"
 
 #: ../../../lib/web/src/components/step-up-dialog.tsx:338
 msgid "Use your passkey"
@@ -1806,6 +1826,10 @@ msgstr "Vse ste prebrali!"
 msgid "Your account was moved here from {source}. Until you delete it there, messages and notifications may reach both servers, some of your content keeps being served from the old server, and followers may take a few minutes to find you here."
 msgstr "Vaš račun je bil preseljen sem iz {source}. Dokler ga tam ne izbrišete, sporočila in obvestila morda dosežejo oba strežnika, del vaše vsebine se še naprej streže s starega strežnika in sledilci bodo morda potrebovali nekaj minut, da vas najdejo tukaj."
 
+#: ../../../lib/web/src/components/comment-composer.tsx:291
+msgid "Your attachments will be lost."
+msgstr "Vaše priloge bodo izgubljene."
+
 #: src/features/help/contribute-dialog.tsx:81
 msgid "Your introduction has been submitted and will appear after moderation."
 msgstr "Vaša predstavitev je bila poslana in se bo prikazala po moderiranju."
@@ -1814,6 +1838,11 @@ msgstr "Vaša predstavitev je bila poslana in se bo prikazala po moderiranju."
 msgid "Your question has been submitted and will appear after moderation."
 msgstr "Vaše vprašanje je bilo poslano in se bo prikazalo po moderiranju."
 
+#: ../../../lib/web/src/components/comment-composer.tsx:289
+msgid "Your text and attachments will be lost."
+msgstr "Vaše besedilo in priloge bodo izgubljeni."
+
+#: ../../../lib/web/src/components/comment-composer.tsx:292
 #: src/features/help/contribute-dialog.tsx:379
 msgid "Your text will be lost."
 msgstr "Vaše besedilo bo izgubljeno."

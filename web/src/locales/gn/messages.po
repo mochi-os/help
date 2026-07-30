@@ -52,6 +52,10 @@ msgstr "{selectedCount, plural, one {# poravopyre} other {# poravopyre}}"
 msgid "{selectedCount, plural, one {Bulk actions for # selected {entityName}} other {Bulk actions for # selected {manyName}}}"
 msgstr "{selectedCount, plural, one {Tembiapo hetáva # {entityName} poravopyre} other {Tembiapo hetáva # {manyName} poravopyre}}"
 
+#: ../../../lib/web/src/components/ui/upload-progress.tsx:52
+msgid "{sentLabel} of {totalLabel}"
+msgstr "{sentLabel} / {totalLabel}"
+
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx:132
 msgid "{unreadCount, plural, one {Open menu (# unread notification)} other {Open menu (# unread notifications)}}"
 msgstr "{unreadCount, plural, one {Embojuruja menu (# marandu ojeleeʼỹva)} other {Embojuruja menu (# marandu ojeleeʼỹva)}}"
@@ -268,12 +272,12 @@ msgstr "Jejavy marandu oñemondóma."
 msgid "Cancel"
 msgstr "Heja"
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:143
+#: ../../../lib/web/src/components/notification-category-button.tsx:146
 msgid "Category for this notification"
 msgstr "Categoría ko ñe'ẽmondo-pegua"
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:124
-#: ../../../lib/web/src/components/notification-category-button.tsx:135
+#: ../../../lib/web/src/components/notification-category-button.tsx:127
+#: ../../../lib/web/src/components/notification-category-button.tsx:138
 msgid "Change notification category"
 msgstr "Embojere ñe'ẽmondo categoría"
 
@@ -547,10 +551,12 @@ msgstr "Direccióna"
 msgid "Directory"
 msgstr "Ñongatuha"
 
+#: ../../../lib/web/src/components/comment-composer.tsx:300
 #: src/features/help/contribute-dialog.tsx:381
 msgid "Discard"
 msgstr "Mboyke"
 
+#: ../../../lib/web/src/components/comment-composer.tsx:298
 #: src/features/help/contribute-dialog.tsx:378
 msgid "Discard draft?"
 msgstr "¿Reipotapa rembyai pe haipyre?"
@@ -654,7 +660,7 @@ msgstr "Ndaikatúi oñembogue cuenta"
 msgid "Failed to send verification code"
 msgstr "Ndaikatúi oñemondo verificación código"
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:111
+#: ../../../lib/web/src/components/notification-category-button.tsx:114
 msgid "Failed to update category"
 msgstr "Ndaikatúi oñembohera'ã pyahu categoría"
 
@@ -993,7 +999,7 @@ msgstr "Ndojejuhúi resultados."
 msgid "No time zone found."
 msgstr "Ndojejuhúi tiempo zona."
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:147
+#: ../../../lib/web/src/components/notification-category-button.tsx:150
 msgid "No topic record yet — try again after the next notification."
 msgstr "Ndaipóri tópico marandu gueteri — eha'ã jey notificación pyahu rire."
 
@@ -1099,6 +1105,7 @@ msgstr "Jeike rape kuéra"
 msgid "Pick a date"
 msgstr "Eiporavo peteĩ ára"
 
+#: ../../../lib/web/src/components/comment-composer.tsx:95
 #: ../../../lib/web/src/features/errors/general-error.tsx:54
 #: ../../../lib/web/src/lib/api-response-interceptors.ts:304
 msgid "Please check your internet connection and try again."
@@ -1145,6 +1152,10 @@ msgstr "Ta'anga tenondete"
 #: src/features/help/index.tsx:103
 msgid "Privacy"
 msgstr "Privacidad"
+
+#: ../../../lib/web/src/components/ui/upload-progress.tsx:50
+msgid "Processing…"
+msgstr "Oñemba'apo hína…"
 
 #: ../../../lib/web/src/components/layout/nav-user.tsx:137
 #: ../../../lib/web/src/components/profile-dropdown.tsx:114
@@ -1201,6 +1212,7 @@ msgstr "Mbytetégua (5m, 3h, 2d)"
 msgid "Relative within 24 hours, else absolute"
 msgstr "Mbytetégua 24 hora ndive, ambue tiempo absoluto"
 
+#: ../../../lib/web/src/components/comment-composer.tsx:232
 #: ../../../lib/web/src/features/access/access-list.tsx:270
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:180
 msgid "Remove"
@@ -1257,6 +1269,10 @@ msgstr "Emoñepyrũjey {title}"
 #: ../../../lib/web/src/components/config-drawer.tsx:85
 msgid "Reset all settings to default values"
 msgstr "Embojevy opa ñembosako'i ypy peguávape"
+
+#: ../../../lib/web/src/components/comment-composer.tsx:249
+msgid "Retry"
+msgstr "Eha'ã jey"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:362
 msgid "Right to Left"
@@ -1663,7 +1679,7 @@ msgstr "Ndaikatúi ojeike servidor mombyrýpe"
 msgid "Unable to redirect to login. Please try again."
 msgstr "Ndaikatúi ohohag̃ua login-pe. Eha'ã jey."
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:155
+#: ../../../lib/web/src/components/notification-category-button.tsx:158
 msgid "Unassigned"
 msgstr "Mavevenoĩva"
 
@@ -1687,6 +1703,10 @@ msgstr "Ojekuaa'ỹva"
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:135
 msgid "Unverified"
 msgstr "Verificación'ỹva"
+
+#: ../../../lib/web/src/components/ui/upload-progress.tsx:34
+msgid "Upload progress"
+msgstr "Jehupi jeku'e"
 
 #: ../../../lib/web/src/components/step-up-dialog.tsx:338
 msgid "Use your passkey"
@@ -1806,6 +1826,10 @@ msgstr "Rehecháma opavave!"
 msgid "Your account was moved here from {source}. Until you delete it there, messages and notifications may reach both servers, some of your content keeps being served from the old server, and followers may take a few minutes to find you here."
 msgstr "Nde cuenta oiko ko'ápe {source} guive. Peve reipe'a upépe, marandu ha mba'emimi ikatu ogueru servidor mokõive-pe, nde mba'e mba'eapo ambuéva ohasave ypykue servidor guive, ha erekopy'araka'e minutopi peve reko'ata ko'ápe."
 
+#: ../../../lib/web/src/components/comment-composer.tsx:291
+msgid "Your attachments will be lost."
+msgstr "Ne archivo mbojoapypyre okañýta."
+
 #: src/features/help/contribute-dialog.tsx:81
 msgid "Your introduction has been submitted and will appear after moderation."
 msgstr "Ne myesakã oñemondóma ha ojechauka rire moderación."
@@ -1814,6 +1838,11 @@ msgstr "Ne myesakã oñemondóma ha ojechauka rire moderación."
 msgid "Your question has been submitted and will appear after moderation."
 msgstr "Ne porandu oñemondóma ha ojechauka rire moderación."
 
+#: ../../../lib/web/src/components/comment-composer.tsx:289
+msgid "Your text and attachments will be lost."
+msgstr "Ne ñe'ẽ ha ne archivo mbojoapypyre okañýta."
+
+#: ../../../lib/web/src/components/comment-composer.tsx:292
 #: src/features/help/contribute-dialog.tsx:379
 msgid "Your text will be lost."
 msgstr "Ne moñe'ẽrã okañyta."

@@ -52,6 +52,10 @@ msgstr "{selectedCount, plural, one {# ընտրված} other {# ընտրված}}
 msgid "{selectedCount, plural, one {Bulk actions for # selected {entityName}} other {Bulk actions for # selected {manyName}}}"
 msgstr "{selectedCount, plural, one {Զանգվածային գործողություններ # ընտրված {entityName}-ի համար} other {Զանգվածային գործողություններ # ընտրված {manyName}-ի համար}}"
 
+#: ../../../lib/web/src/components/ui/upload-progress.tsx:52
+msgid "{sentLabel} of {totalLabel}"
+msgstr "{sentLabel}՝ {totalLabel}-ից"
+
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx:132
 msgid "{unreadCount, plural, one {Open menu (# unread notification)} other {Open menu (# unread notifications)}}"
 msgstr "{unreadCount, plural, one {Բացել ընտրացանկը (# չկարդացված ծանուցում)} other {Բացել ընտրացանկը (# չկարդացված ծանուցում)}}"
@@ -268,12 +272,12 @@ msgstr "Սխալի մասին հաղորդումն ուղարկվեց։"
 msgid "Cancel"
 msgstr "Չեղարկել մեկնաբանությունը"
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:143
+#: ../../../lib/web/src/components/notification-category-button.tsx:146
 msgid "Category for this notification"
 msgstr "Կատեգորիան թարմացված է"
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:124
-#: ../../../lib/web/src/components/notification-category-button.tsx:135
+#: ../../../lib/web/src/components/notification-category-button.tsx:127
+#: ../../../lib/web/src/components/notification-category-button.tsx:138
 msgid "Change notification category"
 msgstr "Փոփոխություններ"
 
@@ -547,10 +551,12 @@ msgstr "Ուղղություն"
 msgid "Directory"
 msgstr "Տեղեկագիրք"
 
+#: ../../../lib/web/src/components/comment-composer.tsx:300
 #: src/features/help/contribute-dialog.tsx:381
 msgid "Discard"
 msgstr "Հրաժարվել"
 
+#: ../../../lib/web/src/components/comment-composer.tsx:298
 #: src/features/help/contribute-dialog.tsx:378
 msgid "Discard draft?"
 msgstr "Հրաժարվե՞լ սևագրից։"
@@ -654,7 +660,7 @@ msgstr "Չհաջողվեց հեռացնել հաշիվը"
 msgid "Failed to send verification code"
 msgstr "Չհաջողվեց ուղարկել հաստատման կոդը"
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:111
+#: ../../../lib/web/src/components/notification-category-button.tsx:114
 msgid "Failed to update category"
 msgstr "Չհաջողվեց թարմացնել կատեգորիան"
 
@@ -993,7 +999,7 @@ msgstr "Արդյունքներ չեն գտնվել։"
 msgid "No time zone found."
 msgstr "Ժամային գոտի չի գտնվել։"
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:147
+#: ../../../lib/web/src/components/notification-category-button.tsx:150
 msgid "No topic record yet — try again after the next notification."
 msgstr "Դեռ թեմայի գրառում չկա — փորձեք նորից հաջորդ ծանուցումից հետո։"
 
@@ -1099,6 +1105,7 @@ msgstr "Անցաբանալիներ"
 msgid "Pick a date"
 msgstr "Ընտրեք ամսաթիվ"
 
+#: ../../../lib/web/src/components/comment-composer.tsx:95
 #: ../../../lib/web/src/features/errors/general-error.tsx:54
 #: ../../../lib/web/src/lib/api-response-interceptors.ts:304
 msgid "Please check your internet connection and try again."
@@ -1145,6 +1152,10 @@ msgstr "Նախորդ նկարը"
 #: src/features/help/index.tsx:103
 msgid "Privacy"
 msgstr "Գաղտնիություն"
+
+#: ../../../lib/web/src/components/ui/upload-progress.tsx:50
+msgid "Processing…"
+msgstr "Մշակվում է…"
 
 #: ../../../lib/web/src/components/layout/nav-user.tsx:137
 #: ../../../lib/web/src/components/profile-dropdown.tsx:114
@@ -1201,6 +1212,7 @@ msgstr "Հարաբերական (5մ, 3ժ, 2օ)"
 msgid "Relative within 24 hours, else absolute"
 msgstr "Հարաբերական 24 ժամվա ընթացքում, այլապես՝ բացարձակ"
 
+#: ../../../lib/web/src/components/comment-composer.tsx:232
 #: ../../../lib/web/src/features/access/access-list.tsx:270
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:180
 msgid "Remove"
@@ -1257,6 +1269,10 @@ msgstr "Վերականգնել {title}"
 #: ../../../lib/web/src/components/config-drawer.tsx:85
 msgid "Reset all settings to default values"
 msgstr "Վերականգնել բոլոր կարգավորումները լռելյայն արժեքների"
+
+#: ../../../lib/web/src/components/comment-composer.tsx:249
+msgid "Retry"
+msgstr "Կրկին փորձել"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:362
 msgid "Right to Left"
@@ -1663,7 +1679,7 @@ msgstr "Հնարավոր չէ միանալ հեռավոր սերվերին"
 msgid "Unable to redirect to login. Please try again."
 msgstr "Հնարավոր չէ վերահղել մուտք: Խնդրում ենք կրկին փորձել:"
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:155
+#: ../../../lib/web/src/components/notification-category-button.tsx:158
 msgid "Unassigned"
 msgstr "Չվերագրված"
 
@@ -1687,6 +1703,10 @@ msgstr "Անհայտ"
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:135
 msgid "Unverified"
 msgstr "Չստուգված"
+
+#: ../../../lib/web/src/components/ui/upload-progress.tsx:34
+msgid "Upload progress"
+msgstr "Վերբեռնման ընթացքը"
 
 #: ../../../lib/web/src/components/step-up-dialog.tsx:338
 msgid "Use your passkey"
@@ -1806,6 +1826,10 @@ msgstr "Դուք ամեն ինչ տեսել եք։"
 msgid "Your account was moved here from {source}. Until you delete it there, messages and notifications may reach both servers, some of your content keeps being served from the old server, and followers may take a few minutes to find you here."
 msgstr "Ձեր հաշիվը տեղափոխվել է այստեղ {source}-ից: Մինչ այն ջնջեք այնտեղ, հաղորդագրություններն ու ծանուցումները կարող են հասնել երկու սերվերներին, ձեր որոշ բովանդակություն դեռ մատուցվում է հին սերվերից, և հետևորդները կարող են մի քանի րոպե պահանջել ձեզ գտնելու համար:"
 
+#: ../../../lib/web/src/components/comment-composer.tsx:291
+msgid "Your attachments will be lost."
+msgstr "Ձեր կցորդները կկորչեն։"
+
 #: src/features/help/contribute-dialog.tsx:81
 msgid "Your introduction has been submitted and will appear after moderation."
 msgstr "Ձեր ներկայացումն ուղարկվել է և կհայտնվի մոդերացիայից հետո։"
@@ -1814,6 +1838,11 @@ msgstr "Ձեր ներկայացումն ուղարկվել է և կհայտնվ�
 msgid "Your question has been submitted and will appear after moderation."
 msgstr "Ձեր հարցն ուղարկվել է և կհայտնվի մոդերացիայից հետո։"
 
+#: ../../../lib/web/src/components/comment-composer.tsx:289
+msgid "Your text and attachments will be lost."
+msgstr "Ձեր տեքստը և կցորդները կկորչեն։"
+
+#: ../../../lib/web/src/components/comment-composer.tsx:292
 #: src/features/help/contribute-dialog.tsx:379
 msgid "Your text will be lost."
 msgstr "Քո տեքստը կկորչի։"
