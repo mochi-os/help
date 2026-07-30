@@ -199,6 +199,13 @@ def action_contribute(a):
 		if not fingerprint:
 			a.error.label(502, "errors.no_fingerprint_returned")
 			return
+		# An empty comment id means the ticket was created but its description
+		# did not attach (projects event_app_object_create reports partial
+		# landings this way). Unreachable from help's own validation today —
+		# both sides share the same length limits — so log rather than alarm
+		# the user about a ticket that exists.
+		if not result.get("comment"):
+			mochi.log.debug("help: ticket " + result.get("id", "") + " created without its description comment")
 
 	# SPA URLs use /<app>/<fingerprint>/<id> — bare; `/<app>/<fingerprint>/-/<id>`
 	# is the JSON action route and would render raw JSON in the browser.

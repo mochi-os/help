@@ -28,9 +28,10 @@ import {
 import { ArrowRight, Bug, CheckCircle, CircleAlert, HelpCircle, Lightbulb, Loader2, Sparkles, X } from 'lucide-react'
 import { helpApi, type Kind } from '@/api/help'
 
-// Mirrors BODY_MAX / BODY_MIN in help.star.
+// Mirrors BODY_MAX / BODY_MIN / TITLE_MAX in help.star.
 const BODY_MAX = 50000
 const BODY_MIN = 20
+const TITLE_MAX = 500
 
 const KIND_ICONS: Record<Kind, typeof Sparkles> = {
   intro: Sparkles,
@@ -153,7 +154,7 @@ export function ContributeDialog({
     !bodyTooShort &&
     !bodyTooLong &&
     destinationReady &&
-    (!needsTitle || trimmedTitle.length > 0)
+    (!needsTitle || (trimmedTitle.length > 0 && trimmedTitle.length <= TITLE_MAX))
 
   useEffect(() => {
     if (!open || submitted) return
@@ -304,6 +305,7 @@ export function ContributeDialog({
                     value={title}
                     onChange={(e) => setTitle(e.target.value)}
                     placeholder={copy.titlePlaceholder}
+                    maxLength={TITLE_MAX}
                     autoFocus
                     disabled={submitting}
                   />
