@@ -359,18 +359,18 @@ export function ContributeDialog({
             ) : (
               <>
                 <Button variant='outline' onClick={() => requestClose(false)} disabled={submitting}>
-                  <X className='me-2 h-4 w-4' />
+                  <X className='size-4' />
                   <Trans>Cancel</Trans>
                 </Button>
                 <Button onClick={handleSubmit} disabled={!canSubmit}>
                   {submitting ? (
                     <>
-                      <Loader2 className='me-2 h-4 w-4 animate-spin' />
+                      <Loader2 className='size-4 animate-spin' />
                       <Trans>Posting…</Trans>
                     </>
                   ) : (
                     <>
-                      <KindIcon className='me-2 h-4 w-4' />
+                      <KindIcon className='size-4' />
                       {copy.submit}
                     </>
                   )}
