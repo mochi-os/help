@@ -36,6 +36,10 @@ msgstr "Orúkọ {entityLabel}"
 msgid "{entityLabel} name is required"
 msgstr "Orúkọ {entityLabel} nílò"
 
+#: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx:29
+msgid "{opponentName} offered a draw"
+msgstr "{opponentName} fún ní ìdábọ̀"
+
 #: ../../../lib/web/src/components/data-table/bulk-actions.tsx:210
 msgid "{selectedCount, plural, one {{entityName} selected} other {{manyName} selected}}"
 msgstr "{selectedCount, plural, one {{entityName} tí a yàn} other {{manyName} tí a yàn}}"
@@ -60,6 +64,11 @@ msgstr "{sentLabel} nínú {totalLabel}"
 msgid "{unreadCount, plural, one {Open menu (# unread notification)} other {Open menu (# unread notifications)}}"
 msgstr "{unreadCount, plural, one {Ṣí àkójọ àṣàyàn (# ìfitónilétí tí a kò kà)} other {Ṣí àkójọ àṣàyàn (# ìfitónilétí tí a kò kà)}}"
 
+#. placeholder {0}: countDeepChildren(object.id)
+#: ../../../lib/web/src/components/entity/entity-board-card.tsx:421
+msgid "+{0} nested"
+msgstr "+{0} tí a fi sínú"
+
 #: ../../../lib/web/src/lib/preference-utils.ts:42
 msgid "12 hours"
 msgstr "Wákàtí 12"
@@ -71,6 +80,10 @@ msgstr "Wákàtí 24"
 #: ../../../lib/web/src/lib/preference-utils.ts:51
 msgid "Absolute (date and time)"
 msgstr "Pípé (ọjọ́ àti àkókò)"
+
+#: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx:45
+msgid "Accept"
+msgstr "Gbà"
 
 #: ../../../lib/web/src/features/errors/general-error.tsx:60
 msgid "Access denied"
@@ -100,12 +113,13 @@ msgstr "Irú àkáǹtì"
 msgid "Account verified"
 msgstr "A ti fọwọ́sí àkáǹtì"
 
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:717
 #: ../../../lib/web/src/features/access/access-dialog.tsx:332
 #: ../../../lib/web/src/features/accounts/account-add.tsx:196
 msgid "Add"
 msgstr "Fi kún"
 
-#: src/features/help/contribute-dialog.tsx:326
+#: src/features/help/contribute-dialog.tsx:335
 msgid "Add a bit more detail."
 msgstr "Fi awọn alaye diẹ sii kun."
 
@@ -125,6 +139,14 @@ msgstr "Fi àkáǹtì kún"
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:297
 msgid "Add an account to receive notifications and use services."
 msgstr "Fi àkáǹtì kún láti gba àwọn ìfitónilétí àti láti lo àwọn iṣẹ́."
+
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:687
+msgid "Add checklist item"
+msgstr "Fi ohun ìmọ́ ìṣàyẹ̀wò kún"
+
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:705
+msgid "Add item..."
+msgstr "Fi ohun kún..."
 
 #: ../../../lib/web/src/features/accounts/account-picker.tsx:102
 msgid "Add new account"
@@ -202,12 +224,12 @@ msgstr "Àsc"
 msgid "Ascending"
 msgstr "Gòkè"
 
-#: src/features/help/contribute-dialog.tsx:85
+#: src/features/help/contribute-dialog.tsx:93
 #: src/features/help/index.tsx:33
 msgid "Ask a question"
 msgstr "Béèrè ìbéèrè"
 
-#: src/features/help/contribute-dialog.tsx:86
+#: src/features/help/contribute-dialog.tsx:94
 msgid "Ask the community on the Mochi users mailing list. Be specific about what you've tried so far."
 msgstr "Béèrè àwùjọ lórí àkójọ ìmél àwọn olùmúlò Mochi. Sọ ní pàtó nípa ohun tí o ti gbìyànjú títí di báyìí."
 
@@ -242,12 +264,17 @@ msgstr "Pada si ile"
 msgid "Banner"
 msgstr "Banner"
 
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:156
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:166
+msgid "Blocked navigation to untrusted link"
+msgstr "A dí ìrìnnà sí ọ̀nà tí a kò gbẹ́kẹ̀lé"
+
 #: ../../../lib/web/src/components/post-tags.tsx:180
 #: ../../../lib/web/src/components/post-tags.tsx:192
 msgid "Boost interest"
 msgstr "Mú ìfẹ́ pọ̀"
 
-#: src/features/help/contribute-dialog.tsx:99
+#: src/features/help/contribute-dialog.tsx:107
 msgid "Brief summary of the problem"
 msgstr "Ìsọnísókí ìṣòro náà"
 
@@ -255,7 +282,7 @@ msgstr "Ìsọnísókí ìṣòro náà"
 msgid "Browser notifications"
 msgstr "Àwọn ìfitónilétí browser"
 
-#: src/features/help/contribute-dialog.tsx:103
+#: src/features/help/contribute-dialog.tsx:111
 msgid "Bug report submitted."
 msgstr "A ti fi ìjábọ̀ àṣìṣe ránṣẹ́."
 
@@ -268,7 +295,7 @@ msgstr "A ti fi ìjábọ̀ àṣìṣe ránṣẹ́."
 #: ../../../lib/web/src/features/access/access-list.tsx:268
 #: ../../../lib/web/src/features/accounts/account-add.tsx:188
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:91
-#: src/features/help/contribute-dialog.tsx:354
+#: src/features/help/contribute-dialog.tsx:363
 msgid "Cancel"
 msgstr "Fagilé"
 
@@ -284,6 +311,10 @@ msgstr "Yí ẹ̀ka ìfitónilétí padà"
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:198
 msgid "Check \"All\" to see your past notifications."
 msgstr "Yan \"Gbogbo\" láti rí àwọn ìfitónilétí rẹ tẹ́lẹ̀."
+
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:38
+msgid "Choose a game from the sidebar or start a new one."
+msgstr "Yan eré kan láti sidebar tàbí bẹ̀rẹ̀ ọ̀kan tuntun."
 
 #: ../../../lib/web/src/components/config-drawer.tsx:329
 msgid "Choose between default expanded, compact icon-only, or full layout mode"
@@ -341,7 +372,7 @@ msgstr "Pa ìyàn rẹ́ (Escape)"
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:358
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:361
 #: ../../../lib/web/src/components/ui/sheet.tsx:79
-#: src/features/help/contribute-dialog.tsx:341
+#: src/features/help/contribute-dialog.tsx:350
 msgid "Close"
 msgstr "Tì"
 
@@ -440,7 +471,7 @@ msgstr "Ṣe àdàkọ"
 msgid "Could not load this document. Please try again later."
 msgstr "Kò lè kó ìwé yìí. Jọ̀wọ́ gbìyànjú lẹ́ẹ̀kan sí i."
 
-#: src/features/help/contribute-dialog.tsx:282
+#: src/features/help/contribute-dialog.tsx:291
 msgid "Couldn't reach the destination yet"
 msgstr "Kò tíì lè dé ibi tí ó ń lọ"
 
@@ -452,7 +483,7 @@ msgstr "Kò lè fi kóòdù náà ránṣẹ́. Jọ̀wọ́ gbìyànjú lẹ́�
 msgid "Couldn't start re-authentication. Please try again."
 msgstr "Kò lè bẹ̀rẹ̀ ìjẹ́rìísí-padà. Jọ̀wọ́ gbìyànjú lẹ́ẹ̀kan sí i."
 
-#: src/features/help/contribute-dialog.tsx:214
+#: src/features/help/contribute-dialog.tsx:223
 msgid "Couldn't submit"
 msgstr "Kò lè fi sílẹ̀"
 
@@ -495,6 +526,10 @@ msgstr "Ọ̀nà òkùnkùn"
 msgid "Data conflict"
 msgstr "Ìtakora dátà"
 
+#: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx:41
+msgid "Decline"
+msgstr "Kọ̀"
+
 #: ../../../lib/web/src/components/config-drawer.tsx:311
 msgid "Default"
 msgstr "Àìpé"
@@ -503,7 +538,7 @@ msgstr "Àìpé"
 msgid "Default AI account"
 msgstr "Àkáǹtì AI àìpé"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:99
+#: ../../../lib/web/src/components/restore-banner.tsx:115
 msgid "Delete your account on the old server"
 msgstr "Pa akonti rẹ rẹ lori olupin atijọ"
 
@@ -515,7 +550,7 @@ msgstr "Desc"
 msgid "Descending"
 msgstr "Sọkalẹ̀"
 
-#: src/features/help/contribute-dialog.tsx:97
+#: src/features/help/contribute-dialog.tsx:105
 msgid "Describe what went wrong. The Mochi development team will see it on the Mochi development project."
 msgstr "Ṣàpèjúwe ohun tí ó ṣẹlẹ̀ lọ́nà tí kò tọ́. Ẹgbẹ́ ìdàgbàsókè Mochi yóò rí i lórí iṣẹ́ àkànṣe ìdàgbàsókè Mochi."
 
@@ -523,8 +558,8 @@ msgstr "Ṣàpèjúwe ohun tí ó ṣẹlẹ̀ lọ́nà tí kò tọ́. Ẹgb�
 msgid "Description"
 msgstr "Àpèjúwe"
 
-#: src/features/help/contribute-dialog.tsx:89
-#: src/features/help/contribute-dialog.tsx:111
+#: src/features/help/contribute-dialog.tsx:97
+#: src/features/help/contribute-dialog.tsx:119
 msgid "Details"
 msgstr "Àwọn ẹ̀kúnrẹ́rẹ́"
 
@@ -552,12 +587,12 @@ msgid "Directory"
 msgstr "Àtòjọ"
 
 #: ../../../lib/web/src/components/comment-composer.tsx:300
-#: src/features/help/contribute-dialog.tsx:381
+#: src/features/help/contribute-dialog.tsx:390
 msgid "Discard"
 msgstr "Sọnu"
 
 #: ../../../lib/web/src/components/comment-composer.tsx:298
-#: src/features/help/contribute-dialog.tsx:378
+#: src/features/help/contribute-dialog.tsx:387
 msgid "Discard draft?"
 msgstr "Sọ àkọ̀tẹ́lẹ̀ nù?"
 
@@ -566,8 +601,8 @@ msgstr "Sọ àkọ̀tẹ́lẹ̀ nù?"
 msgid "Disconnected"
 msgstr "Ti ge asopọ̀"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:79
-#: ../../../lib/web/src/components/restore-banner.tsx:85
+#: ../../../lib/web/src/components/restore-banner.tsx:94
+#: ../../../lib/web/src/components/restore-banner.tsx:100
 msgid "Dismiss"
 msgstr "Mú kúrò"
 
@@ -664,7 +699,7 @@ msgstr "Kò lè firanṣẹ́ kóòdù ìjẹ́rìí"
 msgid "Failed to update category"
 msgstr "Kò lè mú ẹ̀ka dòde"
 
-#: src/features/help/contribute-dialog.tsx:114
+#: src/features/help/contribute-dialog.tsx:122
 msgid "Feature request submitted."
 msgstr "A ti fi ìbéèrè ẹ̀yà ránṣẹ́."
 
@@ -672,7 +707,7 @@ msgstr "A ti fi ìbéèrè ẹ̀yà ránṣẹ́."
 msgid "Filter..."
 msgstr "Ṣàyẹ̀wò..."
 
-#: ../../../lib/web/src/components/restore-banner.tsx:88
+#: ../../../lib/web/src/components/restore-banner.tsx:103
 msgid "Finish moving your account"
 msgstr "Pari gbigbe akonti rẹ"
 
@@ -719,7 +754,7 @@ msgstr "Padà"
 msgid "Go to first page"
 msgstr "Lọ sí ojú-ewé àkọ́kọ́"
 
-#: src/features/help/contribute-dialog.tsx:346
+#: src/features/help/contribute-dialog.tsx:355
 msgid "Go to forum"
 msgstr "Lọ sí àpérò"
 
@@ -760,7 +795,7 @@ msgstr "Ẹgbẹ́: {0}"
 msgid "Help"
 msgstr "Ìrànlọ́wọ́"
 
-#: src/features/help/contribute-dialog.tsx:79
+#: src/features/help/contribute-dialog.tsx:87
 msgid "Hi, I'm…"
 msgstr "Báwo, èmi ni…"
 
@@ -812,10 +847,14 @@ msgstr "Inú"
 msgid "Interests"
 msgstr "Àwọn ìfẹ́"
 
-#: src/features/help/contribute-dialog.tsx:78
+#: src/features/help/contribute-dialog.tsx:86
 #: src/features/help/index.tsx:27
 msgid "Introduce yourself"
 msgstr "Fi ara rẹ hàn"
+
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:550
+msgid "Invalid date"
+msgstr "Ọjọ́ aláìdára"
 
 #: ../../../lib/web/src/components/tag-input.tsx:38
 msgid "Invalid tag: letters, numbers, spaces, hyphens, and slashes only (max 50 chars)"
@@ -833,7 +872,7 @@ msgstr "Ó dàbí pé ojú-ìwé tí o ń wá <0/>kò sí tàbí a ti yọ ọ́
 msgid "Just now"
 msgstr "Ní báyìí"
 
-#: src/features/help/contribute-dialog.tsx:380
+#: src/features/help/contribute-dialog.tsx:389
 msgid "Keep editing"
 msgstr "Máa bá àtúnṣe lọ"
 
@@ -875,7 +914,7 @@ msgstr "Ìkójọpọ̀ àkóónú ń lọ…"
 
 #: ../../../lib/web/src/components/ui/load-more.tsx:35
 #: ../../../lib/web/src/features/document/document-page.tsx:90
-#: src/features/help/contribute-dialog.tsx:273
+#: src/features/help/contribute-dialog.tsx:282
 msgid "Loading..."
 msgstr "Ń ṣí..."
 
@@ -905,8 +944,8 @@ msgstr "Ń jáde…"
 msgid "Manage your connected accounts for notifications and services."
 msgstr "Ṣàkóso àwọn àkáǹtì rẹ tí a ti sopọ̀ fún ìfitónilétí àti iṣẹ́."
 
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:93
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:100
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:118
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:125
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:224
 msgid "Mark all as read"
 msgstr "Sàmì sí gbogbo gẹ́gẹ́ bí kíkà"
@@ -922,6 +961,10 @@ msgstr "Àárín"
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx:173
 msgid "Menu"
 msgstr "Ìtòlẹ́sẹẹsẹ"
+
+#: ../../../lib/web/src/components/game/game-chat-input.tsx:35
+msgid "Message"
+msgstr "Ìránṣẹ́"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:85
 msgid "Metric"
@@ -952,6 +995,11 @@ msgstr "Àṣìṣe nẹ́tíwọ́kì"
 msgid "New"
 msgstr "Tuntun"
 
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:42
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:54
+msgid "New game"
+msgstr "Eré tuntun"
+
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:392
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:397
 msgid "Next image"
@@ -965,6 +1013,10 @@ msgstr "A kò ṣètò àwọn òfin àyè kankan. Fi àwọn òfin kún láti �
 msgid "No connected accounts"
 msgstr "Kò sí ìròyìn tó sopọ̀"
 
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:51
+msgid "No games yet"
+msgstr "Kò sí eré síbẹ̀"
+
 #: ../../../lib/web/src/features/access/access-dialog.tsx:241
 msgid "No groups available"
 msgstr "Kò sí ẹgbẹ́ tó wà"
@@ -973,6 +1025,7 @@ msgstr "Kò sí ẹgbẹ́ tó wà"
 msgid "No notifications yet"
 msgstr "Kò sí ìfitónilétí síbẹ̀"
 
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:336
 #: ../../../lib/web/src/components/person-picker.tsx:84
 msgid "No people found"
 msgstr "A kò rí ènìyàn kankan"
@@ -1035,7 +1088,7 @@ msgid "Notifications"
 msgstr "Àwọn ìfìtọ́nisí"
 
 #. placeholder {0}: unread.length
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:86
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:111
 msgid "Notifications: {0}"
 msgstr "Àwọn ìfitónilétí: {0}"
 
@@ -1097,7 +1150,7 @@ msgstr "Kọ́kọ́rọ́-ìwọlé"
 msgid "Passkey verification failed. Please try again."
 msgstr "Ìjẹ́rìísí passkey kùnà. Jọ̀wọ́ gbìyànjú lẹ́ẹ̀kan sí i."
 
-#: ../../../lib/web/src/components/restore-banner.tsx:135
+#: ../../../lib/web/src/components/restore-banner.tsx:152
 msgid "Passkeys"
 msgstr "Àwọn passkey"
 
@@ -1116,9 +1169,9 @@ msgid "Please log in with the appropriate credentials <0/> to access this resour
 msgstr "Jọ̀wọ́ wọlé pẹ̀lú àwọn ẹ̀rí tó yẹ <0/> láti wọlé sí ohun àmúlò yìí."
 
 #: ../../../lib/web/src/features/errors/general-error.tsx:83
-#: src/features/help/contribute-dialog.tsx:171
 #: src/features/help/contribute-dialog.tsx:180
-#: src/features/help/contribute-dialog.tsx:215
+#: src/features/help/contribute-dialog.tsx:189
+#: src/features/help/contribute-dialog.tsx:224
 msgid "Please try again."
 msgstr "Jọ̀wọ́ gbìyànjú lẹ́ẹ̀kan sí i."
 
@@ -1126,19 +1179,19 @@ msgstr "Jọ̀wọ́ gbìyànjú lẹ́ẹ̀kan sí i."
 msgid "Please wait a moment and try again."
 msgstr "Jọ̀wọ́ dúró díẹ̀ kí o sì gbìyànjú lẹ́ẹ̀kansí."
 
-#: src/features/help/contribute-dialog.tsx:80
+#: src/features/help/contribute-dialog.tsx:88
 msgid "Post introduction"
 msgstr "Fi ìfihàn ránṣẹ́"
 
-#: src/features/help/contribute-dialog.tsx:91
+#: src/features/help/contribute-dialog.tsx:99
 msgid "Post question"
 msgstr "Fi ìbéèrè ránṣẹ́"
 
-#: src/features/help/contribute-dialog.tsx:208
+#: src/features/help/contribute-dialog.tsx:217
 msgid "Posted"
 msgstr "Tí gbé jáde"
 
-#: src/features/help/contribute-dialog.tsx:360
+#: src/features/help/contribute-dialog.tsx:369
 msgid "Posting…"
 msgstr "Ń fi ránṣẹ́…"
 
@@ -1170,7 +1223,7 @@ msgstr "Àwọn ọmọ ẹgbẹ́ iṣẹ́"
 msgid "Push notification"
 msgstr "Ìfitónilétí push"
 
-#: src/features/help/contribute-dialog.tsx:87
+#: src/features/help/contribute-dialog.tsx:95
 msgid "Question"
 msgstr "Ìbéèrè"
 
@@ -1178,11 +1231,11 @@ msgstr "Ìbéèrè"
 msgid "Raised"
 msgstr "Gbígbé sókè"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:107
+#: ../../../lib/web/src/components/restore-banner.tsx:124
 msgid "Re-link your accounts on this server"
 msgstr "Tun so akonti rẹ pọ lori olupin yii"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:129
+#: ../../../lib/web/src/components/restore-banner.tsx:146
 msgid "Re-register your passkeys on this server"
 msgstr "Tún àwọn bọ́tìnì ìwọlé rẹ forúkọsílẹ̀ lórí olùpèsè yìí"
 
@@ -1243,12 +1296,16 @@ msgstr "Yọ àyè kúrò?"
 msgid "Remove interest"
 msgstr "Yọ ìfẹ́ kúrò"
 
-#: src/features/help/contribute-dialog.tsx:96
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:671
+msgid "Remove item"
+msgstr "Yọ item kúrò"
+
+#: src/features/help/contribute-dialog.tsx:104
 #: src/features/help/index.tsx:39
 msgid "Report a bug"
 msgstr "Ṣàbọ̀ṣíṣẹ́ kòkòrò"
 
-#: src/features/help/contribute-dialog.tsx:102
+#: src/features/help/contribute-dialog.tsx:110
 msgid "Report bug"
 msgstr "Ṣàbọ̀ṣíṣẹ́ kòkòrò"
 
@@ -1346,6 +1403,10 @@ msgstr "Ń wá..."
 msgid "Select {0}"
 msgstr "Yan {0}"
 
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:37
+msgid "Select a game"
+msgstr "Yan eré kan"
+
 #: ../../../lib/web/src/features/access/access-dialog.tsx:150
 msgid "Select a user, group, or other rule to grant access."
 msgstr "Yan user, ẹgbẹ́, tàbí òfin míì láti fún ní ààyè."
@@ -1390,6 +1451,11 @@ msgstr "Yan ìtọ́sọ́nà síìtì"
 msgid "Select theme preference"
 msgstr "Yan àfẹ́nilọ́kàn theme"
 
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:252
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:335
+msgid "Select..."
+msgstr "Yan..."
+
 #: ../../../lib/web/src/components/data-table/bulk-actions.tsx:216
 msgid "selected"
 msgstr "tí a yàn"
@@ -1406,6 +1472,11 @@ msgstr "Fi ránṣẹ́ lẹ́ẹ̀kan sí i"
 #: ../../../lib/web/src/components/step-up-dialog.tsx:307
 msgid "Send email"
 msgstr "Fi ímeèlì ránṣẹ́"
+
+#: ../../../lib/web/src/components/game/game-chat-input.tsx:52
+#: ../../../lib/web/src/components/game/game-chat-input.tsx:61
+msgid "Send message"
+msgstr "Fi ìránṣẹ́ ránṣẹ́"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:145
 msgid "Serif"
@@ -1438,7 +1509,7 @@ msgstr "Ṣètò ibi tí o ti wá àti ibi tí o ń lọ"
 msgid "Settings"
 msgstr "Àwọn ìṣètò"
 
-#: src/features/help/contribute-dialog.tsx:110
+#: src/features/help/contribute-dialog.tsx:118
 msgid "Short title for your idea"
 msgstr "Àkọlé kúkúrú fún èrò rẹ"
 
@@ -1486,7 +1557,7 @@ msgstr "Rí nǹkan tó bàjẹ́? Fi ìròyìn àṣìṣe sílẹ̀ lórí iṣ
 msgid "Stay tuned though!"
 msgstr "Ṣùgbọ́n dúró tì wá!"
 
-#: src/features/help/contribute-dialog.tsx:101
+#: src/features/help/contribute-dialog.tsx:109
 msgid "Steps to reproduce, what you expected, and what actually happened. Include your browser and device if relevant."
 msgstr "Àwọn ìgbésẹ̀ láti tún ṣe, ohun tí o retí, àti ohun tí ó ṣẹlẹ̀ ní gidi. Fi ẹ̀rọ aṣàwákiri àti ohun èlò rẹ kún tí ó bá yẹ."
 
@@ -1498,7 +1569,7 @@ msgstr "Dí lórí nǹkan kan? Bi àwùjọ lérè ní àtòjọ ìfìwéránṣ
 msgid "Subject"
 msgstr "Àkòrí"
 
-#: src/features/help/contribute-dialog.tsx:265
+#: src/features/help/contribute-dialog.tsx:274
 msgid "Submitted successfully"
 msgstr "A fi ránṣẹ́ ní àṣeyọrí"
 
@@ -1507,17 +1578,17 @@ msgstr "A fi ránṣẹ́ ní àṣeyọrí"
 msgid "Subscribe"
 msgstr "Forúkọsílẹ̀"
 
-#: src/features/help/contribute-dialog.tsx:107
+#: src/features/help/contribute-dialog.tsx:115
 #: src/features/help/index.tsx:45
 msgid "Suggest a new feature"
 msgstr "Dábàá ẹ̀yà tuntun"
 
-#: src/features/help/contribute-dialog.tsx:113
+#: src/features/help/contribute-dialog.tsx:121
 msgid "Suggest feature"
 msgstr "Daba ẹ̀yà"
 
-#: src/features/help/contribute-dialog.tsx:98
-#: src/features/help/contribute-dialog.tsx:109
+#: src/features/help/contribute-dialog.tsx:106
+#: src/features/help/contribute-dialog.tsx:117
 msgid "Summary"
 msgstr "Ìṣàkójọ"
 
@@ -1549,7 +1620,7 @@ msgstr "Àmì gbọ́dọ̀ jẹ́ àwọn lẹ́tà 50 tàbí kéré sí"
 msgid "Tags"
 msgstr "Àwọn tag"
 
-#: src/features/help/contribute-dialog.tsx:209
+#: src/features/help/contribute-dialog.tsx:218
 msgid "Taking you there now."
 msgstr "À ń mú ọ lọ síbẹ̀ báyìí."
 
@@ -1557,7 +1628,7 @@ msgstr "À ń mú ọ lọ síbẹ̀ báyìí."
 msgid "Teams/Apps"
 msgstr "Àwọn ẹgbẹ́/Apps"
 
-#: src/features/help/contribute-dialog.tsx:108
+#: src/features/help/contribute-dialog.tsx:116
 msgid "Tell the Mochi development team what you'd like Mochi to do."
 msgstr "Sọ fún ẹgbẹ́ ìdàgbàsókè Mochi ohun tí o fẹ́ kí Mochi ṣe."
 
@@ -1650,7 +1721,7 @@ msgstr "Gbìyànjú láti ṣàtúnṣe àwọn ọ̀rọ̀ ìwákiri rẹ"
 #: ../../../lib/web/src/features/errors/general-error.tsx:140
 #: ../../../lib/web/src/features/errors/general-error.tsx:180
 #: ../../../lib/web/src/features/errors/maintenance-error.tsx:19
-#: src/features/help/contribute-dialog.tsx:294
+#: src/features/help/contribute-dialog.tsx:303
 msgid "Try again"
 msgstr "Gbìyànjú lẹ́ẹ̀kan sí i"
 
@@ -1661,6 +1732,10 @@ msgstr "Ọjọ́ Ìṣẹ́gun"
 #: ../../../lib/web/src/components/command-menu.tsx:52
 msgid "Type a command or search..."
 msgstr "Tẹ àṣẹ tàbí wá..."
+
+#: ../../../lib/web/src/components/game/game-chat-input.tsx:39
+msgid "Type a message…"
+msgstr "Tẹ ìránṣẹ́…"
 
 #: ../../../lib/web/src/features/access/access-dialog.tsx:191
 msgid "Type to search users"
@@ -1756,8 +1831,8 @@ msgstr "Wo"
 msgid "View all"
 msgstr "Wo gbogbo"
 
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:106
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:114
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:131
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:139
 msgid "View all notifications"
 msgstr "Wo gbogbo àwọn ìfitónilétí"
 
@@ -1790,19 +1865,19 @@ msgstr "Ọjọ́rú"
 msgid "Welcome to Mochi. Here's how to get started."
 msgstr "Káàbọ̀ sí Mochi. Báyìí ni a ṣe lè bẹ̀rẹ̀."
 
-#: src/features/help/contribute-dialog.tsx:100
+#: src/features/help/contribute-dialog.tsx:108
 msgid "What happened"
 msgstr "Kí ni ó ṣẹlẹ̀"
 
-#: src/features/help/contribute-dialog.tsx:90
+#: src/features/help/contribute-dialog.tsx:98
 msgid "What have you tried, what did you expect, where are you stuck?"
 msgstr "Kí ni o ti gbìyànjú, kí ni o ń retí, níbo ni o ti dúró?"
 
-#: src/features/help/contribute-dialog.tsx:112
+#: src/features/help/contribute-dialog.tsx:120
 msgid "What would it do, who is it for, why does it matter?"
 msgstr "Kí ni yóò ṣe, ta ni ó wà fún, kí ló dé tí ó fi ṣe pàtàkì?"
 
-#: src/features/help/contribute-dialog.tsx:88
+#: src/features/help/contribute-dialog.tsx:96
 msgid "What you want to ask, in one line"
 msgstr "Ohun tí o fẹ́ béèrè, ní ìlà kan"
 
@@ -1822,7 +1897,7 @@ msgstr "O fi àwọn iye wọ̀nyí sílẹ̀:"
 msgid "You're all caught up!"
 msgstr "O ti rí gbogbo rẹ̀!"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:91
+#: ../../../lib/web/src/components/restore-banner.tsx:106
 msgid "Your account was moved here from {source}. Until you delete it there, messages and notifications may reach both servers, some of your content keeps being served from the old server, and followers may take a few minutes to find you here."
 msgstr "A gbe akonti rẹ wá ibi lati {source}. Titi iwọ o fi pa rẹ nibẹ, awọn ifiranṣẹ ati awọn iwifunni le de olupin mejeeji, diẹ ninu akoonu rẹ tẹsiwaju lati sin lati olupin atijọ, ati awọn olutẹle le gba iṣẹju diẹ lati wa ọ nibi."
 
@@ -1830,11 +1905,11 @@ msgstr "A gbe akonti rẹ wá ibi lati {source}. Titi iwọ o fi pa rẹ nibẹ,
 msgid "Your attachments will be lost."
 msgstr "Àwọn fáìlì àsomọ́ rẹ yóò sọnù."
 
-#: src/features/help/contribute-dialog.tsx:81
+#: src/features/help/contribute-dialog.tsx:89
 msgid "Your introduction has been submitted and will appear after moderation."
 msgstr "A ti fi ìfáárà rẹ ránṣẹ́, yóò sì farahàn lẹ́yìn àyẹ̀wò."
 
-#: src/features/help/contribute-dialog.tsx:92
+#: src/features/help/contribute-dialog.tsx:100
 msgid "Your question has been submitted and will appear after moderation."
 msgstr "A ti fi ìbéèrè rẹ ránṣẹ́, yóò sì farahàn lẹ́yìn àyẹ̀wò."
 
@@ -1843,6 +1918,6 @@ msgid "Your text and attachments will be lost."
 msgstr "Ọ̀rọ̀ rẹ àti àwọn fáìlì àsomọ́ yóò sọnù."
 
 #: ../../../lib/web/src/components/comment-composer.tsx:292
-#: src/features/help/contribute-dialog.tsx:379
+#: src/features/help/contribute-dialog.tsx:388
 msgid "Your text will be lost."
 msgstr "Ọ̀rọ̀ rẹ yóò sọnù."

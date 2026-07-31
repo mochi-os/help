@@ -36,6 +36,10 @@ msgstr "Όνομα {entityLabel}"
 msgid "{entityLabel} name is required"
 msgstr "Το όνομα {entityLabel} είναι υποχρεωτικό"
 
+#: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx:29
+msgid "{opponentName} offered a draw"
+msgstr "Ο/Η {opponentName} πρότεινε ισοπαλία"
+
 #: ../../../lib/web/src/components/data-table/bulk-actions.tsx:210
 msgid "{selectedCount, plural, one {{entityName} selected} other {{manyName} selected}}"
 msgstr "{selectedCount, plural, one {{entityName} επιλέχθηκε} other {{manyName} επιλέχθηκαν}}"
@@ -60,6 +64,11 @@ msgstr "{sentLabel} από {totalLabel}"
 msgid "{unreadCount, plural, one {Open menu (# unread notification)} other {Open menu (# unread notifications)}}"
 msgstr "{unreadCount, plural, one {Άνοιγμα μενού (# μη αναγνωσμένη ειδοποίηση)} other {Άνοιγμα μενού (# μη αναγνωσμένες ειδοποιήσεις)}}"
 
+#. placeholder {0}: countDeepChildren(object.id)
+#: ../../../lib/web/src/components/entity/entity-board-card.tsx:421
+msgid "+{0} nested"
+msgstr "+{0} ένθετα"
+
 #: ../../../lib/web/src/lib/preference-utils.ts:42
 msgid "12 hours"
 msgstr "12 ώρες"
@@ -71,6 +80,10 @@ msgstr "24 ώρες"
 #: ../../../lib/web/src/lib/preference-utils.ts:51
 msgid "Absolute (date and time)"
 msgstr "Απόλυτη (ημερομηνία και ώρα)"
+
+#: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx:45
+msgid "Accept"
+msgstr "Αποδοχή"
 
 #: ../../../lib/web/src/features/errors/general-error.tsx:60
 msgid "Access denied"
@@ -100,12 +113,13 @@ msgstr "Τύπος λογαριασμού"
 msgid "Account verified"
 msgstr "Ο λογαριασμός επαληθεύτηκε"
 
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:717
 #: ../../../lib/web/src/features/access/access-dialog.tsx:332
 #: ../../../lib/web/src/features/accounts/account-add.tsx:196
 msgid "Add"
 msgstr "Προσθήκη"
 
-#: src/features/help/contribute-dialog.tsx:326
+#: src/features/help/contribute-dialog.tsx:335
 msgid "Add a bit more detail."
 msgstr "Προσθέστε λίγες ακόμα λεπτομέρειες."
 
@@ -125,6 +139,14 @@ msgstr "Προσθήκη λογαριασμού"
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:297
 msgid "Add an account to receive notifications and use services."
 msgstr "Προσθέστε έναν λογαριασμό για να λαμβάνετε ειδοποιήσεις και να χρησιμοποιείτε υπηρεσίες."
+
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:687
+msgid "Add checklist item"
+msgstr "Προσθήκη στοιχείου λίστας ελέγχου"
+
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:705
+msgid "Add item..."
+msgstr "Προσθήκη στοιχείου..."
 
 #: ../../../lib/web/src/features/accounts/account-picker.tsx:102
 msgid "Add new account"
@@ -202,12 +224,12 @@ msgstr "Αύξουσα"
 msgid "Ascending"
 msgstr "Αύξουσα"
 
-#: src/features/help/contribute-dialog.tsx:85
+#: src/features/help/contribute-dialog.tsx:93
 #: src/features/help/index.tsx:33
 msgid "Ask a question"
 msgstr "Κάντε μια ερώτηση"
 
-#: src/features/help/contribute-dialog.tsx:86
+#: src/features/help/contribute-dialog.tsx:94
 msgid "Ask the community on the Mochi users mailing list. Be specific about what you've tried so far."
 msgstr "Ρωτήστε την κοινότητα στη λίστα ηλεκτρονικού ταχυδρομείου των χρηστών Mochi. Αναφέρετε συγκεκριμένα τι έχετε δοκιμάσει μέχρι τώρα."
 
@@ -242,12 +264,17 @@ msgstr "Επιστροφή στην αρχή"
 msgid "Banner"
 msgstr "Μπάνερ"
 
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:156
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:166
+msgid "Blocked navigation to untrusted link"
+msgstr "Αποκλείστηκε η πλοήγηση σε μη αξιόπιστο σύνδεσμο"
+
 #: ../../../lib/web/src/components/post-tags.tsx:180
 #: ../../../lib/web/src/components/post-tags.tsx:192
 msgid "Boost interest"
 msgstr "Ενίσχυση ενδιαφέροντος"
 
-#: src/features/help/contribute-dialog.tsx:99
+#: src/features/help/contribute-dialog.tsx:107
 msgid "Brief summary of the problem"
 msgstr "Σύντομη περιγραφή του προβλήματος"
 
@@ -255,7 +282,7 @@ msgstr "Σύντομη περιγραφή του προβλήματος"
 msgid "Browser notifications"
 msgstr "Ειδοποιήσεις προγράμματος περιήγησης"
 
-#: src/features/help/contribute-dialog.tsx:103
+#: src/features/help/contribute-dialog.tsx:111
 msgid "Bug report submitted."
 msgstr "Η αναφορά σφάλματος υποβλήθηκε."
 
@@ -268,7 +295,7 @@ msgstr "Η αναφορά σφάλματος υποβλήθηκε."
 #: ../../../lib/web/src/features/access/access-list.tsx:268
 #: ../../../lib/web/src/features/accounts/account-add.tsx:188
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:91
-#: src/features/help/contribute-dialog.tsx:354
+#: src/features/help/contribute-dialog.tsx:363
 msgid "Cancel"
 msgstr "Ακύρωση"
 
@@ -284,6 +311,10 @@ msgstr "Αλλαγή κατηγορίας ειδοποίησης"
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:198
 msgid "Check \"All\" to see your past notifications."
 msgstr "Επιλέξτε «Όλα» για να δείτε παλαιότερες ειδοποιήσεις."
+
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:38
+msgid "Choose a game from the sidebar or start a new one."
+msgstr "Επιλέξτε ένα παιχνίδι από την πλαϊνή στήλη ή ξεκινήστε ένα νέο."
 
 #: ../../../lib/web/src/components/config-drawer.tsx:329
 msgid "Choose between default expanded, compact icon-only, or full layout mode"
@@ -341,7 +372,7 @@ msgstr "Εκκαθάριση επιλογής (Escape)"
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:358
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:361
 #: ../../../lib/web/src/components/ui/sheet.tsx:79
-#: src/features/help/contribute-dialog.tsx:341
+#: src/features/help/contribute-dialog.tsx:350
 msgid "Close"
 msgstr "Κλείσιμο"
 
@@ -440,7 +471,7 @@ msgstr "Αντιγραφή"
 msgid "Could not load this document. Please try again later."
 msgstr "Δεν ήταν δυνατή η φόρτωση αυτού του εγγράφου. Παρακαλώ δοκιμάστε ξανά αργότερα."
 
-#: src/features/help/contribute-dialog.tsx:282
+#: src/features/help/contribute-dialog.tsx:291
 msgid "Couldn't reach the destination yet"
 msgstr "Δεν ήταν δυνατή η πρόσβαση στον προορισμό ακόμα"
 
@@ -452,7 +483,7 @@ msgstr "Δεν ήταν δυνατή η αποστολή του κωδικού. 
 msgid "Couldn't start re-authentication. Please try again."
 msgstr "Δεν ήταν δυνατή η έναρξη του εκ νέου ελέγχου ταυτότητας. Δοκιμάστε ξανά."
 
-#: src/features/help/contribute-dialog.tsx:214
+#: src/features/help/contribute-dialog.tsx:223
 msgid "Couldn't submit"
 msgstr "Δεν ήταν δυνατή η υποβολή"
 
@@ -495,6 +526,10 @@ msgstr "Σκοτεινή λειτουργία"
 msgid "Data conflict"
 msgstr "Διένεξη δεδομένων"
 
+#: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx:41
+msgid "Decline"
+msgstr "Απόρριψη"
+
 #: ../../../lib/web/src/components/config-drawer.tsx:311
 msgid "Default"
 msgstr "Προεπιλογή"
@@ -503,7 +538,7 @@ msgstr "Προεπιλογή"
 msgid "Default AI account"
 msgstr "Προεπιλεγμένος λογαριασμός AI"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:99
+#: ../../../lib/web/src/components/restore-banner.tsx:115
 msgid "Delete your account on the old server"
 msgstr "Διαγράψτε τον λογαριασμό σας στον παλιό διακομιστή"
 
@@ -515,7 +550,7 @@ msgstr "Φθίνουσα"
 msgid "Descending"
 msgstr "Φθίνουσα"
 
-#: src/features/help/contribute-dialog.tsx:97
+#: src/features/help/contribute-dialog.tsx:105
 msgid "Describe what went wrong. The Mochi development team will see it on the Mochi development project."
 msgstr "Περιγράψτε τι πήγε στραβά. Η ομάδα ανάπτυξης του Mochi θα το δει στο έργο ανάπτυξης του Mochi."
 
@@ -523,8 +558,8 @@ msgstr "Περιγράψτε τι πήγε στραβά. Η ομάδα ανάπ�
 msgid "Description"
 msgstr "Περιγραφή"
 
-#: src/features/help/contribute-dialog.tsx:89
-#: src/features/help/contribute-dialog.tsx:111
+#: src/features/help/contribute-dialog.tsx:97
+#: src/features/help/contribute-dialog.tsx:119
 msgid "Details"
 msgstr "Λεπτομέρειες"
 
@@ -552,12 +587,12 @@ msgid "Directory"
 msgstr "Κατάλογος"
 
 #: ../../../lib/web/src/components/comment-composer.tsx:300
-#: src/features/help/contribute-dialog.tsx:381
+#: src/features/help/contribute-dialog.tsx:390
 msgid "Discard"
 msgstr "Απόρριψη"
 
 #: ../../../lib/web/src/components/comment-composer.tsx:298
-#: src/features/help/contribute-dialog.tsx:378
+#: src/features/help/contribute-dialog.tsx:387
 msgid "Discard draft?"
 msgstr "Απόρριψη πρόχειρου;"
 
@@ -566,8 +601,8 @@ msgstr "Απόρριψη πρόχειρου;"
 msgid "Disconnected"
 msgstr "Αποσυνδεδεμένο"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:79
-#: ../../../lib/web/src/components/restore-banner.tsx:85
+#: ../../../lib/web/src/components/restore-banner.tsx:94
+#: ../../../lib/web/src/components/restore-banner.tsx:100
 msgid "Dismiss"
 msgstr "Απόρριψη"
 
@@ -664,7 +699,7 @@ msgstr "Αποτυχία αποστολής κωδικού επαλήθευση�
 msgid "Failed to update category"
 msgstr "Αποτυχία ενημέρωσης κατηγορίας"
 
-#: src/features/help/contribute-dialog.tsx:114
+#: src/features/help/contribute-dialog.tsx:122
 msgid "Feature request submitted."
 msgstr "Το αίτημα λειτουργίας υποβλήθηκε."
 
@@ -672,7 +707,7 @@ msgstr "Το αίτημα λειτουργίας υποβλήθηκε."
 msgid "Filter..."
 msgstr "Φιλτράρισμα..."
 
-#: ../../../lib/web/src/components/restore-banner.tsx:88
+#: ../../../lib/web/src/components/restore-banner.tsx:103
 msgid "Finish moving your account"
 msgstr "Ολοκληρώστε τη μεταφορά του λογαριασμού σας"
 
@@ -719,7 +754,7 @@ msgstr "Πίσω"
 msgid "Go to first page"
 msgstr "Μετάβαση στην πρώτη σελίδα"
 
-#: src/features/help/contribute-dialog.tsx:346
+#: src/features/help/contribute-dialog.tsx:355
 msgid "Go to forum"
 msgstr "Μετάβαση στο φόρουμ"
 
@@ -760,7 +795,7 @@ msgstr "Ομάδα: {0}"
 msgid "Help"
 msgstr "Βοήθεια"
 
-#: src/features/help/contribute-dialog.tsx:79
+#: src/features/help/contribute-dialog.tsx:87
 msgid "Hi, I'm…"
 msgstr "Γεια, είμαι ο/η…"
 
@@ -812,10 +847,14 @@ msgstr "Εσωτερικό"
 msgid "Interests"
 msgstr "Ενδιαφέροντα"
 
-#: src/features/help/contribute-dialog.tsx:78
+#: src/features/help/contribute-dialog.tsx:86
 #: src/features/help/index.tsx:27
 msgid "Introduce yourself"
 msgstr "Συστηθείτε"
+
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:550
+msgid "Invalid date"
+msgstr "Μη έγκυρη ημερομηνία"
 
 #: ../../../lib/web/src/components/tag-input.tsx:38
 msgid "Invalid tag: letters, numbers, spaces, hyphens, and slashes only (max 50 chars)"
@@ -833,7 +872,7 @@ msgstr "Φαίνεται ότι η σελίδα που αναζητάτε <0/>δ
 msgid "Just now"
 msgstr "Μόλις τώρα"
 
-#: src/features/help/contribute-dialog.tsx:380
+#: src/features/help/contribute-dialog.tsx:389
 msgid "Keep editing"
 msgstr "Συνέχεια επεξεργασίας"
 
@@ -875,7 +914,7 @@ msgstr "Φόρτωση περιεχομένου…"
 
 #: ../../../lib/web/src/components/ui/load-more.tsx:35
 #: ../../../lib/web/src/features/document/document-page.tsx:90
-#: src/features/help/contribute-dialog.tsx:273
+#: src/features/help/contribute-dialog.tsx:282
 msgid "Loading..."
 msgstr "Φόρτωση..."
 
@@ -905,8 +944,8 @@ msgstr "Αποσύνδεση…"
 msgid "Manage your connected accounts for notifications and services."
 msgstr "Διαχειριστείτε τους συνδεδεμένους λογαριασμούς σας για ειδοποιήσεις και υπηρεσίες."
 
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:93
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:100
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:118
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:125
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:224
 msgid "Mark all as read"
 msgstr "Σήμανση όλων ως αναγνωσμένα"
@@ -922,6 +961,10 @@ msgstr "Μεσαίο"
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx:173
 msgid "Menu"
 msgstr "Μενού"
+
+#: ../../../lib/web/src/components/game/game-chat-input.tsx:35
+msgid "Message"
+msgstr "Μήνυμα"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:85
 msgid "Metric"
@@ -952,6 +995,11 @@ msgstr "Σφάλμα δικτύου"
 msgid "New"
 msgstr "Νέο"
 
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:42
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:54
+msgid "New game"
+msgstr "Νέο παιχνίδι"
+
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:392
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:397
 msgid "Next image"
@@ -965,6 +1013,10 @@ msgstr "Δεν έχουν διαμορφωθεί κανόνες πρόσβαση
 msgid "No connected accounts"
 msgstr "Δεν υπάρχουν συνδεδεμένοι λογαριασμοί"
 
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:51
+msgid "No games yet"
+msgstr "Δεν υπάρχουν ακόμη παιχνίδια"
+
 #: ../../../lib/web/src/features/access/access-dialog.tsx:241
 msgid "No groups available"
 msgstr "Δεν υπάρχουν διαθέσιμες ομάδες"
@@ -973,6 +1025,7 @@ msgstr "Δεν υπάρχουν διαθέσιμες ομάδες"
 msgid "No notifications yet"
 msgstr "Καμία ειδοποίηση ακόμη"
 
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:336
 #: ../../../lib/web/src/components/person-picker.tsx:84
 msgid "No people found"
 msgstr "Δεν βρέθηκαν άτομα"
@@ -1035,7 +1088,7 @@ msgid "Notifications"
 msgstr "Ειδοποιήσεις"
 
 #. placeholder {0}: unread.length
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:86
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:111
 msgid "Notifications: {0}"
 msgstr "Ειδοποιήσεις: {0}"
 
@@ -1097,7 +1150,7 @@ msgstr "Κλειδί πρόσβασης"
 msgid "Passkey verification failed. Please try again."
 msgstr "Η επαλήθευση με κλειδί πρόσβασης απέτυχε. Δοκιμάστε ξανά."
 
-#: ../../../lib/web/src/components/restore-banner.tsx:135
+#: ../../../lib/web/src/components/restore-banner.tsx:152
 msgid "Passkeys"
 msgstr "Κλειδιά πρόσβασης"
 
@@ -1116,9 +1169,9 @@ msgid "Please log in with the appropriate credentials <0/> to access this resour
 msgstr "Συνδεθείτε με τα κατάλληλα διαπιστευτήρια <0/> για πρόσβαση σε αυτόν τον πόρο."
 
 #: ../../../lib/web/src/features/errors/general-error.tsx:83
-#: src/features/help/contribute-dialog.tsx:171
 #: src/features/help/contribute-dialog.tsx:180
-#: src/features/help/contribute-dialog.tsx:215
+#: src/features/help/contribute-dialog.tsx:189
+#: src/features/help/contribute-dialog.tsx:224
 msgid "Please try again."
 msgstr "Δοκιμάστε ξανά."
 
@@ -1126,19 +1179,19 @@ msgstr "Δοκιμάστε ξανά."
 msgid "Please wait a moment and try again."
 msgstr "Περιμένετε λίγο και δοκιμάστε ξανά."
 
-#: src/features/help/contribute-dialog.tsx:80
+#: src/features/help/contribute-dialog.tsx:88
 msgid "Post introduction"
 msgstr "Δημοσίευση σύστασης"
 
-#: src/features/help/contribute-dialog.tsx:91
+#: src/features/help/contribute-dialog.tsx:99
 msgid "Post question"
 msgstr "Δημοσίευση ερώτησης"
 
-#: src/features/help/contribute-dialog.tsx:208
+#: src/features/help/contribute-dialog.tsx:217
 msgid "Posted"
 msgstr "Δημοσιεύτηκε"
 
-#: src/features/help/contribute-dialog.tsx:360
+#: src/features/help/contribute-dialog.tsx:369
 msgid "Posting…"
 msgstr "Δημοσίευση…"
 
@@ -1170,7 +1223,7 @@ msgstr "Μέλη έργου"
 msgid "Push notification"
 msgstr "Ειδοποίηση push"
 
-#: src/features/help/contribute-dialog.tsx:87
+#: src/features/help/contribute-dialog.tsx:95
 msgid "Question"
 msgstr "Ερώτηση"
 
@@ -1178,11 +1231,11 @@ msgstr "Ερώτηση"
 msgid "Raised"
 msgstr "Ανυψωμένη"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:107
+#: ../../../lib/web/src/components/restore-banner.tsx:124
 msgid "Re-link your accounts on this server"
 msgstr "Επανασυνδέστε τους λογαριασμούς σας σε αυτόν τον διακομιστή"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:129
+#: ../../../lib/web/src/components/restore-banner.tsx:146
 msgid "Re-register your passkeys on this server"
 msgstr "Καταχωρίστε ξανά τα κλειδιά πρόσβασής σας σε αυτόν τον διακομιστή"
 
@@ -1243,12 +1296,16 @@ msgstr "Αφαίρεση πρόσβασης;"
 msgid "Remove interest"
 msgstr "Αφαίρεση ενδιαφέροντος"
 
-#: src/features/help/contribute-dialog.tsx:96
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:671
+msgid "Remove item"
+msgstr "Αφαίρεση στοιχείου"
+
+#: src/features/help/contribute-dialog.tsx:104
 #: src/features/help/index.tsx:39
 msgid "Report a bug"
 msgstr "Αναφορά σφάλματος"
 
-#: src/features/help/contribute-dialog.tsx:102
+#: src/features/help/contribute-dialog.tsx:110
 msgid "Report bug"
 msgstr "Αναφορά σφάλματος"
 
@@ -1346,6 +1403,10 @@ msgstr "Αναζήτηση..."
 msgid "Select {0}"
 msgstr "Επιλογή {0}"
 
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:37
+msgid "Select a game"
+msgstr "Επιλέξτε ένα παιχνίδι"
+
 #: ../../../lib/web/src/features/access/access-dialog.tsx:150
 msgid "Select a user, group, or other rule to grant access."
 msgstr "Επιλέξτε έναν χρήστη, ομάδα ή άλλον κανόνα για να παραχωρήσετε πρόσβαση."
@@ -1390,6 +1451,11 @@ msgstr "Επιλέξτε κατεύθυνση ιστότοπου"
 msgid "Select theme preference"
 msgstr "Επιλέξτε προτίμηση θέματος"
 
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:252
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:335
+msgid "Select..."
+msgstr "Επιλογή..."
+
 #: ../../../lib/web/src/components/data-table/bulk-actions.tsx:216
 msgid "selected"
 msgstr "επιλεγμένα"
@@ -1406,6 +1472,11 @@ msgstr "Αποστολή ξανά"
 #: ../../../lib/web/src/components/step-up-dialog.tsx:307
 msgid "Send email"
 msgstr "Αποστολή email"
+
+#: ../../../lib/web/src/components/game/game-chat-input.tsx:52
+#: ../../../lib/web/src/components/game/game-chat-input.tsx:61
+msgid "Send message"
+msgstr "Αποστολή μηνύματος"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:145
 msgid "Serif"
@@ -1438,7 +1509,7 @@ msgstr "Ορίστε αφετηρία και προορισμό"
 msgid "Settings"
 msgstr "Ρυθμίσεις"
 
-#: src/features/help/contribute-dialog.tsx:110
+#: src/features/help/contribute-dialog.tsx:118
 msgid "Short title for your idea"
 msgstr "Σύντομος τίτλος για την ιδέα σας"
 
@@ -1486,7 +1557,7 @@ msgstr "Εντοπίσατε κάτι χαλασμένο; Καταχωρίστε
 msgid "Stay tuned though!"
 msgstr "Μείνετε όμως συντονισμένοι!"
 
-#: src/features/help/contribute-dialog.tsx:101
+#: src/features/help/contribute-dialog.tsx:109
 msgid "Steps to reproduce, what you expected, and what actually happened. Include your browser and device if relevant."
 msgstr "Βήματα αναπαραγωγής, τι περιμένατε και τι συνέβη πραγματικά. Συμπεριλάβετε το πρόγραμμα περιήγησης και τη συσκευή σας αν είναι σχετικά."
 
@@ -1498,7 +1569,7 @@ msgstr "Κολλήσατε κάπου; Ρωτήστε την κοινότητα 
 msgid "Subject"
 msgstr "Θέμα"
 
-#: src/features/help/contribute-dialog.tsx:265
+#: src/features/help/contribute-dialog.tsx:274
 msgid "Submitted successfully"
 msgstr "Υποβλήθηκε με επιτυχία"
 
@@ -1507,17 +1578,17 @@ msgstr "Υποβλήθηκε με επιτυχία"
 msgid "Subscribe"
 msgstr "Εγγραφή"
 
-#: src/features/help/contribute-dialog.tsx:107
+#: src/features/help/contribute-dialog.tsx:115
 #: src/features/help/index.tsx:45
 msgid "Suggest a new feature"
 msgstr "Προτείνετε μια νέα λειτουργία"
 
-#: src/features/help/contribute-dialog.tsx:113
+#: src/features/help/contribute-dialog.tsx:121
 msgid "Suggest feature"
 msgstr "Πρόταση λειτουργίας"
 
-#: src/features/help/contribute-dialog.tsx:98
-#: src/features/help/contribute-dialog.tsx:109
+#: src/features/help/contribute-dialog.tsx:106
+#: src/features/help/contribute-dialog.tsx:117
 msgid "Summary"
 msgstr "Σύνοψη"
 
@@ -1549,7 +1620,7 @@ msgstr "Η ετικέτα πρέπει να έχει έως 50 χαρακτήρ�
 msgid "Tags"
 msgstr "Ετικέτες"
 
-#: src/features/help/contribute-dialog.tsx:209
+#: src/features/help/contribute-dialog.tsx:218
 msgid "Taking you there now."
 msgstr "Σας μεταφέρουμε εκεί τώρα."
 
@@ -1557,7 +1628,7 @@ msgstr "Σας μεταφέρουμε εκεί τώρα."
 msgid "Teams/Apps"
 msgstr "Ομάδες/Εφαρμογές"
 
-#: src/features/help/contribute-dialog.tsx:108
+#: src/features/help/contribute-dialog.tsx:116
 msgid "Tell the Mochi development team what you'd like Mochi to do."
 msgstr "Πείτε στην ομάδα ανάπτυξης του Mochi τι θα θέλατε να κάνει το Mochi."
 
@@ -1650,7 +1721,7 @@ msgstr "Δοκιμάστε να προσαρμόσετε τους όρους α�
 #: ../../../lib/web/src/features/errors/general-error.tsx:140
 #: ../../../lib/web/src/features/errors/general-error.tsx:180
 #: ../../../lib/web/src/features/errors/maintenance-error.tsx:19
-#: src/features/help/contribute-dialog.tsx:294
+#: src/features/help/contribute-dialog.tsx:303
 msgid "Try again"
 msgstr "Δοκιμάστε ξανά"
 
@@ -1661,6 +1732,10 @@ msgstr "Τρίτη"
 #: ../../../lib/web/src/components/command-menu.tsx:52
 msgid "Type a command or search..."
 msgstr "Πληκτρολογήστε μια εντολή ή αναζητήστε..."
+
+#: ../../../lib/web/src/components/game/game-chat-input.tsx:39
+msgid "Type a message…"
+msgstr "Πληκτρολογήστε ένα μήνυμα…"
 
 #: ../../../lib/web/src/features/access/access-dialog.tsx:191
 msgid "Type to search users"
@@ -1756,8 +1831,8 @@ msgstr "Προβολή"
 msgid "View all"
 msgstr "Προβολή όλων"
 
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:106
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:114
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:131
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:139
 msgid "View all notifications"
 msgstr "Προβολή όλων των ειδοποιήσεων"
 
@@ -1790,19 +1865,19 @@ msgstr "Τετάρτη"
 msgid "Welcome to Mochi. Here's how to get started."
 msgstr "Καλώς ήρθατε στο Mochi. Δείτε πώς να ξεκινήσετε."
 
-#: src/features/help/contribute-dialog.tsx:100
+#: src/features/help/contribute-dialog.tsx:108
 msgid "What happened"
 msgstr "Τι συνέβη"
 
-#: src/features/help/contribute-dialog.tsx:90
+#: src/features/help/contribute-dialog.tsx:98
 msgid "What have you tried, what did you expect, where are you stuck?"
 msgstr "Τι έχεις δοκιμάσει, τι περίμενες, πού έχεις κολλήσει;"
 
-#: src/features/help/contribute-dialog.tsx:112
+#: src/features/help/contribute-dialog.tsx:120
 msgid "What would it do, who is it for, why does it matter?"
 msgstr "Τι θα έκανε, για ποιον είναι, γιατί έχει σημασία;"
 
-#: src/features/help/contribute-dialog.tsx:88
+#: src/features/help/contribute-dialog.tsx:96
 msgid "What you want to ask, in one line"
 msgstr "Τι θέλεις να ρωτήσεις, σε μία γραμμή"
 
@@ -1822,7 +1897,7 @@ msgstr "Υποβάλατε τις ακόλουθες τιμές:"
 msgid "You're all caught up!"
 msgstr "Τα είδατε όλα!"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:91
+#: ../../../lib/web/src/components/restore-banner.tsx:106
 msgid "Your account was moved here from {source}. Until you delete it there, messages and notifications may reach both servers, some of your content keeps being served from the old server, and followers may take a few minutes to find you here."
 msgstr "Ο λογαριασμός σας μεταφέρθηκε εδώ από {source}. Μέχρι να τον διαγράψετε εκεί, τα μηνύματα και οι ειδοποιήσεις μπορεί να φτάνουν και στους δύο διακομιστές, μέρος του περιεχομένου σας συνεχίζει να εξυπηρετείται από τον παλιό διακομιστή και οι ακόλουθοί σας ενδέχεται να χρειαστούν λίγα λεπτά για να σας βρουν εδώ."
 
@@ -1830,11 +1905,11 @@ msgstr "Ο λογαριασμός σας μεταφέρθηκε εδώ από {s
 msgid "Your attachments will be lost."
 msgstr "Τα συνημμένα σας θα χαθούν."
 
-#: src/features/help/contribute-dialog.tsx:81
+#: src/features/help/contribute-dialog.tsx:89
 msgid "Your introduction has been submitted and will appear after moderation."
 msgstr "Η παρουσίασή σας υποβλήθηκε και θα εμφανιστεί μετά τον έλεγχο."
 
-#: src/features/help/contribute-dialog.tsx:92
+#: src/features/help/contribute-dialog.tsx:100
 msgid "Your question has been submitted and will appear after moderation."
 msgstr "Η ερώτησή σας υποβλήθηκε και θα εμφανιστεί μετά τον έλεγχο."
 
@@ -1843,6 +1918,6 @@ msgid "Your text and attachments will be lost."
 msgstr "Το κείμενο και τα συνημμένα σας θα χαθούν."
 
 #: ../../../lib/web/src/components/comment-composer.tsx:292
-#: src/features/help/contribute-dialog.tsx:379
+#: src/features/help/contribute-dialog.tsx:388
 msgid "Your text will be lost."
 msgstr "Το κείμενό σας θα χαθεί."

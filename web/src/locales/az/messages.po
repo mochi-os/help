@@ -36,6 +36,10 @@ msgstr "{entityLabel} adı"
 msgid "{entityLabel} name is required"
 msgstr "{entityLabel} adı tələb olunur"
 
+#: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx:29
+msgid "{opponentName} offered a draw"
+msgstr "{opponentName} qazandı"
+
 #: ../../../lib/web/src/components/data-table/bulk-actions.tsx:210
 msgid "{selectedCount, plural, one {{entityName} selected} other {{manyName} selected}}"
 msgstr "{selectedCount, plural, one {{entityName} seçildi} other {{manyName} seçildi}}"
@@ -60,6 +64,11 @@ msgstr "{sentLabel} / {totalLabel}"
 msgid "{unreadCount, plural, one {Open menu (# unread notification)} other {Open menu (# unread notifications)}}"
 msgstr "{unreadCount, plural, one {Menyunu aç (# oxunmamış bildiriş)} other {Menyunu aç (# oxunmamış bildiriş)}}"
 
+#. placeholder {0}: countDeepChildren(object.id)
+#: ../../../lib/web/src/components/entity/entity-board-card.tsx:421
+msgid "+{0} nested"
+msgstr "+{0} daxili"
+
 #: ../../../lib/web/src/lib/preference-utils.ts:42
 msgid "12 hours"
 msgstr "12 saat"
@@ -71,6 +80,10 @@ msgstr "24 saat"
 #: ../../../lib/web/src/lib/preference-utils.ts:51
 msgid "Absolute (date and time)"
 msgstr "Mütləq (tarix və saat)"
+
+#: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx:45
+msgid "Accept"
+msgstr "Qəbul et"
 
 #: ../../../lib/web/src/features/errors/general-error.tsx:60
 msgid "Access denied"
@@ -100,12 +113,13 @@ msgstr "Hesab tipi"
 msgid "Account verified"
 msgstr "Hesab təsdiqləndi"
 
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:717
 #: ../../../lib/web/src/features/access/access-dialog.tsx:332
 #: ../../../lib/web/src/features/accounts/account-add.tsx:196
 msgid "Add"
 msgstr "Əlavə et"
 
-#: src/features/help/contribute-dialog.tsx:326
+#: src/features/help/contribute-dialog.tsx:335
 msgid "Add a bit more detail."
 msgstr "Bir az daha çox təfərrüat əlavə edin."
 
@@ -125,6 +139,14 @@ msgstr "Hesab əlavə et"
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:297
 msgid "Add an account to receive notifications and use services."
 msgstr "Bildiriş almaq və xidmətlərdən istifadə etmək üçün hesab əlavə edin."
+
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:687
+msgid "Add checklist item"
+msgstr "Yoxlama elementi əlavə et"
+
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:705
+msgid "Add item..."
+msgstr "Element əlavə et..."
 
 #: ../../../lib/web/src/features/accounts/account-picker.tsx:102
 msgid "Add new account"
@@ -202,12 +224,12 @@ msgstr "Artan"
 msgid "Ascending"
 msgstr "Artan"
 
-#: src/features/help/contribute-dialog.tsx:85
+#: src/features/help/contribute-dialog.tsx:93
 #: src/features/help/index.tsx:33
 msgid "Ask a question"
 msgstr "Sual verin"
 
-#: src/features/help/contribute-dialog.tsx:86
+#: src/features/help/contribute-dialog.tsx:94
 msgid "Ask the community on the Mochi users mailing list. Be specific about what you've tried so far."
 msgstr "Mochi istifadəçilərinin poçt siyahısında icmaya sual verin. İndiyə qədər nə cəhd etdiyinizi konkret göstərin."
 
@@ -242,12 +264,17 @@ msgstr "Ana səhifəyə qayıt"
 msgid "Banner"
 msgstr "Banner"
 
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:156
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:166
+msgid "Blocked navigation to untrusted link"
+msgstr "Etibarsız linkə naviqasiya bloklandı"
+
 #: ../../../lib/web/src/components/post-tags.tsx:180
 #: ../../../lib/web/src/components/post-tags.tsx:192
 msgid "Boost interest"
 msgstr "Marağı artır"
 
-#: src/features/help/contribute-dialog.tsx:99
+#: src/features/help/contribute-dialog.tsx:107
 msgid "Brief summary of the problem"
 msgstr "Problemin qısa xülasəsi"
 
@@ -255,7 +282,7 @@ msgstr "Problemin qısa xülasəsi"
 msgid "Browser notifications"
 msgstr "Brauzer bildirişləri"
 
-#: src/features/help/contribute-dialog.tsx:103
+#: src/features/help/contribute-dialog.tsx:111
 msgid "Bug report submitted."
 msgstr "Xəta hesabatı göndərildi."
 
@@ -268,7 +295,7 @@ msgstr "Xəta hesabatı göndərildi."
 #: ../../../lib/web/src/features/access/access-list.tsx:268
 #: ../../../lib/web/src/features/accounts/account-add.tsx:188
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:91
-#: src/features/help/contribute-dialog.tsx:354
+#: src/features/help/contribute-dialog.tsx:363
 msgid "Cancel"
 msgstr "Ləğv et"
 
@@ -284,6 +311,10 @@ msgstr "Bildiriş kateqoriyasını dəyişdir"
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:198
 msgid "Check \"All\" to see your past notifications."
 msgstr "Keçmiş bildirişlərinizi görmək üçün \"Hamısı\" seçin."
+
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:38
+msgid "Choose a game from the sidebar or start a new one."
+msgstr "Yan paneldən oyun seçin və ya yenisini başladın."
 
 #: ../../../lib/web/src/components/config-drawer.tsx:329
 msgid "Choose between default expanded, compact icon-only, or full layout mode"
@@ -341,7 +372,7 @@ msgstr "Seçimi təmizlə (Escape)"
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:358
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:361
 #: ../../../lib/web/src/components/ui/sheet.tsx:79
-#: src/features/help/contribute-dialog.tsx:341
+#: src/features/help/contribute-dialog.tsx:350
 msgid "Close"
 msgstr "Bağla"
 
@@ -440,7 +471,7 @@ msgstr "Kopyala"
 msgid "Could not load this document. Please try again later."
 msgstr "Bu sənəd yüklənə bilmədi. Daha sonra yenidən cəhd edin."
 
-#: src/features/help/contribute-dialog.tsx:282
+#: src/features/help/contribute-dialog.tsx:291
 msgid "Couldn't reach the destination yet"
 msgstr "Hələ təyinata çatmaq mümkün olmadı"
 
@@ -452,7 +483,7 @@ msgstr "Kodu göndərmək mümkün olmadı. Zəhmət olmasa yenidən cəhd edin.
 msgid "Couldn't start re-authentication. Please try again."
 msgstr "Yenidən autentifikasiyanı başlatmaq mümkün olmadı. Zəhmət olmasa yenidən cəhd edin."
 
-#: src/features/help/contribute-dialog.tsx:214
+#: src/features/help/contribute-dialog.tsx:223
 msgid "Couldn't submit"
 msgstr "Göndərmək mümkün olmadı"
 
@@ -495,6 +526,10 @@ msgstr "Tünd rejim"
 msgid "Data conflict"
 msgstr "Məlumat konflikti"
 
+#: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx:41
+msgid "Decline"
+msgstr "Rədd et"
+
 #: ../../../lib/web/src/components/config-drawer.tsx:311
 msgid "Default"
 msgstr "Default"
@@ -503,7 +538,7 @@ msgstr "Default"
 msgid "Default AI account"
 msgstr "Default AI hesabı"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:99
+#: ../../../lib/web/src/components/restore-banner.tsx:115
 msgid "Delete your account on the old server"
 msgstr "Köhnə serverdə hesabınızı silin"
 
@@ -515,7 +550,7 @@ msgstr "Azalan"
 msgid "Descending"
 msgstr "Azalan"
 
-#: src/features/help/contribute-dialog.tsx:97
+#: src/features/help/contribute-dialog.tsx:105
 msgid "Describe what went wrong. The Mochi development team will see it on the Mochi development project."
 msgstr "Nəyin səhv getdiyini təsvir edin. Mochi inkişaf komandası bunu Mochi inkişaf layihəsində görəcək."
 
@@ -523,8 +558,8 @@ msgstr "Nəyin səhv getdiyini təsvir edin. Mochi inkişaf komandası bunu Moch
 msgid "Description"
 msgstr "Təsvir"
 
-#: src/features/help/contribute-dialog.tsx:89
-#: src/features/help/contribute-dialog.tsx:111
+#: src/features/help/contribute-dialog.tsx:97
+#: src/features/help/contribute-dialog.tsx:119
 msgid "Details"
 msgstr "Təfərrüatlar"
 
@@ -552,12 +587,12 @@ msgid "Directory"
 msgstr "Kataloq"
 
 #: ../../../lib/web/src/components/comment-composer.tsx:300
-#: src/features/help/contribute-dialog.tsx:381
+#: src/features/help/contribute-dialog.tsx:390
 msgid "Discard"
 msgstr "Ləğv et"
 
 #: ../../../lib/web/src/components/comment-composer.tsx:298
-#: src/features/help/contribute-dialog.tsx:378
+#: src/features/help/contribute-dialog.tsx:387
 msgid "Discard draft?"
 msgstr "Qaralama ləğv edilsin?"
 
@@ -566,8 +601,8 @@ msgstr "Qaralama ləğv edilsin?"
 msgid "Disconnected"
 msgstr "Bağlantı kəsilib"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:79
-#: ../../../lib/web/src/components/restore-banner.tsx:85
+#: ../../../lib/web/src/components/restore-banner.tsx:94
+#: ../../../lib/web/src/components/restore-banner.tsx:100
 msgid "Dismiss"
 msgstr "Rədd et"
 
@@ -664,7 +699,7 @@ msgstr "Doğrulama kodu göndərmək alınmadı"
 msgid "Failed to update category"
 msgstr "Kateqoriyanı yeniləmək alınmadı"
 
-#: src/features/help/contribute-dialog.tsx:114
+#: src/features/help/contribute-dialog.tsx:122
 msgid "Feature request submitted."
 msgstr "Funksiya sorğusu göndərildi."
 
@@ -672,7 +707,7 @@ msgstr "Funksiya sorğusu göndərildi."
 msgid "Filter..."
 msgstr "Süz..."
 
-#: ../../../lib/web/src/components/restore-banner.tsx:88
+#: ../../../lib/web/src/components/restore-banner.tsx:103
 msgid "Finish moving your account"
 msgstr "Hesabınızın köçürülməsini tamamlayın"
 
@@ -719,7 +754,7 @@ msgstr "Geri"
 msgid "Go to first page"
 msgstr "İlk səhifəyə get"
 
-#: src/features/help/contribute-dialog.tsx:346
+#: src/features/help/contribute-dialog.tsx:355
 msgid "Go to forum"
 msgstr "Foruma keç"
 
@@ -760,7 +795,7 @@ msgstr "Qrup: {0}"
 msgid "Help"
 msgstr "Kömək"
 
-#: src/features/help/contribute-dialog.tsx:79
+#: src/features/help/contribute-dialog.tsx:87
 msgid "Hi, I'm…"
 msgstr "Salam, mən…"
 
@@ -812,10 +847,14 @@ msgstr "İçəri"
 msgid "Interests"
 msgstr "Maraqlar"
 
-#: src/features/help/contribute-dialog.tsx:78
+#: src/features/help/contribute-dialog.tsx:86
 #: src/features/help/index.tsx:27
 msgid "Introduce yourself"
 msgstr "Özünüzü təqdim edin"
+
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:550
+msgid "Invalid date"
+msgstr "Etibarsız tarix"
 
 #: ../../../lib/web/src/components/tag-input.tsx:38
 msgid "Invalid tag: letters, numbers, spaces, hyphens, and slashes only (max 50 chars)"
@@ -833,7 +872,7 @@ msgstr "Axtardığınız səhifə <0/>mövcud deyil və ya silinib."
 msgid "Just now"
 msgstr "İndicə"
 
-#: src/features/help/contribute-dialog.tsx:380
+#: src/features/help/contribute-dialog.tsx:389
 msgid "Keep editing"
 msgstr "Redaktəyə davam et"
 
@@ -875,7 +914,7 @@ msgstr "Məzmun yüklənir…"
 
 #: ../../../lib/web/src/components/ui/load-more.tsx:35
 #: ../../../lib/web/src/features/document/document-page.tsx:90
-#: src/features/help/contribute-dialog.tsx:273
+#: src/features/help/contribute-dialog.tsx:282
 msgid "Loading..."
 msgstr "Yüklənir..."
 
@@ -905,8 +944,8 @@ msgstr "Çıxış edilir…"
 msgid "Manage your connected accounts for notifications and services."
 msgstr "Bildirişlər və xidmətlər üçün qoşulmuş hesablarınızı idarə edin."
 
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:93
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:100
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:118
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:125
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:224
 msgid "Mark all as read"
 msgstr "Hamısını oxunmuş kimi işarələ"
@@ -922,6 +961,10 @@ msgstr "Orta"
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx:173
 msgid "Menu"
 msgstr "Menyu"
+
+#: ../../../lib/web/src/components/game/game-chat-input.tsx:35
+msgid "Message"
+msgstr "Mesaj"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:85
 msgid "Metric"
@@ -952,6 +995,11 @@ msgstr "Şəbəkə xətası"
 msgid "New"
 msgstr "Yeni"
 
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:42
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:54
+msgid "New game"
+msgstr "Yeni oyun"
+
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:392
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:397
 msgid "Next image"
@@ -965,6 +1013,10 @@ msgstr "Giriş qaydaları konfiqurasiya edilməyib. Bu resursa kimin daxil ola b
 msgid "No connected accounts"
 msgstr "Bağlı hesab yoxdur"
 
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:51
+msgid "No games yet"
+msgstr "Hələ oyun yoxdur"
+
 #: ../../../lib/web/src/features/access/access-dialog.tsx:241
 msgid "No groups available"
 msgstr "Mövcud qrup yoxdur"
@@ -973,6 +1025,7 @@ msgstr "Mövcud qrup yoxdur"
 msgid "No notifications yet"
 msgstr "Hələ bildiriş yoxdur"
 
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:336
 #: ../../../lib/web/src/components/person-picker.tsx:84
 msgid "No people found"
 msgstr "İnsan tapılmadı"
@@ -1035,7 +1088,7 @@ msgid "Notifications"
 msgstr "Bildirişlər"
 
 #. placeholder {0}: unread.length
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:86
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:111
 msgid "Notifications: {0}"
 msgstr "Bildirişlər: {0}"
 
@@ -1097,7 +1150,7 @@ msgstr "Giriş açarı"
 msgid "Passkey verification failed. Please try again."
 msgstr "Giriş açarının doğrulanması alınmadı. Zəhmət olmasa yenidən cəhd edin."
 
-#: ../../../lib/web/src/components/restore-banner.tsx:135
+#: ../../../lib/web/src/components/restore-banner.tsx:152
 msgid "Passkeys"
 msgstr "Passkey-lər"
 
@@ -1116,9 +1169,9 @@ msgid "Please log in with the appropriate credentials <0/> to access this resour
 msgstr "Bu resursa daxil olmaq üçün <0/> uyğun məlumatlarla daxil olun."
 
 #: ../../../lib/web/src/features/errors/general-error.tsx:83
-#: src/features/help/contribute-dialog.tsx:171
 #: src/features/help/contribute-dialog.tsx:180
-#: src/features/help/contribute-dialog.tsx:215
+#: src/features/help/contribute-dialog.tsx:189
+#: src/features/help/contribute-dialog.tsx:224
 msgid "Please try again."
 msgstr "Zəhmət olmasa yenidən cəhd edin."
 
@@ -1126,19 +1179,19 @@ msgstr "Zəhmət olmasa yenidən cəhd edin."
 msgid "Please wait a moment and try again."
 msgstr "Zəhmət olmasa, bir az gözləyin və yenidən cəhd edin."
 
-#: src/features/help/contribute-dialog.tsx:80
+#: src/features/help/contribute-dialog.tsx:88
 msgid "Post introduction"
 msgstr "Təqdimatı göndər"
 
-#: src/features/help/contribute-dialog.tsx:91
+#: src/features/help/contribute-dialog.tsx:99
 msgid "Post question"
 msgstr "Sualı göndər"
 
-#: src/features/help/contribute-dialog.tsx:208
+#: src/features/help/contribute-dialog.tsx:217
 msgid "Posted"
 msgstr "Paylaşıldı"
 
-#: src/features/help/contribute-dialog.tsx:360
+#: src/features/help/contribute-dialog.tsx:369
 msgid "Posting…"
 msgstr "Yerləşdirilir…"
 
@@ -1170,7 +1223,7 @@ msgstr "Layihə üzvləri"
 msgid "Push notification"
 msgstr "Push bildirişi"
 
-#: src/features/help/contribute-dialog.tsx:87
+#: src/features/help/contribute-dialog.tsx:95
 msgid "Question"
 msgstr "Sual"
 
@@ -1178,11 +1231,11 @@ msgstr "Sual"
 msgid "Raised"
 msgstr "Qabarıq"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:107
+#: ../../../lib/web/src/components/restore-banner.tsx:124
 msgid "Re-link your accounts on this server"
 msgstr "Bu serverdə hesablarınızı yenidən əlaqələndirin"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:129
+#: ../../../lib/web/src/components/restore-banner.tsx:146
 msgid "Re-register your passkeys on this server"
 msgstr "Bu serverdə giriş açarlarınızı yenidən qeydiyyatdan keçirin"
 
@@ -1243,12 +1296,16 @@ msgstr "Girişi silək?"
 msgid "Remove interest"
 msgstr "Marağı sil"
 
-#: src/features/help/contribute-dialog.tsx:96
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:671
+msgid "Remove item"
+msgstr "Elementi sil"
+
+#: src/features/help/contribute-dialog.tsx:104
 #: src/features/help/index.tsx:39
 msgid "Report a bug"
 msgstr "Səhv bildir"
 
-#: src/features/help/contribute-dialog.tsx:102
+#: src/features/help/contribute-dialog.tsx:110
 msgid "Report bug"
 msgstr "Səhv bildir"
 
@@ -1346,6 +1403,10 @@ msgstr "Axtarılır..."
 msgid "Select {0}"
 msgstr "{0} seçin"
 
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:37
+msgid "Select a game"
+msgstr "Oyun seç"
+
 #: ../../../lib/web/src/features/access/access-dialog.tsx:150
 msgid "Select a user, group, or other rule to grant access."
 msgstr "Giriş vermək üçün istifadəçi, qrup və ya başqa qayda seçin."
@@ -1390,6 +1451,11 @@ msgstr "Sayt istiqamətini seçin"
 msgid "Select theme preference"
 msgstr "Mövzu seçimini seçin"
 
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:252
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:335
+msgid "Select..."
+msgstr "Seçin..."
+
 #: ../../../lib/web/src/components/data-table/bulk-actions.tsx:216
 msgid "selected"
 msgstr "seçildi"
@@ -1406,6 +1472,11 @@ msgstr "Yenidən göndər"
 #: ../../../lib/web/src/components/step-up-dialog.tsx:307
 msgid "Send email"
 msgstr "E-poçt göndər"
+
+#: ../../../lib/web/src/components/game/game-chat-input.tsx:52
+#: ../../../lib/web/src/components/game/game-chat-input.tsx:61
+msgid "Send message"
+msgstr "Mesaj göndər"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:145
 msgid "Serif"
@@ -1438,7 +1509,7 @@ msgstr "Başlanğıc və təyinat nöqtəsini təyin et"
 msgid "Settings"
 msgstr "Parametrlər"
 
-#: src/features/help/contribute-dialog.tsx:110
+#: src/features/help/contribute-dialog.tsx:118
 msgid "Short title for your idea"
 msgstr "Fikriniz üçün qısa başlıq"
 
@@ -1486,7 +1557,7 @@ msgstr "Sınıq bir şey gördünüz? Mochi inkişaf layihəsində xəta bileti 
 msgid "Stay tuned though!"
 msgstr "Yenə də diqqətli olun!"
 
-#: src/features/help/contribute-dialog.tsx:101
+#: src/features/help/contribute-dialog.tsx:109
 msgid "Steps to reproduce, what you expected, and what actually happened. Include your browser and device if relevant."
 msgstr "Təkrarlamaq üçün addımlar, gözlədiyiniz və faktiki baş verən. Aidiyyəti varsa, brauzer və cihazınızı daxil edin."
 
@@ -1498,7 +1569,7 @@ msgstr "Bir şey ilə bağlı çətinlik çəkirsiniz? Mochi istifadəçilər po
 msgid "Subject"
 msgstr "Mövzu"
 
-#: src/features/help/contribute-dialog.tsx:265
+#: src/features/help/contribute-dialog.tsx:274
 msgid "Submitted successfully"
 msgstr "Uğurla göndərildi"
 
@@ -1507,17 +1578,17 @@ msgstr "Uğurla göndərildi"
 msgid "Subscribe"
 msgstr "Abunə ol"
 
-#: src/features/help/contribute-dialog.tsx:107
+#: src/features/help/contribute-dialog.tsx:115
 #: src/features/help/index.tsx:45
 msgid "Suggest a new feature"
 msgstr "Yeni funksiya təklif edin"
 
-#: src/features/help/contribute-dialog.tsx:113
+#: src/features/help/contribute-dialog.tsx:121
 msgid "Suggest feature"
 msgstr "Xüsusiyyət təklif edin"
 
-#: src/features/help/contribute-dialog.tsx:98
-#: src/features/help/contribute-dialog.tsx:109
+#: src/features/help/contribute-dialog.tsx:106
+#: src/features/help/contribute-dialog.tsx:117
 msgid "Summary"
 msgstr "Xülasə"
 
@@ -1549,7 +1620,7 @@ msgstr "Etiket 50 simvol və ya daha az olmalıdır"
 msgid "Tags"
 msgstr "Etiketlər"
 
-#: src/features/help/contribute-dialog.tsx:209
+#: src/features/help/contribute-dialog.tsx:218
 msgid "Taking you there now."
 msgstr "Sizi indi ora aparırıq."
 
@@ -1557,7 +1628,7 @@ msgstr "Sizi indi ora aparırıq."
 msgid "Teams/Apps"
 msgstr "Komandalar/Tətbiqlər"
 
-#: src/features/help/contribute-dialog.tsx:108
+#: src/features/help/contribute-dialog.tsx:116
 msgid "Tell the Mochi development team what you'd like Mochi to do."
 msgstr "Mochi-nin nə etməsini istədiyinizi Mochi inkişaf komandasına bildirin."
 
@@ -1650,7 +1721,7 @@ msgstr "Fərqli axtarış termini sınayın."
 #: ../../../lib/web/src/features/errors/general-error.tsx:140
 #: ../../../lib/web/src/features/errors/general-error.tsx:180
 #: ../../../lib/web/src/features/errors/maintenance-error.tsx:19
-#: src/features/help/contribute-dialog.tsx:294
+#: src/features/help/contribute-dialog.tsx:303
 msgid "Try again"
 msgstr "Çərşənbə axşamı"
 
@@ -1661,6 +1732,10 @@ msgstr "Əmr yazın və ya axtarın..."
 #: ../../../lib/web/src/components/command-menu.tsx:52
 msgid "Type a command or search..."
 msgstr "Mesaj yazın…"
+
+#: ../../../lib/web/src/components/game/game-chat-input.tsx:39
+msgid "Type a message…"
+msgstr "İstifadəçiləri axtarmaq üçün yazın"
 
 #: ../../../lib/web/src/features/access/access-dialog.tsx:191
 msgid "Type to search users"
@@ -1756,8 +1831,8 @@ msgstr "Bütün bildirişlərə bax"
 msgid "View all"
 msgstr "Bütün yazılara bax"
 
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:106
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:114
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:131
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:139
 msgid "View all notifications"
 msgstr "Element təfərrüatlarına baxın və redaktə edin"
 
@@ -1790,19 +1865,19 @@ msgstr "Digər wiki-lər bu wiki-ni replikasiya etdikdə burada görünəcəklə
 msgid "Welcome to Mochi. Here's how to get started."
 msgstr "Mochi-yə xoş gəlmisiniz. Necə başlamağın yolu budur."
 
-#: src/features/help/contribute-dialog.tsx:100
+#: src/features/help/contribute-dialog.tsx:108
 msgid "What happened"
 msgstr "Nə baş verdi"
 
-#: src/features/help/contribute-dialog.tsx:90
+#: src/features/help/contribute-dialog.tsx:98
 msgid "What have you tried, what did you expect, where are you stuck?"
 msgstr "Nə cəhd etmisiniz, nə gözləyirdiniz, harada ilişib qalmısınız?"
 
-#: src/features/help/contribute-dialog.tsx:112
+#: src/features/help/contribute-dialog.tsx:120
 msgid "What would it do, who is it for, why does it matter?"
 msgstr "Bu nə edəcək, kimin üçündür, niyə vacibdir?"
 
-#: src/features/help/contribute-dialog.tsx:88
+#: src/features/help/contribute-dialog.tsx:96
 msgid "What you want to ask, in one line"
 msgstr "Bir sətirdə nə soruşmaq istəyirsiniz"
 
@@ -1822,7 +1897,7 @@ msgstr "Aşağıdakı dəyərləri göndərdiniz:"
 msgid "You're all caught up!"
 msgstr "Hər şeyi oxudunuz!"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:91
+#: ../../../lib/web/src/components/restore-banner.tsx:106
 msgid "Your account was moved here from {source}. Until you delete it there, messages and notifications may reach both servers, some of your content keeps being served from the old server, and followers may take a few minutes to find you here."
 msgstr "Hesabınız {source} saytından buraya köçürüldü. Orada silənə qədər mesajlar və bildirişlər hər iki serverə çata bilər, bəzi məzmununuz köhnə serverdən təqdim edilməyə davam edər və izləyicilər sizi burada tapmaq üçün bir neçə dəqiqə gözləyə bilər."
 
@@ -1830,11 +1905,11 @@ msgstr "Hesabınız {source} saytından buraya köçürüldü. Orada silənə q�
 msgid "Your attachments will be lost."
 msgstr "Qoşmalarınız itiriləcək."
 
-#: src/features/help/contribute-dialog.tsx:81
+#: src/features/help/contribute-dialog.tsx:89
 msgid "Your introduction has been submitted and will appear after moderation."
 msgstr "Təqdimatınız göndərildi və moderasiyadan sonra görünəcək."
 
-#: src/features/help/contribute-dialog.tsx:92
+#: src/features/help/contribute-dialog.tsx:100
 msgid "Your question has been submitted and will appear after moderation."
 msgstr "Sualınız göndərildi və moderasiyadan sonra görünəcək."
 
@@ -1843,6 +1918,6 @@ msgid "Your text and attachments will be lost."
 msgstr "Mətniniz və qoşmalarınız itiriləcək."
 
 #: ../../../lib/web/src/components/comment-composer.tsx:292
-#: src/features/help/contribute-dialog.tsx:379
+#: src/features/help/contribute-dialog.tsx:388
 msgid "Your text will be lost."
 msgstr "Mətniniz itəcək."

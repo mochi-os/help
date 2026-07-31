@@ -36,6 +36,10 @@ msgstr "{entityLabel} کا نام"
 msgid "{entityLabel} name is required"
 msgstr "{entityLabel} کا نام ضروری ہے"
 
+#: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx:29
+msgid "{opponentName} offered a draw"
+msgstr "{opponentName} نے ڈرا کی پیشکش کی"
+
 #: ../../../lib/web/src/components/data-table/bulk-actions.tsx:210
 msgid "{selectedCount, plural, one {{entityName} selected} other {{manyName} selected}}"
 msgstr "{selectedCount, plural, one {{entityName} منتخب} other {{manyName} منتخب}}"
@@ -60,6 +64,11 @@ msgstr "{totalLabel} میں سے {sentLabel}"
 msgid "{unreadCount, plural, one {Open menu (# unread notification)} other {Open menu (# unread notifications)}}"
 msgstr "{unreadCount, plural, one {مینو کھولیں (# غیر پڑھی اطلاع)} other {مینو کھولیں (# غیر پڑھی اطلاعات)}}"
 
+#. placeholder {0}: countDeepChildren(object.id)
+#: ../../../lib/web/src/components/entity/entity-board-card.tsx:421
+msgid "+{0} nested"
+msgstr "+{0} نیسٹڈ"
+
 #: ../../../lib/web/src/lib/preference-utils.ts:42
 msgid "12 hours"
 msgstr "12 گھنٹے"
@@ -71,6 +80,10 @@ msgstr "24 گھنٹے"
 #: ../../../lib/web/src/lib/preference-utils.ts:51
 msgid "Absolute (date and time)"
 msgstr "مطلق (تاریخ اور وقت)"
+
+#: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx:45
+msgid "Accept"
+msgstr "قبول کریں"
 
 #: ../../../lib/web/src/features/errors/general-error.tsx:60
 msgid "Access denied"
@@ -100,12 +113,13 @@ msgstr "اکاؤنٹ کی قسم"
 msgid "Account verified"
 msgstr "اکاؤنٹ تصدیق شدہ"
 
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:717
 #: ../../../lib/web/src/features/access/access-dialog.tsx:332
 #: ../../../lib/web/src/features/accounts/account-add.tsx:196
 msgid "Add"
 msgstr "شامل کریں"
 
-#: src/features/help/contribute-dialog.tsx:326
+#: src/features/help/contribute-dialog.tsx:335
 msgid "Add a bit more detail."
 msgstr "تھوڑی مزید تفصیل شامل کریں۔"
 
@@ -125,6 +139,14 @@ msgstr "اکاؤنٹ شامل کریں"
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:297
 msgid "Add an account to receive notifications and use services."
 msgstr "نوٹیفکیشنز وصول کرنے اور سروسز استعمال کرنے کے لیے اکاؤنٹ شامل کریں۔"
+
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:687
+msgid "Add checklist item"
+msgstr "چیک لسٹ آئٹم شامل کریں"
+
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:705
+msgid "Add item..."
+msgstr "آئٹم شامل کریں..."
 
 #: ../../../lib/web/src/features/accounts/account-picker.tsx:102
 msgid "Add new account"
@@ -202,12 +224,12 @@ msgstr "بڑھتا ہوا"
 msgid "Ascending"
 msgstr "صعودی"
 
-#: src/features/help/contribute-dialog.tsx:85
+#: src/features/help/contribute-dialog.tsx:93
 #: src/features/help/index.tsx:33
 msgid "Ask a question"
 msgstr "سوال پوچھیں"
 
-#: src/features/help/contribute-dialog.tsx:86
+#: src/features/help/contribute-dialog.tsx:94
 msgid "Ask the community on the Mochi users mailing list. Be specific about what you've tried so far."
 msgstr "Mochi صارفین کی میلنگ لسٹ پر کمیونٹی سے پوچھیں۔ اب تک آپ نے کیا کوشش کی ہے، اس کے بارے میں واضح رہیں۔"
 
@@ -242,12 +264,17 @@ msgstr "گھر واپس جائیں"
 msgid "Banner"
 msgstr "بینر"
 
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:156
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:166
+msgid "Blocked navigation to untrusted link"
+msgstr "غیر بھروسہ مند لنک پر نیویگیشن مسدود"
+
 #: ../../../lib/web/src/components/post-tags.tsx:180
 #: ../../../lib/web/src/components/post-tags.tsx:192
 msgid "Boost interest"
 msgstr "دلچسپی بڑھائیں"
 
-#: src/features/help/contribute-dialog.tsx:99
+#: src/features/help/contribute-dialog.tsx:107
 msgid "Brief summary of the problem"
 msgstr "مسئلے کا مختصر خلاصہ"
 
@@ -255,7 +282,7 @@ msgstr "مسئلے کا مختصر خلاصہ"
 msgid "Browser notifications"
 msgstr "براؤزر نوٹیفکیشنز"
 
-#: src/features/help/contribute-dialog.tsx:103
+#: src/features/help/contribute-dialog.tsx:111
 msgid "Bug report submitted."
 msgstr "بگ رپورٹ جمع کرا دی گئی۔"
 
@@ -268,7 +295,7 @@ msgstr "بگ رپورٹ جمع کرا دی گئی۔"
 #: ../../../lib/web/src/features/access/access-list.tsx:268
 #: ../../../lib/web/src/features/accounts/account-add.tsx:188
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:91
-#: src/features/help/contribute-dialog.tsx:354
+#: src/features/help/contribute-dialog.tsx:363
 msgid "Cancel"
 msgstr "منسوخ کریں"
 
@@ -284,6 +311,10 @@ msgstr "نوٹیفکیشن کا زمرہ تبدیل کریں"
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:198
 msgid "Check \"All\" to see your past notifications."
 msgstr "اپنی پچھلی اطلاعات دیکھنے کے لیے \"سب\" منتخب کریں۔"
+
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:38
+msgid "Choose a game from the sidebar or start a new one."
+msgstr "سائڈ بار سے گیم منتخب کریں یا نئی شروع کریں۔"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:329
 msgid "Choose between default expanded, compact icon-only, or full layout mode"
@@ -341,7 +372,7 @@ msgstr "انتخاب صاف کریں (Escape)"
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:358
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:361
 #: ../../../lib/web/src/components/ui/sheet.tsx:79
-#: src/features/help/contribute-dialog.tsx:341
+#: src/features/help/contribute-dialog.tsx:350
 msgid "Close"
 msgstr "بند کریں"
 
@@ -440,7 +471,7 @@ msgstr "کاپی کریں"
 msgid "Could not load this document. Please try again later."
 msgstr "یہ دستاویز لوڈ نہیں ہو سکی۔ براہ کرم بعد میں دوبارہ کوشش کریں۔"
 
-#: src/features/help/contribute-dialog.tsx:282
+#: src/features/help/contribute-dialog.tsx:291
 msgid "Couldn't reach the destination yet"
 msgstr "ابھی منزل تک نہیں پہنچ سکے"
 
@@ -452,7 +483,7 @@ msgstr "کوڈ نہیں بھیجا جا سکا۔ براہ کرم دوبارہ ک
 msgid "Couldn't start re-authentication. Please try again."
 msgstr "دوبارہ تصدیق شروع نہیں کی جا سکی۔ براہ کرم دوبارہ کوشش کریں۔"
 
-#: src/features/help/contribute-dialog.tsx:214
+#: src/features/help/contribute-dialog.tsx:223
 msgid "Couldn't submit"
 msgstr "جمع نہیں ہو سکا"
 
@@ -495,6 +526,10 @@ msgstr "Dark موڈ"
 msgid "Data conflict"
 msgstr "ڈیٹا کا تصادم"
 
+#: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx:41
+msgid "Decline"
+msgstr "انکار کریں"
+
 #: ../../../lib/web/src/components/config-drawer.tsx:311
 msgid "Default"
 msgstr "ڈیفالٹ"
@@ -503,7 +538,7 @@ msgstr "ڈیفالٹ"
 msgid "Default AI account"
 msgstr "ڈیفالٹ AI اکاؤنٹ"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:99
+#: ../../../lib/web/src/components/restore-banner.tsx:115
 msgid "Delete your account on the old server"
 msgstr "پرانے سرور پر اپنا اکاؤنٹ حذف کریں"
 
@@ -515,7 +550,7 @@ msgstr "گھٹتا ہوا"
 msgid "Descending"
 msgstr "نزولی"
 
-#: src/features/help/contribute-dialog.tsx:97
+#: src/features/help/contribute-dialog.tsx:105
 msgid "Describe what went wrong. The Mochi development team will see it on the Mochi development project."
 msgstr "بیان کریں کہ کیا غلط ہوا۔ Mochi ڈیولپمنٹ ٹیم اسے Mochi ڈیولپمنٹ پروجیکٹ پر دیکھے گی۔"
 
@@ -523,8 +558,8 @@ msgstr "بیان کریں کہ کیا غلط ہوا۔ Mochi ڈیولپمنٹ ٹ�
 msgid "Description"
 msgstr "تفصیل"
 
-#: src/features/help/contribute-dialog.tsx:89
-#: src/features/help/contribute-dialog.tsx:111
+#: src/features/help/contribute-dialog.tsx:97
+#: src/features/help/contribute-dialog.tsx:119
 msgid "Details"
 msgstr "تفصیلات"
 
@@ -552,12 +587,12 @@ msgid "Directory"
 msgstr "ڈائریکٹری"
 
 #: ../../../lib/web/src/components/comment-composer.tsx:300
-#: src/features/help/contribute-dialog.tsx:381
+#: src/features/help/contribute-dialog.tsx:390
 msgid "Discard"
 msgstr "رد کریں"
 
 #: ../../../lib/web/src/components/comment-composer.tsx:298
-#: src/features/help/contribute-dialog.tsx:378
+#: src/features/help/contribute-dialog.tsx:387
 msgid "Discard draft?"
 msgstr "مسودہ رد کریں؟"
 
@@ -566,8 +601,8 @@ msgstr "مسودہ رد کریں؟"
 msgid "Disconnected"
 msgstr "منقطع"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:79
-#: ../../../lib/web/src/components/restore-banner.tsx:85
+#: ../../../lib/web/src/components/restore-banner.tsx:94
+#: ../../../lib/web/src/components/restore-banner.tsx:100
 msgid "Dismiss"
 msgstr "برخاست کریں"
 
@@ -664,7 +699,7 @@ msgstr "تصدیقی کوڈ بھیجنے میں ناکامی"
 msgid "Failed to update category"
 msgstr "زمرہ اپڈیٹ کرنے میں ناکامی"
 
-#: src/features/help/contribute-dialog.tsx:114
+#: src/features/help/contribute-dialog.tsx:122
 msgid "Feature request submitted."
 msgstr "فیچر کی درخواست جمع کرا دی گئی۔"
 
@@ -672,7 +707,7 @@ msgstr "فیچر کی درخواست جمع کرا دی گئی۔"
 msgid "Filter..."
 msgstr "فلٹر..."
 
-#: ../../../lib/web/src/components/restore-banner.tsx:88
+#: ../../../lib/web/src/components/restore-banner.tsx:103
 msgid "Finish moving your account"
 msgstr "اپنا اکاؤنٹ منتقل کرنا مکمل کریں"
 
@@ -719,7 +754,7 @@ msgstr "واپس جائیں"
 msgid "Go to first page"
 msgstr "پہلے صفحے پر جائیں"
 
-#: src/features/help/contribute-dialog.tsx:346
+#: src/features/help/contribute-dialog.tsx:355
 msgid "Go to forum"
 msgstr "فورم پر جائیں"
 
@@ -760,7 +795,7 @@ msgstr "گروپ: {0}"
 msgid "Help"
 msgstr "مدد"
 
-#: src/features/help/contribute-dialog.tsx:79
+#: src/features/help/contribute-dialog.tsx:87
 msgid "Hi, I'm…"
 msgstr "ہیلو، میں…"
 
@@ -812,10 +847,14 @@ msgstr "انسیٹ"
 msgid "Interests"
 msgstr "دلچسپیاں"
 
-#: src/features/help/contribute-dialog.tsx:78
+#: src/features/help/contribute-dialog.tsx:86
 #: src/features/help/index.tsx:27
 msgid "Introduce yourself"
 msgstr "اپنا تعارف کروائیں"
+
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:550
+msgid "Invalid date"
+msgstr "غلط تاریخ"
 
 #: ../../../lib/web/src/components/tag-input.tsx:38
 msgid "Invalid tag: letters, numbers, spaces, hyphens, and slashes only (max 50 chars)"
@@ -833,7 +872,7 @@ msgstr "ایسا لگتا ہے کہ جو صفحہ آپ تلاش کر رہے ہی
 msgid "Just now"
 msgstr "ابھی"
 
-#: src/features/help/contribute-dialog.tsx:380
+#: src/features/help/contribute-dialog.tsx:389
 msgid "Keep editing"
 msgstr "ترمیم جاری رکھیں"
 
@@ -875,7 +914,7 @@ msgstr "مواد لوڈ ہو رہا ہے…"
 
 #: ../../../lib/web/src/components/ui/load-more.tsx:35
 #: ../../../lib/web/src/features/document/document-page.tsx:90
-#: src/features/help/contribute-dialog.tsx:273
+#: src/features/help/contribute-dialog.tsx:282
 msgid "Loading..."
 msgstr "لوڈ ہو رہا ہے..."
 
@@ -905,8 +944,8 @@ msgstr "لاگ آؤٹ ہو رہا ہے…"
 msgid "Manage your connected accounts for notifications and services."
 msgstr "اطلاعات اور خدمات کے لیے اپنے منسلک اکاؤنٹس کا نظم کریں۔"
 
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:93
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:100
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:118
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:125
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:224
 msgid "Mark all as read"
 msgstr "سب کو پڑھا ہوا نشان زد کریں"
@@ -922,6 +961,10 @@ msgstr "درمیانہ"
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx:173
 msgid "Menu"
 msgstr "مینو"
+
+#: ../../../lib/web/src/components/game/game-chat-input.tsx:35
+msgid "Message"
+msgstr "پیغام"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:85
 msgid "Metric"
@@ -952,6 +995,11 @@ msgstr "نیٹ ورک کی خرابی"
 msgid "New"
 msgstr "نیا"
 
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:42
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:54
+msgid "New game"
+msgstr "نیا گیم"
+
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:392
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:397
 msgid "Next image"
@@ -965,6 +1013,10 @@ msgstr "کوئی access rules configure نہیں ہیں۔ یہ کنٹرول کر
 msgid "No connected accounts"
 msgstr "کوئی منسلک اکاؤنٹس نہیں"
 
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:51
+msgid "No games yet"
+msgstr "ابھی تک کوئی گیمز نہیں"
+
 #: ../../../lib/web/src/features/access/access-dialog.tsx:241
 msgid "No groups available"
 msgstr "کوئی گروپ دستیاب نہیں"
@@ -973,6 +1025,7 @@ msgstr "کوئی گروپ دستیاب نہیں"
 msgid "No notifications yet"
 msgstr "ابھی تک کوئی اطلاع نہیں"
 
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:336
 #: ../../../lib/web/src/components/person-picker.tsx:84
 msgid "No people found"
 msgstr "کوئی لوگ نہیں ملے"
@@ -1035,7 +1088,7 @@ msgid "Notifications"
 msgstr "notifications"
 
 #. placeholder {0}: unread.length
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:86
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:111
 msgid "Notifications: {0}"
 msgstr "اطلاعات: {0}"
 
@@ -1097,7 +1150,7 @@ msgstr "passkey"
 msgid "Passkey verification failed. Please try again."
 msgstr "پاس کی کی تصدیق ناکام ہو گئی۔ براہ کرم دوبارہ کوشش کریں۔"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:135
+#: ../../../lib/web/src/components/restore-banner.tsx:152
 msgid "Passkeys"
 msgstr "passkeys"
 
@@ -1116,9 +1169,9 @@ msgid "Please log in with the appropriate credentials <0/> to access this resour
 msgstr "اس وسیلے تک رسائی کے لیے <0/> براہ کرم مناسب اسناد کے ساتھ لاگ ان کریں۔"
 
 #: ../../../lib/web/src/features/errors/general-error.tsx:83
-#: src/features/help/contribute-dialog.tsx:171
 #: src/features/help/contribute-dialog.tsx:180
-#: src/features/help/contribute-dialog.tsx:215
+#: src/features/help/contribute-dialog.tsx:189
+#: src/features/help/contribute-dialog.tsx:224
 msgid "Please try again."
 msgstr "براہ کرم دوبارہ کوشش کریں۔"
 
@@ -1126,19 +1179,19 @@ msgstr "براہ کرم دوبارہ کوشش کریں۔"
 msgid "Please wait a moment and try again."
 msgstr "براہ کرم کچھ دیر انتظار کریں اور دوبارہ کوشش کریں۔"
 
-#: src/features/help/contribute-dialog.tsx:80
+#: src/features/help/contribute-dialog.tsx:88
 msgid "Post introduction"
 msgstr "تعارف پوسٹ کریں"
 
-#: src/features/help/contribute-dialog.tsx:91
+#: src/features/help/contribute-dialog.tsx:99
 msgid "Post question"
 msgstr "سوال پوسٹ کریں"
 
-#: src/features/help/contribute-dialog.tsx:208
+#: src/features/help/contribute-dialog.tsx:217
 msgid "Posted"
 msgstr "پوسٹ ہو گیا"
 
-#: src/features/help/contribute-dialog.tsx:360
+#: src/features/help/contribute-dialog.tsx:369
 msgid "Posting…"
 msgstr "پوسٹ ہو رہی ہے…"
 
@@ -1170,7 +1223,7 @@ msgstr "پروجیکٹ ممبران"
 msgid "Push notification"
 msgstr "پش اطلاع"
 
-#: src/features/help/contribute-dialog.tsx:87
+#: src/features/help/contribute-dialog.tsx:95
 msgid "Question"
 msgstr "سوال"
 
@@ -1178,11 +1231,11 @@ msgstr "سوال"
 msgid "Raised"
 msgstr "ابھرا ہوا"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:107
+#: ../../../lib/web/src/components/restore-banner.tsx:124
 msgid "Re-link your accounts on this server"
 msgstr "اس سرور پر اپنے اکاؤنٹس دوبارہ لنک کریں"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:129
+#: ../../../lib/web/src/components/restore-banner.tsx:146
 msgid "Re-register your passkeys on this server"
 msgstr "اس سرور پر اپنی پاس کیز دوبارہ رجسٹر کریں"
 
@@ -1243,12 +1296,16 @@ msgstr "رسائی ہٹائیں؟"
 msgid "Remove interest"
 msgstr "دلچسپی ہٹائیں"
 
-#: src/features/help/contribute-dialog.tsx:96
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:671
+msgid "Remove item"
+msgstr "item ہٹائیں"
+
+#: src/features/help/contribute-dialog.tsx:104
 #: src/features/help/index.tsx:39
 msgid "Report a bug"
 msgstr "بگ رپورٹ کریں"
 
-#: src/features/help/contribute-dialog.tsx:102
+#: src/features/help/contribute-dialog.tsx:110
 msgid "Report bug"
 msgstr "بگ رپورٹ"
 
@@ -1346,6 +1403,10 @@ msgstr "تلاش کیا جا رہا ہے..."
 msgid "Select {0}"
 msgstr "{0} منتخب کریں"
 
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:37
+msgid "Select a game"
+msgstr "گیم منتخب کریں"
+
 #: ../../../lib/web/src/features/access/access-dialog.tsx:150
 msgid "Select a user, group, or other rule to grant access."
 msgstr "رسائی دینے کے لیے صارف، گروپ، یا کوئی اور قاعدہ منتخب کریں۔"
@@ -1390,6 +1451,11 @@ msgstr "سائٹ کی سمت منتخب کریں"
 msgid "Select theme preference"
 msgstr "تھیم کی ترجیح منتخب کریں"
 
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:252
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:335
+msgid "Select..."
+msgstr "منتخب کریں..."
+
 #: ../../../lib/web/src/components/data-table/bulk-actions.tsx:216
 msgid "selected"
 msgstr "منتخب"
@@ -1406,6 +1472,11 @@ msgstr "دوبارہ بھیجیں"
 #: ../../../lib/web/src/components/step-up-dialog.tsx:307
 msgid "Send email"
 msgstr "ای میل بھیجیں"
+
+#: ../../../lib/web/src/components/game/game-chat-input.tsx:52
+#: ../../../lib/web/src/components/game/game-chat-input.tsx:61
+msgid "Send message"
+msgstr "پیغام بھیجیں"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:145
 msgid "Serif"
@@ -1438,7 +1509,7 @@ msgstr "ابتدائی مقام اور منزل مقرر کریں"
 msgid "Settings"
 msgstr "سیٹنگز"
 
-#: src/features/help/contribute-dialog.tsx:110
+#: src/features/help/contribute-dialog.tsx:118
 msgid "Short title for your idea"
 msgstr "اپنے خیال کا مختصر عنوان"
 
@@ -1486,7 +1557,7 @@ msgstr "کچھ خراب دیکھا؟ Mochi ڈویلپمنٹ پروجیکٹ پر 
 msgid "Stay tuned though!"
 msgstr "البتہ منتظر رہیں!"
 
-#: src/features/help/contribute-dialog.tsx:101
+#: src/features/help/contribute-dialog.tsx:109
 msgid "Steps to reproduce, what you expected, and what actually happened. Include your browser and device if relevant."
 msgstr "دہرانے کے اقدامات، آپ کو کیا توقع تھی، اور اصل میں کیا ہوا۔ اگر متعلقہ ہو تو اپنا براؤزر اور آلہ بھی شامل کریں۔"
 
@@ -1498,7 +1569,7 @@ msgstr "کسی چیز پر اٹکے ہوئے ہیں؟ Mochi صارفین کی م
 msgid "Subject"
 msgstr "موضوع"
 
-#: src/features/help/contribute-dialog.tsx:265
+#: src/features/help/contribute-dialog.tsx:274
 msgid "Submitted successfully"
 msgstr "کامیابی سے جمع کرا دیا گیا"
 
@@ -1507,17 +1578,17 @@ msgstr "کامیابی سے جمع کرا دیا گیا"
 msgid "Subscribe"
 msgstr "سبسکرائب کریں"
 
-#: src/features/help/contribute-dialog.tsx:107
+#: src/features/help/contribute-dialog.tsx:115
 #: src/features/help/index.tsx:45
 msgid "Suggest a new feature"
 msgstr "نیا فیچر تجویز کریں"
 
-#: src/features/help/contribute-dialog.tsx:113
+#: src/features/help/contribute-dialog.tsx:121
 msgid "Suggest feature"
 msgstr "فیچر تجویز کریں"
 
-#: src/features/help/contribute-dialog.tsx:98
-#: src/features/help/contribute-dialog.tsx:109
+#: src/features/help/contribute-dialog.tsx:106
+#: src/features/help/contribute-dialog.tsx:117
 msgid "Summary"
 msgstr "خلاصہ"
 
@@ -1549,7 +1620,7 @@ msgstr "ٹیگ 50 حروف یا اس سے کم ہونا چاہیے"
 msgid "Tags"
 msgstr "ٹیگز"
 
-#: src/features/help/contribute-dialog.tsx:209
+#: src/features/help/contribute-dialog.tsx:218
 msgid "Taking you there now."
 msgstr "آپ کو ابھی وہاں لے جا رہے ہیں۔"
 
@@ -1557,7 +1628,7 @@ msgstr "آپ کو ابھی وہاں لے جا رہے ہیں۔"
 msgid "Teams/Apps"
 msgstr "ٹیمز/ایپس"
 
-#: src/features/help/contribute-dialog.tsx:108
+#: src/features/help/contribute-dialog.tsx:116
 msgid "Tell the Mochi development team what you'd like Mochi to do."
 msgstr "Mochi ڈیولپمنٹ ٹیم کو بتائیں کہ آپ Mochi سے کیا کرانا چاہتے ہیں۔"
 
@@ -1650,7 +1721,7 @@ msgstr "اپنی تلاش کی اصطلاحات کو ایڈجسٹ کرنے کی 
 #: ../../../lib/web/src/features/errors/general-error.tsx:140
 #: ../../../lib/web/src/features/errors/general-error.tsx:180
 #: ../../../lib/web/src/features/errors/maintenance-error.tsx:19
-#: src/features/help/contribute-dialog.tsx:294
+#: src/features/help/contribute-dialog.tsx:303
 msgid "Try again"
 msgstr "دوبارہ کوشش کریں"
 
@@ -1661,6 +1732,10 @@ msgstr "منگل"
 #: ../../../lib/web/src/components/command-menu.tsx:52
 msgid "Type a command or search..."
 msgstr "کمانڈ ٹائپ کریں یا تلاش کریں..."
+
+#: ../../../lib/web/src/components/game/game-chat-input.tsx:39
+msgid "Type a message…"
+msgstr "پیغام ٹائپ کریں…"
 
 #: ../../../lib/web/src/features/access/access-dialog.tsx:191
 msgid "Type to search users"
@@ -1756,8 +1831,8 @@ msgstr "دیکھیں"
 msgid "View all"
 msgstr "سب دیکھیں"
 
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:106
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:114
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:131
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:139
 msgid "View all notifications"
 msgstr "تمام نوٹیفکیشنز دیکھیں"
 
@@ -1790,19 +1865,19 @@ msgstr "بدھ"
 msgid "Welcome to Mochi. Here's how to get started."
 msgstr "Mochi میں خوش آمدید۔ شروعات کرنے کا طریقہ یہ ہے۔"
 
-#: src/features/help/contribute-dialog.tsx:100
+#: src/features/help/contribute-dialog.tsx:108
 msgid "What happened"
 msgstr "کیا ہوا"
 
-#: src/features/help/contribute-dialog.tsx:90
+#: src/features/help/contribute-dialog.tsx:98
 msgid "What have you tried, what did you expect, where are you stuck?"
 msgstr "آپ نے کیا آزمایا، کیا توقع تھی، کہاں اٹکے ہوئے ہیں؟"
 
-#: src/features/help/contribute-dialog.tsx:112
+#: src/features/help/contribute-dialog.tsx:120
 msgid "What would it do, who is it for, why does it matter?"
 msgstr "یہ کیا کرے گا، کس کے لیے ہے، یہ کیوں اہم ہے؟"
 
-#: src/features/help/contribute-dialog.tsx:88
+#: src/features/help/contribute-dialog.tsx:96
 msgid "What you want to ask, in one line"
 msgstr "آپ کیا پوچھنا چاہتے ہیں، ایک لائن میں"
 
@@ -1822,7 +1897,7 @@ msgstr "آپ نے درج ذیل اقدار جمع کیں:"
 msgid "You're all caught up!"
 msgstr "آپ نے سب دیکھ لیا!"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:91
+#: ../../../lib/web/src/components/restore-banner.tsx:106
 msgid "Your account was moved here from {source}. Until you delete it there, messages and notifications may reach both servers, some of your content keeps being served from the old server, and followers may take a few minutes to find you here."
 msgstr "آپ کا اکاؤنٹ {source} سے یہاں منتقل کر دیا گیا ہے۔ جب تک آپ اسے وہاں سے حذف نہیں کرتے، پیغامات اور اطلاعات دونوں سرورز تک پہنچ سکتی ہیں، آپ کے کچھ مواد پرانے سرور سے فراہم ہوتے رہیں گے، اور فالوورز کو آپ کو یہاں تلاش کرنے میں چند منٹ لگ سکتے ہیں۔"
 
@@ -1830,11 +1905,11 @@ msgstr "آپ کا اکاؤنٹ {source} سے یہاں منتقل کر دیا گ�
 msgid "Your attachments will be lost."
 msgstr "آپ کے منسلکات ضائع ہو جائیں گے۔"
 
-#: src/features/help/contribute-dialog.tsx:81
+#: src/features/help/contribute-dialog.tsx:89
 msgid "Your introduction has been submitted and will appear after moderation."
 msgstr "آپ کا تعارف جمع کرا دیا گیا ہے اور نگرانی کے بعد ظاہر ہوگا۔"
 
-#: src/features/help/contribute-dialog.tsx:92
+#: src/features/help/contribute-dialog.tsx:100
 msgid "Your question has been submitted and will appear after moderation."
 msgstr "آپ کا سوال جمع کرا دیا گیا ہے اور نگرانی کے بعد ظاہر ہوگا۔"
 
@@ -1843,6 +1918,6 @@ msgid "Your text and attachments will be lost."
 msgstr "آپ کا متن اور منسلکات ضائع ہو جائیں گے۔"
 
 #: ../../../lib/web/src/components/comment-composer.tsx:292
-#: src/features/help/contribute-dialog.tsx:379
+#: src/features/help/contribute-dialog.tsx:388
 msgid "Your text will be lost."
 msgstr "آپ کا متن ضائع ہو جائے گا۔"

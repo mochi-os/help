@@ -36,6 +36,10 @@ msgstr "{entityLabel}-namn"
 msgid "{entityLabel} name is required"
 msgstr "{entityLabel}-namn er påkravd"
 
+#: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx:29
+msgid "{opponentName} offered a draw"
+msgstr "{opponentName} tilbaud uavgjort"
+
 #: ../../../lib/web/src/components/data-table/bulk-actions.tsx:210
 msgid "{selectedCount, plural, one {{entityName} selected} other {{manyName} selected}}"
 msgstr "{selectedCount, plural, one {{entityName} vald} other {{manyName} valde}}"
@@ -60,6 +64,11 @@ msgstr "{sentLabel} av {totalLabel}"
 msgid "{unreadCount, plural, one {Open menu (# unread notification)} other {Open menu (# unread notifications)}}"
 msgstr "{unreadCount, plural, one {Opne meny (# ulese varsel)} other {Opne meny (# ulesne varsel)}}"
 
+#. placeholder {0}: countDeepChildren(object.id)
+#: ../../../lib/web/src/components/entity/entity-board-card.tsx:421
+msgid "+{0} nested"
+msgstr "+{0} nesta"
+
 #: ../../../lib/web/src/lib/preference-utils.ts:42
 msgid "12 hours"
 msgstr "12 timar"
@@ -71,6 +80,10 @@ msgstr "24 timar"
 #: ../../../lib/web/src/lib/preference-utils.ts:51
 msgid "Absolute (date and time)"
 msgstr "Absolutt (dato og tid)"
+
+#: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx:45
+msgid "Accept"
+msgstr "Godta"
 
 #: ../../../lib/web/src/features/errors/general-error.tsx:60
 msgid "Access denied"
@@ -100,12 +113,13 @@ msgstr "Kontotype"
 msgid "Account verified"
 msgstr "Konto stadfesta"
 
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:717
 #: ../../../lib/web/src/features/access/access-dialog.tsx:332
 #: ../../../lib/web/src/features/accounts/account-add.tsx:196
 msgid "Add"
 msgstr "Legg til"
 
-#: src/features/help/contribute-dialog.tsx:326
+#: src/features/help/contribute-dialog.tsx:335
 msgid "Add a bit more detail."
 msgstr "Legg til litt fleire detaljar."
 
@@ -125,6 +139,14 @@ msgstr "Legg til konto"
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:297
 msgid "Add an account to receive notifications and use services."
 msgstr "Legg til ein konto for å motta varsel og bruke tenester."
+
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:687
+msgid "Add checklist item"
+msgstr "Legg til sjekklisteelement"
+
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:705
+msgid "Add item..."
+msgstr "Legg til element..."
 
 #: ../../../lib/web/src/features/accounts/account-picker.tsx:102
 msgid "Add new account"
@@ -202,12 +224,12 @@ msgstr "Stig"
 msgid "Ascending"
 msgstr "Stigande"
 
-#: src/features/help/contribute-dialog.tsx:85
+#: src/features/help/contribute-dialog.tsx:93
 #: src/features/help/index.tsx:33
 msgid "Ask a question"
 msgstr "Still eit spørsmål"
 
-#: src/features/help/contribute-dialog.tsx:86
+#: src/features/help/contribute-dialog.tsx:94
 msgid "Ask the community on the Mochi users mailing list. Be specific about what you've tried so far."
 msgstr "Spør fellesskapet på e-postlista for Mochi-brukarar. Ver konkret om kva du har prøvd så langt."
 
@@ -242,12 +264,17 @@ msgstr "Tilbake til start"
 msgid "Banner"
 msgstr "Banner"
 
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:156
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:166
+msgid "Blocked navigation to untrusted link"
+msgstr "Blokkerte navigering til ei ikkje-tiltrudd lenkje"
+
 #: ../../../lib/web/src/components/post-tags.tsx:180
 #: ../../../lib/web/src/components/post-tags.tsx:192
 msgid "Boost interest"
 msgstr "Auk interesse"
 
-#: src/features/help/contribute-dialog.tsx:99
+#: src/features/help/contribute-dialog.tsx:107
 msgid "Brief summary of the problem"
 msgstr "Kort samandrag av problemet"
 
@@ -255,7 +282,7 @@ msgstr "Kort samandrag av problemet"
 msgid "Browser notifications"
 msgstr "Nettlesarvarsel"
 
-#: src/features/help/contribute-dialog.tsx:103
+#: src/features/help/contribute-dialog.tsx:111
 msgid "Bug report submitted."
 msgstr "Feilrapporten er sendt inn."
 
@@ -268,7 +295,7 @@ msgstr "Feilrapporten er sendt inn."
 #: ../../../lib/web/src/features/access/access-list.tsx:268
 #: ../../../lib/web/src/features/accounts/account-add.tsx:188
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:91
-#: src/features/help/contribute-dialog.tsx:354
+#: src/features/help/contribute-dialog.tsx:363
 msgid "Cancel"
 msgstr "Avbryt"
 
@@ -284,6 +311,10 @@ msgstr "Endre varselkategori"
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:198
 msgid "Check \"All\" to see your past notifications."
 msgstr "Vel «Alle» for å sjå tidlegare varsel."
+
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:38
+msgid "Choose a game from the sidebar or start a new one."
+msgstr "Vel eit spel frå sidestolpen eller start eit nytt."
 
 #: ../../../lib/web/src/components/config-drawer.tsx:329
 msgid "Choose between default expanded, compact icon-only, or full layout mode"
@@ -341,7 +372,7 @@ msgstr "Tøm utval (Escape)"
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:358
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:361
 #: ../../../lib/web/src/components/ui/sheet.tsx:79
-#: src/features/help/contribute-dialog.tsx:341
+#: src/features/help/contribute-dialog.tsx:350
 msgid "Close"
 msgstr "Lat att"
 
@@ -440,7 +471,7 @@ msgstr "Kopier"
 msgid "Could not load this document. Please try again later."
 msgstr "Kunne ikkje lasta dette dokumentet. Prøv igjen seinare."
 
-#: src/features/help/contribute-dialog.tsx:282
+#: src/features/help/contribute-dialog.tsx:291
 msgid "Couldn't reach the destination yet"
 msgstr "Nådde ikkje målet enno"
 
@@ -452,7 +483,7 @@ msgstr "Klarte ikkje å sende koden. Prøv igjen."
 msgid "Couldn't start re-authentication. Please try again."
 msgstr "Klarte ikkje å starte ny autentisering. Prøv igjen."
 
-#: src/features/help/contribute-dialog.tsx:214
+#: src/features/help/contribute-dialog.tsx:223
 msgid "Couldn't submit"
 msgstr "Klarte ikkje å sende inn"
 
@@ -495,6 +526,10 @@ msgstr "Mørk modus"
 msgid "Data conflict"
 msgstr "Datakonflikt"
 
+#: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx:41
+msgid "Decline"
+msgstr "Avslå"
+
 #: ../../../lib/web/src/components/config-drawer.tsx:311
 msgid "Default"
 msgstr "Standard"
@@ -503,7 +538,7 @@ msgstr "Standard"
 msgid "Default AI account"
 msgstr "Standard KI-konto"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:99
+#: ../../../lib/web/src/components/restore-banner.tsx:115
 msgid "Delete your account on the old server"
 msgstr "Slett kontoen din på den gamle tenaren"
 
@@ -515,7 +550,7 @@ msgstr "Sink"
 msgid "Descending"
 msgstr "Fallande"
 
-#: src/features/help/contribute-dialog.tsx:97
+#: src/features/help/contribute-dialog.tsx:105
 msgid "Describe what went wrong. The Mochi development team will see it on the Mochi development project."
 msgstr "Skildr kva som gjekk gale. Utviklingsteamet til Mochi ser det på Mochi-utviklingsprosjektet."
 
@@ -523,8 +558,8 @@ msgstr "Skildr kva som gjekk gale. Utviklingsteamet til Mochi ser det på Mochi-
 msgid "Description"
 msgstr "Skildring"
 
-#: src/features/help/contribute-dialog.tsx:89
-#: src/features/help/contribute-dialog.tsx:111
+#: src/features/help/contribute-dialog.tsx:97
+#: src/features/help/contribute-dialog.tsx:119
 msgid "Details"
 msgstr "Detaljar"
 
@@ -552,12 +587,12 @@ msgid "Directory"
 msgstr "Katalog"
 
 #: ../../../lib/web/src/components/comment-composer.tsx:300
-#: src/features/help/contribute-dialog.tsx:381
+#: src/features/help/contribute-dialog.tsx:390
 msgid "Discard"
 msgstr "Forkast"
 
 #: ../../../lib/web/src/components/comment-composer.tsx:298
-#: src/features/help/contribute-dialog.tsx:378
+#: src/features/help/contribute-dialog.tsx:387
 msgid "Discard draft?"
 msgstr "Vil du forkaste utkastet?"
 
@@ -566,8 +601,8 @@ msgstr "Vil du forkaste utkastet?"
 msgid "Disconnected"
 msgstr "Fråkopla"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:79
-#: ../../../lib/web/src/components/restore-banner.tsx:85
+#: ../../../lib/web/src/components/restore-banner.tsx:94
+#: ../../../lib/web/src/components/restore-banner.tsx:100
 msgid "Dismiss"
 msgstr "Avvis"
 
@@ -664,7 +699,7 @@ msgstr "Klarte ikkje senda stadfestingskode"
 msgid "Failed to update category"
 msgstr "Klarte ikkje oppdatera kategori"
 
-#: src/features/help/contribute-dialog.tsx:114
+#: src/features/help/contribute-dialog.tsx:122
 msgid "Feature request submitted."
 msgstr "Funksjonsønsket er sendt inn."
 
@@ -672,7 +707,7 @@ msgstr "Funksjonsønsket er sendt inn."
 msgid "Filter..."
 msgstr "Filtrer..."
 
-#: ../../../lib/web/src/components/restore-banner.tsx:88
+#: ../../../lib/web/src/components/restore-banner.tsx:103
 msgid "Finish moving your account"
 msgstr "Fullfør flyttinga av kontoen din"
 
@@ -719,7 +754,7 @@ msgstr "Gå tilbake"
 msgid "Go to first page"
 msgstr "Gå til første side"
 
-#: src/features/help/contribute-dialog.tsx:346
+#: src/features/help/contribute-dialog.tsx:355
 msgid "Go to forum"
 msgstr "Gå til forumet"
 
@@ -760,7 +795,7 @@ msgstr "Gruppe: {0}"
 msgid "Help"
 msgstr "Hjelp"
 
-#: src/features/help/contribute-dialog.tsx:79
+#: src/features/help/contribute-dialog.tsx:87
 msgid "Hi, I'm…"
 msgstr "Hei, eg er…"
 
@@ -812,10 +847,14 @@ msgstr "Innfelt"
 msgid "Interests"
 msgstr "Interesser"
 
-#: src/features/help/contribute-dialog.tsx:78
+#: src/features/help/contribute-dialog.tsx:86
 #: src/features/help/index.tsx:27
 msgid "Introduce yourself"
 msgstr "Presenter deg"
+
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:550
+msgid "Invalid date"
+msgstr "Ugyldig dato"
 
 #: ../../../lib/web/src/components/tag-input.tsx:38
 msgid "Invalid tag: letters, numbers, spaces, hyphens, and slashes only (max 50 chars)"
@@ -833,7 +872,7 @@ msgstr "Det ser ut til at sida du leitar etter <0/>ikkje finst eller er fjerna."
 msgid "Just now"
 msgstr "Nettopp no"
 
-#: src/features/help/contribute-dialog.tsx:380
+#: src/features/help/contribute-dialog.tsx:389
 msgid "Keep editing"
 msgstr "Hald fram med å redigere"
 
@@ -875,7 +914,7 @@ msgstr "Lastar inn innhald…"
 
 #: ../../../lib/web/src/components/ui/load-more.tsx:35
 #: ../../../lib/web/src/features/document/document-page.tsx:90
-#: src/features/help/contribute-dialog.tsx:273
+#: src/features/help/contribute-dialog.tsx:282
 msgid "Loading..."
 msgstr "Lastar..."
 
@@ -905,8 +944,8 @@ msgstr "Loggar ut…"
 msgid "Manage your connected accounts for notifications and services."
 msgstr "Administrer dei tilkopla kontoane dine for varsel og tenester."
 
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:93
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:100
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:118
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:125
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:224
 msgid "Mark all as read"
 msgstr "Merk alle som lesne"
@@ -922,6 +961,10 @@ msgstr "Medium"
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx:173
 msgid "Menu"
 msgstr "Meny"
+
+#: ../../../lib/web/src/components/game/game-chat-input.tsx:35
+msgid "Message"
+msgstr "Melding"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:85
 msgid "Metric"
@@ -952,6 +995,11 @@ msgstr "Nettverksfeil"
 msgid "New"
 msgstr "Ny"
 
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:42
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:54
+msgid "New game"
+msgstr "Nytt spel"
+
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:392
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:397
 msgid "Next image"
@@ -965,6 +1013,10 @@ msgstr "Ingen tilgangsreglar er sette opp. Legg til reglar for å styra kven som
 msgid "No connected accounts"
 msgstr "Ingen tilkopla kontoar"
 
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:51
+msgid "No games yet"
+msgstr "Ingen spel enno"
+
 #: ../../../lib/web/src/features/access/access-dialog.tsx:241
 msgid "No groups available"
 msgstr "Ingen grupper tilgjengelege"
@@ -973,6 +1025,7 @@ msgstr "Ingen grupper tilgjengelege"
 msgid "No notifications yet"
 msgstr "Ingen varsel enno"
 
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:336
 #: ../../../lib/web/src/components/person-picker.tsx:84
 msgid "No people found"
 msgstr "Ingen personar funne"
@@ -1035,7 +1088,7 @@ msgid "Notifications"
 msgstr "Varsel"
 
 #. placeholder {0}: unread.length
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:86
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:111
 msgid "Notifications: {0}"
 msgstr "Varsel: {0}"
 
@@ -1097,7 +1150,7 @@ msgstr "Nykel"
 msgid "Passkey verification failed. Please try again."
 msgstr "Stadfesting av tilgangsnøkkelen feila. Prøv igjen."
 
-#: ../../../lib/web/src/components/restore-banner.tsx:135
+#: ../../../lib/web/src/components/restore-banner.tsx:152
 msgid "Passkeys"
 msgstr "Tilgangsnøklar"
 
@@ -1116,9 +1169,9 @@ msgid "Please log in with the appropriate credentials <0/> to access this resour
 msgstr "Logg inn med rett legitimasjon <0/> for å få tilgang til denne ressursen."
 
 #: ../../../lib/web/src/features/errors/general-error.tsx:83
-#: src/features/help/contribute-dialog.tsx:171
 #: src/features/help/contribute-dialog.tsx:180
-#: src/features/help/contribute-dialog.tsx:215
+#: src/features/help/contribute-dialog.tsx:189
+#: src/features/help/contribute-dialog.tsx:224
 msgid "Please try again."
 msgstr "Prøv igjen."
 
@@ -1126,19 +1179,19 @@ msgstr "Prøv igjen."
 msgid "Please wait a moment and try again."
 msgstr "Vent eit augeblink og prøv igjen."
 
-#: src/features/help/contribute-dialog.tsx:80
+#: src/features/help/contribute-dialog.tsx:88
 msgid "Post introduction"
 msgstr "Publiser presentasjonen"
 
-#: src/features/help/contribute-dialog.tsx:91
+#: src/features/help/contribute-dialog.tsx:99
 msgid "Post question"
 msgstr "Publiser spørsmålet"
 
-#: src/features/help/contribute-dialog.tsx:208
+#: src/features/help/contribute-dialog.tsx:217
 msgid "Posted"
 msgstr "Publisert"
 
-#: src/features/help/contribute-dialog.tsx:360
+#: src/features/help/contribute-dialog.tsx:369
 msgid "Posting…"
 msgstr "Skriv inn…"
 
@@ -1170,7 +1223,7 @@ msgstr "Prosjektmedlemmer"
 msgid "Push notification"
 msgstr "Push-varsel"
 
-#: src/features/help/contribute-dialog.tsx:87
+#: src/features/help/contribute-dialog.tsx:95
 msgid "Question"
 msgstr "Spørsmål"
 
@@ -1178,11 +1231,11 @@ msgstr "Spørsmål"
 msgid "Raised"
 msgstr "Heva"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:107
+#: ../../../lib/web/src/components/restore-banner.tsx:124
 msgid "Re-link your accounts on this server"
 msgstr "Kople kontoane dine til denne tenaren på nytt"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:129
+#: ../../../lib/web/src/components/restore-banner.tsx:146
 msgid "Re-register your passkeys on this server"
 msgstr "Registrer tilgangsnøklane dine på nytt på denne tenaren"
 
@@ -1243,12 +1296,16 @@ msgstr "Fjern tilgang?"
 msgid "Remove interest"
 msgstr "Fjern interesse"
 
-#: src/features/help/contribute-dialog.tsx:96
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:671
+msgid "Remove item"
+msgstr "Fjern element"
+
+#: src/features/help/contribute-dialog.tsx:104
 #: src/features/help/index.tsx:39
 msgid "Report a bug"
 msgstr "Meld ein feil"
 
-#: src/features/help/contribute-dialog.tsx:102
+#: src/features/help/contribute-dialog.tsx:110
 msgid "Report bug"
 msgstr "Meld feil"
 
@@ -1346,6 +1403,10 @@ msgstr "Søkjer..."
 msgid "Select {0}"
 msgstr "Vel {0}"
 
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:37
+msgid "Select a game"
+msgstr "Vel eit spel"
+
 #: ../../../lib/web/src/features/access/access-dialog.tsx:150
 msgid "Select a user, group, or other rule to grant access."
 msgstr "Vel ein brukar, gruppe eller annan regel for å gje tilgang."
@@ -1390,6 +1451,11 @@ msgstr "Vel sideretning"
 msgid "Select theme preference"
 msgstr "Vel temapreferanse"
 
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:252
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:335
+msgid "Select..."
+msgstr "Vel..."
+
 #: ../../../lib/web/src/components/data-table/bulk-actions.tsx:216
 msgid "selected"
 msgstr "valde"
@@ -1406,6 +1472,11 @@ msgstr "Send igjen"
 #: ../../../lib/web/src/components/step-up-dialog.tsx:307
 msgid "Send email"
 msgstr "Send e-post"
+
+#: ../../../lib/web/src/components/game/game-chat-input.tsx:52
+#: ../../../lib/web/src/components/game/game-chat-input.tsx:61
+msgid "Send message"
+msgstr "Send melding"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:145
 msgid "Serif"
@@ -1438,7 +1509,7 @@ msgstr "Set opphav og mål"
 msgid "Settings"
 msgstr "Innstillingar"
 
-#: src/features/help/contribute-dialog.tsx:110
+#: src/features/help/contribute-dialog.tsx:118
 msgid "Short title for your idea"
 msgstr "Kort tittel på idéen din"
 
@@ -1486,7 +1557,7 @@ msgstr "Har du oppdaga noko som er øydelagt? Opprett ein feilsak på Mochi-utvi
 msgid "Stay tuned though!"
 msgstr "Følg med likevel!"
 
-#: src/features/help/contribute-dialog.tsx:101
+#: src/features/help/contribute-dialog.tsx:109
 msgid "Steps to reproduce, what you expected, and what actually happened. Include your browser and device if relevant."
 msgstr "Steg for å gjenskape, kva du venta, og kva som faktisk skjedde. Ta med nettlesar og eining dersom det er relevant."
 
@@ -1498,7 +1569,7 @@ msgstr "Står du fast? Spør fellesskapet på e-postlista for Mochi-brukarar."
 msgid "Subject"
 msgstr "Emne"
 
-#: src/features/help/contribute-dialog.tsx:265
+#: src/features/help/contribute-dialog.tsx:274
 msgid "Submitted successfully"
 msgstr "Sendt inn"
 
@@ -1507,17 +1578,17 @@ msgstr "Sendt inn"
 msgid "Subscribe"
 msgstr "Abonner"
 
-#: src/features/help/contribute-dialog.tsx:107
+#: src/features/help/contribute-dialog.tsx:115
 #: src/features/help/index.tsx:45
 msgid "Suggest a new feature"
 msgstr "Føreslå ein ny funksjon"
 
-#: src/features/help/contribute-dialog.tsx:113
+#: src/features/help/contribute-dialog.tsx:121
 msgid "Suggest feature"
 msgstr "Føreslå funksjon"
 
-#: src/features/help/contribute-dialog.tsx:98
-#: src/features/help/contribute-dialog.tsx:109
+#: src/features/help/contribute-dialog.tsx:106
+#: src/features/help/contribute-dialog.tsx:117
 msgid "Summary"
 msgstr "Samandrag"
 
@@ -1549,7 +1620,7 @@ msgstr "Taggen kan vere høgst 50 teikn"
 msgid "Tags"
 msgstr "Etikettar"
 
-#: src/features/help/contribute-dialog.tsx:209
+#: src/features/help/contribute-dialog.tsx:218
 msgid "Taking you there now."
 msgstr "Tek deg dit no."
 
@@ -1557,7 +1628,7 @@ msgstr "Tek deg dit no."
 msgid "Teams/Apps"
 msgstr "Lag/Appar"
 
-#: src/features/help/contribute-dialog.tsx:108
+#: src/features/help/contribute-dialog.tsx:116
 msgid "Tell the Mochi development team what you'd like Mochi to do."
 msgstr "Fortel utviklingsteamet til Mochi kva du vil at Mochi skal gjere."
 
@@ -1650,7 +1721,7 @@ msgstr "Prøv å justere søkjeorda"
 #: ../../../lib/web/src/features/errors/general-error.tsx:140
 #: ../../../lib/web/src/features/errors/general-error.tsx:180
 #: ../../../lib/web/src/features/errors/maintenance-error.tsx:19
-#: src/features/help/contribute-dialog.tsx:294
+#: src/features/help/contribute-dialog.tsx:303
 msgid "Try again"
 msgstr "Prøv igjen"
 
@@ -1661,6 +1732,10 @@ msgstr "Tysdag"
 #: ../../../lib/web/src/components/command-menu.tsx:52
 msgid "Type a command or search..."
 msgstr "Skriv ein kommando eller søk..."
+
+#: ../../../lib/web/src/components/game/game-chat-input.tsx:39
+msgid "Type a message…"
+msgstr "Skriv ei melding…"
 
 #: ../../../lib/web/src/features/access/access-dialog.tsx:191
 msgid "Type to search users"
@@ -1756,8 +1831,8 @@ msgstr "Vis"
 msgid "View all"
 msgstr "Vis alle"
 
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:106
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:114
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:131
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:139
 msgid "View all notifications"
 msgstr "Vis alle varsel"
 
@@ -1790,19 +1865,19 @@ msgstr "Onsdag"
 msgid "Welcome to Mochi. Here's how to get started."
 msgstr "Velkomen til Mochi. Slik kjem du i gang."
 
-#: src/features/help/contribute-dialog.tsx:100
+#: src/features/help/contribute-dialog.tsx:108
 msgid "What happened"
 msgstr "Kva som skjedde"
 
-#: src/features/help/contribute-dialog.tsx:90
+#: src/features/help/contribute-dialog.tsx:98
 msgid "What have you tried, what did you expect, where are you stuck?"
 msgstr "Kva har du prøvd, kva venta du, og kvar står du fast?"
 
-#: src/features/help/contribute-dialog.tsx:112
+#: src/features/help/contribute-dialog.tsx:120
 msgid "What would it do, who is it for, why does it matter?"
 msgstr "Kva skal det gjere, kven er det for, og kvifor er det viktig?"
 
-#: src/features/help/contribute-dialog.tsx:88
+#: src/features/help/contribute-dialog.tsx:96
 msgid "What you want to ask, in one line"
 msgstr "Kva du vil spørje om, på éi linje"
 
@@ -1822,7 +1897,7 @@ msgstr "Du sende inn desse verdiane:"
 msgid "You're all caught up!"
 msgstr "Du er ajour!"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:91
+#: ../../../lib/web/src/components/restore-banner.tsx:106
 msgid "Your account was moved here from {source}. Until you delete it there, messages and notifications may reach both servers, some of your content keeps being served from the old server, and followers may take a few minutes to find you here."
 msgstr "Kontoen din vart flytta hit frå {source}. Inntil du slettar han der, kan meldingar og varsel nå begge tenarane, noko av innhaldet ditt blir framleis servert frå den gamle tenaren, og følgjarar kan ta nokre minutt å finne deg her."
 
@@ -1830,11 +1905,11 @@ msgstr "Kontoen din vart flytta hit frå {source}. Inntil du slettar han der, ka
 msgid "Your attachments will be lost."
 msgstr "Vedlegga dine går tapt."
 
-#: src/features/help/contribute-dialog.tsx:81
+#: src/features/help/contribute-dialog.tsx:89
 msgid "Your introduction has been submitted and will appear after moderation."
 msgstr "Presentasjonen din er sendt inn og blir synleg etter moderering."
 
-#: src/features/help/contribute-dialog.tsx:92
+#: src/features/help/contribute-dialog.tsx:100
 msgid "Your question has been submitted and will appear after moderation."
 msgstr "Spørsmålet ditt er sendt inn og blir synleg etter moderering."
 
@@ -1843,6 +1918,6 @@ msgid "Your text and attachments will be lost."
 msgstr "Teksten og vedlegga dine går tapt."
 
 #: ../../../lib/web/src/components/comment-composer.tsx:292
-#: src/features/help/contribute-dialog.tsx:379
+#: src/features/help/contribute-dialog.tsx:388
 msgid "Your text will be lost."
 msgstr "Teksten din går tapt."

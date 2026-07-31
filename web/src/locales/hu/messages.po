@@ -36,6 +36,10 @@ msgstr "{entityLabel} neve"
 msgid "{entityLabel} name is required"
 msgstr "A(z) {entityLabel} neve kötelező"
 
+#: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx:29
+msgid "{opponentName} offered a draw"
+msgstr "{opponentName} döntetlent ajánlott"
+
 #: ../../../lib/web/src/components/data-table/bulk-actions.tsx:210
 msgid "{selectedCount, plural, one {{entityName} selected} other {{manyName} selected}}"
 msgstr "{selectedCount, plural, one {{entityName} kiválasztva} other {{manyName} kiválasztva}}"
@@ -60,6 +64,11 @@ msgstr "{sentLabel} / {totalLabel}"
 msgid "{unreadCount, plural, one {Open menu (# unread notification)} other {Open menu (# unread notifications)}}"
 msgstr "{unreadCount, plural, one {Menü megnyitása (# olvasatlan értesítés)} other {Menü megnyitása (# olvasatlan értesítés)}}"
 
+#. placeholder {0}: countDeepChildren(object.id)
+#: ../../../lib/web/src/components/entity/entity-board-card.tsx:421
+msgid "+{0} nested"
+msgstr "+{0} beágyazott"
+
 #: ../../../lib/web/src/lib/preference-utils.ts:42
 msgid "12 hours"
 msgstr "12 óra"
@@ -71,6 +80,10 @@ msgstr "24 óra"
 #: ../../../lib/web/src/lib/preference-utils.ts:51
 msgid "Absolute (date and time)"
 msgstr "Abszolút (dátum és idő)"
+
+#: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx:45
+msgid "Accept"
+msgstr "Elfogadás"
 
 #: ../../../lib/web/src/features/errors/general-error.tsx:60
 msgid "Access denied"
@@ -100,12 +113,13 @@ msgstr "Fióktípus"
 msgid "Account verified"
 msgstr "Fiók ellenőrizve"
 
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:717
 #: ../../../lib/web/src/features/access/access-dialog.tsx:332
 #: ../../../lib/web/src/features/accounts/account-add.tsx:196
 msgid "Add"
 msgstr "Hozzáadás"
 
-#: src/features/help/contribute-dialog.tsx:326
+#: src/features/help/contribute-dialog.tsx:335
 msgid "Add a bit more detail."
 msgstr "Adj hozzá még egy kis részletet."
 
@@ -125,6 +139,14 @@ msgstr "Fiók hozzáadása"
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:297
 msgid "Add an account to receive notifications and use services."
 msgstr "Adjon hozzá egy fiókot az értesítések fogadásához és a szolgáltatások használatához."
+
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:687
+msgid "Add checklist item"
+msgstr "Ellenőrzőlista-elem hozzáadása"
+
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:705
+msgid "Add item..."
+msgstr "Elem hozzáadása..."
 
 #: ../../../lib/web/src/features/accounts/account-picker.tsx:102
 msgid "Add new account"
@@ -202,12 +224,12 @@ msgstr "Növekvő"
 msgid "Ascending"
 msgstr "Növekvő"
 
-#: src/features/help/contribute-dialog.tsx:85
+#: src/features/help/contribute-dialog.tsx:93
 #: src/features/help/index.tsx:33
 msgid "Ask a question"
 msgstr "Kérdés feltevése"
 
-#: src/features/help/contribute-dialog.tsx:86
+#: src/features/help/contribute-dialog.tsx:94
 msgid "Ask the community on the Mochi users mailing list. Be specific about what you've tried so far."
 msgstr "Kérdezze meg a közösséget a Mochi felhasználói levelezőlistáján. Konkrétan írja le, mit próbált eddig."
 
@@ -242,12 +264,17 @@ msgstr "Vissza a kezdőlapra"
 msgid "Banner"
 msgstr "Fejléckép"
 
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:156
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:166
+msgid "Blocked navigation to untrusted link"
+msgstr "Megbízhatatlan hivatkozásra való navigáció letiltva"
+
 #: ../../../lib/web/src/components/post-tags.tsx:180
 #: ../../../lib/web/src/components/post-tags.tsx:192
 msgid "Boost interest"
 msgstr "Érdeklődés növelése"
 
-#: src/features/help/contribute-dialog.tsx:99
+#: src/features/help/contribute-dialog.tsx:107
 msgid "Brief summary of the problem"
 msgstr "A probléma rövid összefoglalása"
 
@@ -255,7 +282,7 @@ msgstr "A probléma rövid összefoglalása"
 msgid "Browser notifications"
 msgstr "Böngészőértesítések"
 
-#: src/features/help/contribute-dialog.tsx:103
+#: src/features/help/contribute-dialog.tsx:111
 msgid "Bug report submitted."
 msgstr "Hibajelentés elküldve."
 
@@ -268,7 +295,7 @@ msgstr "Hibajelentés elküldve."
 #: ../../../lib/web/src/features/access/access-list.tsx:268
 #: ../../../lib/web/src/features/accounts/account-add.tsx:188
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:91
-#: src/features/help/contribute-dialog.tsx:354
+#: src/features/help/contribute-dialog.tsx:363
 msgid "Cancel"
 msgstr "Mégse"
 
@@ -284,6 +311,10 @@ msgstr "Értesítési kategória módosítása"
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:198
 msgid "Check \"All\" to see your past notifications."
 msgstr "Jelölje be az „Összes” lehetőséget a korábbi értesítésekhez."
+
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:38
+msgid "Choose a game from the sidebar or start a new one."
+msgstr "Válasszon egy játékot az oldalsávból, vagy kezdjen újat."
 
 #: ../../../lib/web/src/components/config-drawer.tsx:329
 msgid "Choose between default expanded, compact icon-only, or full layout mode"
@@ -341,7 +372,7 @@ msgstr "Kijelölés törlése (Esc)"
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:358
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:361
 #: ../../../lib/web/src/components/ui/sheet.tsx:79
-#: src/features/help/contribute-dialog.tsx:341
+#: src/features/help/contribute-dialog.tsx:350
 msgid "Close"
 msgstr "Bezárás"
 
@@ -440,7 +471,7 @@ msgstr "Másolás"
 msgid "Could not load this document. Please try again later."
 msgstr "Nem sikerült betölteni ezt a dokumentumot. Kérjük, próbáld meg később."
 
-#: src/features/help/contribute-dialog.tsx:282
+#: src/features/help/contribute-dialog.tsx:291
 msgid "Couldn't reach the destination yet"
 msgstr "A célt még nem sikerült elérni"
 
@@ -452,7 +483,7 @@ msgstr "A kódot nem sikerült elküldeni. Próbálja újra."
 msgid "Couldn't start re-authentication. Please try again."
 msgstr "Az újrahitelesítést nem sikerült elindítani. Próbálja újra."
 
-#: src/features/help/contribute-dialog.tsx:214
+#: src/features/help/contribute-dialog.tsx:223
 msgid "Couldn't submit"
 msgstr "Nem sikerült beküldeni"
 
@@ -495,6 +526,10 @@ msgstr "Sötét mód"
 msgid "Data conflict"
 msgstr "Adatütközés"
 
+#: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx:41
+msgid "Decline"
+msgstr "Elutasítás"
+
 #: ../../../lib/web/src/components/config-drawer.tsx:311
 msgid "Default"
 msgstr "Alapértelmezett"
@@ -503,7 +538,7 @@ msgstr "Alapértelmezett"
 msgid "Default AI account"
 msgstr "Alapértelmezett MI-fiók"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:99
+#: ../../../lib/web/src/components/restore-banner.tsx:115
 msgid "Delete your account on the old server"
 msgstr "Törölje fiókját a régi szerveren"
 
@@ -515,7 +550,7 @@ msgstr "Csökkenő"
 msgid "Descending"
 msgstr "Csökkenő"
 
-#: src/features/help/contribute-dialog.tsx:97
+#: src/features/help/contribute-dialog.tsx:105
 msgid "Describe what went wrong. The Mochi development team will see it on the Mochi development project."
 msgstr "Írja le, mi ment félre. A Mochi fejlesztői csapata látni fogja a Mochi fejlesztési projektjében."
 
@@ -523,8 +558,8 @@ msgstr "Írja le, mi ment félre. A Mochi fejlesztői csapata látni fogja a Moc
 msgid "Description"
 msgstr "Leírás"
 
-#: src/features/help/contribute-dialog.tsx:89
-#: src/features/help/contribute-dialog.tsx:111
+#: src/features/help/contribute-dialog.tsx:97
+#: src/features/help/contribute-dialog.tsx:119
 msgid "Details"
 msgstr "Részletek"
 
@@ -552,12 +587,12 @@ msgid "Directory"
 msgstr "Címtár"
 
 #: ../../../lib/web/src/components/comment-composer.tsx:300
-#: src/features/help/contribute-dialog.tsx:381
+#: src/features/help/contribute-dialog.tsx:390
 msgid "Discard"
 msgstr "Elvetés"
 
 #: ../../../lib/web/src/components/comment-composer.tsx:298
-#: src/features/help/contribute-dialog.tsx:378
+#: src/features/help/contribute-dialog.tsx:387
 msgid "Discard draft?"
 msgstr "Elveted a piszkozatot?"
 
@@ -566,8 +601,8 @@ msgstr "Elveted a piszkozatot?"
 msgid "Disconnected"
 msgstr "Leválasztva"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:79
-#: ../../../lib/web/src/components/restore-banner.tsx:85
+#: ../../../lib/web/src/components/restore-banner.tsx:94
+#: ../../../lib/web/src/components/restore-banner.tsx:100
 msgid "Dismiss"
 msgstr "Elvetés"
 
@@ -664,7 +699,7 @@ msgstr "Nem sikerült elküldeni az ellenőrző kódot"
 msgid "Failed to update category"
 msgstr "Nem sikerült frissíteni a kategóriát"
 
-#: src/features/help/contribute-dialog.tsx:114
+#: src/features/help/contribute-dialog.tsx:122
 msgid "Feature request submitted."
 msgstr "Funkciókérés elküldve."
 
@@ -672,7 +707,7 @@ msgstr "Funkciókérés elküldve."
 msgid "Filter..."
 msgstr "Szűrés…"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:88
+#: ../../../lib/web/src/components/restore-banner.tsx:103
 msgid "Finish moving your account"
 msgstr "Fejezze be a fiók áthelyezését"
 
@@ -719,7 +754,7 @@ msgstr "Vissza"
 msgid "Go to first page"
 msgstr "Ugrás az első oldalra"
 
-#: src/features/help/contribute-dialog.tsx:346
+#: src/features/help/contribute-dialog.tsx:355
 msgid "Go to forum"
 msgstr "Ugrás a fórumra"
 
@@ -760,7 +795,7 @@ msgstr "Csoport: {0}"
 msgid "Help"
 msgstr "Súgó"
 
-#: src/features/help/contribute-dialog.tsx:79
+#: src/features/help/contribute-dialog.tsx:87
 msgid "Hi, I'm…"
 msgstr "Üdv, én vagyok…"
 
@@ -812,10 +847,14 @@ msgstr "Beillesztett"
 msgid "Interests"
 msgstr "Érdeklődések"
 
-#: src/features/help/contribute-dialog.tsx:78
+#: src/features/help/contribute-dialog.tsx:86
 #: src/features/help/index.tsx:27
 msgid "Introduce yourself"
 msgstr "Mutatkozzon be"
+
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:550
+msgid "Invalid date"
+msgstr "Érvénytelen dátum"
 
 #: ../../../lib/web/src/components/tag-input.tsx:38
 msgid "Invalid tag: letters, numbers, spaces, hyphens, and slashes only (max 50 chars)"
@@ -833,7 +872,7 @@ msgstr "Úgy tűnik, a keresett oldal <0/>nem létezik, vagy eltávolították."
 msgid "Just now"
 msgstr "Épp most"
 
-#: src/features/help/contribute-dialog.tsx:380
+#: src/features/help/contribute-dialog.tsx:389
 msgid "Keep editing"
 msgstr "Szerkesztés folytatása"
 
@@ -875,7 +914,7 @@ msgstr "Tartalom betöltése…"
 
 #: ../../../lib/web/src/components/ui/load-more.tsx:35
 #: ../../../lib/web/src/features/document/document-page.tsx:90
-#: src/features/help/contribute-dialog.tsx:273
+#: src/features/help/contribute-dialog.tsx:282
 msgid "Loading..."
 msgstr "Betöltés..."
 
@@ -905,8 +944,8 @@ msgstr "Kijelentkezés…"
 msgid "Manage your connected accounts for notifications and services."
 msgstr "Kezelje csatlakoztatott fiókjait az értesítésekhez és szolgáltatásokhoz."
 
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:93
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:100
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:118
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:125
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:224
 msgid "Mark all as read"
 msgstr "Összes megjelölése olvasottként"
@@ -922,6 +961,10 @@ msgstr "Közepes"
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx:173
 msgid "Menu"
 msgstr "Menü"
+
+#: ../../../lib/web/src/components/game/game-chat-input.tsx:35
+msgid "Message"
+msgstr "Üzenet"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:85
 msgid "Metric"
@@ -952,6 +995,11 @@ msgstr "Hálózati hiba"
 msgid "New"
 msgstr "Új"
 
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:42
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:54
+msgid "New game"
+msgstr "Új játék"
+
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:392
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:397
 msgid "Next image"
@@ -965,6 +1013,10 @@ msgstr "Nincsenek konfigurált hozzáférési szabályok. Adjon hozzá szabályo
 msgid "No connected accounts"
 msgstr "Nincsenek csatlakoztatott fiókok"
 
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:51
+msgid "No games yet"
+msgstr "Még nincsenek játékok"
+
 #: ../../../lib/web/src/features/access/access-dialog.tsx:241
 msgid "No groups available"
 msgstr "Nincsenek elérhető csoportok"
@@ -973,6 +1025,7 @@ msgstr "Nincsenek elérhető csoportok"
 msgid "No notifications yet"
 msgstr "Még nincsenek értesítések"
 
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:336
 #: ../../../lib/web/src/components/person-picker.tsx:84
 msgid "No people found"
 msgstr "Nem találhatók személyek"
@@ -1035,7 +1088,7 @@ msgid "Notifications"
 msgstr "Értesítések"
 
 #. placeholder {0}: unread.length
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:86
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:111
 msgid "Notifications: {0}"
 msgstr "Értesítések: {0}"
 
@@ -1097,7 +1150,7 @@ msgstr "Azonosítókulcs"
 msgid "Passkey verification failed. Please try again."
 msgstr "A hozzáférési kulcs ellenőrzése sikertelen. Próbálja újra."
 
-#: ../../../lib/web/src/components/restore-banner.tsx:135
+#: ../../../lib/web/src/components/restore-banner.tsx:152
 msgid "Passkeys"
 msgstr "Passkey-ek"
 
@@ -1116,9 +1169,9 @@ msgid "Please log in with the appropriate credentials <0/> to access this resour
 msgstr "Jelentkezzen be a megfelelő hitelesítő adatokkal, <0/> hogy hozzáférjen ehhez az erőforráshoz."
 
 #: ../../../lib/web/src/features/errors/general-error.tsx:83
-#: src/features/help/contribute-dialog.tsx:171
 #: src/features/help/contribute-dialog.tsx:180
-#: src/features/help/contribute-dialog.tsx:215
+#: src/features/help/contribute-dialog.tsx:189
+#: src/features/help/contribute-dialog.tsx:224
 msgid "Please try again."
 msgstr "Próbálja újra."
 
@@ -1126,19 +1179,19 @@ msgstr "Próbálja újra."
 msgid "Please wait a moment and try again."
 msgstr "Kérjük, várjon egy kicsit, majd próbálja újra."
 
-#: src/features/help/contribute-dialog.tsx:80
+#: src/features/help/contribute-dialog.tsx:88
 msgid "Post introduction"
 msgstr "Bemutatkozás közzététele"
 
-#: src/features/help/contribute-dialog.tsx:91
+#: src/features/help/contribute-dialog.tsx:99
 msgid "Post question"
 msgstr "Kérdés közzététele"
 
-#: src/features/help/contribute-dialog.tsx:208
+#: src/features/help/contribute-dialog.tsx:217
 msgid "Posted"
 msgstr "Közzétéve"
 
-#: src/features/help/contribute-dialog.tsx:360
+#: src/features/help/contribute-dialog.tsx:369
 msgid "Posting…"
 msgstr "Közzététel…"
 
@@ -1170,7 +1223,7 @@ msgstr "Projekttagok"
 msgid "Push notification"
 msgstr "Push értesítés"
 
-#: src/features/help/contribute-dialog.tsx:87
+#: src/features/help/contribute-dialog.tsx:95
 msgid "Question"
 msgstr "Kérdés"
 
@@ -1178,11 +1231,11 @@ msgstr "Kérdés"
 msgid "Raised"
 msgstr "Kiemelt"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:107
+#: ../../../lib/web/src/components/restore-banner.tsx:124
 msgid "Re-link your accounts on this server"
 msgstr "Kapcsolja újra össze fiókjait ezen a szerveren"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:129
+#: ../../../lib/web/src/components/restore-banner.tsx:146
 msgid "Re-register your passkeys on this server"
 msgstr "Regisztrálja újra a hozzáférési kulcsait ezen a kiszolgálón"
 
@@ -1243,12 +1296,16 @@ msgstr "Eltávolítja a hozzáférést?"
 msgid "Remove interest"
 msgstr "Érdeklődés eltávolítása"
 
-#: src/features/help/contribute-dialog.tsx:96
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:671
+msgid "Remove item"
+msgstr "Elem eltávolítása"
+
+#: src/features/help/contribute-dialog.tsx:104
 #: src/features/help/index.tsx:39
 msgid "Report a bug"
 msgstr "Hiba jelentése"
 
-#: src/features/help/contribute-dialog.tsx:102
+#: src/features/help/contribute-dialog.tsx:110
 msgid "Report bug"
 msgstr "Hiba jelentése"
 
@@ -1346,6 +1403,10 @@ msgstr "Keresés folyamatban..."
 msgid "Select {0}"
 msgstr "{0} kiválasztása"
 
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:37
+msgid "Select a game"
+msgstr "Játék kiválasztása"
+
 #: ../../../lib/web/src/features/access/access-dialog.tsx:150
 msgid "Select a user, group, or other rule to grant access."
 msgstr "Válasszon felhasználót, csoportot vagy más szabályt a hozzáférés megadásához."
@@ -1390,6 +1451,11 @@ msgstr "Oldalirány kiválasztása"
 msgid "Select theme preference"
 msgstr "Téma beállításának kiválasztása"
 
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:252
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:335
+msgid "Select..."
+msgstr "Kiválasztás..."
+
 #: ../../../lib/web/src/components/data-table/bulk-actions.tsx:216
 msgid "selected"
 msgstr "kiválasztva"
@@ -1406,6 +1472,11 @@ msgstr "Újraküldés"
 #: ../../../lib/web/src/components/step-up-dialog.tsx:307
 msgid "Send email"
 msgstr "E-mail küldése"
+
+#: ../../../lib/web/src/components/game/game-chat-input.tsx:52
+#: ../../../lib/web/src/components/game/game-chat-input.tsx:61
+msgid "Send message"
+msgstr "Üzenet küldése"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:145
 msgid "Serif"
@@ -1438,7 +1509,7 @@ msgstr "Kiindulási és úti cél beállítása"
 msgid "Settings"
 msgstr "Beállítások"
 
-#: src/features/help/contribute-dialog.tsx:110
+#: src/features/help/contribute-dialog.tsx:118
 msgid "Short title for your idea"
 msgstr "Rövid cím az ötletének"
 
@@ -1486,7 +1557,7 @@ msgstr "Találtál valami hibásat? Nyiss egy hibajegyet a Mochi fejlesztési pr
 msgid "Stay tuned though!"
 msgstr "De maradjon velünk!"
 
-#: src/features/help/contribute-dialog.tsx:101
+#: src/features/help/contribute-dialog.tsx:109
 msgid "Steps to reproduce, what you expected, and what actually happened. Include your browser and device if relevant."
 msgstr "Reprodukálási lépések, hogy mire számítottál, és mi történt valójában. Add meg a böngésződet és eszközödet, ha releváns."
 
@@ -1498,7 +1569,7 @@ msgstr "Elakadtál valamiben? Kérdezd a közösséget a Mochi felhasználói le
 msgid "Subject"
 msgstr "Tárgy"
 
-#: src/features/help/contribute-dialog.tsx:265
+#: src/features/help/contribute-dialog.tsx:274
 msgid "Submitted successfully"
 msgstr "Sikeresen elküldve"
 
@@ -1507,17 +1578,17 @@ msgstr "Sikeresen elküldve"
 msgid "Subscribe"
 msgstr "Feliratkozás"
 
-#: src/features/help/contribute-dialog.tsx:107
+#: src/features/help/contribute-dialog.tsx:115
 #: src/features/help/index.tsx:45
 msgid "Suggest a new feature"
 msgstr "Új funkció javaslása"
 
-#: src/features/help/contribute-dialog.tsx:113
+#: src/features/help/contribute-dialog.tsx:121
 msgid "Suggest feature"
 msgstr "Funkció javaslata"
 
-#: src/features/help/contribute-dialog.tsx:98
-#: src/features/help/contribute-dialog.tsx:109
+#: src/features/help/contribute-dialog.tsx:106
+#: src/features/help/contribute-dialog.tsx:117
 msgid "Summary"
 msgstr "Összegzés"
 
@@ -1549,7 +1620,7 @@ msgstr "A címke legfeljebb 50 karakter lehet"
 msgid "Tags"
 msgstr "Címkék"
 
-#: src/features/help/contribute-dialog.tsx:209
+#: src/features/help/contribute-dialog.tsx:218
 msgid "Taking you there now."
 msgstr "Most odaviszünk."
 
@@ -1557,7 +1628,7 @@ msgstr "Most odaviszünk."
 msgid "Teams/Apps"
 msgstr "Csapatok/Alkalmazások"
 
-#: src/features/help/contribute-dialog.tsx:108
+#: src/features/help/contribute-dialog.tsx:116
 msgid "Tell the Mochi development team what you'd like Mochi to do."
 msgstr "Mondja el a Mochi fejlesztői csapatának, mit szeretne, hogy a Mochi tudjon."
 
@@ -1650,7 +1721,7 @@ msgstr "Próbálja módosítani a keresési kifejezéseket"
 #: ../../../lib/web/src/features/errors/general-error.tsx:140
 #: ../../../lib/web/src/features/errors/general-error.tsx:180
 #: ../../../lib/web/src/features/errors/maintenance-error.tsx:19
-#: src/features/help/contribute-dialog.tsx:294
+#: src/features/help/contribute-dialog.tsx:303
 msgid "Try again"
 msgstr "Próbálja újra"
 
@@ -1661,6 +1732,10 @@ msgstr "Kedd"
 #: ../../../lib/web/src/components/command-menu.tsx:52
 msgid "Type a command or search..."
 msgstr "Adjon meg egy parancsot vagy keressen..."
+
+#: ../../../lib/web/src/components/game/game-chat-input.tsx:39
+msgid "Type a message…"
+msgstr "Írjon egy üzenetet…"
 
 #: ../../../lib/web/src/features/access/access-dialog.tsx:191
 msgid "Type to search users"
@@ -1756,8 +1831,8 @@ msgstr "Megtekintés"
 msgid "View all"
 msgstr "Összes megtekintése"
 
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:106
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:114
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:131
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:139
 msgid "View all notifications"
 msgstr "Összes értesítés megtekintése"
 
@@ -1790,19 +1865,19 @@ msgstr "Szerda"
 msgid "Welcome to Mochi. Here's how to get started."
 msgstr "Üdv a Mochiban. Így indulj el."
 
-#: src/features/help/contribute-dialog.tsx:100
+#: src/features/help/contribute-dialog.tsx:108
 msgid "What happened"
 msgstr "Mi történt"
 
-#: src/features/help/contribute-dialog.tsx:90
+#: src/features/help/contribute-dialog.tsx:98
 msgid "What have you tried, what did you expect, where are you stuck?"
 msgstr "Mit próbáltál, mire számítottál, hol akadtál el?"
 
-#: src/features/help/contribute-dialog.tsx:112
+#: src/features/help/contribute-dialog.tsx:120
 msgid "What would it do, who is it for, why does it matter?"
 msgstr "Mit csinálna, kinek szól, miért fontos?"
 
-#: src/features/help/contribute-dialog.tsx:88
+#: src/features/help/contribute-dialog.tsx:96
 msgid "What you want to ask, in one line"
 msgstr "Mit szeretnél kérdezni, egy sorban"
 
@@ -1822,7 +1897,7 @@ msgstr "A következő értékeket küldte be:"
 msgid "You're all caught up!"
 msgstr "Mindent elolvasott!"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:91
+#: ../../../lib/web/src/components/restore-banner.tsx:106
 msgid "Your account was moved here from {source}. Until you delete it there, messages and notifications may reach both servers, some of your content keeps being served from the old server, and followers may take a few minutes to find you here."
 msgstr "Fiókja ide lett áthelyezve innen: {source}. Amíg nem törli onnan, az üzenetek és értesítések mindkét szerverre eljuthatnak, tartalmának egy része továbbra is a régi szerverről lesz kiszolgálva, és a követőknek néhány percbe telhet, mire megtalálják Önt itt."
 
@@ -1830,11 +1905,11 @@ msgstr "Fiókja ide lett áthelyezve innen: {source}. Amíg nem törli onnan, az
 msgid "Your attachments will be lost."
 msgstr "A mellékletei elvesznek."
 
-#: src/features/help/contribute-dialog.tsx:81
+#: src/features/help/contribute-dialog.tsx:89
 msgid "Your introduction has been submitted and will appear after moderation."
 msgstr "A bemutatkozásodat elküldtük, és moderálás után jelenik meg."
 
-#: src/features/help/contribute-dialog.tsx:92
+#: src/features/help/contribute-dialog.tsx:100
 msgid "Your question has been submitted and will appear after moderation."
 msgstr "A kérdésedet elküldtük, és moderálás után jelenik meg."
 
@@ -1843,6 +1918,6 @@ msgid "Your text and attachments will be lost."
 msgstr "A szövege és a mellékletei elvesznek."
 
 #: ../../../lib/web/src/components/comment-composer.tsx:292
-#: src/features/help/contribute-dialog.tsx:379
+#: src/features/help/contribute-dialog.tsx:388
 msgid "Your text will be lost."
 msgstr "A szöveged elvész."

@@ -36,6 +36,10 @@ msgstr "{entityLabel} အမည်"
 msgid "{entityLabel} name is required"
 msgstr "{entityLabel} အမည် လိုအပ်သည်"
 
+#: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx:29
+msgid "{opponentName} offered a draw"
+msgstr "{opponentName} က သရေ ပေးခဲ့သည်"
+
 #: ../../../lib/web/src/components/data-table/bulk-actions.tsx:210
 msgid "{selectedCount, plural, one {{entityName} selected} other {{manyName} selected}}"
 msgstr "{selectedCount, plural, other {{manyName} ရွေးထားသည်}}"
@@ -60,6 +64,11 @@ msgstr "{totalLabel} အနက် {sentLabel}"
 msgid "{unreadCount, plural, one {Open menu (# unread notification)} other {Open menu (# unread notifications)}}"
 msgstr "{unreadCount, plural, other {မီနူးဖွင့်ရန် (မဖတ်ရသေးသော အကြောင်းကြားချက် # ခု)}}"
 
+#. placeholder {0}: countDeepChildren(object.id)
+#: ../../../lib/web/src/components/entity/entity-board-card.tsx:421
+msgid "+{0} nested"
+msgstr "+{0} ခု အထပ်လိုက်"
+
 #: ../../../lib/web/src/lib/preference-utils.ts:42
 msgid "12 hours"
 msgstr "၁၂ နာရီ"
@@ -71,6 +80,10 @@ msgstr "၂၄ နာရီ"
 #: ../../../lib/web/src/lib/preference-utils.ts:51
 msgid "Absolute (date and time)"
 msgstr "အပြည့်အစုံ (ရက်စွဲနှင့် အချိန်)"
+
+#: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx:45
+msgid "Accept"
+msgstr "လက်ခံမည်"
 
 #: ../../../lib/web/src/features/errors/general-error.tsx:60
 msgid "Access denied"
@@ -100,12 +113,13 @@ msgstr "အကောင့်အမျိုးအစား"
 msgid "Account verified"
 msgstr "အကောင့် အတည်ပြုပြီး"
 
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:717
 #: ../../../lib/web/src/features/access/access-dialog.tsx:332
 #: ../../../lib/web/src/features/accounts/account-add.tsx:196
 msgid "Add"
 msgstr "ထည့်မည်"
 
-#: src/features/help/contribute-dialog.tsx:326
+#: src/features/help/contribute-dialog.tsx:335
 msgid "Add a bit more detail."
 msgstr "အသေးစိတ်အချက်အလက် နည်းနည်းထပ်ထည့်ပါ။"
 
@@ -125,6 +139,14 @@ msgstr "အကောင့် ထည့်မည်"
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:297
 msgid "Add an account to receive notifications and use services."
 msgstr "အကြောင်းကြားချက်များ ရရှိရန်နှင့် ဝန်ဆောင်မှုများ အသုံးပြုရန် အကောင့်တစ်ခု ထည့်မည်။"
+
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:687
+msgid "Add checklist item"
+msgstr "checklist အရာ ထည့်မည်"
+
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:705
+msgid "Add item..."
+msgstr "အရာ ထည့်ရန်..."
 
 #: ../../../lib/web/src/features/accounts/account-picker.tsx:102
 msgid "Add new account"
@@ -202,12 +224,12 @@ msgstr "Asc"
 msgid "Ascending"
 msgstr "ငယ်စဉ်ကြီးလိုက်"
 
-#: src/features/help/contribute-dialog.tsx:85
+#: src/features/help/contribute-dialog.tsx:93
 #: src/features/help/index.tsx:33
 msgid "Ask a question"
 msgstr "မေးခွန်းမေးပါ"
 
-#: src/features/help/contribute-dialog.tsx:86
+#: src/features/help/contribute-dialog.tsx:94
 msgid "Ask the community on the Mochi users mailing list. Be specific about what you've tried so far."
 msgstr "Mochi အသုံးပြုသူများ၏ စာတိုက်စာရင်းတွင် အသိုင်းအဝိုင်းအား မေးပါ။ ယခုအထိ သင်ကြိုးစားခဲ့သည့်အရာများကို တိကျစွာ ဖော်ပြပါ။"
 
@@ -242,12 +264,17 @@ msgstr "ပင်မစာမျက်နှာ သို့ပြန်သွ�
 msgid "Banner"
 msgstr "ပိုစတာ"
 
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:156
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:166
+msgid "Blocked navigation to untrusted link"
+msgstr "မယုံကြည်ရသော လင့်ခ်သို့ သွားရောက်ခြင်းကို ပိတ်ဆို့ထားသည်"
+
 #: ../../../lib/web/src/components/post-tags.tsx:180
 #: ../../../lib/web/src/components/post-tags.tsx:192
 msgid "Boost interest"
 msgstr "စိတ်ဝင်စားမှု မြှင့်တင်မည်"
 
-#: src/features/help/contribute-dialog.tsx:99
+#: src/features/help/contribute-dialog.tsx:107
 msgid "Brief summary of the problem"
 msgstr "ပြဿနာ၏ အတိုချုံးအနှစ်ချုပ်"
 
@@ -255,7 +282,7 @@ msgstr "ပြဿနာ၏ အတိုချုံးအနှစ်ချု�
 msgid "Browser notifications"
 msgstr "Browser အကြောင်းကြားချက်များ"
 
-#: src/features/help/contribute-dialog.tsx:103
+#: src/features/help/contribute-dialog.tsx:111
 msgid "Bug report submitted."
 msgstr "ချွတ်ယွင်းချက် အစီရင်ခံစာ တင်သွင်းပြီးပါပြီ။"
 
@@ -268,7 +295,7 @@ msgstr "ချွတ်ယွင်းချက် အစီရင်ခံစ�
 #: ../../../lib/web/src/features/access/access-list.tsx:268
 #: ../../../lib/web/src/features/accounts/account-add.tsx:188
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:91
-#: src/features/help/contribute-dialog.tsx:354
+#: src/features/help/contribute-dialog.tsx:363
 msgid "Cancel"
 msgstr "မလုပ်တော့ပါ"
 
@@ -284,6 +311,10 @@ msgstr "အကြောင်းကြားချက် အမျိုးအ�
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:198
 msgid "Check \"All\" to see your past notifications."
 msgstr "ယခင်အကြောင်းကြားချက်များကြည့်ရန် \"အားလုံး\" ကိုရွေးပါ။"
+
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:38
+msgid "Choose a game from the sidebar or start a new one."
+msgstr "ဘေးဘားမှ ဂိမ်းတစ်ခုကို ရွေးချယ်ပါ သို့မဟုတ် အသစ်တစ်ခု စတင်ပါ။"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:329
 msgid "Choose between default expanded, compact icon-only, or full layout mode"
@@ -341,7 +372,7 @@ msgstr "ရွေးချယ်မှု ရှင်းမည် (Escape)"
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:358
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:361
 #: ../../../lib/web/src/components/ui/sheet.tsx:79
-#: src/features/help/contribute-dialog.tsx:341
+#: src/features/help/contribute-dialog.tsx:350
 msgid "Close"
 msgstr "ပိတ်မည်"
 
@@ -440,7 +471,7 @@ msgstr "ကူးမည်"
 msgid "Could not load this document. Please try again later."
 msgstr "ဤစာရွက်စာတမ်းကို ဖွင့်၍ မရပါ။ နောက်မှ ထပ်စမ်းကြည့်ပါ။"
 
-#: src/features/help/contribute-dialog.tsx:282
+#: src/features/help/contribute-dialog.tsx:291
 msgid "Couldn't reach the destination yet"
 msgstr "ဦးတည်ရာသို့ မရောက်သေးပါ"
 
@@ -452,7 +483,7 @@ msgstr "ကုဒ်ကို ပို့၍မရပါ။ ကျေးဇူ�
 msgid "Couldn't start re-authentication. Please try again."
 msgstr "ပြန်လည်အတည်ပြုခြင်းကို စတင်၍မရပါ။ ကျေးဇူးပြု၍ ထပ်စမ်းကြည့်ပါ။"
 
-#: src/features/help/contribute-dialog.tsx:214
+#: src/features/help/contribute-dialog.tsx:223
 msgid "Couldn't submit"
 msgstr "တင်သွင်း၍ မရပါ"
 
@@ -495,6 +526,10 @@ msgstr "အမှောင်ပုံစံ"
 msgid "Data conflict"
 msgstr "ဒေတာ ကွဲလွဲမှု"
 
+#: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx:41
+msgid "Decline"
+msgstr "ငြင်းပယ်မည်"
+
 #: ../../../lib/web/src/components/config-drawer.tsx:311
 msgid "Default"
 msgstr "မူရင်း"
@@ -503,7 +538,7 @@ msgstr "မူရင်း"
 msgid "Default AI account"
 msgstr "မူရင်း AI အကောင့်"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:99
+#: ../../../lib/web/src/components/restore-banner.tsx:115
 msgid "Delete your account on the old server"
 msgstr "ဟောင်းသောဆာဗာမှ သင်၏အကောင့်ကို ဖျက်ပါ"
 
@@ -515,7 +550,7 @@ msgstr "Desc"
 msgid "Descending"
 msgstr "ကြီးစဉ်ငယ်လိုက်"
 
-#: src/features/help/contribute-dialog.tsx:97
+#: src/features/help/contribute-dialog.tsx:105
 msgid "Describe what went wrong. The Mochi development team will see it on the Mochi development project."
 msgstr "မှားယွင်းသွားသည့်အရာကို ဖော်ပြပါ။ Mochi ဖွံ့ဖြိုးတိုးတက်ရေးအဖွဲ့သည် ၎င်းကို Mochi ဖွံ့ဖြိုးတိုးတက်ရေးပရောဂျက်တွင် မြင်တွေ့ရပါမည်။"
 
@@ -523,8 +558,8 @@ msgstr "မှားယွင်းသွားသည့်အရာကို �
 msgid "Description"
 msgstr "ဖော်ပြချက်"
 
-#: src/features/help/contribute-dialog.tsx:89
-#: src/features/help/contribute-dialog.tsx:111
+#: src/features/help/contribute-dialog.tsx:97
+#: src/features/help/contribute-dialog.tsx:119
 msgid "Details"
 msgstr "အသေးစိတ်များ"
 
@@ -552,12 +587,12 @@ msgid "Directory"
 msgstr "လမ်းညွှန်"
 
 #: ../../../lib/web/src/components/comment-composer.tsx:300
-#: src/features/help/contribute-dialog.tsx:381
+#: src/features/help/contribute-dialog.tsx:390
 msgid "Discard"
 msgstr "ဖျက်ပစ်ရန်"
 
 #: ../../../lib/web/src/components/comment-composer.tsx:298
-#: src/features/help/contribute-dialog.tsx:378
+#: src/features/help/contribute-dialog.tsx:387
 msgid "Discard draft?"
 msgstr "မူကြမ်းကို ဖျက်ပစ်မလား။"
 
@@ -566,8 +601,8 @@ msgstr "မူကြမ်းကို ဖျက်ပစ်မလား။"
 msgid "Disconnected"
 msgstr "ချိတ်ဆက်မှု ပြတ်တောက်ပြီး"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:79
-#: ../../../lib/web/src/components/restore-banner.tsx:85
+#: ../../../lib/web/src/components/restore-banner.tsx:94
+#: ../../../lib/web/src/components/restore-banner.tsx:100
 msgid "Dismiss"
 msgstr "ပယ်မည်"
 
@@ -664,7 +699,7 @@ msgstr "အတည်ပြုကုဒ် ပို့၍ မရပါ"
 msgid "Failed to update category"
 msgstr "အမျိုးအစား ပြင်ဆင်၍ မရပါ"
 
-#: src/features/help/contribute-dialog.tsx:114
+#: src/features/help/contribute-dialog.tsx:122
 msgid "Feature request submitted."
 msgstr "လုပ်ဆောင်ချက် တောင်းဆိုမှု တင်သွင်းပြီးပါပြီ။"
 
@@ -672,7 +707,7 @@ msgstr "လုပ်ဆောင်ချက် တောင်းဆိုမ�
 msgid "Filter..."
 msgstr "စစ်ထုတ်..."
 
-#: ../../../lib/web/src/components/restore-banner.tsx:88
+#: ../../../lib/web/src/components/restore-banner.tsx:103
 msgid "Finish moving your account"
 msgstr "အကောင့်ရွှေ့ပြောင်းခြင်း ပြီးဆုံးပါ"
 
@@ -719,7 +754,7 @@ msgstr "ပြန်သွားပါ"
 msgid "Go to first page"
 msgstr "ပထမစာမျက်နှာသို့"
 
-#: src/features/help/contribute-dialog.tsx:346
+#: src/features/help/contribute-dialog.tsx:355
 msgid "Go to forum"
 msgstr "ဖိုရမ်သို့ သွားရန်"
 
@@ -760,7 +795,7 @@ msgstr "အုပ်စု- {0}"
 msgid "Help"
 msgstr "အကူအညီ"
 
-#: src/features/help/contribute-dialog.tsx:79
+#: src/features/help/contribute-dialog.tsx:87
 msgid "Hi, I'm…"
 msgstr "မင်္ဂလာပါ၊ ကျွန်တော်က…"
 
@@ -812,10 +847,14 @@ msgstr "အတွင်းသို့"
 msgid "Interests"
 msgstr "စိတ်ဝင်စားမှုများ"
 
-#: src/features/help/contribute-dialog.tsx:78
+#: src/features/help/contribute-dialog.tsx:86
 #: src/features/help/index.tsx:27
 msgid "Introduce yourself"
 msgstr "ကိုယ့်ကိုယ်ကို မိတ်ဆက်ပါ"
+
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:550
+msgid "Invalid date"
+msgstr "မမှန်ကန်သော ရက်စွဲ"
 
 #: ../../../lib/web/src/components/tag-input.tsx:38
 msgid "Invalid tag: letters, numbers, spaces, hyphens, and slashes only (max 50 chars)"
@@ -833,7 +872,7 @@ msgstr "သင်ရှာဖွေနေသော စာမျက်နှာ�
 msgid "Just now"
 msgstr "အခုပဲ"
 
-#: src/features/help/contribute-dialog.tsx:380
+#: src/features/help/contribute-dialog.tsx:389
 msgid "Keep editing"
 msgstr "တည်းဖြတ်မှု ဆက်လုပ်ရန်"
 
@@ -875,7 +914,7 @@ msgstr "အကြောင်းအရာ ဖွင့်နေသည်…"
 
 #: ../../../lib/web/src/components/ui/load-more.tsx:35
 #: ../../../lib/web/src/features/document/document-page.tsx:90
-#: src/features/help/contribute-dialog.tsx:273
+#: src/features/help/contribute-dialog.tsx:282
 msgid "Loading..."
 msgstr "တင်နေသည်..."
 
@@ -905,8 +944,8 @@ msgstr "ထွက်နေသည်…"
 msgid "Manage your connected accounts for notifications and services."
 msgstr "အကြောင်းကြားချက်များနှင့် ဝန်ဆောင်မှုများအတွက် ချိတ်ဆက်ထားသော အကောင့်များကို စီမံပါ။"
 
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:93
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:100
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:118
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:125
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:224
 msgid "Mark all as read"
 msgstr "အားလုံးကို ဖတ်ပြီးအဖြစ် မှတ်"
@@ -922,6 +961,10 @@ msgstr "အလယ်အလတ်"
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx:173
 msgid "Menu"
 msgstr "မီနူး"
+
+#: ../../../lib/web/src/components/game/game-chat-input.tsx:35
+msgid "Message"
+msgstr "မက်ဆေ့ဂျ်"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:85
 msgid "Metric"
@@ -952,6 +995,11 @@ msgstr "ကွန်ရက် အမှား"
 msgid "New"
 msgstr "အသစ်"
 
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:42
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:54
+msgid "New game"
+msgstr "ဂိမ်းအသစ်"
+
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:392
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:397
 msgid "Next image"
@@ -965,6 +1013,10 @@ msgstr "ဝင်ရောက်ခွင့်စည်းမျဉ်းမျ
 msgid "No connected accounts"
 msgstr "ချိတ်ဆက်ထားသော အကောင့်များ မရှိပါ"
 
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:51
+msgid "No games yet"
+msgstr "ဂိမ်းများ မရှိသေးပါ"
+
 #: ../../../lib/web/src/features/access/access-dialog.tsx:241
 msgid "No groups available"
 msgstr "အုပ်စုများ မရရှိနိုင်ပါ"
@@ -973,6 +1025,7 @@ msgstr "အုပ်စုများ မရရှိနိုင်ပါ"
 msgid "No notifications yet"
 msgstr "အကြောင်းကြားချက် မရှိသေးပါ"
 
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:336
 #: ../../../lib/web/src/components/person-picker.tsx:84
 msgid "No people found"
 msgstr "လူများ မတွေ့ပါ"
@@ -1035,7 +1088,7 @@ msgid "Notifications"
 msgstr "အသိပေးချက်များ"
 
 #. placeholder {0}: unread.length
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:86
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:111
 msgid "Notifications: {0}"
 msgstr "အကြောင်းကြားချက်များ- {0}"
 
@@ -1097,7 +1150,7 @@ msgstr "Passkey"
 msgid "Passkey verification failed. Please try again."
 msgstr "ပတ်စ်ကီးအတည်ပြုခြင်း မအောင်မြင်ပါ။ ကျေးဇူးပြု၍ ထပ်စမ်းကြည့်ပါ။"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:135
+#: ../../../lib/web/src/components/restore-banner.tsx:152
 msgid "Passkeys"
 msgstr "Passkey များ"
 
@@ -1116,9 +1169,9 @@ msgid "Please log in with the appropriate credentials <0/> to access this resour
 msgstr "ဤအရင်းအမြစ်ကို ဝင်ရောက်ရန် <0/> သင့်လျော်သော အထောက်အထားများဖြင့် ဝင်ရောက်ပါ။"
 
 #: ../../../lib/web/src/features/errors/general-error.tsx:83
-#: src/features/help/contribute-dialog.tsx:171
 #: src/features/help/contribute-dialog.tsx:180
-#: src/features/help/contribute-dialog.tsx:215
+#: src/features/help/contribute-dialog.tsx:189
+#: src/features/help/contribute-dialog.tsx:224
 msgid "Please try again."
 msgstr "ကျေးဇူးပြု၍ ထပ်ကြိုးစားပါ။"
 
@@ -1126,19 +1179,19 @@ msgstr "ကျေးဇူးပြု၍ ထပ်ကြိုးစားပ�
 msgid "Please wait a moment and try again."
 msgstr "ကျေးဇူးပြု၍ ခဏစောင့်ပြီး ထပ်စမ်းကြည့်ပါ။"
 
-#: src/features/help/contribute-dialog.tsx:80
+#: src/features/help/contribute-dialog.tsx:88
 msgid "Post introduction"
 msgstr "မိတ်ဆက်ပို့စ်တင်ပါ"
 
-#: src/features/help/contribute-dialog.tsx:91
+#: src/features/help/contribute-dialog.tsx:99
 msgid "Post question"
 msgstr "မေးခွန်းပို့စ်တင်ပါ"
 
-#: src/features/help/contribute-dialog.tsx:208
+#: src/features/help/contribute-dialog.tsx:217
 msgid "Posted"
 msgstr "တင်ပြီးပါပြီ"
 
-#: src/features/help/contribute-dialog.tsx:360
+#: src/features/help/contribute-dialog.tsx:369
 msgid "Posting…"
 msgstr "ပို့စ်တင်နေသည်…"
 
@@ -1170,7 +1223,7 @@ msgstr "ပရောဂျက်အဖွဲ့ဝင်များ"
 msgid "Push notification"
 msgstr "Push အကြောင်းကြားချက်"
 
-#: src/features/help/contribute-dialog.tsx:87
+#: src/features/help/contribute-dialog.tsx:95
 msgid "Question"
 msgstr "မေးခွန်း"
 
@@ -1178,11 +1231,11 @@ msgstr "မေးခွန်း"
 msgid "Raised"
 msgstr "ဖော့တက်"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:107
+#: ../../../lib/web/src/components/restore-banner.tsx:124
 msgid "Re-link your accounts on this server"
 msgstr "ဤဆာဗာပေါ်တွင် သင်၏အကောင့်များကို ပြန်လည်ချိတ်ဆက်ပါ"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:129
+#: ../../../lib/web/src/components/restore-banner.tsx:146
 msgid "Re-register your passkeys on this server"
 msgstr "ဤဆာဗာတွင် သင်၏ passkey များကို ပြန်လည်မှတ်ပုံတင်ပါ"
 
@@ -1243,12 +1296,16 @@ msgstr "ဝင်ရောက်ခွင့် ဖယ်ရှားမလာ�
 msgid "Remove interest"
 msgstr "စိတ်ဝင်စားမှု ဖယ်ရှား"
 
-#: src/features/help/contribute-dialog.tsx:96
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:671
+msgid "Remove item"
+msgstr "item ဖယ်ရှား"
+
+#: src/features/help/contribute-dialog.tsx:104
 #: src/features/help/index.tsx:39
 msgid "Report a bug"
 msgstr "ချို့ယွင်းချက်ကို သတင်းပို့ပါ"
 
-#: src/features/help/contribute-dialog.tsx:102
+#: src/features/help/contribute-dialog.tsx:110
 msgid "Report bug"
 msgstr "ချို့ယွင်းချက်ကို သတင်းပို့ပါ"
 
@@ -1346,6 +1403,10 @@ msgstr "ရှာဖွေနေသည်..."
 msgid "Select {0}"
 msgstr "{0} ရွေးပါ"
 
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:37
+msgid "Select a game"
+msgstr "ဂိမ်းတစ်ခုကို ရွေးချယ်ပါ"
+
 #: ../../../lib/web/src/features/access/access-dialog.tsx:150
 msgid "Select a user, group, or other rule to grant access."
 msgstr "ဝင်ရောက်ခွင့်ပေးရန် သုံးစွဲသူ၊ အုပ်စု၊ သို့မဟုတ် အခြားစည်းမျဉ်းကို ရွေးချယ်ပါ။"
@@ -1390,6 +1451,11 @@ msgstr "ဆိုက်ဦးတည်ရာကို ရွေးပါ"
 msgid "Select theme preference"
 msgstr "အပြင်အဆင် ဦးစားပေးကို ရွေးပါ"
 
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:252
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:335
+msgid "Select..."
+msgstr "ရွေးပါ..."
+
 #: ../../../lib/web/src/components/data-table/bulk-actions.tsx:216
 msgid "selected"
 msgstr "ရွေးချယ်ထားသည်"
@@ -1406,6 +1472,11 @@ msgstr "ထပ်ပို့ပါ"
 #: ../../../lib/web/src/components/step-up-dialog.tsx:307
 msgid "Send email"
 msgstr "အီးမေးလ်ပို့ရန်"
+
+#: ../../../lib/web/src/components/game/game-chat-input.tsx:52
+#: ../../../lib/web/src/components/game/game-chat-input.tsx:61
+msgid "Send message"
+msgstr "မက်ဆေ့ပို့မည်"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:145
 msgid "Serif"
@@ -1438,7 +1509,7 @@ msgstr "မူရင်းနှင့် ဦးတည်ရာ သတ်မှ�
 msgid "Settings"
 msgstr "ဆက်တင်များ"
 
-#: src/features/help/contribute-dialog.tsx:110
+#: src/features/help/contribute-dialog.tsx:118
 msgid "Short title for your idea"
 msgstr "သင့်အကြံဉာဏ်အတွက် တိုတောင်းသော ခေါင်းစဉ်"
 
@@ -1486,7 +1557,7 @@ msgstr "ပျက်နေတဲ့အရာတစ်ခုခု တွေ့�
 msgid "Stay tuned though!"
 msgstr "သို့သော် ဆက်လက်စောင့်ကြည့်ပါ။"
 
-#: src/features/help/contribute-dialog.tsx:101
+#: src/features/help/contribute-dialog.tsx:109
 msgid "Steps to reproduce, what you expected, and what actually happened. Include your browser and device if relevant."
 msgstr "ပြန်လည်ဖြစ်စေရန် အဆင့်များ၊ သင်မျှော်လင့်ထားသည့်အရာနှင့် အမှန်တကယ်ဖြစ်ပျက်ခဲ့သည့်အရာ။ သက်ဆိုင်ပါက သင်၏ ဘရောက်ဆာနှင့် စက်ပစ္စည်းကို ထည့်သွင်းပါ။"
 
@@ -1498,7 +1569,7 @@ msgstr "တစ်ခုခုမှာ ဖြတ်နေပါသလား။ M
 msgid "Subject"
 msgstr "ခေါင်းစဉ်"
 
-#: src/features/help/contribute-dialog.tsx:265
+#: src/features/help/contribute-dialog.tsx:274
 msgid "Submitted successfully"
 msgstr "အောင်မြင်စွာ တင်သွင်းပြီးပါပြီ"
 
@@ -1507,17 +1578,17 @@ msgstr "အောင်မြင်စွာ တင်သွင်းပြီ�
 msgid "Subscribe"
 msgstr "Subscribe လုပ်မည်"
 
-#: src/features/help/contribute-dialog.tsx:107
+#: src/features/help/contribute-dialog.tsx:115
 #: src/features/help/index.tsx:45
 msgid "Suggest a new feature"
 msgstr "လုပ်ဆောင်ချက်အသစ်တစ်ခု အကြံပြုပါ"
 
-#: src/features/help/contribute-dialog.tsx:113
+#: src/features/help/contribute-dialog.tsx:121
 msgid "Suggest feature"
 msgstr "လုပ်ဆောင်ချက် အကြံပြုပါ"
 
-#: src/features/help/contribute-dialog.tsx:98
-#: src/features/help/contribute-dialog.tsx:109
+#: src/features/help/contribute-dialog.tsx:106
+#: src/features/help/contribute-dialog.tsx:117
 msgid "Summary"
 msgstr "အကျဉ်းချုပ်"
 
@@ -1549,7 +1620,7 @@ msgstr "တဂ်သည် စာလုံး ၅၀ သို့မဟုတ်
 msgid "Tags"
 msgstr "တက်ဂ်များ"
 
-#: src/features/help/contribute-dialog.tsx:209
+#: src/features/help/contribute-dialog.tsx:218
 msgid "Taking you there now."
 msgstr "သင့်ကို အခု ထိုနေရာသို့ ပို့နေပါသည်။"
 
@@ -1557,7 +1628,7 @@ msgstr "သင့်ကို အခု ထိုနေရာသို့ ပိ
 msgid "Teams/Apps"
 msgstr "အဖွဲ့များ/Apps"
 
-#: src/features/help/contribute-dialog.tsx:108
+#: src/features/help/contribute-dialog.tsx:116
 msgid "Tell the Mochi development team what you'd like Mochi to do."
 msgstr "Mochi ဘာလုပ်စေချင်သည်ကို Mochi ဖွံ့ဖြိုးတိုးတက်ရေးအဖွဲ့အား ပြောပြပါ။"
 
@@ -1650,7 +1721,7 @@ msgstr "သင်၏ ရှာဖွေစကားလုံးများက�
 #: ../../../lib/web/src/features/errors/general-error.tsx:140
 #: ../../../lib/web/src/features/errors/general-error.tsx:180
 #: ../../../lib/web/src/features/errors/maintenance-error.tsx:19
-#: src/features/help/contribute-dialog.tsx:294
+#: src/features/help/contribute-dialog.tsx:303
 msgid "Try again"
 msgstr "ပြန်ကြိုးစားပါ"
 
@@ -1661,6 +1732,10 @@ msgstr "အင်္ဂါ"
 #: ../../../lib/web/src/components/command-menu.tsx:52
 msgid "Type a command or search..."
 msgstr "command တစ်ခု ရိုက်ပါ သို့မဟုတ် ရှာပါ..."
+
+#: ../../../lib/web/src/components/game/game-chat-input.tsx:39
+msgid "Type a message…"
+msgstr "မက်ဆေ့ ရိုက်ပါ…"
 
 #: ../../../lib/web/src/features/access/access-dialog.tsx:191
 msgid "Type to search users"
@@ -1756,8 +1831,8 @@ msgstr "ကြည့်ရှုမည်"
 msgid "View all"
 msgstr "အားလုံး ကြည့်ရှုမည်"
 
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:106
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:114
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:131
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:139
 msgid "View all notifications"
 msgstr "အသိပေးချက်များ အားလုံး ကြည့်ရှုမည်"
 
@@ -1790,19 +1865,19 @@ msgstr "ဗုဒ္ဓဟူး"
 msgid "Welcome to Mochi. Here's how to get started."
 msgstr "Mochi သို့ ကြိုဆိုပါသည်။ စတင်ပုံကို ဤနေရာတွင် ကြည့်ပါ။"
 
-#: src/features/help/contribute-dialog.tsx:100
+#: src/features/help/contribute-dialog.tsx:108
 msgid "What happened"
 msgstr "ဘာဖြစ်ခဲ့သလဲ"
 
-#: src/features/help/contribute-dialog.tsx:90
+#: src/features/help/contribute-dialog.tsx:98
 msgid "What have you tried, what did you expect, where are you stuck?"
 msgstr "ဘာတွေကြိုးစားခဲ့လဲ၊ ဘာတွေမျှော်လင့်ခဲ့လဲ၊ ဘယ်နေရာမှာ တင်နေတာလဲ?"
 
-#: src/features/help/contribute-dialog.tsx:112
+#: src/features/help/contribute-dialog.tsx:120
 msgid "What would it do, who is it for, why does it matter?"
 msgstr "၎င်းက ဘာလုပ်ပေးမည်လဲ၊ ဘယ်သူ့အတွက်လဲ၊ ဘာကြောင့် အရေးကြီးသလဲ။"
 
-#: src/features/help/contribute-dialog.tsx:88
+#: src/features/help/contribute-dialog.tsx:96
 msgid "What you want to ask, in one line"
 msgstr "သင်မေးချင်တာကို တစ်ကြောင်းတည်းနဲ့"
 
@@ -1822,7 +1897,7 @@ msgstr "အောက်ပါတန်ဖိုးများကို တင�
 msgid "You're all caught up!"
 msgstr "အားလုံးကြည့်ပြီးပါပြီ။"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:91
+#: ../../../lib/web/src/components/restore-banner.tsx:106
 msgid "Your account was moved here from {source}. Until you delete it there, messages and notifications may reach both servers, some of your content keeps being served from the old server, and followers may take a few minutes to find you here."
 msgstr "သင်၏အကောင့်ကို {source} မှ ဤနေရာသို့ ရွှေ့ပြောင်းခဲ့သည်။ သင်ကာကိုဖျက်မသည်အထိ၊ မက်ဆေ့ချ်များနှင့် အကြောင်းကြားချက်များ ဆာဗာနှစ်ခုလုံးသို့ ရောက်နိုင်သည်၊ သင်၏အချို့သောအကြောင်းအရာများကို ဟောင်းသောဆာဗာမှ ဆက်လက်ပေးဆောင်နေမည်ဖြစ်ပြီး ကြည့်ရှုသူများ သင်ကိုဤနေရာတွင် ရှာဖွေရန် မိနစ်အနည်းငယ် ကြာနိုင်သည်။"
 
@@ -1830,11 +1905,11 @@ msgstr "သင်၏အကောင့်ကို {source} မှ ဤနေရ�
 msgid "Your attachments will be lost."
 msgstr "သင့်ပူးတွဲဖိုင်များ ပျောက်ဆုံးသွားပါမည်။"
 
-#: src/features/help/contribute-dialog.tsx:81
+#: src/features/help/contribute-dialog.tsx:89
 msgid "Your introduction has been submitted and will appear after moderation."
 msgstr "သင့်မိတ်ဆက်ချက်ကို တင်သွင်းပြီးဖြစ်ပြီး စိစစ်ပြီးနောက် ပေါ်လာပါမည်။"
 
-#: src/features/help/contribute-dialog.tsx:92
+#: src/features/help/contribute-dialog.tsx:100
 msgid "Your question has been submitted and will appear after moderation."
 msgstr "သင့်မေးခွန်းကို တင်သွင်းပြီးဖြစ်ပြီး စိစစ်ပြီးနောက် ပေါ်လာပါမည်။"
 
@@ -1843,6 +1918,6 @@ msgid "Your text and attachments will be lost."
 msgstr "သင့်စာသားနှင့် ပူးတွဲဖိုင်များ ပျောက်ဆုံးသွားပါမည်။"
 
 #: ../../../lib/web/src/components/comment-composer.tsx:292
-#: src/features/help/contribute-dialog.tsx:379
+#: src/features/help/contribute-dialog.tsx:388
 msgid "Your text will be lost."
 msgstr "သင်၏ စာသား ပျောက်ဆုံးသွားပါမည်။"

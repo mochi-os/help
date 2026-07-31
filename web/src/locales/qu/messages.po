@@ -36,6 +36,10 @@ msgstr "{entityLabel} suti"
 msgid "{entityLabel} name is required"
 msgstr "{entityLabel} sutin necesitakun"
 
+#: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx:29
+msgid "{opponentName} offered a draw"
+msgstr "{opponentName} kuska kayta nirqan"
+
 #: ../../../lib/web/src/components/data-table/bulk-actions.tsx:210
 msgid "{selectedCount, plural, one {{entityName} selected} other {{manyName} selected}}"
 msgstr "{selectedCount, plural, one {{entityName} akllasqa} other {{manyName} akllasqa}}"
@@ -60,6 +64,11 @@ msgstr "{sentLabel} / {totalLabel}"
 msgid "{unreadCount, plural, one {Open menu (# unread notification)} other {Open menu (# unread notifications)}}"
 msgstr "{unreadCount, plural, one {Menuta kichay (# mana ñawinchasqa willakuy)} other {Menuta kichay (# mana ñawinchasqa willakuykuna)}}"
 
+#. placeholder {0}: countDeepChildren(object.id)
+#: ../../../lib/web/src/components/entity/entity-board-card.tsx:421
+msgid "+{0} nested"
+msgstr "+{0} ukhupi"
+
 #: ../../../lib/web/src/lib/preference-utils.ts:42
 msgid "12 hours"
 msgstr "12 hora"
@@ -71,6 +80,10 @@ msgstr "24 hora"
 #: ../../../lib/web/src/lib/preference-utils.ts:51
 msgid "Absolute (date and time)"
 msgstr "Sut'i (p'unchaw hinaspa hora)"
+
+#: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx:45
+msgid "Accept"
+msgstr "Chaskiy"
 
 #: ../../../lib/web/src/features/errors/general-error.tsx:60
 msgid "Access denied"
@@ -100,12 +113,13 @@ msgstr "Cuenta laya"
 msgid "Account verified"
 msgstr "Cuenta takyachisqa"
 
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:717
 #: ../../../lib/web/src/features/access/access-dialog.tsx:332
 #: ../../../lib/web/src/features/accounts/account-add.tsx:196
 msgid "Add"
 msgstr "Yapay"
 
-#: src/features/help/contribute-dialog.tsx:326
+#: src/features/help/contribute-dialog.tsx:335
 msgid "Add a bit more detail."
 msgstr "Aslla astawan willakuyta yapay."
 
@@ -125,6 +139,14 @@ msgstr "Cuenta yapay"
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:297
 msgid "Add an account to receive notifications and use services."
 msgstr "Cuentata yapay willaykunata chaskinaykipaq hinaspa servicios apaykachanaykipaq."
+
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:687
+msgid "Add checklist item"
+msgstr "Lista item yapay"
+
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:705
+msgid "Add item..."
+msgstr "Item yapay..."
 
 #: ../../../lib/web/src/features/accounts/account-picker.tsx:102
 msgid "Add new account"
@@ -202,12 +224,12 @@ msgstr "Wichaymanta"
 msgid "Ascending"
 msgstr "Wicharispa"
 
-#: src/features/help/contribute-dialog.tsx:85
+#: src/features/help/contribute-dialog.tsx:93
 #: src/features/help/index.tsx:33
 msgid "Ask a question"
 msgstr "Huk tapuyta ruway"
 
-#: src/features/help/contribute-dialog.tsx:86
+#: src/features/help/contribute-dialog.tsx:94
 msgid "Ask the community on the Mochi users mailing list. Be specific about what you've tried so far."
 msgstr "Mochi apaqkunap correo listanpi ayllumanta tapuy. Kunankama imata ruwasqaykimanta sut'ita rimay."
 
@@ -242,12 +264,17 @@ msgstr "Wasiman kutiy"
 msgid "Banner"
 msgstr "Banner"
 
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:156
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:166
+msgid "Blocked navigation to untrusted link"
+msgstr "Mana iñikuq link-man yaykuy hark'asqa"
+
 #: ../../../lib/web/src/components/post-tags.tsx:180
 #: ../../../lib/web/src/components/post-tags.tsx:192
 msgid "Boost interest"
 msgstr "Munay yapay"
 
-#: src/features/help/contribute-dialog.tsx:99
+#: src/features/help/contribute-dialog.tsx:107
 msgid "Brief summary of the problem"
 msgstr "Sasachakuypa pisi willakuynin"
 
@@ -255,7 +282,7 @@ msgstr "Sasachakuypa pisi willakuynin"
 msgid "Browser notifications"
 msgstr "Browser willaykuna"
 
-#: src/features/help/contribute-dialog.tsx:103
+#: src/features/help/contribute-dialog.tsx:111
 msgid "Bug report submitted."
 msgstr "Pantasqamanta willay apachikurqan."
 
@@ -268,7 +295,7 @@ msgstr "Pantasqamanta willay apachikurqan."
 #: ../../../lib/web/src/features/access/access-list.tsx:268
 #: ../../../lib/web/src/features/accounts/account-add.tsx:188
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:91
-#: src/features/help/contribute-dialog.tsx:354
+#: src/features/help/contribute-dialog.tsx:363
 msgid "Cancel"
 msgstr "Mana ruway"
 
@@ -284,6 +311,10 @@ msgstr "Willaykuna categoría tikray"
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:198
 msgid "Check \"All\" to see your past notifications."
 msgstr "Ñawpa willakuykunata qhawanaykipaq «Llapan» akllay."
+
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:38
+msgid "Choose a game from the sidebar or start a new one."
+msgstr "Pukllay akllay sidebar-manta utaq musuq qallariy."
 
 #: ../../../lib/web/src/components/config-drawer.tsx:329
 msgid "Choose between default expanded, compact icon-only, or full layout mode"
@@ -341,7 +372,7 @@ msgstr "Akllasqa pichay (Escape)"
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:358
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:361
 #: ../../../lib/web/src/components/ui/sheet.tsx:79
-#: src/features/help/contribute-dialog.tsx:341
+#: src/features/help/contribute-dialog.tsx:350
 msgid "Close"
 msgstr "Wichq'ay"
 
@@ -440,7 +471,7 @@ msgstr "Copiay"
 msgid "Could not load this document. Please try again later."
 msgstr "Kay documento mana cargasqa karqachu. Qhipaman ruway."
 
-#: src/features/help/contribute-dialog.tsx:282
+#: src/features/help/contribute-dialog.tsx:291
 msgid "Couldn't reach the destination yet"
 msgstr "Manaraqmi maypichá chayasunchik chayman chayayta atinchu"
 
@@ -452,7 +483,7 @@ msgstr "Codigoqa mana apachiy atikurqanchu. Ama hina kaspa watiqmanta ruway."
 msgid "Couldn't start re-authentication. Please try again."
 msgstr "Kutin yaykuy mana qallariy atikurqanchu. Ama hina kaspa watiqmanta ruway."
 
-#: src/features/help/contribute-dialog.tsx:214
+#: src/features/help/contribute-dialog.tsx:223
 msgid "Couldn't submit"
 msgstr "Manam apachiyta atikurqachu"
 
@@ -495,6 +526,10 @@ msgstr "Tutayaq layapi"
 msgid "Data conflict"
 msgstr "Datukunap awqanakuynin"
 
+#: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx:41
+msgid "Decline"
+msgstr "Mana chaskiy"
+
 #: ../../../lib/web/src/components/config-drawer.tsx:311
 msgid "Default"
 msgstr "Default"
@@ -503,7 +538,7 @@ msgstr "Default"
 msgid "Default AI account"
 msgstr "Default AI cuenta"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:99
+#: ../../../lib/web/src/components/restore-banner.tsx:115
 msgid "Delete your account on the old server"
 msgstr "Ñawpaq serverpi cuenta-ykita qichuy"
 
@@ -515,7 +550,7 @@ msgstr "Uray"
 msgid "Descending"
 msgstr "Uraykuspa"
 
-#: src/features/help/contribute-dialog.tsx:97
+#: src/features/help/contribute-dialog.tsx:105
 msgid "Describe what went wrong. The Mochi development team will see it on the Mochi development project."
 msgstr "Imam mana allinta lluqsisqanta willakuy. Mochi ruwaq aylluqa kayta Mochi ruway proyectopi rikunqa."
 
@@ -523,8 +558,8 @@ msgstr "Imam mana allinta lluqsisqanta willakuy. Mochi ruwaq aylluqa kayta Mochi
 msgid "Description"
 msgstr "Willariy"
 
-#: src/features/help/contribute-dialog.tsx:89
-#: src/features/help/contribute-dialog.tsx:111
+#: src/features/help/contribute-dialog.tsx:97
+#: src/features/help/contribute-dialog.tsx:119
 msgid "Details"
 msgstr "Willariykuna"
 
@@ -552,12 +587,12 @@ msgid "Directory"
 msgstr "Katalogo"
 
 #: ../../../lib/web/src/components/comment-composer.tsx:300
-#: src/features/help/contribute-dialog.tsx:381
+#: src/features/help/contribute-dialog.tsx:390
 msgid "Discard"
 msgstr "Wikch'uy"
 
 #: ../../../lib/web/src/components/comment-composer.tsx:298
-#: src/features/help/contribute-dialog.tsx:378
+#: src/features/help/contribute-dialog.tsx:387
 msgid "Discard draft?"
 msgstr "¿Qillqa qallariyta wikch'unkichu?"
 
@@ -566,8 +601,8 @@ msgstr "¿Qillqa qallariyta wikch'unkichu?"
 msgid "Disconnected"
 msgstr "Mana tinkichisqa"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:79
-#: ../../../lib/web/src/components/restore-banner.tsx:85
+#: ../../../lib/web/src/components/restore-banner.tsx:94
+#: ../../../lib/web/src/components/restore-banner.tsx:100
 msgid "Dismiss"
 msgstr "Wischuy"
 
@@ -664,7 +699,7 @@ msgstr "Mana sut'inchay códigota apachiyta atinchu"
 msgid "Failed to update category"
 msgstr "Mana categoríata musuqyachiyta atinchu"
 
-#: src/features/help/contribute-dialog.tsx:114
+#: src/features/help/contribute-dialog.tsx:122
 msgid "Feature request submitted."
 msgstr "Ruwana mañakuy apachikurqan."
 
@@ -672,7 +707,7 @@ msgstr "Ruwana mañakuy apachikurqan."
 msgid "Filter..."
 msgstr "Suysuy..."
 
-#: ../../../lib/web/src/components/restore-banner.tsx:88
+#: ../../../lib/web/src/components/restore-banner.tsx:103
 msgid "Finish moving your account"
 msgstr "Cuenta-ykita apaykachay tukuchiy"
 
@@ -719,7 +754,7 @@ msgstr "Kutiy"
 msgid "Go to first page"
 msgstr "Ñawpaq paginaman riy"
 
-#: src/features/help/contribute-dialog.tsx:346
+#: src/features/help/contribute-dialog.tsx:355
 msgid "Go to forum"
 msgstr "Rimanakuyman riy"
 
@@ -760,7 +795,7 @@ msgstr "Huñu: {0}"
 msgid "Help"
 msgstr "Yanapay"
 
-#: src/features/help/contribute-dialog.tsx:79
+#: src/features/help/contribute-dialog.tsx:87
 msgid "Hi, I'm…"
 msgstr "Allillanchu, ñuqaqa…"
 
@@ -812,10 +847,14 @@ msgstr "Ukhupi"
 msgid "Interests"
 msgstr "Munakuykuna"
 
-#: src/features/help/contribute-dialog.tsx:78
+#: src/features/help/contribute-dialog.tsx:86
 #: src/features/help/index.tsx:27
 msgid "Introduce yourself"
 msgstr "Qamllataq riqsichikuy"
+
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:550
+msgid "Invalid date"
+msgstr "Mana allin pacha"
 
 #: ../../../lib/web/src/components/tag-input.tsx:38
 msgid "Invalid tag: letters, numbers, spaces, hyphens, and slashes only (max 50 chars)"
@@ -833,7 +872,7 @@ msgstr "Maskasqayki p'anqaqa <0/>manam kanchu icha qichusqam."
 msgid "Just now"
 msgstr "Kunanlla"
 
-#: src/features/help/contribute-dialog.tsx:380
+#: src/features/help/contribute-dialog.tsx:389
 msgid "Keep editing"
 msgstr "Llamk'achkayllapuni"
 
@@ -875,7 +914,7 @@ msgstr "Contenido kargachkan…"
 
 #: ../../../lib/web/src/components/ui/load-more.tsx:35
 #: ../../../lib/web/src/features/document/document-page.tsx:90
-#: src/features/help/contribute-dialog.tsx:273
+#: src/features/help/contribute-dialog.tsx:282
 msgid "Loading..."
 msgstr "Wichachichkan..."
 
@@ -905,8 +944,8 @@ msgstr "Lluqsichkan…"
 msgid "Manage your connected accounts for notifications and services."
 msgstr "Willakuykunapaq ruwaykunapaqpas t'inkisqa cuentaykikunata kamachiy."
 
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:93
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:100
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:118
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:125
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:224
 msgid "Mark all as read"
 msgstr "Llapanta ñawinchasqaman churay"
@@ -922,6 +961,10 @@ msgstr "Chawpi"
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx:173
 msgid "Menu"
 msgstr "Menu"
+
+#: ../../../lib/web/src/components/game/game-chat-input.tsx:35
+msgid "Message"
+msgstr "Willakuy"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:85
 msgid "Metric"
@@ -952,6 +995,11 @@ msgstr "Redpi pantay"
 msgid "New"
 msgstr "Musuq"
 
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:42
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:54
+msgid "New game"
+msgstr "Musuq pukllay"
+
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:392
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:397
 msgid "Next image"
@@ -965,6 +1013,10 @@ msgstr "Mana yaykuy kamachiy churasqa. Kamachiykunata yapay pichus kay recursoma
 msgid "No connected accounts"
 msgstr "Mana huñusqa cuentakuna"
 
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:51
+msgid "No games yet"
+msgstr "Manaraq pukllaykuna"
+
 #: ../../../lib/web/src/features/access/access-dialog.tsx:241
 msgid "No groups available"
 msgstr "Mana grupokuna atikuq"
@@ -973,6 +1025,7 @@ msgstr "Mana grupokuna atikuq"
 msgid "No notifications yet"
 msgstr "Manaraqmi willakuykuna kanchu"
 
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:336
 #: ../../../lib/web/src/components/person-picker.tsx:84
 msgid "No people found"
 msgstr "Mana runakuna tarisqachu"
@@ -1035,7 +1088,7 @@ msgid "Notifications"
 msgstr "Notificacionkuna"
 
 #. placeholder {0}: unread.length
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:86
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:111
 msgid "Notifications: {0}"
 msgstr "Willakuykuna: {0}"
 
@@ -1097,7 +1150,7 @@ msgstr "Yaykuna llave"
 msgid "Passkey verification failed. Please try again."
 msgstr "Yaykuna llaveq takyachiynin mana atikurqanchu. Ama hina kaspa watiqmanta ruway."
 
-#: ../../../lib/web/src/components/restore-banner.tsx:135
+#: ../../../lib/web/src/components/restore-banner.tsx:152
 msgid "Passkeys"
 msgstr "Passkeykuna"
 
@@ -1116,9 +1169,9 @@ msgid "Please log in with the appropriate credentials <0/> to access this resour
 msgstr "Kay ruwanaman yaykunaykipaq <0/> allin willakuywan yaykuy."
 
 #: ../../../lib/web/src/features/errors/general-error.tsx:83
-#: src/features/help/contribute-dialog.tsx:171
 #: src/features/help/contribute-dialog.tsx:180
-#: src/features/help/contribute-dialog.tsx:215
+#: src/features/help/contribute-dialog.tsx:189
+#: src/features/help/contribute-dialog.tsx:224
 msgid "Please try again."
 msgstr "Ama hina kaspa, huk kutita ruway."
 
@@ -1126,19 +1179,19 @@ msgstr "Ama hina kaspa, huk kutita ruway."
 msgid "Please wait a moment and try again."
 msgstr "Ama hina kaspa, huk ratulla suyaykuy, hinaspa watiqmanta ruwaykuy."
 
-#: src/features/help/contribute-dialog.tsx:80
+#: src/features/help/contribute-dialog.tsx:88
 msgid "Post introduction"
 msgstr "Riqsichikuyta apachiy"
 
-#: src/features/help/contribute-dialog.tsx:91
+#: src/features/help/contribute-dialog.tsx:99
 msgid "Post question"
 msgstr "Tapuyta apachiy"
 
-#: src/features/help/contribute-dialog.tsx:208
+#: src/features/help/contribute-dialog.tsx:217
 msgid "Posted"
 msgstr "Churasqa"
 
-#: src/features/help/contribute-dialog.tsx:360
+#: src/features/help/contribute-dialog.tsx:369
 msgid "Posting…"
 msgstr "Qillqashan…"
 
@@ -1170,7 +1223,7 @@ msgstr "Proyectop ayllunkuna"
 msgid "Push notification"
 msgstr "Push willakuy"
 
-#: src/features/help/contribute-dialog.tsx:87
+#: src/features/help/contribute-dialog.tsx:95
 msgid "Question"
 msgstr "Tapuy"
 
@@ -1178,11 +1231,11 @@ msgstr "Tapuy"
 msgid "Raised"
 msgstr "Hoqarisqa"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:107
+#: ../../../lib/web/src/components/restore-banner.tsx:124
 msgid "Re-link your accounts on this server"
 msgstr "Kay serverpi cuenta-ykikunata watiqmanta huñuy"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:129
+#: ../../../lib/web/src/components/restore-banner.tsx:146
 msgid "Re-register your passkeys on this server"
 msgstr "Kay servidorpi passkeyniykita musukmanta qillqachiy"
 
@@ -1243,12 +1296,16 @@ msgstr "Yaykuyta qichuy?"
 msgid "Remove interest"
 msgstr "Munayta qichuy"
 
-#: src/features/help/contribute-dialog.tsx:96
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:671
+msgid "Remove item"
+msgstr "Itemta qichuy"
+
+#: src/features/help/contribute-dialog.tsx:104
 #: src/features/help/index.tsx:39
 msgid "Report a bug"
 msgstr "Huk pantaymanta willakuy"
 
-#: src/features/help/contribute-dialog.tsx:102
+#: src/features/help/contribute-dialog.tsx:110
 msgid "Report bug"
 msgstr "Pantaymanta willakuy"
 
@@ -1346,6 +1403,10 @@ msgstr "Maskashan..."
 msgid "Select {0}"
 msgstr "{0} akllay"
 
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:37
+msgid "Select a game"
+msgstr "Pukllayta akllay"
+
 #: ../../../lib/web/src/features/access/access-dialog.tsx:150
 msgid "Select a user, group, or other rule to grant access."
 msgstr "Yaykuyta qonapaq usuariota, grupota, utaq huk kamachiyta akllay."
@@ -1390,6 +1451,11 @@ msgstr "Sitio direccionta akllay"
 msgid "Select theme preference"
 msgstr "Tema munayta akllay"
 
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:252
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:335
+msgid "Select..."
+msgstr "Akllay..."
+
 #: ../../../lib/web/src/components/data-table/bulk-actions.tsx:216
 msgid "selected"
 msgstr "akllasqa"
@@ -1406,6 +1472,11 @@ msgstr "Watiqmanta apachiy"
 #: ../../../lib/web/src/components/step-up-dialog.tsx:307
 msgid "Send email"
 msgstr "Email apachiy"
+
+#: ../../../lib/web/src/components/game/game-chat-input.tsx:52
+#: ../../../lib/web/src/components/game/game-chat-input.tsx:61
+msgid "Send message"
+msgstr "Willakuyta apachiy"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:145
 msgid "Serif"
@@ -1438,7 +1509,7 @@ msgstr "Pukyu chayanata churay"
 msgid "Settings"
 msgstr "Wakichiykuna"
 
-#: src/features/help/contribute-dialog.tsx:110
+#: src/features/help/contribute-dialog.tsx:118
 msgid "Short title for your idea"
 msgstr "Yuyayniykipaq huk pisi suti"
 
@@ -1486,7 +1557,7 @@ msgstr "¿Pakisqa imallatachus rikurqankichu? Mochi wiñachiy llamk'aypi pantasq
 msgid "Stay tuned though!"
 msgstr "Suyaylla!"
 
-#: src/features/help/contribute-dialog.tsx:101
+#: src/features/help/contribute-dialog.tsx:109
 msgid "Steps to reproduce, what you expected, and what actually happened. Include your browser and device if relevant."
 msgstr "Kutiy ruwanaman thaskikuna, imatachus suyarqanki, imatachus chiqaqmanta karqan. Browser-nikitapas, antawayta yapay sichus allinmi kanqa."
 
@@ -1498,7 +1569,7 @@ msgstr "¿Imapipas hark'asqachu kanki? Mochi ruwaqkunapaq willay sutichaypi ayll
 msgid "Subject"
 msgstr "Tema"
 
-#: src/features/help/contribute-dialog.tsx:265
+#: src/features/help/contribute-dialog.tsx:274
 msgid "Submitted successfully"
 msgstr "Allinta apachikurqan"
 
@@ -1507,17 +1578,17 @@ msgstr "Allinta apachikurqan"
 msgid "Subscribe"
 msgstr "Suscribiy"
 
-#: src/features/help/contribute-dialog.tsx:107
+#: src/features/help/contribute-dialog.tsx:115
 #: src/features/help/index.tsx:45
 msgid "Suggest a new feature"
 msgstr "Musuq ruwanata yuyaychay"
 
-#: src/features/help/contribute-dialog.tsx:113
+#: src/features/help/contribute-dialog.tsx:121
 msgid "Suggest feature"
 msgstr "Ruwayta sumaqyachiy"
 
-#: src/features/help/contribute-dialog.tsx:98
-#: src/features/help/contribute-dialog.tsx:109
+#: src/features/help/contribute-dialog.tsx:106
+#: src/features/help/contribute-dialog.tsx:117
 msgid "Summary"
 msgstr "Pisilla willakuy"
 
@@ -1549,7 +1620,7 @@ msgstr "Etiquetaqa 50 sananchakuna icha pisi kanan"
 msgid "Tags"
 msgstr "Unanchakuna"
 
-#: src/features/help/contribute-dialog.tsx:209
+#: src/features/help/contribute-dialog.tsx:218
 msgid "Taking you there now."
 msgstr "Kunan chayman pusasayki."
 
@@ -1557,7 +1628,7 @@ msgstr "Kunan chayman pusasayki."
 msgid "Teams/Apps"
 msgstr "Huñukuna/Appkuna"
 
-#: src/features/help/contribute-dialog.tsx:108
+#: src/features/help/contribute-dialog.tsx:116
 msgid "Tell the Mochi development team what you'd like Mochi to do."
 msgstr "Mochi ruwaq ayllumanmi Mochi ima ruwananta munasqaykimanta willay."
 
@@ -1650,7 +1721,7 @@ msgstr "Maskay simiykunata allichayta ruway"
 #: ../../../lib/web/src/features/errors/general-error.tsx:140
 #: ../../../lib/web/src/features/errors/general-error.tsx:180
 #: ../../../lib/web/src/features/errors/maintenance-error.tsx:19
-#: src/features/help/contribute-dialog.tsx:294
+#: src/features/help/contribute-dialog.tsx:303
 msgid "Try again"
 msgstr "Kutimanta ruway"
 
@@ -1661,6 +1732,10 @@ msgstr "Antichaw"
 #: ../../../lib/web/src/components/command-menu.tsx:52
 msgid "Type a command or search..."
 msgstr "Comandota qillqay utaq maskay..."
+
+#: ../../../lib/web/src/components/game/game-chat-input.tsx:39
+msgid "Type a message…"
+msgstr "Willakuyta qillqay…"
 
 #: ../../../lib/web/src/features/access/access-dialog.tsx:191
 msgid "Type to search users"
@@ -1756,8 +1831,8 @@ msgstr "Qhaway"
 msgid "View all"
 msgstr "Llapanta qhaway"
 
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:106
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:114
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:131
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:139
 msgid "View all notifications"
 msgstr "Llapan willakuykunata qhaway"
 
@@ -1790,19 +1865,19 @@ msgstr "Quyllurchaw"
 msgid "Welcome to Mochi. Here's how to get started."
 msgstr "Mochi-man allin hamusqayki. Kaymi qallariy kanqa."
 
-#: src/features/help/contribute-dialog.tsx:100
+#: src/features/help/contribute-dialog.tsx:108
 msgid "What happened"
 msgstr "Imam karqan"
 
-#: src/features/help/contribute-dialog.tsx:90
+#: src/features/help/contribute-dialog.tsx:98
 msgid "What have you tried, what did you expect, where are you stuck?"
 msgstr "Imatataq ruwarqanki, imatataq suyarqanki, maypitaq sayanki?"
 
-#: src/features/help/contribute-dialog.tsx:112
+#: src/features/help/contribute-dialog.tsx:120
 msgid "What would it do, who is it for, why does it matter?"
 msgstr "¿Imatam ruwanman, pikunapaqmi kanman, imanaqtinmi allin?"
 
-#: src/features/help/contribute-dialog.tsx:88
+#: src/features/help/contribute-dialog.tsx:96
 msgid "What you want to ask, in one line"
 msgstr "Imatas tapuyta munanki, huk siq'illapi"
 
@@ -1822,7 +1897,7 @@ msgstr "Kay chanikunata apachirqanki:"
 msgid "You're all caught up!"
 msgstr "Llapanta qhawarqankiña!"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:91
+#: ../../../lib/web/src/components/restore-banner.tsx:106
 msgid "Your account was moved here from {source}. Until you delete it there, messages and notifications may reach both servers, some of your content keeps being served from the old server, and followers may take a few minutes to find you here."
 msgstr "Cuenta-yki {source} llaqtamanta kaypi churasqa karqan. Chaypeqa manaraj qichuykiptiyki, willakuykuna hinaspa sut'ichakuykuna iskay serverkunaman chayayta atinku, imaymayki wakin ñawpaq servermanta kamachikapusqanmi kachkan, hinaspa qhatiqniykim kaypi tarisunkaypaq huk minutokunata suyayta atinku."
 
@@ -1830,11 +1905,11 @@ msgstr "Cuenta-yki {source} llaqtamanta kaypi churasqa karqan. Chaypeqa manaraj 
 msgid "Your attachments will be lost."
 msgstr "Ratachisqaykikuna chinkapunqa."
 
-#: src/features/help/contribute-dialog.tsx:81
+#: src/features/help/contribute-dialog.tsx:89
 msgid "Your introduction has been submitted and will appear after moderation."
 msgstr "Riqsichikuyniyki apachikurqan, qhawapayasqa qhipanta rikhurinqa."
 
-#: src/features/help/contribute-dialog.tsx:92
+#: src/features/help/contribute-dialog.tsx:100
 msgid "Your question has been submitted and will appear after moderation."
 msgstr "Tapuyniyki apachikurqan, qhawapayasqa qhipanta rikhurinqa."
 
@@ -1843,6 +1918,6 @@ msgid "Your text and attachments will be lost."
 msgstr "Qillqasqaykipas ratachisqaykikunapas chinkapunqa."
 
 #: ../../../lib/web/src/components/comment-composer.tsx:292
-#: src/features/help/contribute-dialog.tsx:379
+#: src/features/help/contribute-dialog.tsx:388
 msgid "Your text will be lost."
 msgstr "Qillqasqayki chinkanqa."

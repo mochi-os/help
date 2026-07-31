@@ -36,6 +36,10 @@ msgstr "Ngaran {entityLabel}"
 msgid "{entityLabel} name is required"
 msgstr "Ngaran {entityLabel} diperlukeun"
 
+#: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx:29
+msgid "{opponentName} offered a draw"
+msgstr "{opponentName} nawarkeun séri"
+
 #: ../../../lib/web/src/components/data-table/bulk-actions.tsx:210
 msgid "{selectedCount, plural, one {{entityName} selected} other {{manyName} selected}}"
 msgstr "{selectedCount, plural, one {{entityName} dipilih} other {{manyName} dipilih}}"
@@ -60,6 +64,11 @@ msgstr "{sentLabel} tina {totalLabel}"
 msgid "{unreadCount, plural, one {Open menu (# unread notification)} other {Open menu (# unread notifications)}}"
 msgstr "{unreadCount, plural, one {Buka menu (# wawaran anu can dibaca)} other {Buka menu (# wawaran anu can dibaca)}}"
 
+#. placeholder {0}: countDeepChildren(object.id)
+#: ../../../lib/web/src/components/entity/entity-board-card.tsx:421
+msgid "+{0} nested"
+msgstr "+{0} nyarang"
+
 #: ../../../lib/web/src/lib/preference-utils.ts:42
 msgid "12 hours"
 msgstr "12 jam"
@@ -71,6 +80,10 @@ msgstr "24 jam"
 #: ../../../lib/web/src/lib/preference-utils.ts:51
 msgid "Absolute (date and time)"
 msgstr "Mutlak (tanggal jeung waktu)"
+
+#: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx:45
+msgid "Accept"
+msgstr "Tarima"
 
 #: ../../../lib/web/src/features/errors/general-error.tsx:60
 msgid "Access denied"
@@ -100,12 +113,13 @@ msgstr "Tipe akun"
 msgid "Account verified"
 msgstr "Akun diverifikasi"
 
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:717
 #: ../../../lib/web/src/features/access/access-dialog.tsx:332
 #: ../../../lib/web/src/features/accounts/account-add.tsx:196
 msgid "Add"
 msgstr "Tambah"
 
-#: src/features/help/contribute-dialog.tsx:326
+#: src/features/help/contribute-dialog.tsx:335
 msgid "Add a bit more detail."
 msgstr "Tambihan saeutik detilna."
 
@@ -125,6 +139,14 @@ msgstr "Tambah akun"
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:297
 msgid "Add an account to receive notifications and use services."
 msgstr "Tambah akun pikeun narima béwara jeung maké layanan."
+
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:687
+msgid "Add checklist item"
+msgstr "Tambah item ceklis"
+
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:705
+msgid "Add item..."
+msgstr "Tambah item..."
 
 #: ../../../lib/web/src/features/accounts/account-picker.tsx:102
 msgid "Add new account"
@@ -202,12 +224,12 @@ msgstr "Asc"
 msgid "Ascending"
 msgstr "Naek"
 
-#: src/features/help/contribute-dialog.tsx:85
+#: src/features/help/contribute-dialog.tsx:93
 #: src/features/help/index.tsx:33
 msgid "Ask a question"
 msgstr "Naroskeun patarosan"
 
-#: src/features/help/contribute-dialog.tsx:86
+#: src/features/help/contribute-dialog.tsx:94
 msgid "Ask the community on the Mochi users mailing list. Be specific about what you've tried so far."
 msgstr "Tanyakeun ka komunitas dina milis pangguna Mochi. Sebutkeun sacara husus naon nu parantos anjeun cobian."
 
@@ -242,12 +264,17 @@ msgstr "Balik ka imah"
 msgid "Banner"
 msgstr "Spanduk"
 
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:156
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:166
+msgid "Blocked navigation to untrusted link"
+msgstr "Navigasi ka link nu teu dipercaya diblokir"
+
 #: ../../../lib/web/src/components/post-tags.tsx:180
 #: ../../../lib/web/src/components/post-tags.tsx:192
 msgid "Boost interest"
 msgstr "Tingkatkeun minat"
 
-#: src/features/help/contribute-dialog.tsx:99
+#: src/features/help/contribute-dialog.tsx:107
 msgid "Brief summary of the problem"
 msgstr "Ringkesan singget masalahna"
 
@@ -255,7 +282,7 @@ msgstr "Ringkesan singget masalahna"
 msgid "Browser notifications"
 msgstr "Béwara browser"
 
-#: src/features/help/contribute-dialog.tsx:103
+#: src/features/help/contribute-dialog.tsx:111
 msgid "Bug report submitted."
 msgstr "Laporan bug parantos dikintunkeun."
 
@@ -268,7 +295,7 @@ msgstr "Laporan bug parantos dikintunkeun."
 #: ../../../lib/web/src/features/access/access-list.tsx:268
 #: ../../../lib/web/src/features/accounts/account-add.tsx:188
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:91
-#: src/features/help/contribute-dialog.tsx:354
+#: src/features/help/contribute-dialog.tsx:363
 msgid "Cancel"
 msgstr "Batalkeun"
 
@@ -284,6 +311,10 @@ msgstr "Robah katégori béwara"
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:198
 msgid "Check \"All\" to see your past notifications."
 msgstr "Cék \"Sadayana\" pikeun ningali wawaran baheula."
+
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:38
+msgid "Choose a game from the sidebar or start a new one."
+msgstr "Pilih kaulinan ti sidebar atawa mimitian nu anyar."
 
 #: ../../../lib/web/src/components/config-drawer.tsx:329
 msgid "Choose between default expanded, compact icon-only, or full layout mode"
@@ -341,7 +372,7 @@ msgstr "Bersihkeun pilihan (Escape)"
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:358
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:361
 #: ../../../lib/web/src/components/ui/sheet.tsx:79
-#: src/features/help/contribute-dialog.tsx:341
+#: src/features/help/contribute-dialog.tsx:350
 msgid "Close"
 msgstr "Tutup"
 
@@ -440,7 +471,7 @@ msgstr "Salin"
 msgid "Could not load this document. Please try again later."
 msgstr "Teu bisa ngamuat dokumén ieu. Mangga cobian deui engké."
 
-#: src/features/help/contribute-dialog.tsx:282
+#: src/features/help/contribute-dialog.tsx:291
 msgid "Couldn't reach the destination yet"
 msgstr "Acan tiasa ngahontal tujuan"
 
@@ -452,7 +483,7 @@ msgstr "Teu bisa ngirim kode. Mangga cobian deui."
 msgid "Couldn't start re-authentication. Please try again."
 msgstr "Teu bisa ngamimitian pamariksaan deui. Mangga cobian deui."
 
-#: src/features/help/contribute-dialog.tsx:214
+#: src/features/help/contribute-dialog.tsx:223
 msgid "Couldn't submit"
 msgstr "Teu tiasa ngirim"
 
@@ -495,6 +526,10 @@ msgstr "Modeu poék"
 msgid "Data conflict"
 msgstr "Konflik data"
 
+#: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx:41
+msgid "Decline"
+msgstr "Tolak"
+
 #: ../../../lib/web/src/components/config-drawer.tsx:311
 msgid "Default"
 msgstr "Standar"
@@ -503,7 +538,7 @@ msgstr "Standar"
 msgid "Default AI account"
 msgstr "Akun AI standar"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:99
+#: ../../../lib/web/src/components/restore-banner.tsx:115
 msgid "Delete your account on the old server"
 msgstr "Hapus akun anjeun dina server lami"
 
@@ -515,7 +550,7 @@ msgstr "Desc"
 msgid "Descending"
 msgstr "Turun"
 
-#: src/features/help/contribute-dialog.tsx:97
+#: src/features/help/contribute-dialog.tsx:105
 msgid "Describe what went wrong. The Mochi development team will see it on the Mochi development project."
 msgstr "Jelaskeun naon nu lepat. Tim pamekar Mochi bakal ningalina dina proyek pamekaran Mochi."
 
@@ -523,8 +558,8 @@ msgstr "Jelaskeun naon nu lepat. Tim pamekar Mochi bakal ningalina dina proyek p
 msgid "Description"
 msgstr "Pedaran"
 
-#: src/features/help/contribute-dialog.tsx:89
-#: src/features/help/contribute-dialog.tsx:111
+#: src/features/help/contribute-dialog.tsx:97
+#: src/features/help/contribute-dialog.tsx:119
 msgid "Details"
 msgstr "Détil"
 
@@ -552,12 +587,12 @@ msgid "Directory"
 msgstr "Diréktori"
 
 #: ../../../lib/web/src/components/comment-composer.tsx:300
-#: src/features/help/contribute-dialog.tsx:381
+#: src/features/help/contribute-dialog.tsx:390
 msgid "Discard"
 msgstr "Piceun"
 
 #: ../../../lib/web/src/components/comment-composer.tsx:298
-#: src/features/help/contribute-dialog.tsx:378
+#: src/features/help/contribute-dialog.tsx:387
 msgid "Discard draft?"
 msgstr "Piceun draf?"
 
@@ -566,8 +601,8 @@ msgstr "Piceun draf?"
 msgid "Disconnected"
 msgstr "Pegat"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:79
-#: ../../../lib/web/src/components/restore-banner.tsx:85
+#: ../../../lib/web/src/components/restore-banner.tsx:94
+#: ../../../lib/web/src/components/restore-banner.tsx:100
 msgid "Dismiss"
 msgstr "Pasini"
 
@@ -664,7 +699,7 @@ msgstr "Gagal ngirim kode vérifikasi"
 msgid "Failed to update category"
 msgstr "Gagal ngamutahirkeun katégori"
 
-#: src/features/help/contribute-dialog.tsx:114
+#: src/features/help/contribute-dialog.tsx:122
 msgid "Feature request submitted."
 msgstr "Pamundut fitur parantos dikintunkeun."
 
@@ -672,7 +707,7 @@ msgstr "Pamundut fitur parantos dikintunkeun."
 msgid "Filter..."
 msgstr "Saring..."
 
-#: ../../../lib/web/src/components/restore-banner.tsx:88
+#: ../../../lib/web/src/components/restore-banner.tsx:103
 msgid "Finish moving your account"
 msgstr "Réngsekeun mindahkeun akun"
 
@@ -719,7 +754,7 @@ msgstr "Mundur"
 msgid "Go to first page"
 msgstr "Ka kaca kahiji"
 
-#: src/features/help/contribute-dialog.tsx:346
+#: src/features/help/contribute-dialog.tsx:355
 msgid "Go to forum"
 msgstr "Ka forum"
 
@@ -760,7 +795,7 @@ msgstr "Grup: {0}"
 msgid "Help"
 msgstr "Bantosan"
 
-#: src/features/help/contribute-dialog.tsx:79
+#: src/features/help/contribute-dialog.tsx:87
 msgid "Hi, I'm…"
 msgstr "Hai, abdi…"
 
@@ -812,10 +847,14 @@ msgstr "Sisipan"
 msgid "Interests"
 msgstr "Minat"
 
-#: src/features/help/contribute-dialog.tsx:78
+#: src/features/help/contribute-dialog.tsx:86
 #: src/features/help/index.tsx:27
 msgid "Introduce yourself"
 msgstr "Wanohkeun diri"
+
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:550
+msgid "Invalid date"
+msgstr "Tanggal teu sah"
 
 #: ../../../lib/web/src/components/tag-input.tsx:38
 msgid "Invalid tag: letters, numbers, spaces, hyphens, and slashes only (max 50 chars)"
@@ -833,7 +872,7 @@ msgstr "Sigana kaca anu ditéangan ku anjeun <0/>henteu aya atawa geus dipiceun.
 msgid "Just now"
 msgstr "Nembé"
 
-#: src/features/help/contribute-dialog.tsx:380
+#: src/features/help/contribute-dialog.tsx:389
 msgid "Keep editing"
 msgstr "Teruskeun ngedit"
 
@@ -875,7 +914,7 @@ msgstr "Ngamuat eusi…"
 
 #: ../../../lib/web/src/components/ui/load-more.tsx:35
 #: ../../../lib/web/src/features/document/document-page.tsx:90
-#: src/features/help/contribute-dialog.tsx:273
+#: src/features/help/contribute-dialog.tsx:282
 msgid "Loading..."
 msgstr "Muat..."
 
@@ -905,8 +944,8 @@ msgstr "Keur kaluar…"
 msgid "Manage your connected accounts for notifications and services."
 msgstr "Kelola akun anu nyambung pikeun wawaran jeung layanan."
 
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:93
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:100
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:118
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:125
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:224
 msgid "Mark all as read"
 msgstr "Tandaan sadayana sakumaha dibaca"
@@ -922,6 +961,10 @@ msgstr "Sedeng"
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx:173
 msgid "Menu"
 msgstr "Menu"
+
+#: ../../../lib/web/src/components/game/game-chat-input.tsx:35
+msgid "Message"
+msgstr "Pesen"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:85
 msgid "Metric"
@@ -952,6 +995,11 @@ msgstr "Kasalahan jaringan"
 msgid "New"
 msgstr "Anyar"
 
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:42
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:54
+msgid "New game"
+msgstr "Game anyar"
+
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:392
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:397
 msgid "Next image"
@@ -965,6 +1013,10 @@ msgstr "Euweuh aturan aksés. Tambahan aturan pikeun ngatur saha nu bisa ngakses
 msgid "No connected accounts"
 msgstr "Teu aya akun nu kasambung"
 
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:51
+msgid "No games yet"
+msgstr "Tacan aya game"
+
 #: ../../../lib/web/src/features/access/access-dialog.tsx:241
 msgid "No groups available"
 msgstr "Teu aya grup"
@@ -973,6 +1025,7 @@ msgstr "Teu aya grup"
 msgid "No notifications yet"
 msgstr "Can aya wawaran"
 
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:336
 #: ../../../lib/web/src/components/person-picker.tsx:84
 msgid "No people found"
 msgstr "Teu manggih jalma"
@@ -1035,7 +1088,7 @@ msgid "Notifications"
 msgstr "Bewara"
 
 #. placeholder {0}: unread.length
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:86
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:111
 msgid "Notifications: {0}"
 msgstr "Wawaran: {0}"
 
@@ -1097,7 +1150,7 @@ msgstr "Konci akses"
 msgid "Passkey verification failed. Please try again."
 msgstr "Pamariksaan konci akses gagal. Mangga cobian deui."
 
-#: ../../../lib/web/src/components/restore-banner.tsx:135
+#: ../../../lib/web/src/components/restore-banner.tsx:152
 msgid "Passkeys"
 msgstr "Passkey"
 
@@ -1116,9 +1169,9 @@ msgid "Please log in with the appropriate credentials <0/> to access this resour
 msgstr "Mangga lebet nganggo kredensial anu luyu <0/> pikeun ngaksés sumber ieu."
 
 #: ../../../lib/web/src/features/errors/general-error.tsx:83
-#: src/features/help/contribute-dialog.tsx:171
 #: src/features/help/contribute-dialog.tsx:180
-#: src/features/help/contribute-dialog.tsx:215
+#: src/features/help/contribute-dialog.tsx:189
+#: src/features/help/contribute-dialog.tsx:224
 msgid "Please try again."
 msgstr "Mangga cobian deui."
 
@@ -1126,19 +1179,19 @@ msgstr "Mangga cobian deui."
 msgid "Please wait a moment and try again."
 msgstr "Mangga antosan sakedap teras cobian deui."
 
-#: src/features/help/contribute-dialog.tsx:80
+#: src/features/help/contribute-dialog.tsx:88
 msgid "Post introduction"
 msgstr "Kirim pangenalan"
 
-#: src/features/help/contribute-dialog.tsx:91
+#: src/features/help/contribute-dialog.tsx:99
 msgid "Post question"
 msgstr "Kirim patarosan"
 
-#: src/features/help/contribute-dialog.tsx:208
+#: src/features/help/contribute-dialog.tsx:217
 msgid "Posted"
 msgstr "Diposting"
 
-#: src/features/help/contribute-dialog.tsx:360
+#: src/features/help/contribute-dialog.tsx:369
 msgid "Posting…"
 msgstr "Ngirim…"
 
@@ -1170,7 +1223,7 @@ msgstr "Anggota proyék"
 msgid "Push notification"
 msgstr "Wawaran push"
 
-#: src/features/help/contribute-dialog.tsx:87
+#: src/features/help/contribute-dialog.tsx:95
 msgid "Question"
 msgstr "Patarosan"
 
@@ -1178,11 +1231,11 @@ msgstr "Patarosan"
 msgid "Raised"
 msgstr "Diangkat"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:107
+#: ../../../lib/web/src/components/restore-banner.tsx:124
 msgid "Re-link your accounts on this server"
 msgstr "Sambungkeun deui akun anjeun dina server ieu"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:129
+#: ../../../lib/web/src/components/restore-banner.tsx:146
 msgid "Re-register your passkeys on this server"
 msgstr "Daptarkeun deui konci akses anjeun dina ieu server"
 
@@ -1243,12 +1296,16 @@ msgstr "Cabut aksés?"
 msgid "Remove interest"
 msgstr "Cabut minat"
 
-#: src/features/help/contribute-dialog.tsx:96
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:671
+msgid "Remove item"
+msgstr "Cabut item"
+
+#: src/features/help/contribute-dialog.tsx:104
 #: src/features/help/index.tsx:39
 msgid "Report a bug"
 msgstr "Laporkeun bug"
 
-#: src/features/help/contribute-dialog.tsx:102
+#: src/features/help/contribute-dialog.tsx:110
 msgid "Report bug"
 msgstr "Laporkeun bug"
 
@@ -1346,6 +1403,10 @@ msgstr "Maluruh..."
 msgid "Select {0}"
 msgstr "Pilih {0}"
 
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:37
+msgid "Select a game"
+msgstr "Pilih game"
+
 #: ../../../lib/web/src/features/access/access-dialog.tsx:150
 msgid "Select a user, group, or other rule to grant access."
 msgstr "Pilih pamaké, grup, atawa aturan séjén pikeun ngabikeun aksés."
@@ -1390,6 +1451,11 @@ msgstr "Pilih arah situs"
 msgid "Select theme preference"
 msgstr "Pilih préferénsi téma"
 
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:252
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:335
+msgid "Select..."
+msgstr "Pilih..."
+
 #: ../../../lib/web/src/components/data-table/bulk-actions.tsx:216
 msgid "selected"
 msgstr "dipilih"
@@ -1406,6 +1472,11 @@ msgstr "Kirim deui"
 #: ../../../lib/web/src/components/step-up-dialog.tsx:307
 msgid "Send email"
 msgstr "Kirim email"
+
+#: ../../../lib/web/src/components/game/game-chat-input.tsx:52
+#: ../../../lib/web/src/components/game/game-chat-input.tsx:61
+msgid "Send message"
+msgstr "Kirim pesen"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:145
 msgid "Serif"
@@ -1438,7 +1509,7 @@ msgstr "Atur asal jeung tujuan"
 msgid "Settings"
 msgstr "Setélan"
 
-#: src/features/help/contribute-dialog.tsx:110
+#: src/features/help/contribute-dialog.tsx:118
 msgid "Short title for your idea"
 msgstr "Judul singget kanggo ide anjeun"
 
@@ -1486,7 +1557,7 @@ msgstr "Ningali aya nu rusak? Ajukan tikét bug dina proyek pamekaran Mochi."
 msgid "Stay tuned though!"
 msgstr "Tapi tetep nyimak!"
 
-#: src/features/help/contribute-dialog.tsx:101
+#: src/features/help/contribute-dialog.tsx:109
 msgid "Steps to reproduce, what you expected, and what actually happened. Include your browser and device if relevant."
 msgstr "Léngkah pikeun ngabalikan, naon nu diarepkeun, sareng naon nu saleresna kajadian. Kaasup browser sareng alat anjeun upami relevan."
 
@@ -1498,7 +1569,7 @@ msgstr "Macét dina hiji hal? Tanya komunitas dina milis pangguna Mochi."
 msgid "Subject"
 msgstr "Subjek"
 
-#: src/features/help/contribute-dialog.tsx:265
+#: src/features/help/contribute-dialog.tsx:274
 msgid "Submitted successfully"
 msgstr "Suksés dikintunkeun"
 
@@ -1507,17 +1578,17 @@ msgstr "Suksés dikintunkeun"
 msgid "Subscribe"
 msgstr "Langgan"
 
-#: src/features/help/contribute-dialog.tsx:107
+#: src/features/help/contribute-dialog.tsx:115
 #: src/features/help/index.tsx:45
 msgid "Suggest a new feature"
 msgstr "Saranan fitur anyar"
 
-#: src/features/help/contribute-dialog.tsx:113
+#: src/features/help/contribute-dialog.tsx:121
 msgid "Suggest feature"
 msgstr "Sarankeun fitur"
 
-#: src/features/help/contribute-dialog.tsx:98
-#: src/features/help/contribute-dialog.tsx:109
+#: src/features/help/contribute-dialog.tsx:106
+#: src/features/help/contribute-dialog.tsx:117
 msgid "Summary"
 msgstr "Ringkesan"
 
@@ -1549,7 +1620,7 @@ msgstr "Tag kudu 50 karakter atawa kurang"
 msgid "Tags"
 msgstr "Tag"
 
-#: src/features/help/contribute-dialog.tsx:209
+#: src/features/help/contribute-dialog.tsx:218
 msgid "Taking you there now."
 msgstr "Ngajak anjeun ka dinya ayeuna."
 
@@ -1557,7 +1628,7 @@ msgstr "Ngajak anjeun ka dinya ayeuna."
 msgid "Teams/Apps"
 msgstr "Tim/App"
 
-#: src/features/help/contribute-dialog.tsx:108
+#: src/features/help/contribute-dialog.tsx:116
 msgid "Tell the Mochi development team what you'd like Mochi to do."
 msgstr "Bejakeun ka tim pamekar Mochi naon nu anjeun hoyong Mochi pigawé."
 
@@ -1650,7 +1721,7 @@ msgstr "Cobian luyukeun istilah pamilarian anjeun"
 #: ../../../lib/web/src/features/errors/general-error.tsx:140
 #: ../../../lib/web/src/features/errors/general-error.tsx:180
 #: ../../../lib/web/src/features/errors/maintenance-error.tsx:19
-#: src/features/help/contribute-dialog.tsx:294
+#: src/features/help/contribute-dialog.tsx:303
 msgid "Try again"
 msgstr "Cobian deui"
 
@@ -1661,6 +1732,10 @@ msgstr "Salasa"
 #: ../../../lib/web/src/components/command-menu.tsx:52
 msgid "Type a command or search..."
 msgstr "Ketik paréntah atawa pamilarian..."
+
+#: ../../../lib/web/src/components/game/game-chat-input.tsx:39
+msgid "Type a message…"
+msgstr "Ketik pesen…"
 
 #: ../../../lib/web/src/features/access/access-dialog.tsx:191
 msgid "Type to search users"
@@ -1756,8 +1831,8 @@ msgstr "Tingali"
 msgid "View all"
 msgstr "Tingali sadayana"
 
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:106
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:114
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:131
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:139
 msgid "View all notifications"
 msgstr "Tingali sagala bewara"
 
@@ -1790,19 +1865,19 @@ msgstr "Rebo"
 msgid "Welcome to Mochi. Here's how to get started."
 msgstr "Wilujeng sumping di Mochi. Kieu cara ngamimitianana."
 
-#: src/features/help/contribute-dialog.tsx:100
+#: src/features/help/contribute-dialog.tsx:108
 msgid "What happened"
 msgstr "Naon nu kajadian"
 
-#: src/features/help/contribute-dialog.tsx:90
+#: src/features/help/contribute-dialog.tsx:98
 msgid "What have you tried, what did you expect, where are you stuck?"
 msgstr "Naon nu geus dicoba, naon nu diharepkeun, di mana nyangkutna?"
 
-#: src/features/help/contribute-dialog.tsx:112
+#: src/features/help/contribute-dialog.tsx:120
 msgid "What would it do, who is it for, why does it matter?"
 msgstr "Naon fungsina, kanggo saha, naha penting?"
 
-#: src/features/help/contribute-dialog.tsx:88
+#: src/features/help/contribute-dialog.tsx:96
 msgid "What you want to ask, in one line"
 msgstr "Naon nu rék ditaroskeun, dina hiji baris"
 
@@ -1822,7 +1897,7 @@ msgstr "Anjeun ngirim niléy ieu:"
 msgid "You're all caught up!"
 msgstr "Anjeun geus maca sadayana!"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:91
+#: ../../../lib/web/src/components/restore-banner.tsx:106
 msgid "Your account was moved here from {source}. Until you delete it there, messages and notifications may reach both servers, some of your content keeps being served from the old server, and followers may take a few minutes to find you here."
 msgstr "Akun anjeun dipindahkeun ka dieu ti {source}. Dugi ka anjeun mupus éta di ditu, pesen jeung béwara tiasa dugi ka dua server, sababaraha konten anjeun tetep disajikan ti server lami, sareng pangéntép tiasa butuh sababaraha menit pikeun mendakan anjeun di dieu."
 
@@ -1830,11 +1905,11 @@ msgstr "Akun anjeun dipindahkeun ka dieu ti {source}. Dugi ka anjeun mupus éta 
 msgid "Your attachments will be lost."
 msgstr "Lampiran anjeun bakal leungit."
 
-#: src/features/help/contribute-dialog.tsx:81
+#: src/features/help/contribute-dialog.tsx:89
 msgid "Your introduction has been submitted and will appear after moderation."
 msgstr "Bubuka anjeun parantos dikintunkeun sareng bakal nembongan saatos moderasi."
 
-#: src/features/help/contribute-dialog.tsx:92
+#: src/features/help/contribute-dialog.tsx:100
 msgid "Your question has been submitted and will appear after moderation."
 msgstr "Pananya anjeun parantos dikintunkeun sareng bakal nembongan saatos moderasi."
 
@@ -1843,6 +1918,6 @@ msgid "Your text and attachments will be lost."
 msgstr "Téks sareng lampiran anjeun bakal leungit."
 
 #: ../../../lib/web/src/components/comment-composer.tsx:292
-#: src/features/help/contribute-dialog.tsx:379
+#: src/features/help/contribute-dialog.tsx:388
 msgid "Your text will be lost."
 msgstr "Téks anjeun bakal leungit."

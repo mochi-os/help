@@ -36,6 +36,10 @@ msgstr "Naziv {entityLabel}"
 msgid "{entityLabel} name is required"
 msgstr "Naziv za {entityLabel} je obavezan"
 
+#: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx:29
+msgid "{opponentName} offered a draw"
+msgstr "{opponentName} je ponudio remi"
+
 #: ../../../lib/web/src/components/data-table/bulk-actions.tsx:210
 msgid "{selectedCount, plural, one {{entityName} selected} other {{manyName} selected}}"
 msgstr "{selectedCount, plural, one {{entityName} odabran} few {{manyName} odabrana} other {{manyName} odabranih}}"
@@ -60,6 +64,11 @@ msgstr "{sentLabel} od {totalLabel}"
 msgid "{unreadCount, plural, one {Open menu (# unread notification)} other {Open menu (# unread notifications)}}"
 msgstr "{unreadCount, plural, one {Otvori meni (# nepročitana obavijest)} few {Otvori meni (# nepročitane obavijesti)} other {Otvori meni (# nepročitanih obavijesti)}}"
 
+#. placeholder {0}: countDeepChildren(object.id)
+#: ../../../lib/web/src/components/entity/entity-board-card.tsx:421
+msgid "+{0} nested"
+msgstr "+{0} ugniježđenih"
+
 #: ../../../lib/web/src/lib/preference-utils.ts:42
 msgid "12 hours"
 msgstr "12 sati"
@@ -71,6 +80,10 @@ msgstr "24 sata"
 #: ../../../lib/web/src/lib/preference-utils.ts:51
 msgid "Absolute (date and time)"
 msgstr "Apsolutno (datum i vrijeme)"
+
+#: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx:45
+msgid "Accept"
+msgstr "Prihvati"
 
 #: ../../../lib/web/src/features/errors/general-error.tsx:60
 msgid "Access denied"
@@ -100,12 +113,13 @@ msgstr "Vrsta računa"
 msgid "Account verified"
 msgstr "Račun verifikovan"
 
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:717
 #: ../../../lib/web/src/features/access/access-dialog.tsx:332
 #: ../../../lib/web/src/features/accounts/account-add.tsx:196
 msgid "Add"
 msgstr "Dodaj"
 
-#: src/features/help/contribute-dialog.tsx:326
+#: src/features/help/contribute-dialog.tsx:335
 msgid "Add a bit more detail."
 msgstr "Dodajte malo više detalja."
 
@@ -125,6 +139,14 @@ msgstr "Dodaj račun"
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:297
 msgid "Add an account to receive notifications and use services."
 msgstr "Dodajte račun za primanje obavještenja i korištenje servisa."
+
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:687
+msgid "Add checklist item"
+msgstr "Dodaj stavku liste"
+
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:705
+msgid "Add item..."
+msgstr "Dodaj stavku..."
 
 #: ../../../lib/web/src/features/accounts/account-picker.tsx:102
 msgid "Add new account"
@@ -202,12 +224,12 @@ msgstr "Rastuće"
 msgid "Ascending"
 msgstr "Rastuće"
 
-#: src/features/help/contribute-dialog.tsx:85
+#: src/features/help/contribute-dialog.tsx:93
 #: src/features/help/index.tsx:33
 msgid "Ask a question"
 msgstr "Postavi pitanje"
 
-#: src/features/help/contribute-dialog.tsx:86
+#: src/features/help/contribute-dialog.tsx:94
 msgid "Ask the community on the Mochi users mailing list. Be specific about what you've tried so far."
 msgstr "Pitajte zajednicu na mailing listi korisnika Mochi. Detaljno opišite šta ste već pokušali."
 
@@ -242,12 +264,17 @@ msgstr "Nazad na početnu"
 msgid "Banner"
 msgstr "Baner"
 
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:156
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:166
+msgid "Blocked navigation to untrusted link"
+msgstr "Blokirana navigacija na nepouzdani link"
+
 #: ../../../lib/web/src/components/post-tags.tsx:180
 #: ../../../lib/web/src/components/post-tags.tsx:192
 msgid "Boost interest"
 msgstr "Pojačaj interes"
 
-#: src/features/help/contribute-dialog.tsx:99
+#: src/features/help/contribute-dialog.tsx:107
 msgid "Brief summary of the problem"
 msgstr "Kratak opis problema"
 
@@ -255,7 +282,7 @@ msgstr "Kratak opis problema"
 msgid "Browser notifications"
 msgstr "Browser obavještenja"
 
-#: src/features/help/contribute-dialog.tsx:103
+#: src/features/help/contribute-dialog.tsx:111
 msgid "Bug report submitted."
 msgstr "Prijava greške je poslana."
 
@@ -268,7 +295,7 @@ msgstr "Prijava greške je poslana."
 #: ../../../lib/web/src/features/access/access-list.tsx:268
 #: ../../../lib/web/src/features/accounts/account-add.tsx:188
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:91
-#: src/features/help/contribute-dialog.tsx:354
+#: src/features/help/contribute-dialog.tsx:363
 msgid "Cancel"
 msgstr "Otkaži"
 
@@ -284,6 +311,10 @@ msgstr "Promijeni kategoriju obavještenja"
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:198
 msgid "Check \"All\" to see your past notifications."
 msgstr "Označite \"Sve\" da vidite ranije obavijesti."
+
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:38
+msgid "Choose a game from the sidebar or start a new one."
+msgstr "Odaberite igru sa bočne trake ili započnite novu."
 
 #: ../../../lib/web/src/components/config-drawer.tsx:329
 msgid "Choose between default expanded, compact icon-only, or full layout mode"
@@ -341,7 +372,7 @@ msgstr "Očisti odabir (Escape)"
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:358
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:361
 #: ../../../lib/web/src/components/ui/sheet.tsx:79
-#: src/features/help/contribute-dialog.tsx:341
+#: src/features/help/contribute-dialog.tsx:350
 msgid "Close"
 msgstr "Zatvori"
 
@@ -440,7 +471,7 @@ msgstr "Kopiraj"
 msgid "Could not load this document. Please try again later."
 msgstr "Nije moguće učitati ovaj dokument. Molimo pokušajte ponovo kasnije."
 
-#: src/features/help/contribute-dialog.tsx:282
+#: src/features/help/contribute-dialog.tsx:291
 msgid "Couldn't reach the destination yet"
 msgstr "Još nije uspjelo dostavljanje"
 
@@ -452,7 +483,7 @@ msgstr "Slanje koda nije uspjelo. Molimo pokušajte ponovo."
 msgid "Couldn't start re-authentication. Please try again."
 msgstr "Pokretanje ponovne autentifikacije nije uspjelo. Molimo pokušajte ponovo."
 
-#: src/features/help/contribute-dialog.tsx:214
+#: src/features/help/contribute-dialog.tsx:223
 msgid "Couldn't submit"
 msgstr "Nije uspjelo slanje"
 
@@ -495,6 +526,10 @@ msgstr "Tamni način"
 msgid "Data conflict"
 msgstr "Sukob podataka"
 
+#: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx:41
+msgid "Decline"
+msgstr "Odbij"
+
 #: ../../../lib/web/src/components/config-drawer.tsx:311
 msgid "Default"
 msgstr "Podrazumijevano"
@@ -503,7 +538,7 @@ msgstr "Podrazumijevano"
 msgid "Default AI account"
 msgstr "Podrazumijevani AI račun"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:99
+#: ../../../lib/web/src/components/restore-banner.tsx:115
 msgid "Delete your account on the old server"
 msgstr "Obrišite račun na starom serveru"
 
@@ -515,7 +550,7 @@ msgstr "Opadajuće"
 msgid "Descending"
 msgstr "Opadajuće"
 
-#: src/features/help/contribute-dialog.tsx:97
+#: src/features/help/contribute-dialog.tsx:105
 msgid "Describe what went wrong. The Mochi development team will see it on the Mochi development project."
 msgstr "Opišite šta je pošlo po zlu. Razvojni tim Mochi vidjet će to na razvojnom projektu Mochi."
 
@@ -523,8 +558,8 @@ msgstr "Opišite šta je pošlo po zlu. Razvojni tim Mochi vidjet će to na razv
 msgid "Description"
 msgstr "Opis"
 
-#: src/features/help/contribute-dialog.tsx:89
-#: src/features/help/contribute-dialog.tsx:111
+#: src/features/help/contribute-dialog.tsx:97
+#: src/features/help/contribute-dialog.tsx:119
 msgid "Details"
 msgstr "Detalji"
 
@@ -552,12 +587,12 @@ msgid "Directory"
 msgstr "Imenik"
 
 #: ../../../lib/web/src/components/comment-composer.tsx:300
-#: src/features/help/contribute-dialog.tsx:381
+#: src/features/help/contribute-dialog.tsx:390
 msgid "Discard"
 msgstr "Odbaci"
 
 #: ../../../lib/web/src/components/comment-composer.tsx:298
-#: src/features/help/contribute-dialog.tsx:378
+#: src/features/help/contribute-dialog.tsx:387
 msgid "Discard draft?"
 msgstr "Odbaciti nacrt?"
 
@@ -566,8 +601,8 @@ msgstr "Odbaciti nacrt?"
 msgid "Disconnected"
 msgstr "Nije povezano"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:79
-#: ../../../lib/web/src/components/restore-banner.tsx:85
+#: ../../../lib/web/src/components/restore-banner.tsx:94
+#: ../../../lib/web/src/components/restore-banner.tsx:100
 msgid "Dismiss"
 msgstr "Odbaci"
 
@@ -664,7 +699,7 @@ msgstr "Slanje verifikacionog koda nije uspjelo"
 msgid "Failed to update category"
 msgstr "Ažuriranje kategorije nije uspjelo"
 
-#: src/features/help/contribute-dialog.tsx:114
+#: src/features/help/contribute-dialog.tsx:122
 msgid "Feature request submitted."
 msgstr "Zahtjev za funkciju je poslan."
 
@@ -672,7 +707,7 @@ msgstr "Zahtjev za funkciju je poslan."
 msgid "Filter..."
 msgstr "Filtriraj..."
 
-#: ../../../lib/web/src/components/restore-banner.tsx:88
+#: ../../../lib/web/src/components/restore-banner.tsx:103
 msgid "Finish moving your account"
 msgstr "Završite premještanje računa"
 
@@ -719,7 +754,7 @@ msgstr "Nazad"
 msgid "Go to first page"
 msgstr "Idi na prvu stranicu"
 
-#: src/features/help/contribute-dialog.tsx:346
+#: src/features/help/contribute-dialog.tsx:355
 msgid "Go to forum"
 msgstr "Idi na forum"
 
@@ -760,7 +795,7 @@ msgstr "Grupa: {0}"
 msgid "Help"
 msgstr "Pomoć"
 
-#: src/features/help/contribute-dialog.tsx:79
+#: src/features/help/contribute-dialog.tsx:87
 msgid "Hi, I'm…"
 msgstr "Zdravo, ja sam…"
 
@@ -812,10 +847,14 @@ msgstr "Umetnuto"
 msgid "Interests"
 msgstr "Interesi"
 
-#: src/features/help/contribute-dialog.tsx:78
+#: src/features/help/contribute-dialog.tsx:86
 #: src/features/help/index.tsx:27
 msgid "Introduce yourself"
 msgstr "Predstavite se"
+
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:550
+msgid "Invalid date"
+msgstr "Nevažeći datum"
 
 #: ../../../lib/web/src/components/tag-input.tsx:38
 msgid "Invalid tag: letters, numbers, spaces, hyphens, and slashes only (max 50 chars)"
@@ -833,7 +872,7 @@ msgstr "Izgleda da stranica koju tražite <0/>ne postoji ili je uklonjena."
 msgid "Just now"
 msgstr "Upravo sada"
 
-#: src/features/help/contribute-dialog.tsx:380
+#: src/features/help/contribute-dialog.tsx:389
 msgid "Keep editing"
 msgstr "Nastavi uređivanje"
 
@@ -875,7 +914,7 @@ msgstr "Učitavanje sadržaja…"
 
 #: ../../../lib/web/src/components/ui/load-more.tsx:35
 #: ../../../lib/web/src/features/document/document-page.tsx:90
-#: src/features/help/contribute-dialog.tsx:273
+#: src/features/help/contribute-dialog.tsx:282
 msgid "Loading..."
 msgstr "Učitavanje..."
 
@@ -905,8 +944,8 @@ msgstr "Odjavljivanje…"
 msgid "Manage your connected accounts for notifications and services."
 msgstr "Upravljajte povezanim računima za obavijesti i usluge."
 
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:93
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:100
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:118
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:125
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:224
 msgid "Mark all as read"
 msgstr "Označi sve kao pročitano"
@@ -922,6 +961,10 @@ msgstr "Srednje"
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx:173
 msgid "Menu"
 msgstr "Meni"
+
+#: ../../../lib/web/src/components/game/game-chat-input.tsx:35
+msgid "Message"
+msgstr "Poruka"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:85
 msgid "Metric"
@@ -952,6 +995,11 @@ msgstr "Greška mreže"
 msgid "New"
 msgstr "Novo"
 
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:42
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:54
+msgid "New game"
+msgstr "Nova igra"
+
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:392
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:397
 msgid "Next image"
@@ -965,6 +1013,10 @@ msgstr "Nema konfigurisanih pravila pristupa. Dodajte pravila za kontrolu pristu
 msgid "No connected accounts"
 msgstr "Nema povezanih naloga"
 
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:51
+msgid "No games yet"
+msgstr "Još nema igara"
+
 #: ../../../lib/web/src/features/access/access-dialog.tsx:241
 msgid "No groups available"
 msgstr "Nema dostupnih grupa"
@@ -973,6 +1025,7 @@ msgstr "Nema dostupnih grupa"
 msgid "No notifications yet"
 msgstr "Još nema obavijesti"
 
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:336
 #: ../../../lib/web/src/components/person-picker.tsx:84
 msgid "No people found"
 msgstr "Nisu pronađeni ljudi"
@@ -1035,7 +1088,7 @@ msgid "Notifications"
 msgstr "Obavještenja"
 
 #. placeholder {0}: unread.length
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:86
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:111
 msgid "Notifications: {0}"
 msgstr "Obavijesti: {0}"
 
@@ -1097,7 +1150,7 @@ msgstr "Pristupni ključ"
 msgid "Passkey verification failed. Please try again."
 msgstr "Provjera pristupnog ključa nije uspjela. Molimo pokušajte ponovo."
 
-#: ../../../lib/web/src/components/restore-banner.tsx:135
+#: ../../../lib/web/src/components/restore-banner.tsx:152
 msgid "Passkeys"
 msgstr "Pristupni ključevi"
 
@@ -1116,9 +1169,9 @@ msgid "Please log in with the appropriate credentials <0/> to access this resour
 msgstr "Molimo prijavite se s odgovarajućim podacima <0/> da biste pristupili ovom resursu."
 
 #: ../../../lib/web/src/features/errors/general-error.tsx:83
-#: src/features/help/contribute-dialog.tsx:171
 #: src/features/help/contribute-dialog.tsx:180
-#: src/features/help/contribute-dialog.tsx:215
+#: src/features/help/contribute-dialog.tsx:189
+#: src/features/help/contribute-dialog.tsx:224
 msgid "Please try again."
 msgstr "Pokušajte ponovo."
 
@@ -1126,19 +1179,19 @@ msgstr "Pokušajte ponovo."
 msgid "Please wait a moment and try again."
 msgstr "Sačekajte trenutak i pokušajte ponovo."
 
-#: src/features/help/contribute-dialog.tsx:80
+#: src/features/help/contribute-dialog.tsx:88
 msgid "Post introduction"
 msgstr "Objavi predstavljanje"
 
-#: src/features/help/contribute-dialog.tsx:91
+#: src/features/help/contribute-dialog.tsx:99
 msgid "Post question"
 msgstr "Objavi pitanje"
 
-#: src/features/help/contribute-dialog.tsx:208
+#: src/features/help/contribute-dialog.tsx:217
 msgid "Posted"
 msgstr "Objavljeno"
 
-#: src/features/help/contribute-dialog.tsx:360
+#: src/features/help/contribute-dialog.tsx:369
 msgid "Posting…"
 msgstr "Objavljivanje…"
 
@@ -1170,7 +1223,7 @@ msgstr "Članovi projekta"
 msgid "Push notification"
 msgstr "Push obavijest"
 
-#: src/features/help/contribute-dialog.tsx:87
+#: src/features/help/contribute-dialog.tsx:95
 msgid "Question"
 msgstr "Pitanje"
 
@@ -1178,11 +1231,11 @@ msgstr "Pitanje"
 msgid "Raised"
 msgstr "Izdignut"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:107
+#: ../../../lib/web/src/components/restore-banner.tsx:124
 msgid "Re-link your accounts on this server"
 msgstr "Povežite ponovo svoje račune na ovom serveru"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:129
+#: ../../../lib/web/src/components/restore-banner.tsx:146
 msgid "Re-register your passkeys on this server"
 msgstr "Ponovo registrujte svoje pristupne ključeve na ovom serveru"
 
@@ -1243,12 +1296,16 @@ msgstr "Ukloniti pristup?"
 msgid "Remove interest"
 msgstr "Ukloni interes"
 
-#: src/features/help/contribute-dialog.tsx:96
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:671
+msgid "Remove item"
+msgstr "Ukloni stavku"
+
+#: src/features/help/contribute-dialog.tsx:104
 #: src/features/help/index.tsx:39
 msgid "Report a bug"
 msgstr "Prijavi grešku"
 
-#: src/features/help/contribute-dialog.tsx:102
+#: src/features/help/contribute-dialog.tsx:110
 msgid "Report bug"
 msgstr "Prijavi grešku"
 
@@ -1346,6 +1403,10 @@ msgstr "Pretraživanje..."
 msgid "Select {0}"
 msgstr "Odaberi {0}"
 
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:37
+msgid "Select a game"
+msgstr "Odaberi igru"
+
 #: ../../../lib/web/src/features/access/access-dialog.tsx:150
 msgid "Select a user, group, or other rule to grant access."
 msgstr "Odaberite korisnika, grupu ili drugo pravilo za dodjelu pristupa."
@@ -1390,6 +1451,11 @@ msgstr "Odaberi smjer stranice"
 msgid "Select theme preference"
 msgstr "Odaberi preferencu teme"
 
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:252
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:335
+msgid "Select..."
+msgstr "Odaberi..."
+
 #: ../../../lib/web/src/components/data-table/bulk-actions.tsx:216
 msgid "selected"
 msgstr "odabrano"
@@ -1406,6 +1472,11 @@ msgstr "Pošalji ponovo"
 #: ../../../lib/web/src/components/step-up-dialog.tsx:307
 msgid "Send email"
 msgstr "Pošalji email"
+
+#: ../../../lib/web/src/components/game/game-chat-input.tsx:52
+#: ../../../lib/web/src/components/game/game-chat-input.tsx:61
+msgid "Send message"
+msgstr "Pošalji poruku"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:145
 msgid "Serif"
@@ -1438,7 +1509,7 @@ msgstr "Postavi polazište i odredište"
 msgid "Settings"
 msgstr "Postavke"
 
-#: src/features/help/contribute-dialog.tsx:110
+#: src/features/help/contribute-dialog.tsx:118
 msgid "Short title for your idea"
 msgstr "Kratak naslov vaše ideje"
 
@@ -1486,7 +1557,7 @@ msgstr "Primijetili ste nešto neispravno? Prijavite grešku na razvojnom projek
 msgid "Stay tuned though!"
 msgstr "Ali ostanite na vezi!"
 
-#: src/features/help/contribute-dialog.tsx:101
+#: src/features/help/contribute-dialog.tsx:109
 msgid "Steps to reproduce, what you expected, and what actually happened. Include your browser and device if relevant."
 msgstr "Koraci za ponavljanje, šta ste očekivali i šta se zaista desilo. Navedite svoj pregljednik i uređaj ako je relevantno."
 
@@ -1498,7 +1569,7 @@ msgstr "Zapeli ste na nečemu? Pitajte zajednicu na mailing listi korisnika Moch
 msgid "Subject"
 msgstr "Predmet"
 
-#: src/features/help/contribute-dialog.tsx:265
+#: src/features/help/contribute-dialog.tsx:274
 msgid "Submitted successfully"
 msgstr "Uspješno poslano"
 
@@ -1507,17 +1578,17 @@ msgstr "Uspješno poslano"
 msgid "Subscribe"
 msgstr "Pretplati se"
 
-#: src/features/help/contribute-dialog.tsx:107
+#: src/features/help/contribute-dialog.tsx:115
 #: src/features/help/index.tsx:45
 msgid "Suggest a new feature"
 msgstr "Predloži novu funkciju"
 
-#: src/features/help/contribute-dialog.tsx:113
+#: src/features/help/contribute-dialog.tsx:121
 msgid "Suggest feature"
 msgstr "Predloži funkciju"
 
-#: src/features/help/contribute-dialog.tsx:98
-#: src/features/help/contribute-dialog.tsx:109
+#: src/features/help/contribute-dialog.tsx:106
+#: src/features/help/contribute-dialog.tsx:117
 msgid "Summary"
 msgstr "Sažetak"
 
@@ -1549,7 +1620,7 @@ msgstr "Oznaka mora imati najviše 50 znakova"
 msgid "Tags"
 msgstr "Tagovi"
 
-#: src/features/help/contribute-dialog.tsx:209
+#: src/features/help/contribute-dialog.tsx:218
 msgid "Taking you there now."
 msgstr "Vodimo vas tamo odmah."
 
@@ -1557,7 +1628,7 @@ msgstr "Vodimo vas tamo odmah."
 msgid "Teams/Apps"
 msgstr "Timovi/Aplikacije"
 
-#: src/features/help/contribute-dialog.tsx:108
+#: src/features/help/contribute-dialog.tsx:116
 msgid "Tell the Mochi development team what you'd like Mochi to do."
 msgstr "Recite razvojnom timu Mochi šta biste željeli da Mochi radi."
 
@@ -1650,7 +1721,7 @@ msgstr "Pokušaj prilagoditi termine pretrage"
 #: ../../../lib/web/src/features/errors/general-error.tsx:140
 #: ../../../lib/web/src/features/errors/general-error.tsx:180
 #: ../../../lib/web/src/features/errors/maintenance-error.tsx:19
-#: src/features/help/contribute-dialog.tsx:294
+#: src/features/help/contribute-dialog.tsx:303
 msgid "Try again"
 msgstr "Pokušaj ponovo"
 
@@ -1661,6 +1732,10 @@ msgstr "Utorak"
 #: ../../../lib/web/src/components/command-menu.tsx:52
 msgid "Type a command or search..."
 msgstr "Otkucaj komandu ili pretraži..."
+
+#: ../../../lib/web/src/components/game/game-chat-input.tsx:39
+msgid "Type a message…"
+msgstr "Otkucaj poruku…"
 
 #: ../../../lib/web/src/features/access/access-dialog.tsx:191
 msgid "Type to search users"
@@ -1756,8 +1831,8 @@ msgstr "Pregledaj"
 msgid "View all"
 msgstr "Pregledaj sve"
 
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:106
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:114
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:131
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:139
 msgid "View all notifications"
 msgstr "Pregledaj sve obavijesti"
 
@@ -1790,19 +1865,19 @@ msgstr "Srijeda"
 msgid "Welcome to Mochi. Here's how to get started."
 msgstr "Dobro došli u Mochi. Evo kako početi."
 
-#: src/features/help/contribute-dialog.tsx:100
+#: src/features/help/contribute-dialog.tsx:108
 msgid "What happened"
 msgstr "Šta se desilo"
 
-#: src/features/help/contribute-dialog.tsx:90
+#: src/features/help/contribute-dialog.tsx:98
 msgid "What have you tried, what did you expect, where are you stuck?"
 msgstr "Šta ste probali, šta ste očekivali, gdje ste zapeli?"
 
-#: src/features/help/contribute-dialog.tsx:112
+#: src/features/help/contribute-dialog.tsx:120
 msgid "What would it do, who is it for, why does it matter?"
 msgstr "Šta bi radila, za koga je, zašto je važna?"
 
-#: src/features/help/contribute-dialog.tsx:88
+#: src/features/help/contribute-dialog.tsx:96
 msgid "What you want to ask, in one line"
 msgstr "Šta želite pitati, u jednoj liniji"
 
@@ -1822,7 +1897,7 @@ msgstr "Poslali ste sljedeće vrijednosti:"
 msgid "You're all caught up!"
 msgstr "Sve ste pregledali!"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:91
+#: ../../../lib/web/src/components/restore-banner.tsx:106
 msgid "Your account was moved here from {source}. Until you delete it there, messages and notifications may reach both servers, some of your content keeps being served from the old server, and followers may take a few minutes to find you here."
 msgstr "Vaš račun je premješten ovdje s {source}. Dok ga tamo ne obrišete, poruke i obavještenja mogu stizati na oba servera, dio vašeg sadržaja nastavlja se posluživati sa starog servera, a pratiocima može trebati nekoliko minuta da vas ovdje pronađu."
 
@@ -1830,11 +1905,11 @@ msgstr "Vaš račun je premješten ovdje s {source}. Dok ga tamo ne obrišete, p
 msgid "Your attachments will be lost."
 msgstr "Vaši prilozi će biti izgubljeni."
 
-#: src/features/help/contribute-dialog.tsx:81
+#: src/features/help/contribute-dialog.tsx:89
 msgid "Your introduction has been submitted and will appear after moderation."
 msgstr "Vaše predstavljanje je poslano i pojavit će se nakon moderacije."
 
-#: src/features/help/contribute-dialog.tsx:92
+#: src/features/help/contribute-dialog.tsx:100
 msgid "Your question has been submitted and will appear after moderation."
 msgstr "Vaše pitanje je poslano i pojavit će se nakon moderacije."
 
@@ -1843,6 +1918,6 @@ msgid "Your text and attachments will be lost."
 msgstr "Vaš tekst i prilozi će biti izgubljeni."
 
 #: ../../../lib/web/src/components/comment-composer.tsx:292
-#: src/features/help/contribute-dialog.tsx:379
+#: src/features/help/contribute-dialog.tsx:388
 msgid "Your text will be lost."
 msgstr "Vaš tekst će biti izgubljen."

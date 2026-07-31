@@ -36,6 +36,10 @@ msgstr "Maqaa {entityLabel}"
 msgid "{entityLabel} name is required"
 msgstr "Maqaan {entityLabel} barbaachisaadha"
 
+#: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx:29
+msgid "{opponentName} offered a draw"
+msgstr "{opponentName} qixxee dhiyeesse"
+
 #: ../../../lib/web/src/components/data-table/bulk-actions.tsx:210
 msgid "{selectedCount, plural, one {{entityName} selected} other {{manyName} selected}}"
 msgstr "{selectedCount, plural, one {{entityName} filatame} other {{manyName} filataman}}"
@@ -60,6 +64,11 @@ msgstr "{sentLabel} / {totalLabel}"
 msgid "{unreadCount, plural, one {Open menu (# unread notification)} other {Open menu (# unread notifications)}}"
 msgstr "{unreadCount, plural, one {Baafata bani (# beeksisa hin dubbifamne)} other {Baafata bani (# beeksisa hin dubbifamne)}}"
 
+#. placeholder {0}: countDeepChildren(object.id)
+#: ../../../lib/web/src/components/entity/entity-board-card.tsx:421
+msgid "+{0} nested"
+msgstr "+{0} keessatti"
+
 #: ../../../lib/web/src/lib/preference-utils.ts:42
 msgid "12 hours"
 msgstr "Sa'aatii 12"
@@ -71,6 +80,10 @@ msgstr "Sa'aatii 24"
 #: ../../../lib/web/src/lib/preference-utils.ts:51
 msgid "Absolute (date and time)"
 msgstr "Sirrii (guyyaa fi sa'aatii)"
+
+#: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx:45
+msgid "Accept"
+msgstr "Fudhadhu"
 
 #: ../../../lib/web/src/features/errors/general-error.tsx:60
 msgid "Access denied"
@@ -100,12 +113,13 @@ msgstr "Gosa akkaawuntii"
 msgid "Account verified"
 msgstr "Akkaawuntiin mirkanaa'e"
 
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:717
 #: ../../../lib/web/src/features/access/access-dialog.tsx:332
 #: ../../../lib/web/src/features/accounts/account-add.tsx:196
 msgid "Add"
 msgstr "Dabali"
 
-#: src/features/help/contribute-dialog.tsx:326
+#: src/features/help/contribute-dialog.tsx:335
 msgid "Add a bit more detail."
 msgstr "Bal'inni xiqqoo dabali."
 
@@ -125,6 +139,14 @@ msgstr "Akkaawuntii dabali"
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:297
 msgid "Add an account to receive notifications and use services."
 msgstr "Akkaawuntii dabali beeksisa fi tajaajila fayyadamuuf."
+
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:687
+msgid "Add checklist item"
+msgstr "Tarree shakkii dabali"
+
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:705
+msgid "Add item..."
+msgstr "Wanta dabali..."
 
 #: ../../../lib/web/src/features/accounts/account-picker.tsx:102
 msgid "Add new account"
@@ -202,12 +224,12 @@ msgstr "Olka'aa"
 msgid "Ascending"
 msgstr "Ol kaʼaa"
 
-#: src/features/help/contribute-dialog.tsx:85
+#: src/features/help/contribute-dialog.tsx:93
 #: src/features/help/index.tsx:33
 msgid "Ask a question"
 msgstr "Gaaffii gaafadhu"
 
-#: src/features/help/contribute-dialog.tsx:86
+#: src/features/help/contribute-dialog.tsx:94
 msgid "Ask the community on the Mochi users mailing list. Be specific about what you've tried so far."
 msgstr "Tarree ergaa fayyadamtoota Mochi irratti hawaasa gaafadhu. Waa'ee waan hanga ammaatti yaaltee bal'inaan ibsi."
 
@@ -242,12 +264,17 @@ msgstr "Gara mana deebi’uu"
 msgid "Banner"
 msgstr "Bannerii"
 
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:156
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:166
+msgid "Blocked navigation to untrusted link"
+msgstr "Karaa hin amanamne irraa qajeelfamni dhorkame"
+
 #: ../../../lib/web/src/components/post-tags.tsx:180
 #: ../../../lib/web/src/components/post-tags.tsx:192
 msgid "Boost interest"
 msgstr "Fedhii cimsi"
 
-#: src/features/help/contribute-dialog.tsx:99
+#: src/features/help/contribute-dialog.tsx:107
 msgid "Brief summary of the problem"
 msgstr "Cuunfaa gabaabaa rakkichaa"
 
@@ -255,7 +282,7 @@ msgstr "Cuunfaa gabaabaa rakkichaa"
 msgid "Browser notifications"
 msgstr "Beeksisa barreessaa"
 
-#: src/features/help/contribute-dialog.tsx:103
+#: src/features/help/contribute-dialog.tsx:111
 msgid "Bug report submitted."
 msgstr "Gabaasni rakkoo ergameera."
 
@@ -268,7 +295,7 @@ msgstr "Gabaasni rakkoo ergameera."
 #: ../../../lib/web/src/features/access/access-list.tsx:268
 #: ../../../lib/web/src/features/accounts/account-add.tsx:188
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:91
-#: src/features/help/contribute-dialog.tsx:354
+#: src/features/help/contribute-dialog.tsx:363
 msgid "Cancel"
 msgstr "Haquu"
 
@@ -284,6 +311,10 @@ msgstr "Ramaddii beeksisaa jijjiiri"
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:198
 msgid "Check \"All\" to see your past notifications."
 msgstr "Beeksisawwan darban ilaaluuf \"Hunda\" filadhu."
+
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:38
+msgid "Choose a game from the sidebar or start a new one."
+msgstr "Cinaa keessaa tapha filadhu ykn haaraa eegali."
 
 #: ../../../lib/web/src/components/config-drawer.tsx:329
 msgid "Choose between default expanded, compact icon-only, or full layout mode"
@@ -341,7 +372,7 @@ msgstr "Filannoo cilliisi (Escape)"
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:358
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:361
 #: ../../../lib/web/src/components/ui/sheet.tsx:79
-#: src/features/help/contribute-dialog.tsx:341
+#: src/features/help/contribute-dialog.tsx:350
 msgid "Close"
 msgstr "Cufi"
 
@@ -440,7 +471,7 @@ msgstr "Garagalchi"
 msgid "Could not load this document. Please try again later."
 msgstr "Galmee kana fe'uu hin dandeenye. Booda yaali."
 
-#: src/features/help/contribute-dialog.tsx:282
+#: src/features/help/contribute-dialog.tsx:291
 msgid "Couldn't reach the destination yet"
 msgstr "Hamma ammaatti bakka deemsaa ga'uu hin dandeenye"
 
@@ -452,7 +483,7 @@ msgstr "Koodii erguu hin dandeenye. Maaloo irra deebiʼii yaali."
 msgid "Couldn't start re-authentication. Please try again."
 msgstr "Mirkaneessa irra deebiʼaa jalqabuu hin dandeenye. Maaloo irra deebiʼii yaali."
 
-#: src/features/help/contribute-dialog.tsx:214
+#: src/features/help/contribute-dialog.tsx:223
 msgid "Couldn't submit"
 msgstr "Galchuu hin dandeenye"
 
@@ -495,6 +526,10 @@ msgstr "Akkaataa dukkanaa"
 msgid "Data conflict"
 msgstr "Walitti bu'iinsa deetaa"
 
+#: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx:41
+msgid "Decline"
+msgstr "Dhiisi"
+
 #: ../../../lib/web/src/components/config-drawer.tsx:311
 msgid "Default"
 msgstr "Idilee"
@@ -503,7 +538,7 @@ msgstr "Idilee"
 msgid "Default AI account"
 msgstr "Akkaawuntii AI idilee"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:99
+#: ../../../lib/web/src/components/restore-banner.tsx:115
 msgid "Delete your account on the old server"
 msgstr "Akkaawuntii kee sarvaraa durii irraa haqi"
 
@@ -515,7 +550,7 @@ msgstr "Gadii"
 msgid "Descending"
 msgstr "Gad buʼaa"
 
-#: src/features/help/contribute-dialog.tsx:97
+#: src/features/help/contribute-dialog.tsx:105
 msgid "Describe what went wrong. The Mochi development team will see it on the Mochi development project."
 msgstr "Maaltu akka dogoggore ibsi. Garee misooma Mochi pirojektii misooma Mochi irratti ni arga."
 
@@ -523,8 +558,8 @@ msgstr "Maaltu akka dogoggore ibsi. Garee misooma Mochi pirojektii misooma Mochi
 msgid "Description"
 msgstr "Ibsa"
 
-#: src/features/help/contribute-dialog.tsx:89
-#: src/features/help/contribute-dialog.tsx:111
+#: src/features/help/contribute-dialog.tsx:97
+#: src/features/help/contribute-dialog.tsx:119
 msgid "Details"
 msgstr "Bal'inaan"
 
@@ -552,12 +587,12 @@ msgid "Directory"
 msgstr "Galmee"
 
 #: ../../../lib/web/src/components/comment-composer.tsx:300
-#: src/features/help/contribute-dialog.tsx:381
+#: src/features/help/contribute-dialog.tsx:390
 msgid "Discard"
 msgstr "Gati"
 
 #: ../../../lib/web/src/components/comment-composer.tsx:298
-#: src/features/help/contribute-dialog.tsx:378
+#: src/features/help/contribute-dialog.tsx:387
 msgid "Discard draft?"
 msgstr "Wixinee gatuu?"
 
@@ -566,8 +601,8 @@ msgstr "Wixinee gatuu?"
 msgid "Disconnected"
 msgstr "Hidhaan citeera"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:79
-#: ../../../lib/web/src/components/restore-banner.tsx:85
+#: ../../../lib/web/src/components/restore-banner.tsx:94
+#: ../../../lib/web/src/components/restore-banner.tsx:100
 msgid "Dismiss"
 msgstr "Dhiisi"
 
@@ -664,7 +699,7 @@ msgstr "Koodii mirkanaa ergamuu hin dandeenye"
 msgid "Failed to update category"
 msgstr "Ramaddii toattaachuu hin dandeenye"
 
-#: src/features/help/contribute-dialog.tsx:114
+#: src/features/help/contribute-dialog.tsx:122
 msgid "Feature request submitted."
 msgstr "Gaaffiin amala ergameera."
 
@@ -672,7 +707,7 @@ msgstr "Gaaffiin amala ergameera."
 msgid "Filter..."
 msgstr "Gingilchaa..."
 
-#: ../../../lib/web/src/components/restore-banner.tsx:88
+#: ../../../lib/web/src/components/restore-banner.tsx:103
 msgid "Finish moving your account"
 msgstr "Akkaawuntii kee jijjiiruu fixadhu"
 
@@ -719,7 +754,7 @@ msgstr "Duubatti deebi’uu"
 msgid "Go to first page"
 msgstr "Fuula jalqabaa deemi"
 
-#: src/features/help/contribute-dialog.tsx:346
+#: src/features/help/contribute-dialog.tsx:355
 msgid "Go to forum"
 msgstr "Gara waltajjii deemi"
 
@@ -760,7 +795,7 @@ msgstr "Garee: {0}"
 msgid "Help"
 msgstr "Gargaarsa"
 
-#: src/features/help/contribute-dialog.tsx:79
+#: src/features/help/contribute-dialog.tsx:87
 msgid "Hi, I'm…"
 msgstr "Akkam, ani…"
 
@@ -812,10 +847,14 @@ msgstr "Inset"
 msgid "Interests"
 msgstr "Fedhota"
 
-#: src/features/help/contribute-dialog.tsx:78
+#: src/features/help/contribute-dialog.tsx:86
 #: src/features/help/index.tsx:27
 msgid "Introduce yourself"
 msgstr "Of beeksisi"
+
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:550
+msgid "Invalid date"
+msgstr "Guyyaa sirrii hin taane"
 
 #: ../../../lib/web/src/components/tag-input.tsx:38
 msgid "Invalid tag: letters, numbers, spaces, hyphens, and slashes only (max 50 chars)"
@@ -833,7 +872,7 @@ msgstr "Fuulli ati barbaadaa jirtu <0/>hin jiru yookaan haqameera fakkaata."
 msgid "Just now"
 msgstr "Amma"
 
-#: src/features/help/contribute-dialog.tsx:380
+#: src/features/help/contribute-dialog.tsx:389
 msgid "Keep editing"
 msgstr "Gulaaluu itti fufi"
 
@@ -875,7 +914,7 @@ msgstr "Qabiyyee fe’aa jira…"
 
 #: ../../../lib/web/src/components/ui/load-more.tsx:35
 #: ../../../lib/web/src/features/document/document-page.tsx:90
-#: src/features/help/contribute-dialog.tsx:273
+#: src/features/help/contribute-dialog.tsx:282
 msgid "Loading..."
 msgstr "Fe'aa jiraa..."
 
@@ -905,8 +944,8 @@ msgstr "Ba'aa jiraa…"
 msgid "Manage your connected accounts for notifications and services."
 msgstr "Beeksisaa fi tajaajilaaf herregawwan walqabatan kee bulchi."
 
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:93
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:100
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:118
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:125
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:224
 msgid "Mark all as read"
 msgstr "Hunda dubbifame jechuu mallatteessi"
@@ -922,6 +961,10 @@ msgstr "Giddu-galeessa"
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx:173
 msgid "Menu"
 msgstr "Menu"
+
+#: ../../../lib/web/src/components/game/game-chat-input.tsx:35
+msgid "Message"
+msgstr "Ergaa"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:85
 msgid "Metric"
@@ -952,6 +995,11 @@ msgstr "Dogoggora networkii"
 msgid "New"
 msgstr "Haaraa"
 
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:42
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:54
+msgid "New game"
+msgstr "Taphaa haaraa"
+
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:392
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:397
 msgid "Next image"
@@ -965,6 +1013,10 @@ msgstr "Seerri itti seenumsaa hin qindaa'amne. Eenyu qabeenya kana itti seenuu d
 msgid "No connected accounts"
 msgstr "Akkaawuntiiwwan walqabsiifaman hin jiran"
 
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:51
+msgid "No games yet"
+msgstr "Hanga ammaatti taphaaleen hin jiran"
+
 #: ../../../lib/web/src/features/access/access-dialog.tsx:241
 msgid "No groups available"
 msgstr "Garreen hin jiran"
@@ -973,6 +1025,7 @@ msgstr "Garreen hin jiran"
 msgid "No notifications yet"
 msgstr "Hanga ammaatti beeksisni hin jiru"
 
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:336
 #: ../../../lib/web/src/components/person-picker.tsx:84
 msgid "No people found"
 msgstr "Namoonni hin argamne"
@@ -1035,7 +1088,7 @@ msgid "Notifications"
 msgstr "Beeksisaalee"
 
 #. placeholder {0}: unread.length
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:86
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:111
 msgid "Notifications: {0}"
 msgstr "Beeksisawwan: {0}"
 
@@ -1097,7 +1150,7 @@ msgstr "Passkey"
 msgid "Passkey verification failed. Please try again."
 msgstr "Mirkaneessi passkey hin milkoofne. Maaloo irra deebiʼii yaali."
 
-#: ../../../lib/web/src/components/restore-banner.tsx:135
+#: ../../../lib/web/src/components/restore-banner.tsx:152
 msgid "Passkeys"
 msgstr "Passkey-wwan"
 
@@ -1116,9 +1169,9 @@ msgid "Please log in with the appropriate credentials <0/> to access this resour
 msgstr "Qabeenya kana argachuuf <0/> maaloo ragaa sirrii ta'een seeni."
 
 #: ../../../lib/web/src/features/errors/general-error.tsx:83
-#: src/features/help/contribute-dialog.tsx:171
 #: src/features/help/contribute-dialog.tsx:180
-#: src/features/help/contribute-dialog.tsx:215
+#: src/features/help/contribute-dialog.tsx:189
+#: src/features/help/contribute-dialog.tsx:224
 msgid "Please try again."
 msgstr "Maaloo irra deebi'ii yaali."
 
@@ -1126,19 +1179,19 @@ msgstr "Maaloo irra deebi'ii yaali."
 msgid "Please wait a moment and try again."
 msgstr "Maaloo yeroo xiqqoo eegiitii irra deebi'ii yaali."
 
-#: src/features/help/contribute-dialog.tsx:80
+#: src/features/help/contribute-dialog.tsx:88
 msgid "Post introduction"
 msgstr "Beeksisa maxxansi"
 
-#: src/features/help/contribute-dialog.tsx:91
+#: src/features/help/contribute-dialog.tsx:99
 msgid "Post question"
 msgstr "Gaaffii maxxansi"
 
-#: src/features/help/contribute-dialog.tsx:208
+#: src/features/help/contribute-dialog.tsx:217
 msgid "Posted"
 msgstr "Maxxanfame"
 
-#: src/features/help/contribute-dialog.tsx:360
+#: src/features/help/contribute-dialog.tsx:369
 msgid "Posting…"
 msgstr "Maxxansaa jira…"
 
@@ -1170,7 +1223,7 @@ msgstr "Miseensota pirojektii"
 msgid "Push notification"
 msgstr "Beeksisa push"
 
-#: src/features/help/contribute-dialog.tsx:87
+#: src/features/help/contribute-dialog.tsx:95
 msgid "Question"
 msgstr "Gaaffii"
 
@@ -1178,11 +1231,11 @@ msgstr "Gaaffii"
 msgid "Raised"
 msgstr "Ol kaafame"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:107
+#: ../../../lib/web/src/components/restore-banner.tsx:124
 msgid "Re-link your accounts on this server"
 msgstr "Akkaawuntiiwan kee sarvarri kana irratti irra deebi'ii walitti hidhi"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:129
+#: ../../../lib/web/src/components/restore-banner.tsx:146
 msgid "Re-register your passkeys on this server"
 msgstr "Furtuuwwan seensaa kee sajoo kana irratti irra deebi'ii galmeessi"
 
@@ -1243,12 +1296,16 @@ msgstr "Itti seenumsa haquuf?"
 msgid "Remove interest"
 msgstr "Dantaa haqi"
 
-#: src/features/help/contribute-dialog.tsx:96
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:671
+msgid "Remove item"
+msgstr "Meeshaa haqi"
+
+#: src/features/help/contribute-dialog.tsx:104
 #: src/features/help/index.tsx:39
 msgid "Report a bug"
 msgstr "Dogoggora gabaasi"
 
-#: src/features/help/contribute-dialog.tsx:102
+#: src/features/help/contribute-dialog.tsx:110
 msgid "Report bug"
 msgstr "Dogoggora gabaasi"
 
@@ -1346,6 +1403,10 @@ msgstr "Barbaadaa jira..."
 msgid "Select {0}"
 msgstr "{0} filadhu"
 
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:37
+msgid "Select a game"
+msgstr "Taphaa fili"
+
 #: ../../../lib/web/src/features/access/access-dialog.tsx:150
 msgid "Select a user, group, or other rule to grant access."
 msgstr "Itti seenumsa kennuuf fayyadamaa, garee, ykn seera biroo fili."
@@ -1390,6 +1451,11 @@ msgstr "Kallattii saayitii filadhu"
 msgid "Select theme preference"
 msgstr "Filannoo akeeka filadhu"
 
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:252
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:335
+msgid "Select..."
+msgstr "Filadhu..."
+
 #: ../../../lib/web/src/components/data-table/bulk-actions.tsx:216
 msgid "selected"
 msgstr "filatame"
@@ -1406,6 +1472,11 @@ msgstr "Ammas erguu"
 #: ../../../lib/web/src/components/step-up-dialog.tsx:307
 msgid "Send email"
 msgstr "Imeelii ergi"
+
+#: ../../../lib/web/src/components/game/game-chat-input.tsx:52
+#: ../../../lib/web/src/components/game/game-chat-input.tsx:61
+msgid "Send message"
+msgstr "Ergaa ergi"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:145
 msgid "Serif"
@@ -1438,7 +1509,7 @@ msgstr "Madda fi galma qindeessi"
 msgid "Settings"
 msgstr "Qindaa'inoota"
 
-#: src/features/help/contribute-dialog.tsx:110
+#: src/features/help/contribute-dialog.tsx:118
 msgid "Short title for your idea"
 msgstr "Mata duree gabaabaa yaada keetiif"
 
@@ -1486,7 +1557,7 @@ msgstr "Waan cabe argitee? Pirojeektii misooma Mochi irratti tikeetii dogoggoraa
 msgid "Stay tuned though!"
 msgstr "Garuu nu hordofa!"
 
-#: src/features/help/contribute-dialog.tsx:101
+#: src/features/help/contribute-dialog.tsx:109
 msgid "Steps to reproduce, what you expected, and what actually happened. Include your browser and device if relevant."
 msgstr "Tarkaanfilee deebisanii uumaman, waan eegde, fi waan dhugumaan ta'e. Yoo barbaachisaa ta'e, biraawuzarii fi meeshaa kee dabali."
 
@@ -1498,7 +1569,7 @@ msgstr "Waan tokko irratti rakkattee? Tarree ergaa fayyadamtoota Mochi irratti h
 msgid "Subject"
 msgstr "Mata duree"
 
-#: src/features/help/contribute-dialog.tsx:265
+#: src/features/help/contribute-dialog.tsx:274
 msgid "Submitted successfully"
 msgstr "Milkaa'inaan ergameera"
 
@@ -1507,17 +1578,17 @@ msgstr "Milkaa'inaan ergameera"
 msgid "Subscribe"
 msgstr "Galaa'i"
 
-#: src/features/help/contribute-dialog.tsx:107
+#: src/features/help/contribute-dialog.tsx:115
 #: src/features/help/index.tsx:45
 msgid "Suggest a new feature"
 msgstr "Amaltii haaraa yaada dhiyeessi"
 
-#: src/features/help/contribute-dialog.tsx:113
+#: src/features/help/contribute-dialog.tsx:121
 msgid "Suggest feature"
 msgstr "Amala yaada kenni"
 
-#: src/features/help/contribute-dialog.tsx:98
-#: src/features/help/contribute-dialog.tsx:109
+#: src/features/help/contribute-dialog.tsx:106
+#: src/features/help/contribute-dialog.tsx:117
 msgid "Summary"
 msgstr "Cuunfaa"
 
@@ -1549,7 +1620,7 @@ msgstr "Maallattoon 50 arfii ykn xiqqaa ta'uu qaba"
 msgid "Tags"
 msgstr "Tagoota"
 
-#: src/features/help/contribute-dialog.tsx:209
+#: src/features/help/contribute-dialog.tsx:218
 msgid "Taking you there now."
 msgstr "Amma achi si geessaa jirra."
 
@@ -1557,7 +1628,7 @@ msgstr "Amma achi si geessaa jirra."
 msgid "Teams/Apps"
 msgstr "Gareewwan/Apps"
 
-#: src/features/help/contribute-dialog.tsx:108
+#: src/features/help/contribute-dialog.tsx:116
 msgid "Tell the Mochi development team what you'd like Mochi to do."
 msgstr "Mochi maal akka hojjetu akka barbaaddu garee misooma Mochi itti himi."
 
@@ -1650,7 +1721,7 @@ msgstr "Jechoota barbaacha kee sirreessuu yaali"
 #: ../../../lib/web/src/features/errors/general-error.tsx:140
 #: ../../../lib/web/src/features/errors/general-error.tsx:180
 #: ../../../lib/web/src/features/errors/maintenance-error.tsx:19
-#: src/features/help/contribute-dialog.tsx:294
+#: src/features/help/contribute-dialog.tsx:303
 msgid "Try again"
 msgstr "Irra deebi'ii yaali"
 
@@ -1661,6 +1732,10 @@ msgstr "Kibxata"
 #: ../../../lib/web/src/components/command-menu.tsx:52
 msgid "Type a command or search..."
 msgstr "Ajaja barreessi ykn barbaadi..."
+
+#: ../../../lib/web/src/components/game/game-chat-input.tsx:39
+msgid "Type a message…"
+msgstr "Ergaa barreessi…"
 
 #: ../../../lib/web/src/features/access/access-dialog.tsx:191
 msgid "Type to search users"
@@ -1756,8 +1831,8 @@ msgstr "Daawwadhu"
 msgid "View all"
 msgstr "Hunda daawwadhu"
 
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:106
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:114
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:131
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:139
 msgid "View all notifications"
 msgstr "Beeksisa hunda daawwadhu"
 
@@ -1790,19 +1865,19 @@ msgstr "Roobii"
 msgid "Welcome to Mochi. Here's how to get started."
 msgstr "Mochi tti baga nagaan dhufte. Akkaataan itti jalqabdu kunooti."
 
-#: src/features/help/contribute-dialog.tsx:100
+#: src/features/help/contribute-dialog.tsx:108
 msgid "What happened"
 msgstr "Maaltu ta'e"
 
-#: src/features/help/contribute-dialog.tsx:90
+#: src/features/help/contribute-dialog.tsx:98
 msgid "What have you tried, what did you expect, where are you stuck?"
 msgstr "Maal yaalte, maal eegde, eessatti rakkatte?"
 
-#: src/features/help/contribute-dialog.tsx:112
+#: src/features/help/contribute-dialog.tsx:120
 msgid "What would it do, who is it for, why does it matter?"
 msgstr "Maal hojjeta, eenyuuf qophaa'e, maaliif barbaachisaa?"
 
-#: src/features/help/contribute-dialog.tsx:88
+#: src/features/help/contribute-dialog.tsx:96
 msgid "What you want to ask, in one line"
 msgstr "Maal gaafachuu akka barbaaddu, sarara tokko keessatti"
 
@@ -1822,7 +1897,7 @@ msgstr "Gatiiwwan armaan gadii galchiteetta:"
 msgid "You're all caught up!"
 msgstr "Hunda ilaalteetta!"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:91
+#: ../../../lib/web/src/components/restore-banner.tsx:106
 msgid "Your account was moved here from {source}. Until you delete it there, messages and notifications may reach both servers, some of your content keeps being served from the old server, and followers may take a few minutes to find you here."
 msgstr "Akkaawuntiin kee {source} irraa as fidame. Achitti haqtee hanga fixtutti, ergaawwan fi beeksisawwan sarvara lamaaniyyuu ga'uu danda'u, qabeenyi kee tokko tokko sarvaraa durii irraa tajaajilamu itti fufa, fi hordoftonni si argachuu dhaaf daqiiqaawwan muraasa fudhachuu danda'u."
 
@@ -1830,11 +1905,11 @@ msgstr "Akkaawuntiin kee {source} irraa as fidame. Achitti haqtee hanga fixtutti
 msgid "Your attachments will be lost."
 msgstr "Miiltoowwan kee ni badu."
 
-#: src/features/help/contribute-dialog.tsx:81
+#: src/features/help/contribute-dialog.tsx:89
 msgid "Your introduction has been submitted and will appear after moderation."
 msgstr "Beeksisni kee ergameera, erga sakatta'amee booda ni mul'ata."
 
-#: src/features/help/contribute-dialog.tsx:92
+#: src/features/help/contribute-dialog.tsx:100
 msgid "Your question has been submitted and will appear after moderation."
 msgstr "Gaaffiin kee ergameera, erga sakatta'amee booda ni mul'ata."
 
@@ -1843,6 +1918,6 @@ msgid "Your text and attachments will be lost."
 msgstr "Barreeffamnii fi miiltoowwan kee ni badu."
 
 #: ../../../lib/web/src/components/comment-composer.tsx:292
-#: src/features/help/contribute-dialog.tsx:379
+#: src/features/help/contribute-dialog.tsx:388
 msgid "Your text will be lost."
 msgstr "Barreeffamni kee ni bada."

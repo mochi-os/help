@@ -36,6 +36,10 @@ msgstr "Název {entityLabel}"
 msgid "{entityLabel} name is required"
 msgstr "Název {entityLabel} je povinný"
 
+#: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx:29
+msgid "{opponentName} offered a draw"
+msgstr "{opponentName} nabídl remízu"
+
 #: ../../../lib/web/src/components/data-table/bulk-actions.tsx:210
 msgid "{selectedCount, plural, one {{entityName} selected} other {{manyName} selected}}"
 msgstr "{selectedCount, plural, one {Vybráno {entityName}} few {Vybrány {manyName}} other {Vybráno {manyName}}}"
@@ -60,6 +64,11 @@ msgstr "{sentLabel} z {totalLabel}"
 msgid "{unreadCount, plural, one {Open menu (# unread notification)} other {Open menu (# unread notifications)}}"
 msgstr "{unreadCount, plural, one {Otevřít nabídku (# nepřečtené oznámení)} few {Otevřít nabídku (# nepřečtená oznámení)} other {Otevřít nabídku (# nepřečtených oznámení)}}"
 
+#. placeholder {0}: countDeepChildren(object.id)
+#: ../../../lib/web/src/components/entity/entity-board-card.tsx:421
+msgid "+{0} nested"
+msgstr "+{0} vnořených"
+
 #: ../../../lib/web/src/lib/preference-utils.ts:42
 msgid "12 hours"
 msgstr "12 hodin"
@@ -71,6 +80,10 @@ msgstr "24 hodin"
 #: ../../../lib/web/src/lib/preference-utils.ts:51
 msgid "Absolute (date and time)"
 msgstr "Absolutní (datum a čas)"
+
+#: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx:45
+msgid "Accept"
+msgstr "Přijmout"
 
 #: ../../../lib/web/src/features/errors/general-error.tsx:60
 msgid "Access denied"
@@ -100,12 +113,13 @@ msgstr "Typ účtu"
 msgid "Account verified"
 msgstr "Účet ověřen"
 
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:717
 #: ../../../lib/web/src/features/access/access-dialog.tsx:332
 #: ../../../lib/web/src/features/accounts/account-add.tsx:196
 msgid "Add"
 msgstr "Přidat"
 
-#: src/features/help/contribute-dialog.tsx:326
+#: src/features/help/contribute-dialog.tsx:335
 msgid "Add a bit more detail."
 msgstr "Přidejte trochu více podrobností."
 
@@ -125,6 +139,14 @@ msgstr "Přidat účet"
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:297
 msgid "Add an account to receive notifications and use services."
 msgstr "Přidejte účet pro příjem oznámení a využívání služeb."
+
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:687
+msgid "Add checklist item"
+msgstr "Přidat položku checklistu"
+
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:705
+msgid "Add item..."
+msgstr "Přidat položku..."
 
 #: ../../../lib/web/src/features/accounts/account-picker.tsx:102
 msgid "Add new account"
@@ -202,12 +224,12 @@ msgstr "Vzestupně"
 msgid "Ascending"
 msgstr "Vzestupně"
 
-#: src/features/help/contribute-dialog.tsx:85
+#: src/features/help/contribute-dialog.tsx:93
 #: src/features/help/index.tsx:33
 msgid "Ask a question"
 msgstr "Položit otázku"
 
-#: src/features/help/contribute-dialog.tsx:86
+#: src/features/help/contribute-dialog.tsx:94
 msgid "Ask the community on the Mochi users mailing list. Be specific about what you've tried so far."
 msgstr "Zeptejte se komunity v mailing listu uživatelů Mochi. Popište přesně, co jste už zkoušeli."
 
@@ -242,12 +264,17 @@ msgstr "Zpět na úvod"
 msgid "Banner"
 msgstr "Banner"
 
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:156
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:166
+msgid "Blocked navigation to untrusted link"
+msgstr "Navigace na nedůvěryhodný odkaz zablokována"
+
 #: ../../../lib/web/src/components/post-tags.tsx:180
 #: ../../../lib/web/src/components/post-tags.tsx:192
 msgid "Boost interest"
 msgstr "Zvýšit zájem"
 
-#: src/features/help/contribute-dialog.tsx:99
+#: src/features/help/contribute-dialog.tsx:107
 msgid "Brief summary of the problem"
 msgstr "Stručný popis problému"
 
@@ -255,7 +282,7 @@ msgstr "Stručný popis problému"
 msgid "Browser notifications"
 msgstr "Oznámení prohlížeče"
 
-#: src/features/help/contribute-dialog.tsx:103
+#: src/features/help/contribute-dialog.tsx:111
 msgid "Bug report submitted."
 msgstr "Hlášení chyby odesláno."
 
@@ -268,7 +295,7 @@ msgstr "Hlášení chyby odesláno."
 #: ../../../lib/web/src/features/access/access-list.tsx:268
 #: ../../../lib/web/src/features/accounts/account-add.tsx:188
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:91
-#: src/features/help/contribute-dialog.tsx:354
+#: src/features/help/contribute-dialog.tsx:363
 msgid "Cancel"
 msgstr "Zrušit"
 
@@ -284,6 +311,10 @@ msgstr "Změnit kategorii oznámení"
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:198
 msgid "Check \"All\" to see your past notifications."
 msgstr "Zaškrtněte „Vše“, chcete-li zobrazit dřívější oznámení."
+
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:38
+msgid "Choose a game from the sidebar or start a new one."
+msgstr "Vyberte hru z postranního panelu nebo začněte novou."
 
 #: ../../../lib/web/src/components/config-drawer.tsx:329
 msgid "Choose between default expanded, compact icon-only, or full layout mode"
@@ -341,7 +372,7 @@ msgstr "Zrušit výběr (Escape)"
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:358
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:361
 #: ../../../lib/web/src/components/ui/sheet.tsx:79
-#: src/features/help/contribute-dialog.tsx:341
+#: src/features/help/contribute-dialog.tsx:350
 msgid "Close"
 msgstr "Zavřít"
 
@@ -440,7 +471,7 @@ msgstr "Kopírovat"
 msgid "Could not load this document. Please try again later."
 msgstr "Tento dokument nelze načíst. Zkuste to prosím později."
 
-#: src/features/help/contribute-dialog.tsx:282
+#: src/features/help/contribute-dialog.tsx:291
 msgid "Couldn't reach the destination yet"
 msgstr "Zatím se nepodařilo doručit"
 
@@ -452,7 +483,7 @@ msgstr "Kód se nepodařilo odeslat. Zkuste to prosím znovu."
 msgid "Couldn't start re-authentication. Please try again."
 msgstr "Opětovné ověření se nepodařilo zahájit. Zkuste to prosím znovu."
 
-#: src/features/help/contribute-dialog.tsx:214
+#: src/features/help/contribute-dialog.tsx:223
 msgid "Couldn't submit"
 msgstr "Nepodařilo se odeslat"
 
@@ -495,6 +526,10 @@ msgstr "Tmavý režim"
 msgid "Data conflict"
 msgstr "Konflikt dat"
 
+#: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx:41
+msgid "Decline"
+msgstr "Odmítnout"
+
 #: ../../../lib/web/src/components/config-drawer.tsx:311
 msgid "Default"
 msgstr "Výchozí"
@@ -503,7 +538,7 @@ msgstr "Výchozí"
 msgid "Default AI account"
 msgstr "Výchozí AI účet"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:99
+#: ../../../lib/web/src/components/restore-banner.tsx:115
 msgid "Delete your account on the old server"
 msgstr "Smazat účet na starém serveru"
 
@@ -515,7 +550,7 @@ msgstr "Sestupně"
 msgid "Descending"
 msgstr "Sestupně"
 
-#: src/features/help/contribute-dialog.tsx:97
+#: src/features/help/contribute-dialog.tsx:105
 msgid "Describe what went wrong. The Mochi development team will see it on the Mochi development project."
 msgstr "Popište, co se pokazilo. Vývojový tým Mochi to uvidí ve vývojovém projektu Mochi."
 
@@ -523,8 +558,8 @@ msgstr "Popište, co se pokazilo. Vývojový tým Mochi to uvidí ve vývojovém
 msgid "Description"
 msgstr "Popis"
 
-#: src/features/help/contribute-dialog.tsx:89
-#: src/features/help/contribute-dialog.tsx:111
+#: src/features/help/contribute-dialog.tsx:97
+#: src/features/help/contribute-dialog.tsx:119
 msgid "Details"
 msgstr "Podrobnosti"
 
@@ -552,12 +587,12 @@ msgid "Directory"
 msgstr "Adresář"
 
 #: ../../../lib/web/src/components/comment-composer.tsx:300
-#: src/features/help/contribute-dialog.tsx:381
+#: src/features/help/contribute-dialog.tsx:390
 msgid "Discard"
 msgstr "Zahodit"
 
 #: ../../../lib/web/src/components/comment-composer.tsx:298
-#: src/features/help/contribute-dialog.tsx:378
+#: src/features/help/contribute-dialog.tsx:387
 msgid "Discard draft?"
 msgstr "Zahodit koncept?"
 
@@ -566,8 +601,8 @@ msgstr "Zahodit koncept?"
 msgid "Disconnected"
 msgstr "Odpojeno"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:79
-#: ../../../lib/web/src/components/restore-banner.tsx:85
+#: ../../../lib/web/src/components/restore-banner.tsx:94
+#: ../../../lib/web/src/components/restore-banner.tsx:100
 msgid "Dismiss"
 msgstr "Zavřít"
 
@@ -664,7 +699,7 @@ msgstr "Nepodařilo se odeslat ověřovací kód"
 msgid "Failed to update category"
 msgstr "Nepodařilo se aktualizovat kategorii"
 
-#: src/features/help/contribute-dialog.tsx:114
+#: src/features/help/contribute-dialog.tsx:122
 msgid "Feature request submitted."
 msgstr "Žádost o funkci odeslána."
 
@@ -672,7 +707,7 @@ msgstr "Žádost o funkci odeslána."
 msgid "Filter..."
 msgstr "Filtrovat..."
 
-#: ../../../lib/web/src/components/restore-banner.tsx:88
+#: ../../../lib/web/src/components/restore-banner.tsx:103
 msgid "Finish moving your account"
 msgstr "Dokončit přesun účtu"
 
@@ -719,7 +754,7 @@ msgstr "Zpět"
 msgid "Go to first page"
 msgstr "Přejít na první stránku"
 
-#: src/features/help/contribute-dialog.tsx:346
+#: src/features/help/contribute-dialog.tsx:355
 msgid "Go to forum"
 msgstr "Přejít na fórum"
 
@@ -760,7 +795,7 @@ msgstr "Skupina: {0}"
 msgid "Help"
 msgstr "Nápověda"
 
-#: src/features/help/contribute-dialog.tsx:79
+#: src/features/help/contribute-dialog.tsx:87
 msgid "Hi, I'm…"
 msgstr "Ahoj, jsem…"
 
@@ -812,10 +847,14 @@ msgstr "Vložené"
 msgid "Interests"
 msgstr "Zájmy"
 
-#: src/features/help/contribute-dialog.tsx:78
+#: src/features/help/contribute-dialog.tsx:86
 #: src/features/help/index.tsx:27
 msgid "Introduce yourself"
 msgstr "Představte se"
+
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:550
+msgid "Invalid date"
+msgstr "Neplatné datum"
 
 #: ../../../lib/web/src/components/tag-input.tsx:38
 msgid "Invalid tag: letters, numbers, spaces, hyphens, and slashes only (max 50 chars)"
@@ -833,7 +872,7 @@ msgstr "Zdá se, že stránka, kterou hledáte, <0/>neexistuje nebo byla odebrá
 msgid "Just now"
 msgstr "Právě teď"
 
-#: src/features/help/contribute-dialog.tsx:380
+#: src/features/help/contribute-dialog.tsx:389
 msgid "Keep editing"
 msgstr "Pokračovat v úpravách"
 
@@ -875,7 +914,7 @@ msgstr "Načítání obsahu…"
 
 #: ../../../lib/web/src/components/ui/load-more.tsx:35
 #: ../../../lib/web/src/features/document/document-page.tsx:90
-#: src/features/help/contribute-dialog.tsx:273
+#: src/features/help/contribute-dialog.tsx:282
 msgid "Loading..."
 msgstr "Načítám..."
 
@@ -905,8 +944,8 @@ msgstr "Odhlašování…"
 msgid "Manage your connected accounts for notifications and services."
 msgstr "Spravujte připojené účty pro oznámení a služby."
 
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:93
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:100
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:118
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:125
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:224
 msgid "Mark all as read"
 msgstr "Označit vše jako přečtené"
@@ -922,6 +961,10 @@ msgstr "Střední"
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx:173
 msgid "Menu"
 msgstr "Menu"
+
+#: ../../../lib/web/src/components/game/game-chat-input.tsx:35
+msgid "Message"
+msgstr "Zpráva"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:85
 msgid "Metric"
@@ -952,6 +995,11 @@ msgstr "Chyba sítě"
 msgid "New"
 msgstr "Nové"
 
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:42
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:54
+msgid "New game"
+msgstr "Nová hra"
+
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:392
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:397
 msgid "Next image"
@@ -965,6 +1013,10 @@ msgstr "Nejsou nakonfigurována žádná pravidla přístupu. Přidejte pravidla
 msgid "No connected accounts"
 msgstr "Žádné připojené účty"
 
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:51
+msgid "No games yet"
+msgstr "Zatím žádné hry"
+
 #: ../../../lib/web/src/features/access/access-dialog.tsx:241
 msgid "No groups available"
 msgstr "Žádné skupiny k dispozici"
@@ -973,6 +1025,7 @@ msgstr "Žádné skupiny k dispozici"
 msgid "No notifications yet"
 msgstr "Zatím žádná oznámení"
 
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:336
 #: ../../../lib/web/src/components/person-picker.tsx:84
 msgid "No people found"
 msgstr "Žádní lidé nenalezeni"
@@ -1035,7 +1088,7 @@ msgid "Notifications"
 msgstr "Oznámení"
 
 #. placeholder {0}: unread.length
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:86
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:111
 msgid "Notifications: {0}"
 msgstr "Oznámení: {0}"
 
@@ -1097,7 +1150,7 @@ msgstr "Přístupový klíč"
 msgid "Passkey verification failed. Please try again."
 msgstr "Ověření přístupového klíče se nezdařilo. Zkuste to prosím znovu."
 
-#: ../../../lib/web/src/components/restore-banner.tsx:135
+#: ../../../lib/web/src/components/restore-banner.tsx:152
 msgid "Passkeys"
 msgstr "Přístupové klíče"
 
@@ -1116,9 +1169,9 @@ msgid "Please log in with the appropriate credentials <0/> to access this resour
 msgstr "Přihlaste se prosím s příslušnými přihlašovacími údaji, <0/> abyste získali přístup k tomuto zdroji."
 
 #: ../../../lib/web/src/features/errors/general-error.tsx:83
-#: src/features/help/contribute-dialog.tsx:171
 #: src/features/help/contribute-dialog.tsx:180
-#: src/features/help/contribute-dialog.tsx:215
+#: src/features/help/contribute-dialog.tsx:189
+#: src/features/help/contribute-dialog.tsx:224
 msgid "Please try again."
 msgstr "Zkuste to prosím znovu."
 
@@ -1126,19 +1179,19 @@ msgstr "Zkuste to prosím znovu."
 msgid "Please wait a moment and try again."
 msgstr "Chvíli počkejte a zkuste to znovu."
 
-#: src/features/help/contribute-dialog.tsx:80
+#: src/features/help/contribute-dialog.tsx:88
 msgid "Post introduction"
 msgstr "Zveřejnit představení"
 
-#: src/features/help/contribute-dialog.tsx:91
+#: src/features/help/contribute-dialog.tsx:99
 msgid "Post question"
 msgstr "Zveřejnit otázku"
 
-#: src/features/help/contribute-dialog.tsx:208
+#: src/features/help/contribute-dialog.tsx:217
 msgid "Posted"
 msgstr "Zveřejněno"
 
-#: src/features/help/contribute-dialog.tsx:360
+#: src/features/help/contribute-dialog.tsx:369
 msgid "Posting…"
 msgstr "Odesílání…"
 
@@ -1170,7 +1223,7 @@ msgstr "Členové projektu"
 msgid "Push notification"
 msgstr "Push oznámení"
 
-#: src/features/help/contribute-dialog.tsx:87
+#: src/features/help/contribute-dialog.tsx:95
 msgid "Question"
 msgstr "Otázka"
 
@@ -1178,11 +1231,11 @@ msgstr "Otázka"
 msgid "Raised"
 msgstr "Vyvýšený"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:107
+#: ../../../lib/web/src/components/restore-banner.tsx:124
 msgid "Re-link your accounts on this server"
 msgstr "Znovu propojit účty na tomto serveru"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:129
+#: ../../../lib/web/src/components/restore-banner.tsx:146
 msgid "Re-register your passkeys on this server"
 msgstr "Znovu zaregistrujte své přístupové klíče na tomto serveru"
 
@@ -1243,12 +1296,16 @@ msgstr "Odebrat přístup?"
 msgid "Remove interest"
 msgstr "Odebrat zájem"
 
-#: src/features/help/contribute-dialog.tsx:96
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:671
+msgid "Remove item"
+msgstr "Odebrat položku"
+
+#: src/features/help/contribute-dialog.tsx:104
 #: src/features/help/index.tsx:39
 msgid "Report a bug"
 msgstr "Nahlásit chybu"
 
-#: src/features/help/contribute-dialog.tsx:102
+#: src/features/help/contribute-dialog.tsx:110
 msgid "Report bug"
 msgstr "Nahlásit chybu"
 
@@ -1346,6 +1403,10 @@ msgstr "Hledá se..."
 msgid "Select {0}"
 msgstr "Vybrat {0}"
 
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:37
+msgid "Select a game"
+msgstr "Vyberte hru"
+
 #: ../../../lib/web/src/features/access/access-dialog.tsx:150
 msgid "Select a user, group, or other rule to grant access."
 msgstr "Vyberte uživatele, skupinu nebo jiné pravidlo pro udělení přístupu."
@@ -1390,6 +1451,11 @@ msgstr "Vyberte směr písma"
 msgid "Select theme preference"
 msgstr "Vyberte preferenci motivu"
 
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:252
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:335
+msgid "Select..."
+msgstr "Vyberte..."
+
 #: ../../../lib/web/src/components/data-table/bulk-actions.tsx:216
 msgid "selected"
 msgstr "vybráno"
@@ -1406,6 +1472,11 @@ msgstr "Odeslat znovu"
 #: ../../../lib/web/src/components/step-up-dialog.tsx:307
 msgid "Send email"
 msgstr "Odeslat e-mail"
+
+#: ../../../lib/web/src/components/game/game-chat-input.tsx:52
+#: ../../../lib/web/src/components/game/game-chat-input.tsx:61
+msgid "Send message"
+msgstr "Odeslat zprávu"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:145
 msgid "Serif"
@@ -1438,7 +1509,7 @@ msgstr "Nastavit výchozí bod a cíl"
 msgid "Settings"
 msgstr "Nastavení"
 
-#: src/features/help/contribute-dialog.tsx:110
+#: src/features/help/contribute-dialog.tsx:118
 msgid "Short title for your idea"
 msgstr "Krátký název vašeho nápadu"
 
@@ -1486,7 +1557,7 @@ msgstr "Všimli jste si chyby? Nahlaste ji v projektu vývoje Mochi."
 msgid "Stay tuned though!"
 msgstr "Zůstaňte ale naladěni!"
 
-#: src/features/help/contribute-dialog.tsx:101
+#: src/features/help/contribute-dialog.tsx:109
 msgid "Steps to reproduce, what you expected, and what actually happened. Include your browser and device if relevant."
 msgstr "Kroky k reprodukci, co jste očekávali a co se skutečně stalo. Pokud je to relevantní, uveďte svůj prohlížeč a zařízení."
 
@@ -1498,7 +1569,7 @@ msgstr "Něco vám nejde? Zeptejte se komunity v mailing listu uživatelů Mochi
 msgid "Subject"
 msgstr "Předmět"
 
-#: src/features/help/contribute-dialog.tsx:265
+#: src/features/help/contribute-dialog.tsx:274
 msgid "Submitted successfully"
 msgstr "Úspěšně odesláno"
 
@@ -1507,17 +1578,17 @@ msgstr "Úspěšně odesláno"
 msgid "Subscribe"
 msgstr "Odebírat"
 
-#: src/features/help/contribute-dialog.tsx:107
+#: src/features/help/contribute-dialog.tsx:115
 #: src/features/help/index.tsx:45
 msgid "Suggest a new feature"
 msgstr "Navrhnout novou funkci"
 
-#: src/features/help/contribute-dialog.tsx:113
+#: src/features/help/contribute-dialog.tsx:121
 msgid "Suggest feature"
 msgstr "Navrhnout funkci"
 
-#: src/features/help/contribute-dialog.tsx:98
-#: src/features/help/contribute-dialog.tsx:109
+#: src/features/help/contribute-dialog.tsx:106
+#: src/features/help/contribute-dialog.tsx:117
 msgid "Summary"
 msgstr "Souhrn"
 
@@ -1549,7 +1620,7 @@ msgstr "Štítek musí mít nejvýše 50 znaků"
 msgid "Tags"
 msgstr "Štítky"
 
-#: src/features/help/contribute-dialog.tsx:209
+#: src/features/help/contribute-dialog.tsx:218
 msgid "Taking you there now."
 msgstr "Přesměrováváme vás tam."
 
@@ -1557,7 +1628,7 @@ msgstr "Přesměrováváme vás tam."
 msgid "Teams/Apps"
 msgstr "Týmy/Aplikace"
 
-#: src/features/help/contribute-dialog.tsx:108
+#: src/features/help/contribute-dialog.tsx:116
 msgid "Tell the Mochi development team what you'd like Mochi to do."
 msgstr "Řekněte vývojovému týmu Mochi, co byste chtěli, aby Mochi dělalo."
 
@@ -1650,7 +1721,7 @@ msgstr "Zkuste upravit hledané výrazy"
 #: ../../../lib/web/src/features/errors/general-error.tsx:140
 #: ../../../lib/web/src/features/errors/general-error.tsx:180
 #: ../../../lib/web/src/features/errors/maintenance-error.tsx:19
-#: src/features/help/contribute-dialog.tsx:294
+#: src/features/help/contribute-dialog.tsx:303
 msgid "Try again"
 msgstr "Zkusit znovu"
 
@@ -1661,6 +1732,10 @@ msgstr "Úterý"
 #: ../../../lib/web/src/components/command-menu.tsx:52
 msgid "Type a command or search..."
 msgstr "Zadejte příkaz nebo hledejte..."
+
+#: ../../../lib/web/src/components/game/game-chat-input.tsx:39
+msgid "Type a message…"
+msgstr "Napište zprávu…"
 
 #: ../../../lib/web/src/features/access/access-dialog.tsx:191
 msgid "Type to search users"
@@ -1756,8 +1831,8 @@ msgstr "Zobrazit"
 msgid "View all"
 msgstr "Zobrazit vše"
 
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:106
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:114
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:131
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:139
 msgid "View all notifications"
 msgstr "Zobrazit všechna oznámení"
 
@@ -1790,19 +1865,19 @@ msgstr "Středa"
 msgid "Welcome to Mochi. Here's how to get started."
 msgstr "Vítejte v Mochi. Takto začnete."
 
-#: src/features/help/contribute-dialog.tsx:100
+#: src/features/help/contribute-dialog.tsx:108
 msgid "What happened"
 msgstr "Co se stalo"
 
-#: src/features/help/contribute-dialog.tsx:90
+#: src/features/help/contribute-dialog.tsx:98
 msgid "What have you tried, what did you expect, where are you stuck?"
 msgstr "Co jste zkusili, co jste očekávali, kde jste se zasekli?"
 
-#: src/features/help/contribute-dialog.tsx:112
+#: src/features/help/contribute-dialog.tsx:120
 msgid "What would it do, who is it for, why does it matter?"
 msgstr "Co by dělala, pro koho je, proč na ní záleží?"
 
-#: src/features/help/contribute-dialog.tsx:88
+#: src/features/help/contribute-dialog.tsx:96
 msgid "What you want to ask, in one line"
 msgstr "Co chcete položit, v jednom řádku"
 
@@ -1822,7 +1897,7 @@ msgstr "Odeslali jste následující hodnoty:"
 msgid "You're all caught up!"
 msgstr "Máte vše přečteno!"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:91
+#: ../../../lib/web/src/components/restore-banner.tsx:106
 msgid "Your account was moved here from {source}. Until you delete it there, messages and notifications may reach both servers, some of your content keeps being served from the old server, and followers may take a few minutes to find you here."
 msgstr "Váš účet byl přesunut sem z {source}. Dokud ho tam nesmažete, zprávy a upozornění mohou dosahovat na oba servery, část vašeho obsahu je nadále obsluhována ze starého serveru a sledující vás mohou potřebovat několik minut, než vás zde najdou."
 
@@ -1830,11 +1905,11 @@ msgstr "Váš účet byl přesunut sem z {source}. Dokud ho tam nesmažete, zpr�
 msgid "Your attachments will be lost."
 msgstr "Vaše přílohy budou ztraceny."
 
-#: src/features/help/contribute-dialog.tsx:81
+#: src/features/help/contribute-dialog.tsx:89
 msgid "Your introduction has been submitted and will appear after moderation."
 msgstr "Vaše představení bylo odesláno a zobrazí se po schválení."
 
-#: src/features/help/contribute-dialog.tsx:92
+#: src/features/help/contribute-dialog.tsx:100
 msgid "Your question has been submitted and will appear after moderation."
 msgstr "Vaše otázka byla odeslána a zobrazí se po schválení."
 
@@ -1843,6 +1918,6 @@ msgid "Your text and attachments will be lost."
 msgstr "Váš text a přílohy budou ztraceny."
 
 #: ../../../lib/web/src/components/comment-composer.tsx:292
-#: src/features/help/contribute-dialog.tsx:379
+#: src/features/help/contribute-dialog.tsx:388
 msgid "Your text will be lost."
 msgstr "Váš text bude ztracen."

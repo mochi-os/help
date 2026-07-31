@@ -36,6 +36,10 @@ msgstr "{entityLabel} ady"
 msgid "{entityLabel} name is required"
 msgstr "{entityLabel} ady gerek"
 
+#: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx:29
+msgid "{opponentName} offered a draw"
+msgstr "{opponentName} deňme-deň teklip etdi"
+
 #: ../../../lib/web/src/components/data-table/bulk-actions.tsx:210
 msgid "{selectedCount, plural, one {{entityName} selected} other {{manyName} selected}}"
 msgstr "{selectedCount, plural, one {{entityName} saýlandy} other {{manyName} saýlandy}}"
@@ -60,6 +64,11 @@ msgstr "{totalLabel}-den {sentLabel}"
 msgid "{unreadCount, plural, one {Open menu (# unread notification)} other {Open menu (# unread notifications)}}"
 msgstr "{unreadCount, plural, one {Menýuny aç (# okalmadyk bildiriş)} other {Menýuny aç (# okalmadyk bildiriş)}}"
 
+#. placeholder {0}: countDeepChildren(object.id)
+#: ../../../lib/web/src/components/entity/entity-board-card.tsx:421
+msgid "+{0} nested"
+msgstr "+{0} içki"
+
 #: ../../../lib/web/src/lib/preference-utils.ts:42
 msgid "12 hours"
 msgstr "12 sagat"
@@ -71,6 +80,10 @@ msgstr "24 sagat"
 #: ../../../lib/web/src/lib/preference-utils.ts:51
 msgid "Absolute (date and time)"
 msgstr "Mutlak (sene we wagt)"
+
+#: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx:45
+msgid "Accept"
+msgstr "Kabul etmek"
 
 #: ../../../lib/web/src/features/errors/general-error.tsx:60
 msgid "Access denied"
@@ -100,12 +113,13 @@ msgstr "Hasap görnüşi"
 msgid "Account verified"
 msgstr "Hasap tassyklandy"
 
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:717
 #: ../../../lib/web/src/features/access/access-dialog.tsx:332
 #: ../../../lib/web/src/features/accounts/account-add.tsx:196
 msgid "Add"
 msgstr "Goşmak"
 
-#: src/features/help/contribute-dialog.tsx:326
+#: src/features/help/contribute-dialog.tsx:335
 msgid "Add a bit more detail."
 msgstr "Az-kem köp jikme-jiklik goşuň."
 
@@ -125,6 +139,14 @@ msgstr "Hasap goşmak"
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:297
 msgid "Add an account to receive notifications and use services."
 msgstr "Bildirişleri almak we hyzmatlary ulanmak üçin hasap goşuň."
+
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:687
+msgid "Add checklist item"
+msgstr "Kontrol sanawynyň elementi goşmak"
+
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:705
+msgid "Add item..."
+msgstr "Element goşuň..."
 
 #: ../../../lib/web/src/features/accounts/account-picker.tsx:102
 msgid "Add new account"
@@ -202,12 +224,12 @@ msgstr "Aşak"
 msgid "Ascending"
 msgstr "Artýan tertipde"
 
-#: src/features/help/contribute-dialog.tsx:85
+#: src/features/help/contribute-dialog.tsx:93
 #: src/features/help/index.tsx:33
 msgid "Ask a question"
 msgstr "Sorag beriň"
 
-#: src/features/help/contribute-dialog.tsx:86
+#: src/features/help/contribute-dialog.tsx:94
 msgid "Ask the community on the Mochi users mailing list. Be specific about what you've tried so far."
 msgstr "Mochi ulanyjylarynyň poçta sanawynda jemgyýetden soraň. Şu wagta çenli näme synanyşandygyňyzy anyk görkeziň."
 
@@ -242,12 +264,17 @@ msgstr "Baş sahypa dolan"
 msgid "Banner"
 msgstr "Banner"
 
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:156
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:166
+msgid "Blocked navigation to untrusted link"
+msgstr "Ynamsyz baglanyşyga geçiş gabsaldy"
+
 #: ../../../lib/web/src/components/post-tags.tsx:180
 #: ../../../lib/web/src/components/post-tags.tsx:192
 msgid "Boost interest"
 msgstr "Gyzyklanmany ýokarlandyrmak"
 
-#: src/features/help/contribute-dialog.tsx:99
+#: src/features/help/contribute-dialog.tsx:107
 msgid "Brief summary of the problem"
 msgstr "Meseläniň gysga mazmuny"
 
@@ -255,7 +282,7 @@ msgstr "Meseläniň gysga mazmuny"
 msgid "Browser notifications"
 msgstr "Brauzer bildirişleri"
 
-#: src/features/help/contribute-dialog.tsx:103
+#: src/features/help/contribute-dialog.tsx:111
 msgid "Bug report submitted."
 msgstr "Säwlilik hasabaty iberildi."
 
@@ -268,7 +295,7 @@ msgstr "Säwlilik hasabaty iberildi."
 #: ../../../lib/web/src/features/access/access-list.tsx:268
 #: ../../../lib/web/src/features/accounts/account-add.tsx:188
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:91
-#: src/features/help/contribute-dialog.tsx:354
+#: src/features/help/contribute-dialog.tsx:363
 msgid "Cancel"
 msgstr "Ýatyrmak"
 
@@ -284,6 +311,10 @@ msgstr "Bildiriş kategoriýasyny üýtgetmek"
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:198
 msgid "Check \"All\" to see your past notifications."
 msgstr "Öňki bildirişleri görmek üçin \"Ählisi\" saýlaň."
+
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:38
+msgid "Choose a game from the sidebar or start a new one."
+msgstr "Gapdal panelden oýun saýlaň ýa-da täzesini başlaň."
 
 #: ../../../lib/web/src/components/config-drawer.tsx:329
 msgid "Choose between default expanded, compact icon-only, or full layout mode"
@@ -341,7 +372,7 @@ msgstr "Saýlamany arassalamak (Escape)"
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:358
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:361
 #: ../../../lib/web/src/components/ui/sheet.tsx:79
-#: src/features/help/contribute-dialog.tsx:341
+#: src/features/help/contribute-dialog.tsx:350
 msgid "Close"
 msgstr "Ýapmak"
 
@@ -440,7 +471,7 @@ msgstr "Nusgalamak"
 msgid "Could not load this document. Please try again later."
 msgstr "Bu resminamany ýüklemedi. Soň gaýtadan synanyşyň."
 
-#: src/features/help/contribute-dialog.tsx:282
+#: src/features/help/contribute-dialog.tsx:291
 msgid "Couldn't reach the destination yet"
 msgstr "Henizem barmaly ýere ýetip bilmedik"
 
@@ -452,7 +483,7 @@ msgstr "Kody ugratmak başartmady. Täzeden synanyşyň."
 msgid "Couldn't start re-authentication. Please try again."
 msgstr "Gaýtadan tassyklamany başlatmak başartmady. Täzeden synanyşyň."
 
-#: src/features/help/contribute-dialog.tsx:214
+#: src/features/help/contribute-dialog.tsx:223
 msgid "Couldn't submit"
 msgstr "Ibermek başartmady"
 
@@ -495,6 +526,10 @@ msgstr "Goýy görnüş"
 msgid "Data conflict"
 msgstr "Maglumat gapma-garşylygy"
 
+#: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx:41
+msgid "Decline"
+msgstr "Ret etmek"
+
 #: ../../../lib/web/src/components/config-drawer.tsx:311
 msgid "Default"
 msgstr "Adaty"
@@ -503,7 +538,7 @@ msgstr "Adaty"
 msgid "Default AI account"
 msgstr "Adaty AI hasap"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:99
+#: ../../../lib/web/src/components/restore-banner.tsx:115
 msgid "Delete your account on the old server"
 msgstr "Köne serwerdäki hasabyňyzy pozy"
 
@@ -515,7 +550,7 @@ msgstr "Ýokary"
 msgid "Descending"
 msgstr "Kemelýän tertipde"
 
-#: src/features/help/contribute-dialog.tsx:97
+#: src/features/help/contribute-dialog.tsx:105
 msgid "Describe what went wrong. The Mochi development team will see it on the Mochi development project."
 msgstr "Nämäniň ýalňyş bolanyny düşündiriň. Mochi ösüş topary muny Mochi ösüş taslamasynda görer."
 
@@ -523,8 +558,8 @@ msgstr "Nämäniň ýalňyş bolanyny düşündiriň. Mochi ösüş topary muny 
 msgid "Description"
 msgstr "Düşündiriş"
 
-#: src/features/help/contribute-dialog.tsx:89
-#: src/features/help/contribute-dialog.tsx:111
+#: src/features/help/contribute-dialog.tsx:97
+#: src/features/help/contribute-dialog.tsx:119
 msgid "Details"
 msgstr "Jikme-jiklikler"
 
@@ -552,12 +587,12 @@ msgid "Directory"
 msgstr "Katalog"
 
 #: ../../../lib/web/src/components/comment-composer.tsx:300
-#: src/features/help/contribute-dialog.tsx:381
+#: src/features/help/contribute-dialog.tsx:390
 msgid "Discard"
 msgstr "Taşla"
 
 #: ../../../lib/web/src/components/comment-composer.tsx:298
-#: src/features/help/contribute-dialog.tsx:378
+#: src/features/help/contribute-dialog.tsx:387
 msgid "Discard draft?"
 msgstr "Taslamany taşlamaly?"
 
@@ -566,8 +601,8 @@ msgstr "Taslamany taşlamaly?"
 msgid "Disconnected"
 msgstr "Aýryldy"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:79
-#: ../../../lib/web/src/components/restore-banner.tsx:85
+#: ../../../lib/web/src/components/restore-banner.tsx:94
+#: ../../../lib/web/src/components/restore-banner.tsx:100
 msgid "Dismiss"
 msgstr "Goýbermek"
 
@@ -664,7 +699,7 @@ msgstr "Tassyklama kody iberilmedi"
 msgid "Failed to update category"
 msgstr "Kategoriýa täzelenmedi"
 
-#: src/features/help/contribute-dialog.tsx:114
+#: src/features/help/contribute-dialog.tsx:122
 msgid "Feature request submitted."
 msgstr "Aýratynlyk islegi iberildi."
 
@@ -672,7 +707,7 @@ msgstr "Aýratynlyk islegi iberildi."
 msgid "Filter..."
 msgstr "Süz..."
 
-#: ../../../lib/web/src/components/restore-banner.tsx:88
+#: ../../../lib/web/src/components/restore-banner.tsx:103
 msgid "Finish moving your account"
 msgstr "Hasabyňyzy göçürip gutaryň"
 
@@ -719,7 +754,7 @@ msgstr "Yza"
 msgid "Go to first page"
 msgstr "Birinji sahypa git"
 
-#: src/features/help/contribute-dialog.tsx:346
+#: src/features/help/contribute-dialog.tsx:355
 msgid "Go to forum"
 msgstr "Foruma git"
 
@@ -760,7 +795,7 @@ msgstr "Topar: {0}"
 msgid "Help"
 msgstr "Kömek"
 
-#: src/features/help/contribute-dialog.tsx:79
+#: src/features/help/contribute-dialog.tsx:87
 msgid "Hi, I'm…"
 msgstr "Salam, men…"
 
@@ -812,10 +847,14 @@ msgstr "Içki"
 msgid "Interests"
 msgstr "Gyzyklanmalar"
 
-#: src/features/help/contribute-dialog.tsx:78
+#: src/features/help/contribute-dialog.tsx:86
 #: src/features/help/index.tsx:27
 msgid "Introduce yourself"
 msgstr "Özüňizi tanyşdyryň"
+
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:550
+msgid "Invalid date"
+msgstr "Nädogry sene"
 
 #: ../../../lib/web/src/components/tag-input.tsx:38
 msgid "Invalid tag: letters, numbers, spaces, hyphens, and slashes only (max 50 chars)"
@@ -833,7 +872,7 @@ msgstr "Görnüşinden, gözleýän sahypaňyz <0/>ýok ýa-da aýrylan."
 msgid "Just now"
 msgstr "Häzir"
 
-#: src/features/help/contribute-dialog.tsx:380
+#: src/features/help/contribute-dialog.tsx:389
 msgid "Keep editing"
 msgstr "Redaktirlemegi dowam etdiriň"
 
@@ -875,7 +914,7 @@ msgstr "Mazmun ýüklenýär…"
 
 #: ../../../lib/web/src/components/ui/load-more.tsx:35
 #: ../../../lib/web/src/features/document/document-page.tsx:90
-#: src/features/help/contribute-dialog.tsx:273
+#: src/features/help/contribute-dialog.tsx:282
 msgid "Loading..."
 msgstr "Ýüklenýär..."
 
@@ -905,8 +944,8 @@ msgstr "Çykylýar…"
 msgid "Manage your connected accounts for notifications and services."
 msgstr "Bildirişler we hyzmatlar üçin birikdirilen hasaplaryňyzy dolandyryň."
 
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:93
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:100
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:118
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:125
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:224
 msgid "Mark all as read"
 msgstr "Hemmesini okaldy diýip belgile"
@@ -922,6 +961,10 @@ msgstr "Orta"
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx:173
 msgid "Menu"
 msgstr "Menýu"
+
+#: ../../../lib/web/src/components/game/game-chat-input.tsx:35
+msgid "Message"
+msgstr "Habar"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:85
 msgid "Metric"
@@ -952,6 +995,11 @@ msgstr "Tor ýalňyşlygy"
 msgid "New"
 msgstr "Täze"
 
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:42
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:54
+msgid "New game"
+msgstr "Täze oýun"
+
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:392
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:397
 msgid "Next image"
@@ -965,6 +1013,10 @@ msgstr "Giriş düzgünleri ýok. Bu çeşmä kim girip biljekdigini dolandyrmak
 msgid "No connected accounts"
 msgstr "Baglanan hasaplar ýok"
 
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:51
+msgid "No games yet"
+msgstr "Heniz oýunlar ýok"
+
 #: ../../../lib/web/src/features/access/access-dialog.tsx:241
 msgid "No groups available"
 msgstr "Elýeterli toparlar ýok"
@@ -973,6 +1025,7 @@ msgstr "Elýeterli toparlar ýok"
 msgid "No notifications yet"
 msgstr "Entek bildiriş ýok"
 
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:336
 #: ../../../lib/web/src/components/person-picker.tsx:84
 msgid "No people found"
 msgstr "Adamlar tapylmady"
@@ -1035,7 +1088,7 @@ msgid "Notifications"
 msgstr "Bildirişler"
 
 #. placeholder {0}: unread.length
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:86
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:111
 msgid "Notifications: {0}"
 msgstr "Bildirişler: {0}"
 
@@ -1097,7 +1150,7 @@ msgstr "Geçiş açary"
 msgid "Passkey verification failed. Please try again."
 msgstr "Giriş açary bilen tassyklamak şowsuz boldy. Täzeden synanyşyň."
 
-#: ../../../lib/web/src/components/restore-banner.tsx:135
+#: ../../../lib/web/src/components/restore-banner.tsx:152
 msgid "Passkeys"
 msgstr "Giriş açarlary"
 
@@ -1116,9 +1169,9 @@ msgid "Please log in with the appropriate credentials <0/> to access this resour
 msgstr "Bu çeşmä girmek üçin <0/> degişli maglumatlar bilen giriň."
 
 #: ../../../lib/web/src/features/errors/general-error.tsx:83
-#: src/features/help/contribute-dialog.tsx:171
 #: src/features/help/contribute-dialog.tsx:180
-#: src/features/help/contribute-dialog.tsx:215
+#: src/features/help/contribute-dialog.tsx:189
+#: src/features/help/contribute-dialog.tsx:224
 msgid "Please try again."
 msgstr "Haýyş, gaýtadan synanyşyň."
 
@@ -1126,19 +1179,19 @@ msgstr "Haýyş, gaýtadan synanyşyň."
 msgid "Please wait a moment and try again."
 msgstr "Biraz garaşyň we täzeden synanyşyň."
 
-#: src/features/help/contribute-dialog.tsx:80
+#: src/features/help/contribute-dialog.tsx:88
 msgid "Post introduction"
 msgstr "Tanyşdyrmany ibermek"
 
-#: src/features/help/contribute-dialog.tsx:91
+#: src/features/help/contribute-dialog.tsx:99
 msgid "Post question"
 msgstr "Soragy ibermek"
 
-#: src/features/help/contribute-dialog.tsx:208
+#: src/features/help/contribute-dialog.tsx:217
 msgid "Posted"
 msgstr "Ýerleşdirildi"
 
-#: src/features/help/contribute-dialog.tsx:360
+#: src/features/help/contribute-dialog.tsx:369
 msgid "Posting…"
 msgstr "Post edilýär…"
 
@@ -1170,7 +1223,7 @@ msgstr "Taslama agzalary"
 msgid "Push notification"
 msgstr "Push bildirişi"
 
-#: src/features/help/contribute-dialog.tsx:87
+#: src/features/help/contribute-dialog.tsx:95
 msgid "Question"
 msgstr "Sorag"
 
@@ -1178,11 +1231,11 @@ msgstr "Sorag"
 msgid "Raised"
 msgstr "Galdyrylan"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:107
+#: ../../../lib/web/src/components/restore-banner.tsx:124
 msgid "Re-link your accounts on this server"
 msgstr "Bu serwerde hasaplaryňyzy täzeden baglanyşdyryň"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:129
+#: ../../../lib/web/src/components/restore-banner.tsx:146
 msgid "Re-register your passkeys on this server"
 msgstr "Bu serwerde giriş açarlaryňyzy gaýtadan hasaba alyň"
 
@@ -1243,12 +1296,16 @@ msgstr "Girişi aýyrmak?"
 msgid "Remove interest"
 msgstr "Gyzyklanmany aýyr"
 
-#: src/features/help/contribute-dialog.tsx:96
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:671
+msgid "Remove item"
+msgstr "Elementi aýyr"
+
+#: src/features/help/contribute-dialog.tsx:104
 #: src/features/help/index.tsx:39
 msgid "Report a bug"
 msgstr "Säwlik habar bermek"
 
-#: src/features/help/contribute-dialog.tsx:102
+#: src/features/help/contribute-dialog.tsx:110
 msgid "Report bug"
 msgstr "Säwlik habar bermek"
 
@@ -1346,6 +1403,10 @@ msgstr "Gözlenýär..."
 msgid "Select {0}"
 msgstr "{0} saýlaň"
 
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:37
+msgid "Select a game"
+msgstr "Oýun saýla"
+
 #: ../../../lib/web/src/features/access/access-dialog.tsx:150
 msgid "Select a user, group, or other rule to grant access."
 msgstr "Giriş bermek üçin ulanyjy, topar ýa-da başga düzgün saýla."
@@ -1390,6 +1451,11 @@ msgstr "Saýtyň ugruny saýla"
 msgid "Select theme preference"
 msgstr "Tema saýlawyňy saýla"
 
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:252
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:335
+msgid "Select..."
+msgstr "Saýla..."
+
 #: ../../../lib/web/src/components/data-table/bulk-actions.tsx:216
 msgid "selected"
 msgstr "saýlanan"
@@ -1406,6 +1472,11 @@ msgstr "Täzeden iber"
 #: ../../../lib/web/src/components/step-up-dialog.tsx:307
 msgid "Send email"
 msgstr "E-poçt iber"
+
+#: ../../../lib/web/src/components/game/game-chat-input.tsx:52
+#: ../../../lib/web/src/components/game/game-chat-input.tsx:61
+msgid "Send message"
+msgstr "Habar iber"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:145
 msgid "Serif"
@@ -1438,7 +1509,7 @@ msgstr "Başlangyç we baryljak ýeri belle"
 msgid "Settings"
 msgstr "Sazlamalar"
 
-#: src/features/help/contribute-dialog.tsx:110
+#: src/features/help/contribute-dialog.tsx:118
 msgid "Short title for your idea"
 msgstr "Pikiriňiz üçin gysga at"
 
@@ -1486,7 +1557,7 @@ msgstr "Bir zadyň döwükdigini gördüňizmi? Mochi ösüş taslamasynda hata 
 msgid "Stay tuned though!"
 msgstr "Ýöne biziň habarymyzda bol!"
 
-#: src/features/help/contribute-dialog.tsx:101
+#: src/features/help/contribute-dialog.tsx:109
 msgid "Steps to reproduce, what you expected, and what actually happened. Include your browser and device if relevant."
 msgstr "Gaýtalama ädimleri, näme garaşandygyňyz we hakykatda näme bolandygy. Degişli bolsa brauzeriňizi we enjamyňyzy hem goşuň."
 
@@ -1498,7 +1569,7 @@ msgstr "Bir zatda dyklypmysyňyz? Mochi ulanyjylarynyň poçta sanawynda jemgyý
 msgid "Subject"
 msgstr "Mowzuk"
 
-#: src/features/help/contribute-dialog.tsx:265
+#: src/features/help/contribute-dialog.tsx:274
 msgid "Submitted successfully"
 msgstr "Üstünlikli iberildi"
 
@@ -1507,17 +1578,17 @@ msgstr "Üstünlikli iberildi"
 msgid "Subscribe"
 msgstr "Abuna ýaz"
 
-#: src/features/help/contribute-dialog.tsx:107
+#: src/features/help/contribute-dialog.tsx:115
 #: src/features/help/index.tsx:45
 msgid "Suggest a new feature"
 msgstr "Täze aýratynlyk teklip ediň"
 
-#: src/features/help/contribute-dialog.tsx:113
+#: src/features/help/contribute-dialog.tsx:121
 msgid "Suggest feature"
 msgstr "Aýratynlyk teklip ediň"
 
-#: src/features/help/contribute-dialog.tsx:98
-#: src/features/help/contribute-dialog.tsx:109
+#: src/features/help/contribute-dialog.tsx:106
+#: src/features/help/contribute-dialog.tsx:117
 msgid "Summary"
 msgstr "Gysgaça"
 
@@ -1549,7 +1620,7 @@ msgstr "Bellik iň köp 50 harp bolmaly"
 msgid "Tags"
 msgstr "Bellikler"
 
-#: src/features/help/contribute-dialog.tsx:209
+#: src/features/help/contribute-dialog.tsx:218
 msgid "Taking you there now."
 msgstr "Sizi häzir şol ýere alyp barýarys."
 
@@ -1557,7 +1628,7 @@ msgstr "Sizi häzir şol ýere alyp barýarys."
 msgid "Teams/Apps"
 msgstr "Toparlar/Programmalar"
 
-#: src/features/help/contribute-dialog.tsx:108
+#: src/features/help/contribute-dialog.tsx:116
 msgid "Tell the Mochi development team what you'd like Mochi to do."
 msgstr "Mochi-niň näme etmegini isleýändigiňizi Mochi ösüş toparyna aýdyň."
 
@@ -1650,7 +1721,7 @@ msgstr "Gözleg sözleriňi düzelt"
 #: ../../../lib/web/src/features/errors/general-error.tsx:140
 #: ../../../lib/web/src/features/errors/general-error.tsx:180
 #: ../../../lib/web/src/features/errors/maintenance-error.tsx:19
-#: src/features/help/contribute-dialog.tsx:294
+#: src/features/help/contribute-dialog.tsx:303
 msgid "Try again"
 msgstr "Gaýtadan synanyş"
 
@@ -1661,6 +1732,10 @@ msgstr "Sişenbe"
 #: ../../../lib/web/src/components/command-menu.tsx:52
 msgid "Type a command or search..."
 msgstr "Buýruk ýa-da gözleg ýaz..."
+
+#: ../../../lib/web/src/components/game/game-chat-input.tsx:39
+msgid "Type a message…"
+msgstr "Habar ýaz…"
 
 #: ../../../lib/web/src/features/access/access-dialog.tsx:191
 msgid "Type to search users"
@@ -1756,8 +1831,8 @@ msgstr "Görkez"
 msgid "View all"
 msgstr "Hemmesini görkez"
 
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:106
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:114
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:131
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:139
 msgid "View all notifications"
 msgstr "Ähli bildirişleri görkez"
 
@@ -1790,19 +1865,19 @@ msgstr "Çarşenbe"
 msgid "Welcome to Mochi. Here's how to get started."
 msgstr "Mochi-a hoş geldiňiz. Başlamagyň ýoly ine şeýle."
 
-#: src/features/help/contribute-dialog.tsx:100
+#: src/features/help/contribute-dialog.tsx:108
 msgid "What happened"
 msgstr "Näme boldy"
 
-#: src/features/help/contribute-dialog.tsx:90
+#: src/features/help/contribute-dialog.tsx:98
 msgid "What have you tried, what did you expect, where are you stuck?"
 msgstr "Näme synanyşdyňyz, näme garaşýardyňyz, nirede ýapyşyp galdyňyz?"
 
-#: src/features/help/contribute-dialog.tsx:112
+#: src/features/help/contribute-dialog.tsx:120
 msgid "What would it do, who is it for, why does it matter?"
 msgstr "Bu näme eder, kim üçin, näme üçin möhüm?"
 
-#: src/features/help/contribute-dialog.tsx:88
+#: src/features/help/contribute-dialog.tsx:96
 msgid "What you want to ask, in one line"
 msgstr "Näme soramak isleýärsiňiz, bir hatarda"
 
@@ -1822,7 +1897,7 @@ msgstr "Siz şu bahalary iberdiňiz:"
 msgid "You're all caught up!"
 msgstr "Siz hemmesini gördüňiz!"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:91
+#: ../../../lib/web/src/components/restore-banner.tsx:106
 msgid "Your account was moved here from {source}. Until you delete it there, messages and notifications may reach both servers, some of your content keeps being served from the old server, and followers may take a few minutes to find you here."
 msgstr "Hasabyňyz {source} serwерinden bu ýere geçirildi. Şol ýerden pozýançaňyz, habarlar we duýduryşlar iki serwere hem ýetip biler, käbir mazmunyňyz köne serweriň üsti bilen berler, yzarlaýanlar sizi bu ýerde tapmak üçin birnäçe minut gerek bolup biler."
 
@@ -1830,11 +1905,11 @@ msgstr "Hasabyňyz {source} serwерinden bu ýere geçirildi. Şol ýerden poz�
 msgid "Your attachments will be lost."
 msgstr "Goşundylaryňyz ýitiriler."
 
-#: src/features/help/contribute-dialog.tsx:81
+#: src/features/help/contribute-dialog.tsx:89
 msgid "Your introduction has been submitted and will appear after moderation."
 msgstr "Tanyşdyrylyşyňyz iberildi we moderasiýadan soň peýda bolar."
 
-#: src/features/help/contribute-dialog.tsx:92
+#: src/features/help/contribute-dialog.tsx:100
 msgid "Your question has been submitted and will appear after moderation."
 msgstr "Soragyňyz iberildi we moderasiýadan soň peýda bolar."
 
@@ -1843,6 +1918,6 @@ msgid "Your text and attachments will be lost."
 msgstr "Tekstiňiz we goşundylaryňyz ýitiriler."
 
 #: ../../../lib/web/src/components/comment-composer.tsx:292
-#: src/features/help/contribute-dialog.tsx:379
+#: src/features/help/contribute-dialog.tsx:388
 msgid "Your text will be lost."
 msgstr "Tekstiňiz ýitiriler."

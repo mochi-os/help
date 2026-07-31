@@ -36,6 +36,10 @@ msgstr "Enw {entityLabel}"
 msgid "{entityLabel} name is required"
 msgstr "Mae angen enw {entityLabel}"
 
+#: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx:29
+msgid "{opponentName} offered a draw"
+msgstr "Cynigiodd {opponentName} gêm gyfartal"
+
 #: ../../../lib/web/src/components/data-table/bulk-actions.tsx:210
 msgid "{selectedCount, plural, one {{entityName} selected} other {{manyName} selected}}"
 msgstr "{selectedCount, plural, zero {{manyName} wedi'u dewis} one {{entityName} wedi'i ddewis} two {{manyName} wedi'u dewis} few {{manyName} wedi'u dewis} many {{manyName} wedi'u dewis} other {{manyName} wedi'u dewis}}"
@@ -60,6 +64,11 @@ msgstr "{sentLabel} o {totalLabel}"
 msgid "{unreadCount, plural, one {Open menu (# unread notification)} other {Open menu (# unread notifications)}}"
 msgstr "{unreadCount, plural, zero {Agor y ddewislen (# hysbysiad heb ei ddarllen)} one {Agor y ddewislen (# hysbysiad heb ei ddarllen)} two {Agor y ddewislen (# hysbysiad heb eu darllen)} few {Agor y ddewislen (# hysbysiad heb eu darllen)} many {Agor y ddewislen (# hysbysiad heb eu darllen)} other {Agor y ddewislen (# hysbysiad heb eu darllen)}}"
 
+#. placeholder {0}: countDeepChildren(object.id)
+#: ../../../lib/web/src/components/entity/entity-board-card.tsx:421
+msgid "+{0} nested"
+msgstr "+{0} wedi'u nythu"
+
 #: ../../../lib/web/src/lib/preference-utils.ts:42
 msgid "12 hours"
 msgstr "12 awr"
@@ -71,6 +80,10 @@ msgstr "24 awr"
 #: ../../../lib/web/src/lib/preference-utils.ts:51
 msgid "Absolute (date and time)"
 msgstr "Absoliwt (dyddiad ac amser)"
+
+#: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx:45
+msgid "Accept"
+msgstr "Derbyn"
 
 #: ../../../lib/web/src/features/errors/general-error.tsx:60
 msgid "Access denied"
@@ -100,12 +113,13 @@ msgstr "Math o gyfrif"
 msgid "Account verified"
 msgstr "Cyfrif wedi'i wirio"
 
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:717
 #: ../../../lib/web/src/features/access/access-dialog.tsx:332
 #: ../../../lib/web/src/features/accounts/account-add.tsx:196
 msgid "Add"
 msgstr "Ychwanegu"
 
-#: src/features/help/contribute-dialog.tsx:326
+#: src/features/help/contribute-dialog.tsx:335
 msgid "Add a bit more detail."
 msgstr "Ychwanegwch ychydig mwy o fanylion."
 
@@ -125,6 +139,14 @@ msgstr "Ychwanegu cyfrif"
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:297
 msgid "Add an account to receive notifications and use services."
 msgstr "Ychwanegu cyfrif i dderbyn hysbysiadau a defnyddio gwasanaethau."
+
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:687
+msgid "Add checklist item"
+msgstr "Ychwanegu eitem rhestr wirio"
+
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:705
+msgid "Add item..."
+msgstr "Ychwanegu eitem..."
 
 #: ../../../lib/web/src/features/accounts/account-picker.tsx:102
 msgid "Add new account"
@@ -202,12 +224,12 @@ msgstr "Esg"
 msgid "Ascending"
 msgstr "Esgynnol"
 
-#: src/features/help/contribute-dialog.tsx:85
+#: src/features/help/contribute-dialog.tsx:93
 #: src/features/help/index.tsx:33
 msgid "Ask a question"
 msgstr "Gofyn cwestiwn"
 
-#: src/features/help/contribute-dialog.tsx:86
+#: src/features/help/contribute-dialog.tsx:94
 msgid "Ask the community on the Mochi users mailing list. Be specific about what you've tried so far."
 msgstr "Gofynnwch i'r gymuned ar restr bostio defnyddwyr Mochi. Byddwch yn benodol am yr hyn rydych chi wedi'i drio hyd yn hyn."
 
@@ -242,12 +264,17 @@ msgstr "Yn ôl i’r cartref"
 msgid "Banner"
 msgstr "Baner"
 
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:156
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:166
+msgid "Blocked navigation to untrusted link"
+msgstr "Llywio at ddolen heb ymddiriedaeth wedi'i blocio"
+
 #: ../../../lib/web/src/components/post-tags.tsx:180
 #: ../../../lib/web/src/components/post-tags.tsx:192
 msgid "Boost interest"
 msgstr "Hybu diddordeb"
 
-#: src/features/help/contribute-dialog.tsx:99
+#: src/features/help/contribute-dialog.tsx:107
 msgid "Brief summary of the problem"
 msgstr "Crynodeb byr o'r broblem"
 
@@ -255,7 +282,7 @@ msgstr "Crynodeb byr o'r broblem"
 msgid "Browser notifications"
 msgstr "Hysbysiadau porwr"
 
-#: src/features/help/contribute-dialog.tsx:103
+#: src/features/help/contribute-dialog.tsx:111
 msgid "Bug report submitted."
 msgstr "Adroddiad nam wedi'i gyflwyno."
 
@@ -268,7 +295,7 @@ msgstr "Adroddiad nam wedi'i gyflwyno."
 #: ../../../lib/web/src/features/access/access-list.tsx:268
 #: ../../../lib/web/src/features/accounts/account-add.tsx:188
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:91
-#: src/features/help/contribute-dialog.tsx:354
+#: src/features/help/contribute-dialog.tsx:363
 msgid "Cancel"
 msgstr "Canslo"
 
@@ -284,6 +311,10 @@ msgstr "Newid categori hysbysiad"
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:198
 msgid "Check \"All\" to see your past notifications."
 msgstr "Ticiwch \"Popeth\" i weld eich hysbysiadau blaenorol."
+
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:38
+msgid "Choose a game from the sidebar or start a new one."
+msgstr "Dewiswch gêm o'r bar ochr neu dechreuwch un newydd."
 
 #: ../../../lib/web/src/components/config-drawer.tsx:329
 msgid "Choose between default expanded, compact icon-only, or full layout mode"
@@ -341,7 +372,7 @@ msgstr "Clirio dewis (Escape)"
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:358
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:361
 #: ../../../lib/web/src/components/ui/sheet.tsx:79
-#: src/features/help/contribute-dialog.tsx:341
+#: src/features/help/contribute-dialog.tsx:350
 msgid "Close"
 msgstr "Cau"
 
@@ -440,7 +471,7 @@ msgstr "Copïo"
 msgid "Could not load this document. Please try again later."
 msgstr "Methwyd llwytho'r ddogfen hon. Rhowch gynnig arni eto yn nes ymlaen."
 
-#: src/features/help/contribute-dialog.tsx:282
+#: src/features/help/contribute-dialog.tsx:291
 msgid "Couldn't reach the destination yet"
 msgstr "Methu cyrraedd y cyrchfan eto"
 
@@ -452,7 +483,7 @@ msgstr "Methwyd anfon y cod. Rhowch gynnig arall arni."
 msgid "Couldn't start re-authentication. Please try again."
 msgstr "Methwyd dechrau ailddilysu. Rhowch gynnig arall arni."
 
-#: src/features/help/contribute-dialog.tsx:214
+#: src/features/help/contribute-dialog.tsx:223
 msgid "Couldn't submit"
 msgstr "Methu cyflwyno"
 
@@ -495,6 +526,10 @@ msgstr "Modd tywyll"
 msgid "Data conflict"
 msgstr "Gwrthdaro data"
 
+#: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx:41
+msgid "Decline"
+msgstr "Gwrthod"
+
 #: ../../../lib/web/src/components/config-drawer.tsx:311
 msgid "Default"
 msgstr "Diofyn"
@@ -503,7 +538,7 @@ msgstr "Diofyn"
 msgid "Default AI account"
 msgstr "Cyfrif AI diofyn"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:99
+#: ../../../lib/web/src/components/restore-banner.tsx:115
 msgid "Delete your account on the old server"
 msgstr "Dilëwch eich cyfrif ar yr hen weinydd"
 
@@ -515,7 +550,7 @@ msgstr "Disg"
 msgid "Descending"
 msgstr "Disgynnol"
 
-#: src/features/help/contribute-dialog.tsx:97
+#: src/features/help/contribute-dialog.tsx:105
 msgid "Describe what went wrong. The Mochi development team will see it on the Mochi development project."
 msgstr "Disgrifiwch beth aeth o'i le. Bydd tîm datblygu Mochi yn ei weld ar brosiect datblygu Mochi."
 
@@ -523,8 +558,8 @@ msgstr "Disgrifiwch beth aeth o'i le. Bydd tîm datblygu Mochi yn ei weld ar bro
 msgid "Description"
 msgstr "Disgrifiad"
 
-#: src/features/help/contribute-dialog.tsx:89
-#: src/features/help/contribute-dialog.tsx:111
+#: src/features/help/contribute-dialog.tsx:97
+#: src/features/help/contribute-dialog.tsx:119
 msgid "Details"
 msgstr "Manylion"
 
@@ -552,12 +587,12 @@ msgid "Directory"
 msgstr "Cyfeiriadur"
 
 #: ../../../lib/web/src/components/comment-composer.tsx:300
-#: src/features/help/contribute-dialog.tsx:381
+#: src/features/help/contribute-dialog.tsx:390
 msgid "Discard"
 msgstr "Hepgor"
 
 #: ../../../lib/web/src/components/comment-composer.tsx:298
-#: src/features/help/contribute-dialog.tsx:378
+#: src/features/help/contribute-dialog.tsx:387
 msgid "Discard draft?"
 msgstr "Hepgor y drafft?"
 
@@ -566,8 +601,8 @@ msgstr "Hepgor y drafft?"
 msgid "Disconnected"
 msgstr "Wedi datgysylltu"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:79
-#: ../../../lib/web/src/components/restore-banner.tsx:85
+#: ../../../lib/web/src/components/restore-banner.tsx:94
+#: ../../../lib/web/src/components/restore-banner.tsx:100
 msgid "Dismiss"
 msgstr "Diystyru"
 
@@ -664,7 +699,7 @@ msgstr "Methwyd anfon y cod dilysu"
 msgid "Failed to update category"
 msgstr "Methwyd diweddaru'r categori"
 
-#: src/features/help/contribute-dialog.tsx:114
+#: src/features/help/contribute-dialog.tsx:122
 msgid "Feature request submitted."
 msgstr "Cais am nodwedd wedi'i gyflwyno."
 
@@ -672,7 +707,7 @@ msgstr "Cais am nodwedd wedi'i gyflwyno."
 msgid "Filter..."
 msgstr "Hidlo..."
 
-#: ../../../lib/web/src/components/restore-banner.tsx:88
+#: ../../../lib/web/src/components/restore-banner.tsx:103
 msgid "Finish moving your account"
 msgstr "Gorffennwch symud eich cyfrif"
 
@@ -719,7 +754,7 @@ msgstr "Yn ôl"
 msgid "Go to first page"
 msgstr "Mynd i'r dudalen gyntaf"
 
-#: src/features/help/contribute-dialog.tsx:346
+#: src/features/help/contribute-dialog.tsx:355
 msgid "Go to forum"
 msgstr "Mynd i'r fforwm"
 
@@ -760,7 +795,7 @@ msgstr "Grŵp: {0}"
 msgid "Help"
 msgstr "Cymorth"
 
-#: src/features/help/contribute-dialog.tsx:79
+#: src/features/help/contribute-dialog.tsx:87
 msgid "Hi, I'm…"
 msgstr "Helô, fi yw…"
 
@@ -812,10 +847,14 @@ msgstr "Mewnol"
 msgid "Interests"
 msgstr "Diddordebau"
 
-#: src/features/help/contribute-dialog.tsx:78
+#: src/features/help/contribute-dialog.tsx:86
 #: src/features/help/index.tsx:27
 msgid "Introduce yourself"
 msgstr "Cyflwynwch eich hun"
+
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:550
+msgid "Invalid date"
+msgstr "Dyddiad annilys"
 
 #: ../../../lib/web/src/components/tag-input.tsx:38
 msgid "Invalid tag: letters, numbers, spaces, hyphens, and slashes only (max 50 chars)"
@@ -833,7 +872,7 @@ msgstr "Mae'n ymddangos nad yw'r dudalen rydych yn chwilio amdani <0/>yn bodoli 
 msgid "Just now"
 msgstr "Nawr"
 
-#: src/features/help/contribute-dialog.tsx:380
+#: src/features/help/contribute-dialog.tsx:389
 msgid "Keep editing"
 msgstr "Parhau i olygu"
 
@@ -875,7 +914,7 @@ msgstr "Yn llwytho cynnwys…"
 
 #: ../../../lib/web/src/components/ui/load-more.tsx:35
 #: ../../../lib/web/src/features/document/document-page.tsx:90
-#: src/features/help/contribute-dialog.tsx:273
+#: src/features/help/contribute-dialog.tsx:282
 msgid "Loading..."
 msgstr "Yn llwytho..."
 
@@ -905,8 +944,8 @@ msgstr "Yn allgofnodi…"
 msgid "Manage your connected accounts for notifications and services."
 msgstr "Rheoli eich cyfrifon cysylltiedig ar gyfer hysbysiadau a gwasanaethau."
 
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:93
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:100
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:118
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:125
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:224
 msgid "Mark all as read"
 msgstr "Marcio'r cyfan fel wedi'u darllen"
@@ -922,6 +961,10 @@ msgstr "Canolig"
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx:173
 msgid "Menu"
 msgstr "Dewislen"
+
+#: ../../../lib/web/src/components/game/game-chat-input.tsx:35
+msgid "Message"
+msgstr "Neges"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:85
 msgid "Metric"
@@ -952,6 +995,11 @@ msgstr "Gwall rhwydwaith"
 msgid "New"
 msgstr "Newydd"
 
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:42
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:54
+msgid "New game"
+msgstr "Gêm newydd"
+
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:392
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:397
 msgid "Next image"
@@ -965,6 +1013,10 @@ msgstr "Dim rheolau mynediad wedi'u ffurfweddu. Ychwanegwch reolau i reoli pwy s
 msgid "No connected accounts"
 msgstr "Dim cyfrifon wedi'u cysylltu"
 
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:51
+msgid "No games yet"
+msgstr "Dim gemau eto"
+
 #: ../../../lib/web/src/features/access/access-dialog.tsx:241
 msgid "No groups available"
 msgstr "Dim grwpiau ar gael"
@@ -973,6 +1025,7 @@ msgstr "Dim grwpiau ar gael"
 msgid "No notifications yet"
 msgstr "Dim hysbysiadau eto"
 
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:336
 #: ../../../lib/web/src/components/person-picker.tsx:84
 msgid "No people found"
 msgstr "Heb ddod o hyd i bobl"
@@ -1035,7 +1088,7 @@ msgid "Notifications"
 msgstr "Hysbysiadau"
 
 #. placeholder {0}: unread.length
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:86
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:111
 msgid "Notifications: {0}"
 msgstr "Hysbysiadau: {0}"
 
@@ -1097,7 +1150,7 @@ msgstr "Pasallwedd"
 msgid "Passkey verification failed. Please try again."
 msgstr "Methodd dilysu'r allwedd mynediad. Rhowch gynnig arall arni."
 
-#: ../../../lib/web/src/components/restore-banner.tsx:135
+#: ../../../lib/web/src/components/restore-banner.tsx:152
 msgid "Passkeys"
 msgstr "Pasallweddi"
 
@@ -1116,9 +1169,9 @@ msgid "Please log in with the appropriate credentials <0/> to access this resour
 msgstr "Mewngofnodwch gyda'r manylion priodol <0/> i gael mynediad at yr adnodd hwn."
 
 #: ../../../lib/web/src/features/errors/general-error.tsx:83
-#: src/features/help/contribute-dialog.tsx:171
 #: src/features/help/contribute-dialog.tsx:180
-#: src/features/help/contribute-dialog.tsx:215
+#: src/features/help/contribute-dialog.tsx:189
+#: src/features/help/contribute-dialog.tsx:224
 msgid "Please try again."
 msgstr "Rhowch gynnig arall arni."
 
@@ -1126,19 +1179,19 @@ msgstr "Rhowch gynnig arall arni."
 msgid "Please wait a moment and try again."
 msgstr "Arhoswch funud a rhowch gynnig arall arni."
 
-#: src/features/help/contribute-dialog.tsx:80
+#: src/features/help/contribute-dialog.tsx:88
 msgid "Post introduction"
 msgstr "Postio cyflwyniad"
 
-#: src/features/help/contribute-dialog.tsx:91
+#: src/features/help/contribute-dialog.tsx:99
 msgid "Post question"
 msgstr "Postio cwestiwn"
 
-#: src/features/help/contribute-dialog.tsx:208
+#: src/features/help/contribute-dialog.tsx:217
 msgid "Posted"
 msgstr "Postiwyd"
 
-#: src/features/help/contribute-dialog.tsx:360
+#: src/features/help/contribute-dialog.tsx:369
 msgid "Posting…"
 msgstr "Yn postio…"
 
@@ -1170,7 +1223,7 @@ msgstr "Aelodau'r prosiect"
 msgid "Push notification"
 msgstr "Hysbysiad gwthio"
 
-#: src/features/help/contribute-dialog.tsx:87
+#: src/features/help/contribute-dialog.tsx:95
 msgid "Question"
 msgstr "Cwestiwn"
 
@@ -1178,11 +1231,11 @@ msgstr "Cwestiwn"
 msgid "Raised"
 msgstr "Wedi codi"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:107
+#: ../../../lib/web/src/components/restore-banner.tsx:124
 msgid "Re-link your accounts on this server"
 msgstr "Ail-gysylltwch eich cyfrifon ar y gweinydd hwn"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:129
+#: ../../../lib/web/src/components/restore-banner.tsx:146
 msgid "Re-register your passkeys on this server"
 msgstr "Ailgofrestrwch eich allweddi mynediad ar y gweinydd hwn"
 
@@ -1243,12 +1296,16 @@ msgstr "Tynnu mynediad?"
 msgid "Remove interest"
 msgstr "Tynnu diddordeb"
 
-#: src/features/help/contribute-dialog.tsx:96
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:671
+msgid "Remove item"
+msgstr "Tynnu eitem"
+
+#: src/features/help/contribute-dialog.tsx:104
 #: src/features/help/index.tsx:39
 msgid "Report a bug"
 msgstr "Riportio nam"
 
-#: src/features/help/contribute-dialog.tsx:102
+#: src/features/help/contribute-dialog.tsx:110
 msgid "Report bug"
 msgstr "Riportio nam"
 
@@ -1346,6 +1403,10 @@ msgstr "Yn chwilio..."
 msgid "Select {0}"
 msgstr "Dewis {0}"
 
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:37
+msgid "Select a game"
+msgstr "Dewiswch gêm"
+
 #: ../../../lib/web/src/features/access/access-dialog.tsx:150
 msgid "Select a user, group, or other rule to grant access."
 msgstr "Dewiswch ddefnyddiwr, grŵp, neu reol arall i roi mynediad."
@@ -1390,6 +1451,11 @@ msgstr "Dewis cyfeiriad y safle"
 msgid "Select theme preference"
 msgstr "Dewis dewis thema"
 
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:252
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:335
+msgid "Select..."
+msgstr "Dewis..."
+
 #: ../../../lib/web/src/components/data-table/bulk-actions.tsx:216
 msgid "selected"
 msgstr "wedi'u dewis"
@@ -1406,6 +1472,11 @@ msgstr "Anfon eto"
 #: ../../../lib/web/src/components/step-up-dialog.tsx:307
 msgid "Send email"
 msgstr "Anfon e-bost"
+
+#: ../../../lib/web/src/components/game/game-chat-input.tsx:52
+#: ../../../lib/web/src/components/game/game-chat-input.tsx:61
+msgid "Send message"
+msgstr "Anfon neges"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:145
 msgid "Serif"
@@ -1438,7 +1509,7 @@ msgstr "Gosod tarddiad a chyrchfan"
 msgid "Settings"
 msgstr "Gosodiadau"
 
-#: src/features/help/contribute-dialog.tsx:110
+#: src/features/help/contribute-dialog.tsx:118
 msgid "Short title for your idea"
 msgstr "Teitl byr ar gyfer eich syniad"
 
@@ -1486,7 +1557,7 @@ msgstr "Wedi sylwi ar rywbeth wedi torri? Cyflwynwch docyn bỳg ar brosiect dat
 msgid "Stay tuned though!"
 msgstr "Cadwch lygad serch hynny!"
 
-#: src/features/help/contribute-dialog.tsx:101
+#: src/features/help/contribute-dialog.tsx:109
 msgid "Steps to reproduce, what you expected, and what actually happened. Include your browser and device if relevant."
 msgstr "Camau i'w hailadrodd, beth oeddech yn ei ddisgwyl, a beth ddigwyddodd mewn gwirionedd. Cynhwyswch eich porwr a'ch dyfais os yw'n berthnasol."
 
@@ -1498,7 +1569,7 @@ msgstr "Yn sownd ar rywbeth? Gofynnwch i'r gymuned ar restr bostio defnyddwyr Mo
 msgid "Subject"
 msgstr "Pwnc"
 
-#: src/features/help/contribute-dialog.tsx:265
+#: src/features/help/contribute-dialog.tsx:274
 msgid "Submitted successfully"
 msgstr "Wedi'i gyflwyno'n llwyddiannus"
 
@@ -1507,17 +1578,17 @@ msgstr "Wedi'i gyflwyno'n llwyddiannus"
 msgid "Subscribe"
 msgstr "Tanysgrifio"
 
-#: src/features/help/contribute-dialog.tsx:107
+#: src/features/help/contribute-dialog.tsx:115
 #: src/features/help/index.tsx:45
 msgid "Suggest a new feature"
 msgstr "Awgrymu nodwedd newydd"
 
-#: src/features/help/contribute-dialog.tsx:113
+#: src/features/help/contribute-dialog.tsx:121
 msgid "Suggest feature"
 msgstr "Awgrymu nodwedd"
 
-#: src/features/help/contribute-dialog.tsx:98
-#: src/features/help/contribute-dialog.tsx:109
+#: src/features/help/contribute-dialog.tsx:106
+#: src/features/help/contribute-dialog.tsx:117
 msgid "Summary"
 msgstr "Crynodeb"
 
@@ -1549,7 +1620,7 @@ msgstr "Rhaid i'r tag fod yn 50 nod neu lai"
 msgid "Tags"
 msgstr "Tagiau"
 
-#: src/features/help/contribute-dialog.tsx:209
+#: src/features/help/contribute-dialog.tsx:218
 msgid "Taking you there now."
 msgstr "Yn mynd â chi yno nawr."
 
@@ -1557,7 +1628,7 @@ msgstr "Yn mynd â chi yno nawr."
 msgid "Teams/Apps"
 msgstr "Timau/Apiau"
 
-#: src/features/help/contribute-dialog.tsx:108
+#: src/features/help/contribute-dialog.tsx:116
 msgid "Tell the Mochi development team what you'd like Mochi to do."
 msgstr "Dywedwch wrth dîm datblygu Mochi beth yr hoffech i Mochi ei wneud."
 
@@ -1650,7 +1721,7 @@ msgstr "Ceisiwch addasu eich termau chwilio"
 #: ../../../lib/web/src/features/errors/general-error.tsx:140
 #: ../../../lib/web/src/features/errors/general-error.tsx:180
 #: ../../../lib/web/src/features/errors/maintenance-error.tsx:19
-#: src/features/help/contribute-dialog.tsx:294
+#: src/features/help/contribute-dialog.tsx:303
 msgid "Try again"
 msgstr "Rhoi cynnig arall"
 
@@ -1661,6 +1732,10 @@ msgstr "Dydd Mawrth"
 #: ../../../lib/web/src/components/command-menu.tsx:52
 msgid "Type a command or search..."
 msgstr "Teipiwch orchymyn neu chwilio..."
+
+#: ../../../lib/web/src/components/game/game-chat-input.tsx:39
+msgid "Type a message…"
+msgstr "Teipiwch neges…"
 
 #: ../../../lib/web/src/features/access/access-dialog.tsx:191
 msgid "Type to search users"
@@ -1756,8 +1831,8 @@ msgstr "Gweld"
 msgid "View all"
 msgstr "Gweld pob un"
 
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:106
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:114
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:131
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:139
 msgid "View all notifications"
 msgstr "Gweld pob hysbysiad"
 
@@ -1790,19 +1865,19 @@ msgstr "Dydd Mercher"
 msgid "Welcome to Mochi. Here's how to get started."
 msgstr "Croeso i Mochi. Dyma sut i ddechrau."
 
-#: src/features/help/contribute-dialog.tsx:100
+#: src/features/help/contribute-dialog.tsx:108
 msgid "What happened"
 msgstr "Beth ddigwyddodd"
 
-#: src/features/help/contribute-dialog.tsx:90
+#: src/features/help/contribute-dialog.tsx:98
 msgid "What have you tried, what did you expect, where are you stuck?"
 msgstr "Beth ydych chi wedi'i drio, beth roeddech yn ei ddisgwyl, ble ydych chi'n sownd?"
 
-#: src/features/help/contribute-dialog.tsx:112
+#: src/features/help/contribute-dialog.tsx:120
 msgid "What would it do, who is it for, why does it matter?"
 msgstr "Beth fyddai'n ei wneud, i bwy mae e, pam mae'n bwysig?"
 
-#: src/features/help/contribute-dialog.tsx:88
+#: src/features/help/contribute-dialog.tsx:96
 msgid "What you want to ask, in one line"
 msgstr "Beth rydych eisiau ei ofyn, mewn un llinell"
 
@@ -1822,7 +1897,7 @@ msgstr "Cyflwynoch chi'r gwerthoedd canlynol:"
 msgid "You're all caught up!"
 msgstr "Rydych wedi dal i fyny!"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:91
+#: ../../../lib/web/src/components/restore-banner.tsx:106
 msgid "Your account was moved here from {source}. Until you delete it there, messages and notifications may reach both servers, some of your content keeps being served from the old server, and followers may take a few minutes to find you here."
 msgstr "Symudwyd eich cyfrif yma o {source}. Hyd nes y byddwch yn ei ddileu yno, gall negeseuon a hysbysiadau gyrraedd y ddau weinydd, gall peth o'ch cynnwys barhau i gael ei weini o'r hen weinydd, a gall dilynwyr gymryd ychydig funudau i ddod o hyd i chi yma."
 
@@ -1830,11 +1905,11 @@ msgstr "Symudwyd eich cyfrif yma o {source}. Hyd nes y byddwch yn ei ddileu yno,
 msgid "Your attachments will be lost."
 msgstr "Bydd eich atodiadau'n cael eu colli."
 
-#: src/features/help/contribute-dialog.tsx:81
+#: src/features/help/contribute-dialog.tsx:89
 msgid "Your introduction has been submitted and will appear after moderation."
 msgstr "Mae eich cyflwyniad wedi'i anfon a bydd yn ymddangos ar ôl cymedroli."
 
-#: src/features/help/contribute-dialog.tsx:92
+#: src/features/help/contribute-dialog.tsx:100
 msgid "Your question has been submitted and will appear after moderation."
 msgstr "Mae eich cwestiwn wedi'i anfon a bydd yn ymddangos ar ôl cymedroli."
 
@@ -1843,6 +1918,6 @@ msgid "Your text and attachments will be lost."
 msgstr "Bydd eich testun a'ch atodiadau'n cael eu colli."
 
 #: ../../../lib/web/src/components/comment-composer.tsx:292
-#: src/features/help/contribute-dialog.tsx:379
+#: src/features/help/contribute-dialog.tsx:388
 msgid "Your text will be lost."
 msgstr "Bydd eich testun yn cael ei golli."

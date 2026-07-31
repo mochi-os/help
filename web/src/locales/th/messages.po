@@ -36,6 +36,10 @@ msgstr "ชื่อ {entityLabel}"
 msgid "{entityLabel} name is required"
 msgstr "ต้องระบุชื่อ{entityLabel}"
 
+#: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx:29
+msgid "{opponentName} offered a draw"
+msgstr "{opponentName} เสนอเสมอ"
+
 #: ../../../lib/web/src/components/data-table/bulk-actions.tsx:210
 msgid "{selectedCount, plural, one {{entityName} selected} other {{manyName} selected}}"
 msgstr "{selectedCount, plural, one {เลือก {entityName} แล้ว} other {เลือก {manyName} แล้ว}}"
@@ -60,6 +64,11 @@ msgstr "{sentLabel} จาก {totalLabel}"
 msgid "{unreadCount, plural, one {Open menu (# unread notification)} other {Open menu (# unread notifications)}}"
 msgstr "{unreadCount, plural, one {เปิดเมนู (การแจ้งเตือนที่ยังไม่ได้อ่าน # รายการ)} other {เปิดเมนู (การแจ้งเตือนที่ยังไม่ได้อ่าน # รายการ)}}"
 
+#. placeholder {0}: countDeepChildren(object.id)
+#: ../../../lib/web/src/components/entity/entity-board-card.tsx:421
+msgid "+{0} nested"
+msgstr "+{0} ที่ซ้อนกัน"
+
 #: ../../../lib/web/src/lib/preference-utils.ts:42
 msgid "12 hours"
 msgstr "12 ชั่วโมง"
@@ -71,6 +80,10 @@ msgstr "24 ชั่วโมง"
 #: ../../../lib/web/src/lib/preference-utils.ts:51
 msgid "Absolute (date and time)"
 msgstr "สัมบูรณ์ (วันที่และเวลา)"
+
+#: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx:45
+msgid "Accept"
+msgstr "ยอมรับ"
 
 #: ../../../lib/web/src/features/errors/general-error.tsx:60
 msgid "Access denied"
@@ -100,12 +113,13 @@ msgstr "ประเภทบัญชี"
 msgid "Account verified"
 msgstr "ยืนยันบัญชีแล้ว"
 
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:717
 #: ../../../lib/web/src/features/access/access-dialog.tsx:332
 #: ../../../lib/web/src/features/accounts/account-add.tsx:196
 msgid "Add"
 msgstr "เพิ่ม"
 
-#: src/features/help/contribute-dialog.tsx:326
+#: src/features/help/contribute-dialog.tsx:335
 msgid "Add a bit more detail."
 msgstr "เพิ่มรายละเอียดอีกสักหน่อย"
 
@@ -125,6 +139,14 @@ msgstr "เพิ่มบัญชี"
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:297
 msgid "Add an account to receive notifications and use services."
 msgstr "เพิ่มบัญชีเพื่อรับการแจ้งเตือนและใช้บริการ"
+
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:687
+msgid "Add checklist item"
+msgstr "เพิ่มรายการเช็คลิสต์"
+
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:705
+msgid "Add item..."
+msgstr "เพิ่มรายการ..."
 
 #: ../../../lib/web/src/features/accounts/account-picker.tsx:102
 msgid "Add new account"
@@ -202,12 +224,12 @@ msgstr "น้อยไปมาก"
 msgid "Ascending"
 msgstr "จากน้อยไปมาก"
 
-#: src/features/help/contribute-dialog.tsx:85
+#: src/features/help/contribute-dialog.tsx:93
 #: src/features/help/index.tsx:33
 msgid "Ask a question"
 msgstr "ถามคำถาม"
 
-#: src/features/help/contribute-dialog.tsx:86
+#: src/features/help/contribute-dialog.tsx:94
 msgid "Ask the community on the Mochi users mailing list. Be specific about what you've tried so far."
 msgstr "ถามชุมชนในเมลลิ่งลิสต์ผู้ใช้ Mochi โปรดระบุให้ชัดเจนว่าคุณได้ลองอะไรไปแล้วบ้าง"
 
@@ -242,12 +264,17 @@ msgstr "กลับไปหน้าหลัก"
 msgid "Banner"
 msgstr "แบนเนอร์"
 
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:156
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:166
+msgid "Blocked navigation to untrusted link"
+msgstr "บล็อกการนำทางไปยังลิงก์ที่ไม่น่าเชื่อถือ"
+
 #: ../../../lib/web/src/components/post-tags.tsx:180
 #: ../../../lib/web/src/components/post-tags.tsx:192
 msgid "Boost interest"
 msgstr "เพิ่มความสนใจ"
 
-#: src/features/help/contribute-dialog.tsx:99
+#: src/features/help/contribute-dialog.tsx:107
 msgid "Brief summary of the problem"
 msgstr "สรุปปัญหาโดยย่อ"
 
@@ -255,7 +282,7 @@ msgstr "สรุปปัญหาโดยย่อ"
 msgid "Browser notifications"
 msgstr "การแจ้งเตือนของเบราว์เซอร์"
 
-#: src/features/help/contribute-dialog.tsx:103
+#: src/features/help/contribute-dialog.tsx:111
 msgid "Bug report submitted."
 msgstr "ส่งรายงานข้อบกพร่องแล้ว"
 
@@ -268,7 +295,7 @@ msgstr "ส่งรายงานข้อบกพร่องแล้ว"
 #: ../../../lib/web/src/features/access/access-list.tsx:268
 #: ../../../lib/web/src/features/accounts/account-add.tsx:188
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:91
-#: src/features/help/contribute-dialog.tsx:354
+#: src/features/help/contribute-dialog.tsx:363
 msgid "Cancel"
 msgstr "ยกเลิก"
 
@@ -284,6 +311,10 @@ msgstr "เปลี่ยนหมวดหมู่การแจ้งเต
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:198
 msgid "Check \"All\" to see your past notifications."
 msgstr "เลือก \"ทั้งหมด\" เพื่อดูการแจ้งเตือนที่ผ่านมา"
+
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:38
+msgid "Choose a game from the sidebar or start a new one."
+msgstr "เลือกเกมจากแถบด้านข้างหรือเริ่มเกมใหม่"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:329
 msgid "Choose between default expanded, compact icon-only, or full layout mode"
@@ -341,7 +372,7 @@ msgstr "ล้างการเลือก (Escape)"
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:358
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:361
 #: ../../../lib/web/src/components/ui/sheet.tsx:79
-#: src/features/help/contribute-dialog.tsx:341
+#: src/features/help/contribute-dialog.tsx:350
 msgid "Close"
 msgstr "ปิด"
 
@@ -440,7 +471,7 @@ msgstr "คัดลอก"
 msgid "Could not load this document. Please try again later."
 msgstr "ไม่สามารถโหลดเอกสารนี้ได้ โปรดลองอีกครั้งในภายหลัง"
 
-#: src/features/help/contribute-dialog.tsx:282
+#: src/features/help/contribute-dialog.tsx:291
 msgid "Couldn't reach the destination yet"
 msgstr "ยังไม่สามารถส่งถึงปลายทางได้"
 
@@ -452,7 +483,7 @@ msgstr "ส่งรหัสไม่สำเร็จ โปรดลอง�
 msgid "Couldn't start re-authentication. Please try again."
 msgstr "เริ่มการยืนยันตัวตนอีกครั้งไม่สำเร็จ โปรดลองอีกครั้ง"
 
-#: src/features/help/contribute-dialog.tsx:214
+#: src/features/help/contribute-dialog.tsx:223
 msgid "Couldn't submit"
 msgstr "ส่งไม่สำเร็จ"
 
@@ -495,6 +526,10 @@ msgstr "โหมดมืด"
 msgid "Data conflict"
 msgstr "ข้อมูลขัดแย้งกัน"
 
+#: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx:41
+msgid "Decline"
+msgstr "ปฏิเสธ"
+
 #: ../../../lib/web/src/components/config-drawer.tsx:311
 msgid "Default"
 msgstr "ค่าเริ่มต้น"
@@ -503,7 +538,7 @@ msgstr "ค่าเริ่มต้น"
 msgid "Default AI account"
 msgstr "บัญชี AI เริ่มต้น"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:99
+#: ../../../lib/web/src/components/restore-banner.tsx:115
 msgid "Delete your account on the old server"
 msgstr "ลบบัญชีของคุณบนเซิร์ฟเวอร์เดิม"
 
@@ -515,7 +550,7 @@ msgstr "มากไปน้อย"
 msgid "Descending"
 msgstr "จากมากไปน้อย"
 
-#: src/features/help/contribute-dialog.tsx:97
+#: src/features/help/contribute-dialog.tsx:105
 msgid "Describe what went wrong. The Mochi development team will see it on the Mochi development project."
 msgstr "อธิบายว่าเกิดอะไรขึ้น ทีมพัฒนา Mochi จะเห็นในโปรเจกต์พัฒนา Mochi"
 
@@ -523,8 +558,8 @@ msgstr "อธิบายว่าเกิดอะไรขึ้น ที�
 msgid "Description"
 msgstr "คำอธิบาย"
 
-#: src/features/help/contribute-dialog.tsx:89
-#: src/features/help/contribute-dialog.tsx:111
+#: src/features/help/contribute-dialog.tsx:97
+#: src/features/help/contribute-dialog.tsx:119
 msgid "Details"
 msgstr "รายละเอียด"
 
@@ -552,12 +587,12 @@ msgid "Directory"
 msgstr "ไดเรกทอรี"
 
 #: ../../../lib/web/src/components/comment-composer.tsx:300
-#: src/features/help/contribute-dialog.tsx:381
+#: src/features/help/contribute-dialog.tsx:390
 msgid "Discard"
 msgstr "ยกเลิก"
 
 #: ../../../lib/web/src/components/comment-composer.tsx:298
-#: src/features/help/contribute-dialog.tsx:378
+#: src/features/help/contribute-dialog.tsx:387
 msgid "Discard draft?"
 msgstr "ยกเลิกฉบับร่างใช่ไหม?"
 
@@ -566,8 +601,8 @@ msgstr "ยกเลิกฉบับร่างใช่ไหม?"
 msgid "Disconnected"
 msgstr "ตัดการเชื่อมต่อแล้ว"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:79
-#: ../../../lib/web/src/components/restore-banner.tsx:85
+#: ../../../lib/web/src/components/restore-banner.tsx:94
+#: ../../../lib/web/src/components/restore-banner.tsx:100
 msgid "Dismiss"
 msgstr "ปิด"
 
@@ -664,7 +699,7 @@ msgstr "ไม่สามารถส่งรหัสยืนยันได
 msgid "Failed to update category"
 msgstr "ไม่สามารถอัปเดตหมวดหมู่ได้"
 
-#: src/features/help/contribute-dialog.tsx:114
+#: src/features/help/contribute-dialog.tsx:122
 msgid "Feature request submitted."
 msgstr "ส่งคำขอฟีเจอร์แล้ว"
 
@@ -672,7 +707,7 @@ msgstr "ส่งคำขอฟีเจอร์แล้ว"
 msgid "Filter..."
 msgstr "กรอง..."
 
-#: ../../../lib/web/src/components/restore-banner.tsx:88
+#: ../../../lib/web/src/components/restore-banner.tsx:103
 msgid "Finish moving your account"
 msgstr "เสร็จสิ้นการย้ายบัญชี"
 
@@ -719,7 +754,7 @@ msgstr "กลับ"
 msgid "Go to first page"
 msgstr "ไปหน้าแรก"
 
-#: src/features/help/contribute-dialog.tsx:346
+#: src/features/help/contribute-dialog.tsx:355
 msgid "Go to forum"
 msgstr "ไปที่ฟอรัม"
 
@@ -760,7 +795,7 @@ msgstr "กลุ่ม: {0}"
 msgid "Help"
 msgstr "ช่วยเหลือ"
 
-#: src/features/help/contribute-dialog.tsx:79
+#: src/features/help/contribute-dialog.tsx:87
 msgid "Hi, I'm…"
 msgstr "สวัสดี ฉันชื่อ…"
 
@@ -812,10 +847,14 @@ msgstr "ฝังเข้าด้านใน"
 msgid "Interests"
 msgstr "ความสนใจ"
 
-#: src/features/help/contribute-dialog.tsx:78
+#: src/features/help/contribute-dialog.tsx:86
 #: src/features/help/index.tsx:27
 msgid "Introduce yourself"
 msgstr "แนะนำตัว"
+
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:550
+msgid "Invalid date"
+msgstr "วันที่ไม่ถูกต้อง"
 
 #: ../../../lib/web/src/components/tag-input.tsx:38
 msgid "Invalid tag: letters, numbers, spaces, hyphens, and slashes only (max 50 chars)"
@@ -833,7 +872,7 @@ msgstr "ดูเหมือนว่าหน้าที่คุณกำล
 msgid "Just now"
 msgstr "เมื่อสักครู่"
 
-#: src/features/help/contribute-dialog.tsx:380
+#: src/features/help/contribute-dialog.tsx:389
 msgid "Keep editing"
 msgstr "แก้ไขต่อ"
 
@@ -875,7 +914,7 @@ msgstr "กำลังโหลดเนื้อหา…"
 
 #: ../../../lib/web/src/components/ui/load-more.tsx:35
 #: ../../../lib/web/src/features/document/document-page.tsx:90
-#: src/features/help/contribute-dialog.tsx:273
+#: src/features/help/contribute-dialog.tsx:282
 msgid "Loading..."
 msgstr "กำลังโหลด..."
 
@@ -905,8 +944,8 @@ msgstr "กำลังออกจากระบบ…"
 msgid "Manage your connected accounts for notifications and services."
 msgstr "จัดการบัญชีที่เชื่อมต่อของคุณสำหรับการแจ้งเตือนและบริการ"
 
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:93
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:100
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:118
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:125
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:224
 msgid "Mark all as read"
 msgstr "ทำเครื่องหมายว่าอ่านแล้วทั้งหมด"
@@ -922,6 +961,10 @@ msgstr "กลาง"
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx:173
 msgid "Menu"
 msgstr "เมนู"
+
+#: ../../../lib/web/src/components/game/game-chat-input.tsx:35
+msgid "Message"
+msgstr "ข้อความ"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:85
 msgid "Metric"
@@ -952,6 +995,11 @@ msgstr "ข้อผิดพลาดของเครือข่าย"
 msgid "New"
 msgstr "ใหม่"
 
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:42
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:54
+msgid "New game"
+msgstr "เกมใหม่"
+
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:392
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:397
 msgid "Next image"
@@ -965,6 +1013,10 @@ msgstr "ยังไม่ได้ตั้งกฎการเข้าถึ
 msgid "No connected accounts"
 msgstr "ไม่มีบัญชีที่เชื่อมต่อ"
 
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:51
+msgid "No games yet"
+msgstr "ยังไม่มีเกม"
+
 #: ../../../lib/web/src/features/access/access-dialog.tsx:241
 msgid "No groups available"
 msgstr "ไม่มีกลุ่มที่ใช้งานได้"
@@ -973,6 +1025,7 @@ msgstr "ไม่มีกลุ่มที่ใช้งานได้"
 msgid "No notifications yet"
 msgstr "ยังไม่มีการแจ้งเตือน"
 
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:336
 #: ../../../lib/web/src/components/person-picker.tsx:84
 msgid "No people found"
 msgstr "ไม่พบผู้คน"
@@ -1035,7 +1088,7 @@ msgid "Notifications"
 msgstr "การแจ้งเตือน"
 
 #. placeholder {0}: unread.length
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:86
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:111
 msgid "Notifications: {0}"
 msgstr "การแจ้งเตือน: {0}"
 
@@ -1097,7 +1150,7 @@ msgstr "พาสคีย์"
 msgid "Passkey verification failed. Please try again."
 msgstr "การยืนยันด้วยพาสคีย์ล้มเหลว โปรดลองอีกครั้ง"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:135
+#: ../../../lib/web/src/components/restore-banner.tsx:152
 msgid "Passkeys"
 msgstr "พาสคีย์"
 
@@ -1116,9 +1169,9 @@ msgid "Please log in with the appropriate credentials <0/> to access this resour
 msgstr "โปรดเข้าสู่ระบบด้วยข้อมูลรับรองที่เหมาะสม <0/> เพื่อเข้าถึงทรัพยากรนี้"
 
 #: ../../../lib/web/src/features/errors/general-error.tsx:83
-#: src/features/help/contribute-dialog.tsx:171
 #: src/features/help/contribute-dialog.tsx:180
-#: src/features/help/contribute-dialog.tsx:215
+#: src/features/help/contribute-dialog.tsx:189
+#: src/features/help/contribute-dialog.tsx:224
 msgid "Please try again."
 msgstr "โปรดลองอีกครั้ง"
 
@@ -1126,19 +1179,19 @@ msgstr "โปรดลองอีกครั้ง"
 msgid "Please wait a moment and try again."
 msgstr "โปรดรอสักครู่แล้วลองอีกครั้ง"
 
-#: src/features/help/contribute-dialog.tsx:80
+#: src/features/help/contribute-dialog.tsx:88
 msgid "Post introduction"
 msgstr "โพสต์แนะนำตัว"
 
-#: src/features/help/contribute-dialog.tsx:91
+#: src/features/help/contribute-dialog.tsx:99
 msgid "Post question"
 msgstr "โพสต์คำถาม"
 
-#: src/features/help/contribute-dialog.tsx:208
+#: src/features/help/contribute-dialog.tsx:217
 msgid "Posted"
 msgstr "โพสต์แล้ว"
 
-#: src/features/help/contribute-dialog.tsx:360
+#: src/features/help/contribute-dialog.tsx:369
 msgid "Posting…"
 msgstr "กำลังโพสต์…"
 
@@ -1170,7 +1223,7 @@ msgstr "สมาชิกโครงการ"
 msgid "Push notification"
 msgstr "การแจ้งเตือนแบบพุช"
 
-#: src/features/help/contribute-dialog.tsx:87
+#: src/features/help/contribute-dialog.tsx:95
 msgid "Question"
 msgstr "คำถาม"
 
@@ -1178,11 +1231,11 @@ msgstr "คำถาม"
 msgid "Raised"
 msgstr "ยกขึ้น"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:107
+#: ../../../lib/web/src/components/restore-banner.tsx:124
 msgid "Re-link your accounts on this server"
 msgstr "เชื่อมโยงบัญชีของคุณใหม่บนเซิร์ฟเวอร์นี้"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:129
+#: ../../../lib/web/src/components/restore-banner.tsx:146
 msgid "Re-register your passkeys on this server"
 msgstr "ลงทะเบียนพาสคีย์ของคุณใหม่บนเซิร์ฟเวอร์นี้"
 
@@ -1243,12 +1296,16 @@ msgstr "ลบสิทธิ์การเข้าถึง?"
 msgid "Remove interest"
 msgstr "ลบความสนใจ"
 
-#: src/features/help/contribute-dialog.tsx:96
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:671
+msgid "Remove item"
+msgstr "ลบรายการ"
+
+#: src/features/help/contribute-dialog.tsx:104
 #: src/features/help/index.tsx:39
 msgid "Report a bug"
 msgstr "รายงานบั๊ก"
 
-#: src/features/help/contribute-dialog.tsx:102
+#: src/features/help/contribute-dialog.tsx:110
 msgid "Report bug"
 msgstr "รายงานบั๊ก"
 
@@ -1346,6 +1403,10 @@ msgstr "กำลังค้นหา..."
 msgid "Select {0}"
 msgstr "เลือก{0}"
 
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:37
+msgid "Select a game"
+msgstr "เลือกเกม"
+
 #: ../../../lib/web/src/features/access/access-dialog.tsx:150
 msgid "Select a user, group, or other rule to grant access."
 msgstr "เลือกผู้ใช้ กลุ่ม หรือกฎอื่นเพื่อให้สิทธิ์การเข้าถึง"
@@ -1390,6 +1451,11 @@ msgstr "เลือกทิศทางไซต์"
 msgid "Select theme preference"
 msgstr "เลือกการตั้งค่าธีม"
 
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:252
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:335
+msgid "Select..."
+msgstr "เลือก..."
+
 #: ../../../lib/web/src/components/data-table/bulk-actions.tsx:216
 msgid "selected"
 msgstr "ที่เลือก"
@@ -1406,6 +1472,11 @@ msgstr "ส่งอีกครั้ง"
 #: ../../../lib/web/src/components/step-up-dialog.tsx:307
 msgid "Send email"
 msgstr "ส่งอีเมล"
+
+#: ../../../lib/web/src/components/game/game-chat-input.tsx:52
+#: ../../../lib/web/src/components/game/game-chat-input.tsx:61
+msgid "Send message"
+msgstr "ส่งข้อความ"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:145
 msgid "Serif"
@@ -1438,7 +1509,7 @@ msgstr "ตั้งค่าต้นทางและปลายทาง"
 msgid "Settings"
 msgstr "การตั้งค่า"
 
-#: src/features/help/contribute-dialog.tsx:110
+#: src/features/help/contribute-dialog.tsx:118
 msgid "Short title for your idea"
 msgstr "หัวข้อสั้น ๆ สำหรับไอเดียของคุณ"
 
@@ -1486,7 +1557,7 @@ msgstr "เจอบางอย่างที่ใช้ไม่ได้? �
 msgid "Stay tuned though!"
 msgstr "โปรดรอติดตาม!"
 
-#: src/features/help/contribute-dialog.tsx:101
+#: src/features/help/contribute-dialog.tsx:109
 msgid "Steps to reproduce, what you expected, and what actually happened. Include your browser and device if relevant."
 msgstr "ขั้นตอนที่ทำให้เกิดซ้ำ สิ่งที่คุณคาดหวัง และสิ่งที่เกิดขึ้นจริง ระบุเบราว์เซอร์และอุปกรณ์ของคุณด้วยหากเกี่ยวข้อง"
 
@@ -1498,7 +1569,7 @@ msgstr "ติดปัญหาอยู่ใช่ไหม? ถามชุ�
 msgid "Subject"
 msgstr "หัวเรื่อง"
 
-#: src/features/help/contribute-dialog.tsx:265
+#: src/features/help/contribute-dialog.tsx:274
 msgid "Submitted successfully"
 msgstr "ส่งสำเร็จแล้ว"
 
@@ -1507,17 +1578,17 @@ msgstr "ส่งสำเร็จแล้ว"
 msgid "Subscribe"
 msgstr "ติดตาม"
 
-#: src/features/help/contribute-dialog.tsx:107
+#: src/features/help/contribute-dialog.tsx:115
 #: src/features/help/index.tsx:45
 msgid "Suggest a new feature"
 msgstr "เสนอฟีเจอร์ใหม่"
 
-#: src/features/help/contribute-dialog.tsx:113
+#: src/features/help/contribute-dialog.tsx:121
 msgid "Suggest feature"
 msgstr "เสนอฟีเจอร์"
 
-#: src/features/help/contribute-dialog.tsx:98
-#: src/features/help/contribute-dialog.tsx:109
+#: src/features/help/contribute-dialog.tsx:106
+#: src/features/help/contribute-dialog.tsx:117
 msgid "Summary"
 msgstr "สรุป"
 
@@ -1549,7 +1620,7 @@ msgstr "แท็กต้องมีไม่เกิน 50 อักขร�
 msgid "Tags"
 msgstr "แท็ก"
 
-#: src/features/help/contribute-dialog.tsx:209
+#: src/features/help/contribute-dialog.tsx:218
 msgid "Taking you there now."
 msgstr "กำลังพาคุณไปแล้ว"
 
@@ -1557,7 +1628,7 @@ msgstr "กำลังพาคุณไปแล้ว"
 msgid "Teams/Apps"
 msgstr "ทีม/แอป"
 
-#: src/features/help/contribute-dialog.tsx:108
+#: src/features/help/contribute-dialog.tsx:116
 msgid "Tell the Mochi development team what you'd like Mochi to do."
 msgstr "บอกทีมพัฒนา Mochi ว่าคุณอยากให้ Mochi ทำอะไร"
 
@@ -1650,7 +1721,7 @@ msgstr "ลองปรับคำค้นหาของคุณ"
 #: ../../../lib/web/src/features/errors/general-error.tsx:140
 #: ../../../lib/web/src/features/errors/general-error.tsx:180
 #: ../../../lib/web/src/features/errors/maintenance-error.tsx:19
-#: src/features/help/contribute-dialog.tsx:294
+#: src/features/help/contribute-dialog.tsx:303
 msgid "Try again"
 msgstr "ลองอีกครั้ง"
 
@@ -1661,6 +1732,10 @@ msgstr "วันอังคาร"
 #: ../../../lib/web/src/components/command-menu.tsx:52
 msgid "Type a command or search..."
 msgstr "พิมพ์คำสั่งหรือค้นหา..."
+
+#: ../../../lib/web/src/components/game/game-chat-input.tsx:39
+msgid "Type a message…"
+msgstr "พิมพ์ข้อความ…"
 
 #: ../../../lib/web/src/features/access/access-dialog.tsx:191
 msgid "Type to search users"
@@ -1756,8 +1831,8 @@ msgstr "ดู"
 msgid "View all"
 msgstr "ดูทั้งหมด"
 
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:106
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:114
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:131
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:139
 msgid "View all notifications"
 msgstr "ดูการแจ้งเตือนทั้งหมด"
 
@@ -1790,19 +1865,19 @@ msgstr "วันพุธ"
 msgid "Welcome to Mochi. Here's how to get started."
 msgstr "ยินดีต้อนรับสู่ Mochi นี่คือวิธีเริ่มต้น"
 
-#: src/features/help/contribute-dialog.tsx:100
+#: src/features/help/contribute-dialog.tsx:108
 msgid "What happened"
 msgstr "เกิดอะไรขึ้น"
 
-#: src/features/help/contribute-dialog.tsx:90
+#: src/features/help/contribute-dialog.tsx:98
 msgid "What have you tried, what did you expect, where are you stuck?"
 msgstr "คุณลองอะไรมาแล้ว คาดหวังอะไร และติดตรงไหน?"
 
-#: src/features/help/contribute-dialog.tsx:112
+#: src/features/help/contribute-dialog.tsx:120
 msgid "What would it do, who is it for, why does it matter?"
 msgstr "มันจะทำอะไร เพื่อใคร และทำไมจึงสำคัญ?"
 
-#: src/features/help/contribute-dialog.tsx:88
+#: src/features/help/contribute-dialog.tsx:96
 msgid "What you want to ask, in one line"
 msgstr "สิ่งที่คุณอยากถาม ในบรรทัดเดียว"
 
@@ -1822,7 +1897,7 @@ msgstr "คุณส่งค่าต่อไปนี้:"
 msgid "You're all caught up!"
 msgstr "คุณดูครบแล้ว!"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:91
+#: ../../../lib/web/src/components/restore-banner.tsx:106
 msgid "Your account was moved here from {source}. Until you delete it there, messages and notifications may reach both servers, some of your content keeps being served from the old server, and followers may take a few minutes to find you here."
 msgstr "บัญชีของคุณถูกย้ายมาที่นี่จาก {source} จนกว่าคุณจะลบออกที่นั่น ข้อความและการแจ้งเตือนอาจไปถึงทั้งสองเซิร์ฟเวอร์ เนื้อหาบางส่วนของคุณยังคงให้บริการจากเซิร์ฟเวอร์เดิม และผู้ติดตามอาจต้องใช้เวลาสักครู่เพื่อพบคุณที่นี่"
 
@@ -1830,11 +1905,11 @@ msgstr "บัญชีของคุณถูกย้ายมาที่น
 msgid "Your attachments will be lost."
 msgstr "ไฟล์แนบของคุณจะหายไป"
 
-#: src/features/help/contribute-dialog.tsx:81
+#: src/features/help/contribute-dialog.tsx:89
 msgid "Your introduction has been submitted and will appear after moderation."
 msgstr "ส่งคำแนะนำตัวของคุณแล้ว และจะปรากฏหลังการตรวจสอบ"
 
-#: src/features/help/contribute-dialog.tsx:92
+#: src/features/help/contribute-dialog.tsx:100
 msgid "Your question has been submitted and will appear after moderation."
 msgstr "ส่งคำถามของคุณแล้ว และจะปรากฏหลังการตรวจสอบ"
 
@@ -1843,6 +1918,6 @@ msgid "Your text and attachments will be lost."
 msgstr "ข้อความและไฟล์แนบของคุณจะหายไป"
 
 #: ../../../lib/web/src/components/comment-composer.tsx:292
-#: src/features/help/contribute-dialog.tsx:379
+#: src/features/help/contribute-dialog.tsx:388
 msgid "Your text will be lost."
 msgstr "ข้อความของคุณจะหายไป"
