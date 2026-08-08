@@ -24,8 +24,8 @@
 		"-/prepare": {"function": "action_prepare"},
 		"-/contribute": {"function": "action_contribute"},
 		"-/document/get": {"function": "action_document_get", "public": true},
-		"document/rules": {"file": "web/dist/index.html"},
-		"document/terms": {"file": "web/dist/index.html"},
-		"document/privacy": {"file": "web/dist/index.html"}
+		"document/rules": {"file": "web/dist/index.html", "public": true},
+		"document/terms": {"file": "web/dist/index.html", "public": true},
+		"document/privacy": {"file": "web/dist/index.html", "public": true}
 	}
 }
