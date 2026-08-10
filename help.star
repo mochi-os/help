@@ -4,9 +4,8 @@
 # This file is part of Mochi, licensed under the GNU AGPL v3 with the
 # Mochi Application Interface Exception - see license.txt and license-exception.md.
 
-# Fallback entity IDs used when no server setting overrides them.
-# On a self-hosted instance, configure help_users_forum and help_dev_project
-# in Settings (Admin → Settings) to point at local forum/project entities.
+# Destination entities for help submissions. A self-hosted instance that wants
+# its own forum and project edits these.
 USERS_FORUM = "126YM4PAEioT47rkAionhLKowZw6kWugijf9AAF6jFtxwRbo1Mo"
 DEV_PROJECT = "1KEog9eeM2F4VFkz76FCSgKo8nf7ENyoX3aRjUKzL9wfDsDRSE"
 
@@ -233,8 +232,8 @@ def action_contribute(a):
 	return {"data": {"redirect": redirect}}
 
 def _target_for_kind(kind):
-	users_forum = mochi.setting.get("help_users_forum") or USERS_FORUM
-	dev_project = mochi.setting.get("help_dev_project") or DEV_PROJECT
+	users_forum = USERS_FORUM
+	dev_project = DEV_PROJECT
 	if kind in ("intro", "question"):
 		if not users_forum:
 			return None
