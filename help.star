@@ -6,8 +6,8 @@
 
 # Destination entities for help submissions. A self-hosted instance that wants
 # its own forum and project edits these.
-USERS_FORUM = "126YM4PAEioT47rkAionhLKowZw6kWugijf9AAF6jFtxwRbo1Mo"
-DEV_PROJECT = "1KEog9eeM2F4VFkz76FCSgKo8nf7ENyoX3aRjUKzL9wfDsDRSE"
+USERS_FORUM = "12tnp9sacfPZq6DE8dsgHM4kLsosFEwCUPqWuJmuJuEkdjwXm5z"
+DEV_PROJECT = "1MwcNqrNbsayEbZDAvVEN6gzEhfLyY8tvV8Mowjo9nn3tkLoKU"
 
 # The Mochi development project uses one ticket class with a `category`
 # field whose options include `bug` and `feature`. Help posts a ticket in
