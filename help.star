@@ -9,9 +9,8 @@
 USERS_FORUM = "12tnp9sacfPZq6DE8dsgHM4kLsosFEwCUPqWuJmuJuEkdjwXm5z"
 DEV_PROJECT = "1MwcNqrNbsayEbZDAvVEN6gzEhfLyY8tvV8Mowjo9nn3tkLoKU"
 
-# The Mochi development project uses one ticket class with a `category`
-# field whose options include `bug` and `feature`. Help posts a ticket in
-# that class and sets the category to mark it as a bug or feature request.
+# The development project's ticket class; its `category` field takes `bug` or
+# `feature`.
 DEV_TICKET_CLASS = "ticket"
 
 VALID_KINDS = ["intro", "question", "bug", "feature"]
@@ -34,11 +33,8 @@ def action_visit(a):
 		a.user.preference.set("help.visited", "true")
 	return {"data": {"visited": True}}
 
-# Serve one of the server-level documents (rules / terms / privacy) so the
-# footer in help's SPA can render them without linking cross-app to /settings/
-# (CLAUDE.md: an app must call its own actions for the data it displays).
-# Uses a.json() rather than `return {"data": …}` because DocumentPage in
-# lib/web reads `res.data.html` directly without unwrapping a data envelope.
+# Serve a server document for the SPA footer. Uses a.json() rather than a data
+# envelope: DocumentPage in lib/web reads `res.data.html` directly.
 def action_document_get(a):
 	name = a.input("name", "")
 	if name not in ("rules", "terms", "privacy"):
@@ -65,11 +61,8 @@ def action_prepare(a):
 			"message": mochi.app.label("errors.help_not_configured"),
 		}}
 
-	# app/check is read-only: it verifies the destination exists, its owner is
-	# reachable, and the user may post there, without subscribing — the
-	# subscription happens on submission (the app/post and app/object/create
-	# handlers subscribe first as an idempotent safety net), so a user who
-	# opens a dialog and cancels leaves no trace.
+	# app/check is read-only: the subscription happens on submission, so a
+	# cancelled dialog leaves no trace.
 	result = mochi.remote.request(
 		a.user.identity.id,
 		target["service"],
@@ -141,12 +134,8 @@ def action_contribute(a):
 
 	if kind in ("intro", "question"):
 		event = "app/post"
-		# Mint the post id here so the forum-side handler dedups
-		# correctly under any future multi-host fan-out (today the
-		# call uses mochi.remote.request which is single-fire, so
-		# the id is a single source). Convention from the cross-app
-		# event-atomicity audit (task #43): callers carry event
-		# identity, receivers never mint.
+		# Callers mint the post id; receivers never do, so a retried or fanned-out
+		# delivery dedups.
 		payload = {
 			"id": mochi.uid(),
 			"forum": target["entity_id"],
@@ -193,37 +182,25 @@ def action_contribute(a):
 	if fingerprint and not mochi.text.valid(fingerprint, "fingerprint"):
 		fingerprint = ""
 
-	# Project tickets must have a valid fingerprint to build the redirect URL
-	# (the ticket page won't load without it). Forum posts (intro/question)
-	# show an in-app success state in the client so the redirect is only used
-	# for the optional "Go to forum" link — fall back to the forum root if
-	# the fingerprint is missing or invalid.
+	# Tickets need the fingerprint for their redirect; forum posts only use it for
+	# the optional "Go to forum" link, so fall back to the forum root.
 	if kind in ("bug", "feature"):
 		if not fingerprint:
 			a.error.label(502, "errors.no_fingerprint_returned")
 			return
-		# An empty comment id means the ticket was created but its description
-		# did not attach (projects event_app_object_create reports partial
-		# landings this way). Unreachable from help's own validation today —
-		# both sides share the same length limits — so log rather than alarm
-		# the user about a ticket that exists.
+		# An empty comment id means the ticket landed without its description; log it
+		# rather than fail a ticket that exists.
 		if not result.get("comment"):
 			mochi.log.debug("help: ticket " + result.get("id", "") + " created without its description comment")
 
-	# SPA URLs use /<app>/<fingerprint>/<id> — bare; `/<app>/<fingerprint>/-/<id>`
-	# is the JSON action route and would render raw JSON in the browser.
-	# Forum posts land on the forum page (pending-moderation posts can't be
-	# read by the author until approved, so the post page is a dead end);
-	# project tickets land on the ticket itself (they're visible immediately).
+	# SPA URLs are /<app>/<fingerprint>/<id> (the -/ form is the JSON route). Forum
+	# posts land on the forum: a pending-moderation post page is unreadable by its
+	# author.
 	if target["service"] == "forums":
 		redirect = ("/forums/" + fingerprint + "/") if fingerprint else "/forums/"
 	else:
-		# Defence-in-depth: the project owner is hardcoded to a trusted
-		# entity, but we still validate the returned object id before
-		# substituting it into a URL — a malformed value would render an
-		# unloadable page; an attacker-controlled value (if the trust
-		# boundary ever moves) could embed path traversal or query-string
-		# noise. Fall back to the project root when invalid.
+		# Validate the returned object id before placing it in a URL; fall back to the
+		# project root.
 		obj_id = result.get("id", "") if result else ""
 		if obj_id and not mochi.text.valid(obj_id, "id"):
 			obj_id = ""
@@ -254,11 +231,9 @@ def _intro_title(user):
 # remote-supplied text through to the user-facing error body.
 def _surface_remote_error(a, result):
 	code = result.get("code", 502)
-	# The code is remote-supplied — forwarded from the destination owner's
-	# reply — so clamp it to the error range: a hostile or buggy destination
-	# must not make help answer with a success or redirect status, or abort
-	# a.error.label with a non-integer. Floats survive JSON decoding of
-	# integer values, so accept and truncate them first.
+	# The code is remote-supplied: clamp it to 4xx/5xx so a destination cannot make
+	# help answer with a success or redirect. JSON decoding yields floats for
+	# integers, so truncate first.
 	if type(code) == "float":
 		code = int(code)
 	if type(code) != "int" or code < 400 or code > 599:

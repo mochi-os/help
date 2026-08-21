@@ -28,11 +28,8 @@ import {
 import { ArrowRight, Bug, CheckCircle, CircleAlert, HelpCircle, Lightbulb, Loader2, Sparkles, X } from 'lucide-react'
 import { helpApi, type Kind } from '@/api/help'
 
-// Mirrors BODY_MAX / BODY_MIN / TITLE_MAX in help.star. The server (and the
-// forums/projects handlers behind it) measures UTF-8 bytes — Starlark len() —
-// so the client must too: JavaScript .length counts UTF-16 code units, which
-// undercounts CJK text threefold and would let the counter promise room the
-// server refuses.
+// Mirrors BODY_MAX / BODY_MIN / TITLE_MAX in help.star. The server measures
+// UTF-8 bytes, so count bytes here too - .length counts UTF-16 code units.
 const BODY_MAX = 50000
 const BODY_MIN = 20
 const TITLE_MAX = 500
