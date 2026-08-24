@@ -2580,7 +2580,7 @@ msgstr "ვებსაიტი ტექმომსახურებაშ�
 
 #: ../../../lib/web/src/lib/preference-utils.ts:61
 msgid "Wednesday"
-msgstr "ვებსაიტი ტექმომსახურებაშია!"
+msgstr "ოთხშაბათი"
 
 #: src/features/help/index.tsx:70
 msgid "Welcome to Mochi. Here's how to get started."
