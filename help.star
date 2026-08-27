@@ -69,9 +69,20 @@ def action_prepare(a):
 		"app/check",
 		{target["entity_field"]: target["entity_id"]},
 	)
+	# mochi.remote.request returns the far end's decoded JSON as-is, so a
+	# destination answering with an array or a bare string yields a truthy
+	# non-dict and every .get below aborts the action - a 500 instead of the
+	# inline message this handler exists to produce. Only core's own failure
+	# paths are guaranteed dicts.
+	if type(result) != "dict":
+		return {"data": {
+			"available": False,
+			"message": mochi.app.label("errors.remote_failed"),
+		}}
+
 	# Return availability information instead of throwing so the dialog can
 	# explain problems inline before the user spends time writing a full post.
-	if result and result.get("error"):
+	if result.get("error"):
 		code = result.get("code", 502)
 		message = (
 			mochi.app.label("errors.service_unavailable")
@@ -81,12 +92,6 @@ def action_prepare(a):
 		return {"data": {
 			"available": False,
 			"message": message,
-		}}
-
-	if not result:
-		return {"data": {
-			"available": False,
-			"message": mochi.app.label("errors.remote_failed"),
 		}}
 
 	# Whitelist only the fields the dialog consumes rather than spreading the
@@ -162,7 +167,13 @@ def action_contribute(a):
 		event,
 		payload,
 	)
-	if result and result.get("error"):
+	# Same as action_prepare: the response is the far end's decoded JSON, and a
+	# non-dict makes every .get below abort rather than refuse cleanly.
+	if type(result) != "dict":
+		a.error.label(502, "errors.remote_failed")
+		return
+
+	if result.get("error"):
 		code = result.get("code", 502)
 		# Surface timeout/connectivity failures as 503 with a specific label so
 		# the frontend can show "service unavailable" rather than a generic error.
@@ -172,12 +183,7 @@ def action_contribute(a):
 		_surface_remote_error(a, result)
 		return
 
-	# If the remote call returned nothing at all, treat as a hard failure.
-	if not result:
-		a.error.label(502, "errors.remote_failed")
-		return
-
-	fingerprint = result.get("fingerprint") if result else ""
+	fingerprint = result.get("fingerprint")
 	# Validate the fingerprint when present.
 	if fingerprint and not mochi.text.valid(fingerprint, "fingerprint"):
 		fingerprint = ""
@@ -201,7 +207,7 @@ def action_contribute(a):
 	else:
 		# Validate the returned object id before placing it in a URL; fall back to the
 		# project root.
-		obj_id = result.get("id", "") if result else ""
+		obj_id = result.get("id", "")
 		if obj_id and not mochi.text.valid(obj_id, "id"):
 			obj_id = ""
 		redirect = "/projects/" + fingerprint + "/" + obj_id
@@ -225,10 +231,31 @@ def _intro_title(user):
 	name = user.identity.name or mochi.app.label("titles.someone")
 	return mochi.app.label("titles.intro", name=name)
 
-# Translate remote error keys (e.g. "errors.invalid_id") through the app's
-# label catalog before surfacing to the user. Non-prefixed remote errors are
-# replaced with a generic translated message — we don't pass arbitrary
-# remote-supplied text through to the user-facing error body.
+# Which label key to show for a remote failure, or the generic one.
+#
+# The prefix test alone did not do what the old comment claimed. resolve_label
+# returns the key ITSELF when this app's catalogue has no entry, so any string
+# beginning "errors." was echoed to the user unchanged - and the destinations
+# send keys from their own namespaces, most of which are not in ours, so raw
+# tokens like "errors.object_not_found" were reaching the browser in ordinary
+# operation, not just under a hostile peer.
+#
+# Three gates. The type test because mochi.text.valid raises on a non-string
+# rather than returning False, which turned a handled remote error into a 500.
+# "constant" bounds the value to 100 characters of a safe charset, so unbounded
+# remote text cannot reach the user or the label-miss log line. And resolving it
+# and comparing is the allowlist: if the answer is the key we passed in, we have
+# no translation, so say something the reader can actually use instead.
+def _remote_error_key(result):
+	err = result.get("error", "")
+	if type(err) != "string" or not mochi.text.valid(err, "constant"):
+		return "errors.remote_failed"
+	if not err.startswith("errors."):
+		return "errors.remote_failed"
+	if mochi.app.label(err) == err:
+		return "errors.remote_failed"
+	return err
+
 def _surface_remote_error(a, result):
 	code = result.get("code", 502)
 	# The code is remote-supplied: clamp it to 4xx/5xx so a destination cannot make
@@ -238,14 +265,7 @@ def _surface_remote_error(a, result):
 		code = int(code)
 	if type(code) != "int" or code < 400 or code > 599:
 		code = 502
-	err = result.get("error", "")
-	if err.startswith("errors."):
-		a.error.label(code, err)
-	else:
-		a.error.label(code, "errors.remote_failed")
+	a.error.label(code, _remote_error_key(result))
 
 def _remote_error_message(result):
-	err = result.get("error", "")
-	if err.startswith("errors."):
-		return mochi.app.label(err)
-	return mochi.app.label("errors.remote_failed")
+	return mochi.app.label(_remote_error_key(result))
