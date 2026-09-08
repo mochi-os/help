@@ -23,9 +23,6 @@ BODY_MAX = 50000
 BODY_MIN = 20
 
 def action_visit(a):
-	if not a.user:
-		a.error.label(401, "errors.not_logged_in")
-		return
 	# The SPA calls this on every Help mount, but only the first visit changes
 	# anything (home.star checks != "true"), so skip the versioned preference
 	# write once it holds — the get reads the request's in-memory map for free.
@@ -45,10 +42,6 @@ def action_document_get(a):
 	a.json({"name": name, "body": body, "html": html})
 
 def action_prepare(a):
-	if not a.user:
-		a.error.label(401, "errors.not_logged_in")
-		return
-
 	kind = a.input("kind")
 	if kind not in VALID_KINDS:
 		a.error.label(400, "errors.invalid_kind")
@@ -99,15 +92,11 @@ def action_prepare(a):
 	data = {"available": True}
 	if "fingerprint" in result:
 		data["fingerprint"] = result["fingerprint"]
-	if "already_subscribed" in result:
-		data["already_subscribed"] = result["already_subscribed"]
+	if "subscribed" in result:
+		data["subscribed"] = result["subscribed"]
 	return {"data": data}
 
 def action_contribute(a):
-	if not a.user:
-		a.error.label(401, "errors.not_logged_in")
-		return
-
 	kind = a.input("kind")
 	if kind not in VALID_KINDS:
 		a.error.label(400, "errors.invalid_kind")
@@ -183,9 +172,13 @@ def action_contribute(a):
 		_surface_remote_error(a, result)
 		return
 
+	# Both fields are the destination's decoded JSON, and mochi.text.valid raises
+	# on any non-string but None, so a host answering {"id": 123} aborts this
+	# handler with a 500 after the ticket was already created - the user sees a
+	# failure for a submission that worked and resubmits. Reduce to "" the way
+	# _remote_error_key reduces error.
 	fingerprint = result.get("fingerprint")
-	# Validate the fingerprint when present.
-	if fingerprint and not mochi.text.valid(fingerprint, "fingerprint"):
+	if type(fingerprint) != "string" or not mochi.text.valid(fingerprint, "fingerprint"):
 		fingerprint = ""
 
 	# Tickets need the fingerprint for their redirect; forum posts only use it for
@@ -197,7 +190,7 @@ def action_contribute(a):
 		# An empty comment id means the ticket landed without its description; log it
 		# rather than fail a ticket that exists.
 		if not result.get("comment"):
-			mochi.log.debug("help: ticket " + result.get("id", "") + " created without its description comment")
+			mochi.log.debug("help: ticket " + str(result.get("id", "")) + " created without its description comment")
 
 	# SPA URLs are /<app>/<fingerprint>/<id> (the -/ form is the JSON route). Forum
 	# posts land on the forum: a pending-moderation post page is unreadable by its
@@ -208,7 +201,7 @@ def action_contribute(a):
 		# Validate the returned object id before placing it in a URL; fall back to the
 		# project root.
 		obj_id = result.get("id", "")
-		if obj_id and not mochi.text.valid(obj_id, "id"):
+		if type(obj_id) != "string" or not mochi.text.valid(obj_id, "id"):
 			obj_id = ""
 		redirect = "/projects/" + fingerprint + "/" + obj_id
 
@@ -253,6 +246,10 @@ def _remote_error_key(result):
 	if not err.startswith("errors."):
 		return "errors.remote_failed"
 	if mochi.app.label(err) == err:
+		# _forward_to_owner relays the destination owner's own key verbatim, so the
+		# reachable set is unbounded and this catalogue can never enumerate it.
+		# Name the key that was discarded rather than losing it with the message.
+		mochi.log.debug("help: no label for remote error key " + err + ", showing the generic message")
 		return "errors.remote_failed"
 	return err
 

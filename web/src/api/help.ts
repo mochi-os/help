@@ -8,7 +8,7 @@ import { requestHelpers } from '@mochi/web'
 
 export type Kind = 'intro' | 'question' | 'bug' | 'feature'
 
-// The server also returns fingerprint and already_subscribed (a contract the
+// The server also returns fingerprint and subscribed (a contract the
 // P2P harness asserts); this type declares only what the dialog consumes.
 interface PrepareResponse {
   available: boolean
