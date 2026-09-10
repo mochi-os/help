@@ -2,12 +2,11 @@
 // SPDX-License-Identifier: AGPL-3.0-only
 // This file is part of Mochi, licensed under the GNU AGPL v3 with the
 // Mochi Application Interface Exception - see license.txt and license-exception.md.
-
 import { useEffect, useState } from 'react'
-import { Trans, useLingui } from '@lingui/react/macro'
 import { Link } from '@tanstack/react-router'
-import { Bug, HelpCircle, Lightbulb, Sparkles } from 'lucide-react'
+import { Trans, useLingui } from '@lingui/react/macro'
 import { Card, Main, PageHeader } from '@mochi/web'
+import { Bug, HelpCircle, Lightbulb, Sparkles } from 'lucide-react'
 import { helpApi, type Kind } from '@/api/help'
 import { ContributeDialog } from '@/features/help/contribute-dialog'
 
@@ -80,26 +79,37 @@ export function Help() {
                 className='text-left'
               >
                 <Card className='hover:border-primary/40 hover:bg-hover h-full p-6 transition-all duration-200'>
-                  <div className='mb-3 flex h-10 w-10 items-center justify-center rounded-lg bg-primary/10 text-primary'>
+                  <div className='bg-primary/10 text-primary mb-3 flex h-10 w-10 items-center justify-center rounded-lg'>
                     <card.icon className='h-5 w-5' />
                   </div>
                   <h3 className='mb-1 text-lg font-medium'>{card.title}</h3>
-                  <p className='text-muted-foreground text-sm'>{card.description}</p>
+                  <p className='text-muted-foreground text-sm'>
+                    {card.description}
+                  </p>
                 </Card>
               </button>
             ))}
           </div>
         </div>
-        <p className='text-muted-foreground space-x-2 pb-6 pt-2 text-center text-sm'>
-          <Link to='/document/rules' className='hover:text-foreground transition-colors'>
+        <p className='text-muted-foreground space-x-2 pt-2 pb-6 text-center text-sm'>
+          <Link
+            to='/document/rules'
+            className='hover:text-foreground transition-colors'
+          >
             <Trans>Server rules</Trans>
           </Link>
           <span aria-hidden='true'>·</span>
-          <Link to='/document/terms' className='hover:text-foreground transition-colors'>
+          <Link
+            to='/document/terms'
+            className='hover:text-foreground transition-colors'
+          >
             <Trans>Terms and conditions</Trans>
           </Link>
           <span aria-hidden='true'>·</span>
-          <Link to='/document/privacy' className='hover:text-foreground transition-colors'>
+          <Link
+            to='/document/privacy'
+            className='hover:text-foreground transition-colors'
+          >
             <Trans>Privacy</Trans>
           </Link>
         </p>

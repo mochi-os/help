@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: AGPL-3.0-only
 // This file is part of Mochi, licensed under the GNU AGPL v3 with the
 // Mochi Application Interface Exception - see license.txt and license-exception.md.
-
 import { useEffect, useState } from 'react'
 import { Trans, useLingui } from '@lingui/react/macro'
 import {
@@ -25,7 +24,17 @@ import {
   toast,
   useFormat,
 } from '@mochi/web'
-import { ArrowRight, Bug, CheckCircle, CircleAlert, HelpCircle, Lightbulb, Loader2, Sparkles, X } from 'lucide-react'
+import {
+  ArrowRight,
+  Bug,
+  CheckCircle,
+  CircleAlert,
+  HelpCircle,
+  Lightbulb,
+  Loader2,
+  Sparkles,
+  X,
+} from 'lucide-react'
 import { helpApi, type Kind } from '@/api/help'
 
 // Mirrors BODY_MAX / BODY_MIN / TITLE_MAX in help.star. The server measures
@@ -143,9 +152,11 @@ export function ContributeDialog({
   const [submitted, setSubmitted] = useState(false)
   const [redirectUrl, setRedirectUrl] = useState('')
   const [prepareAttempt, setPrepareAttempt] = useState(0)
-  const [destinationStatus, setDestinationStatus] = useState<DestinationStatus>({
-    status: 'checking',
-  })
+  const [destinationStatus, setDestinationStatus] = useState<DestinationStatus>(
+    {
+      status: 'checking',
+    }
+  )
 
   const trimmedBody = body.trim()
   const trimmedTitle = title.trim()
@@ -159,7 +170,8 @@ export function ContributeDialog({
     !bodyTooShort &&
     !bodyTooLong &&
     destinationReady &&
-    (!needsTitle || (trimmedTitle.length > 0 && byteLength(trimmedTitle) <= TITLE_MAX))
+    (!needsTitle ||
+      (trimmedTitle.length > 0 && byteLength(trimmedTitle) <= TITLE_MAX))
 
   useEffect(() => {
     if (!open || submitted) return
@@ -202,7 +214,7 @@ export function ContributeDialog({
       const result = await helpApi.contribute(
         kind,
         trimmedBody,
-        needsTitle ? trimmedTitle : undefined,
+        needsTitle ? trimmedTitle : undefined
       )
       if (isForumKind) {
         // Forum posts go to moderation — show in-app success so the user isn't
@@ -260,7 +272,9 @@ export function ContributeDialog({
               </span>
             </ResponsiveDialogTitle>
             {copy.description && !submitted && (
-              <ResponsiveDialogDescription>{copy.description}</ResponsiveDialogDescription>
+              <ResponsiveDialogDescription>
+                {copy.description}
+              </ResponsiveDialogDescription>
             )}
           </ResponsiveDialogHeader>
 
@@ -268,8 +282,12 @@ export function ContributeDialog({
             /* In-app success state for forum posts */
             <div className='flex flex-col items-center gap-4 px-4 py-6 text-center sm:px-0'>
               <CheckCircle className='h-12 w-12 text-green-500' />
-              <p className='text-base font-medium'><Trans>Submitted successfully</Trans></p>
-              <p className='text-muted-foreground text-sm'>{copy.successMessage}</p>
+              <p className='text-base font-medium'>
+                <Trans>Submitted successfully</Trans>
+              </p>
+              <p className='text-muted-foreground text-sm'>
+                {copy.successMessage}
+              </p>
             </div>
           ) : (
             <div className='flex flex-col gap-4 px-4 sm:px-0'>
@@ -285,7 +303,9 @@ export function ContributeDialog({
                   className='border-amber-200 bg-amber-50 text-amber-900 dark:border-amber-800/60 dark:bg-amber-950/20 dark:text-amber-100'
                 >
                   <CircleAlert className='text-amber-700 dark:text-amber-300' />
-                  <AlertTitle><Trans>Couldn't reach the destination yet</Trans></AlertTitle>
+                  <AlertTitle>
+                    <Trans>Couldn't reach the destination yet</Trans>
+                  </AlertTitle>
                   <AlertDescription className='text-amber-800 dark:text-amber-200'>
                     <p>{destinationStatus.message}</p>
                     <Button
@@ -316,7 +336,9 @@ export function ContributeDialog({
                 </div>
               )}
               <div className='flex flex-col gap-2'>
-                {copy.bodyLabel && <Label htmlFor='help-body'>{copy.bodyLabel}</Label>}
+                {copy.bodyLabel && (
+                  <Label htmlFor='help-body'>{copy.bodyLabel}</Label>
+                )}
                 <Textarea
                   id='help-body'
                   value={body}
@@ -355,7 +377,11 @@ export function ContributeDialog({
               </>
             ) : (
               <>
-                <Button variant='outline' onClick={() => requestClose(false)} disabled={submitting}>
+                <Button
+                  variant='outline'
+                  onClick={() => requestClose(false)}
+                  disabled={submitting}
+                >
                   <X className='size-4' />
                   <Trans>Cancel</Trans>
                 </Button>

@@ -2,9 +2,8 @@
 // SPDX-License-Identifier: AGPL-3.0-only
 // This file is part of Mochi, licensed under the GNU AGPL v3 with the
 // Mochi Application Interface Exception - see license.txt and license-exception.md.
-
-import endpoints from '@/api/endpoints'
 import { requestHelpers } from '@mochi/web'
+import endpoints from '@/api/endpoints'
 
 export type Kind = 'intro' | 'question' | 'bug' | 'feature'
 
@@ -26,23 +25,31 @@ const visit = async (): Promise<void> => {
 const prepare = async (kind: Kind): Promise<PrepareResponse> => {
   const body = new URLSearchParams()
   body.append('kind', kind)
-  return requestHelpers.post<PrepareResponse>(endpoints.prepare, body.toString(), {
-    headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-  })
+  return requestHelpers.post<PrepareResponse>(
+    endpoints.prepare,
+    body.toString(),
+    {
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+    }
+  )
 }
 
 const contribute = async (
   kind: Kind,
   body: string,
-  title?: string,
+  title?: string
 ): Promise<ContributeResponse> => {
   const params = new URLSearchParams()
   params.append('kind', kind)
   params.append('body', body)
   if (title) params.append('title', title)
-  return requestHelpers.post<ContributeResponse>(endpoints.contribute, params.toString(), {
-    headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-  })
+  return requestHelpers.post<ContributeResponse>(
+    endpoints.contribute,
+    params.toString(),
+    {
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+    }
+  )
 }
 
 export const helpApi = {
