@@ -659,10 +659,6 @@ msgstr "Sukurta"
 msgid "Created {field}"
 msgstr "{field} sukurta"
 
-#: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
-msgid "Creating..."
-msgstr "Kuriama..."
-
 #: ../../../lib/web/src/components/map-view.tsx
 msgid "Current location"
 msgstr "Dabartinė vieta"
@@ -1242,7 +1238,6 @@ msgstr "Įkeliamas elementas"
 msgid "Loading item details"
 msgstr "Įkeliama elemento informacija"
 
-#: ../../../lib/web/src/components/ui/load-more.tsx
 #: ../../../lib/web/src/features/document/document-page.tsx
 #: src/features/help/contribute-dialog.tsx
 msgid "Loading..."

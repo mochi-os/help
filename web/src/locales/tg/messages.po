@@ -659,10 +659,6 @@ msgstr "Эҷодшуда"
 msgid "Created {field}"
 msgstr "{field} сохта шуд"
 
-#: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
-msgid "Creating..."
-msgstr "Эҷод карда истодааст..."
-
 #: ../../../lib/web/src/components/map-view.tsx
 msgid "Current location"
 msgstr "Ҷойгиршавии ҷорӣ"
@@ -1242,7 +1238,6 @@ msgstr "Ашё бор карда мешавад"
 msgid "Loading item details"
 msgstr "Тафсилоти ашё бор карда мешаванд"
 
-#: ../../../lib/web/src/components/ui/load-more.tsx
 #: ../../../lib/web/src/features/document/document-page.tsx
 #: src/features/help/contribute-dialog.tsx
 msgid "Loading..."

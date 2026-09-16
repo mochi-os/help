@@ -659,10 +659,6 @@ msgstr "สร้างแล้ว"
 msgid "Created {field}"
 msgstr "สร้าง {field}"
 
-#: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
-msgid "Creating..."
-msgstr "กำลังสร้าง..."
-
 #: ../../../lib/web/src/components/map-view.tsx
 msgid "Current location"
 msgstr "ตำแหน่งปัจจุบัน"
@@ -1242,7 +1238,6 @@ msgstr "กำลังโหลดรายการ"
 msgid "Loading item details"
 msgstr "กำลังโหลดรายละเอียดรายการ"
 
-#: ../../../lib/web/src/components/ui/load-more.tsx
 #: ../../../lib/web/src/features/document/document-page.tsx
 #: src/features/help/contribute-dialog.tsx
 msgid "Loading..."
