@@ -201,10 +201,6 @@ msgstr "Mavjud bildirishnomalarga qoʻshish"
 msgid "Add view"
 msgstr "Koʻrinish qoʻshish"
 
-#: ../../../lib/web/src/features/access/access-dialog.tsx
-msgid "Adding..."
-msgstr "Qoʻshilmoqda..."
-
 #: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "AI"
 msgstr "AI"
@@ -663,7 +659,6 @@ msgstr "Yaratildi"
 msgid "Created {field}"
 msgstr "{field} yaratildi"
 
-#: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Creating..."
 msgstr "Yaratilmoqda..."
@@ -770,10 +765,6 @@ msgstr "Oʻchirildi"
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted {field}"
 msgstr "{field} oʻchirildi"
-
-#: ../../../lib/web/src/components/game/game-end-dialogs.tsx
-msgid "Deleting..."
-msgstr "Oʻchirilmoqda..."
 
 #: ../../../lib/web/src/components/ui/sort-direction-button.tsx
 msgid "Descending"
@@ -1628,10 +1619,6 @@ msgstr "Savolni joylash"
 msgid "Posted"
 msgstr "Joylandi"
 
-#: src/features/help/contribute-dialog.tsx
-msgid "Posting…"
-msgstr "Joylanmoqda…"
-
 #: ../../../lib/web/src/components/options-menu.tsx
 msgid "Posts"
 msgstr "Postlar"
@@ -1822,10 +1809,6 @@ msgstr "Taslim boʻlish"
 msgid "Resign game?"
 msgstr "Oʻyindan voz kechilsinmi?"
 
-#: ../../../lib/web/src/components/game/game-end-dialogs.tsx
-msgid "Resigning..."
-msgstr "Taslim boʻlinmoqda..."
-
 #: ../../../lib/web/src/components/attachment-composer.tsx
 msgid "Retry"
 msgstr "Qayta urinish"
@@ -1876,10 +1859,6 @@ msgstr "Shanba"
 #: ../../../lib/web/src/components/ui/secret-field.tsx
 msgid "Save"
 msgstr "Saqlash"
-
-#: ../../../lib/web/src/components/ai-prompts-editor.tsx
-msgid "Saving..."
-msgstr "Saqlanmoqda..."
 
 #: src/features/help/index.tsx
 msgid "Say hello on the Mochi users mailing list and tell everyone a little about yourself."

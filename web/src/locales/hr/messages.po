@@ -201,10 +201,6 @@ msgstr "Dodaj postojećim obavijestima"
 msgid "Add view"
 msgstr "Dodaj prikaz"
 
-#: ../../../lib/web/src/features/access/access-dialog.tsx
-msgid "Adding..."
-msgstr "Dodavanje..."
-
 #: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "AI"
 msgstr "AI"
@@ -663,7 +659,6 @@ msgstr "Stvoreno"
 msgid "Created {field}"
 msgstr "Stvoreno {field}"
 
-#: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Creating..."
 msgstr "Stvaranje..."
@@ -770,10 +765,6 @@ msgstr "Izbrisano"
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted {field}"
 msgstr "Izbrisano {field}"
-
-#: ../../../lib/web/src/components/game/game-end-dialogs.tsx
-msgid "Deleting..."
-msgstr "Brisanje..."
 
 #: ../../../lib/web/src/components/ui/sort-direction-button.tsx
 msgid "Descending"
@@ -1628,10 +1619,6 @@ msgstr "Objavi pitanje"
 msgid "Posted"
 msgstr "Objavljeno"
 
-#: src/features/help/contribute-dialog.tsx
-msgid "Posting…"
-msgstr "Objavljujem…"
-
 #: ../../../lib/web/src/components/options-menu.tsx
 msgid "Posts"
 msgstr "Objave"
@@ -1822,10 +1809,6 @@ msgstr "Predaj se"
 msgid "Resign game?"
 msgstr "Predati igru?"
 
-#: ../../../lib/web/src/components/game/game-end-dialogs.tsx
-msgid "Resigning..."
-msgstr "Predaja..."
-
 #: ../../../lib/web/src/components/attachment-composer.tsx
 msgid "Retry"
 msgstr "Pokušaj ponovno"
@@ -1876,10 +1859,6 @@ msgstr "Subota"
 #: ../../../lib/web/src/components/ui/secret-field.tsx
 msgid "Save"
 msgstr "Spremi"
-
-#: ../../../lib/web/src/components/ai-prompts-editor.tsx
-msgid "Saving..."
-msgstr "Spremam..."
 
 #: src/features/help/index.tsx
 msgid "Say hello on the Mochi users mailing list and tell everyone a little about yourself."

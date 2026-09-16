@@ -201,10 +201,6 @@ msgstr "Añadir a las notificaciones existentes"
 msgid "Add view"
 msgstr "Añadir vista"
 
-#: ../../../lib/web/src/features/access/access-dialog.tsx
-msgid "Adding..."
-msgstr "Añadiendo..."
-
 #: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "AI"
 msgstr "IA"
@@ -663,7 +659,6 @@ msgstr "Creado"
 msgid "Created {field}"
 msgstr "{field} creado"
 
-#: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Creating..."
 msgstr "Creando..."
@@ -770,10 +765,6 @@ msgstr "Eliminado"
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted {field}"
 msgstr "{field} eliminado"
-
-#: ../../../lib/web/src/components/game/game-end-dialogs.tsx
-msgid "Deleting..."
-msgstr "Eliminando..."
 
 #: ../../../lib/web/src/components/ui/sort-direction-button.tsx
 msgid "Descending"
@@ -1628,10 +1619,6 @@ msgstr "Publicar pregunta"
 msgid "Posted"
 msgstr "Publicado"
 
-#: src/features/help/contribute-dialog.tsx
-msgid "Posting…"
-msgstr "Publicando…"
-
 #: ../../../lib/web/src/components/options-menu.tsx
 msgid "Posts"
 msgstr "Publicaciones"
@@ -1822,10 +1809,6 @@ msgstr "Rendirse"
 msgid "Resign game?"
 msgstr "¿Rendir la partida?"
 
-#: ../../../lib/web/src/components/game/game-end-dialogs.tsx
-msgid "Resigning..."
-msgstr "Rindiéndose..."
-
 #: ../../../lib/web/src/components/attachment-composer.tsx
 msgid "Retry"
 msgstr "Reintentar"
@@ -1876,10 +1859,6 @@ msgstr "Sábado"
 #: ../../../lib/web/src/components/ui/secret-field.tsx
 msgid "Save"
 msgstr "Guardar"
-
-#: ../../../lib/web/src/components/ai-prompts-editor.tsx
-msgid "Saving..."
-msgstr "Guardando..."
 
 #: src/features/help/index.tsx
 msgid "Say hello on the Mochi users mailing list and tell everyone a little about yourself."

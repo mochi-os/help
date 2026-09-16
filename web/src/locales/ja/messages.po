@@ -201,10 +201,6 @@ msgstr "既存の通知に追加"
 msgid "Add view"
 msgstr "ビューを追加"
 
-#: ../../../lib/web/src/features/access/access-dialog.tsx
-msgid "Adding..."
-msgstr "追加中..."
-
 #: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "AI"
 msgstr "AI"
@@ -663,7 +659,6 @@ msgstr "作成日"
 msgid "Created {field}"
 msgstr "{field}を作成しました"
 
-#: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Creating..."
 msgstr "作成中..."
@@ -770,10 +765,6 @@ msgstr "削除しました"
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted {field}"
 msgstr "{field}を削除しました"
-
-#: ../../../lib/web/src/components/game/game-end-dialogs.tsx
-msgid "Deleting..."
-msgstr "削除中..."
 
 #: ../../../lib/web/src/components/ui/sort-direction-button.tsx
 msgid "Descending"
@@ -1628,10 +1619,6 @@ msgstr "質問を投稿"
 msgid "Posted"
 msgstr "投稿しました"
 
-#: src/features/help/contribute-dialog.tsx
-msgid "Posting…"
-msgstr "投稿中…"
-
 #: ../../../lib/web/src/components/options-menu.tsx
 msgid "Posts"
 msgstr "投稿"
@@ -1822,10 +1809,6 @@ msgstr "投了"
 msgid "Resign game?"
 msgstr "ゲームを投了しますか?"
 
-#: ../../../lib/web/src/components/game/game-end-dialogs.tsx
-msgid "Resigning..."
-msgstr "投了中..."
-
 #: ../../../lib/web/src/components/attachment-composer.tsx
 msgid "Retry"
 msgstr "再試行"
@@ -1876,10 +1859,6 @@ msgstr "土曜日"
 #: ../../../lib/web/src/components/ui/secret-field.tsx
 msgid "Save"
 msgstr "保存"
-
-#: ../../../lib/web/src/components/ai-prompts-editor.tsx
-msgid "Saving..."
-msgstr "保存中..."
 
 #: src/features/help/index.tsx
 msgid "Say hello on the Mochi users mailing list and tell everyone a little about yourself."

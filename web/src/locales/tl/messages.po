@@ -201,10 +201,6 @@ msgstr "Idagdag sa mga umiiral na notification"
 msgid "Add view"
 msgstr "Magdagdag ng view"
 
-#: ../../../lib/web/src/features/access/access-dialog.tsx
-msgid "Adding..."
-msgstr "Idinadagdag..."
-
 #: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "AI"
 msgstr "AI"
@@ -663,7 +659,6 @@ msgstr "Nagawa"
 msgid "Created {field}"
 msgstr "Ginawa ang {field}"
 
-#: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Creating..."
 msgstr "Ginagawa..."
@@ -770,10 +765,6 @@ msgstr "Tinanggal"
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted {field}"
 msgstr "Tinanggal ang {field}"
-
-#: ../../../lib/web/src/components/game/game-end-dialogs.tsx
-msgid "Deleting..."
-msgstr "Dini-delete..."
 
 #: ../../../lib/web/src/components/ui/sort-direction-button.tsx
 msgid "Descending"
@@ -1628,10 +1619,6 @@ msgstr "I-post ang tanong"
 msgid "Posted"
 msgstr "Na-post na"
 
-#: src/features/help/contribute-dialog.tsx
-msgid "Posting…"
-msgstr "Nagpo-post…"
-
 #: ../../../lib/web/src/components/options-menu.tsx
 msgid "Posts"
 msgstr "Mga Post"
@@ -1822,10 +1809,6 @@ msgstr "Sumuko"
 msgid "Resign game?"
 msgstr "Sumuko sa laro?"
 
-#: ../../../lib/web/src/components/game/game-end-dialogs.tsx
-msgid "Resigning..."
-msgstr "Sumusuko..."
-
 #: ../../../lib/web/src/components/attachment-composer.tsx
 msgid "Retry"
 msgstr "Subukang muli"
@@ -1876,10 +1859,6 @@ msgstr "Sabado"
 #: ../../../lib/web/src/components/ui/secret-field.tsx
 msgid "Save"
 msgstr "I-save"
-
-#: ../../../lib/web/src/components/ai-prompts-editor.tsx
-msgid "Saving..."
-msgstr "Sini-save..."
 
 #: src/features/help/index.tsx
 msgid "Say hello on the Mochi users mailing list and tell everyone a little about yourself."

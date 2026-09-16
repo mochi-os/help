@@ -201,10 +201,6 @@ msgstr "Shto te njoftimet ekzistuese"
 msgid "Add view"
 msgstr "Shto pamje"
 
-#: ../../../lib/web/src/features/access/access-dialog.tsx
-msgid "Adding..."
-msgstr "Po shtohet..."
-
 #: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "AI"
 msgstr "AI"
@@ -663,7 +659,6 @@ msgstr "U krijua"
 msgid "Created {field}"
 msgstr "U krijua {field}"
 
-#: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Creating..."
 msgstr "Po krijon..."
@@ -770,10 +765,6 @@ msgstr "U fshi"
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted {field}"
 msgstr "U fshi {field}"
-
-#: ../../../lib/web/src/components/game/game-end-dialogs.tsx
-msgid "Deleting..."
-msgstr "Po fshin..."
 
 #: ../../../lib/web/src/components/ui/sort-direction-button.tsx
 msgid "Descending"
@@ -1628,10 +1619,6 @@ msgstr "Posto pyetjen"
 msgid "Posted"
 msgstr "Postuar"
 
-#: src/features/help/contribute-dialog.tsx
-msgid "Posting…"
-msgstr "Duke postuar…"
-
 #: ../../../lib/web/src/components/options-menu.tsx
 msgid "Posts"
 msgstr "Postimet"
@@ -1822,10 +1809,6 @@ msgstr "Dorëzohu"
 msgid "Resign game?"
 msgstr "Të dorëzohesh nga loja?"
 
-#: ../../../lib/web/src/components/game/game-end-dialogs.tsx
-msgid "Resigning..."
-msgstr "Duke u dorëzuar..."
-
 #: ../../../lib/web/src/components/attachment-composer.tsx
 msgid "Retry"
 msgstr "Provo përsëri"
@@ -1876,10 +1859,6 @@ msgstr "E shtunë"
 #: ../../../lib/web/src/components/ui/secret-field.tsx
 msgid "Save"
 msgstr "Ruaj"
-
-#: ../../../lib/web/src/components/ai-prompts-editor.tsx
-msgid "Saving..."
-msgstr "Duke ruajtur..."
 
 #: src/features/help/index.tsx
 msgid "Say hello on the Mochi users mailing list and tell everyone a little about yourself."
