@@ -201,10 +201,6 @@ msgstr "Tambah ke pemberitahuan sedia ada"
 msgid "Add view"
 msgstr "Tambah paparan"
 
-#: ../../../lib/web/src/features/access/access-dialog.tsx
-msgid "Adding..."
-msgstr "Menambah..."
-
 #: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "AI"
 msgstr "AI"
@@ -668,11 +664,6 @@ msgstr "Dicipta"
 msgid "Created {field}"
 msgstr "{field} dicipta"
 
-#: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
-#: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
-msgid "Creating..."
-msgstr "Mencipta..."
-
 #: ../../../lib/web/src/components/map-view.tsx
 msgid "Current location"
 msgstr "Lokasi semasa"
@@ -775,10 +766,6 @@ msgstr "Dipadamkan"
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted {field}"
 msgstr "{field} dipadamkan"
-
-#: ../../../lib/web/src/components/game/game-end-dialogs.tsx
-msgid "Deleting..."
-msgstr "Memadam..."
 
 #: ../../../lib/web/src/components/ui/sort-direction-button.tsx
 msgid "Descending"
@@ -1256,7 +1243,6 @@ msgstr "Memuatkan item"
 msgid "Loading item details"
 msgstr "Memuatkan butiran item"
 
-#: ../../../lib/web/src/components/ui/load-more.tsx
 #: ../../../lib/web/src/features/document/document-page.tsx
 #: src/features/help/contribute-dialog.tsx
 msgid "Loading..."
@@ -1633,10 +1619,6 @@ msgstr "Hantar soalan"
 msgid "Posted"
 msgstr "Dihantar"
 
-#: src/features/help/contribute-dialog.tsx
-msgid "Posting…"
-msgstr "Sedang menghantar…"
-
 #: ../../../lib/web/src/components/options-menu.tsx
 msgid "Posts"
 msgstr "Hantaran"
@@ -1827,10 +1809,6 @@ msgstr "Letak jawatan"
 msgid "Resign game?"
 msgstr "Letak jawatan permainan?"
 
-#: ../../../lib/web/src/components/game/game-end-dialogs.tsx
-msgid "Resigning..."
-msgstr "Meletakkan jawatan..."
-
 #: ../../../lib/web/src/components/attachment-composer.tsx
 msgid "Retry"
 msgstr "Cuba lagi"
@@ -1881,10 +1859,6 @@ msgstr "Sabtu"
 #: ../../../lib/web/src/components/ui/secret-field.tsx
 msgid "Save"
 msgstr "Simpan"
-
-#: ../../../lib/web/src/components/ai-prompts-editor.tsx
-msgid "Saving..."
-msgstr "Sedang menyimpan..."
 
 #: src/features/help/index.tsx
 msgid "Say hello on the Mochi users mailing list and tell everyone a little about yourself."

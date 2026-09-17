@@ -201,10 +201,6 @@ msgstr "Beeksisaalee jiranitti dabali"
 msgid "Add view"
 msgstr "Mul'ata dabali"
 
-#: ../../../lib/web/src/features/access/access-dialog.tsx
-msgid "Adding..."
-msgstr "Dabalaa jira..."
-
 #: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "AI"
 msgstr "AI"
@@ -668,11 +664,6 @@ msgstr "Uumame"
 msgid "Created {field}"
 msgstr "{field} uumameera"
 
-#: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
-#: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
-msgid "Creating..."
-msgstr "Uumaa jira..."
-
 #: ../../../lib/web/src/components/map-view.tsx
 msgid "Current location"
 msgstr "Bakka ammaa"
@@ -775,10 +766,6 @@ msgstr "Haqameera"
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted {field}"
 msgstr "{field} haqameera"
-
-#: ../../../lib/web/src/components/game/game-end-dialogs.tsx
-msgid "Deleting..."
-msgstr "Haqaa jira..."
 
 #: ../../../lib/web/src/components/ui/sort-direction-button.tsx
 msgid "Descending"
@@ -1256,7 +1243,6 @@ msgstr "Iddoo fe'aa jiraa"
 msgid "Loading item details"
 msgstr "Bal'ina iddoo fe'aa jiraa"
 
-#: ../../../lib/web/src/components/ui/load-more.tsx
 #: ../../../lib/web/src/features/document/document-page.tsx
 #: src/features/help/contribute-dialog.tsx
 msgid "Loading..."
@@ -1633,10 +1619,6 @@ msgstr "Gaaffii maxxansi"
 msgid "Posted"
 msgstr "Maxxanfame"
 
-#: src/features/help/contribute-dialog.tsx
-msgid "Posting…"
-msgstr "Maxxansaa jira…"
-
 #: ../../../lib/web/src/components/options-menu.tsx
 msgid "Posts"
 msgstr "Maxxansoota"
@@ -1827,10 +1809,6 @@ msgstr "Keessaa ba'i"
 msgid "Resign game?"
 msgstr "Taphaa keessaa ba'uuf?"
 
-#: ../../../lib/web/src/components/game/game-end-dialogs.tsx
-msgid "Resigning..."
-msgstr "Keessaa ba'aa jira..."
-
 #: ../../../lib/web/src/components/attachment-composer.tsx
 msgid "Retry"
 msgstr "Irra deebi'ii yaali"
@@ -1881,10 +1859,6 @@ msgstr "Sanbata"
 #: ../../../lib/web/src/components/ui/secret-field.tsx
 msgid "Save"
 msgstr "Olkaa'i"
-
-#: ../../../lib/web/src/components/ai-prompts-editor.tsx
-msgid "Saving..."
-msgstr "Olkaa'aa jira..."
 
 #: src/features/help/index.tsx
 msgid "Say hello on the Mochi users mailing list and tell everyone a little about yourself."

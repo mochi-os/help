@@ -201,10 +201,6 @@ msgstr "Cuir ri brathan a tha ann"
 msgid "Add view"
 msgstr "Cuir sealladh ris"
 
-#: ../../../lib/web/src/features/access/access-dialog.tsx
-msgid "Adding..."
-msgstr "A' cur ris..."
-
 #: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "AI"
 msgstr "AI"
@@ -668,11 +664,6 @@ msgstr "Cruthaichte"
 msgid "Created {field}"
 msgstr "Chaidh {field} a chruthachadh"
 
-#: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
-#: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
-msgid "Creating..."
-msgstr "A' cruthachadh..."
-
 #: ../../../lib/web/src/components/map-view.tsx
 msgid "Current location"
 msgstr "An t-àite làithreach"
@@ -775,10 +766,6 @@ msgstr "Air a sguabadh às"
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted {field}"
 msgstr "Chaidh {field} a sguabadh às"
-
-#: ../../../lib/web/src/components/game/game-end-dialogs.tsx
-msgid "Deleting..."
-msgstr "A' sguabadh às..."
 
 #: ../../../lib/web/src/components/ui/sort-direction-button.tsx
 msgid "Descending"
@@ -1256,7 +1243,6 @@ msgstr "A' luchdadh an nì"
 msgid "Loading item details"
 msgstr "A' luchdadh mion-fhiosrachadh an nì"
 
-#: ../../../lib/web/src/components/ui/load-more.tsx
 #: ../../../lib/web/src/features/document/document-page.tsx
 #: src/features/help/contribute-dialog.tsx
 msgid "Loading..."
@@ -1633,10 +1619,6 @@ msgstr "Postaich a' cheist"
 msgid "Posted"
 msgstr "Air a phostadh"
 
-#: src/features/help/contribute-dialog.tsx
-msgid "Posting…"
-msgstr "A' postadh…"
-
 #: ../../../lib/web/src/components/options-menu.tsx
 msgid "Posts"
 msgstr "Postaichean"
@@ -1827,10 +1809,6 @@ msgstr "Leig seachad"
 msgid "Resign game?"
 msgstr "An leig thu seachad an geama?"
 
-#: ../../../lib/web/src/components/game/game-end-dialogs.tsx
-msgid "Resigning..."
-msgstr "A' leigeil seachad..."
-
 #: ../../../lib/web/src/components/attachment-composer.tsx
 msgid "Retry"
 msgstr "Feuch ris a-rithist"
@@ -1881,10 +1859,6 @@ msgstr "Disathairne"
 #: ../../../lib/web/src/components/ui/secret-field.tsx
 msgid "Save"
 msgstr "Sàbhail"
-
-#: ../../../lib/web/src/components/ai-prompts-editor.tsx
-msgid "Saving..."
-msgstr "A' sàbhaladh..."
 
 #: src/features/help/index.tsx
 msgid "Say hello on the Mochi users mailing list and tell everyone a little about yourself."

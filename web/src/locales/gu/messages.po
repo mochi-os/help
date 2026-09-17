@@ -201,10 +201,6 @@ msgstr "વર્તમાન સૂચનાઓમાં ઉમેરો"
 msgid "Add view"
 msgstr "દૃશ્ય ઉમેરો"
 
-#: ../../../lib/web/src/features/access/access-dialog.tsx
-msgid "Adding..."
-msgstr "ઉમેરી રહ્યું છે..."
-
 #: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "AI"
 msgstr "AI"
@@ -668,11 +664,6 @@ msgstr "બનાવ્યું"
 msgid "Created {field}"
 msgstr "{field} બનાવ્યું"
 
-#: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
-#: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
-msgid "Creating..."
-msgstr "બનાવી રહ્યું છે..."
-
 #: ../../../lib/web/src/components/map-view.tsx
 msgid "Current location"
 msgstr "વર્તમાન સ્થાન"
@@ -775,10 +766,6 @@ msgstr "કાઢી નાખ્યું"
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted {field}"
 msgstr "{field} કાઢી નાખ્યું"
-
-#: ../../../lib/web/src/components/game/game-end-dialogs.tsx
-msgid "Deleting..."
-msgstr "કાઢી રહ્યું છે..."
 
 #: ../../../lib/web/src/components/ui/sort-direction-button.tsx
 msgid "Descending"
@@ -1256,7 +1243,6 @@ msgstr "આઇટમ લોડ થઈ રહી છે"
 msgid "Loading item details"
 msgstr "આઇટમ વિગતો લોડ થઈ રહી છે"
 
-#: ../../../lib/web/src/components/ui/load-more.tsx
 #: ../../../lib/web/src/features/document/document-page.tsx
 #: src/features/help/contribute-dialog.tsx
 msgid "Loading..."
@@ -1633,10 +1619,6 @@ msgstr "પ્રશ્ન પોસ્ટ કરો"
 msgid "Posted"
 msgstr "પોસ્ટ કર્યું"
 
-#: src/features/help/contribute-dialog.tsx
-msgid "Posting…"
-msgstr "પોસ્ટ કરી રહ્યાં છે…"
-
 #: ../../../lib/web/src/components/options-menu.tsx
 msgid "Posts"
 msgstr "પોસ્ટ્સ"
@@ -1827,10 +1809,6 @@ msgstr "રિઝાઇન કરો"
 msgid "Resign game?"
 msgstr "ગેમ રિઝાઇન કરો?"
 
-#: ../../../lib/web/src/components/game/game-end-dialogs.tsx
-msgid "Resigning..."
-msgstr "રિઝાઇન કરી રહ્યું છે..."
-
 #: ../../../lib/web/src/components/attachment-composer.tsx
 msgid "Retry"
 msgstr "ફરી પ્રયાસ કરો"
@@ -1881,10 +1859,6 @@ msgstr "શનિવાર"
 #: ../../../lib/web/src/components/ui/secret-field.tsx
 msgid "Save"
 msgstr "સાચવો"
-
-#: ../../../lib/web/src/components/ai-prompts-editor.tsx
-msgid "Saving..."
-msgstr "સાચવી રહ્યું છે..."
 
 #: src/features/help/index.tsx
 msgid "Say hello on the Mochi users mailing list and tell everyone a little about yourself."

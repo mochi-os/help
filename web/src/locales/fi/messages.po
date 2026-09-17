@@ -201,10 +201,6 @@ msgstr "Lisää olemassa oleviin ilmoituksiin"
 msgid "Add view"
 msgstr "Lisää näkymä"
 
-#: ../../../lib/web/src/features/access/access-dialog.tsx
-msgid "Adding..."
-msgstr "Lisätään..."
-
 #: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "AI"
 msgstr "Tekoäly"
@@ -668,11 +664,6 @@ msgstr "Luotu"
 msgid "Created {field}"
 msgstr "{field} luotu"
 
-#: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
-#: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
-msgid "Creating..."
-msgstr "Luodaan..."
-
 #: ../../../lib/web/src/components/map-view.tsx
 msgid "Current location"
 msgstr "Nykyinen sijainti"
@@ -775,10 +766,6 @@ msgstr "Poistettu"
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted {field}"
 msgstr "{field} poistettu"
-
-#: ../../../lib/web/src/components/game/game-end-dialogs.tsx
-msgid "Deleting..."
-msgstr "Poistetaan..."
 
 #: ../../../lib/web/src/components/ui/sort-direction-button.tsx
 msgid "Descending"
@@ -1256,7 +1243,6 @@ msgstr "Ladataan kohdetta"
 msgid "Loading item details"
 msgstr "Ladataan kohteen tietoja"
 
-#: ../../../lib/web/src/components/ui/load-more.tsx
 #: ../../../lib/web/src/features/document/document-page.tsx
 #: src/features/help/contribute-dialog.tsx
 msgid "Loading..."
@@ -1633,10 +1619,6 @@ msgstr "Julkaise kysymys"
 msgid "Posted"
 msgstr "Julkaistu"
 
-#: src/features/help/contribute-dialog.tsx
-msgid "Posting…"
-msgstr "Julkaistaan…"
-
 #: ../../../lib/web/src/components/options-menu.tsx
 msgid "Posts"
 msgstr "Julkaisut"
@@ -1827,10 +1809,6 @@ msgstr "Luovuta"
 msgid "Resign game?"
 msgstr "Luovutatko pelin?"
 
-#: ../../../lib/web/src/components/game/game-end-dialogs.tsx
-msgid "Resigning..."
-msgstr "Luovutetaan..."
-
 #: ../../../lib/web/src/components/attachment-composer.tsx
 msgid "Retry"
 msgstr "Yritä uudelleen"
@@ -1881,10 +1859,6 @@ msgstr "Lauantai"
 #: ../../../lib/web/src/components/ui/secret-field.tsx
 msgid "Save"
 msgstr "Tallenna"
-
-#: ../../../lib/web/src/components/ai-prompts-editor.tsx
-msgid "Saving..."
-msgstr "Tallennetaan..."
 
 #: src/features/help/index.tsx
 msgid "Say hello on the Mochi users mailing list and tell everyone a little about yourself."

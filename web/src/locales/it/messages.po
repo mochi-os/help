@@ -201,10 +201,6 @@ msgstr "Aggiungi alle notifiche esistenti"
 msgid "Add view"
 msgstr "Aggiungi vista"
 
-#: ../../../lib/web/src/features/access/access-dialog.tsx
-msgid "Adding..."
-msgstr "Aggiunta in corso..."
-
 #: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "AI"
 msgstr "IA"
@@ -668,11 +664,6 @@ msgstr "Creato"
 msgid "Created {field}"
 msgstr "Creato {field}"
 
-#: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
-#: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
-msgid "Creating..."
-msgstr "Creazione in corso..."
-
 #: ../../../lib/web/src/components/map-view.tsx
 msgid "Current location"
 msgstr "Posizione attuale"
@@ -775,10 +766,6 @@ msgstr "Eliminato"
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted {field}"
 msgstr "Eliminato {field}"
-
-#: ../../../lib/web/src/components/game/game-end-dialogs.tsx
-msgid "Deleting..."
-msgstr "Eliminazione in corso..."
 
 #: ../../../lib/web/src/components/ui/sort-direction-button.tsx
 msgid "Descending"
@@ -1256,7 +1243,6 @@ msgstr "Caricamento elemento"
 msgid "Loading item details"
 msgstr "Caricamento dettagli elemento"
 
-#: ../../../lib/web/src/components/ui/load-more.tsx
 #: ../../../lib/web/src/features/document/document-page.tsx
 #: src/features/help/contribute-dialog.tsx
 msgid "Loading..."
@@ -1633,10 +1619,6 @@ msgstr "Pubblica domanda"
 msgid "Posted"
 msgstr "Pubblicato"
 
-#: src/features/help/contribute-dialog.tsx
-msgid "Posting…"
-msgstr "Pubblicazione in corso…"
-
 #: ../../../lib/web/src/components/options-menu.tsx
 msgid "Posts"
 msgstr "Post"
@@ -1827,10 +1809,6 @@ msgstr "Abbandona"
 msgid "Resign game?"
 msgstr "Abbandonare la partita?"
 
-#: ../../../lib/web/src/components/game/game-end-dialogs.tsx
-msgid "Resigning..."
-msgstr "Abbandono in corso..."
-
 #: ../../../lib/web/src/components/attachment-composer.tsx
 msgid "Retry"
 msgstr "Riprova"
@@ -1881,10 +1859,6 @@ msgstr "Sabato"
 #: ../../../lib/web/src/components/ui/secret-field.tsx
 msgid "Save"
 msgstr "Salva"
-
-#: ../../../lib/web/src/components/ai-prompts-editor.tsx
-msgid "Saving..."
-msgstr "Salvataggio in corso..."
 
 #: src/features/help/index.tsx
 msgid "Say hello on the Mochi users mailing list and tell everyone a little about yourself."

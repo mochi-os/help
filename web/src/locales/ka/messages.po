@@ -201,10 +201,6 @@ msgstr "არსებულ შეტყობინებებში და�
 msgid "Add view"
 msgstr "ხედის დამატება"
 
-#: ../../../lib/web/src/features/access/access-dialog.tsx
-msgid "Adding..."
-msgstr "დამატება..."
-
 #: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "AI"
 msgstr "AI"
@@ -668,11 +664,6 @@ msgstr "შექმნილია"
 msgid "Created {field}"
 msgstr "შეიქმნა {field}"
 
-#: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
-#: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
-msgid "Creating..."
-msgstr "იქმნება..."
-
 #: ../../../lib/web/src/components/map-view.tsx
 msgid "Current location"
 msgstr "მიმდინარე მდებარეობა"
@@ -775,10 +766,6 @@ msgstr "წაიშალა"
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted {field}"
 msgstr "წაიშალა {field}"
-
-#: ../../../lib/web/src/components/game/game-end-dialogs.tsx
-msgid "Deleting..."
-msgstr "იშლება..."
 
 #: ../../../lib/web/src/components/ui/sort-direction-button.tsx
 msgid "Descending"
@@ -1256,7 +1243,6 @@ msgstr "ელემენტის ჩატვირთვა"
 msgid "Loading item details"
 msgstr "ელემენტის დეტალების ჩატვირთვა"
 
-#: ../../../lib/web/src/components/ui/load-more.tsx
 #: ../../../lib/web/src/features/document/document-page.tsx
 #: src/features/help/contribute-dialog.tsx
 msgid "Loading..."
@@ -1633,10 +1619,6 @@ msgstr "კითხვის გამოქვეყნება"
 msgid "Posted"
 msgstr "გამოქვეყნდა"
 
-#: src/features/help/contribute-dialog.tsx
-msgid "Posting…"
-msgstr "პოსტის გამოქვეყნება…"
-
 #: ../../../lib/web/src/components/options-menu.tsx
 msgid "Posts"
 msgstr "პოსტები"
@@ -1827,10 +1809,6 @@ msgstr "ჩაბარება"
 msgid "Resign game?"
 msgstr "თამაშის ჩაბარება?"
 
-#: ../../../lib/web/src/components/game/game-end-dialogs.tsx
-msgid "Resigning..."
-msgstr "ჩაბარება..."
-
 #: ../../../lib/web/src/components/attachment-composer.tsx
 msgid "Retry"
 msgstr "ხელახლა ცდა"
@@ -1881,10 +1859,6 @@ msgstr "შაბათი"
 #: ../../../lib/web/src/components/ui/secret-field.tsx
 msgid "Save"
 msgstr "შენახვა"
-
-#: ../../../lib/web/src/components/ai-prompts-editor.tsx
-msgid "Saving..."
-msgstr "შენახვა..."
 
 #: src/features/help/index.tsx
 msgid "Say hello on the Mochi users mailing list and tell everyone a little about yourself."

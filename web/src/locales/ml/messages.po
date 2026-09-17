@@ -201,10 +201,6 @@ msgstr "നിലവിലുള്ള അറിയിപ്പുകളില�
 msgid "Add view"
 msgstr "കാഴ്ച ചേർക്കുക"
 
-#: ../../../lib/web/src/features/access/access-dialog.tsx
-msgid "Adding..."
-msgstr "ചേർക്കുന്നു..."
-
 #: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "AI"
 msgstr "AI"
@@ -668,11 +664,6 @@ msgstr "സൃഷ്ടിച്ചു"
 msgid "Created {field}"
 msgstr "{field} സൃഷ്ടിച്ചു"
 
-#: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
-#: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
-msgid "Creating..."
-msgstr "സൃഷ്ടിക്കുന്നു..."
-
 #: ../../../lib/web/src/components/map-view.tsx
 msgid "Current location"
 msgstr "നിലവിലെ സ്ഥാനം"
@@ -775,10 +766,6 @@ msgstr "ഇല്ലാതാക്കി"
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted {field}"
 msgstr "{field} ഇല്ലാതാക്കി"
-
-#: ../../../lib/web/src/components/game/game-end-dialogs.tsx
-msgid "Deleting..."
-msgstr "ഇല്ലാതാക്കുന്നു..."
 
 #: ../../../lib/web/src/components/ui/sort-direction-button.tsx
 msgid "Descending"
@@ -1256,7 +1243,6 @@ msgstr "ഇനം ലോഡുചെയ്യുന്നു"
 msgid "Loading item details"
 msgstr "ഇനം വിശദാംശങ്ങൾ ലോഡുചെയ്യുന്നു"
 
-#: ../../../lib/web/src/components/ui/load-more.tsx
 #: ../../../lib/web/src/features/document/document-page.tsx
 #: src/features/help/contribute-dialog.tsx
 msgid "Loading..."
@@ -1633,10 +1619,6 @@ msgstr "ചോദ്യം പോസ്റ്റ് ചെയ്യുക"
 msgid "Posted"
 msgstr "പോസ്റ്റ് ചെയ്തു"
 
-#: src/features/help/contribute-dialog.tsx
-msgid "Posting…"
-msgstr "പോസ്റ്റ് ചെയ്യുന്നു…"
-
 #: ../../../lib/web/src/components/options-menu.tsx
 msgid "Posts"
 msgstr "പോസ്റ്റുകൾ"
@@ -1827,10 +1809,6 @@ msgstr "ഗെയിം പിന്മാറണോ?"
 msgid "Resign game?"
 msgstr "പിന്മാറുന്നു..."
 
-#: ../../../lib/web/src/components/game/game-end-dialogs.tsx
-msgid "Resigning..."
-msgstr "റെസല്യൂഷൻ"
-
 #: ../../../lib/web/src/components/attachment-composer.tsx
 msgid "Retry"
 msgstr "വീണ്ടും ശ്രമിക്കുക"
@@ -1881,10 +1859,6 @@ msgstr "ശനിയാഴ്ച"
 #: ../../../lib/web/src/components/ui/secret-field.tsx
 msgid "Save"
 msgstr "സേവ് ചെയ്യുക"
-
-#: ../../../lib/web/src/components/ai-prompts-editor.tsx
-msgid "Saving..."
-msgstr "സേവ് ചെയ്യുന്നു..."
 
 #: src/features/help/index.tsx
 msgid "Say hello on the Mochi users mailing list and tell everyone a little about yourself."

@@ -201,10 +201,6 @@ msgstr "Legg til i eksisterande varsel"
 msgid "Add view"
 msgstr "Legg til visning"
 
-#: ../../../lib/web/src/features/access/access-dialog.tsx
-msgid "Adding..."
-msgstr "Legg til..."
-
 #: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "AI"
 msgstr "KI"
@@ -668,11 +664,6 @@ msgstr "Oppretta"
 msgid "Created {field}"
 msgstr "Oppretta {field}"
 
-#: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
-#: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
-msgid "Creating..."
-msgstr "Opprettar..."
-
 #: ../../../lib/web/src/components/map-view.tsx
 msgid "Current location"
 msgstr "Noverande posisjon"
@@ -775,10 +766,6 @@ msgstr "Sletta"
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted {field}"
 msgstr "Sletta {field}"
-
-#: ../../../lib/web/src/components/game/game-end-dialogs.tsx
-msgid "Deleting..."
-msgstr "Slettar..."
 
 #: ../../../lib/web/src/components/ui/sort-direction-button.tsx
 msgid "Descending"
@@ -1256,7 +1243,6 @@ msgstr "Lastar element"
 msgid "Loading item details"
 msgstr "Lastar elementdetaljar"
 
-#: ../../../lib/web/src/components/ui/load-more.tsx
 #: ../../../lib/web/src/features/document/document-page.tsx
 #: src/features/help/contribute-dialog.tsx
 msgid "Loading..."
@@ -1633,10 +1619,6 @@ msgstr "Publiser spørsmålet"
 msgid "Posted"
 msgstr "Publisert"
 
-#: src/features/help/contribute-dialog.tsx
-msgid "Posting…"
-msgstr "Skriv inn…"
-
 #: ../../../lib/web/src/components/options-menu.tsx
 msgid "Posts"
 msgstr "Innlegg"
@@ -1827,10 +1809,6 @@ msgstr "Gje opp"
 msgid "Resign game?"
 msgstr "Gje opp spelet?"
 
-#: ../../../lib/web/src/components/game/game-end-dialogs.tsx
-msgid "Resigning..."
-msgstr "Gjev opp..."
-
 #: ../../../lib/web/src/components/attachment-composer.tsx
 msgid "Retry"
 msgstr "Prøv igjen"
@@ -1881,10 +1859,6 @@ msgstr "Laurdag"
 #: ../../../lib/web/src/components/ui/secret-field.tsx
 msgid "Save"
 msgstr "Lagre"
-
-#: ../../../lib/web/src/components/ai-prompts-editor.tsx
-msgid "Saving..."
-msgstr "Lagrar..."
 
 #: src/features/help/index.tsx
 msgid "Say hello on the Mochi users mailing list and tell everyone a little about yourself."

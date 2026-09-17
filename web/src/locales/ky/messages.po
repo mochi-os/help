@@ -201,10 +201,6 @@ msgstr "Учурдагы эскертүүлөргө кошуу"
 msgid "Add view"
 msgstr "Көрүнүш кошуу"
 
-#: ../../../lib/web/src/features/access/access-dialog.tsx
-msgid "Adding..."
-msgstr "Кошулууда..."
-
 #: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "AI"
 msgstr "AI"
@@ -668,11 +664,6 @@ msgstr "Түзүлдү"
 msgid "Created {field}"
 msgstr "{field} түзүлдү"
 
-#: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
-#: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
-msgid "Creating..."
-msgstr "Түзүлүүдө..."
-
 #: ../../../lib/web/src/components/map-view.tsx
 msgid "Current location"
 msgstr "Учурдагы жайгашкан жер"
@@ -775,10 +766,6 @@ msgstr "Өчүрүлдү"
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted {field}"
 msgstr "{field} өчүрүлдү"
-
-#: ../../../lib/web/src/components/game/game-end-dialogs.tsx
-msgid "Deleting..."
-msgstr "Жок кылынууда..."
 
 #: ../../../lib/web/src/components/ui/sort-direction-button.tsx
 msgid "Descending"
@@ -1256,7 +1243,6 @@ msgstr "Нерсе жүктөлүүдө"
 msgid "Loading item details"
 msgstr "Нерсе чоо-жайы жүктөлүүдө"
 
-#: ../../../lib/web/src/components/ui/load-more.tsx
 #: ../../../lib/web/src/features/document/document-page.tsx
 #: src/features/help/contribute-dialog.tsx
 msgid "Loading..."
@@ -1633,10 +1619,6 @@ msgstr "Сурооңузду жөнөтүү"
 msgid "Posted"
 msgstr "Жарыяланды"
 
-#: src/features/help/contribute-dialog.tsx
-msgid "Posting…"
-msgstr "Жарыяланууда…"
-
 #: ../../../lib/web/src/components/options-menu.tsx
 msgid "Posts"
 msgstr "Посттор"
@@ -1827,10 +1809,6 @@ msgstr "Баш тартуу"
 msgid "Resign game?"
 msgstr "Оюндан баш тартасызбы?"
 
-#: ../../../lib/web/src/components/game/game-end-dialogs.tsx
-msgid "Resigning..."
-msgstr "Баш тартылууда..."
-
 #: ../../../lib/web/src/components/attachment-composer.tsx
 msgid "Retry"
 msgstr "Кайра аракет кылуу"
@@ -1881,10 +1859,6 @@ msgstr "Ишемби"
 #: ../../../lib/web/src/components/ui/secret-field.tsx
 msgid "Save"
 msgstr "Сактоо"
-
-#: ../../../lib/web/src/components/ai-prompts-editor.tsx
-msgid "Saving..."
-msgstr "Сакталууда..."
 
 #: src/features/help/index.tsx
 msgid "Say hello on the Mochi users mailing list and tell everyone a little about yourself."

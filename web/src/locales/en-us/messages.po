@@ -201,10 +201,6 @@ msgstr ""
 msgid "Add view"
 msgstr ""
 
-#: ../../../lib/web/src/features/access/access-dialog.tsx
-msgid "Adding..."
-msgstr ""
-
 #: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "AI"
 msgstr ""
@@ -668,11 +664,6 @@ msgstr ""
 msgid "Created {field}"
 msgstr ""
 
-#: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
-#: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
-msgid "Creating..."
-msgstr ""
-
 #: ../../../lib/web/src/components/map-view.tsx
 msgid "Current location"
 msgstr ""
@@ -774,10 +765,6 @@ msgstr ""
 
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted {field}"
-msgstr ""
-
-#: ../../../lib/web/src/components/game/game-end-dialogs.tsx
-msgid "Deleting..."
 msgstr ""
 
 #: ../../../lib/web/src/components/ui/sort-direction-button.tsx
@@ -1256,7 +1243,6 @@ msgstr ""
 msgid "Loading item details"
 msgstr ""
 
-#: ../../../lib/web/src/components/ui/load-more.tsx
 #: ../../../lib/web/src/features/document/document-page.tsx
 #: src/features/help/contribute-dialog.tsx
 msgid "Loading..."
@@ -1633,10 +1619,6 @@ msgstr ""
 msgid "Posted"
 msgstr ""
 
-#: src/features/help/contribute-dialog.tsx
-msgid "Posting…"
-msgstr ""
-
 #: ../../../lib/web/src/components/options-menu.tsx
 msgid "Posts"
 msgstr ""
@@ -1827,10 +1809,6 @@ msgstr ""
 msgid "Resign game?"
 msgstr ""
 
-#: ../../../lib/web/src/components/game/game-end-dialogs.tsx
-msgid "Resigning..."
-msgstr ""
-
 #: ../../../lib/web/src/components/attachment-composer.tsx
 msgid "Retry"
 msgstr ""
@@ -1880,10 +1858,6 @@ msgstr ""
 #: ../../../lib/web/src/components/ui/editable-field-row.tsx
 #: ../../../lib/web/src/components/ui/secret-field.tsx
 msgid "Save"
-msgstr ""
-
-#: ../../../lib/web/src/components/ai-prompts-editor.tsx
-msgid "Saving..."
 msgstr ""
 
 #: src/features/help/index.tsx

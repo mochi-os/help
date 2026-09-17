@@ -201,10 +201,6 @@ msgstr "मौजूदा सूचना में जोड़ीं"
 msgid "Add view"
 msgstr "दृश्य जोड़ीं"
 
-#: ../../../lib/web/src/features/access/access-dialog.tsx
-msgid "Adding..."
-msgstr "जोड़ल जा रहल बा..."
-
 #: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "AI"
 msgstr "AI"
@@ -668,11 +664,6 @@ msgstr "बनावल गइल"
 msgid "Created {field}"
 msgstr "{field} बनावल गइल"
 
-#: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
-#: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
-msgid "Creating..."
-msgstr "बनावल जा रहल बा..."
-
 #: ../../../lib/web/src/components/map-view.tsx
 msgid "Current location"
 msgstr "मौजूदा जगह"
@@ -775,10 +766,6 @@ msgstr "मेटावल गइल"
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted {field}"
 msgstr "{field} मेटावल गइल"
-
-#: ../../../lib/web/src/components/game/game-end-dialogs.tsx
-msgid "Deleting..."
-msgstr "मेटा रहल बा..."
 
 #: ../../../lib/web/src/components/ui/sort-direction-button.tsx
 msgid "Descending"
@@ -1256,7 +1243,6 @@ msgstr "आइटम लोड हो रहल बा"
 msgid "Loading item details"
 msgstr "आइटम विवरण लोड हो रहल बा"
 
-#: ../../../lib/web/src/components/ui/load-more.tsx
 #: ../../../lib/web/src/features/document/document-page.tsx
 #: src/features/help/contribute-dialog.tsx
 msgid "Loading..."
@@ -1633,10 +1619,6 @@ msgstr "सवाल पोस्ट करीं"
 msgid "Posted"
 msgstr "पोस्ट हो गइल"
 
-#: src/features/help/contribute-dialog.tsx
-msgid "Posting…"
-msgstr "पोस्ट कर रहल बा…"
-
 #: ../../../lib/web/src/components/options-menu.tsx
 msgid "Posts"
 msgstr "पोस्ट"
@@ -1827,10 +1809,6 @@ msgstr "हार मानीं"
 msgid "Resign game?"
 msgstr "खेल में हार मानीं?"
 
-#: ../../../lib/web/src/components/game/game-end-dialogs.tsx
-msgid "Resigning..."
-msgstr "हार मान रहल बा..."
-
 #: ../../../lib/web/src/components/attachment-composer.tsx
 msgid "Retry"
 msgstr "फेर से कोसिस करीं"
@@ -1881,10 +1859,6 @@ msgstr "शनिवार"
 #: ../../../lib/web/src/components/ui/secret-field.tsx
 msgid "Save"
 msgstr "सहेजीं"
-
-#: ../../../lib/web/src/components/ai-prompts-editor.tsx
-msgid "Saving..."
-msgstr "सहेज रहल बा..."
 
 #: src/features/help/index.tsx
 msgid "Say hello on the Mochi users mailing list and tell everyone a little about yourself."

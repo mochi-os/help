@@ -201,10 +201,6 @@ msgstr "ಅಸ್ತಿತ್ವದಲ್ಲಿರುವ ಅಧಿಸೂಚನ�
 msgid "Add view"
 msgstr "ವೀಕ್ಷಣೆ ಸೇರಿಸಿ"
 
-#: ../../../lib/web/src/features/access/access-dialog.tsx
-msgid "Adding..."
-msgstr "ಸೇರಿಸಲಾಗುತ್ತಿದೆ..."
-
 #: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "AI"
 msgstr "AI"
@@ -668,11 +664,6 @@ msgstr "ರಚಿಸಲಾಗಿದೆ"
 msgid "Created {field}"
 msgstr "{field} ರಚಿಸಲಾಗಿದೆ"
 
-#: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
-#: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
-msgid "Creating..."
-msgstr "ರಚಿಸಲಾಗುತ್ತಿದೆ..."
-
 #: ../../../lib/web/src/components/map-view.tsx
 msgid "Current location"
 msgstr "ಪ್ರಸ್ತುತ ಸ್ಥಳ"
@@ -775,10 +766,6 @@ msgstr "ಅಳಿಸಲಾಗಿದೆ"
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted {field}"
 msgstr "{field} ಅಳಿಸಲಾಗಿದೆ"
-
-#: ../../../lib/web/src/components/game/game-end-dialogs.tsx
-msgid "Deleting..."
-msgstr "ಅಳಿಸಲಾಗುತ್ತಿದೆ..."
 
 #: ../../../lib/web/src/components/ui/sort-direction-button.tsx
 msgid "Descending"
@@ -1256,7 +1243,6 @@ msgstr "ಐಟಂ ಲೋಡ್ ಆಗುತ್ತಿದೆ"
 msgid "Loading item details"
 msgstr "ಐಟಂ ವಿವರಗಳು ಲೋಡ್ ಆಗುತ್ತಿವೆ"
 
-#: ../../../lib/web/src/components/ui/load-more.tsx
 #: ../../../lib/web/src/features/document/document-page.tsx
 #: src/features/help/contribute-dialog.tsx
 msgid "Loading..."
@@ -1633,10 +1619,6 @@ msgstr "ಪ್ರಶ್ನೆಯನ್ನು ಪೋಸ್ಟ್ ಮಾಡಿ"
 msgid "Posted"
 msgstr "ಪೋಸ್ಟ್ ಮಾಡಲಾಗಿದೆ"
 
-#: src/features/help/contribute-dialog.tsx
-msgid "Posting…"
-msgstr "ಪೋಸ್ಟ್ ಮಾಡಲಾಗುತ್ತಿದೆ…"
-
 #: ../../../lib/web/src/components/options-menu.tsx
 msgid "Posts"
 msgstr "ಪೋಸ್ಟ್‌ಗಳು"
@@ -1827,10 +1809,6 @@ msgstr "ರಾಜೀನಾಮೆ"
 msgid "Resign game?"
 msgstr "ಆಟಕ್ಕೆ ರಾಜೀನಾಮೆ ನೀಡಬೇಕೆ?"
 
-#: ../../../lib/web/src/components/game/game-end-dialogs.tsx
-msgid "Resigning..."
-msgstr "ರಾಜೀನಾಮೆ ನೀಡಲಾಗುತ್ತಿದೆ..."
-
 #: ../../../lib/web/src/components/attachment-composer.tsx
 msgid "Retry"
 msgstr "ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ"
@@ -1881,10 +1859,6 @@ msgstr "ಶನಿವಾರ"
 #: ../../../lib/web/src/components/ui/secret-field.tsx
 msgid "Save"
 msgstr "ಉಳಿಸಿ"
-
-#: ../../../lib/web/src/components/ai-prompts-editor.tsx
-msgid "Saving..."
-msgstr "ಉಳಿಸಲಾಗುತ್ತಿದೆ..."
 
 #: src/features/help/index.tsx
 msgid "Say hello on the Mochi users mailing list and tell everyone a little about yourself."
