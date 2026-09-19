@@ -201,6 +201,10 @@ msgstr "افزودن به اعلان‌های موجود"
 msgid "Add view"
 msgstr "افزودن نما"
 
+#: src/features/help/phone.tsx
+msgid "Address books are private to your account, so there is nothing to give to someone who is not a Mochi user."
+msgstr "دفترچه‌های نشانی خصوصی و متعلق به حساب شما هستند، بنابراین چیزی برای دادن به کسی که کاربر Mochi نیست وجود ندارد."
+
 #: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "AI"
 msgstr "هوش مصنوعی"
@@ -221,6 +225,10 @@ msgstr "خطایی رخ داد"
 #: ../../../lib/web/src/lib/error-normalizer.ts
 msgid "An unexpected error occurred"
 msgstr "خطای غیرمنتظره‌ای رخ داد"
+
+#: src/features/help/phone.tsx
+msgid "Android"
+msgstr "Android"
 
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
@@ -438,6 +446,10 @@ msgstr "تغییر کرد"
 msgid "Changed {field}"
 msgstr "{field} تغییر کرد"
 
+#: src/features/help/phone.tsx
+msgid "Changes made on the device appear in People, and changes made in People appear on the device."
+msgstr "تغییراتی که در دستگاه انجام می‌شود در افراد ظاهر می‌شود و تغییراتی که در افراد انجام می‌شود در دستگاه ظاهر می‌شود."
+
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Checkbox"
 msgstr "کادر انتخاب"
@@ -454,6 +466,14 @@ msgstr "از نوار کناری یک بازی انتخاب کنید یا باز
 #: ../../../lib/web/src/components/language-picker.tsx
 msgid "Choose language"
 msgstr "انتخاب زبان"
+
+#: src/features/help/phone.tsx
+msgid "Choose Login with URL and user name, enter the address book URL as the base URL, then the username and the password."
+msgstr "ورود با URL و نام کاربری را انتخاب کنید، URL دفترچه نشانی را به‌عنوان URL پایه وارد کنید و سپس نام کاربری و گذرواژه را."
+
+#: src/features/help/phone.tsx
+msgid "Choose the address books to add."
+msgstr "دفترچه‌های نشانی موردنظر برای افزودن را انتخاب کنید."
 
 #: ../../../lib/web/src/components/banner-section.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
@@ -472,6 +492,14 @@ msgstr "پاک کردن همه"
 #: ../../../lib/web/src/components/search-input.tsx
 msgid "Clear search"
 msgstr "پاک کردن جست‌وجو"
+
+#: src/features/help/phone.tsx
+msgid "Clients that ask for a URL, such as Thunderbird and most others, take the address book URL instead of the server."
+msgstr "برنامه‌هایی که URL می‌خواهند، مانند Thunderbird و بیشتر برنامه‌های دیگر، به‌جای سرور از URL دفترچه نشانی استفاده می‌کنند."
+
+#: src/features/help/phone.tsx
+msgid "Clients that find the server by name, such as iPhone, iPad, Mac Contacts and DAVx5 on Android, need the server, the username and the password."
+msgstr "برنامه‌هایی که سرور را با نام پیدا می‌کنند، مانند iPhone، iPad، مخاطبین در Mac و DAVx5 در Android، فقط به سرور، نام کاربری و گذرواژه نیاز دارند."
 
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
@@ -570,6 +598,11 @@ msgstr "پیکربندی تنظیمات نما"
 msgid "Confirm"
 msgstr "تأیید"
 
+#: src/features/help/index.tsx
+#: src/features/help/phone.tsx
+msgid "Connect your phone"
+msgstr "اتصال تلفن شما"
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connected"
 msgstr "متصل"
@@ -649,6 +682,14 @@ msgstr "ساختن"
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Create {entityLabel}"
 msgstr "ایجاد {entityLabel}"
+
+#: src/features/help/phone.tsx
+msgid "Create a credential for the device"
+msgstr "ایجاد اطلاعات ورود برای دستگاه"
+
+#: src/features/help/phone.tsx
+msgid "Create a separate credential for each device, so a lost device can be revoked without affecting the others."
+msgstr "برای هر دستگاه اطلاعات ورود جداگانه‌ای بسازید تا بتوان دستگاه گم‌شده را بدون تأثیر بر بقیه لغو کرد."
 
 #: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx
 msgid "Create new item"
@@ -766,6 +807,10 @@ msgstr "حذف شد"
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted {field}"
 msgstr "{field} حذف شد"
+
+#: src/features/help/phone.tsx
+msgid "Deleting a friend's card on the device removes the contact and ends the friendship, exactly as deleting it in People does."
+msgstr "حذف کارت یک دوست در دستگاه، مخاطب را حذف و دوستی را پایان می‌دهد، دقیقاً مانند حذف آن در افراد."
 
 #: ../../../lib/web/src/components/ui/sort-direction-button.tsx
 msgid "Descending"
@@ -903,6 +948,10 @@ msgstr "ایمیل"
 msgid "Email code"
 msgstr "کد ایمیل"
 
+#: src/features/help/phone.tsx
+msgid "Enable the address books it finds. Your contacts then appear in the phone's Contacts app."
+msgstr "دفترچه‌های نشانی پیداشده را فعال کنید. سپس مخاطبین شما در برنامه مخاطبین تلفن ظاهر می‌شوند."
+
 #: ../../../lib/web/src/components/banner-section.tsx
 msgid "Enter banner text (markdown supported)..."
 msgstr "متن بنر را وارد کنید (markdown پشتیبانی می‌شود)..."
@@ -911,6 +960,14 @@ msgstr "متن بنر را وارد کنید (markdown پشتیبانی می‌�
 msgid "Enter the code from your email"
 msgstr "کد دریافتی از ایمیل خود را وارد کنید"
 
+#: src/features/help/phone.tsx
+msgid "Enter the server, your username and the password, and a description such as Mochi."
+msgstr "سرور، نام کاربری و گذرواژه خود و توضیحی مانند Mochi را وارد کنید."
+
+#: src/features/help/phone.tsx
+msgid "Enter the username, and the address book URL as the location. Enter the password when asked."
+msgstr "نام کاربری و URL دفترچه نشانی را به‌عنوان مکان وارد کنید. هنگام درخواست، گذرواژه را وارد کنید."
+
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Enter your authenticator code"
 msgstr "کد برنامه احرازکننده هویت خود را وارد کنید"
@@ -918,6 +975,10 @@ msgstr "کد برنامه احرازکننده هویت خود را وارد ک�
 #: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx
 msgid "Error"
 msgstr "خطا"
+
+#: src/features/help/phone.tsx
+msgid "Every address book listed in the People sidebar is offered to the device."
+msgstr "هر دفترچه نشانی فهرست‌شده در نوار کناری افراد به دستگاه ارائه می‌شود."
 
 #: ../../../lib/web/src/components/comment-tree-layout.tsx
 #: ../../../lib/web/src/components/comment-tree-layout.tsx
@@ -1110,6 +1171,7 @@ msgid "Group: {0}"
 msgstr "گروه: {0}"
 
 #: src/features/help/index.tsx
+#: src/features/help/phone.tsx
 #: src/routes/_authenticated/document/privacy.tsx
 #: src/routes/_authenticated/document/rules.tsx
 #: src/routes/_authenticated/document/terms.tsx
@@ -1149,6 +1211,10 @@ msgstr "نمایشگر تصویر: {0}"
 msgid "Imperial"
 msgstr "امپریال"
 
+#: src/features/help/phone.tsx
+msgid "In People, choose <0>Connect a device</0> in the sidebar."
+msgstr "در افراد، <0>اتصال دستگاه</0> را از نوار کناری انتخاب کنید."
+
 #: ../../../lib/web/src/features/access/types.ts
 msgid "Including anonymous users"
 msgstr "شامل کاربران ناشناس"
@@ -1160,6 +1226,10 @@ msgstr "آواتار حروف اول"
 #: ../../../lib/web/src/components/faceless-avatar.tsx
 msgid "Initials avatar for {name}"
 msgstr "آواتار حروف اول {name}"
+
+#: src/features/help/phone.tsx
+msgid "Install DAVx5 from F-Droid or Google Play."
+msgstr "DAVx5 را از F-Droid یا Google Play نصب کنید."
 
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Interest {weight}"
@@ -1177,6 +1247,10 @@ msgstr "خودتان را معرفی کنید"
 #: ../../../lib/web/src/components/entity/entity-field-editor.tsx
 msgid "Invalid date"
 msgstr "تاریخ نامعتبر"
+
+#: src/features/help/phone.tsx
+msgid "iPhone and iPad"
+msgstr "iPhone و iPad"
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "It seems like the page you're looking for <0/>does not exist or might have been removed."
@@ -1314,6 +1388,10 @@ msgstr "اجازهٔ میکروفون رد شد"
 msgid "Minimum length"
 msgstr "حداقل طول"
 
+#: src/features/help/phone.tsx
+msgid "Mochi keeps your contacts in the People app. Any phone, tablet or computer that supports CardDAV can sync them."
+msgstr "Mochi مخاطبین شما را در برنامه افراد نگه می‌دارد. هر تلفن، تبلت یا رایانه‌ای که از CardDAV پشتیبانی کند می‌تواند آن‌ها را همگام‌سازی کند."
+
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Mochi web"
 msgstr "وب Mochi"
@@ -1357,6 +1435,10 @@ msgstr "نام الزامی است"
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Name must be 1000 characters or less"
 msgstr "نام باید ۱۰۰۰ کاراکتر یا کمتر باشد"
+
+#: src/features/help/phone.tsx
+msgid "Name the device and create the credential. The dialog shows the server, the address book URL, the username and a password."
+msgstr "به دستگاه نامی بدهید و اطلاعات ورود را بسازید. کادر گفتگو سرور، URL دفترچه نشانی، نام کاربری و یک گذرواژه را نشان می‌دهد."
 
 #: ../../../lib/web/src/features/errors/general-error.tsx
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
@@ -1506,6 +1588,10 @@ msgstr "شماره"
 msgid "On"
 msgstr "روشن"
 
+#: src/features/help/phone.tsx
+msgid "On a Mac, open Contacts › Settings › Accounts, add an account, choose Other Contacts Account, then CardDAV and Manual, and enter the same details."
+msgstr "در Mac، مخاطبین › تنظیمات › حساب‌ها را باز کنید، حسابی اضافه کنید، حساب مخاطبین دیگر، سپس CardDAV و دستی را انتخاب کنید و همان اطلاعات را وارد کنید."
+
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
 msgstr "اوه! صفحه پیدا نشد!"
@@ -1513,6 +1599,10 @@ msgstr "اوه! صفحه پیدا نشد!"
 #: ../../../lib/web/src/components/layout/nav-group.tsx
 msgid "Open actions"
 msgstr "باز کردن عملیات"
+
+#: src/features/help/phone.tsx
+msgid "Open Address Book › New Address Book › Add CardDAV Address Book."
+msgstr "دفترچه نشانی › دفترچه نشانی جدید › افزودن دفترچه نشانی CardDAV را باز کنید."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"
@@ -1530,6 +1620,10 @@ msgstr "باز کردن اقدامات گزینه"
 #: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx
 msgid "Open selected card"
 msgstr "باز کردن کارت انتخاب‌شده"
+
+#: src/features/help/phone.tsx
+msgid "Open Settings › Contacts › Accounts › Add Account › Other › Add CardDAV Account."
+msgstr "تنظیمات › مخاطبین › حساب‌ها › افزودن حساب › سایر › افزودن حساب CardDAV را باز کنید."
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Open view actions"
@@ -2016,6 +2110,10 @@ msgstr "تنظیم مبدأ و مقصد"
 msgid "Settings"
 msgstr "تنظیمات"
 
+#: src/features/help/phone.tsx
+msgid "Sharing with others"
+msgstr "اشتراک‌گذاری با دیگران"
+
 #: src/features/help/contribute-dialog.tsx
 msgid "Short title for your idea"
 msgstr "عنوان کوتاه برای ایده شما"
@@ -2140,6 +2238,10 @@ msgstr "یکشنبه"
 msgid "Switch to view 1-9"
 msgstr "تغییر به نمای ۱ تا ۹"
 
+#: src/features/help/index.tsx
+msgid "Sync your Mochi contacts with your phone, tablet or computer over CardDAV."
+msgstr "مخاطبین Mochi خود را از طریق CardDAV با تلفن، تبلت یا رایانه همگام‌سازی کنید."
+
 #: ../../../lib/web/src/components/audit-timeline.tsx
 #: ../../../lib/web/src/lib/preference-utils.ts
 #: ../../../lib/web/src/lib/preference-utils.ts
@@ -2206,6 +2308,10 @@ msgstr "درخواست میکروفون پاسخ داده نشد"
 msgid "The passkey request was not answered"
 msgstr "درخواست پسکی پاسخ داده نشد"
 
+#: src/features/help/phone.tsx
+msgid "The password is shown only once, so copy it into the device before closing the dialog. If it is lost, delete the device under <0>Manage devices</0> and create a new one."
+msgstr "گذرواژه فقط یک بار نمایش داده می‌شود، بنابراین پیش از بستن کادر گفتگو آن را در دستگاه کپی کنید. اگر گم شد، دستگاه را در <0>مدیریت دستگاه‌ها</0> حذف کنید و دستگاه جدیدی بسازید."
+
 #: ../../../lib/web/src/features/errors/general-error.tsx
 msgid "The requested content could not be found."
 msgstr "محتوای درخواستی یافت نشد."
@@ -2221,6 +2327,10 @@ msgstr "این برنامه اجازه استفاده از پسکی شما را 
 #: ../../../lib/web/src/components/game/game-end-dialogs.tsx
 msgid "This permanently deletes the game and its chat. This cannot be undone."
 msgstr "این کار بازی و گفتگوی آن را برای همیشه حذف می‌کند. این عمل قابل بازگشت نیست."
+
+#: src/features/help/phone.tsx
+msgid "Thunderbird"
+msgstr "Thunderbird"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Thursday"
@@ -2451,6 +2561,10 @@ msgstr "چه اتفاقی افتاد"
 msgid "What have you tried, what did you expect, where are you stuck?"
 msgstr "چه چیزی را امتحان کرده‌اید، چه انتظاری داشتید، کجا گیر کرده‌اید؟"
 
+#: src/features/help/phone.tsx
+msgid "What syncs"
+msgstr "چه چیزی همگام‌سازی می‌شود"
+
 #: src/features/help/contribute-dialog.tsx
 msgid "What would it do, who is it for, why does it matter?"
 msgstr "چه کار می‌کند، برای چه کسی است، چرا مهم است؟"
@@ -2458,6 +2572,10 @@ msgstr "چه کار می‌کند، برای چه کسی است، چرا مهم 
 #: src/features/help/contribute-dialog.tsx
 msgid "What you want to ask, in one line"
 msgstr "آنچه می‌خواهید بپرسید، در یک خط"
+
+#: src/features/help/phone.tsx
+msgid "Which details to enter"
+msgstr "چه اطلاعاتی وارد شود"
 
 #: ../../../lib/web/src/features/errors/general-error.tsx
 msgid "You do not have access to this section."

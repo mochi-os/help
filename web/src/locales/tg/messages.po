@@ -201,6 +201,10 @@ msgstr "Илова ба огоҳиномаҳои мавҷуда"
 msgid "Add view"
 msgstr "Иловаи намуд"
 
+#: src/features/help/phone.tsx
+msgid "Address books are private to your account, so there is nothing to give to someone who is not a Mochi user."
+msgstr "Дафтарҳои суроғаҳо ба ҳисоби шумо тааллуқ доранд ва хусусӣ мебошанд, бинобар ин чизе нест, ки ба касе, ки корбари Mochi нест, дода шавад."
+
 #: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "AI"
 msgstr "AI"
@@ -221,6 +225,10 @@ msgstr "Хатогӣ рух дод"
 #: ../../../lib/web/src/lib/error-normalizer.ts
 msgid "An unexpected error occurred"
 msgstr "Хатогии ғайричашмдошт рух дод"
+
+#: src/features/help/phone.tsx
+msgid "Android"
+msgstr "Android"
 
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
@@ -438,6 +446,10 @@ msgstr "Тағйир дода шуд"
 msgid "Changed {field}"
 msgstr "{field} тағйир дода шуд"
 
+#: src/features/help/phone.tsx
+msgid "Changes made on the device appear in People, and changes made in People appear on the device."
+msgstr "Тағйироте, ки дар дастгоҳ ворид мешаванд, дар Одамон пайдо мешаванд ва тағйироте, ки дар Одамон ворид мешаванд, дар дастгоҳ пайдо мешаванд."
+
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Checkbox"
 msgstr "Парчаминтихоб"
@@ -454,6 +466,14 @@ msgstr "Аз панели канорӣ бозиеро интихоб кунед 
 #: ../../../lib/web/src/components/language-picker.tsx
 msgid "Choose language"
 msgstr "Забон интихоб кунед"
+
+#: src/features/help/phone.tsx
+msgid "Choose Login with URL and user name, enter the address book URL as the base URL, then the username and the password."
+msgstr "Воридшавӣ бо URL ва номи корбарро интихоб кунед, URL-и дафтари суроғаҳоро ҳамчун URL-и асосӣ ворид кунед, баъд номи корбар ва рамзро."
+
+#: src/features/help/phone.tsx
+msgid "Choose the address books to add."
+msgstr "Дафтарҳои суроғаҳоеро, ки илова мешаванд, интихоб кунед."
 
 #: ../../../lib/web/src/components/banner-section.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
@@ -472,6 +492,14 @@ msgstr "Ҳамаро тоза кардан"
 #: ../../../lib/web/src/components/search-input.tsx
 msgid "Clear search"
 msgstr "Тоза кардани ҷустуҷӯ"
+
+#: src/features/help/phone.tsx
+msgid "Clients that ask for a URL, such as Thunderbird and most others, take the address book URL instead of the server."
+msgstr "Мизоҷоне, ки URL мепурсанд, ба монанди Thunderbird ва аксари дигарон, ба ҷои сервер URL-и дафтари суроғаҳоро истифода мебаранд."
+
+#: src/features/help/phone.tsx
+msgid "Clients that find the server by name, such as iPhone, iPad, Mac Contacts and DAVx5 on Android, need the server, the username and the password."
+msgstr "Мизоҷоне, ки серверро аз рӯи ном меёбанд, ба монанди iPhone, iPad, Тамосҳои Mac ва DAVx5 дар Android, ба сервер, номи корбар ва рамз ниёз доранд."
 
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
@@ -570,6 +598,11 @@ msgstr "Танзимоти намуд"
 msgid "Confirm"
 msgstr "Тасдиқ"
 
+#: src/features/help/index.tsx
+#: src/features/help/phone.tsx
+msgid "Connect your phone"
+msgstr "Пайваст кардани телефони худ"
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connected"
 msgstr "Пайваст шуда"
@@ -649,6 +682,14 @@ msgstr "Эҷод кардан"
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Create {entityLabel}"
 msgstr "Сохтани {entityLabel}"
+
+#: src/features/help/phone.tsx
+msgid "Create a credential for the device"
+msgstr "Эҷоди маълумоти воридшавӣ барои дастгоҳ"
+
+#: src/features/help/phone.tsx
+msgid "Create a separate credential for each device, so a lost device can be revoked without affecting the others."
+msgstr "Барои ҳар як дастгоҳ маълумоти воридшавии алоҳида эҷод кунед, то дастгоҳи гумшударо бе таъсир ба дигарон бекор кардан мумкин бошад."
 
 #: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx
 msgid "Create new item"
@@ -766,6 +807,10 @@ msgstr "Нест карда шуд"
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted {field}"
 msgstr "{field} нест карда шуд"
+
+#: src/features/help/phone.tsx
+msgid "Deleting a friend's card on the device removes the contact and ends the friendship, exactly as deleting it in People does."
+msgstr "Нест кардани корти дӯст дар дастгоҳ тамосро нест мекунад ва дӯстиро хотима медиҳад, айнан мисли нест кардани он дар Одамон."
 
 #: ../../../lib/web/src/components/ui/sort-direction-button.tsx
 msgid "Descending"
@@ -903,6 +948,10 @@ msgstr "Имейл"
 msgid "Email code"
 msgstr "Рамзи email"
 
+#: src/features/help/phone.tsx
+msgid "Enable the address books it finds. Your contacts then appear in the phone's Contacts app."
+msgstr "Дафтарҳои суроғаҳои ёфтшударо фаъол кунед. Пас тамосҳои шумо дар барномаи Тамосҳои телефон пайдо мешаванд."
+
 #: ../../../lib/web/src/components/banner-section.tsx
 msgid "Enter banner text (markdown supported)..."
 msgstr "Матни баннерро ворид кунед (markdown дастгирӣ мешавад)..."
@@ -911,6 +960,14 @@ msgstr "Матни баннерро ворид кунед (markdown дастги
 msgid "Enter the code from your email"
 msgstr "Рамзро аз почтаи электронии худ ворид кунед"
 
+#: src/features/help/phone.tsx
+msgid "Enter the server, your username and the password, and a description such as Mochi."
+msgstr "Сервер, номи корбари худ ва рамзро, инчунин тавсифе ба монанди Mochi ворид кунед."
+
+#: src/features/help/phone.tsx
+msgid "Enter the username, and the address book URL as the location. Enter the password when asked."
+msgstr "Номи корбарро ва URL-и дафтари суроғаҳоро ҳамчун маҳал ворид кунед. Ҳангоми дархост рамзро ворид кунед."
+
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Enter your authenticator code"
 msgstr "Рамзи аутентификатори худро ворид кунед"
@@ -918,6 +975,10 @@ msgstr "Рамзи аутентификатори худро ворид куне
 #: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx
 msgid "Error"
 msgstr "Хатогӣ"
+
+#: src/features/help/phone.tsx
+msgid "Every address book listed in the People sidebar is offered to the device."
+msgstr "Ҳар як дафтари суроғаҳо, ки дар панели паҳлӯи Одамон номбар шудааст, ба дастгоҳ пешниҳод карда мешавад."
 
 #: ../../../lib/web/src/components/comment-tree-layout.tsx
 #: ../../../lib/web/src/components/comment-tree-layout.tsx
@@ -1110,6 +1171,7 @@ msgid "Group: {0}"
 msgstr "Гурӯҳ: {0}"
 
 #: src/features/help/index.tsx
+#: src/features/help/phone.tsx
 #: src/routes/_authenticated/document/privacy.tsx
 #: src/routes/_authenticated/document/rules.tsx
 #: src/routes/_authenticated/document/terms.tsx
@@ -1149,6 +1211,10 @@ msgstr "Тамошои тасвир: {0}"
 msgid "Imperial"
 msgstr "Империалӣ"
 
+#: src/features/help/phone.tsx
+msgid "In People, choose <0>Connect a device</0> in the sidebar."
+msgstr "Дар Одамон, дар панели паҳлӯ <0>Пайваст кардани дастгоҳ</0>-ро интихоб кунед."
+
 #: ../../../lib/web/src/features/access/types.ts
 msgid "Including anonymous users"
 msgstr "Аз ҷумла корбарони номаълум"
@@ -1160,6 +1226,10 @@ msgstr "Аватари ҳарфҳои аввал"
 #: ../../../lib/web/src/components/faceless-avatar.tsx
 msgid "Initials avatar for {name}"
 msgstr "Аватари ҳарфҳои аввал барои {name}"
+
+#: src/features/help/phone.tsx
+msgid "Install DAVx5 from F-Droid or Google Play."
+msgstr "DAVx5-ро аз F-Droid ё Google Play насб кунед."
 
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Interest {weight}"
@@ -1177,6 +1247,10 @@ msgstr "Худро муаррифӣ кунед"
 #: ../../../lib/web/src/components/entity/entity-field-editor.tsx
 msgid "Invalid date"
 msgstr "Сана нодуруст"
+
+#: src/features/help/phone.tsx
+msgid "iPhone and iPad"
+msgstr "iPhone ва iPad"
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "It seems like the page you're looking for <0/>does not exist or might have been removed."
@@ -1314,6 +1388,10 @@ msgstr "Иҷозати микрофон рад шуд"
 msgid "Minimum length"
 msgstr "Дарозии камтарин"
 
+#: src/features/help/phone.tsx
+msgid "Mochi keeps your contacts in the People app. Any phone, tablet or computer that supports CardDAV can sync them."
+msgstr "Mochi тамосҳои шуморо дар барномаи Одамон нигоҳ медорад. Ҳар телефон, планшет ё компютере, ки CardDAV-ро дастгирӣ мекунад, метавонад онҳоро ҳамоҳанг кунад."
+
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Mochi web"
 msgstr "Mochi веб"
@@ -1357,6 +1435,10 @@ msgstr "Ном талаб карда мешавад"
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Name must be 1000 characters or less"
 msgstr "Ном бояд 1000 аломат ё камтар бошад"
+
+#: src/features/help/phone.tsx
+msgid "Name the device and create the credential. The dialog shows the server, the address book URL, the username and a password."
+msgstr "Ба дастгоҳ ном диҳед ва маълумоти воридшавиро эҷод кунед. Равзанаи муколама сервер, URL-и дафтари суроғаҳо, номи корбар ва рамзро нишон медиҳад."
 
 #: ../../../lib/web/src/features/errors/general-error.tsx
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
@@ -1506,6 +1588,10 @@ msgstr "Рақам"
 msgid "On"
 msgstr "Фаъол"
 
+#: src/features/help/phone.tsx
+msgid "On a Mac, open Contacts › Settings › Accounts, add an account, choose Other Contacts Account, then CardDAV and Manual, and enter the same details."
+msgstr "Дар Mac, Тамосҳо › Танзимот › Ҳисобҳоро кушоед, ҳисоб илова кунед, Ҳисоби дигари тамосҳо, баъд CardDAV ва Дастӣ-ро интихоб кунед ва ҳамон маълумотро ворид кунед."
+
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
 msgstr "Эҳ! Саҳифа ёфт нашуд!"
@@ -1513,6 +1599,10 @@ msgstr "Эҳ! Саҳифа ёфт нашуд!"
 #: ../../../lib/web/src/components/layout/nav-group.tsx
 msgid "Open actions"
 msgstr "Кушодани амалҳо"
+
+#: src/features/help/phone.tsx
+msgid "Open Address Book › New Address Book › Add CardDAV Address Book."
+msgstr "Дафтари суроғаҳо › Дафтари суроғаҳои нав › Илова кардани дафтари суроғаҳои CardDAV-ро кушоед."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"
@@ -1530,6 +1620,10 @@ msgstr "Кушодани амалҳои вариант"
 #: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx
 msgid "Open selected card"
 msgstr "Кушодани корти интихобшуда"
+
+#: src/features/help/phone.tsx
+msgid "Open Settings › Contacts › Accounts › Add Account › Other › Add CardDAV Account."
+msgstr "Танзимот › Тамосҳо › Ҳисобҳо › Иловаи ҳисоб › Дигар › Иловаи ҳисоби CardDAV-ро кушоед."
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Open view actions"
@@ -2016,6 +2110,10 @@ msgstr "Сарчашма ва таъиноти манзилро таъин ку�
 msgid "Settings"
 msgstr "Танзимот"
 
+#: src/features/help/phone.tsx
+msgid "Sharing with others"
+msgstr "Мубодила бо дигарон"
+
 #: src/features/help/contribute-dialog.tsx
 msgid "Short title for your idea"
 msgstr "Сарлавҳаи кӯтоҳ барои ғояи шумо"
@@ -2140,6 +2238,10 @@ msgstr "Якшанбе"
 msgid "Switch to view 1-9"
 msgstr "Гузариш ба назари 1-9"
 
+#: src/features/help/index.tsx
+msgid "Sync your Mochi contacts with your phone, tablet or computer over CardDAV."
+msgstr "Тамосҳои Mochi-и худро тавассути CardDAV бо телефон, планшет ё компютери худ ҳамоҳанг кунед."
+
 #: ../../../lib/web/src/components/audit-timeline.tsx
 #: ../../../lib/web/src/lib/preference-utils.ts
 #: ../../../lib/web/src/lib/preference-utils.ts
@@ -2206,6 +2308,10 @@ msgstr "Ба дархости микрофон ҷавоб дода нашуд"
 msgid "The passkey request was not answered"
 msgstr "Ба дархости калиди дастрасӣ ҷавоб дода нашуд"
 
+#: src/features/help/phone.tsx
+msgid "The password is shown only once, so copy it into the device before closing the dialog. If it is lost, delete the device under <0>Manage devices</0> and create a new one."
+msgstr "Рамз танҳо як бор нишон дода мешавад, бинобар ин пеш аз бастани равзанаи муколама онро ба дастгоҳ нусха бардоред. Агар гум шавад, дастгоҳро дар <0>Идоракунии дастгоҳҳо</0> нест кунед ва дастгоҳи нав эҷод кунед."
+
 #: ../../../lib/web/src/features/errors/general-error.tsx
 msgid "The requested content could not be found."
 msgstr "Муҳтавои дархостшуда ёфт нашуд."
@@ -2221,6 +2327,10 @@ msgstr "Ба ин барнома иҷозат дода нашудааст, ки 
 #: ../../../lib/web/src/components/game/game-end-dialogs.tsx
 msgid "This permanently deletes the game and its chat. This cannot be undone."
 msgstr "Ин бозӣ ва чати онро якумра нест мекунад. Ин амалро баргардонидан мумкин нест."
+
+#: src/features/help/phone.tsx
+msgid "Thunderbird"
+msgstr "Thunderbird"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Thursday"
@@ -2451,6 +2561,10 @@ msgstr "Чӣ рӯй дод"
 msgid "What have you tried, what did you expect, where are you stuck?"
 msgstr "Чӣ озмудаед, чӣ интизор будед, дар куҷо банд мондаед?"
 
+#: src/features/help/phone.tsx
+msgid "What syncs"
+msgstr "Чӣ ҳамоҳанг мешавад"
+
 #: src/features/help/contribute-dialog.tsx
 msgid "What would it do, who is it for, why does it matter?"
 msgstr "Он чӣ кор мекунад, барои кӣ аст, чаро ин муҳим аст?"
@@ -2458,6 +2572,10 @@ msgstr "Он чӣ кор мекунад, барои кӣ аст, чаро ин �
 #: src/features/help/contribute-dialog.tsx
 msgid "What you want to ask, in one line"
 msgstr "Чӣ пурсидан мехоҳед, дар як сатр"
+
+#: src/features/help/phone.tsx
+msgid "Which details to enter"
+msgstr "Кадом маълумотро ворид кардан лозим аст"
 
 #: ../../../lib/web/src/features/errors/general-error.tsx
 msgid "You do not have access to this section."

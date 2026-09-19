@@ -201,6 +201,10 @@ msgstr "添加到现有通知"
 msgid "Add view"
 msgstr "添加视图"
 
+#: src/features/help/phone.tsx
+msgid "Address books are private to your account, so there is nothing to give to someone who is not a Mochi user."
+msgstr "通讯录仅属于你的账户，因此没有任何内容可以提供给非 Mochi 用户。"
+
 #: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "AI"
 msgstr "AI"
@@ -221,6 +225,10 @@ msgstr "发生错误"
 #: ../../../lib/web/src/lib/error-normalizer.ts
 msgid "An unexpected error occurred"
 msgstr "发生意外错误"
+
+#: src/features/help/phone.tsx
+msgid "Android"
+msgstr "Android"
 
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
@@ -438,6 +446,10 @@ msgstr "已更改"
 msgid "Changed {field}"
 msgstr "已更改{field}"
 
+#: src/features/help/phone.tsx
+msgid "Changes made on the device appear in People, and changes made in People appear on the device."
+msgstr "在设备上所做的更改会出现在联系人中，在联系人中所做的更改也会出现在设备上。"
+
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Checkbox"
 msgstr "复选框"
@@ -454,6 +466,14 @@ msgstr "从侧边栏选择一个游戏或开始新游戏。"
 #: ../../../lib/web/src/components/language-picker.tsx
 msgid "Choose language"
 msgstr "选择语言"
+
+#: src/features/help/phone.tsx
+msgid "Choose Login with URL and user name, enter the address book URL as the base URL, then the username and the password."
+msgstr "选择「使用 URL 和用户名登录」，将通讯录 URL 作为基础 URL 输入，然后输入用户名和密码。"
+
+#: src/features/help/phone.tsx
+msgid "Choose the address books to add."
+msgstr "选择要添加的通讯录。"
 
 #: ../../../lib/web/src/components/banner-section.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
@@ -472,6 +492,14 @@ msgstr "全部清除"
 #: ../../../lib/web/src/components/search-input.tsx
 msgid "Clear search"
 msgstr "清除搜索"
+
+#: src/features/help/phone.tsx
+msgid "Clients that ask for a URL, such as Thunderbird and most others, take the address book URL instead of the server."
+msgstr "Thunderbird 等大多数需要输入 URL 的客户端，使用通讯录 URL 而不是服务器。"
+
+#: src/features/help/phone.tsx
+msgid "Clients that find the server by name, such as iPhone, iPad, Mac Contacts and DAVx5 on Android, need the server, the username and the password."
+msgstr "iPhone、iPad、Mac 通讯录以及 Android 上的 DAVx5 等按名称查找服务器的客户端，只需要服务器、用户名和密码。"
 
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
@@ -570,6 +598,11 @@ msgstr "配置视图设置"
 msgid "Confirm"
 msgstr "确认"
 
+#: src/features/help/index.tsx
+#: src/features/help/phone.tsx
+msgid "Connect your phone"
+msgstr "连接你的手机"
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connected"
 msgstr "已连接"
@@ -649,6 +682,14 @@ msgstr "创建"
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Create {entityLabel}"
 msgstr "创建{entityLabel}"
+
+#: src/features/help/phone.tsx
+msgid "Create a credential for the device"
+msgstr "为设备创建凭据"
+
+#: src/features/help/phone.tsx
+msgid "Create a separate credential for each device, so a lost device can be revoked without affecting the others."
+msgstr "为每台设备创建单独的凭据，这样丢失的设备可以单独撤销，而不影响其他设备。"
 
 #: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx
 msgid "Create new item"
@@ -766,6 +807,10 @@ msgstr "已删除"
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted {field}"
 msgstr "已删除{field}"
+
+#: src/features/help/phone.tsx
+msgid "Deleting a friend's card on the device removes the contact and ends the friendship, exactly as deleting it in People does."
+msgstr "在设备上删除好友的名片会移除该联系人并结束好友关系，与在联系人中删除完全相同。"
 
 #: ../../../lib/web/src/components/ui/sort-direction-button.tsx
 msgid "Descending"
@@ -903,6 +948,10 @@ msgstr "邮箱"
 msgid "Email code"
 msgstr "邮箱验证码"
 
+#: src/features/help/phone.tsx
+msgid "Enable the address books it finds. Your contacts then appear in the phone's Contacts app."
+msgstr "启用找到的通讯录。你的联系人随后会出现在手机的「通讯录」应用中。"
+
 #: ../../../lib/web/src/components/banner-section.tsx
 msgid "Enter banner text (markdown supported)..."
 msgstr "请输入横幅文本(支持 markdown)..."
@@ -911,6 +960,14 @@ msgstr "请输入横幅文本(支持 markdown)..."
 msgid "Enter the code from your email"
 msgstr "输入电子邮件中的验证码"
 
+#: src/features/help/phone.tsx
+msgid "Enter the server, your username and the password, and a description such as Mochi."
+msgstr "输入服务器、你的用户名和密码，以及一个描述，例如 Mochi。"
+
+#: src/features/help/phone.tsx
+msgid "Enter the username, and the address book URL as the location. Enter the password when asked."
+msgstr "输入用户名，并将通讯录 URL 作为位置输入。系统询问时输入密码。"
+
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Enter your authenticator code"
 msgstr "请输入您的身份验证器代码"
@@ -918,6 +975,10 @@ msgstr "请输入您的身份验证器代码"
 #: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx
 msgid "Error"
 msgstr "错误"
+
+#: src/features/help/phone.tsx
+msgid "Every address book listed in the People sidebar is offered to the device."
+msgstr "联系人侧边栏中列出的每个通讯录都会提供给设备。"
 
 #: ../../../lib/web/src/components/comment-tree-layout.tsx
 #: ../../../lib/web/src/components/comment-tree-layout.tsx
@@ -1110,6 +1171,7 @@ msgid "Group: {0}"
 msgstr "群组：{0}"
 
 #: src/features/help/index.tsx
+#: src/features/help/phone.tsx
 #: src/routes/_authenticated/document/privacy.tsx
 #: src/routes/_authenticated/document/rules.tsx
 #: src/routes/_authenticated/document/terms.tsx
@@ -1149,6 +1211,10 @@ msgstr "图片查看器：{0}"
 msgid "Imperial"
 msgstr "英制"
 
+#: src/features/help/phone.tsx
+msgid "In People, choose <0>Connect a device</0> in the sidebar."
+msgstr "在联系人的侧边栏中选择<0>连接设备</0>。"
+
 #: ../../../lib/web/src/features/access/types.ts
 msgid "Including anonymous users"
 msgstr "包括匿名用户"
@@ -1160,6 +1226,10 @@ msgstr "首字母头像"
 #: ../../../lib/web/src/components/faceless-avatar.tsx
 msgid "Initials avatar for {name}"
 msgstr "{name} 的首字母头像"
+
+#: src/features/help/phone.tsx
+msgid "Install DAVx5 from F-Droid or Google Play."
+msgstr "从 F-Droid 或 Google Play 安装 DAVx5。"
 
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Interest {weight}"
@@ -1177,6 +1247,10 @@ msgstr "自我介绍"
 #: ../../../lib/web/src/components/entity/entity-field-editor.tsx
 msgid "Invalid date"
 msgstr "日期无效"
+
+#: src/features/help/phone.tsx
+msgid "iPhone and iPad"
+msgstr "iPhone 和 iPad"
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "It seems like the page you're looking for <0/>does not exist or might have been removed."
@@ -1314,6 +1388,10 @@ msgstr "麦克风权限被拒绝"
 msgid "Minimum length"
 msgstr "最小长度"
 
+#: src/features/help/phone.tsx
+msgid "Mochi keeps your contacts in the People app. Any phone, tablet or computer that supports CardDAV can sync them."
+msgstr "Mochi 将你的联系人保存在联系人应用中。任何支持 CardDAV 的手机、平板电脑或电脑都可以同步它们。"
+
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Mochi web"
 msgstr "Mochi 网页版"
@@ -1357,6 +1435,10 @@ msgstr "名称为必填项"
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Name must be 1000 characters or less"
 msgstr "名称不能超过 1000 个字符"
+
+#: src/features/help/phone.tsx
+msgid "Name the device and create the credential. The dialog shows the server, the address book URL, the username and a password."
+msgstr "为设备命名并创建凭据。对话框会显示服务器、通讯录 URL、用户名和密码。"
 
 #: ../../../lib/web/src/features/errors/general-error.tsx
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
@@ -1506,6 +1588,10 @@ msgstr "数字"
 msgid "On"
 msgstr "开启"
 
+#: src/features/help/phone.tsx
+msgid "On a Mac, open Contacts › Settings › Accounts, add an account, choose Other Contacts Account, then CardDAV and Manual, and enter the same details."
+msgstr "在 Mac 上，打开通讯录 › 设置 › 账户，添加账户，选择「其他通讯录账户」，然后选择 CardDAV 和「手动」，并输入相同的信息。"
+
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
 msgstr "抱歉!页面未找到!"
@@ -1513,6 +1599,10 @@ msgstr "抱歉!页面未找到!"
 #: ../../../lib/web/src/components/layout/nav-group.tsx
 msgid "Open actions"
 msgstr "打开操作"
+
+#: src/features/help/phone.tsx
+msgid "Open Address Book › New Address Book › Add CardDAV Address Book."
+msgstr "打开通讯录 › 新建通讯录 › 添加 CardDAV 通讯录。"
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"
@@ -1530,6 +1620,10 @@ msgstr "打开选项操作"
 #: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx
 msgid "Open selected card"
 msgstr "打开选中的卡片"
+
+#: src/features/help/phone.tsx
+msgid "Open Settings › Contacts › Accounts › Add Account › Other › Add CardDAV Account."
+msgstr "打开设置 › 通讯录 › 账户 › 添加账户 › 其他 › 添加 CardDAV 账户。"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Open view actions"
@@ -2016,6 +2110,10 @@ msgstr "设置起点和终点"
 msgid "Settings"
 msgstr "设置"
 
+#: src/features/help/phone.tsx
+msgid "Sharing with others"
+msgstr "与他人共享"
+
 #: src/features/help/contribute-dialog.tsx
 msgid "Short title for your idea"
 msgstr "想法的简短标题"
@@ -2140,6 +2238,10 @@ msgstr "星期日"
 msgid "Switch to view 1-9"
 msgstr "切换到视图 1-9"
 
+#: src/features/help/index.tsx
+msgid "Sync your Mochi contacts with your phone, tablet or computer over CardDAV."
+msgstr "通过 CardDAV 将你的 Mochi 联系人同步到手机、平板电脑或电脑。"
+
 #: ../../../lib/web/src/components/audit-timeline.tsx
 #: ../../../lib/web/src/lib/preference-utils.ts
 #: ../../../lib/web/src/lib/preference-utils.ts
@@ -2206,6 +2308,10 @@ msgstr "麦克风请求未获回应"
 msgid "The passkey request was not answered"
 msgstr "通行密钥请求未获回应"
 
+#: src/features/help/phone.tsx
+msgid "The password is shown only once, so copy it into the device before closing the dialog. If it is lost, delete the device under <0>Manage devices</0> and create a new one."
+msgstr "密码只显示一次，请在关闭对话框前将其复制到设备上。如果丢失，请在<0>管理设备</0>中删除该设备并新建一个。"
+
 #: ../../../lib/web/src/features/errors/general-error.tsx
 msgid "The requested content could not be found."
 msgstr "找不到请求的内容。"
@@ -2221,6 +2327,10 @@ msgstr "此应用无权使用您的通行密钥。请在“设置”的“权限
 #: ../../../lib/web/src/components/game/game-end-dialogs.tsx
 msgid "This permanently deletes the game and its chat. This cannot be undone."
 msgstr "此操作将永久删除对局及其聊天记录，且无法撤销。"
+
+#: src/features/help/phone.tsx
+msgid "Thunderbird"
+msgstr "Thunderbird"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Thursday"
@@ -2451,6 +2561,10 @@ msgstr "发生了什么"
 msgid "What have you tried, what did you expect, where are you stuck?"
 msgstr "你试过什么,期望什么,卡在哪里?"
 
+#: src/features/help/phone.tsx
+msgid "What syncs"
+msgstr "同步的内容"
+
 #: src/features/help/contribute-dialog.tsx
 msgid "What would it do, who is it for, why does it matter?"
 msgstr "它有什么功能?面向谁?为什么重要?"
@@ -2458,6 +2572,10 @@ msgstr "它有什么功能?面向谁?为什么重要?"
 #: src/features/help/contribute-dialog.tsx
 msgid "What you want to ask, in one line"
 msgstr "你想问什么,一句话"
+
+#: src/features/help/phone.tsx
+msgid "Which details to enter"
+msgstr "需要输入的信息"
 
 #: ../../../lib/web/src/features/errors/general-error.tsx
 msgid "You do not have access to this section."

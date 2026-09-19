@@ -201,6 +201,10 @@ msgstr "Ƙara cikin sanarwar da ake da ita"
 msgid "Add view"
 msgstr "Ƙara view"
 
+#: src/features/help/phone.tsx
+msgid "Address books are private to your account, so there is nothing to give to someone who is not a Mochi user."
+msgstr "Littattafan adireshi na sirri ne a asusunka, don haka babu wani abu da za a ba wanda ba mai amfani da Mochi ba."
+
 #: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "AI"
 msgstr "AI"
@@ -221,6 +225,10 @@ msgstr "An samu kuskure"
 #: ../../../lib/web/src/lib/error-normalizer.ts
 msgid "An unexpected error occurred"
 msgstr "An samu kuskuren da ba a zata ba"
+
+#: src/features/help/phone.tsx
+msgid "Android"
+msgstr "Android"
 
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
@@ -438,6 +446,10 @@ msgstr "An canza"
 msgid "Changed {field}"
 msgstr "An canza {field}"
 
+#: src/features/help/phone.tsx
+msgid "Changes made on the device appear in People, and changes made in People appear on the device."
+msgstr "Canje-canjen da aka yi a na'urar suna bayyana a Mutane, kuma canje-canjen da aka yi a Mutane suna bayyana a na'urar."
+
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Checkbox"
 msgstr "Checkbox"
@@ -454,6 +466,14 @@ msgstr "Zaɓi wasa daga sidebar ko fara sabo."
 #: ../../../lib/web/src/components/language-picker.tsx
 msgid "Choose language"
 msgstr "Zaɓi harshe"
+
+#: src/features/help/phone.tsx
+msgid "Choose Login with URL and user name, enter the address book URL as the base URL, then the username and the password."
+msgstr "Zaɓi Shiga da URL da sunan mai amfani, shigar da URL na littafin adireshi a matsayin URL na tushe, sannan sunan mai amfani da kalmar sirri."
+
+#: src/features/help/phone.tsx
+msgid "Choose the address books to add."
+msgstr "Zaɓi littattafan adireshi da za a ƙara."
 
 #: ../../../lib/web/src/components/banner-section.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
@@ -472,6 +492,14 @@ msgstr "Share duka"
 #: ../../../lib/web/src/components/search-input.tsx
 msgid "Clear search"
 msgstr "Share bincike"
+
+#: src/features/help/phone.tsx
+msgid "Clients that ask for a URL, such as Thunderbird and most others, take the address book URL instead of the server."
+msgstr "Manhajojin da ke neman URL, kamar Thunderbird da yawancin sauran, suna amfani da URL na littafin adireshi maimakon sabar."
+
+#: src/features/help/phone.tsx
+msgid "Clients that find the server by name, such as iPhone, iPad, Mac Contacts and DAVx5 on Android, need the server, the username and the password."
+msgstr "Manhajojin da ke nemo sabar ta sunanta, kamar iPhone, iPad, Lambobin sadarwa na Mac da DAVx5 a Android, suna buƙatar sabar, sunan mai amfani da kalmar sirri."
 
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
@@ -570,6 +598,11 @@ msgstr "Saita saitunan view"
 msgid "Confirm"
 msgstr "Tabbatar"
 
+#: src/features/help/index.tsx
+#: src/features/help/phone.tsx
+msgid "Connect your phone"
+msgstr "Haɗa wayarka"
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connected"
 msgstr "An haɗa"
@@ -649,6 +682,14 @@ msgstr "Ƙirƙira"
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Create {entityLabel}"
 msgstr "Ƙirƙiri {entityLabel}"
+
+#: src/features/help/phone.tsx
+msgid "Create a credential for the device"
+msgstr "Ƙirƙiri bayanan shiga don na'urar"
+
+#: src/features/help/phone.tsx
+msgid "Create a separate credential for each device, so a lost device can be revoked without affecting the others."
+msgstr "Ƙirƙiri bayanan shiga daban don kowace na'ura, ta yadda za a iya soke na'urar da ta ɓace ba tare da shafar sauran ba."
 
 #: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx
 msgid "Create new item"
@@ -766,6 +807,10 @@ msgstr "An share"
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted {field}"
 msgstr "An share {field}"
+
+#: src/features/help/phone.tsx
+msgid "Deleting a friend's card on the device removes the contact and ends the friendship, exactly as deleting it in People does."
+msgstr "Goge katin aboki a na'urar yana cire lambar sadarwar kuma yana kawo ƙarshen abota, daidai kamar goge shi a Mutane."
 
 #: ../../../lib/web/src/components/ui/sort-direction-button.tsx
 msgid "Descending"
@@ -903,6 +948,10 @@ msgstr "Imel"
 msgid "Email code"
 msgstr "Lambar imel"
 
+#: src/features/help/phone.tsx
+msgid "Enable the address books it finds. Your contacts then appear in the phone's Contacts app."
+msgstr "Kunna littattafan adireshi da ya samo. Sannan lambobin sadarwarka za su bayyana a manhajar Lambobin sadarwa ta wayar."
+
 #: ../../../lib/web/src/components/banner-section.tsx
 msgid "Enter banner text (markdown supported)..."
 msgstr "Shigar da rubutun banner (markdown ana goyon baya)..."
@@ -911,6 +960,14 @@ msgstr "Shigar da rubutun banner (markdown ana goyon baya)..."
 msgid "Enter the code from your email"
 msgstr "Shigar da lambar daga imel ɗinka"
 
+#: src/features/help/phone.tsx
+msgid "Enter the server, your username and the password, and a description such as Mochi."
+msgstr "Shigar da sabar, sunan mai amfaninka da kalmar sirri, da kuma bayani kamar Mochi."
+
+#: src/features/help/phone.tsx
+msgid "Enter the username, and the address book URL as the location. Enter the password when asked."
+msgstr "Shigar da sunan mai amfani, da URL na littafin adireshi a matsayin wuri. Shigar da kalmar sirri idan an tambaya."
+
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Enter your authenticator code"
 msgstr "Shigar da lambar mai tantancewarka"
@@ -918,6 +975,10 @@ msgstr "Shigar da lambar mai tantancewarka"
 #: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx
 msgid "Error"
 msgstr "Kuskure"
+
+#: src/features/help/phone.tsx
+msgid "Every address book listed in the People sidebar is offered to the device."
+msgstr "Kowane littafin adireshi da aka jera a sandar gefe ta Mutane ana ba da shi ga na'urar."
 
 #: ../../../lib/web/src/components/comment-tree-layout.tsx
 #: ../../../lib/web/src/components/comment-tree-layout.tsx
@@ -1110,6 +1171,7 @@ msgid "Group: {0}"
 msgstr "Rukuni: {0}"
 
 #: src/features/help/index.tsx
+#: src/features/help/phone.tsx
 #: src/routes/_authenticated/document/privacy.tsx
 #: src/routes/_authenticated/document/rules.tsx
 #: src/routes/_authenticated/document/terms.tsx
@@ -1149,6 +1211,10 @@ msgstr "Mai duba hoto: {0}"
 msgid "Imperial"
 msgstr "Imperial"
 
+#: src/features/help/phone.tsx
+msgid "In People, choose <0>Connect a device</0> in the sidebar."
+msgstr "A Mutane, zaɓi <0>Haɗa na'ura</0> a sandar gefe."
+
 #: ../../../lib/web/src/features/access/types.ts
 msgid "Including anonymous users"
 msgstr "Haɗe da masu amfani da ba a san su ba"
@@ -1160,6 +1226,10 @@ msgstr "Avatar na baƙaƙen farko"
 #: ../../../lib/web/src/components/faceless-avatar.tsx
 msgid "Initials avatar for {name}"
 msgstr "Avatar na baƙaƙen farko na {name}"
+
+#: src/features/help/phone.tsx
+msgid "Install DAVx5 from F-Droid or Google Play."
+msgstr "Shigar da DAVx5 daga F-Droid ko Google Play."
 
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Interest {weight}"
@@ -1177,6 +1247,10 @@ msgstr "Gabatar da kanka"
 #: ../../../lib/web/src/components/entity/entity-field-editor.tsx
 msgid "Invalid date"
 msgstr "Kwanan wata mara inganci"
+
+#: src/features/help/phone.tsx
+msgid "iPhone and iPad"
+msgstr "iPhone da iPad"
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "It seems like the page you're looking for <0/>does not exist or might have been removed."
@@ -1314,6 +1388,10 @@ msgstr "An hana izinin makirufo"
 msgid "Minimum length"
 msgstr "Mafi ƙarancin tsawo"
 
+#: src/features/help/phone.tsx
+msgid "Mochi keeps your contacts in the People app. Any phone, tablet or computer that supports CardDAV can sync them."
+msgstr "Mochi yana adana lambobin sadarwarka a manhajar Mutane. Duk wata waya, kwamfutar hannu ko kwamfuta da ke goyon bayan CardDAV za ta iya daidaita su."
+
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Mochi web"
 msgstr "Mochi web"
@@ -1357,6 +1435,10 @@ msgstr "Ana buƙatar suna"
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Name must be 1000 characters or less"
 msgstr "Suna dole ya kasance haruffa 1000 ko ƙasa"
+
+#: src/features/help/phone.tsx
+msgid "Name the device and create the credential. The dialog shows the server, the address book URL, the username and a password."
+msgstr "Sanya wa na'urar suna kuma ƙirƙiri bayanan shiga. Akwatin tattaunawa yana nuna sabar, URL na littafin adireshi, sunan mai amfani da kalmar sirri."
 
 #: ../../../lib/web/src/features/errors/general-error.tsx
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
@@ -1506,6 +1588,10 @@ msgstr "Lamba"
 msgid "On"
 msgstr "Kunna"
 
+#: src/features/help/phone.tsx
+msgid "On a Mac, open Contacts › Settings › Accounts, add an account, choose Other Contacts Account, then CardDAV and Manual, and enter the same details."
+msgstr "A Mac, buɗe Lambobin sadarwa › Saituna › Asusai, ƙara asusu, zaɓi Wani Asusun Lambobin sadarwa, sannan CardDAV da Da hannu, kuma shigar da bayanai iri ɗaya."
+
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
 msgstr "Kai! Ba a Sami Shafi Ba!"
@@ -1513,6 +1599,10 @@ msgstr "Kai! Ba a Sami Shafi Ba!"
 #: ../../../lib/web/src/components/layout/nav-group.tsx
 msgid "Open actions"
 msgstr "Buɗe ayyuka"
+
+#: src/features/help/phone.tsx
+msgid "Open Address Book › New Address Book › Add CardDAV Address Book."
+msgstr "Buɗe Littafin adireshi › Sabon littafin adireshi › Ƙara littafin adireshi na CardDAV."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"
@@ -1530,6 +1620,10 @@ msgstr "Buɗe ayyukan zaɓi"
 #: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx
 msgid "Open selected card"
 msgstr "Buɗe zaɓaɓɓen kati"
+
+#: src/features/help/phone.tsx
+msgid "Open Settings › Contacts › Accounts › Add Account › Other › Add CardDAV Account."
+msgstr "Buɗe Saituna › Lambobin sadarwa › Asusai › Ƙara asusu › Sauran › Ƙara asusun CardDAV."
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Open view actions"
@@ -2016,6 +2110,10 @@ msgstr "Saita tushe da makoma"
 msgid "Settings"
 msgstr "Saitunan"
 
+#: src/features/help/phone.tsx
+msgid "Sharing with others"
+msgstr "Rabawa da wasu"
+
 #: src/features/help/contribute-dialog.tsx
 msgid "Short title for your idea"
 msgstr "Gajeren take don ra'ayinka"
@@ -2140,6 +2238,10 @@ msgstr "Lahadi"
 msgid "Switch to view 1-9"
 msgstr "Sauya zuwa ra'ayi 1-9"
 
+#: src/features/help/index.tsx
+msgid "Sync your Mochi contacts with your phone, tablet or computer over CardDAV."
+msgstr "Daidaita lambobin sadarwarka na Mochi da wayarka, kwamfutar hannu ko kwamfutarka ta CardDAV."
+
 #: ../../../lib/web/src/components/audit-timeline.tsx
 #: ../../../lib/web/src/lib/preference-utils.ts
 #: ../../../lib/web/src/lib/preference-utils.ts
@@ -2206,6 +2308,10 @@ msgstr "Ba a amsa buƙatar makirufo ba"
 msgid "The passkey request was not answered"
 msgstr "Ba a amsa buƙatar passkey ba"
 
+#: src/features/help/phone.tsx
+msgid "The password is shown only once, so copy it into the device before closing the dialog. If it is lost, delete the device under <0>Manage devices</0> and create a new one."
+msgstr "Ana nuna kalmar sirri sau ɗaya kawai, don haka kwafe ta zuwa na'urar kafin ka rufe akwatin tattaunawa. Idan ta ɓace, goge na'urar a ƙarƙashin <0>Sarrafa na'urori</0> kuma ƙirƙiri sabuwa."
+
 #: ../../../lib/web/src/features/errors/general-error.tsx
 msgid "The requested content could not be found."
 msgstr "Ba a iya samun abun cikin da aka nema ba."
@@ -2221,6 +2327,10 @@ msgstr "Ba a ba wannan manhaja izinin amfani da passkey ɗinka ba. Ba ta izini a
 #: ../../../lib/web/src/components/game/game-end-dialogs.tsx
 msgid "This permanently deletes the game and its chat. This cannot be undone."
 msgstr "Wannan zai goge wasan da hirarsa har abada. Ba za a iya sokewa ba."
+
+#: src/features/help/phone.tsx
+msgid "Thunderbird"
+msgstr "Thunderbird"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Thursday"
@@ -2451,6 +2561,10 @@ msgstr "Me ya faru"
 msgid "What have you tried, what did you expect, where are you stuck?"
 msgstr "Me ka gwada, me ka yi tsammani, ina ka makale?"
 
+#: src/features/help/phone.tsx
+msgid "What syncs"
+msgstr "Abin da ake daidaitawa"
+
 #: src/features/help/contribute-dialog.tsx
 msgid "What would it do, who is it for, why does it matter?"
 msgstr "Me zai yi, ga wa yake, me ya sa yake da muhimmanci?"
@@ -2458,6 +2572,10 @@ msgstr "Me zai yi, ga wa yake, me ya sa yake da muhimmanci?"
 #: src/features/help/contribute-dialog.tsx
 msgid "What you want to ask, in one line"
 msgstr "Abin da kake son tambaya, a layi ɗaya"
+
+#: src/features/help/phone.tsx
+msgid "Which details to enter"
+msgstr "Bayanan da za a shigar"
 
 #: ../../../lib/web/src/features/errors/general-error.tsx
 msgid "You do not have access to this section."

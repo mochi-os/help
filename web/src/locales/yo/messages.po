@@ -201,6 +201,10 @@ msgstr "Fi sí àwọn ìfitónilétí tó wà"
 msgid "Add view"
 msgstr "Fi ìran kún"
 
+#: src/features/help/phone.tsx
+msgid "Address books are private to your account, so there is nothing to give to someone who is not a Mochi user."
+msgstr "Àwọn ìwé àdírẹ́sì jẹ́ aṣírí sí àkáǹtì rẹ, nítorí náà kò sí nǹkan kan láti fún ẹni tí kì í ṣe olùmúlò Mochi."
+
 #: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "AI"
 msgstr "AI"
@@ -221,6 +225,10 @@ msgstr "Àṣìṣe kan wáyé"
 #: ../../../lib/web/src/lib/error-normalizer.ts
 msgid "An unexpected error occurred"
 msgstr "Àṣìṣe àìròtẹ́lẹ̀ kan wáyé"
+
+#: src/features/help/phone.tsx
+msgid "Android"
+msgstr "Android"
 
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
@@ -438,6 +446,10 @@ msgstr "A yí padà"
 msgid "Changed {field}"
 msgstr "A yí {field} padà"
 
+#: src/features/help/phone.tsx
+msgid "Changes made on the device appear in People, and changes made in People appear on the device."
+msgstr "Àwọn àyípadà tí a ṣe lórí ẹ̀rọ náà máa ń hàn nínú Àwọn ènìyàn, àwọn àyípadà tí a ṣe nínú Àwọn ènìyàn sì máa ń hàn lórí ẹ̀rọ náà."
+
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Checkbox"
 msgstr "Àpótí àyẹ̀wò"
@@ -454,6 +466,14 @@ msgstr "Yan eré kan láti sidebar tàbí bẹ̀rẹ̀ ọ̀kan tuntun."
 #: ../../../lib/web/src/components/language-picker.tsx
 msgid "Choose language"
 msgstr "Yan èdè"
+
+#: src/features/help/phone.tsx
+msgid "Choose Login with URL and user name, enter the address book URL as the base URL, then the username and the password."
+msgstr "Yan Wọlé pẹ̀lú URL àti orúkọ olùmúlò, tẹ URL ìwé àdírẹ́sì sí i gẹ́gẹ́ bí URL ìpìlẹ̀, lẹ́yìn náà orúkọ olùmúlò àti ọ̀rọ̀ aṣínà."
+
+#: src/features/help/phone.tsx
+msgid "Choose the address books to add."
+msgstr "Yan àwọn ìwé àdírẹ́sì tí o fẹ́ fi kún."
 
 #: ../../../lib/web/src/components/banner-section.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
@@ -472,6 +492,14 @@ msgstr "Pa gbogbo rẹ̀ rẹ́"
 #: ../../../lib/web/src/components/search-input.tsx
 msgid "Clear search"
 msgstr "Pa àwárí rẹ́"
+
+#: src/features/help/phone.tsx
+msgid "Clients that ask for a URL, such as Thunderbird and most others, take the address book URL instead of the server."
+msgstr "Àwọn ètò tí ń béèrè URL, bí Thunderbird àti ọ̀pọ̀ àwọn mìíràn, máa ń lo URL ìwé àdírẹ́sì dípò sáfà."
+
+#: src/features/help/phone.tsx
+msgid "Clients that find the server by name, such as iPhone, iPad, Mac Contacts and DAVx5 on Android, need the server, the username and the password."
+msgstr "Àwọn ètò tí ń rí sáfà nípa orúkọ, bí iPhone, iPad, Àwọn olùbásọ̀rọ̀ Mac àti DAVx5 lórí Android, nílò sáfà, orúkọ olùmúlò àti ọ̀rọ̀ aṣínà."
 
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
@@ -570,6 +598,11 @@ msgstr "Ṣètò ètò ìran"
 msgid "Confirm"
 msgstr "Fọwọ́sí"
 
+#: src/features/help/index.tsx
+#: src/features/help/phone.tsx
+msgid "Connect your phone"
+msgstr "So fóònù rẹ pọ̀"
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connected"
 msgstr "Tí a so pọ̀"
@@ -649,6 +682,14 @@ msgstr "Dá"
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Create {entityLabel}"
 msgstr "Ṣẹ̀dá {entityLabel}"
+
+#: src/features/help/phone.tsx
+msgid "Create a credential for the device"
+msgstr "Ṣẹ̀dá àwọn àlàyé ìwọlé fún ẹ̀rọ náà"
+
+#: src/features/help/phone.tsx
+msgid "Create a separate credential for each device, so a lost device can be revoked without affecting the others."
+msgstr "Ṣẹ̀dá àwọn àlàyé ìwọlé ọ̀tọ̀ fún ẹ̀rọ kọ̀ọ̀kan, kí a lè fagi lé ẹ̀rọ tí ó sọnù láìkan àwọn yòókù."
 
 #: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx
 msgid "Create new item"
@@ -766,6 +807,10 @@ msgstr "A parẹ́"
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted {field}"
 msgstr "A parẹ́ {field}"
+
+#: src/features/help/phone.tsx
+msgid "Deleting a friend's card on the device removes the contact and ends the friendship, exactly as deleting it in People does."
+msgstr "Pípa káàdì ọ̀rẹ́ rẹ́ lórí ẹ̀rọ náà yóò yọ olùbásọ̀rọ̀ náà kúrò, yóò sì fòpin sí ìbáṣọ̀rẹ́ náà, gẹ́gẹ́ bí pípa á rẹ́ nínú Àwọn ènìyàn ti ń ṣe."
 
 #: ../../../lib/web/src/components/ui/sort-direction-button.tsx
 msgid "Descending"
@@ -903,6 +948,10 @@ msgstr "Ímẹ́ẹ̀lì"
 msgid "Email code"
 msgstr "Kóòdù ímẹ́ẹ̀lì"
 
+#: src/features/help/phone.tsx
+msgid "Enable the address books it finds. Your contacts then appear in the phone's Contacts app."
+msgstr "Mú àwọn ìwé àdírẹ́sì tí ó rí ṣiṣẹ́. Àwọn olùbásọ̀rọ̀ rẹ yóò sì hàn nínú ètò Àwọn olùbásọ̀rọ̀ fóònù náà."
+
 #: ../../../lib/web/src/components/banner-section.tsx
 msgid "Enter banner text (markdown supported)..."
 msgstr "Tẹ ọ̀rọ̀ banner (a gba markdown)..."
@@ -911,6 +960,14 @@ msgstr "Tẹ ọ̀rọ̀ banner (a gba markdown)..."
 msgid "Enter the code from your email"
 msgstr "Tẹ koodu láti inú ímeèlì rẹ"
 
+#: src/features/help/phone.tsx
+msgid "Enter the server, your username and the password, and a description such as Mochi."
+msgstr "Tẹ sáfà, orúkọ olùmúlò rẹ àti ọ̀rọ̀ aṣínà sí i, pẹ̀lú àpèjúwe bí Mochi."
+
+#: src/features/help/phone.tsx
+msgid "Enter the username, and the address book URL as the location. Enter the password when asked."
+msgstr "Tẹ orúkọ olùmúlò sí i, àti URL ìwé àdírẹ́sì gẹ́gẹ́ bí ibi. Tẹ ọ̀rọ̀ aṣínà sí i nígbà tí a bá béèrè."
+
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Enter your authenticator code"
 msgstr "Tẹ kóòdù authenticator rẹ"
@@ -918,6 +975,10 @@ msgstr "Tẹ kóòdù authenticator rẹ"
 #: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx
 msgid "Error"
 msgstr "Àṣìṣe"
+
+#: src/features/help/phone.tsx
+msgid "Every address book listed in the People sidebar is offered to the device."
+msgstr "Gbogbo ìwé àdírẹ́sì tí a ṣe àkójọ rẹ̀ nínú ọ̀pá ẹ̀gbẹ́ Àwọn ènìyàn ni a ń fún ẹ̀rọ náà."
 
 #: ../../../lib/web/src/components/comment-tree-layout.tsx
 #: ../../../lib/web/src/components/comment-tree-layout.tsx
@@ -1110,6 +1171,7 @@ msgid "Group: {0}"
 msgstr "Ẹgbẹ́: {0}"
 
 #: src/features/help/index.tsx
+#: src/features/help/phone.tsx
 #: src/routes/_authenticated/document/privacy.tsx
 #: src/routes/_authenticated/document/rules.tsx
 #: src/routes/_authenticated/document/terms.tsx
@@ -1149,6 +1211,10 @@ msgstr "Ẹ̀rọ ìwo àwòrán: {0}"
 msgid "Imperial"
 msgstr "Imperial"
 
+#: src/features/help/phone.tsx
+msgid "In People, choose <0>Connect a device</0> in the sidebar."
+msgstr "Nínú Àwọn ènìyàn, yan <0>So ẹ̀rọ kan pọ̀</0> nínú ọ̀pá ẹ̀gbẹ́."
+
 #: ../../../lib/web/src/features/access/types.ts
 msgid "Including anonymous users"
 msgstr "Pẹ̀lú àwọn olùmúlò aláìlórúkọ"
@@ -1160,6 +1226,10 @@ msgstr "Àwòrán lẹ́tà àkọ́kọ́"
 #: ../../../lib/web/src/components/faceless-avatar.tsx
 msgid "Initials avatar for {name}"
 msgstr "Àwòrán lẹ́tà àkọ́kọ́ fún {name}"
+
+#: src/features/help/phone.tsx
+msgid "Install DAVx5 from F-Droid or Google Play."
+msgstr "Fi DAVx5 sórí ẹ̀rọ láti F-Droid tàbí Google Play."
 
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Interest {weight}"
@@ -1177,6 +1247,10 @@ msgstr "Fi ara rẹ hàn"
 #: ../../../lib/web/src/components/entity/entity-field-editor.tsx
 msgid "Invalid date"
 msgstr "Ọjọ́ aláìdára"
+
+#: src/features/help/phone.tsx
+msgid "iPhone and iPad"
+msgstr "iPhone àti iPad"
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "It seems like the page you're looking for <0/>does not exist or might have been removed."
@@ -1314,6 +1388,10 @@ msgstr "A kọ̀ ìyọ̀ǹda gbohùngbohùn"
 msgid "Minimum length"
 msgstr "Gígùn tí ó kéré jùlọ"
 
+#: src/features/help/phone.tsx
+msgid "Mochi keeps your contacts in the People app. Any phone, tablet or computer that supports CardDAV can sync them."
+msgstr "Mochi ń tọ́jú àwọn olùbásọ̀rọ̀ rẹ nínú ètò Àwọn ènìyàn. Fóònù, tablẹ́ẹ̀tì tàbí kọ̀ǹpútà èyíkéyìí tí ó ṣe àtìlẹ́yìn fún CardDAV lè ṣe àmúṣiṣẹ́pọ̀ wọn."
+
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Mochi web"
 msgstr "Web Mochi"
@@ -1357,6 +1435,10 @@ msgstr "A nílò orúkọ"
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Name must be 1000 characters or less"
 msgstr "Orúkọ gbọ́dọ̀ jẹ́ lẹ́tà 1000 tàbí kéré"
+
+#: src/features/help/phone.tsx
+msgid "Name the device and create the credential. The dialog shows the server, the address book URL, the username and a password."
+msgstr "Fún ẹ̀rọ náà ní orúkọ kí o sì ṣẹ̀dá àwọn àlàyé ìwọlé. Àpótí ìbánisọ̀rọ̀ náà ń fi sáfà, URL ìwé àdírẹ́sì, orúkọ olùmúlò àti ọ̀rọ̀ aṣínà kan hàn."
 
 #: ../../../lib/web/src/features/errors/general-error.tsx
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
@@ -1506,6 +1588,10 @@ msgstr "Nọ́mbà"
 msgid "On"
 msgstr "Ṣíṣí"
 
+#: src/features/help/phone.tsx
+msgid "On a Mac, open Contacts › Settings › Accounts, add an account, choose Other Contacts Account, then CardDAV and Manual, and enter the same details."
+msgstr "Lórí Mac, ṣí Àwọn olùbásọ̀rọ̀ › Àwọn ìṣètò › Àwọn àkáǹtì, fi àkáǹtì kan kún, yan Àkáǹtì Àwọn olùbásọ̀rọ̀ Mìíràn, lẹ́yìn náà CardDAV àti Pẹ̀lú ọwọ́, kí o sì tẹ àwọn àlàyé kan náà sí i."
+
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
 msgstr "Aàá! A Kò Rí Ojú-ìwé!"
@@ -1513,6 +1599,10 @@ msgstr "Aàá! A Kò Rí Ojú-ìwé!"
 #: ../../../lib/web/src/components/layout/nav-group.tsx
 msgid "Open actions"
 msgstr "Ṣí àwọn ìṣe"
+
+#: src/features/help/phone.tsx
+msgid "Open Address Book › New Address Book › Add CardDAV Address Book."
+msgstr "Ṣí Ìwé àdírẹ́sì › Ìwé àdírẹ́sì tuntun › Fi ìwé àdírẹ́sì CardDAV kún."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"
@@ -1530,6 +1620,10 @@ msgstr "Ṣí àwọn iṣẹ́ àṣàyàn"
 #: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx
 msgid "Open selected card"
 msgstr "Ṣí káàdì tó yàn"
+
+#: src/features/help/phone.tsx
+msgid "Open Settings › Contacts › Accounts › Add Account › Other › Add CardDAV Account."
+msgstr "Ṣí Àwọn ìṣètò › Àwọn olùbásọ̀rọ̀ › Àwọn àkáǹtì › Fi àkáǹtì kún › Mìíràn › Fi àkáǹtì CardDAV kún."
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Open view actions"
@@ -2016,6 +2110,10 @@ msgstr "Ṣètò ibi tí o ti wá àti ibi tí o ń lọ"
 msgid "Settings"
 msgstr "Àwọn ìṣètò"
 
+#: src/features/help/phone.tsx
+msgid "Sharing with others"
+msgstr "Pínpín pẹ̀lú àwọn mìíràn"
+
 #: src/features/help/contribute-dialog.tsx
 msgid "Short title for your idea"
 msgstr "Àkọlé kúkúrú fún èrò rẹ"
@@ -2140,6 +2238,10 @@ msgstr "Ọjọ́ Àìkú"
 msgid "Switch to view 1-9"
 msgstr "Yí padà sí ìwòye 1-9"
 
+#: src/features/help/index.tsx
+msgid "Sync your Mochi contacts with your phone, tablet or computer over CardDAV."
+msgstr "Ṣe àmúṣiṣẹ́pọ̀ àwọn olùbásọ̀rọ̀ Mochi rẹ pẹ̀lú fóònù, tablẹ́ẹ̀tì tàbí kọ̀ǹpútà rẹ nípasẹ̀ CardDAV."
+
 #: ../../../lib/web/src/components/audit-timeline.tsx
 #: ../../../lib/web/src/lib/preference-utils.ts
 #: ../../../lib/web/src/lib/preference-utils.ts
@@ -2206,6 +2308,10 @@ msgstr "A kò dáhùn ìbéèrè gbohùngbohùn náà"
 msgid "The passkey request was not answered"
 msgstr "A kò dáhùn ìbéèrè passkey náà"
 
+#: src/features/help/phone.tsx
+msgid "The password is shown only once, so copy it into the device before closing the dialog. If it is lost, delete the device under <0>Manage devices</0> and create a new one."
+msgstr "Ọ̀rọ̀ aṣínà náà ń hàn lẹ́ẹ̀kan ṣoṣo, nítorí náà dà á kọ sínú ẹ̀rọ náà kí o tó pa àpótí ìbánisọ̀rọ̀ náà dé. Tí ó bá sọnù, pa ẹ̀rọ náà rẹ́ lábẹ́ <0>Ṣàkóso àwọn ẹ̀rọ</0> kí o sì ṣẹ̀dá tuntun."
+
 #: ../../../lib/web/src/features/errors/general-error.tsx
 msgid "The requested content could not be found."
 msgstr "A kò rí àkóónú tí o béèrè fún."
@@ -2221,6 +2327,10 @@ msgstr "Ìṣàmúlò yìí kò ní àṣẹ láti lo passkey rẹ. Fàyè gbà 
 #: ../../../lib/web/src/components/game/game-end-dialogs.tsx
 msgid "This permanently deletes the game and its chat. This cannot be undone."
 msgstr "Èyí yóò pa eré náà àti ìjíròrò rẹ̀ rẹ́ pátápátá. A kò lè yí ìṣe yìí padà."
+
+#: src/features/help/phone.tsx
+msgid "Thunderbird"
+msgstr "Thunderbird"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Thursday"
@@ -2451,6 +2561,10 @@ msgstr "Kí ni ó ṣẹlẹ̀"
 msgid "What have you tried, what did you expect, where are you stuck?"
 msgstr "Kí ni o ti gbìyànjú, kí ni o ń retí, níbo ni o ti dúró?"
 
+#: src/features/help/phone.tsx
+msgid "What syncs"
+msgstr "Ohun tí ń ṣe àmúṣiṣẹ́pọ̀"
+
 #: src/features/help/contribute-dialog.tsx
 msgid "What would it do, who is it for, why does it matter?"
 msgstr "Kí ni yóò ṣe, ta ni ó wà fún, kí ló dé tí ó fi ṣe pàtàkì?"
@@ -2458,6 +2572,10 @@ msgstr "Kí ni yóò ṣe, ta ni ó wà fún, kí ló dé tí ó fi ṣe pàtàk
 #: src/features/help/contribute-dialog.tsx
 msgid "What you want to ask, in one line"
 msgstr "Ohun tí o fẹ́ béèrè, ní ìlà kan"
+
+#: src/features/help/phone.tsx
+msgid "Which details to enter"
+msgstr "Àwọn àlàyé tí o máa tẹ sí i"
 
 #: ../../../lib/web/src/features/errors/general-error.tsx
 msgid "You do not have access to this section."

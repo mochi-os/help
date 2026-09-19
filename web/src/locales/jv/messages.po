@@ -201,6 +201,10 @@ msgstr "Tambah menyang pemberitahuan sing wis ana"
 msgid "Add view"
 msgstr "Tambah tampilan"
 
+#: src/features/help/phone.tsx
+msgid "Address books are private to your account, so there is nothing to give to someone who is not a Mochi user."
+msgstr "Buku alamat iku pribadi kanggo akunmu, dadi ora ana apa-apa sing bisa diwenehake marang wong sing dudu panganggo Mochi."
+
 #: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "AI"
 msgstr "AI"
@@ -221,6 +225,10 @@ msgstr "Ana kaluputan"
 #: ../../../lib/web/src/lib/error-normalizer.ts
 msgid "An unexpected error occurred"
 msgstr "Ana kaluputan sing ora dikarepake"
+
+#: src/features/help/phone.tsx
+msgid "Android"
+msgstr "Android"
 
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
@@ -438,6 +446,10 @@ msgstr "Diowahi"
 msgid "Changed {field}"
 msgstr "{field} diowahi"
 
+#: src/features/help/phone.tsx
+msgid "Changes made on the device appear in People, and changes made in People appear on the device."
+msgstr "Owahan sing digawe ing piranti katon ing Wong, lan owahan sing digawe ing Wong katon ing piranti."
+
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Checkbox"
 msgstr "Kothak centhang"
@@ -454,6 +466,14 @@ msgstr "Pilih game saka sidebar utawa miwiti sing anyar."
 #: ../../../lib/web/src/components/language-picker.tsx
 msgid "Choose language"
 msgstr "Pilih basa"
+
+#: src/features/help/phone.tsx
+msgid "Choose Login with URL and user name, enter the address book URL as the base URL, then the username and the password."
+msgstr "Pilih Mlebu nganggo URL lan jeneng panganggo, lebokna URL buku alamat minangka URL dhasar, banjur jeneng panganggo lan tembung sandhi."
+
+#: src/features/help/phone.tsx
+msgid "Choose the address books to add."
+msgstr "Pilih buku alamat sing arep ditambahake."
 
 #: ../../../lib/web/src/components/banner-section.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
@@ -472,6 +492,14 @@ msgstr "Resiki kabèh"
 #: ../../../lib/web/src/components/search-input.tsx
 msgid "Clear search"
 msgstr "Resiki panggolékan"
+
+#: src/features/help/phone.tsx
+msgid "Clients that ask for a URL, such as Thunderbird and most others, take the address book URL instead of the server."
+msgstr "Klien sing njaluk URL, kayata Thunderbird lan akeh-akehe liyane, nganggo URL buku alamat minangka ganti server."
+
+#: src/features/help/phone.tsx
+msgid "Clients that find the server by name, such as iPhone, iPad, Mac Contacts and DAVx5 on Android, need the server, the username and the password."
+msgstr "Klien sing nemokake server miturut jenenge, kayata iPhone, iPad, Kontak Mac lan DAVx5 ing Android, butuh server, jeneng panganggo lan tembung sandhi."
 
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
@@ -570,6 +598,11 @@ msgstr "Konfigurasi setèlan tampilan"
 msgid "Confirm"
 msgstr "Konfirmasi"
 
+#: src/features/help/index.tsx
+#: src/features/help/phone.tsx
+msgid "Connect your phone"
+msgstr "Sambungake teleponmu"
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connected"
 msgstr "Wis nyambung"
@@ -649,6 +682,14 @@ msgstr "Gawé"
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Create {entityLabel}"
 msgstr "Gawé {entityLabel}"
+
+#: src/features/help/phone.tsx
+msgid "Create a credential for the device"
+msgstr "Gawé kredensial kanggo piranti"
+
+#: src/features/help/phone.tsx
+msgid "Create a separate credential for each device, so a lost device can be revoked without affecting the others."
+msgstr "Gawé kredensial dhewe-dhewe kanggo saben piranti, supaya piranti sing ilang bisa dicabut tanpa ngganggu liyane."
 
 #: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx
 msgid "Create new item"
@@ -766,6 +807,10 @@ msgstr "Dibusak"
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted {field}"
 msgstr "{field} dibusak"
+
+#: src/features/help/phone.tsx
+msgid "Deleting a friend's card on the device removes the contact and ends the friendship, exactly as deleting it in People does."
+msgstr "Mbusak kertu kanca ing piranti bakal mbusak kontak lan mungkasi kekancan, persis kaya mbusak ing Wong."
 
 #: ../../../lib/web/src/components/ui/sort-direction-button.tsx
 msgid "Descending"
@@ -903,6 +948,10 @@ msgstr "Email"
 msgid "Email code"
 msgstr "Kode email"
 
+#: src/features/help/phone.tsx
+msgid "Enable the address books it finds. Your contacts then appear in the phone's Contacts app."
+msgstr "Aktifake buku alamat sing ditemokake. Kontakmu banjur katon ing aplikasi Kontak ing telepon."
+
 #: ../../../lib/web/src/components/banner-section.tsx
 msgid "Enter banner text (markdown supported)..."
 msgstr "Lebokna teks banner (markdown didukung)..."
@@ -911,6 +960,14 @@ msgstr "Lebokna teks banner (markdown didukung)..."
 msgid "Enter the code from your email"
 msgstr "Ketik kode saka email panjenengan"
 
+#: src/features/help/phone.tsx
+msgid "Enter the server, your username and the password, and a description such as Mochi."
+msgstr "Lebokna server, jeneng panganggomu lan tembung sandhi, sarta katrangan kayata Mochi."
+
+#: src/features/help/phone.tsx
+msgid "Enter the username, and the address book URL as the location. Enter the password when asked."
+msgstr "Lebokna jeneng panganggo, lan URL buku alamat minangka lokasi. Lebokna tembung sandhi yen dijaluk."
+
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Enter your authenticator code"
 msgstr "Lebokna kode authenticator sampeyan"
@@ -918,6 +975,10 @@ msgstr "Lebokna kode authenticator sampeyan"
 #: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx
 msgid "Error"
 msgstr "Kesalahan"
+
+#: src/features/help/phone.tsx
+msgid "Every address book listed in the People sidebar is offered to the device."
+msgstr "Saben buku alamat sing kacathet ing bilah sisih Wong ditawakake marang piranti."
 
 #: ../../../lib/web/src/components/comment-tree-layout.tsx
 #: ../../../lib/web/src/components/comment-tree-layout.tsx
@@ -1110,6 +1171,7 @@ msgid "Group: {0}"
 msgstr "Grup: {0}"
 
 #: src/features/help/index.tsx
+#: src/features/help/phone.tsx
 #: src/routes/_authenticated/document/privacy.tsx
 #: src/routes/_authenticated/document/rules.tsx
 #: src/routes/_authenticated/document/terms.tsx
@@ -1149,6 +1211,10 @@ msgstr "Panampil gambar: {0}"
 msgid "Imperial"
 msgstr "Imperial"
 
+#: src/features/help/phone.tsx
+msgid "In People, choose <0>Connect a device</0> in the sidebar."
+msgstr "Ing Wong, pilih <0>Sambungake piranti</0> ing bilah sisih."
+
 #: ../../../lib/web/src/features/access/types.ts
 msgid "Including anonymous users"
 msgstr "Kalebu panganggo anonim"
@@ -1160,6 +1226,10 @@ msgstr "Avatar inisial"
 #: ../../../lib/web/src/components/faceless-avatar.tsx
 msgid "Initials avatar for {name}"
 msgstr "Avatar inisial kanggo {name}"
+
+#: src/features/help/phone.tsx
+msgid "Install DAVx5 from F-Droid or Google Play."
+msgstr "Instal DAVx5 saka F-Droid utawa Google Play."
 
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Interest {weight}"
@@ -1177,6 +1247,10 @@ msgstr "Kenalna awakmu"
 #: ../../../lib/web/src/components/entity/entity-field-editor.tsx
 msgid "Invalid date"
 msgstr "Tanggal ora valid"
+
+#: src/features/help/phone.tsx
+msgid "iPhone and iPad"
+msgstr "iPhone lan iPad"
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "It seems like the page you're looking for <0/>does not exist or might have been removed."
@@ -1314,6 +1388,10 @@ msgstr "Idin mikropon ditolak"
 msgid "Minimum length"
 msgstr "Dawa paling sithik"
 
+#: src/features/help/phone.tsx
+msgid "Mochi keeps your contacts in the People app. Any phone, tablet or computer that supports CardDAV can sync them."
+msgstr "Mochi nyimpen kontakmu ing aplikasi Wong. Telepon, tablet utawa komputer apa wae sing ndhukung CardDAV bisa nyelarasake kontak-kontak kasebut."
+
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Mochi web"
 msgstr "Web Mochi"
@@ -1357,6 +1435,10 @@ msgstr "Jeneng kudu diisi"
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Name must be 1000 characters or less"
 msgstr "Jeneng kudu 1000 karakter utawa kurang"
+
+#: src/features/help/phone.tsx
+msgid "Name the device and create the credential. The dialog shows the server, the address book URL, the username and a password."
+msgstr "Wenehana jeneng piranti lan gawé kredensial. Dialog nuduhake server, URL buku alamat, jeneng panganggo lan tembung sandhi."
 
 #: ../../../lib/web/src/features/errors/general-error.tsx
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
@@ -1506,6 +1588,10 @@ msgstr "Nomer"
 msgid "On"
 msgstr "Urip"
 
+#: src/features/help/phone.tsx
+msgid "On a Mac, open Contacts › Settings › Accounts, add an account, choose Other Contacts Account, then CardDAV and Manual, and enter the same details."
+msgstr "Ing Mac, bukak Kontak › Setelan › Akun, tambahake akun, pilih Akun Kontak Liyane, banjur CardDAV lan Manual, lan lebokna rincian sing padha."
+
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
 msgstr "Adhuh! Kaca Ora Ditemokaké!"
@@ -1513,6 +1599,10 @@ msgstr "Adhuh! Kaca Ora Ditemokaké!"
 #: ../../../lib/web/src/components/layout/nav-group.tsx
 msgid "Open actions"
 msgstr "Bukak tumindak"
+
+#: src/features/help/phone.tsx
+msgid "Open Address Book › New Address Book › Add CardDAV Address Book."
+msgstr "Bukak Buku Alamat › Buku Alamat Anyar › Tambah Buku Alamat CardDAV."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"
@@ -1530,6 +1620,10 @@ msgstr "Bukak aksi opsi"
 #: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx
 msgid "Open selected card"
 msgstr "Bukak kertu sing dipilih"
+
+#: src/features/help/phone.tsx
+msgid "Open Settings › Contacts › Accounts › Add Account › Other › Add CardDAV Account."
+msgstr "Bukak Setelan › Kontak › Akun › Tambah Akun › Liyane › Tambah Akun CardDAV."
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Open view actions"
@@ -2016,6 +2110,10 @@ msgstr "Atur asal lan tujuan"
 msgid "Settings"
 msgstr "Setelan"
 
+#: src/features/help/phone.tsx
+msgid "Sharing with others"
+msgstr "Nuduhake karo wong liya"
+
 #: src/features/help/contribute-dialog.tsx
 msgid "Short title for your idea"
 msgstr "Judul cendhak kanggo idemu"
@@ -2140,6 +2238,10 @@ msgstr "Minggu"
 msgid "Switch to view 1-9"
 msgstr "Pindah menyang tampilan 1-9"
 
+#: src/features/help/index.tsx
+msgid "Sync your Mochi contacts with your phone, tablet or computer over CardDAV."
+msgstr "Selarasake kontak Mochi-mu karo telepon, tablet utawa komputermu liwat CardDAV."
+
 #: ../../../lib/web/src/components/audit-timeline.tsx
 #: ../../../lib/web/src/lib/preference-utils.ts
 #: ../../../lib/web/src/lib/preference-utils.ts
@@ -2206,6 +2308,10 @@ msgstr "Panjaluk mikrofon ora diwangsuli"
 msgid "The passkey request was not answered"
 msgstr "Panjaluk passkey ora diwangsuli"
 
+#: src/features/help/phone.tsx
+msgid "The password is shown only once, so copy it into the device before closing the dialog. If it is lost, delete the device under <0>Manage devices</0> and create a new one."
+msgstr "Tembung sandhi mung ditampilake sepisan, dadi salinen menyang piranti sadurunge nutup dialog. Yen ilang, busak piranti ing <0>Kelola piranti</0> lan gawé sing anyar."
+
 #: ../../../lib/web/src/features/errors/general-error.tsx
 msgid "The requested content could not be found."
 msgstr "Konten sing dijaluk ora bisa ditemokake."
@@ -2221,6 +2327,10 @@ msgstr "Aplikasi iki ora diidini nggunakake passkey sampeyan. Idini ing Setelan,
 #: ../../../lib/web/src/components/game/game-end-dialogs.tsx
 msgid "This permanently deletes the game and its chat. This cannot be undone."
 msgstr "Iki bakal mbusak game lan obrolane kanthi permanen. Tindakan iki ora bisa dibatalake."
+
+#: src/features/help/phone.tsx
+msgid "Thunderbird"
+msgstr "Thunderbird"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Thursday"
@@ -2451,6 +2561,10 @@ msgstr "Apa sing kedadeyan"
 msgid "What have you tried, what did you expect, where are you stuck?"
 msgstr "Apa sing wis dicoba, apa sing dikarepake, ing endi sampeyan macet?"
 
+#: src/features/help/phone.tsx
+msgid "What syncs"
+msgstr "Apa sing diselarasake"
+
 #: src/features/help/contribute-dialog.tsx
 msgid "What would it do, who is it for, why does it matter?"
 msgstr "Apa fungsine, kanggo sapa, kenapa penting?"
@@ -2458,6 +2572,10 @@ msgstr "Apa fungsine, kanggo sapa, kenapa penting?"
 #: src/features/help/contribute-dialog.tsx
 msgid "What you want to ask, in one line"
 msgstr "Apa sing arep ditakokake, ing siji baris"
+
+#: src/features/help/phone.tsx
+msgid "Which details to enter"
+msgstr "Rincian sing kudu dilebokake"
 
 #: ../../../lib/web/src/features/errors/general-error.tsx
 msgid "You do not have access to this section."

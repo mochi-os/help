@@ -11,6 +11,7 @@
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as AuthenticatedRouteRouteImport } from './routes/_authenticated/route'
 import { Route as AuthenticatedIndexRouteImport } from './routes/_authenticated/index'
+import { Route as AuthenticatedPhoneRouteImport } from './routes/_authenticated/phone'
 import { Route as AuthenticatedDocumentPrivacyRouteImport } from './routes/_authenticated/document/privacy'
 import { Route as AuthenticatedDocumentRulesRouteImport } from './routes/_authenticated/document/rules'
 import { Route as AuthenticatedDocumentTermsRouteImport } from './routes/_authenticated/document/terms'
@@ -22,6 +23,11 @@ const AuthenticatedRouteRoute = AuthenticatedRouteRouteImport.update({
 const AuthenticatedIndexRoute = AuthenticatedIndexRouteImport.update({
   id: '/',
   path: '/',
+  getParentRoute: () => AuthenticatedRouteRoute,
+} as any)
+const AuthenticatedPhoneRoute = AuthenticatedPhoneRouteImport.update({
+  id: '/phone',
+  path: '/phone',
   getParentRoute: () => AuthenticatedRouteRoute,
 } as any)
 const AuthenticatedDocumentPrivacyRoute =
@@ -45,11 +51,13 @@ const AuthenticatedDocumentTermsRoute =
 
 export interface FileRoutesByFullPath {
   '/': typeof AuthenticatedIndexRoute
+  '/phone': typeof AuthenticatedPhoneRoute
   '/document/privacy': typeof AuthenticatedDocumentPrivacyRoute
   '/document/rules': typeof AuthenticatedDocumentRulesRoute
   '/document/terms': typeof AuthenticatedDocumentTermsRoute
 }
 export interface FileRoutesByTo {
+  '/phone': typeof AuthenticatedPhoneRoute
   '/': typeof AuthenticatedIndexRoute
   '/document/privacy': typeof AuthenticatedDocumentPrivacyRoute
   '/document/rules': typeof AuthenticatedDocumentRulesRoute
@@ -58,6 +66,7 @@ export interface FileRoutesByTo {
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/_authenticated': typeof AuthenticatedRouteRouteWithChildren
+  '/_authenticated/phone': typeof AuthenticatedPhoneRoute
   '/_authenticated/': typeof AuthenticatedIndexRoute
   '/_authenticated/document/privacy': typeof AuthenticatedDocumentPrivacyRoute
   '/_authenticated/document/rules': typeof AuthenticatedDocumentRulesRoute
@@ -65,12 +74,15 @@ export interface FileRoutesById {
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/document/privacy' | '/document/rules' | '/document/terms'
+  fullPaths:
+    '/' | '/phone' | '/document/privacy' | '/document/rules' | '/document/terms'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/document/privacy' | '/document/rules' | '/document/terms'
+  to:
+    '/phone' | '/' | '/document/privacy' | '/document/rules' | '/document/terms'
   id:
     | '__root__'
     | '/_authenticated'
+    | '/_authenticated/phone'
     | '/_authenticated/'
     | '/_authenticated/document/privacy'
     | '/_authenticated/document/rules'
@@ -95,6 +107,13 @@ declare module '@tanstack/react-router' {
       path: '/'
       fullPath: '/'
       preLoaderRoute: typeof AuthenticatedIndexRouteImport
+      parentRoute: typeof AuthenticatedRouteRoute
+    }
+    '/_authenticated/phone': {
+      id: '/_authenticated/phone'
+      path: '/phone'
+      fullPath: '/phone'
+      preLoaderRoute: typeof AuthenticatedPhoneRouteImport
       parentRoute: typeof AuthenticatedRouteRoute
     }
     '/_authenticated/document/privacy': {
@@ -122,6 +141,7 @@ declare module '@tanstack/react-router' {
 }
 
 interface AuthenticatedRouteRouteChildren {
+  AuthenticatedPhoneRoute: typeof AuthenticatedPhoneRoute
   AuthenticatedIndexRoute: typeof AuthenticatedIndexRoute
   AuthenticatedDocumentPrivacyRoute: typeof AuthenticatedDocumentPrivacyRoute
   AuthenticatedDocumentRulesRoute: typeof AuthenticatedDocumentRulesRoute
@@ -129,6 +149,7 @@ interface AuthenticatedRouteRouteChildren {
 }
 
 const AuthenticatedRouteRouteChildren: AuthenticatedRouteRouteChildren = {
+  AuthenticatedPhoneRoute: AuthenticatedPhoneRoute,
   AuthenticatedIndexRoute: AuthenticatedIndexRoute,
   AuthenticatedDocumentPrivacyRoute: AuthenticatedDocumentPrivacyRoute,
   AuthenticatedDocumentRulesRoute: AuthenticatedDocumentRulesRoute,

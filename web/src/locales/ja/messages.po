@@ -201,6 +201,10 @@ msgstr "既存の通知に追加"
 msgid "Add view"
 msgstr "ビューを追加"
 
+#: src/features/help/phone.tsx
+msgid "Address books are private to your account, so there is nothing to give to someone who is not a Mochi user."
+msgstr "アドレス帳はアカウントに固有の非公開データなので、Mochi ユーザーでない人に渡せるものはありません。"
+
 #: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "AI"
 msgstr "AI"
@@ -221,6 +225,10 @@ msgstr "エラーが発生しました"
 #: ../../../lib/web/src/lib/error-normalizer.ts
 msgid "An unexpected error occurred"
 msgstr "予期しないエラーが発生しました"
+
+#: src/features/help/phone.tsx
+msgid "Android"
+msgstr "Android"
 
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
@@ -438,6 +446,10 @@ msgstr "変更しました"
 msgid "Changed {field}"
 msgstr "{field}を変更しました"
 
+#: src/features/help/phone.tsx
+msgid "Changes made on the device appear in People, and changes made in People appear on the device."
+msgstr "デバイスで行った変更はピープルに反映され、ピープルで行った変更はデバイスに反映されます。"
+
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Checkbox"
 msgstr "チェックボックス"
@@ -454,6 +466,14 @@ msgstr "サイドバーからゲームを選ぶか、新しいゲームを始め
 #: ../../../lib/web/src/components/language-picker.tsx
 msgid "Choose language"
 msgstr "言語を選択"
+
+#: src/features/help/phone.tsx
+msgid "Choose Login with URL and user name, enter the address book URL as the base URL, then the username and the password."
+msgstr "「URL とユーザー名でログイン」を選び、ベース URL としてアドレス帳の URL を入力し、続けてユーザー名とパスワードを入力します。"
+
+#: src/features/help/phone.tsx
+msgid "Choose the address books to add."
+msgstr "追加するアドレス帳を選びます。"
 
 #: ../../../lib/web/src/components/banner-section.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
@@ -472,6 +492,14 @@ msgstr "すべてクリア"
 #: ../../../lib/web/src/components/search-input.tsx
 msgid "Clear search"
 msgstr "検索をクリア"
+
+#: src/features/help/phone.tsx
+msgid "Clients that ask for a URL, such as Thunderbird and most others, take the address book URL instead of the server."
+msgstr "Thunderbird など、URL の入力を求めるクライアントの多くは、サーバーの代わりにアドレス帳の URL を使います。"
+
+#: src/features/help/phone.tsx
+msgid "Clients that find the server by name, such as iPhone, iPad, Mac Contacts and DAVx5 on Android, need the server, the username and the password."
+msgstr "iPhone、iPad、Mac の連絡先、Android の DAVx5 など、名前からサーバーを見つけるクライアントに必要なのは、サーバー、ユーザー名、パスワードだけです。"
 
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
@@ -570,6 +598,11 @@ msgstr "ビューの設定"
 msgid "Confirm"
 msgstr "確認"
 
+#: src/features/help/index.tsx
+#: src/features/help/phone.tsx
+msgid "Connect your phone"
+msgstr "スマートフォンを接続する"
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connected"
 msgstr "接続済み"
@@ -649,6 +682,14 @@ msgstr "作成"
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Create {entityLabel}"
 msgstr "{entityLabel}を作成"
+
+#: src/features/help/phone.tsx
+msgid "Create a credential for the device"
+msgstr "デバイス用の認証情報を作成する"
+
+#: src/features/help/phone.tsx
+msgid "Create a separate credential for each device, so a lost device can be revoked without affecting the others."
+msgstr "デバイスごとに別の認証情報を作成しておくと、紛失したデバイスだけを他に影響なく無効にできます。"
 
 #: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx
 msgid "Create new item"
@@ -766,6 +807,10 @@ msgstr "削除しました"
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted {field}"
 msgstr "{field}を削除しました"
+
+#: src/features/help/phone.tsx
+msgid "Deleting a friend's card on the device removes the contact and ends the friendship, exactly as deleting it in People does."
+msgstr "デバイスで友達のカードを削除すると、ピープルで削除した場合とまったく同じように、連絡先が削除され友達関係も終了します。"
 
 #: ../../../lib/web/src/components/ui/sort-direction-button.tsx
 msgid "Descending"
@@ -903,6 +948,10 @@ msgstr "メールアドレス"
 msgid "Email code"
 msgstr "メールコード"
 
+#: src/features/help/phone.tsx
+msgid "Enable the address books it finds. Your contacts then appear in the phone's Contacts app."
+msgstr "見つかったアドレス帳を有効にします。連絡先がスマートフォンの連絡先アプリに表示されます。"
+
 #: ../../../lib/web/src/components/banner-section.tsx
 msgid "Enter banner text (markdown supported)..."
 msgstr "バナーテキストを入力（Markdown対応）…"
@@ -911,6 +960,14 @@ msgstr "バナーテキストを入力（Markdown対応）…"
 msgid "Enter the code from your email"
 msgstr "メールに記載されたコードを入力してください"
 
+#: src/features/help/phone.tsx
+msgid "Enter the server, your username and the password, and a description such as Mochi."
+msgstr "サーバー、ユーザー名、パスワードと、Mochi などの説明を入力します。"
+
+#: src/features/help/phone.tsx
+msgid "Enter the username, and the address book URL as the location. Enter the password when asked."
+msgstr "ユーザー名を入力し、場所にはアドレス帳の URL を入力します。求められたらパスワードを入力します。"
+
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Enter your authenticator code"
 msgstr "認証アプリのコードを入力"
@@ -918,6 +975,10 @@ msgstr "認証アプリのコードを入力"
 #: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx
 msgid "Error"
 msgstr "エラー"
+
+#: src/features/help/phone.tsx
+msgid "Every address book listed in the People sidebar is offered to the device."
+msgstr "ピープルのサイドバーに表示されているすべてのアドレス帳がデバイスに提供されます。"
 
 #: ../../../lib/web/src/components/comment-tree-layout.tsx
 #: ../../../lib/web/src/components/comment-tree-layout.tsx
@@ -1110,6 +1171,7 @@ msgid "Group: {0}"
 msgstr "グループ: {0}"
 
 #: src/features/help/index.tsx
+#: src/features/help/phone.tsx
 #: src/routes/_authenticated/document/privacy.tsx
 #: src/routes/_authenticated/document/rules.tsx
 #: src/routes/_authenticated/document/terms.tsx
@@ -1149,6 +1211,10 @@ msgstr "画像ビューアー: {0}"
 msgid "Imperial"
 msgstr "ヤード・ポンド法"
 
+#: src/features/help/phone.tsx
+msgid "In People, choose <0>Connect a device</0> in the sidebar."
+msgstr "ピープルのサイドバーで<0>デバイスを接続</0>を選びます。"
+
 #: ../../../lib/web/src/features/access/types.ts
 msgid "Including anonymous users"
 msgstr "匿名ユーザーを含む"
@@ -1160,6 +1226,10 @@ msgstr "イニシャルのアバター"
 #: ../../../lib/web/src/components/faceless-avatar.tsx
 msgid "Initials avatar for {name}"
 msgstr "{name} のイニシャルのアバター"
+
+#: src/features/help/phone.tsx
+msgid "Install DAVx5 from F-Droid or Google Play."
+msgstr "F-Droid または Google Play から DAVx5 をインストールします。"
 
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Interest {weight}"
@@ -1177,6 +1247,10 @@ msgstr "自己紹介"
 #: ../../../lib/web/src/components/entity/entity-field-editor.tsx
 msgid "Invalid date"
 msgstr "無効な日付"
+
+#: src/features/help/phone.tsx
+msgid "iPhone and iPad"
+msgstr "iPhone と iPad"
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "It seems like the page you're looking for <0/>does not exist or might have been removed."
@@ -1314,6 +1388,10 @@ msgstr "マイクの権限が拒否されました"
 msgid "Minimum length"
 msgstr "最小長"
 
+#: src/features/help/phone.tsx
+msgid "Mochi keeps your contacts in the People app. Any phone, tablet or computer that supports CardDAV can sync them."
+msgstr "Mochi は連絡先をピープルアプリに保存しています。CardDAV に対応したスマートフォン、タブレット、パソコンなら、それらを同期できます。"
+
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Mochi web"
 msgstr "Mochiウェブ"
@@ -1357,6 +1435,10 @@ msgstr "名前が必要です"
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Name must be 1000 characters or less"
 msgstr "名前は1000文字以下にしてください"
+
+#: src/features/help/phone.tsx
+msgid "Name the device and create the credential. The dialog shows the server, the address book URL, the username and a password."
+msgstr "デバイスに名前を付けて認証情報を作成します。ダイアログにサーバー、アドレス帳の URL、ユーザー名、パスワードが表示されます。"
 
 #: ../../../lib/web/src/features/errors/general-error.tsx
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
@@ -1506,6 +1588,10 @@ msgstr "数値"
 msgid "On"
 msgstr "オン"
 
+#: src/features/help/phone.tsx
+msgid "On a Mac, open Contacts › Settings › Accounts, add an account, choose Other Contacts Account, then CardDAV and Manual, and enter the same details."
+msgstr "Mac では、連絡先 › 設定 › アカウントを開き、アカウントを追加して、「その他の連絡先アカウント」、続けて CardDAV と「手動」を選び、同じ情報を入力します。"
+
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
 msgstr "ページが見つかりません!"
@@ -1513,6 +1599,10 @@ msgstr "ページが見つかりません!"
 #: ../../../lib/web/src/components/layout/nav-group.tsx
 msgid "Open actions"
 msgstr "操作メニューを開く"
+
+#: src/features/help/phone.tsx
+msgid "Open Address Book › New Address Book › Add CardDAV Address Book."
+msgstr "アドレス帳 › 新しいアドレス帳 › CardDAV アドレス帳を追加 を開きます。"
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"
@@ -1530,6 +1620,10 @@ msgstr "オプションのアクションを開く"
 #: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx
 msgid "Open selected card"
 msgstr "選択中のカードを開く"
+
+#: src/features/help/phone.tsx
+msgid "Open Settings › Contacts › Accounts › Add Account › Other › Add CardDAV Account."
+msgstr "設定 › 連絡先 › アカウント › アカウントを追加 › その他 › CardDAV アカウントを追加 を開きます。"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Open view actions"
@@ -2016,6 +2110,10 @@ msgstr "出発地と目的地を設定"
 msgid "Settings"
 msgstr "設定"
 
+#: src/features/help/phone.tsx
+msgid "Sharing with others"
+msgstr "他の人との共有"
+
 #: src/features/help/contribute-dialog.tsx
 msgid "Short title for your idea"
 msgstr "アイデアの短いタイトル"
@@ -2140,6 +2238,10 @@ msgstr "日曜日"
 msgid "Switch to view 1-9"
 msgstr "ビュー 1〜9 に切り替え"
 
+#: src/features/help/index.tsx
+msgid "Sync your Mochi contacts with your phone, tablet or computer over CardDAV."
+msgstr "CardDAV を使って、Mochi の連絡先をスマートフォン、タブレット、パソコンと同期します。"
+
 #: ../../../lib/web/src/components/audit-timeline.tsx
 #: ../../../lib/web/src/lib/preference-utils.ts
 #: ../../../lib/web/src/lib/preference-utils.ts
@@ -2206,6 +2308,10 @@ msgstr "マイクの要求に応答がありませんでした"
 msgid "The passkey request was not answered"
 msgstr "パスキーの要求に応答がありませんでした"
 
+#: src/features/help/phone.tsx
+msgid "The password is shown only once, so copy it into the device before closing the dialog. If it is lost, delete the device under <0>Manage devices</0> and create a new one."
+msgstr "パスワードは一度しか表示されないので、ダイアログを閉じる前にデバイスにコピーしてください。紛失した場合は、<0>デバイスを管理</0>でそのデバイスを削除し、新しく作成します。"
+
 #: ../../../lib/web/src/features/errors/general-error.tsx
 msgid "The requested content could not be found."
 msgstr "リクエストされたコンテンツが見つかりませんでした。"
@@ -2221,6 +2327,10 @@ msgstr "このアプリはパスキーの使用を許可されていません。
 #: ../../../lib/web/src/components/game/game-end-dialogs.tsx
 msgid "This permanently deletes the game and its chat. This cannot be undone."
 msgstr "この操作でゲームとそのチャットが完全に削除されます。この操作は元に戻せません。"
+
+#: src/features/help/phone.tsx
+msgid "Thunderbird"
+msgstr "Thunderbird"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Thursday"
@@ -2451,6 +2561,10 @@ msgstr "何が起きたか"
 msgid "What have you tried, what did you expect, where are you stuck?"
 msgstr "何を試して、何を期待していて、どこで詰まっていますか?"
 
+#: src/features/help/phone.tsx
+msgid "What syncs"
+msgstr "同期されるもの"
+
 #: src/features/help/contribute-dialog.tsx
 msgid "What would it do, who is it for, why does it matter?"
 msgstr "何をするものですか?誰のためのものですか?なぜ重要ですか?"
@@ -2458,6 +2572,10 @@ msgstr "何をするものですか?誰のためのものですか?なぜ重要�
 #: src/features/help/contribute-dialog.tsx
 msgid "What you want to ask, in one line"
 msgstr "聞きたいことを一行で"
+
+#: src/features/help/phone.tsx
+msgid "Which details to enter"
+msgstr "入力する情報"
 
 #: ../../../lib/web/src/features/errors/general-error.tsx
 msgid "You do not have access to this section."

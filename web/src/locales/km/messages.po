@@ -201,6 +201,10 @@ msgstr "បន្ថែមទៅការជូនដំណឹងដែលមា
 msgid "Add view"
 msgstr "បន្ថែមទិដ្ឋភាព"
 
+#: src/features/help/phone.tsx
+msgid "Address books are private to your account, so there is nothing to give to someone who is not a Mochi user."
+msgstr "សៀវភៅអាសយដ្ឋានជារបស់ឯកជនសម្រាប់គណនីរបស់អ្នក ដូច្នេះគ្មានអ្វីត្រូវផ្តល់ឱ្យអ្នកដែលមិនមែនជាអ្នកប្រើប្រាស់ Mochi ទេ។"
+
 #: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "AI"
 msgstr "AI"
@@ -221,6 +225,10 @@ msgstr "មានកំហុសកើតឡើង"
 #: ../../../lib/web/src/lib/error-normalizer.ts
 msgid "An unexpected error occurred"
 msgstr "មានកំហុសដែលមិនបានរំពឹងទុកកើតឡើង"
+
+#: src/features/help/phone.tsx
+msgid "Android"
+msgstr "Android"
 
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
@@ -438,6 +446,10 @@ msgstr "បានផ្លាស់ប្ដូរ"
 msgid "Changed {field}"
 msgstr "បានផ្លាស់ប្ដូរ {field}"
 
+#: src/features/help/phone.tsx
+msgid "Changes made on the device appear in People, and changes made in People appear on the device."
+msgstr "ការផ្លាស់ប្តូរដែលធ្វើនៅលើឧបករណ៍នឹងបង្ហាញនៅក្នុងកម្មវិធី មនុស្ស ហើយការផ្លាស់ប្តូរដែលធ្វើនៅក្នុងកម្មវិធី មនុស្ស នឹងបង្ហាញនៅលើឧបករណ៍។"
+
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Checkbox"
 msgstr "ប្រអប់ធីក"
@@ -454,6 +466,14 @@ msgstr "ជ្រើសរើសហ្គេមពីរបារចំហៀង
 #: ../../../lib/web/src/components/language-picker.tsx
 msgid "Choose language"
 msgstr "ជ្រើសរើសភាសា"
+
+#: src/features/help/phone.tsx
+msgid "Choose Login with URL and user name, enter the address book URL as the base URL, then the username and the password."
+msgstr "ជ្រើសរើស ចូលដោយប្រើ URL និងឈ្មោះអ្នកប្រើប្រាស់ បញ្ចូល URL សៀវភៅអាសយដ្ឋានជា URL មូលដ្ឋាន បន្ទាប់មកឈ្មោះអ្នកប្រើប្រាស់ និងពាក្យសម្ងាត់។"
+
+#: src/features/help/phone.tsx
+msgid "Choose the address books to add."
+msgstr "ជ្រើសរើសសៀវភៅអាសយដ្ឋានដែលត្រូវបន្ថែម។"
 
 #: ../../../lib/web/src/components/banner-section.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
@@ -472,6 +492,14 @@ msgstr "សម្អាតទាំងអស់"
 #: ../../../lib/web/src/components/search-input.tsx
 msgid "Clear search"
 msgstr "សម្អាតការស្វែងរក"
+
+#: src/features/help/phone.tsx
+msgid "Clients that ask for a URL, such as Thunderbird and most others, take the address book URL instead of the server."
+msgstr "កម្មវិធីដែលសុំ URL ដូចជា Thunderbird និងកម្មវិធីផ្សេងទៀតភាគច្រើន ប្រើ URL សៀវភៅអាសយដ្ឋានជំនួសឱ្យម៉ាស៊ីនមេ។"
+
+#: src/features/help/phone.tsx
+msgid "Clients that find the server by name, such as iPhone, iPad, Mac Contacts and DAVx5 on Android, need the server, the username and the password."
+msgstr "កម្មវិធីដែលស្វែងរកម៉ាស៊ីនមេតាមឈ្មោះ ដូចជា iPhone, iPad, ទំនាក់ទំនងរបស់ Mac និង DAVx5 នៅលើ Android ត្រូវការម៉ាស៊ីនមេ ឈ្មោះអ្នកប្រើប្រាស់ និងពាក្យសម្ងាត់។"
 
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
@@ -570,6 +598,11 @@ msgstr "កំណត់រចនាសម្ព័ន្ធការកំណត
 msgid "Confirm"
 msgstr "បញ្ជាក់"
 
+#: src/features/help/index.tsx
+#: src/features/help/phone.tsx
+msgid "Connect your phone"
+msgstr "ភ្ជាប់ទូរសព្ទរបស់អ្នក"
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connected"
 msgstr "បានភ្ជាប់"
@@ -649,6 +682,14 @@ msgstr "បង្កើត"
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Create {entityLabel}"
 msgstr "បង្កើត {entityLabel}"
+
+#: src/features/help/phone.tsx
+msgid "Create a credential for the device"
+msgstr "បង្កើតព័ត៌មានសម្គាល់សម្រាប់ឧបករណ៍"
+
+#: src/features/help/phone.tsx
+msgid "Create a separate credential for each device, so a lost device can be revoked without affecting the others."
+msgstr "បង្កើតព័ត៌មានសម្គាល់ដាច់ដោយឡែកសម្រាប់ឧបករណ៍នីមួយៗ ដើម្បីឱ្យឧបករណ៍ដែលបាត់អាចត្រូវបានដកសិទ្ធិដោយមិនប៉ះពាល់ដល់ឧបករណ៍ផ្សេងទៀត។"
 
 #: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx
 msgid "Create new item"
@@ -766,6 +807,10 @@ msgstr "បានលុប"
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted {field}"
 msgstr "បានលុប {field}"
+
+#: src/features/help/phone.tsx
+msgid "Deleting a friend's card on the device removes the contact and ends the friendship, exactly as deleting it in People does."
+msgstr "ការលុបកាតរបស់មិត្តនៅលើឧបករណ៍ នឹងដកទំនាក់ទំនងចេញ ហើយបញ្ចប់មិត្តភាព ដូចគ្នានឹងការលុបវានៅក្នុងកម្មវិធី មនុស្ស ដែរ។"
 
 #: ../../../lib/web/src/components/ui/sort-direction-button.tsx
 msgid "Descending"
@@ -903,6 +948,10 @@ msgstr "អ៊ីមែល"
 msgid "Email code"
 msgstr "កូដអ៊ីមែល"
 
+#: src/features/help/phone.tsx
+msgid "Enable the address books it finds. Your contacts then appear in the phone's Contacts app."
+msgstr "បើកសៀវភៅអាសយដ្ឋានដែលវារកឃើញ។ បន្ទាប់មក ទំនាក់ទំនងរបស់អ្នកនឹងបង្ហាញនៅក្នុងកម្មវិធីទំនាក់ទំនងរបស់ទូរសព្ទ។"
+
 #: ../../../lib/web/src/components/banner-section.tsx
 msgid "Enter banner text (markdown supported)..."
 msgstr "បញ្ចូលអត្ថបទផ្ទាំង (គាំទ្រ markdown)..."
@@ -911,6 +960,14 @@ msgstr "បញ្ចូលអត្ថបទផ្ទាំង (គាំទ្�
 msgid "Enter the code from your email"
 msgstr "បញ្ចូលកូដពីអ៊ីមែលរបស់អ្នក"
 
+#: src/features/help/phone.tsx
+msgid "Enter the server, your username and the password, and a description such as Mochi."
+msgstr "បញ្ចូលម៉ាស៊ីនមេ ឈ្មោះអ្នកប្រើប្រាស់របស់អ្នក និងពាក្យសម្ងាត់ ព្រមទាំងការពិពណ៌នាដូចជា Mochi។"
+
+#: src/features/help/phone.tsx
+msgid "Enter the username, and the address book URL as the location. Enter the password when asked."
+msgstr "បញ្ចូលឈ្មោះអ្នកប្រើប្រាស់ និង URL សៀវភៅអាសយដ្ឋានជាទីតាំង។ បញ្ចូលពាក្យសម្ងាត់នៅពេលត្រូវបានសួរ។"
+
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Enter your authenticator code"
 msgstr "បញ្ចូលកូដ authenticator របស់អ្នក"
@@ -918,6 +975,10 @@ msgstr "បញ្ចូលកូដ authenticator របស់អ្នក"
 #: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx
 msgid "Error"
 msgstr "កំហុស"
+
+#: src/features/help/phone.tsx
+msgid "Every address book listed in the People sidebar is offered to the device."
+msgstr "សៀវភៅអាសយដ្ឋាននីមួយៗដែលមាននៅក្នុងរបារចំហៀងនៃកម្មវិធី មនុស្ស ត្រូវបានផ្តល់ជូនឧបករណ៍។"
 
 #: ../../../lib/web/src/components/comment-tree-layout.tsx
 #: ../../../lib/web/src/components/comment-tree-layout.tsx
@@ -1110,6 +1171,7 @@ msgid "Group: {0}"
 msgstr "ក្រុម៖ {0}"
 
 #: src/features/help/index.tsx
+#: src/features/help/phone.tsx
 #: src/routes/_authenticated/document/privacy.tsx
 #: src/routes/_authenticated/document/rules.tsx
 #: src/routes/_authenticated/document/terms.tsx
@@ -1149,6 +1211,10 @@ msgstr "កម្មវិធីមើលរូបភាព៖ {0}"
 msgid "Imperial"
 msgstr "Imperial"
 
+#: src/features/help/phone.tsx
+msgid "In People, choose <0>Connect a device</0> in the sidebar."
+msgstr "នៅក្នុងកម្មវិធី មនុស្ស ជ្រើសរើស <0>ភ្ជាប់ឧបករណ៍</0> នៅក្នុងរបារចំហៀង។"
+
 #: ../../../lib/web/src/features/access/types.ts
 msgid "Including anonymous users"
 msgstr "រួមទាំងអ្នកប្រើអនាមិក"
@@ -1160,6 +1226,10 @@ msgstr "រូបតំណាងអក្សរកាត់"
 #: ../../../lib/web/src/components/faceless-avatar.tsx
 msgid "Initials avatar for {name}"
 msgstr "រូបតំណាងអក្សរកាត់សម្រាប់ {name}"
+
+#: src/features/help/phone.tsx
+msgid "Install DAVx5 from F-Droid or Google Play."
+msgstr "ដំឡើង DAVx5 ពី F-Droid ឬ Google Play។"
 
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Interest {weight}"
@@ -1177,6 +1247,10 @@ msgstr "ណែនាំខ្លួន"
 #: ../../../lib/web/src/components/entity/entity-field-editor.tsx
 msgid "Invalid date"
 msgstr "កាលបរិច្ឆេទមិនត្រឹមត្រូវ"
+
+#: src/features/help/phone.tsx
+msgid "iPhone and iPad"
+msgstr "iPhone និង iPad"
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "It seems like the page you're looking for <0/>does not exist or might have been removed."
@@ -1314,6 +1388,10 @@ msgstr "ការអនុញ្ញាតមីក្រូហ្វូនត្
 msgid "Minimum length"
 msgstr "ប្រវែងអប្បបរមា"
 
+#: src/features/help/phone.tsx
+msgid "Mochi keeps your contacts in the People app. Any phone, tablet or computer that supports CardDAV can sync them."
+msgstr "Mochi រក្សាទុកទំនាក់ទំនងរបស់អ្នកនៅក្នុងកម្មវិធី មនុស្ស។ ទូរសព្ទ ថេប្លេត ឬកុំព្យូទ័រណាមួយដែលគាំទ្រ CardDAV អាចធ្វើសមកាលកម្មពួកវាបាន។"
+
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Mochi web"
 msgstr "Mochi វេប"
@@ -1357,6 +1435,10 @@ msgstr "តម្រូវឱ្យបញ្ចូលឈ្មោះ"
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Name must be 1000 characters or less"
 msgstr "ឈ្មោះត្រូវតែមាន 1000 តួអក្សរ ឬតិចជាង"
+
+#: src/features/help/phone.tsx
+msgid "Name the device and create the credential. The dialog shows the server, the address book URL, the username and a password."
+msgstr "ដាក់ឈ្មោះឧបករណ៍ ហើយបង្កើតព័ត៌មានសម្គាល់។ ប្រអប់សន្ទនាបង្ហាញម៉ាស៊ីនមេ URL សៀវភៅអាសយដ្ឋាន ឈ្មោះអ្នកប្រើប្រាស់ និងពាក្យសម្ងាត់មួយ។"
 
 #: ../../../lib/web/src/features/errors/general-error.tsx
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
@@ -1506,6 +1588,10 @@ msgstr "លេខ"
 msgid "On"
 msgstr "បើក"
 
+#: src/features/help/phone.tsx
+msgid "On a Mac, open Contacts › Settings › Accounts, add an account, choose Other Contacts Account, then CardDAV and Manual, and enter the same details."
+msgstr "នៅលើ Mac សូមបើក ទំនាក់ទំនង › ការកំណត់ › គណនី បន្ថែមគណនី ជ្រើសរើស គណនីទំនាក់ទំនងផ្សេងទៀត បន្ទាប់មក CardDAV និង ដោយដៃ ហើយបញ្ចូលព័ត៌មានលម្អិតដូចគ្នា។"
+
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
 msgstr "អូ! រកមិនឃើញទំព័រ!"
@@ -1513,6 +1599,10 @@ msgstr "អូ! រកមិនឃើញទំព័រ!"
 #: ../../../lib/web/src/components/layout/nav-group.tsx
 msgid "Open actions"
 msgstr "បើកសកម្មភាព"
+
+#: src/features/help/phone.tsx
+msgid "Open Address Book › New Address Book › Add CardDAV Address Book."
+msgstr "បើក សៀវភៅអាសយដ្ឋាន › សៀវភៅអាសយដ្ឋានថ្មី › បន្ថែមសៀវភៅអាសយដ្ឋាន CardDAV។"
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"
@@ -1530,6 +1620,10 @@ msgstr "បើកសកម្មភាពជម្រើស"
 #: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx
 msgid "Open selected card"
 msgstr "បើកកាតដែលបានជ្រើសរើស"
+
+#: src/features/help/phone.tsx
+msgid "Open Settings › Contacts › Accounts › Add Account › Other › Add CardDAV Account."
+msgstr "បើក ការកំណត់ › ទំនាក់ទំនង › គណនី › បន្ថែមគណនី › ផ្សេងៗ › បន្ថែមគណនី CardDAV។"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Open view actions"
@@ -2016,6 +2110,10 @@ msgstr "កំណត់ចំណុចចេញដំណើរ និងគោ�
 msgid "Settings"
 msgstr "ការកំណត់"
 
+#: src/features/help/phone.tsx
+msgid "Sharing with others"
+msgstr "ចែករំលែកជាមួយអ្នកដទៃ"
+
 #: src/features/help/contribute-dialog.tsx
 msgid "Short title for your idea"
 msgstr "ចំណងជើងខ្លីសម្រាប់គំនិតរបស់អ្នក"
@@ -2140,6 +2238,10 @@ msgstr "ថ្ងៃអាទិត្យ"
 msgid "Switch to view 1-9"
 msgstr "ប្តូរទៅទិដ្ឋភាព 1-9"
 
+#: src/features/help/index.tsx
+msgid "Sync your Mochi contacts with your phone, tablet or computer over CardDAV."
+msgstr "ធ្វើសមកាលកម្មទំនាក់ទំនង Mochi របស់អ្នកជាមួយទូរសព្ទ ថេប្លេត ឬកុំព្យូទ័ររបស់អ្នកតាមរយៈ CardDAV។"
+
 #: ../../../lib/web/src/components/audit-timeline.tsx
 #: ../../../lib/web/src/lib/preference-utils.ts
 #: ../../../lib/web/src/lib/preference-utils.ts
@@ -2206,6 +2308,10 @@ msgstr "សំណើមីក្រូហ្វូនមិនត្រូវប
 msgid "The passkey request was not answered"
 msgstr "សំណើ passkey មិនត្រូវបានឆ្លើយតបទេ"
 
+#: src/features/help/phone.tsx
+msgid "The password is shown only once, so copy it into the device before closing the dialog. If it is lost, delete the device under <0>Manage devices</0> and create a new one."
+msgstr "ពាក្យសម្ងាត់បង្ហាញតែម្តងប៉ុណ្ណោះ ដូច្នេះសូមចម្លងវាទៅឧបករណ៍មុនពេលបិទប្រអប់សន្ទនា។ ប្រសិនបើវាបាត់ សូមលុបឧបករណ៍នៅក្រោម <0>គ្រប់គ្រងឧបករណ៍</0> ហើយបង្កើតថ្មីមួយ។"
+
 #: ../../../lib/web/src/features/errors/general-error.tsx
 msgid "The requested content could not be found."
 msgstr "រកមិនឃើញខ្លឹមសារដែលបានស្នើសុំទេ។"
@@ -2221,6 +2327,10 @@ msgstr "កម្មវិធីនេះមិនត្រូវបានអន
 #: ../../../lib/web/src/components/game/game-end-dialogs.tsx
 msgid "This permanently deletes the game and its chat. This cannot be undone."
 msgstr "សកម្មភាពនេះនឹងលុបហ្គេម និងជជែកកំសាន្តរបស់វាជាអចិន្ត្រៃយ៍។ សកម្មភាពនេះមិនអាចត្រឡប់វិញបានទេ។"
+
+#: src/features/help/phone.tsx
+msgid "Thunderbird"
+msgstr "Thunderbird"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Thursday"
@@ -2451,6 +2561,10 @@ msgstr "មានអ្វីកើតឡើង"
 msgid "What have you tried, what did you expect, where are you stuck?"
 msgstr "តើអ្នកបានសាកល្បងអ្វី តើអ្នករំពឹងអ្វី តើអ្នកជាប់ត្រង់ណា?"
 
+#: src/features/help/phone.tsx
+msgid "What syncs"
+msgstr "អ្វីដែលត្រូវធ្វើសមកាលកម្ម"
+
 #: src/features/help/contribute-dialog.tsx
 msgid "What would it do, who is it for, why does it matter?"
 msgstr "វានឹងធ្វើអ្វី? សម្រាប់នរណា? ហេតុអ្វីបានជាសំខាន់?"
@@ -2458,6 +2572,10 @@ msgstr "វានឹងធ្វើអ្វី? សម្រាប់នរណ�
 #: src/features/help/contribute-dialog.tsx
 msgid "What you want to ask, in one line"
 msgstr "អ្វីដែលអ្នកចង់សួរ ក្នុងមួយជួរ"
+
+#: src/features/help/phone.tsx
+msgid "Which details to enter"
+msgstr "ព័ត៌មានលម្អិតដែលត្រូវបញ្ចូល"
 
 #: ../../../lib/web/src/features/errors/general-error.tsx
 msgid "You do not have access to this section."

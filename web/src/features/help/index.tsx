@@ -6,16 +6,22 @@ import { useEffect, useState } from 'react'
 import { Link } from '@tanstack/react-router'
 import { Trans, useLingui } from '@lingui/react/macro'
 import { Card, Main, PageHeader } from '@mochi/web'
-import { Bug, HelpCircle, Lightbulb, Sparkles } from 'lucide-react'
+import {
+  Bug,
+  HelpCircle,
+  Lightbulb,
+  Smartphone,
+  Sparkles,
+} from 'lucide-react'
 import { helpApi, type Kind } from '@/api/help'
 import { ContributeDialog } from '@/features/help/contribute-dialog'
 
-interface CardConfig {
-  kind: Kind
+// A card either opens a contribute dialog (kind) or links to a page (to).
+type CardConfig = {
   icon: typeof Sparkles
   title: string
   description: string
-}
+} & ({ kind: Kind; to?: never } | { kind?: never; to: '/phone' })
 
 function useCards(): CardConfig[] {
   const { t } = useLingui()
@@ -44,6 +50,12 @@ function useCards(): CardConfig[] {
       title: t`Suggest a new feature`,
       description: t`Got an idea? Open a feature request on the Mochi development project.`,
     },
+    {
+      to: '/phone',
+      icon: Smartphone,
+      title: t`Connect your phone`,
+      description: t`Sync your Mochi contacts with your phone, tablet or computer over CardDAV.`,
+    },
   ]
 }
 
@@ -71,13 +83,8 @@ export function Help() {
       <Main className='flex flex-1 flex-col'>
         <div className='mx-auto w-full max-w-3xl flex-1 px-4 py-6 sm:px-6 lg:px-8'>
           <div className='grid grid-cols-1 gap-4 sm:grid-cols-2'>
-            {cards.map((card) => (
-              <button
-                key={card.kind}
-                type='button'
-                onClick={() => handleCardClick(card.kind)}
-                className='text-left'
-              >
+            {cards.map((card) => {
+              const body = (
                 <Card className='hover:border-primary/40 hover:bg-hover h-full p-6 transition-all duration-200'>
                   <div className='bg-primary/10 text-primary mb-3 flex h-10 w-10 items-center justify-center rounded-lg'>
                     <card.icon className='h-5 w-5' />
@@ -87,8 +94,25 @@ export function Help() {
                     {card.description}
                   </p>
                 </Card>
-              </button>
-            ))}
+              )
+              if (card.to) {
+                return (
+                  <Link key={card.to} to={card.to} className='text-left'>
+                    {body}
+                  </Link>
+                )
+              }
+              return (
+                <button
+                  key={card.kind}
+                  type='button'
+                  onClick={() => handleCardClick(card.kind)}
+                  className='text-left'
+                >
+                  {body}
+                </button>
+              )
+            })}
           </div>
         </div>
         <p className='text-muted-foreground space-x-2 pt-2 pb-6 text-center text-sm'>

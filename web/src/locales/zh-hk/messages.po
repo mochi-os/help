@@ -201,6 +201,10 @@ msgstr ""
 msgid "Add view"
 msgstr ""
 
+#: src/features/help/phone.tsx
+msgid "Address books are private to your account, so there is nothing to give to someone who is not a Mochi user."
+msgstr ""
+
 #: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "AI"
 msgstr ""
@@ -220,6 +224,10 @@ msgstr ""
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
 #: ../../../lib/web/src/lib/error-normalizer.ts
 msgid "An unexpected error occurred"
+msgstr ""
+
+#: src/features/help/phone.tsx
+msgid "Android"
 msgstr ""
 
 #: ../../../lib/web/src/features/accounts/types.ts
@@ -438,6 +446,10 @@ msgstr ""
 msgid "Changed {field}"
 msgstr ""
 
+#: src/features/help/phone.tsx
+msgid "Changes made on the device appear in People, and changes made in People appear on the device."
+msgstr ""
+
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Checkbox"
 msgstr ""
@@ -453,6 +465,14 @@ msgstr ""
 #: ../../../lib/web/src/components/language-picker.tsx
 #: ../../../lib/web/src/components/language-picker.tsx
 msgid "Choose language"
+msgstr ""
+
+#: src/features/help/phone.tsx
+msgid "Choose Login with URL and user name, enter the address book URL as the base URL, then the username and the password."
+msgstr ""
+
+#: src/features/help/phone.tsx
+msgid "Choose the address books to add."
 msgstr ""
 
 #: ../../../lib/web/src/components/banner-section.tsx
@@ -471,6 +491,14 @@ msgstr ""
 
 #: ../../../lib/web/src/components/search-input.tsx
 msgid "Clear search"
+msgstr ""
+
+#: src/features/help/phone.tsx
+msgid "Clients that ask for a URL, such as Thunderbird and most others, take the address book URL instead of the server."
+msgstr ""
+
+#: src/features/help/phone.tsx
+msgid "Clients that find the server by name, such as iPhone, iPad, Mac Contacts and DAVx5 on Android, need the server, the username and the password."
 msgstr ""
 
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
@@ -570,6 +598,11 @@ msgstr ""
 msgid "Confirm"
 msgstr ""
 
+#: src/features/help/index.tsx
+#: src/features/help/phone.tsx
+msgid "Connect your phone"
+msgstr ""
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connected"
 msgstr ""
@@ -648,6 +681,14 @@ msgstr ""
 
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Create {entityLabel}"
+msgstr ""
+
+#: src/features/help/phone.tsx
+msgid "Create a credential for the device"
+msgstr ""
+
+#: src/features/help/phone.tsx
+msgid "Create a separate credential for each device, so a lost device can be revoked without affecting the others."
 msgstr ""
 
 #: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx
@@ -765,6 +806,10 @@ msgstr ""
 
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted {field}"
+msgstr ""
+
+#: src/features/help/phone.tsx
+msgid "Deleting a friend's card on the device removes the contact and ends the friendship, exactly as deleting it in People does."
 msgstr ""
 
 #: ../../../lib/web/src/components/ui/sort-direction-button.tsx
@@ -903,6 +948,10 @@ msgstr ""
 msgid "Email code"
 msgstr ""
 
+#: src/features/help/phone.tsx
+msgid "Enable the address books it finds. Your contacts then appear in the phone's Contacts app."
+msgstr ""
+
 #: ../../../lib/web/src/components/banner-section.tsx
 msgid "Enter banner text (markdown supported)..."
 msgstr ""
@@ -911,12 +960,24 @@ msgstr ""
 msgid "Enter the code from your email"
 msgstr ""
 
+#: src/features/help/phone.tsx
+msgid "Enter the server, your username and the password, and a description such as Mochi."
+msgstr ""
+
+#: src/features/help/phone.tsx
+msgid "Enter the username, and the address book URL as the location. Enter the password when asked."
+msgstr ""
+
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Enter your authenticator code"
 msgstr ""
 
 #: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx
 msgid "Error"
+msgstr ""
+
+#: src/features/help/phone.tsx
+msgid "Every address book listed in the People sidebar is offered to the device."
 msgstr ""
 
 #: ../../../lib/web/src/components/comment-tree-layout.tsx
@@ -1110,6 +1171,7 @@ msgid "Group: {0}"
 msgstr ""
 
 #: src/features/help/index.tsx
+#: src/features/help/phone.tsx
 #: src/routes/_authenticated/document/privacy.tsx
 #: src/routes/_authenticated/document/rules.tsx
 #: src/routes/_authenticated/document/terms.tsx
@@ -1149,6 +1211,10 @@ msgstr ""
 msgid "Imperial"
 msgstr ""
 
+#: src/features/help/phone.tsx
+msgid "In People, choose <0>Connect a device</0> in the sidebar."
+msgstr ""
+
 #: ../../../lib/web/src/features/access/types.ts
 msgid "Including anonymous users"
 msgstr ""
@@ -1159,6 +1225,10 @@ msgstr ""
 
 #: ../../../lib/web/src/components/faceless-avatar.tsx
 msgid "Initials avatar for {name}"
+msgstr ""
+
+#: src/features/help/phone.tsx
+msgid "Install DAVx5 from F-Droid or Google Play."
 msgstr ""
 
 #: ../../../lib/web/src/components/post-tags.tsx
@@ -1176,6 +1246,10 @@ msgstr ""
 
 #: ../../../lib/web/src/components/entity/entity-field-editor.tsx
 msgid "Invalid date"
+msgstr ""
+
+#: src/features/help/phone.tsx
+msgid "iPhone and iPad"
 msgstr ""
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
@@ -1314,6 +1388,10 @@ msgstr ""
 msgid "Minimum length"
 msgstr ""
 
+#: src/features/help/phone.tsx
+msgid "Mochi keeps your contacts in the People app. Any phone, tablet or computer that supports CardDAV can sync them."
+msgstr ""
+
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Mochi web"
 msgstr ""
@@ -1356,6 +1434,10 @@ msgstr ""
 
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Name must be 1000 characters or less"
+msgstr ""
+
+#: src/features/help/phone.tsx
+msgid "Name the device and create the credential. The dialog shows the server, the address book URL, the username and a password."
 msgstr ""
 
 #: ../../../lib/web/src/features/errors/general-error.tsx
@@ -1506,12 +1588,20 @@ msgstr ""
 msgid "On"
 msgstr ""
 
+#: src/features/help/phone.tsx
+msgid "On a Mac, open Contacts › Settings › Accounts, add an account, choose Other Contacts Account, then CardDAV and Manual, and enter the same details."
+msgstr ""
+
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
 msgstr ""
 
 #: ../../../lib/web/src/components/layout/nav-group.tsx
 msgid "Open actions"
+msgstr ""
+
+#: src/features/help/phone.tsx
+msgid "Open Address Book › New Address Book › Add CardDAV Address Book."
 msgstr ""
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
@@ -1529,6 +1619,10 @@ msgstr ""
 
 #: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx
 msgid "Open selected card"
+msgstr ""
+
+#: src/features/help/phone.tsx
+msgid "Open Settings › Contacts › Accounts › Add Account › Other › Add CardDAV Account."
 msgstr ""
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
@@ -2016,6 +2110,10 @@ msgstr ""
 msgid "Settings"
 msgstr ""
 
+#: src/features/help/phone.tsx
+msgid "Sharing with others"
+msgstr ""
+
 #: src/features/help/contribute-dialog.tsx
 msgid "Short title for your idea"
 msgstr ""
@@ -2140,6 +2238,10 @@ msgstr ""
 msgid "Switch to view 1-9"
 msgstr ""
 
+#: src/features/help/index.tsx
+msgid "Sync your Mochi contacts with your phone, tablet or computer over CardDAV."
+msgstr ""
+
 #: ../../../lib/web/src/components/audit-timeline.tsx
 #: ../../../lib/web/src/lib/preference-utils.ts
 #: ../../../lib/web/src/lib/preference-utils.ts
@@ -2206,6 +2308,10 @@ msgstr ""
 msgid "The passkey request was not answered"
 msgstr ""
 
+#: src/features/help/phone.tsx
+msgid "The password is shown only once, so copy it into the device before closing the dialog. If it is lost, delete the device under <0>Manage devices</0> and create a new one."
+msgstr ""
+
 #: ../../../lib/web/src/features/errors/general-error.tsx
 msgid "The requested content could not be found."
 msgstr ""
@@ -2220,6 +2326,10 @@ msgstr ""
 
 #: ../../../lib/web/src/components/game/game-end-dialogs.tsx
 msgid "This permanently deletes the game and its chat. This cannot be undone."
+msgstr ""
+
+#: src/features/help/phone.tsx
+msgid "Thunderbird"
 msgstr ""
 
 #: ../../../lib/web/src/lib/preference-utils.ts
@@ -2451,12 +2561,20 @@ msgstr ""
 msgid "What have you tried, what did you expect, where are you stuck?"
 msgstr ""
 
+#: src/features/help/phone.tsx
+msgid "What syncs"
+msgstr ""
+
 #: src/features/help/contribute-dialog.tsx
 msgid "What would it do, who is it for, why does it matter?"
 msgstr ""
 
 #: src/features/help/contribute-dialog.tsx
 msgid "What you want to ask, in one line"
+msgstr ""
+
+#: src/features/help/phone.tsx
+msgid "Which details to enter"
 msgstr ""
 
 #: ../../../lib/web/src/features/errors/general-error.tsx

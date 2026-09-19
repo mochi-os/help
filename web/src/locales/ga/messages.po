@@ -201,6 +201,10 @@ msgstr "Cuir le fógraí atá ann cheana"
 msgid "Add view"
 msgstr "Cuir radharc leis"
 
+#: src/features/help/phone.tsx
+msgid "Address books are private to your account, so there is nothing to give to someone who is not a Mochi user."
+msgstr "Tá leabhair seoltaí príobháideach do do chuntas, mar sin níl aon rud le tabhairt do dhuine nach úsáideoir Mochi é."
+
 #: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "AI"
 msgstr "AI"
@@ -221,6 +225,10 @@ msgstr "Tharla earráid"
 #: ../../../lib/web/src/lib/error-normalizer.ts
 msgid "An unexpected error occurred"
 msgstr "Tharla earráid gan choinne"
+
+#: src/features/help/phone.tsx
+msgid "Android"
+msgstr "Android"
 
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
@@ -438,6 +446,10 @@ msgstr "Athraithe"
 msgid "Changed {field}"
 msgstr "Athraíodh {field}"
 
+#: src/features/help/phone.tsx
+msgid "Changes made on the device appear in People, and changes made in People appear on the device."
+msgstr "Feictear athruithe a dhéantar ar an ngléas san aip Daoine, agus feictear athruithe a dhéantar san aip Daoine ar an ngléas."
+
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Checkbox"
 msgstr "Ticbhosca"
@@ -454,6 +466,14 @@ msgstr "Roghnaigh cluiche ón mbarra taoibh nó tosaigh ceann nua."
 #: ../../../lib/web/src/components/language-picker.tsx
 msgid "Choose language"
 msgstr "Roghnaigh teanga"
+
+#: src/features/help/phone.tsx
+msgid "Choose Login with URL and user name, enter the address book URL as the base URL, then the username and the password."
+msgstr "Roghnaigh Logáil isteach le URL agus ainm úsáideora, cuir isteach URL an leabhair seoltaí mar an bun-URL, ansin an t-ainm úsáideora agus an pasfhocal."
+
+#: src/features/help/phone.tsx
+msgid "Choose the address books to add."
+msgstr "Roghnaigh na leabhair seoltaí le cur leis."
 
 #: ../../../lib/web/src/components/banner-section.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
@@ -472,6 +492,14 @@ msgstr "Glan an t-iomlán"
 #: ../../../lib/web/src/components/search-input.tsx
 msgid "Clear search"
 msgstr "Glan cuardach"
+
+#: src/features/help/phone.tsx
+msgid "Clients that ask for a URL, such as Thunderbird and most others, take the address book URL instead of the server."
+msgstr "Úsáideann cliaint a iarrann URL, mar Thunderbird agus an chuid is mó eile, URL an leabhair seoltaí in áit an fhreastalaí."
+
+#: src/features/help/phone.tsx
+msgid "Clients that find the server by name, such as iPhone, iPad, Mac Contacts and DAVx5 on Android, need the server, the username and the password."
+msgstr "Teastaíonn an freastalaí, an t-ainm úsáideora agus an pasfhocal ó chliaint a aimsíonn an freastalaí de réir ainm, mar iPhone, iPad, Teagmhálaithe Mac agus DAVx5 ar Android."
 
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
@@ -570,6 +598,11 @@ msgstr "Cumraigh socruithe an radhairc"
 msgid "Confirm"
 msgstr "Deimhnigh"
 
+#: src/features/help/index.tsx
+#: src/features/help/phone.tsx
+msgid "Connect your phone"
+msgstr "Ceangail do ghuthán"
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connected"
 msgstr "Ceangailte"
@@ -649,6 +682,14 @@ msgstr "Cruthaigh"
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Create {entityLabel}"
 msgstr "Cruthaigh {entityLabel}"
+
+#: src/features/help/phone.tsx
+msgid "Create a credential for the device"
+msgstr "Cruthaigh dintiúr don ghléas"
+
+#: src/features/help/phone.tsx
+msgid "Create a separate credential for each device, so a lost device can be revoked without affecting the others."
+msgstr "Cruthaigh dintiúr ar leith do gach gléas, ionas gur féidir gléas caillte a chúlghairm gan tionchar a imirt ar na cinn eile."
 
 #: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx
 msgid "Create new item"
@@ -766,6 +807,10 @@ msgstr "Scriosta"
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted {field}"
 msgstr "Scriosadh {field}"
+
+#: src/features/help/phone.tsx
+msgid "Deleting a friend's card on the device removes the contact and ends the friendship, exactly as deleting it in People does."
+msgstr "Nuair a scriostar cárta cara ar an ngléas, baintear an teagmháil agus cuirtear deireadh leis an gcairdeas, díreach mar a tharlaíonn nuair a scriostar é san aip Daoine."
 
 #: ../../../lib/web/src/components/ui/sort-direction-button.tsx
 msgid "Descending"
@@ -903,6 +948,10 @@ msgstr "Ríomhphost"
 msgid "Email code"
 msgstr "Cód ríomhphoist"
 
+#: src/features/help/phone.tsx
+msgid "Enable the address books it finds. Your contacts then appear in the phone's Contacts app."
+msgstr "Cumasaigh na leabhair seoltaí a aimsíonn sé. Ansin feictear do theagmhálaithe in aip Teagmhálaithe an ghutháin."
+
 #: ../../../lib/web/src/components/banner-section.tsx
 msgid "Enter banner text (markdown supported)..."
 msgstr "Iontráil téacs meirge (tacaíonn markdown)..."
@@ -911,6 +960,14 @@ msgstr "Iontráil téacs meirge (tacaíonn markdown)..."
 msgid "Enter the code from your email"
 msgstr "Cuir isteach an cód ó do ríomhphost"
 
+#: src/features/help/phone.tsx
+msgid "Enter the server, your username and the password, and a description such as Mochi."
+msgstr "Cuir isteach an freastalaí, d'ainm úsáideora agus an pasfhocal, agus cur síos mar Mochi."
+
+#: src/features/help/phone.tsx
+msgid "Enter the username, and the address book URL as the location. Enter the password when asked."
+msgstr "Cuir isteach an t-ainm úsáideora, agus URL an leabhair seoltaí mar an suíomh. Cuir isteach an pasfhocal nuair a iarrtar é."
+
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Enter your authenticator code"
 msgstr "Cuir isteach cód d'aip fhíordheimhnithe"
@@ -918,6 +975,10 @@ msgstr "Cuir isteach cód d'aip fhíordheimhnithe"
 #: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx
 msgid "Error"
 msgstr "Earráid"
+
+#: src/features/help/phone.tsx
+msgid "Every address book listed in the People sidebar is offered to the device."
+msgstr "Tairgtear don ghléas gach leabhar seoltaí atá liostaithe i dtaobh-bharra na haipe Daoine."
 
 #: ../../../lib/web/src/components/comment-tree-layout.tsx
 #: ../../../lib/web/src/components/comment-tree-layout.tsx
@@ -1110,6 +1171,7 @@ msgid "Group: {0}"
 msgstr "Grúpa: {0}"
 
 #: src/features/help/index.tsx
+#: src/features/help/phone.tsx
 #: src/routes/_authenticated/document/privacy.tsx
 #: src/routes/_authenticated/document/rules.tsx
 #: src/routes/_authenticated/document/terms.tsx
@@ -1149,6 +1211,10 @@ msgstr "Amharcán íomhánna: {0}"
 msgid "Imperial"
 msgstr "Impiriúil"
 
+#: src/features/help/phone.tsx
+msgid "In People, choose <0>Connect a device</0> in the sidebar."
+msgstr "San aip Daoine, roghnaigh <0>Ceangail gléas</0> sa taobh-bharra."
+
 #: ../../../lib/web/src/features/access/types.ts
 msgid "Including anonymous users"
 msgstr "Úsáideoirí gan ainm san áireamh"
@@ -1160,6 +1226,10 @@ msgstr "Abhatár túslitreacha"
 #: ../../../lib/web/src/components/faceless-avatar.tsx
 msgid "Initials avatar for {name}"
 msgstr "Abhatár túslitreacha do {name}"
+
+#: src/features/help/phone.tsx
+msgid "Install DAVx5 from F-Droid or Google Play."
+msgstr "Suiteáil DAVx5 ó F-Droid nó Google Play."
 
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Interest {weight}"
@@ -1177,6 +1247,10 @@ msgstr "Cuir tú féin in aithne"
 #: ../../../lib/web/src/components/entity/entity-field-editor.tsx
 msgid "Invalid date"
 msgstr "Dáta neamhbhailí"
+
+#: src/features/help/phone.tsx
+msgid "iPhone and iPad"
+msgstr "iPhone agus iPad"
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "It seems like the page you're looking for <0/>does not exist or might have been removed."
@@ -1314,6 +1388,10 @@ msgstr "Diúltaíodh cead an mhicreafóin"
 msgid "Minimum length"
 msgstr "Fad íosta"
 
+#: src/features/help/phone.tsx
+msgid "Mochi keeps your contacts in the People app. Any phone, tablet or computer that supports CardDAV can sync them."
+msgstr "Coinníonn Mochi do theagmhálaithe san aip Daoine. Is féidir le haon ghuthán, táibléad nó ríomhaire a thacaíonn le CardDAV iad a shioncrónú."
+
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Mochi web"
 msgstr "Mochi gréasáin"
@@ -1357,6 +1435,10 @@ msgstr "Tá ainm riachtanach"
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Name must be 1000 characters or less"
 msgstr "Caithfidh an t-ainm a bheith 1000 carachtar nó níos lú"
+
+#: src/features/help/phone.tsx
+msgid "Name the device and create the credential. The dialog shows the server, the address book URL, the username and a password."
+msgstr "Tabhair ainm don ghléas agus cruthaigh an dintiúr. Taispeánann an dialóg an freastalaí, URL an leabhair seoltaí, an t-ainm úsáideora agus pasfhocal."
 
 #: ../../../lib/web/src/features/errors/general-error.tsx
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
@@ -1506,6 +1588,10 @@ msgstr "Uimhir"
 msgid "On"
 msgstr "Ann"
 
+#: src/features/help/phone.tsx
+msgid "On a Mac, open Contacts › Settings › Accounts, add an account, choose Other Contacts Account, then CardDAV and Manual, and enter the same details."
+msgstr "Ar Mac, oscail Teagmhálaithe › Socruithe › Cuntais, cuir cuntas leis, roghnaigh Cuntas Teagmhálaithe Eile, ansin CardDAV agus De Láimh, agus cuir isteach na sonraí céanna."
+
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
 msgstr "Úps! Níor aimsíodh an leathanach!"
@@ -1513,6 +1599,10 @@ msgstr "Úps! Níor aimsíodh an leathanach!"
 #: ../../../lib/web/src/components/layout/nav-group.tsx
 msgid "Open actions"
 msgstr "Oscail gníomhartha"
+
+#: src/features/help/phone.tsx
+msgid "Open Address Book › New Address Book › Add CardDAV Address Book."
+msgstr "Oscail Leabhar Seoltaí › Leabhar Seoltaí Nua › Cuir Leabhar Seoltaí CardDAV Leis."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"
@@ -1530,6 +1620,10 @@ msgstr "Oscail gníomhartha rogha"
 #: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx
 msgid "Open selected card"
 msgstr "Oscail an cárta roghnaithe"
+
+#: src/features/help/phone.tsx
+msgid "Open Settings › Contacts › Accounts › Add Account › Other › Add CardDAV Account."
+msgstr "Oscail Socruithe › Teagmhálaithe › Cuntais › Cuir Cuntas Leis › Eile › Cuir Cuntas CardDAV Leis."
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Open view actions"
@@ -2016,6 +2110,10 @@ msgstr "Socraigh an bunús agus an ceann scríbe"
 msgid "Settings"
 msgstr "Socruithe"
 
+#: src/features/help/phone.tsx
+msgid "Sharing with others"
+msgstr "Comhroinnt le daoine eile"
+
 #: src/features/help/contribute-dialog.tsx
 msgid "Short title for your idea"
 msgstr "Teideal gairid do do smaoineamh"
@@ -2140,6 +2238,10 @@ msgstr "Domhnach"
 msgid "Switch to view 1-9"
 msgstr "Athraigh go radharc 1-9"
 
+#: src/features/help/index.tsx
+msgid "Sync your Mochi contacts with your phone, tablet or computer over CardDAV."
+msgstr "Sioncrónaigh do theagmhálaithe Mochi le do ghuthán, do tháibléad nó do ríomhaire thar CardDAV."
+
 #: ../../../lib/web/src/components/audit-timeline.tsx
 #: ../../../lib/web/src/lib/preference-utils.ts
 #: ../../../lib/web/src/lib/preference-utils.ts
@@ -2206,6 +2308,10 @@ msgstr "Níor freagraíodh an t-iarratas micreafóin"
 msgid "The passkey request was not answered"
 msgstr "Níor freagraíodh an t-iarratas pasluí"
 
+#: src/features/help/phone.tsx
+msgid "The password is shown only once, so copy it into the device before closing the dialog. If it is lost, delete the device under <0>Manage devices</0> and create a new one."
+msgstr "Ní thaispeántar an pasfhocal ach uair amháin, mar sin cóipeáil isteach sa ghléas é sula ndúnann tú an dialóg. Má chailltear é, scrios an gléas faoi <0>Bainistigh gléasanna</0> agus cruthaigh ceann nua."
+
 #: ../../../lib/web/src/features/errors/general-error.tsx
 msgid "The requested content could not be found."
 msgstr "Níorbh fhéidir an t-ábhar iarrtha a aimsiú."
@@ -2221,6 +2327,10 @@ msgstr "Níl cead ag an aip seo do phasluí a úsáid. Ceadaigh é i Socruithe, 
 #: ../../../lib/web/src/components/game/game-end-dialogs.tsx
 msgid "This permanently deletes the game and its chat. This cannot be undone."
 msgstr "Scriosfaidh sé seo an cluiche agus a chomhrá go buan. Ní féidir é seo a chur ar ceal."
+
+#: src/features/help/phone.tsx
+msgid "Thunderbird"
+msgstr "Thunderbird"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Thursday"
@@ -2451,6 +2561,10 @@ msgstr "Cad a tharla"
 msgid "What have you tried, what did you expect, where are you stuck?"
 msgstr "Cad atá triailte agat, cad a bhí á shúil agat, cá bhfuil tú sáinnithe?"
 
+#: src/features/help/phone.tsx
+msgid "What syncs"
+msgstr "Cad a shioncrónaítear"
+
 #: src/features/help/contribute-dialog.tsx
 msgid "What would it do, who is it for, why does it matter?"
 msgstr "Cad a dhéanfadh sí, cé dó í, cén fáth a bhfuil sí tábhachtach?"
@@ -2458,6 +2572,10 @@ msgstr "Cad a dhéanfadh sí, cé dó í, cén fáth a bhfuil sí tábhachtach?"
 #: src/features/help/contribute-dialog.tsx
 msgid "What you want to ask, in one line"
 msgstr "Cad atá uait a fhiafraí, in aon líne amháin"
+
+#: src/features/help/phone.tsx
+msgid "Which details to enter"
+msgstr "Cé na sonraí le cur isteach"
 
 #: ../../../lib/web/src/features/errors/general-error.tsx
 msgid "You do not have access to this section."

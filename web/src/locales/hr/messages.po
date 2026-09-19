@@ -201,6 +201,10 @@ msgstr "Dodaj postojećim obavijestima"
 msgid "Add view"
 msgstr "Dodaj prikaz"
 
+#: src/features/help/phone.tsx
+msgid "Address books are private to your account, so there is nothing to give to someone who is not a Mochi user."
+msgstr "Adresari su privatni i pripadaju vašem računu, pa nema što dati nekome tko nije korisnik Mochija."
+
 #: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "AI"
 msgstr "AI"
@@ -221,6 +225,10 @@ msgstr "Došlo je do pogreške"
 #: ../../../lib/web/src/lib/error-normalizer.ts
 msgid "An unexpected error occurred"
 msgstr "Došlo je do neočekivane pogreške"
+
+#: src/features/help/phone.tsx
+msgid "Android"
+msgstr "Android"
 
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
@@ -438,6 +446,10 @@ msgstr "Promijenjeno"
 msgid "Changed {field}"
 msgstr "Promijenjeno {field}"
 
+#: src/features/help/phone.tsx
+msgid "Changes made on the device appear in People, and changes made in People appear on the device."
+msgstr "Promjene napravljene na uređaju pojavljuju se u Ljudima, a promjene napravljene u Ljudima pojavljuju se na uređaju."
+
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Checkbox"
 msgstr "Potvrdni okvir"
@@ -454,6 +466,14 @@ msgstr "Odaberite igru iz bočne trake ili započnite novu."
 #: ../../../lib/web/src/components/language-picker.tsx
 msgid "Choose language"
 msgstr "Odaberite jezik"
+
+#: src/features/help/phone.tsx
+msgid "Choose Login with URL and user name, enter the address book URL as the base URL, then the username and the password."
+msgstr "Odaberite Prijava s URL-om i korisničkim imenom, unesite URL adresara kao osnovni URL, a zatim korisničko ime i lozinku."
+
+#: src/features/help/phone.tsx
+msgid "Choose the address books to add."
+msgstr "Odaberite adresare koje želite dodati."
 
 #: ../../../lib/web/src/components/banner-section.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
@@ -472,6 +492,14 @@ msgstr "Očisti sve"
 #: ../../../lib/web/src/components/search-input.tsx
 msgid "Clear search"
 msgstr "Očisti pretragu"
+
+#: src/features/help/phone.tsx
+msgid "Clients that ask for a URL, such as Thunderbird and most others, take the address book URL instead of the server."
+msgstr "Klijenti koji traže URL, poput Thunderbirda i većine drugih, koriste URL adresara umjesto poslužitelja."
+
+#: src/features/help/phone.tsx
+msgid "Clients that find the server by name, such as iPhone, iPad, Mac Contacts and DAVx5 on Android, need the server, the username and the password."
+msgstr "Klijenti koji pronalaze poslužitelj po imenu, poput iPhonea, iPada, Kontakata na Macu i DAVx5 na Androidu, trebaju samo poslužitelj, korisničko ime i lozinku."
 
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
@@ -570,6 +598,11 @@ msgstr "Konfigurirajte postavke prikaza"
 msgid "Confirm"
 msgstr "Potvrdi"
 
+#: src/features/help/index.tsx
+#: src/features/help/phone.tsx
+msgid "Connect your phone"
+msgstr "Povežite svoj telefon"
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connected"
 msgstr "Povezano"
@@ -649,6 +682,14 @@ msgstr "Stvori"
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Create {entityLabel}"
 msgstr "Stvori {entityLabel}"
+
+#: src/features/help/phone.tsx
+msgid "Create a credential for the device"
+msgstr "Stvorite pristupne podatke za uređaj"
+
+#: src/features/help/phone.tsx
+msgid "Create a separate credential for each device, so a lost device can be revoked without affecting the others."
+msgstr "Stvorite zasebne pristupne podatke za svaki uređaj, kako bi se izgubljeni uređaj mogao opozvati bez utjecaja na ostale."
 
 #: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx
 msgid "Create new item"
@@ -766,6 +807,10 @@ msgstr "Izbrisano"
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted {field}"
 msgstr "Izbrisano {field}"
+
+#: src/features/help/phone.tsx
+msgid "Deleting a friend's card on the device removes the contact and ends the friendship, exactly as deleting it in People does."
+msgstr "Brisanje kartice prijatelja na uređaju uklanja kontakt i prekida prijateljstvo, potpuno jednako kao brisanje u Ljudima."
 
 #: ../../../lib/web/src/components/ui/sort-direction-button.tsx
 msgid "Descending"
@@ -903,6 +948,10 @@ msgstr "E-pošta"
 msgid "Email code"
 msgstr "Kod e-pošte"
 
+#: src/features/help/phone.tsx
+msgid "Enable the address books it finds. Your contacts then appear in the phone's Contacts app."
+msgstr "Uključite pronađene adresare. Vaši se kontakti zatim pojavljuju u aplikaciji Kontakti na telefonu."
+
 #: ../../../lib/web/src/components/banner-section.tsx
 msgid "Enter banner text (markdown supported)..."
 msgstr "Unesite tekst natpisa (markdown podržan)..."
@@ -911,6 +960,14 @@ msgstr "Unesite tekst natpisa (markdown podržan)..."
 msgid "Enter the code from your email"
 msgstr "Unesite kôd iz svoje e-pošte"
 
+#: src/features/help/phone.tsx
+msgid "Enter the server, your username and the password, and a description such as Mochi."
+msgstr "Unesite poslužitelj, svoje korisničko ime i lozinku, te opis poput Mochi."
+
+#: src/features/help/phone.tsx
+msgid "Enter the username, and the address book URL as the location. Enter the password when asked."
+msgstr "Unesite korisničko ime i URL adresara kao lokaciju. Unesite lozinku kada se zatraži."
+
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Enter your authenticator code"
 msgstr "Unesite kôd iz aplikacije za autentifikaciju"
@@ -918,6 +975,10 @@ msgstr "Unesite kôd iz aplikacije za autentifikaciju"
 #: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx
 msgid "Error"
 msgstr "Greška"
+
+#: src/features/help/phone.tsx
+msgid "Every address book listed in the People sidebar is offered to the device."
+msgstr "Svaki adresar naveden u bočnoj traci Ljudi nudi se uređaju."
 
 #: ../../../lib/web/src/components/comment-tree-layout.tsx
 #: ../../../lib/web/src/components/comment-tree-layout.tsx
@@ -1110,6 +1171,7 @@ msgid "Group: {0}"
 msgstr "Grupa: {0}"
 
 #: src/features/help/index.tsx
+#: src/features/help/phone.tsx
 #: src/routes/_authenticated/document/privacy.tsx
 #: src/routes/_authenticated/document/rules.tsx
 #: src/routes/_authenticated/document/terms.tsx
@@ -1149,6 +1211,10 @@ msgstr "Preglednik slika: {0}"
 msgid "Imperial"
 msgstr "Imperijalni"
 
+#: src/features/help/phone.tsx
+msgid "In People, choose <0>Connect a device</0> in the sidebar."
+msgstr "U Ljudima odaberite <0>Poveži uređaj</0> u bočnoj traci."
+
 #: ../../../lib/web/src/features/access/types.ts
 msgid "Including anonymous users"
 msgstr "Uključujući anonimne korisnike"
@@ -1160,6 +1226,10 @@ msgstr "Avatar s inicijalima"
 #: ../../../lib/web/src/components/faceless-avatar.tsx
 msgid "Initials avatar for {name}"
 msgstr "Avatar s inicijalima za {name}"
+
+#: src/features/help/phone.tsx
+msgid "Install DAVx5 from F-Droid or Google Play."
+msgstr "Instalirajte DAVx5 s F-Droida ili Google Playa."
 
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Interest {weight}"
@@ -1177,6 +1247,10 @@ msgstr "Predstavite se"
 #: ../../../lib/web/src/components/entity/entity-field-editor.tsx
 msgid "Invalid date"
 msgstr "Nevažeći datum"
+
+#: src/features/help/phone.tsx
+msgid "iPhone and iPad"
+msgstr "iPhone i iPad"
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "It seems like the page you're looking for <0/>does not exist or might have been removed."
@@ -1314,6 +1388,10 @@ msgstr "Dozvola za mikrofon odbijena"
 msgid "Minimum length"
 msgstr "Najmanja duljina"
 
+#: src/features/help/phone.tsx
+msgid "Mochi keeps your contacts in the People app. Any phone, tablet or computer that supports CardDAV can sync them."
+msgstr "Mochi čuva vaše kontakte u aplikaciji Ljudi. Svaki telefon, tablet ili računalo koje podržava CardDAV može ih sinkronizirati."
+
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Mochi web"
 msgstr "Mochi web"
@@ -1357,6 +1435,10 @@ msgstr "Naziv je obavezan"
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Name must be 1000 characters or less"
 msgstr "Naziv mora imati 1000 znakova ili manje"
+
+#: src/features/help/phone.tsx
+msgid "Name the device and create the credential. The dialog shows the server, the address book URL, the username and a password."
+msgstr "Dajte uređaju ime i stvorite pristupne podatke. Dijalog prikazuje poslužitelj, URL adresara, korisničko ime i lozinku."
 
 #: ../../../lib/web/src/features/errors/general-error.tsx
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
@@ -1506,6 +1588,10 @@ msgstr "Broj"
 msgid "On"
 msgstr "Uključeno"
 
+#: src/features/help/phone.tsx
+msgid "On a Mac, open Contacts › Settings › Accounts, add an account, choose Other Contacts Account, then CardDAV and Manual, and enter the same details."
+msgstr "Na Macu otvorite Kontakti › Postavke › Računi, dodajte račun, odaberite Drugi račun za Kontakte, zatim CardDAV i Ručno, i unesite iste podatke."
+
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
 msgstr "Ups! Stranica nije pronađena!"
@@ -1513,6 +1599,10 @@ msgstr "Ups! Stranica nije pronađena!"
 #: ../../../lib/web/src/components/layout/nav-group.tsx
 msgid "Open actions"
 msgstr "Otvori radnje"
+
+#: src/features/help/phone.tsx
+msgid "Open Address Book › New Address Book › Add CardDAV Address Book."
+msgstr "Otvorite Adresar › Novi adresar › Dodaj CardDAV adresar."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"
@@ -1530,6 +1620,10 @@ msgstr "Otvori akcije opcije"
 #: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx
 msgid "Open selected card"
 msgstr "Otvori odabranu karticu"
+
+#: src/features/help/phone.tsx
+msgid "Open Settings › Contacts › Accounts › Add Account › Other › Add CardDAV Account."
+msgstr "Otvorite Postavke › Kontakti › Računi › Dodaj račun › Drugo › Dodaj CardDAV račun."
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Open view actions"
@@ -2016,6 +2110,10 @@ msgstr "Postavi polazište i odredište"
 msgid "Settings"
 msgstr "Postavke"
 
+#: src/features/help/phone.tsx
+msgid "Sharing with others"
+msgstr "Dijeljenje s drugima"
+
 #: src/features/help/contribute-dialog.tsx
 msgid "Short title for your idea"
 msgstr "Kratak naslov vaše ideje"
@@ -2140,6 +2238,10 @@ msgstr "Nedjelja"
 msgid "Switch to view 1-9"
 msgstr "Prebaci na prikaz 1-9"
 
+#: src/features/help/index.tsx
+msgid "Sync your Mochi contacts with your phone, tablet or computer over CardDAV."
+msgstr "Sinkronizirajte svoje Mochi kontakte s telefonom, tabletom ili računalom putem CardDAV-a."
+
 #: ../../../lib/web/src/components/audit-timeline.tsx
 #: ../../../lib/web/src/lib/preference-utils.ts
 #: ../../../lib/web/src/lib/preference-utils.ts
@@ -2206,6 +2308,10 @@ msgstr "Na zahtjev za mikrofon nije odgovoreno"
 msgid "The passkey request was not answered"
 msgstr "Na zahtjev za passkey nije odgovoreno"
 
+#: src/features/help/phone.tsx
+msgid "The password is shown only once, so copy it into the device before closing the dialog. If it is lost, delete the device under <0>Manage devices</0> and create a new one."
+msgstr "Lozinka se prikazuje samo jednom, zato je kopirajte na uređaj prije zatvaranja dijaloga. Ako se izgubi, izbrišite uređaj pod <0>Upravljaj uređajima</0> i stvorite novi."
+
 #: ../../../lib/web/src/features/errors/general-error.tsx
 msgid "The requested content could not be found."
 msgstr "Traženi sadržaj nije moguće pronaći."
@@ -2221,6 +2327,10 @@ msgstr "Ova aplikacija ne smije koristiti vaš passkey. Dopustite joj to u Posta
 #: ../../../lib/web/src/components/game/game-end-dialogs.tsx
 msgid "This permanently deletes the game and its chat. This cannot be undone."
 msgstr "Ovo će trajno izbrisati igru i njezin razgovor. Ova radnja ne može se poništiti."
+
+#: src/features/help/phone.tsx
+msgid "Thunderbird"
+msgstr "Thunderbird"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Thursday"
@@ -2451,6 +2561,10 @@ msgstr "Što se dogodilo"
 msgid "What have you tried, what did you expect, where are you stuck?"
 msgstr "Što si probao, što si očekivao, gdje si zapeo?"
 
+#: src/features/help/phone.tsx
+msgid "What syncs"
+msgstr "Što se sinkronizira"
+
 #: src/features/help/contribute-dialog.tsx
 msgid "What would it do, who is it for, why does it matter?"
 msgstr "Što bi radila, za koga je, zašto je važna?"
@@ -2458,6 +2572,10 @@ msgstr "Što bi radila, za koga je, zašto je važna?"
 #: src/features/help/contribute-dialog.tsx
 msgid "What you want to ask, in one line"
 msgstr "Što želiš pitati, u jednom retku"
+
+#: src/features/help/phone.tsx
+msgid "Which details to enter"
+msgstr "Koje podatke unijeti"
 
 #: ../../../lib/web/src/features/errors/general-error.tsx
 msgid "You do not have access to this section."

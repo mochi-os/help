@@ -201,6 +201,10 @@ msgstr "ప్రస్తుత నోటిఫికేషన్‌లకు �
 msgid "Add view"
 msgstr "వీక్షణను జోడించండి"
 
+#: src/features/help/phone.tsx
+msgid "Address books are private to your account, so there is nothing to give to someone who is not a Mochi user."
+msgstr "చిరునామా పుస్తకాలు మీ ఖాతాకు మాత్రమే పరిమితమైన ప్రైవేట్ సమాచారం, కాబట్టి Mochi వినియోగదారు కాని వ్యక్తికి ఇవ్వడానికి ఏమీ లేదు."
+
 #: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "AI"
 msgstr "AI"
@@ -221,6 +225,10 @@ msgstr "లోపం సంభవించింది"
 #: ../../../lib/web/src/lib/error-normalizer.ts
 msgid "An unexpected error occurred"
 msgstr "ఊహించని లోపం సంభవించింది"
+
+#: src/features/help/phone.tsx
+msgid "Android"
+msgstr "Android"
 
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
@@ -438,6 +446,10 @@ msgstr "మార్చబడింది"
 msgid "Changed {field}"
 msgstr "{field} మార్చబడింది"
 
+#: src/features/help/phone.tsx
+msgid "Changes made on the device appear in People, and changes made in People appear on the device."
+msgstr "పరికరంలో చేసిన మార్పులు వ్యక్తులు యాప్‌లో కనిపిస్తాయి, వ్యక్తులు యాప్‌లో చేసిన మార్పులు పరికరంలో కనిపిస్తాయి."
+
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Checkbox"
 msgstr "చెక్‌బాక్స్"
@@ -454,6 +466,14 @@ msgstr "సైడ్‌బార్ నుండి ఆటను ఎంచుక
 #: ../../../lib/web/src/components/language-picker.tsx
 msgid "Choose language"
 msgstr "భాషను ఎంచుకోండి"
+
+#: src/features/help/phone.tsx
+msgid "Choose Login with URL and user name, enter the address book URL as the base URL, then the username and the password."
+msgstr "URL మరియు యూజర్‌నేమ్‌తో లాగిన్ ఎంచుకోండి, చిరునామా పుస్తకం URLను బేస్ URLగా నమోదు చేయండి, ఆపై యూజర్‌నేమ్ మరియు పాస్‌వర్డ్."
+
+#: src/features/help/phone.tsx
+msgid "Choose the address books to add."
+msgstr "జోడించాల్సిన చిరునామా పుస్తకాలను ఎంచుకోండి."
 
 #: ../../../lib/web/src/components/banner-section.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
@@ -472,6 +492,14 @@ msgstr "అన్నీ క్లియర్ చేయండి"
 #: ../../../lib/web/src/components/search-input.tsx
 msgid "Clear search"
 msgstr "శోధనను క్లియర్ చేయండి"
+
+#: src/features/help/phone.tsx
+msgid "Clients that ask for a URL, such as Thunderbird and most others, take the address book URL instead of the server."
+msgstr "URL అడిగే క్లయింట్‌లు, ఉదాహరణకు Thunderbird మరియు చాలా ఇతర క్లయింట్‌లు, సర్వర్‌కు బదులుగా చిరునామా పుస్తకం URLను తీసుకుంటాయి."
+
+#: src/features/help/phone.tsx
+msgid "Clients that find the server by name, such as iPhone, iPad, Mac Contacts and DAVx5 on Android, need the server, the username and the password."
+msgstr "పేరు ద్వారా సర్వర్‌ను కనుగొనే క్లయింట్‌లకు, ఉదాహరణకు iPhone, iPad, Mac కాంటాక్ట్‌లు మరియు Androidలో DAVx5, సర్వర్, యూజర్‌నేమ్ మరియు పాస్‌వర్డ్ అవసరం."
 
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
@@ -570,6 +598,11 @@ msgstr "వీక్షణ సెట్టింగ్‌లను కాన్�
 msgid "Confirm"
 msgstr "నిర్ధారించండి"
 
+#: src/features/help/index.tsx
+#: src/features/help/phone.tsx
+msgid "Connect your phone"
+msgstr "మీ ఫోన్‌ను కనెక్ట్ చేయండి"
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connected"
 msgstr "కనెక్ట్ చేయబడింది"
@@ -649,6 +682,14 @@ msgstr "సృష్టించండి"
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Create {entityLabel}"
 msgstr "{entityLabel} సృష్టించు"
+
+#: src/features/help/phone.tsx
+msgid "Create a credential for the device"
+msgstr "పరికరం కోసం క్రెడెన్షియల్‌ను సృష్టించండి"
+
+#: src/features/help/phone.tsx
+msgid "Create a separate credential for each device, so a lost device can be revoked without affecting the others."
+msgstr "ప్రతి పరికరానికి వేర్వేరు క్రెడెన్షియల్‌ను సృష్టించండి, తద్వారా పోయిన పరికరాన్ని ఇతర పరికరాలను ప్రభావితం చేయకుండా రద్దు చేయవచ్చు."
 
 #: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx
 msgid "Create new item"
@@ -766,6 +807,10 @@ msgstr "తొలగించబడింది"
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted {field}"
 msgstr "{field} తొలగించబడింది"
+
+#: src/features/help/phone.tsx
+msgid "Deleting a friend's card on the device removes the contact and ends the friendship, exactly as deleting it in People does."
+msgstr "పరికరంలో స్నేహితుడి కార్డ్‌ను తొలగిస్తే కాంటాక్ట్ తీసివేయబడుతుంది మరియు స్నేహం ముగుస్తుంది, సరిగ్గా వ్యక్తులు యాప్‌లో తొలగించినట్లే."
 
 #: ../../../lib/web/src/components/ui/sort-direction-button.tsx
 msgid "Descending"
@@ -903,6 +948,10 @@ msgstr "ఇమెయిల్"
 msgid "Email code"
 msgstr "ఇమెయిల్ కోడ్"
 
+#: src/features/help/phone.tsx
+msgid "Enable the address books it finds. Your contacts then appear in the phone's Contacts app."
+msgstr "అది కనుగొన్న చిరునామా పుస్తకాలను ప్రారంభించండి. ఆ తర్వాత మీ కాంటాక్ట్‌లు ఫోన్‌లోని కాంటాక్ట్‌ల యాప్‌లో కనిపిస్తాయి."
+
 #: ../../../lib/web/src/components/banner-section.tsx
 msgid "Enter banner text (markdown supported)..."
 msgstr "బ్యానర్ టెక్స్ట్ నమోదు చేయండి (మార్క్‌డౌన్ మద్దతు ఉంది)..."
@@ -911,6 +960,14 @@ msgstr "బ్యానర్ టెక్స్ట్ నమోదు చేయ
 msgid "Enter the code from your email"
 msgstr "మీ ఇమెయిల్‌లోని కోడ్‌ను నమోదు చేయండి"
 
+#: src/features/help/phone.tsx
+msgid "Enter the server, your username and the password, and a description such as Mochi."
+msgstr "సర్వర్, మీ యూజర్‌నేమ్ మరియు పాస్‌వర్డ్, అలాగే Mochi వంటి వివరణను నమోదు చేయండి."
+
+#: src/features/help/phone.tsx
+msgid "Enter the username, and the address book URL as the location. Enter the password when asked."
+msgstr "యూజర్‌నేమ్‌ను, స్థానంగా చిరునామా పుస్తకం URLను నమోదు చేయండి. అడిగినప్పుడు పాస్‌వర్డ్‌ను నమోదు చేయండి."
+
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Enter your authenticator code"
 msgstr "మీ ప్రమాణీకరణ కోడ్‌ను నమోదు చేయండి"
@@ -918,6 +975,10 @@ msgstr "మీ ప్రమాణీకరణ కోడ్‌ను నమోద
 #: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx
 msgid "Error"
 msgstr "లోపం"
+
+#: src/features/help/phone.tsx
+msgid "Every address book listed in the People sidebar is offered to the device."
+msgstr "వ్యక్తులు యాప్ సైడ్‌బార్‌లో జాబితా చేయబడిన ప్రతి చిరునామా పుస్తకం పరికరానికి అందించబడుతుంది."
 
 #: ../../../lib/web/src/components/comment-tree-layout.tsx
 #: ../../../lib/web/src/components/comment-tree-layout.tsx
@@ -1110,6 +1171,7 @@ msgid "Group: {0}"
 msgstr "సమూహం: {0}"
 
 #: src/features/help/index.tsx
+#: src/features/help/phone.tsx
 #: src/routes/_authenticated/document/privacy.tsx
 #: src/routes/_authenticated/document/rules.tsx
 #: src/routes/_authenticated/document/terms.tsx
@@ -1149,6 +1211,10 @@ msgstr "చిత్ర వీక్షకం: {0}"
 msgid "Imperial"
 msgstr "ఇంపీరియల్"
 
+#: src/features/help/phone.tsx
+msgid "In People, choose <0>Connect a device</0> in the sidebar."
+msgstr "వ్యక్తులు యాప్‌లో, సైడ్‌బార్‌లో <0>పరికరాన్ని కనెక్ట్ చేయండి</0> ఎంచుకోండి."
+
 #: ../../../lib/web/src/features/access/types.ts
 msgid "Including anonymous users"
 msgstr "అనామక వినియోగదారులతో సహా"
@@ -1160,6 +1226,10 @@ msgstr "మొదటి అక్షరాల అవతార్"
 #: ../../../lib/web/src/components/faceless-avatar.tsx
 msgid "Initials avatar for {name}"
 msgstr "{name} కోసం మొదటి అక్షరాల అవతార్"
+
+#: src/features/help/phone.tsx
+msgid "Install DAVx5 from F-Droid or Google Play."
+msgstr "F-Droid లేదా Google Play నుండి DAVx5ను ఇన్‌స్టాల్ చేయండి."
 
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Interest {weight}"
@@ -1177,6 +1247,10 @@ msgstr "మిమ్మల్ని పరిచయం చేసుకోండ�
 #: ../../../lib/web/src/components/entity/entity-field-editor.tsx
 msgid "Invalid date"
 msgstr "చెల్లని తేదీ"
+
+#: src/features/help/phone.tsx
+msgid "iPhone and iPad"
+msgstr "iPhone మరియు iPad"
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "It seems like the page you're looking for <0/>does not exist or might have been removed."
@@ -1314,6 +1388,10 @@ msgstr "మైక్రోఫోన్ అనుమతి నిరాకరి�
 msgid "Minimum length"
 msgstr "కనిష్ట పొడవు"
 
+#: src/features/help/phone.tsx
+msgid "Mochi keeps your contacts in the People app. Any phone, tablet or computer that supports CardDAV can sync them."
+msgstr "Mochi మీ కాంటాక్ట్‌లను వ్యక్తులు యాప్‌లో ఉంచుతుంది. CardDAVకు మద్దతిచ్చే ఏ ఫోన్, టాబ్లెట్ లేదా కంప్యూటర్ అయినా వాటిని సింక్ చేయగలదు."
+
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Mochi web"
 msgstr "Mochi వెబ్"
@@ -1357,6 +1435,10 @@ msgstr "పేరు అవసరం"
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Name must be 1000 characters or less"
 msgstr "పేరు 1000 క్యారెక్టర్‌లు లేదా అంతకంటే తక్కువ ఉండాలి"
+
+#: src/features/help/phone.tsx
+msgid "Name the device and create the credential. The dialog shows the server, the address book URL, the username and a password."
+msgstr "పరికరానికి పేరు పెట్టి క్రెడెన్షియల్‌ను సృష్టించండి. డైలాగ్ సర్వర్, చిరునామా పుస్తకం URL, యూజర్‌నేమ్ మరియు ఒక పాస్‌వర్డ్‌ను చూపుతుంది."
 
 #: ../../../lib/web/src/features/errors/general-error.tsx
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
@@ -1506,6 +1588,10 @@ msgstr "సంఖ్య"
 msgid "On"
 msgstr "ఆన్"
 
+#: src/features/help/phone.tsx
+msgid "On a Mac, open Contacts › Settings › Accounts, add an account, choose Other Contacts Account, then CardDAV and Manual, and enter the same details."
+msgstr "Macలో, కాంటాక్ట్‌లు › సెట్టింగ్‌లు › ఖాతాలు తెరిచి, ఒక ఖాతాను జోడించి, ఇతర కాంటాక్ట్‌ల ఖాతా, ఆపై CardDAV మరియు మాన్యువల్ ఎంచుకుని, అవే వివరాలను నమోదు చేయండి."
+
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
 msgstr "అయ్యో! పేజీ కనుగొనబడలేదు!"
@@ -1513,6 +1599,10 @@ msgstr "అయ్యో! పేజీ కనుగొనబడలేదు!"
 #: ../../../lib/web/src/components/layout/nav-group.tsx
 msgid "Open actions"
 msgstr "చర్యలను తెరవండి"
+
+#: src/features/help/phone.tsx
+msgid "Open Address Book › New Address Book › Add CardDAV Address Book."
+msgstr "చిరునామా పుస్తకం › కొత్త చిరునామా పుస్తకం › CardDAV చిరునామా పుస్తకాన్ని జోడించు తెరవండి."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"
@@ -1530,6 +1620,10 @@ msgstr "ఆప్షన్ చర్యలను ఓపెన్ చేయండ
 #: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx
 msgid "Open selected card"
 msgstr "ఎంచుకున్న కార్డును తెరువు"
+
+#: src/features/help/phone.tsx
+msgid "Open Settings › Contacts › Accounts › Add Account › Other › Add CardDAV Account."
+msgstr "సెట్టింగ్‌లు › కాంటాక్ట్‌లు › ఖాతాలు › ఖాతాను జోడించు › ఇతర › CardDAV ఖాతాను జోడించు తెరవండి."
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Open view actions"
@@ -2016,6 +2110,10 @@ msgstr "మూలం మరియు గమ్యస్థానాన్ని 
 msgid "Settings"
 msgstr "సెట్టింగ్‌లు"
 
+#: src/features/help/phone.tsx
+msgid "Sharing with others"
+msgstr "ఇతరులతో షేర్ చేయడం"
+
 #: src/features/help/contribute-dialog.tsx
 msgid "Short title for your idea"
 msgstr "మీ ఆలోచనకు చిన్న శీర్షిక"
@@ -2140,6 +2238,10 @@ msgstr "ఆదివారం"
 msgid "Switch to view 1-9"
 msgstr "వీక్షణ 1-9 కి మారండి"
 
+#: src/features/help/index.tsx
+msgid "Sync your Mochi contacts with your phone, tablet or computer over CardDAV."
+msgstr "CardDAV ద్వారా మీ Mochi కాంటాక్ట్‌లను మీ ఫోన్, టాబ్లెట్ లేదా కంప్యూటర్‌తో సింక్ చేయండి."
+
 #: ../../../lib/web/src/components/audit-timeline.tsx
 #: ../../../lib/web/src/lib/preference-utils.ts
 #: ../../../lib/web/src/lib/preference-utils.ts
@@ -2206,6 +2308,10 @@ msgstr "మైక్రోఫోన్ అభ్యర్థనకు స్ప�
 msgid "The passkey request was not answered"
 msgstr "పాస్‌కీ అభ్యర్థనకు స్పందన లేదు"
 
+#: src/features/help/phone.tsx
+msgid "The password is shown only once, so copy it into the device before closing the dialog. If it is lost, delete the device under <0>Manage devices</0> and create a new one."
+msgstr "పాస్‌వర్డ్ ఒక్కసారి మాత్రమే చూపబడుతుంది, కాబట్టి డైలాగ్‌ను మూసివేయడానికి ముందు దాన్ని పరికరంలోకి కాపీ చేయండి. అది పోతే, <0>పరికరాలను నిర్వహించండి</0> కింద పరికరాన్ని తొలగించి కొత్తది సృష్టించండి."
+
 #: ../../../lib/web/src/features/errors/general-error.tsx
 msgid "The requested content could not be found."
 msgstr "అభ్యర్థించిన కంటెంట్ కనుగొనబడలేదు."
@@ -2221,6 +2327,10 @@ msgstr "ఈ యాప్‌కు మీ పాస్‌కీని ఉపయ�
 #: ../../../lib/web/src/components/game/game-end-dialogs.tsx
 msgid "This permanently deletes the game and its chat. This cannot be undone."
 msgstr "ఇది గేమ్‌ను మరియు దాని చాట్‌ను శాశ్వతంగా తొలగిస్తుంది. ఈ చర్యను తిరిగి మార్చలేరు."
+
+#: src/features/help/phone.tsx
+msgid "Thunderbird"
+msgstr "Thunderbird"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Thursday"
@@ -2451,6 +2561,10 @@ msgstr "ఏమి జరిగింది"
 msgid "What have you tried, what did you expect, where are you stuck?"
 msgstr "మీరు ఏమి ప్రయత్నించారు, ఏమి ఆశించారు, ఎక్కడ చిక్కుకున్నారు?"
 
+#: src/features/help/phone.tsx
+msgid "What syncs"
+msgstr "ఏమి సింక్ అవుతుంది"
+
 #: src/features/help/contribute-dialog.tsx
 msgid "What would it do, who is it for, why does it matter?"
 msgstr "అది ఏమి చేస్తుంది, అది ఎవరికోసం, అది ఎందుకు ముఖ్యం?"
@@ -2458,6 +2572,10 @@ msgstr "అది ఏమి చేస్తుంది, అది ఎవరి�
 #: src/features/help/contribute-dialog.tsx
 msgid "What you want to ask, in one line"
 msgstr "మీరు ఏమి అడగాలనుకుంటున్నారు, ఒక లైన్‌లో"
+
+#: src/features/help/phone.tsx
+msgid "Which details to enter"
+msgstr "ఏ వివరాలను నమోదు చేయాలి"
 
 #: ../../../lib/web/src/features/errors/general-error.tsx
 msgid "You do not have access to this section."

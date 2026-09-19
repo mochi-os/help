@@ -201,6 +201,10 @@ msgstr "زیادکردن بۆ ئاگادارکردنەوە هەبووەکان"
 msgid "Add view"
 msgstr "زیادکردنی ڕوانگە"
 
+#: src/features/help/phone.tsx
+msgid "Address books are private to your account, so there is nothing to give to someone who is not a Mochi user."
+msgstr "دەفتەرەکانی ناونیشان تایبەتن و هی هەژمارەکەتن، بۆیە هیچ شتێک نییە بیدەیتە کەسێک کە بەکارهێنەری Mochi نییە."
+
 #: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "AI"
 msgstr "AI"
@@ -221,6 +225,10 @@ msgstr "هەڵەیەک ڕوویدا"
 #: ../../../lib/web/src/lib/error-normalizer.ts
 msgid "An unexpected error occurred"
 msgstr "هەڵەیەکی چاوەڕواننەکراو ڕوویدا"
+
+#: src/features/help/phone.tsx
+msgid "Android"
+msgstr "Android"
 
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
@@ -438,6 +446,10 @@ msgstr "گۆڕدرا"
 msgid "Changed {field}"
 msgstr "{field} گۆڕدرا"
 
+#: src/features/help/phone.tsx
+msgid "Changes made on the device appear in People, and changes made in People appear on the device."
+msgstr "ئەو گۆڕانکارییانەی لەسەر ئامێرەکە دەکرێن لە خەڵکدا دەردەکەون، و ئەوانەی لە خەڵکدا دەکرێن لەسەر ئامێرەکە دەردەکەون."
+
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Checkbox"
 msgstr "بۆکسی پشکنین"
@@ -454,6 +466,14 @@ msgstr "یارییەک هەڵبژێرە لە لاتەنیشت یان نوێیە�
 #: ../../../lib/web/src/components/language-picker.tsx
 msgid "Choose language"
 msgstr "زمان هەڵبژێرە"
+
+#: src/features/help/phone.tsx
+msgid "Choose Login with URL and user name, enter the address book URL as the base URL, then the username and the password."
+msgstr "چوونەژوورەوە بە URL و ناوی بەکارهێنەر هەڵبژێرە، URLی دەفتەری ناونیشان وەک URLی بنەڕەت بنووسە، پاشان ناوی بەکارهێنەر و وشەی نهێنی."
+
+#: src/features/help/phone.tsx
+msgid "Choose the address books to add."
+msgstr "ئەو دەفتەرانەی ناونیشان هەڵبژێرە کە دەتەوێت زیادیان بکەیت."
 
 #: ../../../lib/web/src/components/banner-section.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
@@ -472,6 +492,14 @@ msgstr "پاککردنەوەی هەموو"
 #: ../../../lib/web/src/components/search-input.tsx
 msgid "Clear search"
 msgstr "پاککردنەوەی گەڕان"
+
+#: src/features/help/phone.tsx
+msgid "Clients that ask for a URL, such as Thunderbird and most others, take the address book URL instead of the server."
+msgstr "ئەو کلاینتانەی داوای URL دەکەن، وەک Thunderbird و زۆربەی ئەوانی تر، لە جیاتی ڕاژەکار URLی دەفتەری ناونیشان بەکاردەهێنن."
+
+#: src/features/help/phone.tsx
+msgid "Clients that find the server by name, such as iPhone, iPad, Mac Contacts and DAVx5 on Android, need the server, the username and the password."
+msgstr "ئەو کلاینتانەی ڕاژەکار بە ناو دەدۆزنەوە، وەک iPhone، iPad، پەیوەندییەکان لەسەر Mac و DAVx5 لەسەر Android، تەنها پێویستیان بە ڕاژەکار، ناوی بەکارهێنەر و وشەی نهێنی هەیە."
 
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
@@ -570,6 +598,11 @@ msgstr "ڕێکخستنی ڕوانگە ڕێک بخە"
 msgid "Confirm"
 msgstr "پشتڕاستکردنەوە"
 
+#: src/features/help/index.tsx
+#: src/features/help/phone.tsx
+msgid "Connect your phone"
+msgstr "مۆبایلەکەت پەیوەست بکە"
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connected"
 msgstr "پەیوەستکراو"
@@ -649,6 +682,14 @@ msgstr "دروستکردن"
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Create {entityLabel}"
 msgstr "دروستکردنی {entityLabel}"
+
+#: src/features/help/phone.tsx
+msgid "Create a credential for the device"
+msgstr "زانیاری چوونەژوورەوە بۆ ئامێرەکە دروست بکە"
+
+#: src/features/help/phone.tsx
+msgid "Create a separate credential for each device, so a lost device can be revoked without affecting the others."
+msgstr "بۆ هەر ئامێرێک زانیاری چوونەژوورەوەی جیا دروست بکە، تاکو ئامێرێکی ونبوو بەبێ کاریگەری لەسەر ئەوانی تر هەڵبوەشێنرێتەوە."
 
 #: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx
 msgid "Create new item"
@@ -766,6 +807,10 @@ msgstr "سڕایەوە"
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted {field}"
 msgstr "{field} سڕایەوە"
+
+#: src/features/help/phone.tsx
+msgid "Deleting a friend's card on the device removes the contact and ends the friendship, exactly as deleting it in People does."
+msgstr "سڕینەوەی کارتی هاوڕێیەک لەسەر ئامێرەکە پەیوەندییەکە لادەبات و هاوڕێیەتییەکە کۆتایی پێدێنێت، ڕێک وەک سڕینەوەی لە خەڵکدا."
 
 #: ../../../lib/web/src/components/ui/sort-direction-button.tsx
 msgid "Descending"
@@ -903,6 +948,10 @@ msgstr "ئیمەیڵ"
 msgid "Email code"
 msgstr "کۆدی ئیمەیڵ"
 
+#: src/features/help/phone.tsx
+msgid "Enable the address books it finds. Your contacts then appear in the phone's Contacts app."
+msgstr "ئەو دەفتەرانەی ناونیشان کە دەیاندۆزێتەوە چالاک بکە. پاشان پەیوەندییەکانت لە ئەپی پەیوەندییەکانی مۆبایلەکەدا دەردەکەون."
+
 #: ../../../lib/web/src/components/banner-section.tsx
 msgid "Enter banner text (markdown supported)..."
 msgstr "دەقی پشتیوانی بنووسە (markdown پشتیوانی دەکرێت)..."
@@ -911,6 +960,14 @@ msgstr "دەقی پشتیوانی بنووسە (markdown پشتیوانی دەک
 msgid "Enter the code from your email"
 msgstr "ئەو کۆدە بنووسە کە لە ئیمەیڵەکەتدا هاتووە"
 
+#: src/features/help/phone.tsx
+msgid "Enter the server, your username and the password, and a description such as Mochi."
+msgstr "ڕاژەکار، ناوی بەکارهێنەرەکەت و وشەی نهێنی، و وەسفێک وەک Mochi بنووسە."
+
+#: src/features/help/phone.tsx
+msgid "Enter the username, and the address book URL as the location. Enter the password when asked."
+msgstr "ناوی بەکارهێنەر بنووسە، و URLی دەفتەری ناونیشان وەک شوێن. کاتێک داوا دەکرێت وشەی نهێنی بنووسە."
+
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Enter your authenticator code"
 msgstr "کۆدی ڕاستاندنەکەت بنووسە"
@@ -918,6 +975,10 @@ msgstr "کۆدی ڕاستاندنەکەت بنووسە"
 #: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx
 msgid "Error"
 msgstr "هەڵە"
+
+#: src/features/help/phone.tsx
+msgid "Every address book listed in the People sidebar is offered to the device."
+msgstr "هەر دەفتەرێکی ناونیشان کە لە لاتەنیشتی خەڵکدا ڕیزکراوە پێشکەشی ئامێرەکە دەکرێت."
 
 #: ../../../lib/web/src/components/comment-tree-layout.tsx
 #: ../../../lib/web/src/components/comment-tree-layout.tsx
@@ -1110,6 +1171,7 @@ msgid "Group: {0}"
 msgstr "گروپ: {0}"
 
 #: src/features/help/index.tsx
+#: src/features/help/phone.tsx
 #: src/routes/_authenticated/document/privacy.tsx
 #: src/routes/_authenticated/document/rules.tsx
 #: src/routes/_authenticated/document/terms.tsx
@@ -1149,6 +1211,10 @@ msgstr "بینەری وێنە: {0}"
 msgid "Imperial"
 msgstr "ئیمپێریاڵ"
 
+#: src/features/help/phone.tsx
+msgid "In People, choose <0>Connect a device</0> in the sidebar."
+msgstr "لە خەڵکدا، لە لاتەنیشتەکە <0>ئامێرێک بەستنەوە</0> هەڵبژێرە."
+
 #: ../../../lib/web/src/features/access/types.ts
 msgid "Including anonymous users"
 msgstr "لەگەڵ بەکارهێنەرە نەناسراوەکان"
@@ -1160,6 +1226,10 @@ msgstr "ئەڤاتاری پیتە سەرەتاییەکان"
 #: ../../../lib/web/src/components/faceless-avatar.tsx
 msgid "Initials avatar for {name}"
 msgstr "ئەڤاتاری پیتە سەرەتاییەکان بۆ {name}"
+
+#: src/features/help/phone.tsx
+msgid "Install DAVx5 from F-Droid or Google Play."
+msgstr "DAVx5 لە F-Droid یان Google Play دابمەزرێنە."
 
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Interest {weight}"
@@ -1177,6 +1247,10 @@ msgstr "خۆت بناسێنە"
 #: ../../../lib/web/src/components/entity/entity-field-editor.tsx
 msgid "Invalid date"
 msgstr "بەرواری نادروست"
+
+#: src/features/help/phone.tsx
+msgid "iPhone and iPad"
+msgstr "iPhone و iPad"
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "It seems like the page you're looking for <0/>does not exist or might have been removed."
@@ -1314,6 +1388,10 @@ msgstr "مۆڵەتی مایکرۆفۆن ڕەتکرایەوە"
 msgid "Minimum length"
 msgstr "کەمترین درێژی"
 
+#: src/features/help/phone.tsx
+msgid "Mochi keeps your contacts in the People app. Any phone, tablet or computer that supports CardDAV can sync them."
+msgstr "Mochi پەیوەندییەکانت لە ئەپی خەڵکدا هەڵدەگرێت. هەر مۆبایل، تابلێت یان کۆمپیوتەرێک کە پشتگیری CardDAV بکات دەتوانێت هاوکاتیان بکات."
+
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Mochi web"
 msgstr "وێبی Mochi"
@@ -1357,6 +1435,10 @@ msgstr "ناو پێویستە"
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Name must be 1000 characters or less"
 msgstr "ناو دەبێت ١٠٠٠ نووسە یان کەمتر بێت"
+
+#: src/features/help/phone.tsx
+msgid "Name the device and create the credential. The dialog shows the server, the address book URL, the username and a password."
+msgstr "ناوێک بە ئامێرەکە بدە و زانیاری چوونەژوورەوە دروست بکە. دیالۆگەکە ڕاژەکار، URLی دەفتەری ناونیشان، ناوی بەکارهێنەر و وشەیەکی نهێنی پیشان دەدات."
 
 #: ../../../lib/web/src/features/errors/general-error.tsx
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
@@ -1506,6 +1588,10 @@ msgstr "ژمارە"
 msgid "On"
 msgstr "کارا"
 
+#: src/features/help/phone.tsx
+msgid "On a Mac, open Contacts › Settings › Accounts, add an account, choose Other Contacts Account, then CardDAV and Manual, and enter the same details."
+msgstr "لەسەر Mac، پەیوەندییەکان › ڕێکخستنەکان › هەژمارەکان بکەرەوە، هەژمارێک زیاد بکە، هەژماری پەیوەندییەکانی تر، پاشان CardDAV و دەستی هەڵبژێرە، و هەمان زانیاری بنووسە."
+
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
 msgstr "ئۆه! پەڕە نەدۆزرایەوە!"
@@ -1513,6 +1599,10 @@ msgstr "ئۆه! پەڕە نەدۆزرایەوە!"
 #: ../../../lib/web/src/components/layout/nav-group.tsx
 msgid "Open actions"
 msgstr "کردارەکان بکەرەوە"
+
+#: src/features/help/phone.tsx
+msgid "Open Address Book › New Address Book › Add CardDAV Address Book."
+msgstr "دەفتەری ناونیشان › دەفتەری ناونیشانی نوێ › زیادکردنی دەفتەری ناونیشانی CardDAV بکەرەوە."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"
@@ -1530,6 +1620,10 @@ msgstr "کردنەوەی کردارەکانی هەڵبژاردە"
 #: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx
 msgid "Open selected card"
 msgstr "کردنەوەی کارتی هەڵبژێردراو"
+
+#: src/features/help/phone.tsx
+msgid "Open Settings › Contacts › Accounts › Add Account › Other › Add CardDAV Account."
+msgstr "ڕێکخستنەکان › پەیوەندییەکان › هەژمارەکان › زیادکردنی هەژمار › هی تر › زیادکردنی هەژماری CardDAV بکەرەوە."
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Open view actions"
@@ -2016,6 +2110,10 @@ msgstr "سەرچاوە و مەبەست دیاریبکە"
 msgid "Settings"
 msgstr "ڕێکخستنەکان"
 
+#: src/features/help/phone.tsx
+msgid "Sharing with others"
+msgstr "هاوبەشکردن لەگەڵ ئەوانی تر"
+
 #: src/features/help/contribute-dialog.tsx
 msgid "Short title for your idea"
 msgstr "ناونیشانێکی کورت بۆ بیرۆکەکەت"
@@ -2140,6 +2238,10 @@ msgstr "یەکشەممە"
 msgid "Switch to view 1-9"
 msgstr "بگۆڕە بۆ پیشاندانی ١-٩"
 
+#: src/features/help/index.tsx
+msgid "Sync your Mochi contacts with your phone, tablet or computer over CardDAV."
+msgstr "پەیوەندییەکانی Mochiی خۆت لە ڕێگەی CardDAV لەگەڵ مۆبایل، تابلێت یان کۆمپیوتەرەکەت هاوکات بکە."
+
 #: ../../../lib/web/src/components/audit-timeline.tsx
 #: ../../../lib/web/src/lib/preference-utils.ts
 #: ../../../lib/web/src/lib/preference-utils.ts
@@ -2206,6 +2308,10 @@ msgstr "داواکاری مایکرۆفۆن وەڵام نەدرایەوە"
 msgid "The passkey request was not answered"
 msgstr "داواکاری پاسکی وەڵام نەدرایەوە"
 
+#: src/features/help/phone.tsx
+msgid "The password is shown only once, so copy it into the device before closing the dialog. If it is lost, delete the device under <0>Manage devices</0> and create a new one."
+msgstr "وشەی نهێنی تەنها یەک جار پیشان دەدرێت، بۆیە پێش داخستنی دیالۆگەکە بۆ ئامێرەکەی کۆپی بکە. ئەگەر ون بوو، ئامێرەکە لە <0>بەڕێوەبردنی ئامێرەکان</0> بسڕەوە و یەکێکی نوێ دروست بکە."
+
 #: ../../../lib/web/src/features/errors/general-error.tsx
 msgid "The requested content could not be found."
 msgstr "ناوەڕۆکی داواکراو نەدۆزرایەوە."
@@ -2221,6 +2327,10 @@ msgstr "ئەم بەرنامەیە ڕێگەپێدراو نییە پاسکییەک
 #: ../../../lib/web/src/components/game/game-end-dialogs.tsx
 msgid "This permanently deletes the game and its chat. This cannot be undone."
 msgstr "ئەمە یارییەکە و چاتەکەی بە یەکجاری دەسڕێتەوە. ئەم کردارە ناتوانرێت پووچ بکرێتەوە."
+
+#: src/features/help/phone.tsx
+msgid "Thunderbird"
+msgstr "Thunderbird"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Thursday"
@@ -2451,6 +2561,10 @@ msgstr "چی ڕوویدا"
 msgid "What have you tried, what did you expect, where are you stuck?"
 msgstr "چیت تاقیکردووەتەوە، چاوەڕێی چیت دەکرد، لە کوێ گیرت کردووە؟"
 
+#: src/features/help/phone.tsx
+msgid "What syncs"
+msgstr "چی هاوکات دەکرێت"
+
 #: src/features/help/contribute-dialog.tsx
 msgid "What would it do, who is it for, why does it matter?"
 msgstr "چی دەکات، بۆ کێیە، بۆچی گرنگە؟"
@@ -2458,6 +2572,10 @@ msgstr "چی دەکات، بۆ کێیە، بۆچی گرنگە؟"
 #: src/features/help/contribute-dialog.tsx
 msgid "What you want to ask, in one line"
 msgstr "چی دەتەوێت بپرسیت، لە یەک هێڵدا"
+
+#: src/features/help/phone.tsx
+msgid "Which details to enter"
+msgstr "کام زانیاری بنووسرێت"
 
 #: ../../../lib/web/src/features/errors/general-error.tsx
 msgid "You do not have access to this section."

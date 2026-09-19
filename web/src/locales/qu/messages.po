@@ -201,6 +201,10 @@ msgstr "Kawsachkan willaykuna-man yapay"
 msgid "Add view"
 msgstr "Vista yapay"
 
+#: src/features/help/phone.tsx
+msgid "Address books are private to your account, so there is nothing to give to someone who is not a Mochi user."
+msgstr "Direccion maytukunaqa cuentaykipaqlla pakasqam, chaymi Mochi apaykachaq mana kaq runaman qunapaq imapas mana kanchu."
+
 #: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "AI"
 msgstr "AI"
@@ -221,6 +225,10 @@ msgstr "Huk pantay rikurirqan"
 #: ../../../lib/web/src/lib/error-normalizer.ts
 msgid "An unexpected error occurred"
 msgstr "Mana suyasqa pantay rikurirqan"
+
+#: src/features/help/phone.tsx
+msgid "Android"
+msgstr "Android"
 
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
@@ -438,6 +446,10 @@ msgstr "Hukchasqa"
 msgid "Changed {field}"
 msgstr "{field} hukchasqa"
 
+#: src/features/help/phone.tsx
+msgid "Changes made on the device appear in People, and changes made in People appear on the device."
+msgstr "Mañanapi ruwasqa tikraykunaqa Runakuna appipi rikhurin, Runakuna appipi ruwasqa tikraykunataq mañanapi rikhurin."
+
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Checkbox"
 msgstr "Checkbox"
@@ -454,6 +466,14 @@ msgstr "Pukllay akllay sidebar-manta utaq musuq qallariy."
 #: ../../../lib/web/src/components/language-picker.tsx
 msgid "Choose language"
 msgstr "Simi akllay"
+
+#: src/features/help/phone.tsx
+msgid "Choose Login with URL and user name, enter the address book URL as the base URL, then the username and the password."
+msgstr "URL hinallataq apaykachaq sutiwan yaykuy nisqata akllay, direccion maytu URL-ta base URL hina qillqay, chaymanta apaykachaq sutita contraseñatawan."
+
+#: src/features/help/phone.tsx
+msgid "Choose the address books to add."
+msgstr "Yapanapaq direccion maytukunata akllay."
 
 #: ../../../lib/web/src/components/banner-section.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
@@ -472,6 +492,14 @@ msgstr "Llapan pichay"
 #: ../../../lib/web/src/components/search-input.tsx
 msgid "Clear search"
 msgstr "Maskhay pichay"
+
+#: src/features/help/phone.tsx
+msgid "Clients that ask for a URL, such as Thunderbird and most others, take the address book URL instead of the server."
+msgstr "URL-ta mañakuq clientekuna, Thunderbird hina aswan achkha hukkunapas, servidorpa rantinpi direccion maytu URL-ta hapinku."
+
+#: src/features/help/phone.tsx
+msgid "Clients that find the server by name, such as iPhone, iPad, Mac Contacts and DAVx5 on Android, need the server, the username and the password."
+msgstr "Servidorta sutinwan tariq clientekunaqa, iPhone, iPad, Mac Contactokuna, Android-pi DAVx5 hina, servidorta, apaykachaq sutita, contraseñatawan necesitanku."
 
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
@@ -570,6 +598,11 @@ msgstr "Vista kamariykuna allichay"
 msgid "Confirm"
 msgstr "Takyachiy"
 
+#: src/features/help/index.tsx
+#: src/features/help/phone.tsx
+msgid "Connect your phone"
+msgstr "Telefonoykita tinkichiy"
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connected"
 msgstr "Tinkichisqa"
@@ -649,6 +682,14 @@ msgstr "Kamariy"
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Create {entityLabel}"
 msgstr "{entityLabel} kamay"
+
+#: src/features/help/phone.tsx
+msgid "Create a credential for the device"
+msgstr "Mañanapaq credencialta ruway"
+
+#: src/features/help/phone.tsx
+msgid "Create a separate credential for each device, so a lost device can be revoked without affecting the others."
+msgstr "Sapa mañanapaq sapaq credencialta ruway, chhaynapi chinkasqa mañanata hukkunata mana waqllichispa qichuyta atinki."
 
 #: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx
 msgid "Create new item"
@@ -766,6 +807,10 @@ msgstr "Pichasqa"
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted {field}"
 msgstr "{field} pichasqa"
+
+#: src/features/help/phone.tsx
+msgid "Deleting a friend's card on the device removes the contact and ends the friendship, exactly as deleting it in People does."
+msgstr "Mañanapi huk masipa tarjetanta qulluspaqa contactota urquchinki, masinakuytapas tukuchinki, Runakuna appipi qulluy hinapuni."
 
 #: ../../../lib/web/src/components/ui/sort-direction-button.tsx
 msgid "Descending"
@@ -903,6 +948,10 @@ msgstr "Email"
 msgid "Email code"
 msgstr "Email código"
 
+#: src/features/help/phone.tsx
+msgid "Enable the address books it finds. Your contacts then appear in the phone's Contacts app."
+msgstr "Tarisqan direccion maytukunata kichay. Chaymantaqa contactoykikuna telefonopa Contactokuna appinpi rikhurinqa."
+
 #: ../../../lib/web/src/components/banner-section.tsx
 msgid "Enter banner text (markdown supported)..."
 msgstr "Banner qillqayta qillqay (markdown haypaqsi)..."
@@ -911,6 +960,14 @@ msgstr "Banner qillqayta qillqay (markdown haypaqsi)..."
 msgid "Enter the code from your email"
 msgstr "Email nikiymanta hamuq código yaykuchiy"
 
+#: src/features/help/phone.tsx
+msgid "Enter the server, your username and the password, and a description such as Mochi."
+msgstr "Servidorta, apaykachaq sutiykita, contraseñatawan qillqay, hinallataq Mochi hina willariyta."
+
+#: src/features/help/phone.tsx
+msgid "Enter the username, and the address book URL as the location. Enter the password when asked."
+msgstr "Apaykachaq sutita qillqay, direccion maytu URL-tataq maypi kasqan hina. Mañakusuptiyki contraseñata qillqay."
+
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Enter your authenticator code"
 msgstr "Takyachiqniykiq codigonta yaykuchiy"
@@ -918,6 +975,10 @@ msgstr "Takyachiqniykiq codigonta yaykuchiy"
 #: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx
 msgid "Error"
 msgstr "Pantay"
+
+#: src/features/help/phone.tsx
+msgid "Every address book listed in the People sidebar is offered to the device."
+msgstr "Runakuna appipa kinray barranpi sutichasqa sapa direccion maytum mañanaman qusqa."
 
 #: ../../../lib/web/src/components/comment-tree-layout.tsx
 #: ../../../lib/web/src/components/comment-tree-layout.tsx
@@ -1110,6 +1171,7 @@ msgid "Group: {0}"
 msgstr "Huñu: {0}"
 
 #: src/features/help/index.tsx
+#: src/features/help/phone.tsx
 #: src/routes/_authenticated/document/privacy.tsx
 #: src/routes/_authenticated/document/rules.tsx
 #: src/routes/_authenticated/document/terms.tsx
@@ -1149,6 +1211,10 @@ msgstr "Rikcha qhawana: {0}"
 msgid "Imperial"
 msgstr "Imperial"
 
+#: src/features/help/phone.tsx
+msgid "In People, choose <0>Connect a device</0> in the sidebar."
+msgstr "Runakuna appipi, kinray barrapi <0>Huk mañanata tinkichiy</0> nisqata akllay."
+
 #: ../../../lib/web/src/features/access/types.ts
 msgid "Including anonymous users"
 msgstr "Mana riqsisqa ruraqkunawan"
@@ -1160,6 +1226,10 @@ msgstr "Qallariy sananchakuna avatar"
 #: ../../../lib/web/src/components/faceless-avatar.tsx
 msgid "Initials avatar for {name}"
 msgstr "{name} qallariy sananchakuna avatar"
+
+#: src/features/help/phone.tsx
+msgid "Install DAVx5 from F-Droid or Google Play."
+msgstr "DAVx5-ta F-Droid-manta utaq Google Play-manta instalay."
 
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Interest {weight}"
@@ -1177,6 +1247,10 @@ msgstr "Qamllataq riqsichikuy"
 #: ../../../lib/web/src/components/entity/entity-field-editor.tsx
 msgid "Invalid date"
 msgstr "Mana allin pacha"
+
+#: src/features/help/phone.tsx
+msgid "iPhone and iPad"
+msgstr "iPhone hinallataq iPad"
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "It seems like the page you're looking for <0/>does not exist or might have been removed."
@@ -1314,6 +1388,10 @@ msgstr "Micrófono permisotaqa manam saqillankuchu"
 msgid "Minimum length"
 msgstr "Pisi suni"
 
+#: src/features/help/phone.tsx
+msgid "Mochi keeps your contacts in the People app. Any phone, tablet or computer that supports CardDAV can sync them."
+msgstr "Mochiqa contactoykikunata Runakuna appipi waqaychan. CardDAV-ta yanapaq ima telefonopas, tabletpas, computadorapas sincronizayta atinmi."
+
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Mochi web"
 msgstr "Mochi web"
@@ -1357,6 +1435,10 @@ msgstr "Sutinmi munasqa"
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Name must be 1000 characters or less"
 msgstr "Sutinmi 1000 letrayoq utaq pisi kanan"
+
+#: src/features/help/phone.tsx
+msgid "Name the device and create the credential. The dialog shows the server, the address book URL, the username and a password."
+msgstr "Mañanata sutichay, credencialtataq ruway. Dialogoqa servidorta, direccion maytu URL-ta, apaykachaq sutita, huk contraseñatawan rikuchin."
 
 #: ../../../lib/web/src/features/errors/general-error.tsx
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
@@ -1506,6 +1588,10 @@ msgstr "Yupay"
 msgid "On"
 msgstr "Hapichisqa"
 
+#: src/features/help/phone.tsx
+msgid "On a Mac, open Contacts › Settings › Accounts, add an account, choose Other Contacts Account, then CardDAV and Manual, and enter the same details."
+msgstr "Mac-pi, Contactokuna › Wakichiykuna › Cuentakuna kichay, huk cuentata yapay, Huk Contactokuna cuenta, chaymanta CardDAV, Maki ruway nisqatawan akllay, kikin willakuykunatataq qillqay."
+
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
 msgstr "¡Ay! ¡Página Mana Tarisqachu!"
@@ -1513,6 +1599,10 @@ msgstr "¡Ay! ¡Página Mana Tarisqachu!"
 #: ../../../lib/web/src/components/layout/nav-group.tsx
 msgid "Open actions"
 msgstr "Ruwaykunata kichay"
+
+#: src/features/help/phone.tsx
+msgid "Open Address Book › New Address Book › Add CardDAV Address Book."
+msgstr "Direccion maytu › Musuq direccion maytu › CardDAV direccion maytu yapay kichay."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"
@@ -1530,6 +1620,10 @@ msgstr "Opción ruwaykunata kichay"
 #: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx
 msgid "Open selected card"
 msgstr "Akllasqa cardta kichay"
+
+#: src/features/help/phone.tsx
+msgid "Open Settings › Contacts › Accounts › Add Account › Other › Add CardDAV Account."
+msgstr "Wakichiykuna › Contactokuna › Cuentakuna › Cuenta yapay › Huk › CardDAV cuenta yapay kichay."
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Open view actions"
@@ -2016,6 +2110,10 @@ msgstr "Pukyu chayanata churay"
 msgid "Settings"
 msgstr "Wakichiykuna"
 
+#: src/features/help/phone.tsx
+msgid "Sharing with others"
+msgstr "Hukkunawan rakinakuy"
+
 #: src/features/help/contribute-dialog.tsx
 msgid "Short title for your idea"
 msgstr "Yuyayniykipaq huk pisi suti"
@@ -2140,6 +2238,10 @@ msgstr "Intichaw"
 msgid "Switch to view 1-9"
 msgstr "1-9 vistaman tikray"
 
+#: src/features/help/index.tsx
+msgid "Sync your Mochi contacts with your phone, tablet or computer over CardDAV."
+msgstr "Mochi contactoykikunata telefonoykiwan, tabletniykiwan utaq computadoraykiwan CardDAV-nintakama sincronizay."
+
 #: ../../../lib/web/src/components/audit-timeline.tsx
 #: ../../../lib/web/src/lib/preference-utils.ts
 #: ../../../lib/web/src/lib/preference-utils.ts
@@ -2206,6 +2308,10 @@ msgstr "Micrófono mañakuyqa manam kutichisqachu karqan"
 msgid "The passkey request was not answered"
 msgstr "Passkey mañakuyqa manam kutichisqachu karqan"
 
+#: src/features/help/phone.tsx
+msgid "The password is shown only once, so copy it into the device before closing the dialog. If it is lost, delete the device under <0>Manage devices</0> and create a new one."
+msgstr "Contraseñaqa huk kutillam rikuchikun, chaymi dialogota manaraq wichqaspa mañanaman copiay. Chinkaptinqa, <0>Mañanakunata kamachiy</0> nisqapi mañanata qulluy, musuqtataq ruway."
+
 #: ../../../lib/web/src/features/errors/general-error.tsx
 msgid "The requested content could not be found."
 msgstr "Mañakusqa willaykuna mana tarikunchu."
@@ -2221,6 +2327,10 @@ msgstr "Kay aplicacionqa manam passkeykita llamk'achiyta atinchu. Ajustes ukhupi
 #: ../../../lib/web/src/components/game/game-end-dialogs.tsx
 msgid "This permanently deletes the game and its chat. This cannot be undone."
 msgstr "Kayqa pukllayta rimanakuywantin wiñaypaq wischun. Kayta mana kutichinachu."
+
+#: src/features/help/phone.tsx
+msgid "Thunderbird"
+msgstr "Thunderbird"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Thursday"
@@ -2451,6 +2561,10 @@ msgstr "Imam karqan"
 msgid "What have you tried, what did you expect, where are you stuck?"
 msgstr "Imatataq ruwarqanki, imatataq suyarqanki, maypitaq sayanki?"
 
+#: src/features/help/phone.tsx
+msgid "What syncs"
+msgstr "Imakunam sincronizakun"
+
 #: src/features/help/contribute-dialog.tsx
 msgid "What would it do, who is it for, why does it matter?"
 msgstr "¿Imatam ruwanman, pikunapaqmi kanman, imanaqtinmi allin?"
@@ -2458,6 +2572,10 @@ msgstr "¿Imatam ruwanman, pikunapaqmi kanman, imanaqtinmi allin?"
 #: src/features/help/contribute-dialog.tsx
 msgid "What you want to ask, in one line"
 msgstr "Imatas tapuyta munanki, huk siq'illapi"
+
+#: src/features/help/phone.tsx
+msgid "Which details to enter"
+msgstr "Ima willakuykunatam qillqana"
 
 #: ../../../lib/web/src/features/errors/general-error.tsx
 msgid "You do not have access to this section."

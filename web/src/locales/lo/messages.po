@@ -201,6 +201,10 @@ msgstr "ເພີ່ມໃສ່ການແຈ້ງເຕືອນທີ່ມ
 msgid "Add view"
 msgstr "ເພີ່ມມຸມມອງ"
 
+#: src/features/help/phone.tsx
+msgid "Address books are private to your account, so there is nothing to give to someone who is not a Mochi user."
+msgstr "ປຶ້ມທີ່ຢູ່ເປັນຂໍ້ມູນສ່ວນຕົວຂອງບັນຊີທ່ານ, ສະນັ້ນຈຶ່ງບໍ່ມີຫຍັງໃຫ້ແກ່ຄົນທີ່ບໍ່ແມ່ນຜູ້ໃຊ້ Mochi."
+
 #: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "AI"
 msgstr "AI"
@@ -221,6 +225,10 @@ msgstr "ເກີດຂໍ້ຜິດພາດ"
 #: ../../../lib/web/src/lib/error-normalizer.ts
 msgid "An unexpected error occurred"
 msgstr "ເກີດຂໍ້ຜິດພາດທີ່ບໍ່ຄາດຄິດ"
+
+#: src/features/help/phone.tsx
+msgid "Android"
+msgstr "Android"
 
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
@@ -438,6 +446,10 @@ msgstr "ປ່ຽນແລ້ວ"
 msgid "Changed {field}"
 msgstr "ປ່ຽນ {field} ແລ້ວ"
 
+#: src/features/help/phone.tsx
+msgid "Changes made on the device appear in People, and changes made in People appear on the device."
+msgstr "ການປ່ຽນແປງທີ່ເຮັດໃນອຸປະກອນຈະປາກົດໃນແອັບ ບຸກຄົນ, ແລະການປ່ຽນແປງທີ່ເຮັດໃນແອັບ ບຸກຄົນ ຈະປາກົດໃນອຸປະກອນ."
+
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Checkbox"
 msgstr "ກ່ອງໝາຍ"
@@ -454,6 +466,14 @@ msgstr "ເລືອກເກມຈາກແຖບຂ້າງ ຫຼື ເລ�
 #: ../../../lib/web/src/components/language-picker.tsx
 msgid "Choose language"
 msgstr "ເລືອກພາສາ"
+
+#: src/features/help/phone.tsx
+msgid "Choose Login with URL and user name, enter the address book URL as the base URL, then the username and the password."
+msgstr "ເລືອກ ເຂົ້າສູ່ລະບົບດ້ວຍ URL ແລະຊື່ຜູ້ໃຊ້, ປ້ອນ URL ປຶ້ມທີ່ຢູ່ເປັນ URL ພື້ນຖານ, ຈາກນັ້ນປ້ອນຊື່ຜູ້ໃຊ້ ແລະລະຫັດຜ່ານ."
+
+#: src/features/help/phone.tsx
+msgid "Choose the address books to add."
+msgstr "ເລືອກປຶ້ມທີ່ຢູ່ທີ່ຈະເພີ່ມ."
 
 #: ../../../lib/web/src/components/banner-section.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
@@ -472,6 +492,14 @@ msgstr "ລ້າງທັງໝົດ"
 #: ../../../lib/web/src/components/search-input.tsx
 msgid "Clear search"
 msgstr "ລ້າງການຄົ້ນຫາ"
+
+#: src/features/help/phone.tsx
+msgid "Clients that ask for a URL, such as Thunderbird and most others, take the address book URL instead of the server."
+msgstr "ໄຄລເອັນທີ່ຖາມຫາ URL, ເຊັ່ນ Thunderbird ແລະສ່ວນໃຫຍ່ອື່ນໆ, ຈະໃຊ້ URL ປຶ້ມທີ່ຢູ່ແທນເຊີບເວີ."
+
+#: src/features/help/phone.tsx
+msgid "Clients that find the server by name, such as iPhone, iPad, Mac Contacts and DAVx5 on Android, need the server, the username and the password."
+msgstr "ໄຄລເອັນທີ່ຊອກຫາເຊີບເວີຈາກຊື່, ເຊັ່ນ iPhone, iPad, ຜູ້ຕິດຕໍ່ຂອງ Mac ແລະ DAVx5 ໃນ Android, ຕ້ອງການເຊີບເວີ, ຊື່ຜູ້ໃຊ້ ແລະລະຫັດຜ່ານ."
 
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
@@ -570,6 +598,11 @@ msgstr "ກຳນົດຄ່າການຕັ້ງຄ່າມຸມມອງ
 msgid "Confirm"
 msgstr "ຢືນຢັນ"
 
+#: src/features/help/index.tsx
+#: src/features/help/phone.tsx
+msgid "Connect your phone"
+msgstr "ເຊື່ອມຕໍ່ໂທລະສັບຂອງທ່ານ"
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connected"
 msgstr "ເຊື່ອມຕໍ່ແລ້ວ"
@@ -649,6 +682,14 @@ msgstr "ສ້າງ"
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Create {entityLabel}"
 msgstr "ສ້າງ {entityLabel}"
+
+#: src/features/help/phone.tsx
+msgid "Create a credential for the device"
+msgstr "ສ້າງຂໍ້ມູນເຂົ້າສູ່ລະບົບສຳລັບອຸປະກອນ"
+
+#: src/features/help/phone.tsx
+msgid "Create a separate credential for each device, so a lost device can be revoked without affecting the others."
+msgstr "ສ້າງຂໍ້ມູນເຂົ້າສູ່ລະບົບແຍກຕ່າງຫາກສຳລັບແຕ່ລະອຸປະກອນ, ເພື່ອໃຫ້ສາມາດຖອນອຸປະກອນທີ່ເສຍໄປໄດ້ໂດຍບໍ່ກະທົບອຸປະກອນອື່ນ."
 
 #: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx
 msgid "Create new item"
@@ -766,6 +807,10 @@ msgstr "ລຶບແລ້ວ"
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted {field}"
 msgstr "ລຶບ {field} ແລ້ວ"
+
+#: src/features/help/phone.tsx
+msgid "Deleting a friend's card on the device removes the contact and ends the friendship, exactly as deleting it in People does."
+msgstr "ການລຶບບັດຂອງໝູ່ໃນອຸປະກອນຈະລຶບຜູ້ຕິດຕໍ່ອອກ ແລະສິ້ນສຸດຄວາມເປັນໝູ່, ຄືກັນກັບການລຶບມັນໃນແອັບ ບຸກຄົນ."
 
 #: ../../../lib/web/src/components/ui/sort-direction-button.tsx
 msgid "Descending"
@@ -903,6 +948,10 @@ msgstr "ອີເມວ"
 msgid "Email code"
 msgstr "ລະຫັດອີເມວ"
 
+#: src/features/help/phone.tsx
+msgid "Enable the address books it finds. Your contacts then appear in the phone's Contacts app."
+msgstr "ເປີດໃຊ້ປຶ້ມທີ່ຢູ່ທີ່ມັນພົບ. ຈາກນັ້ນຜູ້ຕິດຕໍ່ຂອງທ່ານຈະປາກົດໃນແອັບຜູ້ຕິດຕໍ່ຂອງໂທລະສັບ."
+
 #: ../../../lib/web/src/components/banner-section.tsx
 msgid "Enter banner text (markdown supported)..."
 msgstr "ປ້ອນຂໍ້ຄວາມແບນເນີ (ຮອງຮັບ markdown)..."
@@ -911,6 +960,14 @@ msgstr "ປ້ອນຂໍ້ຄວາມແບນເນີ (ຮອງຮັບ 
 msgid "Enter the code from your email"
 msgstr "ປ້ອນລະຫັດຈາກອີເມວຂອງທ່ານ"
 
+#: src/features/help/phone.tsx
+msgid "Enter the server, your username and the password, and a description such as Mochi."
+msgstr "ປ້ອນເຊີບເວີ, ຊື່ຜູ້ໃຊ້ຂອງທ່ານ ແລະລະຫັດຜ່ານ, ພ້ອມທັງຄຳອະທິບາຍເຊັ່ນ Mochi."
+
+#: src/features/help/phone.tsx
+msgid "Enter the username, and the address book URL as the location. Enter the password when asked."
+msgstr "ປ້ອນຊື່ຜູ້ໃຊ້, ແລະ URL ປຶ້ມທີ່ຢູ່ເປັນສະຖານທີ່. ປ້ອນລະຫັດຜ່ານເມື່ອຖືກຖາມ."
+
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Enter your authenticator code"
 msgstr "ໃສ່ລະຫັດ authenticator ຂອງທ່ານ"
@@ -918,6 +975,10 @@ msgstr "ໃສ່ລະຫັດ authenticator ຂອງທ່ານ"
 #: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx
 msgid "Error"
 msgstr "ຂໍ້ຜິດພາດ"
+
+#: src/features/help/phone.tsx
+msgid "Every address book listed in the People sidebar is offered to the device."
+msgstr "ປຶ້ມທີ່ຢູ່ທຸກອັນທີ່ລະບຸໄວ້ໃນແຖບຂ້າງຂອງແອັບ ບຸກຄົນ ຈະຖືກສະເໜີໃຫ້ອຸປະກອນ."
 
 #: ../../../lib/web/src/components/comment-tree-layout.tsx
 #: ../../../lib/web/src/components/comment-tree-layout.tsx
@@ -1110,6 +1171,7 @@ msgid "Group: {0}"
 msgstr "ກຸ່ມ: {0}"
 
 #: src/features/help/index.tsx
+#: src/features/help/phone.tsx
 #: src/routes/_authenticated/document/privacy.tsx
 #: src/routes/_authenticated/document/rules.tsx
 #: src/routes/_authenticated/document/terms.tsx
@@ -1149,6 +1211,10 @@ msgstr "ຕົວເບິ່ງຮູບພາບ: {0}"
 msgid "Imperial"
 msgstr "Imperial"
 
+#: src/features/help/phone.tsx
+msgid "In People, choose <0>Connect a device</0> in the sidebar."
+msgstr "ໃນແອັບ ບຸກຄົນ, ເລືອກ <0>ເຊື່ອມຕໍ່ອຸປະກອນ</0> ໃນແຖບຂ້າງ."
+
 #: ../../../lib/web/src/features/access/types.ts
 msgid "Including anonymous users"
 msgstr "ລວມທັງຜູ້ໃຊ້ນິລະນາມ"
@@ -1160,6 +1226,10 @@ msgstr "ອະວາຕາຕົວອັກສອນຫຍໍ້"
 #: ../../../lib/web/src/components/faceless-avatar.tsx
 msgid "Initials avatar for {name}"
 msgstr "ອະວາຕາຕົວອັກສອນຫຍໍ້ສຳລັບ {name}"
+
+#: src/features/help/phone.tsx
+msgid "Install DAVx5 from F-Droid or Google Play."
+msgstr "ຕິດຕັ້ງ DAVx5 ຈາກ F-Droid ຫຼື Google Play."
 
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Interest {weight}"
@@ -1177,6 +1247,10 @@ msgstr "ແນະນຳຕົວ"
 #: ../../../lib/web/src/components/entity/entity-field-editor.tsx
 msgid "Invalid date"
 msgstr "ວັນທີ່ບໍ່ຖືກຕ້ອງ"
+
+#: src/features/help/phone.tsx
+msgid "iPhone and iPad"
+msgstr "iPhone ແລະ iPad"
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "It seems like the page you're looking for <0/>does not exist or might have been removed."
@@ -1314,6 +1388,10 @@ msgstr "ສິດໄມໂຄຣໂຟນຖືກປະຕິເສດ"
 msgid "Minimum length"
 msgstr "ຄວາມຍາວຕ່ຳສຸດ"
 
+#: src/features/help/phone.tsx
+msgid "Mochi keeps your contacts in the People app. Any phone, tablet or computer that supports CardDAV can sync them."
+msgstr "Mochi ເກັບຜູ້ຕິດຕໍ່ຂອງທ່ານໄວ້ໃນແອັບ ບຸກຄົນ. ໂທລະສັບ, ແທັບເລັດ ຫຼືຄອມພິວເຕີໃດໆທີ່ຮອງຮັບ CardDAV ສາມາດຊິງຄ໌ພວກມັນໄດ້."
+
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Mochi web"
 msgstr "Mochi ເວັບ"
@@ -1357,6 +1435,10 @@ msgstr "ຕ້ອງການຊື່"
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Name must be 1000 characters or less"
 msgstr "ຊື່ຕ້ອງມີ 1000 ຕົວອັກສອນຫຼືໜ້ອຍກວ່າ"
+
+#: src/features/help/phone.tsx
+msgid "Name the device and create the credential. The dialog shows the server, the address book URL, the username and a password."
+msgstr "ຕັ້ງຊື່ອຸປະກອນ ແລະສ້າງຂໍ້ມູນເຂົ້າສູ່ລະບົບ. ກ່ອງໂຕ້ຕອບຈະສະແດງເຊີບເວີ, URL ປຶ້ມທີ່ຢູ່, ຊື່ຜູ້ໃຊ້ ແລະລະຫັດຜ່ານໜຶ່ງອັນ."
 
 #: ../../../lib/web/src/features/errors/general-error.tsx
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
@@ -1506,6 +1588,10 @@ msgstr "ຕົວເລກ"
 msgid "On"
 msgstr "ເປີດ"
 
+#: src/features/help/phone.tsx
+msgid "On a Mac, open Contacts › Settings › Accounts, add an account, choose Other Contacts Account, then CardDAV and Manual, and enter the same details."
+msgstr "ໃນ Mac, ເປີດ ຜູ້ຕິດຕໍ່ › ການຕັ້ງຄ່າ › ບັນຊີ, ເພີ່ມບັນຊີ, ເລືອກ ບັນຊີຜູ້ຕິດຕໍ່ອື່ນ, ຈາກນັ້ນ CardDAV ແລະ ດ້ວຍຕົນເອງ, ແລ້ວປ້ອນລາຍລະອຽດດຽວກັນ."
+
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
 msgstr "ອຸບຍ! ບໍ່ພົບໜ້າ!"
@@ -1513,6 +1599,10 @@ msgstr "ອຸບຍ! ບໍ່ພົບໜ້າ!"
 #: ../../../lib/web/src/components/layout/nav-group.tsx
 msgid "Open actions"
 msgstr "ເປີດການກະທຳ"
+
+#: src/features/help/phone.tsx
+msgid "Open Address Book › New Address Book › Add CardDAV Address Book."
+msgstr "ເປີດ ປຶ້ມທີ່ຢູ່ › ປຶ້ມທີ່ຢູ່ໃໝ່ › ເພີ່ມປຶ້ມທີ່ຢູ່ CardDAV."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"
@@ -1530,6 +1620,10 @@ msgstr "ເປີດການກະທຳຕົວເລືອກ"
 #: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx
 msgid "Open selected card"
 msgstr "ເປີດກາດທີ່ເລືອກ"
+
+#: src/features/help/phone.tsx
+msgid "Open Settings › Contacts › Accounts › Add Account › Other › Add CardDAV Account."
+msgstr "ເປີດ ການຕັ້ງຄ່າ › ຜູ້ຕິດຕໍ່ › ບັນຊີ › ເພີ່ມບັນຊີ › ອື່ນໆ › ເພີ່ມບັນຊີ CardDAV."
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Open view actions"
@@ -2016,6 +2110,10 @@ msgstr "ຕັ້ງຕົ້ນທາງແລະປາຍທາງ"
 msgid "Settings"
 msgstr "ການຕັ້ງຄ່າ"
 
+#: src/features/help/phone.tsx
+msgid "Sharing with others"
+msgstr "ການແບ່ງປັນກັບຄົນອື່ນ"
+
 #: src/features/help/contribute-dialog.tsx
 msgid "Short title for your idea"
 msgstr "ຫົວຂໍ້ສັ້ນສຳລັບໄອເດຍຂອງເຈົ້າ"
@@ -2140,6 +2238,10 @@ msgstr "ວັນອາທິດ"
 msgid "Switch to view 1-9"
 msgstr "ສະຫຼັບໄປເບິ່ງ 1-9"
 
+#: src/features/help/index.tsx
+msgid "Sync your Mochi contacts with your phone, tablet or computer over CardDAV."
+msgstr "ຊິງຄ໌ຜູ້ຕິດຕໍ່ Mochi ຂອງທ່ານກັບໂທລະສັບ, ແທັບເລັດ ຫຼືຄອມພິວເຕີຂອງທ່ານຜ່ານ CardDAV."
+
 #: ../../../lib/web/src/components/audit-timeline.tsx
 #: ../../../lib/web/src/lib/preference-utils.ts
 #: ../../../lib/web/src/lib/preference-utils.ts
@@ -2206,6 +2308,10 @@ msgstr "ຄຳຮ້ອງຂໍໄມໂຄຣໂຟນບໍ່ໄດ້ຮັ
 msgid "The passkey request was not answered"
 msgstr "ຄຳຮ້ອງຂໍ passkey ບໍ່ໄດ້ຮັບການຕອບ"
 
+#: src/features/help/phone.tsx
+msgid "The password is shown only once, so copy it into the device before closing the dialog. If it is lost, delete the device under <0>Manage devices</0> and create a new one."
+msgstr "ລະຫັດຜ່ານຈະສະແດງພຽງຄັ້ງດຽວ, ສະນັ້ນໃຫ້ສຳເນົາມັນໄປໃສ່ອຸປະກອນກ່ອນປິດກ່ອງໂຕ້ຕອບ. ຖ້າມັນເສຍໄປ, ໃຫ້ລຶບອຸປະກອນໃນ <0>ຈັດການອຸປະກອນ</0> ແລ້ວສ້າງອັນໃໝ່."
+
 #: ../../../lib/web/src/features/errors/general-error.tsx
 msgid "The requested content could not be found."
 msgstr "ບໍ່ພົບເນື້ອຫາທີ່ຮ້ອງຂໍ."
@@ -2221,6 +2327,10 @@ msgstr "ແອັບນີ້ບໍ່ໄດ້ຮັບອະນຸຍາດໃ
 #: ../../../lib/web/src/components/game/game-end-dialogs.tsx
 msgid "This permanently deletes the game and its chat. This cannot be undone."
 msgstr "ການດຳເນີນການນີ້ຈະລົບເກມ ແລະ ການສົນທະນາຂອງມັນຖາວອນ. ບໍ່ສາມາດຍົກເລີກການດຳເນີນການນີ້ໄດ້."
+
+#: src/features/help/phone.tsx
+msgid "Thunderbird"
+msgstr "Thunderbird"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Thursday"
@@ -2451,6 +2561,10 @@ msgstr "ມີຫຍັງເກີດຂຶ້ນ"
 msgid "What have you tried, what did you expect, where are you stuck?"
 msgstr "ທ່ານໄດ້ລອງຫຍັງ, ທ່ານຄາດຫວັງຫຍັງ, ທ່ານຕິດຢູ່ໃສ?"
 
+#: src/features/help/phone.tsx
+msgid "What syncs"
+msgstr "ສິ່ງທີ່ຖືກຊິງຄ໌"
+
 #: src/features/help/contribute-dialog.tsx
 msgid "What would it do, who is it for, why does it matter?"
 msgstr "ມັນຈະເຮັດຫຍັງ, ສຳລັບໃຜ, ເປັນຫຍັງຈຶ່ງສຳຄັນ?"
@@ -2458,6 +2572,10 @@ msgstr "ມັນຈະເຮັດຫຍັງ, ສຳລັບໃຜ, ເປ�
 #: src/features/help/contribute-dialog.tsx
 msgid "What you want to ask, in one line"
 msgstr "ສິ່ງທີ່ທ່ານຢາກຖາມ, ໃນແຖວດຽວ"
+
+#: src/features/help/phone.tsx
+msgid "Which details to enter"
+msgstr "ລາຍລະອຽດທີ່ຕ້ອງປ້ອນ"
 
 #: ../../../lib/web/src/features/errors/general-error.tsx
 msgid "You do not have access to this section."
