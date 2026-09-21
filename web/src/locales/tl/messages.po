@@ -1636,7 +1636,7 @@ msgstr "Nakaraang imahe"
 #: ../../../lib/web/src/features/document/document-page.tsx
 #: src/features/help/index.tsx
 msgid "Privacy"
-msgstr "Privacy"
+msgstr "Pagkapribado"
 
 #: ../../../lib/web/src/components/ui/upload-progress.tsx
 msgid "Processing…"
