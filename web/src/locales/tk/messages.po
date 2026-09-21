@@ -201,10 +201,6 @@ msgstr "Bar bolan bildirişlere goşmak"
 msgid "Add view"
 msgstr "Görnüş goşmak"
 
-#: src/features/help/phone.tsx
-msgid "Address books are private to your account, so there is nothing to give to someone who is not a Mochi user."
-msgstr "Salgy kitaplary hasabyňyza degişli we şahsy, şonuň üçin Mochi ulanyjysy bolmadyk birine berjek zat ýok."
-
 #: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "AI"
 msgstr "AI"
@@ -225,10 +221,6 @@ msgstr "Ýalňyşlyk ýüze çykdy"
 #: ../../../lib/web/src/lib/error-normalizer.ts
 msgid "An unexpected error occurred"
 msgstr "Garaşylmadyk ýalňyşlyk ýüze çykdy"
-
-#: src/features/help/phone.tsx
-msgid "Android"
-msgstr "Android"
 
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
@@ -446,10 +438,6 @@ msgstr "Üýtgedildi"
 msgid "Changed {field}"
 msgstr "{field} üýtgedildi"
 
-#: src/features/help/phone.tsx
-msgid "Changes made on the device appear in People, and changes made in People appear on the device."
-msgstr "Enjamda edilen üýtgeşmeler Adamlar programmasynda görünýär, Adamlar programmasynda edilen üýtgeşmeler bolsa enjamda görünýär."
-
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Checkbox"
 msgstr "Bellik gutusy"
@@ -466,14 +454,6 @@ msgstr "Gapdal panelden oýun saýlaň ýa-da täzesini başlaň."
 #: ../../../lib/web/src/components/language-picker.tsx
 msgid "Choose language"
 msgstr "Dil saýlaň"
-
-#: src/features/help/phone.tsx
-msgid "Choose Login with URL and user name, enter the address book URL as the base URL, then the username and the password."
-msgstr "URL we ulanyjy ady bilen gir saýlaň, salgy kitabynyň URL-ini esasy URL hökmünde giriziň, soňra ulanyjy adyny we paroly."
-
-#: src/features/help/phone.tsx
-msgid "Choose the address books to add."
-msgstr "Goşuljak salgy kitaplaryny saýlaň."
 
 #: ../../../lib/web/src/components/banner-section.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
@@ -492,14 +472,6 @@ msgstr "Hemmesini arassalamak"
 #: ../../../lib/web/src/components/search-input.tsx
 msgid "Clear search"
 msgstr "Gözlegi arassalamak"
-
-#: src/features/help/phone.tsx
-msgid "Clients that ask for a URL, such as Thunderbird and most others, take the address book URL instead of the server."
-msgstr "URL soraýan müşderiler, meselem Thunderbird we beýlekileriň köpüsi, serweriň ýerine salgy kitabynyň URL-ini ulanýarlar."
-
-#: src/features/help/phone.tsx
-msgid "Clients that find the server by name, such as iPhone, iPad, Mac Contacts and DAVx5 on Android, need the server, the username and the password."
-msgstr "Serweri ady boýunça tapýan müşderiler, meselem iPhone, iPad, Mac Kontaktlary we Android-däki DAVx5, serwere, ulanyjy adyna we parola mätäç."
 
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
@@ -598,11 +570,6 @@ msgstr "Görnüş sazlamalaryny düzediň"
 msgid "Confirm"
 msgstr "Tassyklamak"
 
-#: src/features/help/index.tsx
-#: src/features/help/phone.tsx
-msgid "Connect your phone"
-msgstr "Telefonyňyzy birikdiriň"
-
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connected"
 msgstr "Baglandy"
@@ -682,14 +649,6 @@ msgstr "Döretmek"
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Create {entityLabel}"
 msgstr "{entityLabel} döret"
-
-#: src/features/help/phone.tsx
-msgid "Create a credential for the device"
-msgstr "Enjam üçin giriş maglumatlaryny dörediň"
-
-#: src/features/help/phone.tsx
-msgid "Create a separate credential for each device, so a lost device can be revoked without affecting the others."
-msgstr "Her enjam üçin aýratyn giriş maglumatlaryny dörediň, şonda ýitirilen enjamy beýlekilere täsir etmezden ýatyryp bolar."
 
 #: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx
 msgid "Create new item"
@@ -807,10 +766,6 @@ msgstr "Pozuldy"
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted {field}"
 msgstr "{field} pozuldy"
-
-#: src/features/help/phone.tsx
-msgid "Deleting a friend's card on the device removes the contact and ends the friendship, exactly as deleting it in People does."
-msgstr "Enjamda dostuň kartyny pozmak kontakty aýyrýar we dostlugy tamamlaýar, edil Adamlar programmasynda pozulyşy ýaly."
 
 #: ../../../lib/web/src/components/ui/sort-direction-button.tsx
 msgid "Descending"
@@ -948,10 +903,6 @@ msgstr "E-poçta"
 msgid "Email code"
 msgstr "E-poçta kody"
 
-#: src/features/help/phone.tsx
-msgid "Enable the address books it finds. Your contacts then appear in the phone's Contacts app."
-msgstr "Tapylan salgy kitaplaryny işjeňleşdiriň. Soňra kontaktlaryňyz telefonyň Kontaktlar programmasynda peýda bolar."
-
 #: ../../../lib/web/src/components/banner-section.tsx
 msgid "Enter banner text (markdown supported)..."
 msgstr "Baner tekstini giriziň (markdown goldanýar)..."
@@ -960,14 +911,6 @@ msgstr "Baner tekstini giriziň (markdown goldanýar)..."
 msgid "Enter the code from your email"
 msgstr "E-poçtaňyzdaky kody giriziň"
 
-#: src/features/help/phone.tsx
-msgid "Enter the server, your username and the password, and a description such as Mochi."
-msgstr "Serweri, ulanyjy adyňyzy we paroly, şeýle hem Mochi ýaly düşündirişi giriziň."
-
-#: src/features/help/phone.tsx
-msgid "Enter the username, and the address book URL as the location. Enter the password when asked."
-msgstr "Ulanyjy adyny, ýerleşýän ýer hökmünde bolsa salgy kitabynyň URL-ini giriziň. Soralanda paroly giriziň."
-
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Enter your authenticator code"
 msgstr "Autentifikator koduňyzy giriziň"
@@ -975,10 +918,6 @@ msgstr "Autentifikator koduňyzy giriziň"
 #: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx
 msgid "Error"
 msgstr "Ýalňyşlyk"
-
-#: src/features/help/phone.tsx
-msgid "Every address book listed in the People sidebar is offered to the device."
-msgstr "Adamlar programmasynyň gapdal panelinde sanalan her bir salgy kitaby enjama hödürlenýär."
 
 #: ../../../lib/web/src/components/comment-tree-layout.tsx
 #: ../../../lib/web/src/components/comment-tree-layout.tsx
@@ -1171,7 +1110,6 @@ msgid "Group: {0}"
 msgstr "Topar: {0}"
 
 #: src/features/help/index.tsx
-#: src/features/help/phone.tsx
 #: src/routes/_authenticated/document/privacy.tsx
 #: src/routes/_authenticated/document/rules.tsx
 #: src/routes/_authenticated/document/terms.tsx
@@ -1211,10 +1149,6 @@ msgstr "Surat görkeziji: {0}"
 msgid "Imperial"
 msgstr "Imperial"
 
-#: src/features/help/phone.tsx
-msgid "In People, choose <0>Connect a device</0> in the sidebar."
-msgstr "Adamlar programmasynda gapdal panelde <0>Enjam birikdir</0> saýlaň."
-
 #: ../../../lib/web/src/features/access/types.ts
 msgid "Including anonymous users"
 msgstr "Anonim ulanyjylary hem goşmak bilen"
@@ -1226,10 +1160,6 @@ msgstr "Baş harplar awatary"
 #: ../../../lib/web/src/components/faceless-avatar.tsx
 msgid "Initials avatar for {name}"
 msgstr "{name} üçin baş harplar awatary"
-
-#: src/features/help/phone.tsx
-msgid "Install DAVx5 from F-Droid or Google Play."
-msgstr "DAVx5-i F-Droid ýa-da Google Play-den guruň."
 
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Interest {weight}"
@@ -1247,10 +1177,6 @@ msgstr "Özüňizi tanyşdyryň"
 #: ../../../lib/web/src/components/entity/entity-field-editor.tsx
 msgid "Invalid date"
 msgstr "Nädogry sene"
-
-#: src/features/help/phone.tsx
-msgid "iPhone and iPad"
-msgstr "iPhone we iPad"
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "It seems like the page you're looking for <0/>does not exist or might have been removed."
@@ -1388,10 +1314,6 @@ msgstr "Mikrofon rugsady ret edildi"
 msgid "Minimum length"
 msgstr "Iň az uzynlyk"
 
-#: src/features/help/phone.tsx
-msgid "Mochi keeps your contacts in the People app. Any phone, tablet or computer that supports CardDAV can sync them."
-msgstr "Mochi kontaktlaryňyzy Adamlar programmasynda saklaýar. CardDAV-y goldaýan islendik telefon, planşet ýa-da kompýuter olary sinhronlap biler."
-
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Mochi web"
 msgstr "Mochi web"
@@ -1435,10 +1357,6 @@ msgstr "At hökmandyr"
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Name must be 1000 characters or less"
 msgstr "At 1000 nyşandan az bolmaly"
-
-#: src/features/help/phone.tsx
-msgid "Name the device and create the credential. The dialog shows the server, the address book URL, the username and a password."
-msgstr "Enjama at beriň we giriş maglumatlaryny dörediň. Dialog serweri, salgy kitabynyň URL-ini, ulanyjy adyny we paroly görkezýär."
 
 #: ../../../lib/web/src/features/errors/general-error.tsx
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
@@ -1588,10 +1506,6 @@ msgstr "San"
 msgid "On"
 msgstr "Açyk"
 
-#: src/features/help/phone.tsx
-msgid "On a Mac, open Contacts › Settings › Accounts, add an account, choose Other Contacts Account, then CardDAV and Manual, and enter the same details."
-msgstr "Mac-da Kontaktlar › Sazlamalar › Hasaplar bölümini açyň, hasap goşuň, Başga Kontaktlar hasaby, soňra CardDAV we El bilen saýlaň we şol maglumatlary giriziň."
-
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
 msgstr "Eý dostum! Sahypa tapylmady!"
@@ -1599,10 +1513,6 @@ msgstr "Eý dostum! Sahypa tapylmady!"
 #: ../../../lib/web/src/components/layout/nav-group.tsx
 msgid "Open actions"
 msgstr "Amallary aç"
-
-#: src/features/help/phone.tsx
-msgid "Open Address Book › New Address Book › Add CardDAV Address Book."
-msgstr "Salgy kitaby › Täze salgy kitaby › CardDAV salgy kitabyny goş bölümini açyň."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"
@@ -1620,10 +1530,6 @@ msgstr "Wariant hereketlerini aç"
 #: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx
 msgid "Open selected card"
 msgstr "Saýlanan kartoçkany aç"
-
-#: src/features/help/phone.tsx
-msgid "Open Settings › Contacts › Accounts › Add Account › Other › Add CardDAV Account."
-msgstr "Sazlamalar › Kontaktlar › Hasaplar › Hasap goş › Başga › CardDAV hasabyny goş bölümini açyň."
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Open view actions"
@@ -2110,10 +2016,6 @@ msgstr "Başlangyç we baryljak ýeri belle"
 msgid "Settings"
 msgstr "Sazlamalar"
 
-#: src/features/help/phone.tsx
-msgid "Sharing with others"
-msgstr "Beýlekiler bilen paýlaşmak"
-
 #: src/features/help/contribute-dialog.tsx
 msgid "Short title for your idea"
 msgstr "Pikiriňiz üçin gysga at"
@@ -2238,10 +2140,6 @@ msgstr "Ýekşenbe"
 msgid "Switch to view 1-9"
 msgstr "1-9 görnüşine geç"
 
-#: src/features/help/index.tsx
-msgid "Sync your Mochi contacts with your phone, tablet or computer over CardDAV."
-msgstr "Mochi kontaktlaryňyzy CardDAV arkaly telefonyňyz, planşetiňiz ýa-da kompýuteriňiz bilen sinhronlaň."
-
 #: ../../../lib/web/src/components/audit-timeline.tsx
 #: ../../../lib/web/src/lib/preference-utils.ts
 #: ../../../lib/web/src/lib/preference-utils.ts
@@ -2308,10 +2206,6 @@ msgstr "Mikrofon haýyşyna jogap berilmedi"
 msgid "The passkey request was not answered"
 msgstr "Passkey haýyşyna jogap berilmedi"
 
-#: src/features/help/phone.tsx
-msgid "The password is shown only once, so copy it into the device before closing the dialog. If it is lost, delete the device under <0>Manage devices</0> and create a new one."
-msgstr "Parol diňe bir gezek görkezilýär, şonuň üçin dialogy ýapmazdan öň ony enjama göçüriň. Eger ýitse, <0>Enjamlary dolandyr</0> bölüminde enjamy pozuň we täzesini dörediň."
-
 #: ../../../lib/web/src/features/errors/general-error.tsx
 msgid "The requested content could not be found."
 msgstr "Soralan mazmun tapylmady."
@@ -2327,10 +2221,6 @@ msgstr "Bu programma siziň passkey-iňizi ulanmaga rugsat berilmedi. Sazlamalar
 #: ../../../lib/web/src/components/game/game-end-dialogs.tsx
 msgid "This permanently deletes the game and its chat. This cannot be undone."
 msgstr "Bu oýny we onuň söhbetdeşligini hemişelik pozar. Bu hereketi yzyna gaýtaryp bolmaz."
-
-#: src/features/help/phone.tsx
-msgid "Thunderbird"
-msgstr "Thunderbird"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Thursday"
@@ -2561,10 +2451,6 @@ msgstr "Näme boldy"
 msgid "What have you tried, what did you expect, where are you stuck?"
 msgstr "Näme synanyşdyňyz, näme garaşýardyňyz, nirede ýapyşyp galdyňyz?"
 
-#: src/features/help/phone.tsx
-msgid "What syncs"
-msgstr "Näme sinhronlanýar"
-
 #: src/features/help/contribute-dialog.tsx
 msgid "What would it do, who is it for, why does it matter?"
 msgstr "Bu näme eder, kim üçin, näme üçin möhüm?"
@@ -2572,10 +2458,6 @@ msgstr "Bu näme eder, kim üçin, näme üçin möhüm?"
 #: src/features/help/contribute-dialog.tsx
 msgid "What you want to ask, in one line"
 msgstr "Näme soramak isleýärsiňiz, bir hatarda"
-
-#: src/features/help/phone.tsx
-msgid "Which details to enter"
-msgstr "Haýsy maglumatlary girizmeli"
 
 #: ../../../lib/web/src/features/errors/general-error.tsx
 msgid "You do not have access to this section."

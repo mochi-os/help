@@ -201,10 +201,6 @@ msgstr "Legg til i eksisterande varsel"
 msgid "Add view"
 msgstr "Legg til visning"
 
-#: src/features/help/phone.tsx
-msgid "Address books are private to your account, so there is nothing to give to someone who is not a Mochi user."
-msgstr "Adressebøker er private og høyrer til kontoen din, så det er ingenting å gje til nokon som ikkje er Mochi-brukar."
-
 #: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "AI"
 msgstr "KI"
@@ -225,10 +221,6 @@ msgstr "Det oppstod ein feil"
 #: ../../../lib/web/src/lib/error-normalizer.ts
 msgid "An unexpected error occurred"
 msgstr "Det oppstod ein uventa feil"
-
-#: src/features/help/phone.tsx
-msgid "Android"
-msgstr "Android"
 
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
@@ -446,10 +438,6 @@ msgstr "Endra"
 msgid "Changed {field}"
 msgstr "Endra {field}"
 
-#: src/features/help/phone.tsx
-msgid "Changes made on the device appear in People, and changes made in People appear on the device."
-msgstr "Endringar gjorde på eininga vert viste i Personar, og endringar gjorde i Personar vert viste på eininga."
-
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Checkbox"
 msgstr "Avkryssingsboks"
@@ -466,14 +454,6 @@ msgstr "Vel eit spel frå sidestolpen eller start eit nytt."
 #: ../../../lib/web/src/components/language-picker.tsx
 msgid "Choose language"
 msgstr "Vel språk"
-
-#: src/features/help/phone.tsx
-msgid "Choose Login with URL and user name, enter the address book URL as the base URL, then the username and the password."
-msgstr "Vel Logg inn med URL og brukarnamn, skriv inn adresseboka sin URL som basis-URL og deretter brukarnamnet og passordet."
-
-#: src/features/help/phone.tsx
-msgid "Choose the address books to add."
-msgstr "Vel adressebøkene som skal leggjast til."
 
 #: ../../../lib/web/src/components/banner-section.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
@@ -492,14 +472,6 @@ msgstr "Tøm alle"
 #: ../../../lib/web/src/components/search-input.tsx
 msgid "Clear search"
 msgstr "Tøm søk"
-
-#: src/features/help/phone.tsx
-msgid "Clients that ask for a URL, such as Thunderbird and most others, take the address book URL instead of the server."
-msgstr "Klientar som ber om ein URL, som Thunderbird og dei fleste andre, brukar adresseboka sin URL i staden for tenaren."
-
-#: src/features/help/phone.tsx
-msgid "Clients that find the server by name, such as iPhone, iPad, Mac Contacts and DAVx5 on Android, need the server, the username and the password."
-msgstr "Klientar som finn tenaren ved namn, som iPhone, iPad, Kontaktar på Mac og DAVx5 på Android, treng berre tenaren, brukarnamnet og passordet."
 
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
@@ -598,11 +570,6 @@ msgstr "Set opp visningsinnstillingar"
 msgid "Confirm"
 msgstr "Stadfest"
 
-#: src/features/help/index.tsx
-#: src/features/help/phone.tsx
-msgid "Connect your phone"
-msgstr "Kople til telefonen din"
-
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connected"
 msgstr "Tilkopla"
@@ -682,14 +649,6 @@ msgstr "Opprett"
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Create {entityLabel}"
 msgstr "Opprett {entityLabel}"
-
-#: src/features/help/phone.tsx
-msgid "Create a credential for the device"
-msgstr "Opprett påloggingsinformasjon for eininga"
-
-#: src/features/help/phone.tsx
-msgid "Create a separate credential for each device, so a lost device can be revoked without affecting the others."
-msgstr "Opprett eigen påloggingsinformasjon for kvar eining, slik at ei mista eining kan sperrast utan at dei andre vert påverka."
 
 #: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx
 msgid "Create new item"
@@ -807,10 +766,6 @@ msgstr "Sletta"
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted {field}"
 msgstr "Sletta {field}"
-
-#: src/features/help/phone.tsx
-msgid "Deleting a friend's card on the device removes the contact and ends the friendship, exactly as deleting it in People does."
-msgstr "Slettar du kortet til ein ven på eininga, vert kontakten fjerna og venskapen avslutta, akkurat som når du slettar det i Personar."
 
 #: ../../../lib/web/src/components/ui/sort-direction-button.tsx
 msgid "Descending"
@@ -948,10 +903,6 @@ msgstr "E-post"
 msgid "Email code"
 msgstr "E-postkode"
 
-#: src/features/help/phone.tsx
-msgid "Enable the address books it finds. Your contacts then appear in the phone's Contacts app."
-msgstr "Slå på adressebøkene han finn. Kontaktane dine vert deretter viste i Kontaktar-appen på telefonen."
-
 #: ../../../lib/web/src/components/banner-section.tsx
 msgid "Enter banner text (markdown supported)..."
 msgstr "Skriv inn bannertekst (markdown er støtta)..."
@@ -960,14 +911,6 @@ msgstr "Skriv inn bannertekst (markdown er støtta)..."
 msgid "Enter the code from your email"
 msgstr "Skriv inn koden frå e-posten din"
 
-#: src/features/help/phone.tsx
-msgid "Enter the server, your username and the password, and a description such as Mochi."
-msgstr "Skriv inn tenaren, brukarnamnet ditt og passordet, og ei skildring som Mochi."
-
-#: src/features/help/phone.tsx
-msgid "Enter the username, and the address book URL as the location. Enter the password when asked."
-msgstr "Skriv inn brukarnamnet og adresseboka sin URL som plassering. Skriv inn passordet når du vert beden om det."
-
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Enter your authenticator code"
 msgstr "Skriv inn autentiseringskoden din"
@@ -975,10 +918,6 @@ msgstr "Skriv inn autentiseringskoden din"
 #: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx
 msgid "Error"
 msgstr "Feil"
-
-#: src/features/help/phone.tsx
-msgid "Every address book listed in the People sidebar is offered to the device."
-msgstr "Kvar adressebok i sidestolpen i Personar vert tilboden eininga."
 
 #: ../../../lib/web/src/components/comment-tree-layout.tsx
 #: ../../../lib/web/src/components/comment-tree-layout.tsx
@@ -1171,7 +1110,6 @@ msgid "Group: {0}"
 msgstr "Gruppe: {0}"
 
 #: src/features/help/index.tsx
-#: src/features/help/phone.tsx
 #: src/routes/_authenticated/document/privacy.tsx
 #: src/routes/_authenticated/document/rules.tsx
 #: src/routes/_authenticated/document/terms.tsx
@@ -1211,10 +1149,6 @@ msgstr "Biletvisar: {0}"
 msgid "Imperial"
 msgstr "Imperial"
 
-#: src/features/help/phone.tsx
-msgid "In People, choose <0>Connect a device</0> in the sidebar."
-msgstr "I Personar vel du <0>Kople til ei eining</0> i sidestolpen."
-
 #: ../../../lib/web/src/features/access/types.ts
 msgid "Including anonymous users"
 msgstr "Inkludert anonyme brukarar"
@@ -1226,10 +1160,6 @@ msgstr "Initialavatar"
 #: ../../../lib/web/src/components/faceless-avatar.tsx
 msgid "Initials avatar for {name}"
 msgstr "Initialavatar for {name}"
-
-#: src/features/help/phone.tsx
-msgid "Install DAVx5 from F-Droid or Google Play."
-msgstr "Installer DAVx5 frå F-Droid eller Google Play."
 
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Interest {weight}"
@@ -1247,10 +1177,6 @@ msgstr "Presenter deg"
 #: ../../../lib/web/src/components/entity/entity-field-editor.tsx
 msgid "Invalid date"
 msgstr "Ugyldig dato"
-
-#: src/features/help/phone.tsx
-msgid "iPhone and iPad"
-msgstr "iPhone og iPad"
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "It seems like the page you're looking for <0/>does not exist or might have been removed."
@@ -1388,10 +1314,6 @@ msgstr "Mikrofonløyve nekta"
 msgid "Minimum length"
 msgstr "Minste lengd"
 
-#: src/features/help/phone.tsx
-msgid "Mochi keeps your contacts in the People app. Any phone, tablet or computer that supports CardDAV can sync them."
-msgstr "Mochi lagrar kontaktane dine i appen Personar. Alle telefonar, nettbrett og datamaskiner som støttar CardDAV kan synkronisere dei."
-
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Mochi web"
 msgstr "Mochi web"
@@ -1435,10 +1357,6 @@ msgstr "Namn er påkravd"
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Name must be 1000 characters or less"
 msgstr "Namn må vera 1000 teikn eller mindre"
-
-#: src/features/help/phone.tsx
-msgid "Name the device and create the credential. The dialog shows the server, the address book URL, the username and a password."
-msgstr "Gje eininga eit namn og opprett påloggingsinformasjonen. Dialogboksen viser tenaren, adresseboka sin URL, brukarnamnet og eit passord."
 
 #: ../../../lib/web/src/features/errors/general-error.tsx
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
@@ -1588,10 +1506,6 @@ msgstr "Tal"
 msgid "On"
 msgstr "På"
 
-#: src/features/help/phone.tsx
-msgid "On a Mac, open Contacts › Settings › Accounts, add an account, choose Other Contacts Account, then CardDAV and Manual, and enter the same details."
-msgstr "På ein Mac opnar du Kontaktar › Innstillingar › Kontoar, legg til ein konto, vel Annan Kontaktar-konto, deretter CardDAV og Manuelt, og skriv inn dei same opplysningane."
-
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
 msgstr "Ups! Side ikkje funne!"
@@ -1599,10 +1513,6 @@ msgstr "Ups! Side ikkje funne!"
 #: ../../../lib/web/src/components/layout/nav-group.tsx
 msgid "Open actions"
 msgstr "Opne handlingar"
-
-#: src/features/help/phone.tsx
-msgid "Open Address Book › New Address Book › Add CardDAV Address Book."
-msgstr "Opne Adressebok › Ny adressebok › Legg til CardDAV-adressebok."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"
@@ -1620,10 +1530,6 @@ msgstr "Opna alternativhandlingar"
 #: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx
 msgid "Open selected card"
 msgstr "Opna vald kort"
-
-#: src/features/help/phone.tsx
-msgid "Open Settings › Contacts › Accounts › Add Account › Other › Add CardDAV Account."
-msgstr "Opne Innstillingar › Kontaktar › Kontoar › Legg til konto › Anna › Legg til CardDAV-konto."
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Open view actions"
@@ -2110,10 +2016,6 @@ msgstr "Set opphav og mål"
 msgid "Settings"
 msgstr "Innstillingar"
 
-#: src/features/help/phone.tsx
-msgid "Sharing with others"
-msgstr "Deling med andre"
-
 #: src/features/help/contribute-dialog.tsx
 msgid "Short title for your idea"
 msgstr "Kort tittel på idéen din"
@@ -2238,10 +2140,6 @@ msgstr "Sundag"
 msgid "Switch to view 1-9"
 msgstr "Byt til vising 1-9"
 
-#: src/features/help/index.tsx
-msgid "Sync your Mochi contacts with your phone, tablet or computer over CardDAV."
-msgstr "Synkroniser Mochi-kontaktane dine med telefon, nettbrett eller datamaskin via CardDAV."
-
 #: ../../../lib/web/src/components/audit-timeline.tsx
 #: ../../../lib/web/src/lib/preference-utils.ts
 #: ../../../lib/web/src/lib/preference-utils.ts
@@ -2308,10 +2206,6 @@ msgstr "Mikrofonførespurnaden vart ikkje svara på"
 msgid "The passkey request was not answered"
 msgstr "Nykelførespurnaden vart ikkje svara på"
 
-#: src/features/help/phone.tsx
-msgid "The password is shown only once, so copy it into the device before closing the dialog. If it is lost, delete the device under <0>Manage devices</0> and create a new one."
-msgstr "Passordet vert vist berre éin gong, så kopier det til eininga før du lukkar dialogboksen. Går det tapt, slettar du eininga under <0>Administrer einingar</0> og opprettar ei ny."
-
 #: ../../../lib/web/src/features/errors/general-error.tsx
 msgid "The requested content could not be found."
 msgstr "Fann ikkje innhaldet du bad om."
@@ -2327,10 +2221,6 @@ msgstr "Denne appen har ikkje løyve til å bruke nykelen din. Tillat det i Inns
 #: ../../../lib/web/src/components/game/game-end-dialogs.tsx
 msgid "This permanently deletes the game and its chat. This cannot be undone."
 msgstr "Dette slettar spelet og praten permanent. Denne handlinga kan ikkje angrast."
-
-#: src/features/help/phone.tsx
-msgid "Thunderbird"
-msgstr "Thunderbird"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Thursday"
@@ -2561,10 +2451,6 @@ msgstr "Kva som skjedde"
 msgid "What have you tried, what did you expect, where are you stuck?"
 msgstr "Kva har du prøvd, kva venta du, og kvar står du fast?"
 
-#: src/features/help/phone.tsx
-msgid "What syncs"
-msgstr "Kva som vert synkronisert"
-
 #: src/features/help/contribute-dialog.tsx
 msgid "What would it do, who is it for, why does it matter?"
 msgstr "Kva skal det gjere, kven er det for, og kvifor er det viktig?"
@@ -2572,10 +2458,6 @@ msgstr "Kva skal det gjere, kven er det for, og kvifor er det viktig?"
 #: src/features/help/contribute-dialog.tsx
 msgid "What you want to ask, in one line"
 msgstr "Kva du vil spørje om, på éi linje"
-
-#: src/features/help/phone.tsx
-msgid "Which details to enter"
-msgstr "Kva opplysningar som skal skrivast inn"
 
 #: ../../../lib/web/src/features/errors/general-error.tsx
 msgid "You do not have access to this section."

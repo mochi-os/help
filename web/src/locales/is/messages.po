@@ -201,10 +201,6 @@ msgstr "Bæta við núverandi tilkynningar"
 msgid "Add view"
 msgstr "Bæta við sýn"
 
-#: src/features/help/phone.tsx
-msgid "Address books are private to your account, so there is nothing to give to someone who is not a Mochi user."
-msgstr "Tengiliðaskrár eru einkamál reikningsins þíns, svo það er ekkert að gefa þeim sem er ekki Mochi-notandi."
-
 #: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "AI"
 msgstr "Gervigreind"
@@ -225,10 +221,6 @@ msgstr "Villa kom upp"
 #: ../../../lib/web/src/lib/error-normalizer.ts
 msgid "An unexpected error occurred"
 msgstr "Óvænt villa kom upp"
-
-#: src/features/help/phone.tsx
-msgid "Android"
-msgstr "Android"
 
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
@@ -446,10 +438,6 @@ msgstr "Breytt"
 msgid "Changed {field}"
 msgstr "Breytti {field}"
 
-#: src/features/help/phone.tsx
-msgid "Changes made on the device appear in People, and changes made in People appear on the device."
-msgstr "Breytingar sem gerðar eru á tækinu birtast í Fólk, og breytingar sem gerðar eru í Fólk birtast á tækinu."
-
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Checkbox"
 msgstr "Gátreitur"
@@ -466,14 +454,6 @@ msgstr "Veldu leik úr hliðarstikunni eða byrjaðu nýjan."
 #: ../../../lib/web/src/components/language-picker.tsx
 msgid "Choose language"
 msgstr "Veldu tungumál"
-
-#: src/features/help/phone.tsx
-msgid "Choose Login with URL and user name, enter the address book URL as the base URL, then the username and the password."
-msgstr "Veldu Innskráning með vefslóð og notandanafni, sláðu inn vefslóð tengiliðaskrárinnar sem grunnslóð og síðan notandanafnið og lykilorðið."
-
-#: src/features/help/phone.tsx
-msgid "Choose the address books to add."
-msgstr "Veldu tengiliðaskrárnar sem á að bæta við."
 
 #: ../../../lib/web/src/components/banner-section.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
@@ -492,14 +472,6 @@ msgstr "Hreinsa allt"
 #: ../../../lib/web/src/components/search-input.tsx
 msgid "Clear search"
 msgstr "Hreinsa leit"
-
-#: src/features/help/phone.tsx
-msgid "Clients that ask for a URL, such as Thunderbird and most others, take the address book URL instead of the server."
-msgstr "Forrit sem biðja um vefslóð, eins og Thunderbird og flest önnur, nota vefslóð tengiliðaskrárinnar í stað þjónsins."
-
-#: src/features/help/phone.tsx
-msgid "Clients that find the server by name, such as iPhone, iPad, Mac Contacts and DAVx5 on Android, need the server, the username and the password."
-msgstr "Forrit sem finna þjóninn eftir nafni, eins og iPhone, iPad, Tengiliðir á Mac og DAVx5 á Android, þurfa aðeins þjóninn, notandanafnið og lykilorðið."
 
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
@@ -598,11 +570,6 @@ msgstr "Stilla sýnar"
 msgid "Confirm"
 msgstr "Staðfesta"
 
-#: src/features/help/index.tsx
-#: src/features/help/phone.tsx
-msgid "Connect your phone"
-msgstr "Tengja símann þinn"
-
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connected"
 msgstr "Tengt"
@@ -682,14 +649,6 @@ msgstr "Búa til"
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Create {entityLabel}"
 msgstr "Búa til {entityLabel}"
-
-#: src/features/help/phone.tsx
-msgid "Create a credential for the device"
-msgstr "Búa til aðgangsupplýsingar fyrir tækið"
-
-#: src/features/help/phone.tsx
-msgid "Create a separate credential for each device, so a lost device can be revoked without affecting the others."
-msgstr "Búðu til sérstakar aðgangsupplýsingar fyrir hvert tæki, svo hægt sé að afturkalla týnt tæki án þess að hafa áhrif á hin."
 
 #: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx
 msgid "Create new item"
@@ -807,10 +766,6 @@ msgstr "Eytt"
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted {field}"
 msgstr "Eyddi {field}"
-
-#: src/features/help/phone.tsx
-msgid "Deleting a friend's card on the device removes the contact and ends the friendship, exactly as deleting it in People does."
-msgstr "Sé spjaldi vinar eytt á tækinu er tengiliðurinn fjarlægður og vináttunni slitið, nákvæmlega eins og þegar því er eytt í Fólk."
 
 #: ../../../lib/web/src/components/ui/sort-direction-button.tsx
 msgid "Descending"
@@ -948,10 +903,6 @@ msgstr "Tölvupóstur"
 msgid "Email code"
 msgstr "Tölvupóstkóði"
 
-#: src/features/help/phone.tsx
-msgid "Enable the address books it finds. Your contacts then appear in the phone's Contacts app."
-msgstr "Virkjaðu tengiliðaskrárnar sem finnast. Tengiliðirnir þínir birtast þá í Tengiliðir-forriti símans."
-
 #: ../../../lib/web/src/components/banner-section.tsx
 msgid "Enter banner text (markdown supported)..."
 msgstr "Sláðu inn texta borða (markdown stutt)..."
@@ -960,14 +911,6 @@ msgstr "Sláðu inn texta borða (markdown stutt)..."
 msgid "Enter the code from your email"
 msgstr "Sláðu inn kóðann úr tölvupóstinum þínum"
 
-#: src/features/help/phone.tsx
-msgid "Enter the server, your username and the password, and a description such as Mochi."
-msgstr "Sláðu inn þjóninn, notandanafnið þitt og lykilorðið, og lýsingu eins og Mochi."
-
-#: src/features/help/phone.tsx
-msgid "Enter the username, and the address book URL as the location. Enter the password when asked."
-msgstr "Sláðu inn notandanafnið og vefslóð tengiliðaskrárinnar sem staðsetningu. Sláðu inn lykilorðið þegar beðið er um það."
-
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Enter your authenticator code"
 msgstr "Sláðu inn auðkenniskóðann þinn"
@@ -975,10 +918,6 @@ msgstr "Sláðu inn auðkenniskóðann þinn"
 #: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx
 msgid "Error"
 msgstr "Villa"
-
-#: src/features/help/phone.tsx
-msgid "Every address book listed in the People sidebar is offered to the device."
-msgstr "Sérhver tengiliðaskrá í hliðarstiku Fólk er boðin tækinu."
 
 #: ../../../lib/web/src/components/comment-tree-layout.tsx
 #: ../../../lib/web/src/components/comment-tree-layout.tsx
@@ -1171,7 +1110,6 @@ msgid "Group: {0}"
 msgstr "Hópur: {0}"
 
 #: src/features/help/index.tsx
-#: src/features/help/phone.tsx
 #: src/routes/_authenticated/document/privacy.tsx
 #: src/routes/_authenticated/document/rules.tsx
 #: src/routes/_authenticated/document/terms.tsx
@@ -1211,10 +1149,6 @@ msgstr "Myndaskoðari: {0}"
 msgid "Imperial"
 msgstr "Bresk mælieining"
 
-#: src/features/help/phone.tsx
-msgid "In People, choose <0>Connect a device</0> in the sidebar."
-msgstr "Í Fólk velurðu <0>Tengja tæki</0> í hliðarstikunni."
-
 #: ../../../lib/web/src/features/access/types.ts
 msgid "Including anonymous users"
 msgstr "Þar á meðal nafnlausir notendur"
@@ -1226,10 +1160,6 @@ msgstr "Upphafsstafaauðkenni"
 #: ../../../lib/web/src/components/faceless-avatar.tsx
 msgid "Initials avatar for {name}"
 msgstr "Upphafsstafaauðkenni fyrir {name}"
-
-#: src/features/help/phone.tsx
-msgid "Install DAVx5 from F-Droid or Google Play."
-msgstr "Settu upp DAVx5 úr F-Droid eða Google Play."
 
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Interest {weight}"
@@ -1247,10 +1177,6 @@ msgstr "Kynntu þig"
 #: ../../../lib/web/src/components/entity/entity-field-editor.tsx
 msgid "Invalid date"
 msgstr "Ógild dagsetning"
-
-#: src/features/help/phone.tsx
-msgid "iPhone and iPad"
-msgstr "iPhone og iPad"
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "It seems like the page you're looking for <0/>does not exist or might have been removed."
@@ -1388,10 +1314,6 @@ msgstr "Heimild fyrir hljóðnema hafnað"
 msgid "Minimum length"
 msgstr "Lágmarkslengd"
 
-#: src/features/help/phone.tsx
-msgid "Mochi keeps your contacts in the People app. Any phone, tablet or computer that supports CardDAV can sync them."
-msgstr "Mochi geymir tengiliðina þína í forritinu Fólk. Sérhver sími, spjaldtölva eða tölva sem styður CardDAV getur samstillt þá."
-
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Mochi web"
 msgstr "Mochi-vefur"
@@ -1435,10 +1357,6 @@ msgstr "Nafn er nauðsynlegt"
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Name must be 1000 characters or less"
 msgstr "Nafn má ekki vera lengra en 1000 stafir"
-
-#: src/features/help/phone.tsx
-msgid "Name the device and create the credential. The dialog shows the server, the address book URL, the username and a password."
-msgstr "Gefðu tækinu nafn og búðu til aðgangsupplýsingarnar. Glugginn sýnir þjóninn, vefslóð tengiliðaskrárinnar, notandanafnið og lykilorð."
 
 #: ../../../lib/web/src/features/errors/general-error.tsx
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
@@ -1588,10 +1506,6 @@ msgstr "Tala"
 msgid "On"
 msgstr "Kveikt"
 
-#: src/features/help/phone.tsx
-msgid "On a Mac, open Contacts › Settings › Accounts, add an account, choose Other Contacts Account, then CardDAV and Manual, and enter the same details."
-msgstr "Á Mac opnarðu Tengiliðir › Stillingar › Reikningar, bætir við reikningi, velur Annar Tengiliðir-reikningur, síðan CardDAV og Handvirkt, og slærð inn sömu upplýsingar."
-
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
 msgstr "Úps! Síða fannst ekki!"
@@ -1599,10 +1513,6 @@ msgstr "Úps! Síða fannst ekki!"
 #: ../../../lib/web/src/components/layout/nav-group.tsx
 msgid "Open actions"
 msgstr "Opna aðgerðir"
-
-#: src/features/help/phone.tsx
-msgid "Open Address Book › New Address Book › Add CardDAV Address Book."
-msgstr "Opnaðu Tengiliðaskrá › Ný tengiliðaskrá › Bæta við CardDAV-tengiliðaskrá."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"
@@ -1620,10 +1530,6 @@ msgstr "Opna valkostsaðgerðir"
 #: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx
 msgid "Open selected card"
 msgstr "Opna valið spjald"
-
-#: src/features/help/phone.tsx
-msgid "Open Settings › Contacts › Accounts › Add Account › Other › Add CardDAV Account."
-msgstr "Opnaðu Stillingar › Tengiliðir › Reikningar › Bæta við reikningi › Annað › Bæta við CardDAV-reikningi."
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Open view actions"
@@ -2110,10 +2016,6 @@ msgstr "Stilltu upphafsstað og áfangastað"
 msgid "Settings"
 msgstr "Stillingar"
 
-#: src/features/help/phone.tsx
-msgid "Sharing with others"
-msgstr "Deila með öðrum"
-
 #: src/features/help/contribute-dialog.tsx
 msgid "Short title for your idea"
 msgstr "Stuttur titill á hugmyndinni þinni"
@@ -2238,10 +2140,6 @@ msgstr "Sunnudagur"
 msgid "Switch to view 1-9"
 msgstr "Skipta yfir í sýn 1-9"
 
-#: src/features/help/index.tsx
-msgid "Sync your Mochi contacts with your phone, tablet or computer over CardDAV."
-msgstr "Samstilltu Mochi-tengiliðina þína við síma, spjaldtölvu eða tölvu með CardDAV."
-
 #: ../../../lib/web/src/components/audit-timeline.tsx
 #: ../../../lib/web/src/lib/preference-utils.ts
 #: ../../../lib/web/src/lib/preference-utils.ts
@@ -2308,10 +2206,6 @@ msgstr "Hljóðnemabeiðninni var ekki svarað"
 msgid "The passkey request was not answered"
 msgstr "Aðgangslykilsbeiðninni var ekki svarað"
 
-#: src/features/help/phone.tsx
-msgid "The password is shown only once, so copy it into the device before closing the dialog. If it is lost, delete the device under <0>Manage devices</0> and create a new one."
-msgstr "Lykilorðið er aðeins sýnt einu sinni, svo afritaðu það yfir á tækið áður en þú lokar glugganum. Týnist það, eyðirðu tækinu undir <0>Stjórna tækjum</0> og býrð til nýtt."
-
 #: ../../../lib/web/src/features/errors/general-error.tsx
 msgid "The requested content could not be found."
 msgstr "Umbeðið efni fannst ekki."
@@ -2327,10 +2221,6 @@ msgstr "Þetta forrit má ekki nota aðgangslykilinn þinn. Leyfðu það í Sti
 #: ../../../lib/web/src/components/game/game-end-dialogs.tsx
 msgid "This permanently deletes the game and its chat. This cannot be undone."
 msgstr "Þetta eyðir leiknum og spjallinu varanlega. Ekki er hægt að afturkalla þessa aðgerð."
-
-#: src/features/help/phone.tsx
-msgid "Thunderbird"
-msgstr "Thunderbird"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Thursday"
@@ -2561,10 +2451,6 @@ msgstr "Hvað gerðist"
 msgid "What have you tried, what did you expect, where are you stuck?"
 msgstr "Hvað hefur þú reynt, hverju bjóstu við, hvar ertu fastur?"
 
-#: src/features/help/phone.tsx
-msgid "What syncs"
-msgstr "Hvað er samstillt"
-
 #: src/features/help/contribute-dialog.tsx
 msgid "What would it do, who is it for, why does it matter?"
 msgstr "Hvað myndi hann gera, fyrir hvern er hann, af hverju skiptir það máli?"
@@ -2572,10 +2458,6 @@ msgstr "Hvað myndi hann gera, fyrir hvern er hann, af hverju skiptir það mál
 #: src/features/help/contribute-dialog.tsx
 msgid "What you want to ask, in one line"
 msgstr "Það sem þú vilt spyrja, í einni línu"
-
-#: src/features/help/phone.tsx
-msgid "Which details to enter"
-msgstr "Hvaða upplýsingar á að slá inn"
 
 #: ../../../lib/web/src/features/errors/general-error.tsx
 msgid "You do not have access to this section."

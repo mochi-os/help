@@ -201,10 +201,6 @@ msgstr "Idagdag sa mga umiiral na notification"
 msgid "Add view"
 msgstr "Magdagdag ng view"
 
-#: src/features/help/phone.tsx
-msgid "Address books are private to your account, so there is nothing to give to someone who is not a Mochi user."
-msgstr "Pribado ang mga address book at pag-aari ng iyong account, kaya walang maibibigay sa isang taong hindi Mochi user."
-
 #: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "AI"
 msgstr "AI"
@@ -225,10 +221,6 @@ msgstr "May naganap na error"
 #: ../../../lib/web/src/lib/error-normalizer.ts
 msgid "An unexpected error occurred"
 msgstr "May naganap na hindi inaasahang error"
-
-#: src/features/help/phone.tsx
-msgid "Android"
-msgstr "Android"
 
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
@@ -446,10 +438,6 @@ msgstr "Binago"
 msgid "Changed {field}"
 msgstr "Binago ang {field}"
 
-#: src/features/help/phone.tsx
-msgid "Changes made on the device appear in People, and changes made in People appear on the device."
-msgstr "Ang mga pagbabagong ginawa sa device ay lumalabas sa Mga Tao, at ang mga pagbabagong ginawa sa Mga Tao ay lumalabas sa device."
-
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Checkbox"
 msgstr "Checkbox"
@@ -466,14 +454,6 @@ msgstr "Pumili ng laro mula sa sidebar o magsimula ng bago."
 #: ../../../lib/web/src/components/language-picker.tsx
 msgid "Choose language"
 msgstr "Pumili ng wika"
-
-#: src/features/help/phone.tsx
-msgid "Choose Login with URL and user name, enter the address book URL as the base URL, then the username and the password."
-msgstr "Piliin ang Mag-login gamit ang URL at user name, ilagay ang URL ng address book bilang base URL, pagkatapos ay ang username at password."
-
-#: src/features/help/phone.tsx
-msgid "Choose the address books to add."
-msgstr "Piliin ang mga address book na idaragdag."
 
 #: ../../../lib/web/src/components/banner-section.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
@@ -492,14 +472,6 @@ msgstr "Burahin lahat"
 #: ../../../lib/web/src/components/search-input.tsx
 msgid "Clear search"
 msgstr "Burahin ang paghahanap"
-
-#: src/features/help/phone.tsx
-msgid "Clients that ask for a URL, such as Thunderbird and most others, take the address book URL instead of the server."
-msgstr "Ang mga client na humihingi ng URL, tulad ng Thunderbird at karamihan ng iba pa, ay gumagamit ng URL ng address book sa halip na server."
-
-#: src/features/help/phone.tsx
-msgid "Clients that find the server by name, such as iPhone, iPad, Mac Contacts and DAVx5 on Android, need the server, the username and the password."
-msgstr "Ang mga client na nakakahanap ng server sa pangalan, tulad ng iPhone, iPad, Contacts sa Mac at DAVx5 sa Android, ay nangangailangan lamang ng server, username at password."
 
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
@@ -598,11 +570,6 @@ msgstr "I-configure ang mga setting ng view"
 msgid "Confirm"
 msgstr "Kumpirmahin"
 
-#: src/features/help/index.tsx
-#: src/features/help/phone.tsx
-msgid "Connect your phone"
-msgstr "Ikonekta ang iyong telepono"
-
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connected"
 msgstr "Konektado"
@@ -682,14 +649,6 @@ msgstr "Gumawa"
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Create {entityLabel}"
 msgstr "Gumawa ng {entityLabel}"
-
-#: src/features/help/phone.tsx
-msgid "Create a credential for the device"
-msgstr "Gumawa ng credential para sa device"
-
-#: src/features/help/phone.tsx
-msgid "Create a separate credential for each device, so a lost device can be revoked without affecting the others."
-msgstr "Gumawa ng hiwalay na credential para sa bawat device, para ang nawalang device ay mapawalang-bisa nang hindi naaapektuhan ang iba."
 
 #: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx
 msgid "Create new item"
@@ -807,10 +766,6 @@ msgstr "Tinanggal"
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted {field}"
 msgstr "Tinanggal ang {field}"
-
-#: src/features/help/phone.tsx
-msgid "Deleting a friend's card on the device removes the contact and ends the friendship, exactly as deleting it in People does."
-msgstr "Ang pagtanggal ng card ng kaibigan sa device ay nag-aalis ng contact at nagtatapos ng pagkakaibigan, katulad ng pagtanggal nito sa Mga Tao."
 
 #: ../../../lib/web/src/components/ui/sort-direction-button.tsx
 msgid "Descending"
@@ -948,10 +903,6 @@ msgstr "Email"
 msgid "Email code"
 msgstr "Code ng email"
 
-#: src/features/help/phone.tsx
-msgid "Enable the address books it finds. Your contacts then appear in the phone's Contacts app."
-msgstr "I-enable ang mga address book na nahanap nito. Lalabas na ang iyong mga contact sa Contacts app ng telepono."
-
 #: ../../../lib/web/src/components/banner-section.tsx
 msgid "Enter banner text (markdown supported)..."
 msgstr "Maglagay ng banner text (suportado ang markdown)..."
@@ -960,14 +911,6 @@ msgstr "Maglagay ng banner text (suportado ang markdown)..."
 msgid "Enter the code from your email"
 msgstr "Ilagay ang code mula sa iyong email"
 
-#: src/features/help/phone.tsx
-msgid "Enter the server, your username and the password, and a description such as Mochi."
-msgstr "Ilagay ang server, ang iyong username at password, at isang paglalarawan tulad ng Mochi."
-
-#: src/features/help/phone.tsx
-msgid "Enter the username, and the address book URL as the location. Enter the password when asked."
-msgstr "Ilagay ang username, at ang URL ng address book bilang lokasyon. Ilagay ang password kapag hiningi."
-
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Enter your authenticator code"
 msgstr "Ilagay ang iyong authenticator code"
@@ -975,10 +918,6 @@ msgstr "Ilagay ang iyong authenticator code"
 #: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx
 msgid "Error"
 msgstr "Error"
-
-#: src/features/help/phone.tsx
-msgid "Every address book listed in the People sidebar is offered to the device."
-msgstr "Ang bawat address book na nakalista sa sidebar ng Mga Tao ay inaalok sa device."
 
 #: ../../../lib/web/src/components/comment-tree-layout.tsx
 #: ../../../lib/web/src/components/comment-tree-layout.tsx
@@ -1171,7 +1110,6 @@ msgid "Group: {0}"
 msgstr "Grupo: {0}"
 
 #: src/features/help/index.tsx
-#: src/features/help/phone.tsx
 #: src/routes/_authenticated/document/privacy.tsx
 #: src/routes/_authenticated/document/rules.tsx
 #: src/routes/_authenticated/document/terms.tsx
@@ -1211,10 +1149,6 @@ msgstr "Image viewer: {0}"
 msgid "Imperial"
 msgstr "Imperial"
 
-#: src/features/help/phone.tsx
-msgid "In People, choose <0>Connect a device</0> in the sidebar."
-msgstr "Sa Mga Tao, piliin ang <0>Ikonekta ang device</0> sa sidebar."
-
 #: ../../../lib/web/src/features/access/types.ts
 msgid "Including anonymous users"
 msgstr "Kasama ang mga anonymous na user"
@@ -1226,10 +1160,6 @@ msgstr "Initials avatar"
 #: ../../../lib/web/src/components/faceless-avatar.tsx
 msgid "Initials avatar for {name}"
 msgstr "Initials avatar para kay {name}"
-
-#: src/features/help/phone.tsx
-msgid "Install DAVx5 from F-Droid or Google Play."
-msgstr "I-install ang DAVx5 mula sa F-Droid o Google Play."
 
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Interest {weight}"
@@ -1247,10 +1177,6 @@ msgstr "Ipakilala ang sarili"
 #: ../../../lib/web/src/components/entity/entity-field-editor.tsx
 msgid "Invalid date"
 msgstr "Invalid na petsa"
-
-#: src/features/help/phone.tsx
-msgid "iPhone and iPad"
-msgstr "iPhone at iPad"
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "It seems like the page you're looking for <0/>does not exist or might have been removed."
@@ -1388,10 +1314,6 @@ msgstr "Tinanggihan ang pahintulot sa mikropono"
 msgid "Minimum length"
 msgstr "Pinakamababang haba"
 
-#: src/features/help/phone.tsx
-msgid "Mochi keeps your contacts in the People app. Any phone, tablet or computer that supports CardDAV can sync them."
-msgstr "Iniingatan ng Mochi ang iyong mga contact sa app na Mga Tao. Kahit anong telepono, tablet o computer na sumusuporta sa CardDAV ay maaaring mag-sync ng mga ito."
-
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Mochi web"
 msgstr "Mochi web"
@@ -1435,10 +1357,6 @@ msgstr "Kailangan ang pangalan"
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Name must be 1000 characters or less"
 msgstr "Ang pangalan ay dapat 1000 karakter o mas mababa"
-
-#: src/features/help/phone.tsx
-msgid "Name the device and create the credential. The dialog shows the server, the address book URL, the username and a password."
-msgstr "Pangalanan ang device at gumawa ng credential. Ipinapakita ng dialog ang server, ang URL ng address book, ang username at isang password."
 
 #: ../../../lib/web/src/features/errors/general-error.tsx
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
@@ -1588,10 +1506,6 @@ msgstr "Numero"
 msgid "On"
 msgstr "Naka-on"
 
-#: src/features/help/phone.tsx
-msgid "On a Mac, open Contacts › Settings › Accounts, add an account, choose Other Contacts Account, then CardDAV and Manual, and enter the same details."
-msgstr "Sa Mac, buksan ang Contacts › Settings › Accounts, magdagdag ng account, piliin ang Other Contacts Account, pagkatapos ay CardDAV at Manual, at ilagay ang parehong mga detalye."
-
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
 msgstr "Ay! Hindi Nahanap ang Pahina!"
@@ -1599,10 +1513,6 @@ msgstr "Ay! Hindi Nahanap ang Pahina!"
 #: ../../../lib/web/src/components/layout/nav-group.tsx
 msgid "Open actions"
 msgstr "Buksan ang mga aksyon"
-
-#: src/features/help/phone.tsx
-msgid "Open Address Book › New Address Book › Add CardDAV Address Book."
-msgstr "Buksan ang Address Book › New Address Book › Add CardDAV Address Book."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"
@@ -1620,10 +1530,6 @@ msgstr "Buksan ang mga aksyon ng opsyon"
 #: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx
 msgid "Open selected card"
 msgstr "Buksan ang piniling card"
-
-#: src/features/help/phone.tsx
-msgid "Open Settings › Contacts › Accounts › Add Account › Other › Add CardDAV Account."
-msgstr "Buksan ang Settings › Contacts › Accounts › Add Account › Other › Add CardDAV Account."
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Open view actions"
@@ -2110,10 +2016,6 @@ msgstr "Itakda ang origin at destination"
 msgid "Settings"
 msgstr "Mga setting"
 
-#: src/features/help/phone.tsx
-msgid "Sharing with others"
-msgstr "Pagbabahagi sa iba"
-
 #: src/features/help/contribute-dialog.tsx
 msgid "Short title for your idea"
 msgstr "Maikling pamagat para sa iyong ideya"
@@ -2238,10 +2140,6 @@ msgstr "Linggo"
 msgid "Switch to view 1-9"
 msgstr "Lumipat sa view 1-9"
 
-#: src/features/help/index.tsx
-msgid "Sync your Mochi contacts with your phone, tablet or computer over CardDAV."
-msgstr "I-sync ang iyong mga Mochi contact sa iyong telepono, tablet o computer sa pamamagitan ng CardDAV."
-
 #: ../../../lib/web/src/components/audit-timeline.tsx
 #: ../../../lib/web/src/lib/preference-utils.ts
 #: ../../../lib/web/src/lib/preference-utils.ts
@@ -2308,10 +2206,6 @@ msgstr "Hindi nasagot ang kahilingan sa mikropono"
 msgid "The passkey request was not answered"
 msgstr "Hindi nasagot ang kahilingan sa passkey"
 
-#: src/features/help/phone.tsx
-msgid "The password is shown only once, so copy it into the device before closing the dialog. If it is lost, delete the device under <0>Manage devices</0> and create a new one."
-msgstr "Isang beses lang ipinapakita ang password, kaya kopyahin ito sa device bago isara ang dialog. Kung mawala ito, tanggalin ang device sa <0>Pamahalaan ang mga device</0> at gumawa ng bago."
-
 #: ../../../lib/web/src/features/errors/general-error.tsx
 msgid "The requested content could not be found."
 msgstr "Hindi mahanap ang hiniling na content."
@@ -2327,10 +2221,6 @@ msgstr "Hindi pinapayagan ang app na ito na gamitin ang iyong passkey. Payagan i
 #: ../../../lib/web/src/components/game/game-end-dialogs.tsx
 msgid "This permanently deletes the game and its chat. This cannot be undone."
 msgstr "Permanenteng buburahin nito ang laro at ang chat nito. Hindi na maaaring bawiin ang aksyong ito."
-
-#: src/features/help/phone.tsx
-msgid "Thunderbird"
-msgstr "Thunderbird"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Thursday"
@@ -2561,10 +2451,6 @@ msgstr "Ano ang nangyari"
 msgid "What have you tried, what did you expect, where are you stuck?"
 msgstr "Ano ang sinubukan mo, ano ang inaasahan mo, saan ka na-stuck?"
 
-#: src/features/help/phone.tsx
-msgid "What syncs"
-msgstr "Ano ang nasi-sync"
-
 #: src/features/help/contribute-dialog.tsx
 msgid "What would it do, who is it for, why does it matter?"
 msgstr "Ano ang gagawin nito, para kanino, bakit ito mahalaga?"
@@ -2572,10 +2458,6 @@ msgstr "Ano ang gagawin nito, para kanino, bakit ito mahalaga?"
 #: src/features/help/contribute-dialog.tsx
 msgid "What you want to ask, in one line"
 msgstr "Ang gusto mong itanong, sa isang linya"
-
-#: src/features/help/phone.tsx
-msgid "Which details to enter"
-msgstr "Anong mga detalye ang ilalagay"
 
 #: ../../../lib/web/src/features/errors/general-error.tsx
 msgid "You do not have access to this section."

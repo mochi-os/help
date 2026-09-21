@@ -201,10 +201,6 @@ msgstr "Añadir a las notificaciones existentes"
 msgid "Add view"
 msgstr "Añadir vista"
 
-#: src/features/help/phone.tsx
-msgid "Address books are private to your account, so there is nothing to give to someone who is not a Mochi user."
-msgstr "Las libretas de direcciones son privadas de su cuenta, así que no hay nada que dar a alguien que no sea usuario de Mochi."
-
 #: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "AI"
 msgstr "IA"
@@ -225,10 +221,6 @@ msgstr "Se produjo un error"
 #: ../../../lib/web/src/lib/error-normalizer.ts
 msgid "An unexpected error occurred"
 msgstr "Se produjo un error inesperado"
-
-#: src/features/help/phone.tsx
-msgid "Android"
-msgstr "Android"
 
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
@@ -446,10 +438,6 @@ msgstr "Cambiado"
 msgid "Changed {field}"
 msgstr "{field} cambiado"
 
-#: src/features/help/phone.tsx
-msgid "Changes made on the device appear in People, and changes made in People appear on the device."
-msgstr "Los cambios hechos en el dispositivo aparecen en Personas, y los cambios hechos en Personas aparecen en el dispositivo."
-
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Checkbox"
 msgstr "Casilla"
@@ -466,14 +454,6 @@ msgstr "Elige una partida en la barra lateral o inicia una nueva."
 #: ../../../lib/web/src/components/language-picker.tsx
 msgid "Choose language"
 msgstr "Elige el idioma"
-
-#: src/features/help/phone.tsx
-msgid "Choose Login with URL and user name, enter the address book URL as the base URL, then the username and the password."
-msgstr "Elija Iniciar sesión con URL y nombre de usuario, introduzca la URL de la libreta de direcciones como URL base y después el nombre de usuario y la contraseña."
-
-#: src/features/help/phone.tsx
-msgid "Choose the address books to add."
-msgstr "Elija las libretas de direcciones que quiera añadir."
 
 #: ../../../lib/web/src/components/banner-section.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
@@ -492,14 +472,6 @@ msgstr "Borrar todo"
 #: ../../../lib/web/src/components/search-input.tsx
 msgid "Clear search"
 msgstr "Borrar búsqueda"
-
-#: src/features/help/phone.tsx
-msgid "Clients that ask for a URL, such as Thunderbird and most others, take the address book URL instead of the server."
-msgstr "Los clientes que piden una URL, como Thunderbird y la mayoría de los demás, usan la URL de la libreta de direcciones en lugar del servidor."
-
-#: src/features/help/phone.tsx
-msgid "Clients that find the server by name, such as iPhone, iPad, Mac Contacts and DAVx5 on Android, need the server, the username and the password."
-msgstr "Los clientes que encuentran el servidor por su nombre, como iPhone, iPad, Contactos en Mac y DAVx5 en Android, solo necesitan el servidor, el nombre de usuario y la contraseña."
 
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
@@ -598,11 +570,6 @@ msgstr "Configurar los ajustes de la vista"
 msgid "Confirm"
 msgstr "Confirmar"
 
-#: src/features/help/index.tsx
-#: src/features/help/phone.tsx
-msgid "Connect your phone"
-msgstr "Conectar su teléfono"
-
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connected"
 msgstr "Conectado"
@@ -682,14 +649,6 @@ msgstr "Crear"
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Create {entityLabel}"
 msgstr "Crear {entityLabel}"
-
-#: src/features/help/phone.tsx
-msgid "Create a credential for the device"
-msgstr "Crear una credencial para el dispositivo"
-
-#: src/features/help/phone.tsx
-msgid "Create a separate credential for each device, so a lost device can be revoked without affecting the others."
-msgstr "Cree una credencial distinta para cada dispositivo, de modo que un dispositivo perdido pueda revocarse sin afectar a los demás."
 
 #: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx
 msgid "Create new item"
@@ -807,10 +766,6 @@ msgstr "Eliminado"
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted {field}"
 msgstr "{field} eliminado"
-
-#: src/features/help/phone.tsx
-msgid "Deleting a friend's card on the device removes the contact and ends the friendship, exactly as deleting it in People does."
-msgstr "Eliminar la tarjeta de un amigo en el dispositivo elimina el contacto y termina la amistad, exactamente igual que eliminarla en Personas."
 
 #: ../../../lib/web/src/components/ui/sort-direction-button.tsx
 msgid "Descending"
@@ -948,10 +903,6 @@ msgstr "Correo electrónico"
 msgid "Email code"
 msgstr "Código por correo"
 
-#: src/features/help/phone.tsx
-msgid "Enable the address books it finds. Your contacts then appear in the phone's Contacts app."
-msgstr "Active las libretas de direcciones que encuentre. Sus contactos aparecerán entonces en la aplicación Contactos del teléfono."
-
 #: ../../../lib/web/src/components/banner-section.tsx
 msgid "Enter banner text (markdown supported)..."
 msgstr "Introduce el texto del banner (admite markdown)..."
@@ -960,14 +911,6 @@ msgstr "Introduce el texto del banner (admite markdown)..."
 msgid "Enter the code from your email"
 msgstr "Introduce el código de tu correo electrónico"
 
-#: src/features/help/phone.tsx
-msgid "Enter the server, your username and the password, and a description such as Mochi."
-msgstr "Introduzca el servidor, su nombre de usuario y la contraseña, y una descripción como Mochi."
-
-#: src/features/help/phone.tsx
-msgid "Enter the username, and the address book URL as the location. Enter the password when asked."
-msgstr "Introduzca el nombre de usuario y la URL de la libreta de direcciones como ubicación. Introduzca la contraseña cuando se le pida."
-
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Enter your authenticator code"
 msgstr "Introduce el código de tu aplicación de autenticación"
@@ -975,10 +918,6 @@ msgstr "Introduce el código de tu aplicación de autenticación"
 #: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx
 msgid "Error"
 msgstr "Error"
-
-#: src/features/help/phone.tsx
-msgid "Every address book listed in the People sidebar is offered to the device."
-msgstr "Todas las libretas de direcciones de la barra lateral de Personas se ofrecen al dispositivo."
 
 #: ../../../lib/web/src/components/comment-tree-layout.tsx
 #: ../../../lib/web/src/components/comment-tree-layout.tsx
@@ -1171,7 +1110,6 @@ msgid "Group: {0}"
 msgstr "Grupo: {0}"
 
 #: src/features/help/index.tsx
-#: src/features/help/phone.tsx
 #: src/routes/_authenticated/document/privacy.tsx
 #: src/routes/_authenticated/document/rules.tsx
 #: src/routes/_authenticated/document/terms.tsx
@@ -1211,10 +1149,6 @@ msgstr "Visor de imágenes: {0}"
 msgid "Imperial"
 msgstr "Imperial"
 
-#: src/features/help/phone.tsx
-msgid "In People, choose <0>Connect a device</0> in the sidebar."
-msgstr "En Personas, elija <0>Conectar un dispositivo</0> en la barra lateral."
-
 #: ../../../lib/web/src/features/access/types.ts
 msgid "Including anonymous users"
 msgstr "Incluidos los usuarios anónimos"
@@ -1226,10 +1160,6 @@ msgstr "Avatar con iniciales"
 #: ../../../lib/web/src/components/faceless-avatar.tsx
 msgid "Initials avatar for {name}"
 msgstr "Avatar con iniciales de {name}"
-
-#: src/features/help/phone.tsx
-msgid "Install DAVx5 from F-Droid or Google Play."
-msgstr "Instale DAVx5 desde F-Droid o Google Play."
 
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Interest {weight}"
@@ -1247,10 +1177,6 @@ msgstr "Preséntate"
 #: ../../../lib/web/src/components/entity/entity-field-editor.tsx
 msgid "Invalid date"
 msgstr "Fecha no válida"
-
-#: src/features/help/phone.tsx
-msgid "iPhone and iPad"
-msgstr "iPhone y iPad"
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "It seems like the page you're looking for <0/>does not exist or might have been removed."
@@ -1388,10 +1314,6 @@ msgstr "Permiso de micrófono denegado"
 msgid "Minimum length"
 msgstr "Longitud mínima"
 
-#: src/features/help/phone.tsx
-msgid "Mochi keeps your contacts in the People app. Any phone, tablet or computer that supports CardDAV can sync them."
-msgstr "Mochi guarda sus contactos en la aplicación Personas. Cualquier teléfono, tableta u ordenador compatible con CardDAV puede sincronizarlos."
-
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Mochi web"
 msgstr "Mochi web"
@@ -1435,10 +1357,6 @@ msgstr "El nombre es obligatorio"
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Name must be 1000 characters or less"
 msgstr "El nombre debe tener 1000 caracteres o menos"
-
-#: src/features/help/phone.tsx
-msgid "Name the device and create the credential. The dialog shows the server, the address book URL, the username and a password."
-msgstr "Dé un nombre al dispositivo y cree la credencial. El diálogo muestra el servidor, la URL de la libreta de direcciones, el nombre de usuario y una contraseña."
 
 #: ../../../lib/web/src/features/errors/general-error.tsx
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
@@ -1588,10 +1506,6 @@ msgstr "Número"
 msgid "On"
 msgstr "Activado"
 
-#: src/features/help/phone.tsx
-msgid "On a Mac, open Contacts › Settings › Accounts, add an account, choose Other Contacts Account, then CardDAV and Manual, and enter the same details."
-msgstr "En un Mac, abra Contactos › Ajustes › Cuentas, añada una cuenta, elija Otra cuenta de Contactos, después CardDAV y Manual, e introduzca los mismos datos."
-
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
 msgstr "¡Vaya! Página no encontrada"
@@ -1599,10 +1513,6 @@ msgstr "¡Vaya! Página no encontrada"
 #: ../../../lib/web/src/components/layout/nav-group.tsx
 msgid "Open actions"
 msgstr "Abrir acciones"
-
-#: src/features/help/phone.tsx
-msgid "Open Address Book › New Address Book › Add CardDAV Address Book."
-msgstr "Abra Libreta de direcciones › Nueva libreta de direcciones › Añadir libreta de direcciones CardDAV."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"
@@ -1620,10 +1530,6 @@ msgstr "Abrir acciones de la opción"
 #: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx
 msgid "Open selected card"
 msgstr "Abrir tarjeta seleccionada"
-
-#: src/features/help/phone.tsx
-msgid "Open Settings › Contacts › Accounts › Add Account › Other › Add CardDAV Account."
-msgstr "Abra Ajustes › Contactos › Cuentas › Añadir cuenta › Otra › Añadir cuenta CardDAV."
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Open view actions"
@@ -2110,10 +2016,6 @@ msgstr "Establecer origen y destino"
 msgid "Settings"
 msgstr "Ajustes"
 
-#: src/features/help/phone.tsx
-msgid "Sharing with others"
-msgstr "Compartir con otras personas"
-
 #: src/features/help/contribute-dialog.tsx
 msgid "Short title for your idea"
 msgstr "Título breve para tu idea"
@@ -2238,10 +2140,6 @@ msgstr "Domingo"
 msgid "Switch to view 1-9"
 msgstr "Cambiar a vista 1-9"
 
-#: src/features/help/index.tsx
-msgid "Sync your Mochi contacts with your phone, tablet or computer over CardDAV."
-msgstr "Sincronice sus contactos de Mochi con su teléfono, tableta u ordenador mediante CardDAV."
-
 #: ../../../lib/web/src/components/audit-timeline.tsx
 #: ../../../lib/web/src/lib/preference-utils.ts
 #: ../../../lib/web/src/lib/preference-utils.ts
@@ -2308,10 +2206,6 @@ msgstr "La solicitud de micrófono no recibió respuesta"
 msgid "The passkey request was not answered"
 msgstr "La solicitud de clave de acceso no recibió respuesta"
 
-#: src/features/help/phone.tsx
-msgid "The password is shown only once, so copy it into the device before closing the dialog. If it is lost, delete the device under <0>Manage devices</0> and create a new one."
-msgstr "La contraseña se muestra una sola vez, así que cópiela en el dispositivo antes de cerrar el diálogo. Si la pierde, elimine el dispositivo en <0>Gestionar dispositivos</0> y cree uno nuevo."
-
 #: ../../../lib/web/src/features/errors/general-error.tsx
 msgid "The requested content could not be found."
 msgstr "No se ha podido encontrar el contenido solicitado."
@@ -2327,10 +2221,6 @@ msgstr "Esta aplicación no puede usar tu clave de acceso. Permítelo en Configu
 #: ../../../lib/web/src/components/game/game-end-dialogs.tsx
 msgid "This permanently deletes the game and its chat. This cannot be undone."
 msgstr "Esto elimina permanentemente la partida y su chat. Esta acción no se puede deshacer."
-
-#: src/features/help/phone.tsx
-msgid "Thunderbird"
-msgstr "Thunderbird"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Thursday"
@@ -2561,10 +2451,6 @@ msgstr "Qué ha pasado"
 msgid "What have you tried, what did you expect, where are you stuck?"
 msgstr "¿Qué has probado, qué esperabas, dónde te has atascado?"
 
-#: src/features/help/phone.tsx
-msgid "What syncs"
-msgstr "Qué se sincroniza"
-
 #: src/features/help/contribute-dialog.tsx
 msgid "What would it do, who is it for, why does it matter?"
 msgstr "¿Qué haría, a quién está dirigida y por qué es importante?"
@@ -2572,10 +2458,6 @@ msgstr "¿Qué haría, a quién está dirigida y por qué es importante?"
 #: src/features/help/contribute-dialog.tsx
 msgid "What you want to ask, in one line"
 msgstr "Lo que quieres preguntar, en una línea"
-
-#: src/features/help/phone.tsx
-msgid "Which details to enter"
-msgstr "Qué datos introducir"
 
 #: ../../../lib/web/src/features/errors/general-error.tsx
 msgid "You do not have access to this section."

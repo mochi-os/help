@@ -201,10 +201,6 @@ msgstr "Lisää olemassa oleviin ilmoituksiin"
 msgid "Add view"
 msgstr "Lisää näkymä"
 
-#: src/features/help/phone.tsx
-msgid "Address books are private to your account, so there is nothing to give to someone who is not a Mochi user."
-msgstr "Osoitekirjat ovat yksityisiä ja kuuluvat tiliisi, joten niistä ei ole mitään annettavaa henkilölle, joka ei ole Mochi-käyttäjä."
-
 #: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "AI"
 msgstr "Tekoäly"
@@ -225,10 +221,6 @@ msgstr "Tapahtui virhe"
 #: ../../../lib/web/src/lib/error-normalizer.ts
 msgid "An unexpected error occurred"
 msgstr "Tapahtui odottamaton virhe"
-
-#: src/features/help/phone.tsx
-msgid "Android"
-msgstr "Android"
 
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
@@ -446,10 +438,6 @@ msgstr "Muutettu"
 msgid "Changed {field}"
 msgstr "{field} muutettu"
 
-#: src/features/help/phone.tsx
-msgid "Changes made on the device appear in People, and changes made in People appear on the device."
-msgstr "Laitteella tehdyt muutokset näkyvät Ihmiset-sovelluksessa, ja Ihmiset-sovelluksessa tehdyt muutokset näkyvät laitteella."
-
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Checkbox"
 msgstr "Valintaruutu"
@@ -466,14 +454,6 @@ msgstr "Valitse peli sivupalkista tai aloita uusi."
 #: ../../../lib/web/src/components/language-picker.tsx
 msgid "Choose language"
 msgstr "Valitse kieli"
-
-#: src/features/help/phone.tsx
-msgid "Choose Login with URL and user name, enter the address book URL as the base URL, then the username and the password."
-msgstr "Valitse Kirjaudu URL-osoitteella ja käyttäjätunnuksella, anna osoitekirjan URL perus-URL-osoitteeksi ja sen jälkeen käyttäjätunnus ja salasana."
-
-#: src/features/help/phone.tsx
-msgid "Choose the address books to add."
-msgstr "Valitse lisättävät osoitekirjat."
 
 #: ../../../lib/web/src/components/banner-section.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
@@ -492,14 +472,6 @@ msgstr "Tyhjennä kaikki"
 #: ../../../lib/web/src/components/search-input.tsx
 msgid "Clear search"
 msgstr "Tyhjennä haku"
-
-#: src/features/help/phone.tsx
-msgid "Clients that ask for a URL, such as Thunderbird and most others, take the address book URL instead of the server."
-msgstr "Asiakasohjelmat, jotka kysyvät URL-osoitetta, kuten Thunderbird ja useimmat muut, käyttävät palvelimen sijaan osoitekirjan URL-osoitetta."
-
-#: src/features/help/phone.tsx
-msgid "Clients that find the server by name, such as iPhone, iPad, Mac Contacts and DAVx5 on Android, need the server, the username and the password."
-msgstr "Asiakasohjelmat, jotka löytävät palvelimen nimen perusteella, kuten iPhone, iPad, Macin Yhteystiedot ja DAVx5 Androidilla, tarvitsevat vain palvelimen, käyttäjätunnuksen ja salasanan."
 
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
@@ -598,11 +570,6 @@ msgstr "Määritä näkymän asetukset"
 msgid "Confirm"
 msgstr "Vahvista"
 
-#: src/features/help/index.tsx
-#: src/features/help/phone.tsx
-msgid "Connect your phone"
-msgstr "Yhdistä puhelimesi"
-
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connected"
 msgstr "Yhdistetty"
@@ -682,14 +649,6 @@ msgstr "Luo"
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Create {entityLabel}"
 msgstr "Luo {entityLabel}"
-
-#: src/features/help/phone.tsx
-msgid "Create a credential for the device"
-msgstr "Luo laitteelle tunnukset"
-
-#: src/features/help/phone.tsx
-msgid "Create a separate credential for each device, so a lost device can be revoked without affecting the others."
-msgstr "Luo jokaiselle laitteelle omat tunnukset, jotta kadonneen laitteen tunnukset voi mitätöidä vaikuttamatta muihin."
 
 #: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx
 msgid "Create new item"
@@ -807,10 +766,6 @@ msgstr "Poistettu"
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted {field}"
 msgstr "{field} poistettu"
-
-#: src/features/help/phone.tsx
-msgid "Deleting a friend's card on the device removes the contact and ends the friendship, exactly as deleting it in People does."
-msgstr "Kaverin kortin poistaminen laitteelta poistaa yhteystiedon ja päättää kaveruuden, aivan kuten sen poistaminen Ihmiset-sovelluksessa."
 
 #: ../../../lib/web/src/components/ui/sort-direction-button.tsx
 msgid "Descending"
@@ -948,10 +903,6 @@ msgstr "Sähköposti"
 msgid "Email code"
 msgstr "Sähköpostikoodi"
 
-#: src/features/help/phone.tsx
-msgid "Enable the address books it finds. Your contacts then appear in the phone's Contacts app."
-msgstr "Ota käyttöön löytyneet osoitekirjat. Yhteystietosi näkyvät sen jälkeen puhelimen Yhteystiedot-sovelluksessa."
-
 #: ../../../lib/web/src/components/banner-section.tsx
 msgid "Enter banner text (markdown supported)..."
 msgstr "Anna bannerin teksti (markdown tuettu)..."
@@ -960,14 +911,6 @@ msgstr "Anna bannerin teksti (markdown tuettu)..."
 msgid "Enter the code from your email"
 msgstr "Anna sähköpostiisi saamasi koodi"
 
-#: src/features/help/phone.tsx
-msgid "Enter the server, your username and the password, and a description such as Mochi."
-msgstr "Anna palvelin, käyttäjätunnuksesi ja salasana sekä kuvaus, esimerkiksi Mochi."
-
-#: src/features/help/phone.tsx
-msgid "Enter the username, and the address book URL as the location. Enter the password when asked."
-msgstr "Anna käyttäjätunnus ja osoitekirjan URL sijainniksi. Anna salasana, kun sitä kysytään."
-
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Enter your authenticator code"
 msgstr "Anna todennussovelluksen koodi"
@@ -975,10 +918,6 @@ msgstr "Anna todennussovelluksen koodi"
 #: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx
 msgid "Error"
 msgstr "Virhe"
-
-#: src/features/help/phone.tsx
-msgid "Every address book listed in the People sidebar is offered to the device."
-msgstr "Jokainen Ihmiset-sovelluksen sivupalkissa oleva osoitekirja tarjotaan laitteelle."
 
 #: ../../../lib/web/src/components/comment-tree-layout.tsx
 #: ../../../lib/web/src/components/comment-tree-layout.tsx
@@ -1171,7 +1110,6 @@ msgid "Group: {0}"
 msgstr "Ryhmä: {0}"
 
 #: src/features/help/index.tsx
-#: src/features/help/phone.tsx
 #: src/routes/_authenticated/document/privacy.tsx
 #: src/routes/_authenticated/document/rules.tsx
 #: src/routes/_authenticated/document/terms.tsx
@@ -1211,10 +1149,6 @@ msgstr "Kuvankatselin: {0}"
 msgid "Imperial"
 msgstr "Brittiläinen"
 
-#: src/features/help/phone.tsx
-msgid "In People, choose <0>Connect a device</0> in the sidebar."
-msgstr "Valitse Ihmiset-sovelluksen sivupalkista <0>Yhdistä laite</0>."
-
 #: ../../../lib/web/src/features/access/types.ts
 msgid "Including anonymous users"
 msgstr "Mukaan lukien anonyymit käyttäjät"
@@ -1226,10 +1160,6 @@ msgstr "Nimikirjainavatar"
 #: ../../../lib/web/src/components/faceless-avatar.tsx
 msgid "Initials avatar for {name}"
 msgstr "Käyttäjän {name} nimikirjainavatar"
-
-#: src/features/help/phone.tsx
-msgid "Install DAVx5 from F-Droid or Google Play."
-msgstr "Asenna DAVx5 F-Droidista tai Google Playsta."
 
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Interest {weight}"
@@ -1247,10 +1177,6 @@ msgstr "Esittele itsesi"
 #: ../../../lib/web/src/components/entity/entity-field-editor.tsx
 msgid "Invalid date"
 msgstr "Virheellinen päivämäärä"
-
-#: src/features/help/phone.tsx
-msgid "iPhone and iPad"
-msgstr "iPhone ja iPad"
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "It seems like the page you're looking for <0/>does not exist or might have been removed."
@@ -1388,10 +1314,6 @@ msgstr "Mikrofonin käyttölupa evätty"
 msgid "Minimum length"
 msgstr "Vähimmäispituus"
 
-#: src/features/help/phone.tsx
-msgid "Mochi keeps your contacts in the People app. Any phone, tablet or computer that supports CardDAV can sync them."
-msgstr "Mochi säilyttää yhteystietosi Ihmiset-sovelluksessa. Mikä tahansa CardDAV-yhteensopiva puhelin, tabletti tai tietokone voi synkronoida ne."
-
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Mochi web"
 msgstr "Mochi-verkko"
@@ -1435,10 +1357,6 @@ msgstr "Nimi vaaditaan"
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Name must be 1000 characters or less"
 msgstr "Nimen on oltava enintään 1000 merkkiä"
-
-#: src/features/help/phone.tsx
-msgid "Name the device and create the credential. The dialog shows the server, the address book URL, the username and a password."
-msgstr "Anna laitteelle nimi ja luo tunnukset. Ikkuna näyttää palvelimen, osoitekirjan URL-osoitteen, käyttäjätunnuksen ja salasanan."
 
 #: ../../../lib/web/src/features/errors/general-error.tsx
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
@@ -1588,10 +1506,6 @@ msgstr "Numero"
 msgid "On"
 msgstr "Päällä"
 
-#: src/features/help/phone.tsx
-msgid "On a Mac, open Contacts › Settings › Accounts, add an account, choose Other Contacts Account, then CardDAV and Manual, and enter the same details."
-msgstr "Avaa Macilla Yhteystiedot › Asetukset › Tilit, lisää tili, valitse Muu Yhteystiedot-tili, sitten CardDAV ja Manuaalinen, ja anna samat tiedot."
-
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
 msgstr "Hups! Sivua ei löytynyt!"
@@ -1599,10 +1513,6 @@ msgstr "Hups! Sivua ei löytynyt!"
 #: ../../../lib/web/src/components/layout/nav-group.tsx
 msgid "Open actions"
 msgstr "Avaa toiminnot"
-
-#: src/features/help/phone.tsx
-msgid "Open Address Book › New Address Book › Add CardDAV Address Book."
-msgstr "Avaa Osoitekirja › Uusi osoitekirja › Lisää CardDAV-osoitekirja."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"
@@ -1620,10 +1530,6 @@ msgstr "Avaa vaihtoehdon toiminnot"
 #: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx
 msgid "Open selected card"
 msgstr "Avaa valittu kortti"
-
-#: src/features/help/phone.tsx
-msgid "Open Settings › Contacts › Accounts › Add Account › Other › Add CardDAV Account."
-msgstr "Avaa Asetukset › Yhteystiedot › Tilit › Lisää tili › Muu › Lisää CardDAV-tili."
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Open view actions"
@@ -2110,10 +2016,6 @@ msgstr "Aseta lähtöpaikka ja määränpää"
 msgid "Settings"
 msgstr "Asetukset"
 
-#: src/features/help/phone.tsx
-msgid "Sharing with others"
-msgstr "Jakaminen muiden kanssa"
-
 #: src/features/help/contribute-dialog.tsx
 msgid "Short title for your idea"
 msgstr "Lyhyt otsikko ideallesi"
@@ -2238,10 +2140,6 @@ msgstr "Sunnuntai"
 msgid "Switch to view 1-9"
 msgstr "Vaihda näkymään 1-9"
 
-#: src/features/help/index.tsx
-msgid "Sync your Mochi contacts with your phone, tablet or computer over CardDAV."
-msgstr "Synkronoi Mochi-yhteystietosi puhelimeen, tablettiin tai tietokoneeseen CardDAV-yhteydellä."
-
 #: ../../../lib/web/src/components/audit-timeline.tsx
 #: ../../../lib/web/src/lib/preference-utils.ts
 #: ../../../lib/web/src/lib/preference-utils.ts
@@ -2308,10 +2206,6 @@ msgstr "Mikrofonipyyntöön ei vastattu"
 msgid "The passkey request was not answered"
 msgstr "Avainkoodipyyntöön ei vastattu"
 
-#: src/features/help/phone.tsx
-msgid "The password is shown only once, so copy it into the device before closing the dialog. If it is lost, delete the device under <0>Manage devices</0> and create a new one."
-msgstr "Salasana näytetään vain kerran, joten kopioi se laitteelle ennen ikkunan sulkemista. Jos se katoaa, poista laite kohdasta <0>Hallitse laitteita</0> ja luo uusi."
-
 #: ../../../lib/web/src/features/errors/general-error.tsx
 msgid "The requested content could not be found."
 msgstr "Pyydettyä sisältöä ei löytynyt."
@@ -2327,10 +2221,6 @@ msgstr "Tämä sovellus ei saa käyttää avainkoodiasi. Salli se Asetuksissa ko
 #: ../../../lib/web/src/components/game/game-end-dialogs.tsx
 msgid "This permanently deletes the game and its chat. This cannot be undone."
 msgstr "Tämä poistaa pelin ja sen keskustelun pysyvästi. Tätä ei voi peruuttaa."
-
-#: src/features/help/phone.tsx
-msgid "Thunderbird"
-msgstr "Thunderbird"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Thursday"
@@ -2561,10 +2451,6 @@ msgstr "Mitä tapahtui"
 msgid "What have you tried, what did you expect, where are you stuck?"
 msgstr "Mitä olet kokeillut, mitä odotit, missä olet jumissa?"
 
-#: src/features/help/phone.tsx
-msgid "What syncs"
-msgstr "Mitä synkronoidaan"
-
 #: src/features/help/contribute-dialog.tsx
 msgid "What would it do, who is it for, why does it matter?"
 msgstr "Mitä se tekisi, kenelle se on, miksi sillä on merkitystä?"
@@ -2572,10 +2458,6 @@ msgstr "Mitä se tekisi, kenelle se on, miksi sillä on merkitystä?"
 #: src/features/help/contribute-dialog.tsx
 msgid "What you want to ask, in one line"
 msgstr "Mitä haluat kysyä, yhdellä rivillä"
-
-#: src/features/help/phone.tsx
-msgid "Which details to enter"
-msgstr "Mitä tietoja annetaan"
 
 #: ../../../lib/web/src/features/errors/general-error.tsx
 msgid "You do not have access to this section."

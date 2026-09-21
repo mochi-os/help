@@ -201,10 +201,6 @@ msgstr "ရှိပြီးသား အကြောင်းကြားခ�
 msgid "Add view"
 msgstr "ကြည့်ရှုမှု ထည့်မည်"
 
-#: src/features/help/phone.tsx
-msgid "Address books are private to your account, so there is nothing to give to someone who is not a Mochi user."
-msgstr "လိပ်စာစာအုပ်များသည် သင့်အကောင့်အတွက်သာ သီးသန့်ဖြစ်သောကြောင့် Mochi အသုံးပြုသူ မဟုတ်သူထံ ပေးစရာ ဘာမျှ မရှိပါ။"
-
 #: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "AI"
 msgstr "AI"
@@ -225,10 +221,6 @@ msgstr "အမှားတစ်ခု ဖြစ်ပွားခဲ့သည�
 #: ../../../lib/web/src/lib/error-normalizer.ts
 msgid "An unexpected error occurred"
 msgstr "မမျှော်လင့်ထားသော အမှားတစ်ခု ဖြစ်ပွားခဲ့သည်"
-
-#: src/features/help/phone.tsx
-msgid "Android"
-msgstr "Android"
 
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
@@ -446,10 +438,6 @@ msgstr "ပြောင်းလဲခဲ့သည်"
 msgid "Changed {field}"
 msgstr "{field} ကို ပြောင်းလဲခဲ့သည်"
 
-#: src/features/help/phone.tsx
-msgid "Changes made on the device appear in People, and changes made in People appear on the device."
-msgstr "ကိရိယာပေါ်တွင် ပြုလုပ်သော အပြောင်းအလဲများသည် လူများ အက်ပ်တွင် ပေါ်လာပြီး လူများ အက်ပ်တွင် ပြုလုပ်သော အပြောင်းအလဲများသည် ကိရိယာပေါ်တွင် ပေါ်လာပါသည်။"
-
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Checkbox"
 msgstr "checkbox"
@@ -466,14 +454,6 @@ msgstr "ဘေးဘားမှ ဂိမ်းတစ်ခုကို ရွ�
 #: ../../../lib/web/src/components/language-picker.tsx
 msgid "Choose language"
 msgstr "ဘာသာစကား ရွေးချယ်ပါ"
-
-#: src/features/help/phone.tsx
-msgid "Choose Login with URL and user name, enter the address book URL as the base URL, then the username and the password."
-msgstr "URL နှင့် သုံးစွဲသူအမည်ဖြင့် ဝင်ရောက်ရန် ကို ရွေးပါ၊ လိပ်စာစာအုပ် URL ကို အခြေခံ URL အဖြစ် ထည့်ပါ၊ ထို့နောက် သုံးစွဲသူအမည်နှင့် စကားဝှက်ကို ထည့်ပါ။"
-
-#: src/features/help/phone.tsx
-msgid "Choose the address books to add."
-msgstr "ထည့်မည့် လိပ်စာစာအုပ်များကို ရွေးပါ။"
 
 #: ../../../lib/web/src/components/banner-section.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
@@ -492,14 +472,6 @@ msgstr "အားလုံး ရှင်းမည်"
 #: ../../../lib/web/src/components/search-input.tsx
 msgid "Clear search"
 msgstr "ရှာဖွေမှု ရှင်းမည်"
-
-#: src/features/help/phone.tsx
-msgid "Clients that ask for a URL, such as Thunderbird and most others, take the address book URL instead of the server."
-msgstr "URL တောင်းသော ကလိုင်းယင့်များ၊ ဥပမာ Thunderbird နှင့် အခြားအများစုသည် ဆာဗာအစား လိပ်စာစာအုပ် URL ကို အသုံးပြုပါသည်။"
-
-#: src/features/help/phone.tsx
-msgid "Clients that find the server by name, such as iPhone, iPad, Mac Contacts and DAVx5 on Android, need the server, the username and the password."
-msgstr "ဆာဗာကို အမည်ဖြင့် ရှာဖွေသော ကလိုင်းယင့်များ၊ ဥပမာ iPhone၊ iPad၊ Mac အဆက်အသွယ်များနှင့် Android ပေါ်ရှိ DAVx5 တို့သည် ဆာဗာ၊ သုံးစွဲသူအမည်နှင့် စကားဝှက် လိုအပ်ပါသည်။"
 
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
@@ -598,11 +570,6 @@ msgstr "ကြည့်ရှုမှု ဆက်တင်များ ပြ�
 msgid "Confirm"
 msgstr "အတည်ပြုမည်"
 
-#: src/features/help/index.tsx
-#: src/features/help/phone.tsx
-msgid "Connect your phone"
-msgstr "သင့်ဖုန်းကို ချိတ်ဆက်ပါ"
-
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connected"
 msgstr "ချိတ်ဆက်ပြီး"
@@ -682,14 +649,6 @@ msgstr "ဖန်တီးမည်"
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Create {entityLabel}"
 msgstr "{entityLabel} ဖန်တီးရန်"
-
-#: src/features/help/phone.tsx
-msgid "Create a credential for the device"
-msgstr "ကိရိယာအတွက် ဝင်ရောက်ခွင့် အထောက်အထား ဖန်တီးပါ"
-
-#: src/features/help/phone.tsx
-msgid "Create a separate credential for each device, so a lost device can be revoked without affecting the others."
-msgstr "ကိရိယာတစ်ခုစီအတွက် သီးခြား ဝင်ရောက်ခွင့် အထောက်အထား ဖန်တီးပါ၊ သို့မှသာ ပျောက်ဆုံးသွားသော ကိရိယာကို အခြားကိရိယာများကို မထိခိုက်စေဘဲ ရုပ်သိမ်းနိုင်မည်ဖြစ်သည်။"
 
 #: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx
 msgid "Create new item"
@@ -807,10 +766,6 @@ msgstr "ဖျက်ခဲ့သည်"
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted {field}"
 msgstr "{field} ကို ဖျက်ခဲ့သည်"
-
-#: src/features/help/phone.tsx
-msgid "Deleting a friend's card on the device removes the contact and ends the friendship, exactly as deleting it in People does."
-msgstr "ကိရိယာပေါ်တွင် သူငယ်ချင်း၏ ကတ်ကို ဖျက်လိုက်ပါက အဆက်အသွယ်ကို ဖယ်ရှားပြီး သူငယ်ချင်းဖြစ်မှုကို အဆုံးသတ်ပါသည်၊ လူများ အက်ပ်တွင် ဖျက်သကဲ့သို့ပင် ဖြစ်သည်။"
 
 #: ../../../lib/web/src/components/ui/sort-direction-button.tsx
 msgid "Descending"
@@ -948,10 +903,6 @@ msgstr "အီးမေးလ်"
 msgid "Email code"
 msgstr "အီးမေးလ် ကုဒ်"
 
-#: src/features/help/phone.tsx
-msgid "Enable the address books it finds. Your contacts then appear in the phone's Contacts app."
-msgstr "၎င်းတွေ့ရှိသော လိပ်စာစာအုပ်များကို ဖွင့်ပါ။ ထို့နောက် သင့်အဆက်အသွယ်များသည် ဖုန်း၏ အဆက်အသွယ်များ အက်ပ်တွင် ပေါ်လာပါမည်။"
-
 #: ../../../lib/web/src/components/banner-section.tsx
 msgid "Enter banner text (markdown supported)..."
 msgstr "ဘန်နာ စာသား ထည့်ပါ (markdown ပံ့ပိုးသည်)..."
@@ -960,14 +911,6 @@ msgstr "ဘန်နာ စာသား ထည့်ပါ (markdown ပံ့�
 msgid "Enter the code from your email"
 msgstr "သင့်အီးမေးလ်မှ ကုဒ်ကို ထည့်ပါ"
 
-#: src/features/help/phone.tsx
-msgid "Enter the server, your username and the password, and a description such as Mochi."
-msgstr "ဆာဗာ၊ သင့်သုံးစွဲသူအမည်နှင့် စကားဝှက်ကို ထည့်ပြီး Mochi ကဲ့သို့ ဖော်ပြချက်တစ်ခုကိုလည်း ထည့်ပါ။"
-
-#: src/features/help/phone.tsx
-msgid "Enter the username, and the address book URL as the location. Enter the password when asked."
-msgstr "သုံးစွဲသူအမည်ကို ထည့်ပြီး တည်နေရာအဖြစ် လိပ်စာစာအုပ် URL ကို ထည့်ပါ။ မေးလာသောအခါ စကားဝှက်ကို ထည့်ပါ။"
-
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Enter your authenticator code"
 msgstr "သင့်အထောက်အထားစိစစ်ရေးကုဒ်ကို ထည့်ပါ"
@@ -975,10 +918,6 @@ msgstr "သင့်အထောက်အထားစိစစ်ရေးကု
 #: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx
 msgid "Error"
 msgstr "အမှား"
-
-#: src/features/help/phone.tsx
-msgid "Every address book listed in the People sidebar is offered to the device."
-msgstr "လူများ အက်ပ်၏ ဘေးဘားတွင် ဖော်ပြထားသော လိပ်စာစာအုပ်တိုင်းကို ကိရိယာသို့ ပေးပါသည်။"
 
 #: ../../../lib/web/src/components/comment-tree-layout.tsx
 #: ../../../lib/web/src/components/comment-tree-layout.tsx
@@ -1171,7 +1110,6 @@ msgid "Group: {0}"
 msgstr "အုပ်စု- {0}"
 
 #: src/features/help/index.tsx
-#: src/features/help/phone.tsx
 #: src/routes/_authenticated/document/privacy.tsx
 #: src/routes/_authenticated/document/rules.tsx
 #: src/routes/_authenticated/document/terms.tsx
@@ -1211,10 +1149,6 @@ msgstr "ပုံကြည့်ရှုစနစ်- {0}"
 msgid "Imperial"
 msgstr "Imperial"
 
-#: src/features/help/phone.tsx
-msgid "In People, choose <0>Connect a device</0> in the sidebar."
-msgstr "လူများ အက်ပ်တွင် ဘေးဘားရှိ <0>ကိရိယာ ချိတ်ဆက်မည်</0> ကို ရွေးပါ။"
-
 #: ../../../lib/web/src/features/access/types.ts
 msgid "Including anonymous users"
 msgstr "အမည်မသိအသုံးပြုသူများအပါအဝင်"
@@ -1226,10 +1160,6 @@ msgstr "အမည်အစအက္ခရာ အသွင်ပုံ"
 #: ../../../lib/web/src/components/faceless-avatar.tsx
 msgid "Initials avatar for {name}"
 msgstr "{name} အတွက် အမည်အစအက္ခရာ အသွင်ပုံ"
-
-#: src/features/help/phone.tsx
-msgid "Install DAVx5 from F-Droid or Google Play."
-msgstr "F-Droid သို့မဟုတ် Google Play မှ DAVx5 ကို ထည့်သွင်းပါ။"
 
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Interest {weight}"
@@ -1247,10 +1177,6 @@ msgstr "ကိုယ့်ကိုယ်ကို မိတ်ဆက်ပါ"
 #: ../../../lib/web/src/components/entity/entity-field-editor.tsx
 msgid "Invalid date"
 msgstr "မမှန်ကန်သော ရက်စွဲ"
-
-#: src/features/help/phone.tsx
-msgid "iPhone and iPad"
-msgstr "iPhone နှင့် iPad"
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "It seems like the page you're looking for <0/>does not exist or might have been removed."
@@ -1388,10 +1314,6 @@ msgstr "မိုက်ခရိုဖုန်း ခွင့်ပြုခ�
 msgid "Minimum length"
 msgstr "အနည်းဆုံး အရှည်"
 
-#: src/features/help/phone.tsx
-msgid "Mochi keeps your contacts in the People app. Any phone, tablet or computer that supports CardDAV can sync them."
-msgstr "Mochi သည် သင့်အဆက်အသွယ်များကို လူများ အက်ပ်တွင် သိမ်းဆည်းထားပါသည်။ CardDAV ကို ပံ့ပိုးသော မည်သည့်ဖုန်း၊ တက်ဘလက် သို့မဟုတ် ကွန်ပျူတာမဆို ၎င်းတို့ကို ချိန်ကိုက်နိုင်ပါသည်။"
-
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Mochi web"
 msgstr "Mochi ဝဘ်"
@@ -1435,10 +1357,6 @@ msgstr "အမည် လိုအပ်သည်"
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Name must be 1000 characters or less"
 msgstr "အမည်သည် စာလုံး ၁၀၀၀ သို့မဟုတ် ထိုထက်နည်းရမည်"
-
-#: src/features/help/phone.tsx
-msgid "Name the device and create the credential. The dialog shows the server, the address book URL, the username and a password."
-msgstr "ကိရိယာကို အမည်ပေးပြီး ဝင်ရောက်ခွင့် အထောက်အထားကို ဖန်တီးပါ။ ဒိုင်ယာလော့ဂ်တွင် ဆာဗာ၊ လိပ်စာစာအုပ် URL၊ သုံးစွဲသူအမည်နှင့် စကားဝှက်တစ်ခုကို ပြသပါသည်။"
 
 #: ../../../lib/web/src/features/errors/general-error.tsx
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
@@ -1588,10 +1506,6 @@ msgstr "နံပါတ်"
 msgid "On"
 msgstr "ဖွင့်"
 
-#: src/features/help/phone.tsx
-msgid "On a Mac, open Contacts › Settings › Accounts, add an account, choose Other Contacts Account, then CardDAV and Manual, and enter the same details."
-msgstr "Mac တွင် အဆက်အသွယ်များ › ဆက်တင်များ › အကောင့်များ ကို ဖွင့်ပါ၊ အကောင့်တစ်ခု ထည့်ပါ၊ အခြား အဆက်အသွယ်များ အကောင့် ကို ရွေးပါ၊ ထို့နောက် CardDAV နှင့် ကိုယ်တိုင် ကို ရွေးပြီး တူညီသော အချက်အလက်များကို ထည့်ပါ။"
-
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
 msgstr "အိုး! စာမျက်နှာ မတွေ့ပါ!"
@@ -1599,10 +1513,6 @@ msgstr "အိုး! စာမျက်နှာ မတွေ့ပါ!"
 #: ../../../lib/web/src/components/layout/nav-group.tsx
 msgid "Open actions"
 msgstr "လုပ်ဆောင်ချက်များ ဖွင့်ရန်"
-
-#: src/features/help/phone.tsx
-msgid "Open Address Book › New Address Book › Add CardDAV Address Book."
-msgstr "လိပ်စာစာအုပ် › လိပ်စာစာအုပ်အသစ် › CardDAV လိပ်စာစာအုပ် ထည့်ရန် ကို ဖွင့်ပါ။"
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"
@@ -1620,10 +1530,6 @@ msgstr "ရွေးချယ်စရာ လုပ်ဆောင်ချက�
 #: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx
 msgid "Open selected card"
 msgstr "ရွေးချယ်ထားသော card ကို ဖွင့်"
-
-#: src/features/help/phone.tsx
-msgid "Open Settings › Contacts › Accounts › Add Account › Other › Add CardDAV Account."
-msgstr "ဆက်တင်များ › အဆက်အသွယ်များ › အကောင့်များ › အကောင့် ထည့်ရန် › အခြား › CardDAV အကောင့် ထည့်ရန် ကို ဖွင့်ပါ။"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Open view actions"
@@ -2110,10 +2016,6 @@ msgstr "မူရင်းနှင့် ဦးတည်ရာ သတ်မှ�
 msgid "Settings"
 msgstr "ဆက်တင်များ"
 
-#: src/features/help/phone.tsx
-msgid "Sharing with others"
-msgstr "အခြားသူများနှင့် မျှဝေခြင်း"
-
 #: src/features/help/contribute-dialog.tsx
 msgid "Short title for your idea"
 msgstr "သင့်အကြံဉာဏ်အတွက် တိုတောင်းသော ခေါင်းစဉ်"
@@ -2238,10 +2140,6 @@ msgstr "တနင်္ဂနွေ"
 msgid "Switch to view 1-9"
 msgstr "ကြည့်ရှုခြင်း 1-9 သို့ ပြောင်းမည်"
 
-#: src/features/help/index.tsx
-msgid "Sync your Mochi contacts with your phone, tablet or computer over CardDAV."
-msgstr "သင့် Mochi အဆက်အသွယ်များကို CardDAV မှတစ်ဆင့် သင့်ဖုန်း၊ တက်ဘလက် သို့မဟုတ် ကွန်ပျူတာနှင့် ချိန်ကိုက်ပါ။"
-
 #: ../../../lib/web/src/components/audit-timeline.tsx
 #: ../../../lib/web/src/lib/preference-utils.ts
 #: ../../../lib/web/src/lib/preference-utils.ts
@@ -2308,10 +2206,6 @@ msgstr "မိုက်ခရိုဖုန်း တောင်းဆို�
 msgid "The passkey request was not answered"
 msgstr "Passkey တောင်းဆိုမှုကို မဖြေကြားခဲ့ပါ"
 
-#: src/features/help/phone.tsx
-msgid "The password is shown only once, so copy it into the device before closing the dialog. If it is lost, delete the device under <0>Manage devices</0> and create a new one."
-msgstr "စကားဝှက်ကို တစ်ကြိမ်သာ ပြသမည်ဖြစ်သောကြောင့် ဒိုင်ယာလော့ဂ်ကို မပိတ်မီ ကိရိယာထဲသို့ ကူးယူပါ။ ပျောက်သွားပါက <0>ကိရိယာများ စီမံမည်</0> အောက်တွင် ကိရိယာကို ဖျက်ပြီး အသစ်တစ်ခု ဖန်တီးပါ။"
-
 #: ../../../lib/web/src/features/errors/general-error.tsx
 msgid "The requested content could not be found."
 msgstr "တောင်းဆိုထားသော အကြောင်းအရာကို ရှာမတွေ့ပါ။"
@@ -2327,10 +2221,6 @@ msgstr "ဤအက်ပ်သည် သင့် passkey ကို အသုံ�
 #: ../../../lib/web/src/components/game/game-end-dialogs.tsx
 msgid "This permanently deletes the game and its chat. This cannot be undone."
 msgstr "ဤလုပ်ဆောင်ချက်သည် ဂိမ်းနှင့် ၎င်း၏ ချတ်ကို အပြီးအပိုင် ဖျက်ပစ်မည်ဖြစ်သည်။ ဤလုပ်ဆောင်ချက်ကို ပြန်ပြောင်း၍မရပါ။"
-
-#: src/features/help/phone.tsx
-msgid "Thunderbird"
-msgstr "Thunderbird"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Thursday"
@@ -2561,10 +2451,6 @@ msgstr "ဘာဖြစ်ခဲ့သလဲ"
 msgid "What have you tried, what did you expect, where are you stuck?"
 msgstr "ဘာတွေကြိုးစားခဲ့လဲ၊ ဘာတွေမျှော်လင့်ခဲ့လဲ၊ ဘယ်နေရာမှာ တင်နေတာလဲ?"
 
-#: src/features/help/phone.tsx
-msgid "What syncs"
-msgstr "ချိန်ကိုက်သည့်အရာများ"
-
 #: src/features/help/contribute-dialog.tsx
 msgid "What would it do, who is it for, why does it matter?"
 msgstr "၎င်းက ဘာလုပ်ပေးမည်လဲ၊ ဘယ်သူ့အတွက်လဲ၊ ဘာကြောင့် အရေးကြီးသလဲ။"
@@ -2572,10 +2458,6 @@ msgstr "၎င်းက ဘာလုပ်ပေးမည်လဲ၊ ဘယ်�
 #: src/features/help/contribute-dialog.tsx
 msgid "What you want to ask, in one line"
 msgstr "သင်မေးချင်တာကို တစ်ကြောင်းတည်းနဲ့"
-
-#: src/features/help/phone.tsx
-msgid "Which details to enter"
-msgstr "ထည့်ရမည့် အချက်အလက်များ"
 
 #: ../../../lib/web/src/features/errors/general-error.tsx
 msgid "You do not have access to this section."

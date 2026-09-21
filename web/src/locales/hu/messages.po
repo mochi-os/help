@@ -201,10 +201,6 @@ msgstr "Hozzáadás a meglévő értesítésekhez"
 msgid "Add view"
 msgstr "Nézet hozzáadása"
 
-#: src/features/help/phone.tsx
-msgid "Address books are private to your account, so there is nothing to give to someone who is not a Mochi user."
-msgstr "A címjegyzékek privátak, és a fiókodhoz tartoznak, így nincs mit adnod olyasvalakinek, aki nem Mochi-felhasználó."
-
 #: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "AI"
 msgstr "MI"
@@ -225,10 +221,6 @@ msgstr "Hiba történt"
 #: ../../../lib/web/src/lib/error-normalizer.ts
 msgid "An unexpected error occurred"
 msgstr "Váratlan hiba történt"
-
-#: src/features/help/phone.tsx
-msgid "Android"
-msgstr "Android"
 
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
@@ -446,10 +438,6 @@ msgstr "Módosítva"
 msgid "Changed {field}"
 msgstr "{field} módosítva"
 
-#: src/features/help/phone.tsx
-msgid "Changes made on the device appear in People, and changes made in People appear on the device."
-msgstr "Az eszközön végzett módosítások megjelennek a Személyekben, a Személyekben végzett módosítások pedig megjelennek az eszközön."
-
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Checkbox"
 msgstr "Jelölőnégyzet"
@@ -466,14 +454,6 @@ msgstr "Válasszon egy játékot az oldalsávból, vagy kezdjen újat."
 #: ../../../lib/web/src/components/language-picker.tsx
 msgid "Choose language"
 msgstr "Nyelv kiválasztása"
-
-#: src/features/help/phone.tsx
-msgid "Choose Login with URL and user name, enter the address book URL as the base URL, then the username and the password."
-msgstr "Válaszd a Bejelentkezés URL-lel és felhasználónévvel lehetőséget, add meg a címjegyzék URL-jét alap-URL-ként, majd a felhasználónevet és a jelszót."
-
-#: src/features/help/phone.tsx
-msgid "Choose the address books to add."
-msgstr "Válaszd ki a hozzáadni kívánt címjegyzékeket."
 
 #: ../../../lib/web/src/components/banner-section.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
@@ -492,14 +472,6 @@ msgstr "Összes törlése"
 #: ../../../lib/web/src/components/search-input.tsx
 msgid "Clear search"
 msgstr "Keresés törlése"
-
-#: src/features/help/phone.tsx
-msgid "Clients that ask for a URL, such as Thunderbird and most others, take the address book URL instead of the server."
-msgstr "Az URL-t kérő kliensek, például a Thunderbird és a legtöbb másik, a kiszolgáló helyett a címjegyzék URL-jét használják."
-
-#: src/features/help/phone.tsx
-msgid "Clients that find the server by name, such as iPhone, iPad, Mac Contacts and DAVx5 on Android, need the server, the username and the password."
-msgstr "A kiszolgálót név alapján megtaláló kliensek, például az iPhone, az iPad, a Mac Névjegyek és az Androidon futó DAVx5, csak a kiszolgálót, a felhasználónevet és a jelszót igénylik."
 
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
@@ -598,11 +570,6 @@ msgstr "Nézetbeállítások konfigurálása"
 msgid "Confirm"
 msgstr "Megerősítés"
 
-#: src/features/help/index.tsx
-#: src/features/help/phone.tsx
-msgid "Connect your phone"
-msgstr "Telefon csatlakoztatása"
-
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connected"
 msgstr "Csatlakoztatva"
@@ -682,14 +649,6 @@ msgstr "Létrehozás"
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Create {entityLabel}"
 msgstr "{entityLabel} létrehozása"
-
-#: src/features/help/phone.tsx
-msgid "Create a credential for the device"
-msgstr "Hitelesítő adatok létrehozása az eszközhöz"
-
-#: src/features/help/phone.tsx
-msgid "Create a separate credential for each device, so a lost device can be revoked without affecting the others."
-msgstr "Minden eszközhöz külön hitelesítő adatokat hozz létre, hogy egy elveszett eszközt a többi érintése nélkül lehessen visszavonni."
 
 #: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx
 msgid "Create new item"
@@ -807,10 +766,6 @@ msgstr "Törölve"
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted {field}"
 msgstr "{field} törölve"
-
-#: src/features/help/phone.tsx
-msgid "Deleting a friend's card on the device removes the contact and ends the friendship, exactly as deleting it in People does."
-msgstr "Egy barát névjegyének törlése az eszközön eltávolítja a névjegyet és megszünteti a barátságot, pontosan úgy, mint a törlés a Személyekben."
 
 #: ../../../lib/web/src/components/ui/sort-direction-button.tsx
 msgid "Descending"
@@ -948,10 +903,6 @@ msgstr "E-mail"
 msgid "Email code"
 msgstr "E-mail kód"
 
-#: src/features/help/phone.tsx
-msgid "Enable the address books it finds. Your contacts then appear in the phone's Contacts app."
-msgstr "Kapcsold be a megtalált címjegyzékeket. A névjegyeid ezután megjelennek a telefon Névjegyek alkalmazásában."
-
 #: ../../../lib/web/src/components/banner-section.tsx
 msgid "Enter banner text (markdown supported)..."
 msgstr "Adja meg a banner szövegét (markdown támogatott)..."
@@ -960,14 +911,6 @@ msgstr "Adja meg a banner szövegét (markdown támogatott)..."
 msgid "Enter the code from your email"
 msgstr "Adja meg az e-mailben kapott kódot"
 
-#: src/features/help/phone.tsx
-msgid "Enter the server, your username and the password, and a description such as Mochi."
-msgstr "Add meg a kiszolgálót, a felhasználónevedet és a jelszót, valamint egy leírást, például Mochi."
-
-#: src/features/help/phone.tsx
-msgid "Enter the username, and the address book URL as the location. Enter the password when asked."
-msgstr "Add meg a felhasználónevet, helyként pedig a címjegyzék URL-jét. A jelszót akkor add meg, amikor a program kéri."
-
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Enter your authenticator code"
 msgstr "Adja meg a hitelesítő kódját"
@@ -975,10 +918,6 @@ msgstr "Adja meg a hitelesítő kódját"
 #: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx
 msgid "Error"
 msgstr "Hiba"
-
-#: src/features/help/phone.tsx
-msgid "Every address book listed in the People sidebar is offered to the device."
-msgstr "A Személyek oldalsávjában felsorolt minden címjegyzéket felkínálja az eszköznek."
 
 #: ../../../lib/web/src/components/comment-tree-layout.tsx
 #: ../../../lib/web/src/components/comment-tree-layout.tsx
@@ -1171,7 +1110,6 @@ msgid "Group: {0}"
 msgstr "Csoport: {0}"
 
 #: src/features/help/index.tsx
-#: src/features/help/phone.tsx
 #: src/routes/_authenticated/document/privacy.tsx
 #: src/routes/_authenticated/document/rules.tsx
 #: src/routes/_authenticated/document/terms.tsx
@@ -1211,10 +1149,6 @@ msgstr "Képnézegető: {0}"
 msgid "Imperial"
 msgstr "Imperial"
 
-#: src/features/help/phone.tsx
-msgid "In People, choose <0>Connect a device</0> in the sidebar."
-msgstr "A Személyekben válaszd az oldalsávon az <0>Eszköz csatlakoztatása</0> lehetőséget."
-
 #: ../../../lib/web/src/features/access/types.ts
 msgid "Including anonymous users"
 msgstr "Beleértve a névtelen felhasználókat"
@@ -1226,10 +1160,6 @@ msgstr "Monogramos profilkép"
 #: ../../../lib/web/src/components/faceless-avatar.tsx
 msgid "Initials avatar for {name}"
 msgstr "{name} monogramos profilképe"
-
-#: src/features/help/phone.tsx
-msgid "Install DAVx5 from F-Droid or Google Play."
-msgstr "Telepítsd a DAVx5 alkalmazást az F-Droid vagy a Google Play áruházból."
 
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Interest {weight}"
@@ -1247,10 +1177,6 @@ msgstr "Mutatkozzon be"
 #: ../../../lib/web/src/components/entity/entity-field-editor.tsx
 msgid "Invalid date"
 msgstr "Érvénytelen dátum"
-
-#: src/features/help/phone.tsx
-msgid "iPhone and iPad"
-msgstr "iPhone és iPad"
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "It seems like the page you're looking for <0/>does not exist or might have been removed."
@@ -1388,10 +1314,6 @@ msgstr "Mikrofonengedély megtagadva"
 msgid "Minimum length"
 msgstr "Minimális hossz"
 
-#: src/features/help/phone.tsx
-msgid "Mochi keeps your contacts in the People app. Any phone, tablet or computer that supports CardDAV can sync them."
-msgstr "A Mochi a névjegyeidet a Személyek alkalmazásban tárolja. Bármely CardDAV-ot támogató telefon, táblagép vagy számítógép szinkronizálhatja őket."
-
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Mochi web"
 msgstr "Mochi web"
@@ -1435,10 +1357,6 @@ msgstr "A név kötelező"
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Name must be 1000 characters or less"
 msgstr "A név legfeljebb 1000 karakter lehet"
-
-#: src/features/help/phone.tsx
-msgid "Name the device and create the credential. The dialog shows the server, the address book URL, the username and a password."
-msgstr "Nevezd el az eszközt, és hozd létre a hitelesítő adatokat. A párbeszédablak megjeleníti a kiszolgálót, a címjegyzék URL-jét, a felhasználónevet és egy jelszót."
 
 #: ../../../lib/web/src/features/errors/general-error.tsx
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
@@ -1588,10 +1506,6 @@ msgstr "Szám"
 msgid "On"
 msgstr "Be"
 
-#: src/features/help/phone.tsx
-msgid "On a Mac, open Contacts › Settings › Accounts, add an account, choose Other Contacts Account, then CardDAV and Manual, and enter the same details."
-msgstr "Macen nyisd meg a Névjegyek › Beállítások › Fiókok menüt, adj hozzá egy fiókot, válaszd az Egyéb Névjegyek-fiók, majd a CardDAV és a Manuális lehetőséget, és add meg ugyanezeket az adatokat."
-
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
 msgstr "Hopp! Az oldal nem található!"
@@ -1599,10 +1513,6 @@ msgstr "Hopp! Az oldal nem található!"
 #: ../../../lib/web/src/components/layout/nav-group.tsx
 msgid "Open actions"
 msgstr "Műveletek megnyitása"
-
-#: src/features/help/phone.tsx
-msgid "Open Address Book › New Address Book › Add CardDAV Address Book."
-msgstr "Nyisd meg a Címjegyzék › Új címjegyzék › CardDAV-címjegyzék hozzáadása menüt."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"
@@ -1620,10 +1530,6 @@ msgstr "Opcióműveletek megnyitása"
 #: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx
 msgid "Open selected card"
 msgstr "Kijelölt kártya megnyitása"
-
-#: src/features/help/phone.tsx
-msgid "Open Settings › Contacts › Accounts › Add Account › Other › Add CardDAV Account."
-msgstr "Nyisd meg a Beállítások › Névjegyek › Fiókok › Fiók hozzáadása › Egyéb › CardDAV-fiók hozzáadása menüt."
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Open view actions"
@@ -2110,10 +2016,6 @@ msgstr "Kiindulási és úti cél beállítása"
 msgid "Settings"
 msgstr "Beállítások"
 
-#: src/features/help/phone.tsx
-msgid "Sharing with others"
-msgstr "Megosztás másokkal"
-
 #: src/features/help/contribute-dialog.tsx
 msgid "Short title for your idea"
 msgstr "Rövid cím az ötletének"
@@ -2238,10 +2140,6 @@ msgstr "Vasárnap"
 msgid "Switch to view 1-9"
 msgstr "Váltás 1-9 nézetre"
 
-#: src/features/help/index.tsx
-msgid "Sync your Mochi contacts with your phone, tablet or computer over CardDAV."
-msgstr "Szinkronizáld a Mochi-névjegyeidet a telefonoddal, táblagépeddel vagy számítógépeddel CardDAV-on keresztül."
-
 #: ../../../lib/web/src/components/audit-timeline.tsx
 #: ../../../lib/web/src/lib/preference-utils.ts
 #: ../../../lib/web/src/lib/preference-utils.ts
@@ -2308,10 +2206,6 @@ msgstr "A mikrofonkérésre nem érkezett válasz"
 msgid "The passkey request was not answered"
 msgstr "A passkey-kérésre nem érkezett válasz"
 
-#: src/features/help/phone.tsx
-msgid "The password is shown only once, so copy it into the device before closing the dialog. If it is lost, delete the device under <0>Manage devices</0> and create a new one."
-msgstr "A jelszó csak egyszer jelenik meg, ezért másold át az eszközre, mielőtt bezárod a párbeszédablakot. Ha elveszett, töröld az eszközt az <0>Eszközök kezelése</0> alatt, és hozz létre egy újat."
-
 #: ../../../lib/web/src/features/errors/general-error.tsx
 msgid "The requested content could not be found."
 msgstr "A kért tartalom nem található."
@@ -2327,10 +2221,6 @@ msgstr "Ez az alkalmazás nem használhatja az Ön passkey-ét. Engedélyezze a 
 #: ../../../lib/web/src/components/game/game-end-dialogs.tsx
 msgid "This permanently deletes the game and its chat. This cannot be undone."
 msgstr "Ez véglegesen törli a játékot és a hozzá tartozó csevegést. Ez a művelet nem vonható vissza."
-
-#: src/features/help/phone.tsx
-msgid "Thunderbird"
-msgstr "Thunderbird"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Thursday"
@@ -2561,10 +2451,6 @@ msgstr "Mi történt"
 msgid "What have you tried, what did you expect, where are you stuck?"
 msgstr "Mit próbáltál, mire számítottál, hol akadtál el?"
 
-#: src/features/help/phone.tsx
-msgid "What syncs"
-msgstr "Mi szinkronizálódik"
-
 #: src/features/help/contribute-dialog.tsx
 msgid "What would it do, who is it for, why does it matter?"
 msgstr "Mit csinálna, kinek szól, miért fontos?"
@@ -2572,10 +2458,6 @@ msgstr "Mit csinálna, kinek szól, miért fontos?"
 #: src/features/help/contribute-dialog.tsx
 msgid "What you want to ask, in one line"
 msgstr "Mit szeretnél kérdezni, egy sorban"
-
-#: src/features/help/phone.tsx
-msgid "Which details to enter"
-msgstr "Milyen adatokat kell megadni"
 
 #: ../../../lib/web/src/features/errors/general-error.tsx
 msgid "You do not have access to this section."

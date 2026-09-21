@@ -201,10 +201,6 @@ msgstr "Pridėti prie esamų pranešimų"
 msgid "Add view"
 msgstr "Pridėti rodinį"
 
-#: src/features/help/phone.tsx
-msgid "Address books are private to your account, so there is nothing to give to someone who is not a Mochi user."
-msgstr "Adresų knygos yra privačios ir priklauso jūsų paskyrai, todėl nėra ko duoti tam, kas nėra Mochi naudotojas."
-
 #: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "AI"
 msgstr "DI"
@@ -225,10 +221,6 @@ msgstr "Įvyko klaida"
 #: ../../../lib/web/src/lib/error-normalizer.ts
 msgid "An unexpected error occurred"
 msgstr "Įvyko netikėta klaida"
-
-#: src/features/help/phone.tsx
-msgid "Android"
-msgstr "Android"
 
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
@@ -446,10 +438,6 @@ msgstr "Pakeista"
 msgid "Changed {field}"
 msgstr "{field} pakeista"
 
-#: src/features/help/phone.tsx
-msgid "Changes made on the device appear in People, and changes made in People appear on the device."
-msgstr "Įrenginyje atlikti pakeitimai atsiranda Žmonėse, o Žmonėse atlikti pakeitimai atsiranda įrenginyje."
-
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Checkbox"
 msgstr "Žymimasis langelis"
@@ -466,14 +454,6 @@ msgstr "Pasirinkite žaidimą iš šoninės juostos arba pradėkite naują."
 #: ../../../lib/web/src/components/language-picker.tsx
 msgid "Choose language"
 msgstr "Pasirinkite kalbą"
-
-#: src/features/help/phone.tsx
-msgid "Choose Login with URL and user name, enter the address book URL as the base URL, then the username and the password."
-msgstr "Pasirinkite Prisijungti naudojant URL ir vartotojo vardą, įveskite adresų knygos URL kaip bazinį URL, tada vartotojo vardą ir slaptažodį."
-
-#: src/features/help/phone.tsx
-msgid "Choose the address books to add."
-msgstr "Pasirinkite adresų knygas, kurias norite pridėti."
 
 #: ../../../lib/web/src/components/banner-section.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
@@ -492,14 +472,6 @@ msgstr "Išvalyti viską"
 #: ../../../lib/web/src/components/search-input.tsx
 msgid "Clear search"
 msgstr "Išvalyti paiešką"
-
-#: src/features/help/phone.tsx
-msgid "Clients that ask for a URL, such as Thunderbird and most others, take the address book URL instead of the server."
-msgstr "Klientai, kurie prašo URL, pavyzdžiui, Thunderbird ir dauguma kitų, vietoj serverio naudoja adresų knygos URL."
-
-#: src/features/help/phone.tsx
-msgid "Clients that find the server by name, such as iPhone, iPad, Mac Contacts and DAVx5 on Android, need the server, the username and the password."
-msgstr "Klientai, kurie randa serverį pagal pavadinimą, pavyzdžiui, iPhone, iPad, Kontaktai Mac kompiuteryje ir DAVx5 Android įrenginyje, reikalauja tik serverio, vartotojo vardo ir slaptažodžio."
 
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
@@ -598,11 +570,6 @@ msgstr "Konfigūruoti rodinio nustatymus"
 msgid "Confirm"
 msgstr "Patvirtinti"
 
-#: src/features/help/index.tsx
-#: src/features/help/phone.tsx
-msgid "Connect your phone"
-msgstr "Prijunkite savo telefoną"
-
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connected"
 msgstr "Prijungta"
@@ -682,14 +649,6 @@ msgstr "Sukurti"
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Create {entityLabel}"
 msgstr "Sukurti {entityLabel}"
-
-#: src/features/help/phone.tsx
-msgid "Create a credential for the device"
-msgstr "Sukurti įrenginiui prisijungimo duomenis"
-
-#: src/features/help/phone.tsx
-msgid "Create a separate credential for each device, so a lost device can be revoked without affecting the others."
-msgstr "Kiekvienam įrenginiui sukurkite atskirus prisijungimo duomenis, kad pamestą įrenginį būtų galima atšaukti nepaveikiant kitų."
 
 #: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx
 msgid "Create new item"
@@ -807,10 +766,6 @@ msgstr "Ištrinta"
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted {field}"
 msgstr "{field} ištrinta"
-
-#: src/features/help/phone.tsx
-msgid "Deleting a friend's card on the device removes the contact and ends the friendship, exactly as deleting it in People does."
-msgstr "Draugo kortelės ištrynimas įrenginyje pašalina kontaktą ir nutraukia draugystę, lygiai taip pat kaip ištrynimas Žmonėse."
 
 #: ../../../lib/web/src/components/ui/sort-direction-button.tsx
 msgid "Descending"
@@ -948,10 +903,6 @@ msgstr "El. paštas"
 msgid "Email code"
 msgstr "El. pašto kodas"
 
-#: src/features/help/phone.tsx
-msgid "Enable the address books it finds. Your contacts then appear in the phone's Contacts app."
-msgstr "Įjunkite rastas adresų knygas. Jūsų kontaktai tada atsiranda telefono programoje Kontaktai."
-
 #: ../../../lib/web/src/components/banner-section.tsx
 msgid "Enter banner text (markdown supported)..."
 msgstr "Įveskite reklamjuostės tekstą (palaikomas markdown)…"
@@ -960,14 +911,6 @@ msgstr "Įveskite reklamjuostės tekstą (palaikomas markdown)…"
 msgid "Enter the code from your email"
 msgstr "Įveskite kodą iš savo el. laiško"
 
-#: src/features/help/phone.tsx
-msgid "Enter the server, your username and the password, and a description such as Mochi."
-msgstr "Įveskite serverį, savo vartotojo vardą ir slaptažodį bei aprašymą, pavyzdžiui, Mochi."
-
-#: src/features/help/phone.tsx
-msgid "Enter the username, and the address book URL as the location. Enter the password when asked."
-msgstr "Įveskite vartotojo vardą ir adresų knygos URL kaip vietą. Įveskite slaptažodį, kai jo paprašys."
-
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Enter your authenticator code"
 msgstr "Įveskite autentifikatoriaus kodą"
@@ -975,10 +918,6 @@ msgstr "Įveskite autentifikatoriaus kodą"
 #: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx
 msgid "Error"
 msgstr "Klaida"
-
-#: src/features/help/phone.tsx
-msgid "Every address book listed in the People sidebar is offered to the device."
-msgstr "Kiekviena adresų knyga, nurodyta Žmonių šoninėje juostoje, siūloma įrenginiui."
 
 #: ../../../lib/web/src/components/comment-tree-layout.tsx
 #: ../../../lib/web/src/components/comment-tree-layout.tsx
@@ -1171,7 +1110,6 @@ msgid "Group: {0}"
 msgstr "Grupė: {0}"
 
 #: src/features/help/index.tsx
-#: src/features/help/phone.tsx
 #: src/routes/_authenticated/document/privacy.tsx
 #: src/routes/_authenticated/document/rules.tsx
 #: src/routes/_authenticated/document/terms.tsx
@@ -1211,10 +1149,6 @@ msgstr "Paveikslėlių peržiūra: {0}"
 msgid "Imperial"
 msgstr "Imperinė"
 
-#: src/features/help/phone.tsx
-msgid "In People, choose <0>Connect a device</0> in the sidebar."
-msgstr "Žmonėse šoninėje juostoje pasirinkite <0>Prijungti įrenginį</0>."
-
 #: ../../../lib/web/src/features/access/types.ts
 msgid "Including anonymous users"
 msgstr "Įskaitant anoniminius naudotojus"
@@ -1226,10 +1160,6 @@ msgstr "Inicialų avataras"
 #: ../../../lib/web/src/components/faceless-avatar.tsx
 msgid "Initials avatar for {name}"
 msgstr "{name} inicialų avataras"
-
-#: src/features/help/phone.tsx
-msgid "Install DAVx5 from F-Droid or Google Play."
-msgstr "Įdiekite DAVx5 iš F-Droid arba Google Play."
 
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Interest {weight}"
@@ -1247,10 +1177,6 @@ msgstr "Prisistatykite"
 #: ../../../lib/web/src/components/entity/entity-field-editor.tsx
 msgid "Invalid date"
 msgstr "Netinkama data"
-
-#: src/features/help/phone.tsx
-msgid "iPhone and iPad"
-msgstr "iPhone ir iPad"
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "It seems like the page you're looking for <0/>does not exist or might have been removed."
@@ -1388,10 +1314,6 @@ msgstr "Mikrofono leidimas uždraustas"
 msgid "Minimum length"
 msgstr "Mažiausias ilgis"
 
-#: src/features/help/phone.tsx
-msgid "Mochi keeps your contacts in the People app. Any phone, tablet or computer that supports CardDAV can sync them."
-msgstr "Mochi saugo jūsų kontaktus programoje Žmonės. Bet kuris telefonas, planšetė ar kompiuteris, palaikantis CardDAV, gali juos sinchronizuoti."
-
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Mochi web"
 msgstr "Mochi žiniatinklis"
@@ -1435,10 +1357,6 @@ msgstr "Pavadinimas yra privalomas"
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Name must be 1000 characters or less"
 msgstr "Pavadinimas turi būti ne ilgesnis nei 1000 simbolių"
-
-#: src/features/help/phone.tsx
-msgid "Name the device and create the credential. The dialog shows the server, the address book URL, the username and a password."
-msgstr "Suteikite įrenginiui pavadinimą ir sukurkite prisijungimo duomenis. Dialogas rodo serverį, adresų knygos URL, vartotojo vardą ir slaptažodį."
 
 #: ../../../lib/web/src/features/errors/general-error.tsx
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
@@ -1588,10 +1506,6 @@ msgstr "Skaičius"
 msgid "On"
 msgstr "Įjungta"
 
-#: src/features/help/phone.tsx
-msgid "On a Mac, open Contacts › Settings › Accounts, add an account, choose Other Contacts Account, then CardDAV and Manual, and enter the same details."
-msgstr "Mac kompiuteryje atidarykite Kontaktai › Nustatymai › Paskyros, pridėkite paskyrą, pasirinkite Kita kontaktų paskyra, tada CardDAV ir Rankiniu būdu, ir įveskite tuos pačius duomenis."
-
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
 msgstr "Oi! Puslapis nerastas!"
@@ -1599,10 +1513,6 @@ msgstr "Oi! Puslapis nerastas!"
 #: ../../../lib/web/src/components/layout/nav-group.tsx
 msgid "Open actions"
 msgstr "Atidaryti veiksmus"
-
-#: src/features/help/phone.tsx
-msgid "Open Address Book › New Address Book › Add CardDAV Address Book."
-msgstr "Atidarykite Adresų knyga › Nauja adresų knyga › Pridėti CardDAV adresų knygą."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"
@@ -1620,10 +1530,6 @@ msgstr "Atidaryti parinkties veiksmus"
 #: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx
 msgid "Open selected card"
 msgstr "Atidaryti pasirinktą kortelę"
-
-#: src/features/help/phone.tsx
-msgid "Open Settings › Contacts › Accounts › Add Account › Other › Add CardDAV Account."
-msgstr "Atidarykite Nustatymai › Kontaktai › Paskyros › Pridėti paskyrą › Kita › Pridėti CardDAV paskyrą."
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Open view actions"
@@ -2110,10 +2016,6 @@ msgstr "Nustatyti pradžią ir paskirties vietą"
 msgid "Settings"
 msgstr "Nustatymai"
 
-#: src/features/help/phone.tsx
-msgid "Sharing with others"
-msgstr "Bendrinimas su kitais"
-
 #: src/features/help/contribute-dialog.tsx
 msgid "Short title for your idea"
 msgstr "Trumpas jūsų idėjos pavadinimas"
@@ -2238,10 +2140,6 @@ msgstr "Sekmadienis"
 msgid "Switch to view 1-9"
 msgstr "Perjungti į rodinį 1-9"
 
-#: src/features/help/index.tsx
-msgid "Sync your Mochi contacts with your phone, tablet or computer over CardDAV."
-msgstr "Sinchronizuokite savo Mochi kontaktus su telefonu, planšete ar kompiuteriu per CardDAV."
-
 #: ../../../lib/web/src/components/audit-timeline.tsx
 #: ../../../lib/web/src/lib/preference-utils.ts
 #: ../../../lib/web/src/lib/preference-utils.ts
@@ -2308,10 +2206,6 @@ msgstr "Į mikrofono užklausą neatsakyta"
 msgid "The passkey request was not answered"
 msgstr "Į slaptarakčio užklausą neatsakyta"
 
-#: src/features/help/phone.tsx
-msgid "The password is shown only once, so copy it into the device before closing the dialog. If it is lost, delete the device under <0>Manage devices</0> and create a new one."
-msgstr "Slaptažodis rodomas tik vieną kartą, todėl prieš uždarydami dialogą nukopijuokite jį į įrenginį. Jei jis pamestas, ištrinkite įrenginį skiltyje <0>Tvarkyti įrenginius</0> ir sukurkite naują."
-
 #: ../../../lib/web/src/features/errors/general-error.tsx
 msgid "The requested content could not be found."
 msgstr "Prašomo turinio rasti nepavyko."
@@ -2327,10 +2221,6 @@ msgstr "Šiai programai neleidžiama naudoti jūsų slaptarakčio. Leiskite tai 
 #: ../../../lib/web/src/components/game/game-end-dialogs.tsx
 msgid "This permanently deletes the game and its chat. This cannot be undone."
 msgstr "Tai visam laikui ištrins žaidimą ir jo pokalbį. Šio veiksmo negalima anuliuoti."
-
-#: src/features/help/phone.tsx
-msgid "Thunderbird"
-msgstr "Thunderbird"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Thursday"
@@ -2561,10 +2451,6 @@ msgstr "Kas nutiko"
 msgid "What have you tried, what did you expect, where are you stuck?"
 msgstr "Ką bandėte, ko tikėjotės, kur užstrigote?"
 
-#: src/features/help/phone.tsx
-msgid "What syncs"
-msgstr "Kas sinchronizuojama"
-
 #: src/features/help/contribute-dialog.tsx
 msgid "What would it do, who is it for, why does it matter?"
 msgstr "Ką ji darytų, kam ji skirta, kodėl tai svarbu?"
@@ -2572,10 +2458,6 @@ msgstr "Ką ji darytų, kam ji skirta, kodėl tai svarbu?"
 #: src/features/help/contribute-dialog.tsx
 msgid "What you want to ask, in one line"
 msgstr "Ką norite paklausti, vienoje eilutėje"
-
-#: src/features/help/phone.tsx
-msgid "Which details to enter"
-msgstr "Kokius duomenis įvesti"
 
 #: ../../../lib/web/src/features/errors/general-error.tsx
 msgid "You do not have access to this section."

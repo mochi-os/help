@@ -201,10 +201,6 @@ msgstr "Одоогийн мэдэгдэлд нэмэх"
 msgid "Add view"
 msgstr "Харагдац нэмэх"
 
-#: src/features/help/phone.tsx
-msgid "Address books are private to your account, so there is nothing to give to someone who is not a Mochi user."
-msgstr "Хаягийн дэвтрүүд таны бүртгэлд хамаарах хувийн мэдээлэл тул Mochi хэрэглэгч биш хүнд өгөх зүйл байхгүй."
-
 #: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "AI"
 msgstr "AI"
@@ -225,10 +221,6 @@ msgstr "Алдаа гарлаа"
 #: ../../../lib/web/src/lib/error-normalizer.ts
 msgid "An unexpected error occurred"
 msgstr "Гэнэтийн алдаа гарлаа"
-
-#: src/features/help/phone.tsx
-msgid "Android"
-msgstr "Android"
 
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
@@ -446,10 +438,6 @@ msgstr "Өөрчилсөн"
 msgid "Changed {field}"
 msgstr "{field} өөрчилсөн"
 
-#: src/features/help/phone.tsx
-msgid "Changes made on the device appear in People, and changes made in People appear on the device."
-msgstr "Төхөөрөмж дээр хийсэн өөрчлөлтүүд Хүмүүс програмд харагдах ба Хүмүүс програмд хийсэн өөрчлөлтүүд төхөөрөмж дээр харагдана."
-
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Checkbox"
 msgstr "Чекбокс"
@@ -466,14 +454,6 @@ msgstr "Хажуугийн талбараас тоглоом сонгох эсв
 #: ../../../lib/web/src/components/language-picker.tsx
 msgid "Choose language"
 msgstr "Хэл сонгох"
-
-#: src/features/help/phone.tsx
-msgid "Choose Login with URL and user name, enter the address book URL as the base URL, then the username and the password."
-msgstr "URL болон хэрэглэгчийн нэрээр нэвтрэхийг сонгоод, хаягийн дэвтрийн URL-г үндсэн URL болгон оруулж, дараа нь хэрэглэгчийн нэр болон нууц үгийг оруулна уу."
-
-#: src/features/help/phone.tsx
-msgid "Choose the address books to add."
-msgstr "Нэмэх хаягийн дэвтрүүдээ сонгоно уу."
 
 #: ../../../lib/web/src/components/banner-section.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
@@ -492,14 +472,6 @@ msgstr "Бүгдийг цэвэрлэх"
 #: ../../../lib/web/src/components/search-input.tsx
 msgid "Clear search"
 msgstr "Хайлтыг цэвэрлэх"
-
-#: src/features/help/phone.tsx
-msgid "Clients that ask for a URL, such as Thunderbird and most others, take the address book URL instead of the server."
-msgstr "URL асуудаг клиентүүд, тухайлбал Thunderbird болон бусад ихэнх нь, серверийн оронд хаягийн дэвтрийн URL-г ашигладаг."
-
-#: src/features/help/phone.tsx
-msgid "Clients that find the server by name, such as iPhone, iPad, Mac Contacts and DAVx5 on Android, need the server, the username and the password."
-msgstr "Серверийг нэрээр нь олдог клиентүүд, тухайлбал iPhone, iPad, Mac-ийн Харилцагчид болон Android дээрх DAVx5, сервер, хэрэглэгчийн нэр болон нууц үг шаарддаг."
 
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
@@ -598,11 +570,6 @@ msgstr "Харагдацын тохиргоог тохируулах"
 msgid "Confirm"
 msgstr "Баталгаажуулах"
 
-#: src/features/help/index.tsx
-#: src/features/help/phone.tsx
-msgid "Connect your phone"
-msgstr "Утсаа холбох"
-
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connected"
 msgstr "Холбогдсон"
@@ -682,14 +649,6 @@ msgstr "Үүсгэх"
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Create {entityLabel}"
 msgstr "{entityLabel} үүсгэх"
-
-#: src/features/help/phone.tsx
-msgid "Create a credential for the device"
-msgstr "Төхөөрөмжид нэвтрэх мэдээлэл үүсгэх"
-
-#: src/features/help/phone.tsx
-msgid "Create a separate credential for each device, so a lost device can be revoked without affecting the others."
-msgstr "Төхөөрөмж бүрт тусдаа нэвтрэх мэдээлэл үүсгээрэй, ингэснээр алдагдсан төхөөрөмжийг бусдад нь нөлөөлөхгүйгээр цуцалж болно."
 
 #: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx
 msgid "Create new item"
@@ -807,10 +766,6 @@ msgstr "Устгасан"
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted {field}"
 msgstr "{field} устгасан"
-
-#: src/features/help/phone.tsx
-msgid "Deleting a friend's card on the device removes the contact and ends the friendship, exactly as deleting it in People does."
-msgstr "Төхөөрөмж дээр найзын картыг устгавал харилцагчийг хасаж, нөхөрлөлийг дуусгана, яг Хүмүүс програмд устгахтай адил."
 
 #: ../../../lib/web/src/components/ui/sort-direction-button.tsx
 msgid "Descending"
@@ -948,10 +903,6 @@ msgstr "Имэйл"
 msgid "Email code"
 msgstr "Имэйл код"
 
-#: src/features/help/phone.tsx
-msgid "Enable the address books it finds. Your contacts then appear in the phone's Contacts app."
-msgstr "Олдсон хаягийн дэвтрүүдийг идэвхжүүлнэ үү. Дараа нь таны харилцагчид утасны Харилцагчид програмд харагдана."
-
 #: ../../../lib/web/src/components/banner-section.tsx
 msgid "Enter banner text (markdown supported)..."
 msgstr "Баннерын текст оруулна уу (markdown дэмждэг)..."
@@ -960,14 +911,6 @@ msgstr "Баннерын текст оруулна уу (markdown дэмждэг
 msgid "Enter the code from your email"
 msgstr "Имэйлд ирсэн кодоо оруулна уу"
 
-#: src/features/help/phone.tsx
-msgid "Enter the server, your username and the password, and a description such as Mochi."
-msgstr "Сервер, хэрэглэгчийн нэр, нууц үг болон Mochi гэх мэт тайлбарыг оруулна уу."
-
-#: src/features/help/phone.tsx
-msgid "Enter the username, and the address book URL as the location. Enter the password when asked."
-msgstr "Хэрэглэгчийн нэрийг, байршил болгон хаягийн дэвтрийн URL-г оруулна уу. Асуух үед нууц үгийг оруулна уу."
-
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Enter your authenticator code"
 msgstr "Баталгаажуулагчийн кодоо оруулна уу"
@@ -975,10 +918,6 @@ msgstr "Баталгаажуулагчийн кодоо оруулна уу"
 #: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx
 msgid "Error"
 msgstr "Алдаа"
-
-#: src/features/help/phone.tsx
-msgid "Every address book listed in the People sidebar is offered to the device."
-msgstr "Хүмүүс програмын хажуугийн самбарт жагсаасан хаягийн дэвтэр бүрийг төхөөрөмжид санал болгоно."
 
 #: ../../../lib/web/src/components/comment-tree-layout.tsx
 #: ../../../lib/web/src/components/comment-tree-layout.tsx
@@ -1171,7 +1110,6 @@ msgid "Group: {0}"
 msgstr "Бүлэг: {0}"
 
 #: src/features/help/index.tsx
-#: src/features/help/phone.tsx
 #: src/routes/_authenticated/document/privacy.tsx
 #: src/routes/_authenticated/document/rules.tsx
 #: src/routes/_authenticated/document/terms.tsx
@@ -1211,10 +1149,6 @@ msgstr "Зураг үзэгч: {0}"
 msgid "Imperial"
 msgstr "Imperial"
 
-#: src/features/help/phone.tsx
-msgid "In People, choose <0>Connect a device</0> in the sidebar."
-msgstr "Хүмүүс програмд хажуугийн самбараас <0>Төхөөрөмж холбох</0>-ыг сонгоно уу."
-
 #: ../../../lib/web/src/features/access/types.ts
 msgid "Including anonymous users"
 msgstr "Нэргүй хэрэглэгчид оролцуулан"
@@ -1226,10 +1160,6 @@ msgstr "Товч нэрийн аватар"
 #: ../../../lib/web/src/components/faceless-avatar.tsx
 msgid "Initials avatar for {name}"
 msgstr "{name}-ийн товч нэрийн аватар"
-
-#: src/features/help/phone.tsx
-msgid "Install DAVx5 from F-Droid or Google Play."
-msgstr "DAVx5-ыг F-Droid эсвэл Google Play-ээс суулгана уу."
 
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Interest {weight}"
@@ -1247,10 +1177,6 @@ msgstr "Өөрийгөө танилцуулах"
 #: ../../../lib/web/src/components/entity/entity-field-editor.tsx
 msgid "Invalid date"
 msgstr "Огноо хүчингүй"
-
-#: src/features/help/phone.tsx
-msgid "iPhone and iPad"
-msgstr "iPhone болон iPad"
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "It seems like the page you're looking for <0/>does not exist or might have been removed."
@@ -1388,10 +1314,6 @@ msgstr "Микрофоны зөвшөөрөл татгалзагдсан"
 msgid "Minimum length"
 msgstr "Хамгийн бага урт"
 
-#: src/features/help/phone.tsx
-msgid "Mochi keeps your contacts in the People app. Any phone, tablet or computer that supports CardDAV can sync them."
-msgstr "Mochi таны харилцагчдыг Хүмүүс програмд хадгалдаг. CardDAV дэмждэг аливаа утас, таблет эсвэл компьютер тэдгээрийг синк хийж чадна."
-
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Mochi web"
 msgstr "Mochi веб"
@@ -1435,10 +1357,6 @@ msgstr "Нэр шаардлагатай"
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Name must be 1000 characters or less"
 msgstr "Нэр 1000 тэмдэгтээс хэтрэхгүй байх ёстой"
-
-#: src/features/help/phone.tsx
-msgid "Name the device and create the credential. The dialog shows the server, the address book URL, the username and a password."
-msgstr "Төхөөрөмжид нэр өгч, нэвтрэх мэдээллийг үүсгэнэ үү. Харилцах цонх сервер, хаягийн дэвтрийн URL, хэрэглэгчийн нэр болон нууц үгийг харуулна."
 
 #: ../../../lib/web/src/features/errors/general-error.tsx
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
@@ -1588,10 +1506,6 @@ msgstr "Тоо"
 msgid "On"
 msgstr "Асаалттай"
 
-#: src/features/help/phone.tsx
-msgid "On a Mac, open Contacts › Settings › Accounts, add an account, choose Other Contacts Account, then CardDAV and Manual, and enter the same details."
-msgstr "Mac дээр Харилцагчид › Тохиргоо › Бүртгэлүүдийг нээж, бүртгэл нэмээд, Бусад харилцагчийн бүртгэл, дараа нь CardDAV болон Гар аргаар-ыг сонгож, ижил мэдээллийг оруулна уу."
-
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
 msgstr "Уучлаарай! Хуудас олдсонгүй!"
@@ -1599,10 +1513,6 @@ msgstr "Уучлаарай! Хуудас олдсонгүй!"
 #: ../../../lib/web/src/components/layout/nav-group.tsx
 msgid "Open actions"
 msgstr "Үйлдлүүдийг нээх"
-
-#: src/features/help/phone.tsx
-msgid "Open Address Book › New Address Book › Add CardDAV Address Book."
-msgstr "Хаягийн дэвтэр › Шинэ хаягийн дэвтэр › CardDAV хаягийн дэвтэр нэмэхийг нээнэ үү."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"
@@ -1620,10 +1530,6 @@ msgstr "Сонголтын үйлдлүүдийг нээх"
 #: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx
 msgid "Open selected card"
 msgstr "Сонгосон картыг нээх"
-
-#: src/features/help/phone.tsx
-msgid "Open Settings › Contacts › Accounts › Add Account › Other › Add CardDAV Account."
-msgstr "Тохиргоо › Харилцагчид › Бүртгэлүүд › Бүртгэл нэмэх › Бусад › CardDAV бүртгэл нэмэхийг нээнэ үү."
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Open view actions"
@@ -2110,10 +2016,6 @@ msgstr "Эхлэл, очих газрыг тогтоох"
 msgid "Settings"
 msgstr "Тохиргоо"
 
-#: src/features/help/phone.tsx
-msgid "Sharing with others"
-msgstr "Бусадтай хуваалцах"
-
 #: src/features/help/contribute-dialog.tsx
 msgid "Short title for your idea"
 msgstr "Таны санааны товч гарчиг"
@@ -2238,10 +2140,6 @@ msgstr "Ням гараг"
 msgid "Switch to view 1-9"
 msgstr "1-9 харагдац руу шилжих"
 
-#: src/features/help/index.tsx
-msgid "Sync your Mochi contacts with your phone, tablet or computer over CardDAV."
-msgstr "Mochi харилцагчдаа CardDAV-аар утас, таблет эсвэл компьютертэйгээ синк хийнэ үү."
-
 #: ../../../lib/web/src/components/audit-timeline.tsx
 #: ../../../lib/web/src/lib/preference-utils.ts
 #: ../../../lib/web/src/lib/preference-utils.ts
@@ -2308,10 +2206,6 @@ msgstr "Микрофоны хүсэлтэд хариу ирсэнгүй"
 msgid "The passkey request was not answered"
 msgstr "Passkey хүсэлтэд хариу ирсэнгүй"
 
-#: src/features/help/phone.tsx
-msgid "The password is shown only once, so copy it into the device before closing the dialog. If it is lost, delete the device under <0>Manage devices</0> and create a new one."
-msgstr "Нууц үгийг зөвхөн нэг удаа харуулдаг тул харилцах цонхыг хаахаас өмнө төхөөрөмж рүү хуулна уу. Хэрэв алдвал, <0>Төхөөрөмжүүдийг удирдах</0> хэсэгт төхөөрөмжийг устгаад шинээр үүсгэнэ үү."
-
 #: ../../../lib/web/src/features/errors/general-error.tsx
 msgid "The requested content could not be found."
 msgstr "Хүссэн агуулга олдсонгүй."
@@ -2327,10 +2221,6 @@ msgstr "Энэ аппад таны passkey-г ашиглахыг зөвшөөр�
 #: ../../../lib/web/src/components/game/game-end-dialogs.tsx
 msgid "This permanently deletes the game and its chat. This cannot be undone."
 msgstr "Энэ нь тоглоом болон түүний чатыг бүрмөсөн устгана. Энэ үйлдлийг буцаах боломжгүй."
-
-#: src/features/help/phone.tsx
-msgid "Thunderbird"
-msgstr "Thunderbird"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Thursday"
@@ -2561,10 +2451,6 @@ msgstr "Юу болсон"
 msgid "What have you tried, what did you expect, where are you stuck?"
 msgstr "Та юу туршсан, юу хүлээж байсан, хаана гацсан бэ?"
 
-#: src/features/help/phone.tsx
-msgid "What syncs"
-msgstr "Юу синк хийгддэг"
-
 #: src/features/help/contribute-dialog.tsx
 msgid "What would it do, who is it for, why does it matter?"
 msgstr "Энэ юу хийх вэ, хэнд зориулагдсан бэ, яагаад чухал бэ?"
@@ -2572,10 +2458,6 @@ msgstr "Энэ юу хийх вэ, хэнд зориулагдсан бэ, яа�
 #: src/features/help/contribute-dialog.tsx
 msgid "What you want to ask, in one line"
 msgstr "Юу асуухыг хүсэж байна, нэг мөрөнд"
-
-#: src/features/help/phone.tsx
-msgid "Which details to enter"
-msgstr "Ямар мэдээлэл оруулах вэ"
 
 #: ../../../lib/web/src/features/errors/general-error.tsx
 msgid "You do not have access to this section."
