@@ -65,9 +65,21 @@ msgstr "{count, plural, one {#mzu} other {#mzu}}"
 msgid "{count, plural, one {#w} other {#w}}"
 msgstr "{count, plural, one {#vk} other {#vk}}"
 
+#: ../../../lib/web/src/components/calendar/tooltip.ts
+msgid "{day}, {from} to {to}"
+msgstr ""
+
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "{entityLabel} name"
 msgstr "Igama le-{entityLabel}"
+
+#: ../../../lib/web/src/components/calendar/tooltip.ts
+msgid "{from} to {to}"
+msgstr ""
+
+#: ../../../lib/web/src/components/calendar/month-grid.tsx
+msgid "{hidden, plural, one {+# more} other {+# more}}"
+msgstr ""
 
 #: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx
 msgid "{opponentName} offered a draw"
@@ -201,13 +213,13 @@ msgstr "Yongeza kwizaziso ezikhoyo"
 msgid "Add view"
 msgstr "Yongeza imbono"
 
-#: src/features/help/phone.tsx
-msgid "Address books are private to your account, so there is nothing to give to someone who is not a Mochi user."
-msgstr "Iincwadi zeedilesi zezabucala kwiakhawunti yakho, ngoko akukho nto yokunika umntu ongengomsebenzisi we-Mochi."
-
 #: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "AI"
 msgstr "AI"
+
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
+msgid "All day"
+msgstr ""
 
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Allow anyone to search for {entityLabel}"
@@ -225,10 +237,6 @@ msgstr "Kwenzeke impazamo"
 #: ../../../lib/web/src/lib/error-normalizer.ts
 msgid "An unexpected error occurred"
 msgstr "Kwenzeke impazamo engalindelekanga"
-
-#: src/features/help/phone.tsx
-msgid "Android"
-msgstr "Android"
 
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
@@ -446,9 +454,10 @@ msgstr "Kutshintshiwe"
 msgid "Changed {field}"
 msgstr "Kutshintshiwe {field}"
 
-#: src/features/help/phone.tsx
-msgid "Changes made on the device appear in People, and changes made in People appear on the device."
-msgstr "Utshintsho olwenziwe kwisixhobo luvela ku-Abantu, kwaye utshintsho olwenziwe ku-Abantu luvela kwisixhobo."
+#: ../../../lib/web/src/components/calendar/month-grid.tsx
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
+msgid "Changed occurrence"
+msgstr ""
 
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Checkbox"
@@ -466,14 +475,6 @@ msgstr "Khetha umdlalo kwibha esecaleni okanye qalisa omtsha."
 #: ../../../lib/web/src/components/language-picker.tsx
 msgid "Choose language"
 msgstr "Khetha ulwimi"
-
-#: src/features/help/phone.tsx
-msgid "Choose Login with URL and user name, enter the address book URL as the base URL, then the username and the password."
-msgstr "Khetha Ngena nge-URL negama lomsebenzisi, faka i-URL yencwadi yeedilesi njenge-URL esisiseko, emva koko igama lomsebenzisi negama lokugqitha."
-
-#: src/features/help/phone.tsx
-msgid "Choose the address books to add."
-msgstr "Khetha iincwadi zeedilesi ofuna ukuzongeza."
 
 #: ../../../lib/web/src/components/banner-section.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
@@ -493,14 +494,6 @@ msgstr "Cima konke"
 #: ../../../lib/web/src/components/search-input.tsx
 msgid "Clear search"
 msgstr "Cima ukukhangela"
-
-#: src/features/help/phone.tsx
-msgid "Clients that ask for a URL, such as Thunderbird and most others, take the address book URL instead of the server."
-msgstr "Iiklayenti ezicela i-URL, ezifana ne-Thunderbird nezinye ezininzi, zisebenzisa i-URL yencwadi yeedilesi endaweni yeseva."
-
-#: src/features/help/phone.tsx
-msgid "Clients that find the server by name, such as iPhone, iPad, Mac Contacts and DAVx5 on Android, need the server, the username and the password."
-msgstr "Iiklayenti ezifumana iseva ngegama, ezifana ne-iPhone, i-iPad, Abaqhagamshelwana nabo be-Mac ne-DAVx5 ku-Android, zidinga iseva, igama lomsebenzisi negama lokugqitha."
 
 #: ../../../lib/web/src/components/ui/dialog.tsx
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx
@@ -541,6 +534,7 @@ msgid "Collapse sidebar"
 msgstr "Wisa ibha esecaleni"
 
 #: ../../../lib/web/src/components/entity/entity-option-dialog.tsx
+#: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Colour"
 msgstr "Umbala"
 
@@ -590,11 +584,6 @@ msgstr "Lungiselela iisetingi zembono"
 #: ../../../lib/web/src/components/travelling-picker.tsx
 msgid "Confirm"
 msgstr "Qinisekisa"
-
-#: src/features/help/index.tsx
-#: src/features/help/phone.tsx
-msgid "Connect your phone"
-msgstr "Qhagamshela ifowuni yakho"
 
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connected"
@@ -675,14 +664,6 @@ msgstr "Yenza"
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Create {entityLabel}"
 msgstr "Yenza {entityLabel}"
-
-#: src/features/help/phone.tsx
-msgid "Create a credential for the device"
-msgstr "Yenza iinkcukacha zokungena zesixhobo"
-
-#: src/features/help/phone.tsx
-msgid "Create a separate credential for each device, so a lost device can be revoked without affecting the others."
-msgstr "Yenza iinkcukacha zokungena ezahlukileyo kwisixhobo ngasinye, ukuze isixhobo esilahlekileyo sirhoxiswe ngaphandle kokuchaphazela ezinye."
 
 #: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx
 msgid "Create new item"
@@ -800,10 +781,6 @@ msgstr "Kucinyiwe"
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted {field}"
 msgstr "Kucinyiwe {field}"
-
-#: src/features/help/phone.tsx
-msgid "Deleting a friend's card on the device removes the contact and ends the friendship, exactly as deleting it in People does."
-msgstr "Ukucima ikhadi lomhlobo kwisixhobo kususa lowo uqhagamshelwana naye kwaye kuphelisa ubuhlobo, ngokufanayo nokulicima ku-Abantu."
 
 #: ../../../lib/web/src/components/ui/sort-direction-button.tsx
 msgid "Descending"
@@ -940,10 +917,6 @@ msgstr "I-imeyili"
 msgid "Email code"
 msgstr "Ikhowudi ye-imeyili"
 
-#: src/features/help/phone.tsx
-msgid "Enable the address books it finds. Your contacts then appear in the phone's Contacts app."
-msgstr "Vula iincwadi zeedilesi esizifumanayo. Abaqhagamshelwana nabo bakho baya kuvela kwi-app ethi Abaqhagamshelwana nabo yefowuni."
-
 #: ../../../lib/web/src/components/banner-section.tsx
 msgid "Enter banner text (markdown supported)..."
 msgstr "Faka umbhalo webhena (i-markdown iyaxhaswa)..."
@@ -952,14 +925,6 @@ msgstr "Faka umbhalo webhena (i-markdown iyaxhaswa)..."
 msgid "Enter the code from your email"
 msgstr "Faka ikhowudi evela kwi-imeyile yakho"
 
-#: src/features/help/phone.tsx
-msgid "Enter the server, your username and the password, and a description such as Mochi."
-msgstr "Faka iseva, igama lakho lomsebenzisi negama lokugqitha, kunye nenkcazo efana ne-Mochi."
-
-#: src/features/help/phone.tsx
-msgid "Enter the username, and the address book URL as the location. Enter the password when asked."
-msgstr "Faka igama lomsebenzisi, kunye ne-URL yencwadi yeedilesi njengendawo. Faka igama lokugqitha xa ucelwa."
-
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Enter your authenticator code"
 msgstr "Faka ikhowudi yakho yesiqinisekisi"
@@ -967,10 +932,6 @@ msgstr "Faka ikhowudi yakho yesiqinisekisi"
 #: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx
 msgid "Error"
 msgstr "Impazamo"
-
-#: src/features/help/phone.tsx
-msgid "Every address book listed in the People sidebar is offered to the device."
-msgstr "Yonke incwadi yeedilesi edweliswe kwibha esecaleni ka-Abantu inikezelwa kwisixhobo."
 
 #: ../../../lib/web/src/components/comment-tree-layout.tsx
 #: ../../../lib/web/src/components/comment-tree-layout.tsx
@@ -1163,7 +1124,6 @@ msgid "Group: {0}"
 msgstr "Iqela: {0}"
 
 #: src/features/help/index.tsx
-#: src/features/help/phone.tsx
 #: src/routes/_authenticated/document/privacy.tsx
 #: src/routes/_authenticated/document/rules.tsx
 #: src/routes/_authenticated/document/terms.tsx
@@ -1203,10 +1163,6 @@ msgstr "Umboniso womfanekiso: {0}"
 msgid "Imperial"
 msgstr "I-Imperial"
 
-#: src/features/help/phone.tsx
-msgid "In People, choose <0>Connect a device</0> in the sidebar."
-msgstr "Ku-Abantu, khetha <0>Qhagamshela isixhobo</0> kwibha esecaleni."
-
 #: ../../../lib/web/src/features/access/types.ts
 msgid "Including anonymous users"
 msgstr "Kuquka abasebenzisi abangaziwayo"
@@ -1218,10 +1174,6 @@ msgstr "I-avatar yoonobumba bokuqala"
 #: ../../../lib/web/src/components/faceless-avatar.tsx
 msgid "Initials avatar for {name}"
 msgstr "I-avatar yoonobumba bokuqala ka-{name}"
-
-#: src/features/help/phone.tsx
-msgid "Install DAVx5 from F-Droid or Google Play."
-msgstr "Faka i-DAVx5 esuka ku-F-Droid okanye ku-Google Play."
 
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Interest {weight}"
@@ -1239,10 +1191,6 @@ msgstr "Zazise"
 #: ../../../lib/web/src/components/entity/entity-field-editor.tsx
 msgid "Invalid date"
 msgstr "Umhla ongasebenziyo"
-
-#: src/features/help/phone.tsx
-msgid "iPhone and iPad"
-msgstr "iPhone ne-iPad"
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "It seems like the page you're looking for <0/>does not exist or might have been removed."
@@ -1380,10 +1328,6 @@ msgstr "Imvume yemakrofoni ikhatyiwe"
 msgid "Minimum length"
 msgstr "Ubude obuncinane"
 
-#: src/features/help/phone.tsx
-msgid "Mochi keeps your contacts in the People app. Any phone, tablet or computer that supports CardDAV can sync them."
-msgstr "I-Mochi igcina abaqhagamshelwana nabo bakho kwi-app ethi Abantu. Nayiphi na ifowuni, ithebhulethi okanye ikhompyutha exhasa i-CardDAV inokubangqamanisa."
-
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Mochi web"
 msgstr "Iwebhu ye-Mochi"
@@ -1408,6 +1352,11 @@ msgstr "Kufuduswe"
 msgid "Moved {field}"
 msgstr "Kufuduswe {field}"
 
+#. placeholder {0}: dragging.day
+#: ../../../lib/web/src/components/calendar/month-grid.tsx
+msgid "Moving to {0}"
+msgstr ""
+
 #: ../../../lib/web/src/components/entity/add-field-dialog.tsx
 #: ../../../lib/web/src/components/entity/entity-board-column.tsx
 #: ../../../lib/web/src/components/entity/entity-field-dialog.tsx
@@ -1428,10 +1377,6 @@ msgstr "Igama liyafuneka"
 msgid "Name must be 1000 characters or less"
 msgstr "Igama kufuneka libe yimpawu eziyi-1000 okanye ngaphantsi"
 
-#: src/features/help/phone.tsx
-msgid "Name the device and create the credential. The dialog shows the server, the address book URL, the username and a password."
-msgstr "Nika isixhobo igama uze wenze iinkcukacha zokungena. Ibhokisi yencoko ibonisa iseva, i-URL yencwadi yeedilesi, igama lomsebenzisi negama lokugqitha."
-
 #: ../../../lib/web/src/features/errors/general-error.tsx
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
 msgid "Network error"
@@ -1451,6 +1396,10 @@ msgstr "Umdlalo omtsha"
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx
 msgid "Next image"
 msgstr "Umfanekiso olandelayo"
+
+#: ../../../lib/web/src/components/calendar/mini-month.tsx
+msgid "Next month"
+msgstr ""
 
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
 msgid "No {parentClassNames} to add to"
@@ -1580,10 +1529,6 @@ msgstr "Inani"
 msgid "On"
 msgstr "Ivuliwe"
 
-#: src/features/help/phone.tsx
-msgid "On a Mac, open Contacts › Settings › Accounts, add an account, choose Other Contacts Account, then CardDAV and Manual, and enter the same details."
-msgstr "Kwi-Mac, vula Abaqhagamshelwana nabo › Iisetingi › Ii-akhawunti, yongeza i-akhawunti, khetha Enye i-akhawunti yabaqhagamshelwana nabo, emva koko i-CardDAV kunye no-Ngesandla, uze ufake iinkcukacha ezifanayo."
-
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
 msgstr "Yhu! Iphepha Alifumanekanga!"
@@ -1591,10 +1536,6 @@ msgstr "Yhu! Iphepha Alifumanekanga!"
 #: ../../../lib/web/src/components/layout/nav-group.tsx
 msgid "Open actions"
 msgstr "Vula izenzo"
-
-#: src/features/help/phone.tsx
-msgid "Open Address Book › New Address Book › Add CardDAV Address Book."
-msgstr "Vula Incwadi yeedilesi › Incwadi yeedilesi entsha › Yongeza incwadi yeedilesi ye-CardDAV."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"
@@ -1612,10 +1553,6 @@ msgstr "Vula izenzo zekhetho"
 #: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx
 msgid "Open selected card"
 msgstr "Vula ikhadi elikhethiweyo"
-
-#: src/features/help/phone.tsx
-msgid "Open Settings › Contacts › Accounts › Add Account › Other › Add CardDAV Account."
-msgstr "Vula Iisetingi › Abaqhagamshelwana nabo › Ii-akhawunti › Yongeza i-akhawunti › Okunye › Yongeza i-akhawunti ye-CardDAV."
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Open view actions"
@@ -1717,6 +1654,10 @@ msgstr "Imiyalezo nezimvo"
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx
 msgid "Previous image"
 msgstr "Umfanekiso ongaphambili"
+
+#: ../../../lib/web/src/components/calendar/mini-month.tsx
+msgid "Previous month"
+msgstr ""
 
 #: ../../../lib/web/src/components/server-documents-footer.tsx
 #: ../../../lib/web/src/features/document/document-page.tsx
@@ -1860,6 +1801,11 @@ msgstr "Guqula igama lekholamu"
 #: ../../../lib/web/src/components/entity/entity-board-column.tsx
 msgid "Rename this board column"
 msgstr "Guqula igama lale kholamu yebhodi"
+
+#: ../../../lib/web/src/components/calendar/month-grid.tsx
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
+msgid "Repeats"
+msgstr ""
 
 #: ../../../lib/web/src/components/entity/entity-comment-thread.tsx
 #: ../../../lib/web/src/components/entity/entity-comment-thread.tsx
@@ -2103,10 +2049,6 @@ msgstr "Misa indawo yokuqala neyokugqibela"
 msgid "Settings"
 msgstr "Iisetingi"
 
-#: src/features/help/phone.tsx
-msgid "Sharing with others"
-msgstr "Ukwabelana nabanye"
-
 #: src/features/help/contribute-dialog.tsx
 msgid "Short title for your idea"
 msgstr "Isihloko esifutshane sombono wakho"
@@ -2231,10 +2173,6 @@ msgstr "Icawa"
 msgid "Switch to view 1-9"
 msgstr "Tshintshela kwijongo 1-9"
 
-#: src/features/help/index.tsx
-msgid "Sync your Mochi contacts with your phone, tablet or computer over CardDAV."
-msgstr "Ngqamanisa abaqhagamshelwana nabo bakho be-Mochi nefowuni, ithebhulethi okanye ikhompyutha yakho nge-CardDAV."
-
 #: ../../../lib/web/src/components/audit-timeline.tsx
 #: ../../../lib/web/src/lib/preference-utils.ts
 #: ../../../lib/web/src/lib/preference-utils.ts
@@ -2301,10 +2239,6 @@ msgstr "Isicelo semayikrofoni asiphendulwanga"
 msgid "The passkey request was not answered"
 msgstr "Isicelo se-passkey asiphendulwanga"
 
-#: src/features/help/phone.tsx
-msgid "The password is shown only once, so copy it into the device before closing the dialog. If it is lost, delete the device under <0>Manage devices</0> and create a new one."
-msgstr "Igama lokugqitha liboniswa kanye kuphela, ngoko likhuphele kwisixhobo phambi kokuvala ibhokisi yencoko. Ukuba lilahlekile, cima isixhobo phantsi kwesithi <0>Lawula izixhobo</0> uze wenze esitsha."
-
 #: ../../../lib/web/src/features/errors/general-error.tsx
 msgid "The requested content could not be found."
 msgstr "Umxholo oceliweyo awufumanekanga."
@@ -2320,10 +2254,6 @@ msgstr "Le app ayivumelekanga ukusebenzisa i-passkey yakho. Yivumele kwiiSetingi
 #: ../../../lib/web/src/components/game/game-end-dialogs.tsx
 msgid "This permanently deletes the game and its chat. This cannot be undone."
 msgstr "Oku kuza kucima umdlalo nengxoxo yawo ngokusisigxina. Esi senzo asinakuguqulwa."
-
-#: src/features/help/phone.tsx
-msgid "Thunderbird"
-msgstr "Thunderbird"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Thursday"
@@ -2554,10 +2484,6 @@ msgstr "Kwenzeke ntoni"
 msgid "What have you tried, what did you expect, where are you stuck?"
 msgstr "Yintoni oyizamileyo, yintoni obuyilindele, uxakwe phi?"
 
-#: src/features/help/phone.tsx
-msgid "What syncs"
-msgstr "Yintoni engqamaniswayo"
-
 #: src/features/help/contribute-dialog.tsx
 msgid "What would it do, who is it for, why does it matter?"
 msgstr "Iya kwenza ntoni, ngokabani, kutheni ibalulekile?"
@@ -2565,10 +2491,6 @@ msgstr "Iya kwenza ntoni, ngokabani, kutheni ibalulekile?"
 #: src/features/help/contribute-dialog.tsx
 msgid "What you want to ask, in one line"
 msgstr "Oko ufuna ukukubuza, kumgca omnye"
-
-#: src/features/help/phone.tsx
-msgid "Which details to enter"
-msgstr "Zeziphi iinkcukacha omele uzifake"
 
 #: ../../../lib/web/src/features/errors/general-error.tsx
 msgid "You do not have access to this section."

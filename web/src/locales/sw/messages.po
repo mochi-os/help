@@ -65,9 +65,21 @@ msgstr "{count, plural, one {#dk} other {#dk}}"
 msgid "{count, plural, one {#w} other {#w}}"
 msgstr "{count, plural, one {#wk} other {#wk}}"
 
+#: ../../../lib/web/src/components/calendar/tooltip.ts
+msgid "{day}, {from} to {to}"
+msgstr ""
+
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "{entityLabel} name"
 msgstr "Jina la {entityLabel}"
+
+#: ../../../lib/web/src/components/calendar/tooltip.ts
+msgid "{from} to {to}"
+msgstr ""
+
+#: ../../../lib/web/src/components/calendar/month-grid.tsx
+msgid "{hidden, plural, one {+# more} other {+# more}}"
+msgstr ""
 
 #: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx
 msgid "{opponentName} offered a draw"
@@ -201,13 +213,13 @@ msgstr "Ongeza kwenye arifa zilizopo"
 msgid "Add view"
 msgstr "Ongeza mwonekano"
 
-#: src/features/help/phone.tsx
-msgid "Address books are private to your account, so there is nothing to give to someone who is not a Mochi user."
-msgstr "Vitabu vya anwani ni vya faragha kwa akaunti yako, kwa hivyo hakuna chochote cha kumpa mtu ambaye si mtumiaji wa Mochi."
-
 #: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "AI"
 msgstr "AI"
+
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
+msgid "All day"
+msgstr ""
 
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Allow anyone to search for {entityLabel}"
@@ -225,10 +237,6 @@ msgstr "Hitilafu imetokea"
 #: ../../../lib/web/src/lib/error-normalizer.ts
 msgid "An unexpected error occurred"
 msgstr "Hitilafu isiyotarajiwa imetokea"
-
-#: src/features/help/phone.tsx
-msgid "Android"
-msgstr "Android"
 
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
@@ -446,9 +454,10 @@ msgstr "Imebadilishwa"
 msgid "Changed {field}"
 msgstr "Imebadilisha {field}"
 
-#: src/features/help/phone.tsx
-msgid "Changes made on the device appear in People, and changes made in People appear on the device."
-msgstr "Mabadiliko yaliyofanywa kwenye kifaa yanaonekana katika Watu, na mabadiliko yaliyofanywa katika Watu yanaonekana kwenye kifaa."
+#: ../../../lib/web/src/components/calendar/month-grid.tsx
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
+msgid "Changed occurrence"
+msgstr ""
 
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Checkbox"
@@ -466,14 +475,6 @@ msgstr "Chagua mchezo kutoka upau wa pembeni au anzisha mpya."
 #: ../../../lib/web/src/components/language-picker.tsx
 msgid "Choose language"
 msgstr "Chagua lugha"
-
-#: src/features/help/phone.tsx
-msgid "Choose Login with URL and user name, enter the address book URL as the base URL, then the username and the password."
-msgstr "Chagua Ingia kwa URL na jina la mtumiaji, weka URL ya kitabu cha anwani kama URL ya msingi, kisha jina la mtumiaji na nenosiri."
-
-#: src/features/help/phone.tsx
-msgid "Choose the address books to add."
-msgstr "Chagua vitabu vya anwani vya kuongeza."
 
 #: ../../../lib/web/src/components/banner-section.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
@@ -493,14 +494,6 @@ msgstr "Futa vyote"
 #: ../../../lib/web/src/components/search-input.tsx
 msgid "Clear search"
 msgstr "Futa utafutaji"
-
-#: src/features/help/phone.tsx
-msgid "Clients that ask for a URL, such as Thunderbird and most others, take the address book URL instead of the server."
-msgstr "Programu zinazoomba URL, kama Thunderbird na nyingine nyingi, hutumia URL ya kitabu cha anwani badala ya seva."
-
-#: src/features/help/phone.tsx
-msgid "Clients that find the server by name, such as iPhone, iPad, Mac Contacts and DAVx5 on Android, need the server, the username and the password."
-msgstr "Programu zinazopata seva kwa jina, kama iPhone, iPad, Anwani za Mac na DAVx5 kwenye Android, zinahitaji seva, jina la mtumiaji na nenosiri."
 
 #: ../../../lib/web/src/components/ui/dialog.tsx
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx
@@ -541,6 +534,7 @@ msgid "Collapse sidebar"
 msgstr "Kunja upau wa pembeni"
 
 #: ../../../lib/web/src/components/entity/entity-option-dialog.tsx
+#: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Colour"
 msgstr "Rangi"
 
@@ -590,11 +584,6 @@ msgstr "Sanidi mipangilio ya mwonekano"
 #: ../../../lib/web/src/components/travelling-picker.tsx
 msgid "Confirm"
 msgstr "Thibitisha"
-
-#: src/features/help/index.tsx
-#: src/features/help/phone.tsx
-msgid "Connect your phone"
-msgstr "Unganisha simu yako"
 
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connected"
@@ -675,14 +664,6 @@ msgstr "Unda"
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Create {entityLabel}"
 msgstr "Unda {entityLabel}"
-
-#: src/features/help/phone.tsx
-msgid "Create a credential for the device"
-msgstr "Unda kitambulisho cha kifaa"
-
-#: src/features/help/phone.tsx
-msgid "Create a separate credential for each device, so a lost device can be revoked without affecting the others."
-msgstr "Unda kitambulisho tofauti kwa kila kifaa, ili kifaa kilichopotea kiweze kubatilishwa bila kuathiri vingine."
 
 #: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx
 msgid "Create new item"
@@ -800,10 +781,6 @@ msgstr "Imefutwa"
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted {field}"
 msgstr "Imefuta {field}"
-
-#: src/features/help/phone.tsx
-msgid "Deleting a friend's card on the device removes the contact and ends the friendship, exactly as deleting it in People does."
-msgstr "Kufuta kadi ya rafiki kwenye kifaa huondoa mwasiliani na kumaliza urafiki, sawasawa na kuifuta katika Watu."
 
 #: ../../../lib/web/src/components/ui/sort-direction-button.tsx
 msgid "Descending"
@@ -940,10 +917,6 @@ msgstr "Barua pepe"
 msgid "Email code"
 msgstr "Msimbo wa barua pepe"
 
-#: src/features/help/phone.tsx
-msgid "Enable the address books it finds. Your contacts then appear in the phone's Contacts app."
-msgstr "Washa vitabu vya anwani vinavyopatikana. Kisha anwani zako zitaonekana katika programu ya Anwani ya simu."
-
 #: ../../../lib/web/src/components/banner-section.tsx
 msgid "Enter banner text (markdown supported)..."
 msgstr "Ingiza maandishi ya bango (markdown inakubaliwa)..."
@@ -952,14 +925,6 @@ msgstr "Ingiza maandishi ya bango (markdown inakubaliwa)..."
 msgid "Enter the code from your email"
 msgstr "Weka msimbo kutoka kwa barua pepe yako"
 
-#: src/features/help/phone.tsx
-msgid "Enter the server, your username and the password, and a description such as Mochi."
-msgstr "Weka seva, jina lako la mtumiaji na nenosiri, pamoja na maelezo kama Mochi."
-
-#: src/features/help/phone.tsx
-msgid "Enter the username, and the address book URL as the location. Enter the password when asked."
-msgstr "Weka jina la mtumiaji, na URL ya kitabu cha anwani kama eneo. Weka nenosiri unapoombwa."
-
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Enter your authenticator code"
 msgstr "Weka msimbo wako wa kithibitishaji"
@@ -967,10 +932,6 @@ msgstr "Weka msimbo wako wa kithibitishaji"
 #: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx
 msgid "Error"
 msgstr "Hitilafu"
-
-#: src/features/help/phone.tsx
-msgid "Every address book listed in the People sidebar is offered to the device."
-msgstr "Kila kitabu cha anwani kilichoorodheshwa kwenye upau wa kando wa Watu kinatolewa kwa kifaa."
 
 #: ../../../lib/web/src/components/comment-tree-layout.tsx
 #: ../../../lib/web/src/components/comment-tree-layout.tsx
@@ -1163,7 +1124,6 @@ msgid "Group: {0}"
 msgstr "Kikundi: {0}"
 
 #: src/features/help/index.tsx
-#: src/features/help/phone.tsx
 #: src/routes/_authenticated/document/privacy.tsx
 #: src/routes/_authenticated/document/rules.tsx
 #: src/routes/_authenticated/document/terms.tsx
@@ -1203,10 +1163,6 @@ msgstr "Kitazamaji picha: {0}"
 msgid "Imperial"
 msgstr "Imperial"
 
-#: src/features/help/phone.tsx
-msgid "In People, choose <0>Connect a device</0> in the sidebar."
-msgstr "Katika Watu, chagua <0>Unganisha kifaa</0> kwenye upau wa kando."
-
 #: ../../../lib/web/src/features/access/types.ts
 msgid "Including anonymous users"
 msgstr "Ikijumuisha watumiaji wasiojulikana"
@@ -1218,10 +1174,6 @@ msgstr "Avatar ya herufi za kwanza"
 #: ../../../lib/web/src/components/faceless-avatar.tsx
 msgid "Initials avatar for {name}"
 msgstr "Avatar ya herufi za kwanza ya {name}"
-
-#: src/features/help/phone.tsx
-msgid "Install DAVx5 from F-Droid or Google Play."
-msgstr "Sakinisha DAVx5 kutoka F-Droid au Google Play."
 
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Interest {weight}"
@@ -1239,10 +1191,6 @@ msgstr "Jitambulishe"
 #: ../../../lib/web/src/components/entity/entity-field-editor.tsx
 msgid "Invalid date"
 msgstr "Tarehe batili"
-
-#: src/features/help/phone.tsx
-msgid "iPhone and iPad"
-msgstr "iPhone na iPad"
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "It seems like the page you're looking for <0/>does not exist or might have been removed."
@@ -1380,10 +1328,6 @@ msgstr "Ruhusa ya maikrofoni imekataliwa"
 msgid "Minimum length"
 msgstr "Urefu wa chini"
 
-#: src/features/help/phone.tsx
-msgid "Mochi keeps your contacts in the People app. Any phone, tablet or computer that supports CardDAV can sync them."
-msgstr "Mochi huhifadhi anwani zako katika programu ya Watu. Simu, kompyuta kibao au kompyuta yoyote inayotumia CardDAV inaweza kuzisawazisha."
-
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Mochi web"
 msgstr "Mochi wavuti"
@@ -1408,6 +1352,11 @@ msgstr "Imehamishwa"
 msgid "Moved {field}"
 msgstr "Imehamisha {field}"
 
+#. placeholder {0}: dragging.day
+#: ../../../lib/web/src/components/calendar/month-grid.tsx
+msgid "Moving to {0}"
+msgstr ""
+
 #: ../../../lib/web/src/components/entity/add-field-dialog.tsx
 #: ../../../lib/web/src/components/entity/entity-board-column.tsx
 #: ../../../lib/web/src/components/entity/entity-field-dialog.tsx
@@ -1428,10 +1377,6 @@ msgstr "Jina linahitajika"
 msgid "Name must be 1000 characters or less"
 msgstr "Jina lazima liwe na herufi 1000 au chini"
 
-#: src/features/help/phone.tsx
-msgid "Name the device and create the credential. The dialog shows the server, the address book URL, the username and a password."
-msgstr "Kipe kifaa jina na uunde kitambulisho. Kidirisha kinaonyesha seva, URL ya kitabu cha anwani, jina la mtumiaji na nenosiri."
-
 #: ../../../lib/web/src/features/errors/general-error.tsx
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
 msgid "Network error"
@@ -1451,6 +1396,10 @@ msgstr "Mchezo mpya"
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx
 msgid "Next image"
 msgstr "Picha inayofuata"
+
+#: ../../../lib/web/src/components/calendar/mini-month.tsx
+msgid "Next month"
+msgstr ""
 
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
 msgid "No {parentClassNames} to add to"
@@ -1580,10 +1529,6 @@ msgstr "Nambari"
 msgid "On"
 msgstr "Imewashwa"
 
-#: src/features/help/phone.tsx
-msgid "On a Mac, open Contacts › Settings › Accounts, add an account, choose Other Contacts Account, then CardDAV and Manual, and enter the same details."
-msgstr "Kwenye Mac, fungua Anwani › Mipangilio › Akaunti, ongeza akaunti, chagua Akaunti Nyingine ya Anwani, kisha CardDAV na Mwenyewe, na uweke maelezo yale yale."
-
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
 msgstr "Lo! Ukurasa Haukupatikana!"
@@ -1591,10 +1536,6 @@ msgstr "Lo! Ukurasa Haukupatikana!"
 #: ../../../lib/web/src/components/layout/nav-group.tsx
 msgid "Open actions"
 msgstr "Fungua vitendo"
-
-#: src/features/help/phone.tsx
-msgid "Open Address Book › New Address Book › Add CardDAV Address Book."
-msgstr "Fungua Kitabu cha Anwani › Kitabu Kipya cha Anwani › Ongeza Kitabu cha Anwani cha CardDAV."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"
@@ -1612,10 +1553,6 @@ msgstr "Fungua vitendo vya chaguo"
 #: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx
 msgid "Open selected card"
 msgstr "Fungua kadi iliyochaguliwa"
-
-#: src/features/help/phone.tsx
-msgid "Open Settings › Contacts › Accounts › Add Account › Other › Add CardDAV Account."
-msgstr "Fungua Mipangilio › Anwani › Akaunti › Ongeza Akaunti › Nyingine › Ongeza Akaunti ya CardDAV."
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Open view actions"
@@ -1717,6 +1654,10 @@ msgstr "Machapisho na maoni"
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx
 msgid "Previous image"
 msgstr "Picha iliyotangulia"
+
+#: ../../../lib/web/src/components/calendar/mini-month.tsx
+msgid "Previous month"
+msgstr ""
 
 #: ../../../lib/web/src/components/server-documents-footer.tsx
 #: ../../../lib/web/src/features/document/document-page.tsx
@@ -1860,6 +1801,11 @@ msgstr "Badilisha jina la safuwima"
 #: ../../../lib/web/src/components/entity/entity-board-column.tsx
 msgid "Rename this board column"
 msgstr "Badilisha jina la safuwima hii ya bao"
+
+#: ../../../lib/web/src/components/calendar/month-grid.tsx
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
+msgid "Repeats"
+msgstr ""
 
 #: ../../../lib/web/src/components/entity/entity-comment-thread.tsx
 #: ../../../lib/web/src/components/entity/entity-comment-thread.tsx
@@ -2103,10 +2049,6 @@ msgstr "Weka chanzo na marudio"
 msgid "Settings"
 msgstr "Mipangilio"
 
-#: src/features/help/phone.tsx
-msgid "Sharing with others"
-msgstr "Kushiriki na wengine"
-
 #: src/features/help/contribute-dialog.tsx
 msgid "Short title for your idea"
 msgstr "Kichwa kifupi cha wazo lako"
@@ -2231,10 +2173,6 @@ msgstr "Jumapili"
 msgid "Switch to view 1-9"
 msgstr "Badilisha kwa mwonekano 1-9"
 
-#: src/features/help/index.tsx
-msgid "Sync your Mochi contacts with your phone, tablet or computer over CardDAV."
-msgstr "Sawazisha anwani zako za Mochi na simu, kompyuta kibao au kompyuta yako kupitia CardDAV."
-
 #: ../../../lib/web/src/components/audit-timeline.tsx
 #: ../../../lib/web/src/lib/preference-utils.ts
 #: ../../../lib/web/src/lib/preference-utils.ts
@@ -2301,10 +2239,6 @@ msgstr "Ombi la maikrofoni halikujibiwa"
 msgid "The passkey request was not answered"
 msgstr "Ombi la passkey halikujibiwa"
 
-#: src/features/help/phone.tsx
-msgid "The password is shown only once, so copy it into the device before closing the dialog. If it is lost, delete the device under <0>Manage devices</0> and create a new one."
-msgstr "Nenosiri linaonyeshwa mara moja tu, kwa hivyo linakili kwenye kifaa kabla ya kufunga kidirisha. Likipotea, futa kifaa chini ya <0>Dhibiti vifaa</0> na uunde kipya."
-
 #: ../../../lib/web/src/features/errors/general-error.tsx
 msgid "The requested content could not be found."
 msgstr "Maudhui yaliyoombwa hayakupatikana."
@@ -2320,10 +2254,6 @@ msgstr "Programu hii hairuhusiwi kutumia passkey yako. Iruhusu katika Mipangilio
 #: ../../../lib/web/src/components/game/game-end-dialogs.tsx
 msgid "This permanently deletes the game and its chat. This cannot be undone."
 msgstr "Hatua hii itafuta mchezo na mazungumzo yake kabisa. Hatua hii haiwezi kutenduliwa."
-
-#: src/features/help/phone.tsx
-msgid "Thunderbird"
-msgstr "Thunderbird"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Thursday"
@@ -2554,10 +2484,6 @@ msgstr "Nini kilitokea"
 msgid "What have you tried, what did you expect, where are you stuck?"
 msgstr "Umejaribu nini, ulitarajia nini, umekwama wapi?"
 
-#: src/features/help/phone.tsx
-msgid "What syncs"
-msgstr "Kinachosawazishwa"
-
 #: src/features/help/contribute-dialog.tsx
 msgid "What would it do, who is it for, why does it matter?"
 msgstr "Itafanya nini, ni ya nani, kwa nini ni muhimu?"
@@ -2565,10 +2491,6 @@ msgstr "Itafanya nini, ni ya nani, kwa nini ni muhimu?"
 #: src/features/help/contribute-dialog.tsx
 msgid "What you want to ask, in one line"
 msgstr "Unachotaka kuuliza, kwa mstari mmoja"
-
-#: src/features/help/phone.tsx
-msgid "Which details to enter"
-msgstr "Maelezo ya kuweka"
 
 #: ../../../lib/web/src/features/errors/general-error.tsx
 msgid "You do not have access to this section."

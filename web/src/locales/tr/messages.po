@@ -65,9 +65,21 @@ msgstr "{count, plural, one {#dk} other {#dk}}"
 msgid "{count, plural, one {#w} other {#w}}"
 msgstr "{count, plural, one {#hf} other {#hf}}"
 
+#: ../../../lib/web/src/components/calendar/tooltip.ts
+msgid "{day}, {from} to {to}"
+msgstr ""
+
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "{entityLabel} name"
 msgstr "{entityLabel} adı"
+
+#: ../../../lib/web/src/components/calendar/tooltip.ts
+msgid "{from} to {to}"
+msgstr ""
+
+#: ../../../lib/web/src/components/calendar/month-grid.tsx
+msgid "{hidden, plural, one {+# more} other {+# more}}"
+msgstr ""
 
 #: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx
 msgid "{opponentName} offered a draw"
@@ -201,13 +213,13 @@ msgstr "Mevcut bildirimlere ekle"
 msgid "Add view"
 msgstr "Görünüm ekle"
 
-#: src/features/help/phone.tsx
-msgid "Address books are private to your account, so there is nothing to give to someone who is not a Mochi user."
-msgstr "Adres defterleri hesabınıza özeldir, bu yüzden Mochi kullanıcısı olmayan birine verebileceğiniz bir şey yoktur."
-
 #: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "AI"
 msgstr "AI"
+
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
+msgid "All day"
+msgstr ""
 
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Allow anyone to search for {entityLabel}"
@@ -225,10 +237,6 @@ msgstr "Bir hata oluştu"
 #: ../../../lib/web/src/lib/error-normalizer.ts
 msgid "An unexpected error occurred"
 msgstr "Beklenmeyen bir hata oluştu"
-
-#: src/features/help/phone.tsx
-msgid "Android"
-msgstr "Android"
 
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
@@ -446,9 +454,10 @@ msgstr "Değiştirildi"
 msgid "Changed {field}"
 msgstr "{field} değiştirildi"
 
-#: src/features/help/phone.tsx
-msgid "Changes made on the device appear in People, and changes made in People appear on the device."
-msgstr "Cihazda yapılan değişiklikler Kişiler uygulamasında, Kişiler uygulamasında yapılan değişiklikler de cihazda görünür."
+#: ../../../lib/web/src/components/calendar/month-grid.tsx
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
+msgid "Changed occurrence"
+msgstr ""
 
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Checkbox"
@@ -466,14 +475,6 @@ msgstr "Kenar çubuğundan bir oyun seçin veya yenisini başlatın."
 #: ../../../lib/web/src/components/language-picker.tsx
 msgid "Choose language"
 msgstr "Dil seçin"
-
-#: src/features/help/phone.tsx
-msgid "Choose Login with URL and user name, enter the address book URL as the base URL, then the username and the password."
-msgstr "URL ve kullanıcı adıyla giriş seçeneğini seçin, temel URL olarak adres defteri URL'sini, ardından kullanıcı adını ve parolayı girin."
-
-#: src/features/help/phone.tsx
-msgid "Choose the address books to add."
-msgstr "Eklenecek adres defterlerini seçin."
 
 #: ../../../lib/web/src/components/banner-section.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
@@ -493,14 +494,6 @@ msgstr "Tümünü temizle"
 #: ../../../lib/web/src/components/search-input.tsx
 msgid "Clear search"
 msgstr "Aramayı temizle"
-
-#: src/features/help/phone.tsx
-msgid "Clients that ask for a URL, such as Thunderbird and most others, take the address book URL instead of the server."
-msgstr "URL isteyen istemciler, örneğin Thunderbird ve diğerlerinin çoğu, sunucu yerine adres defteri URL'sini alır."
-
-#: src/features/help/phone.tsx
-msgid "Clients that find the server by name, such as iPhone, iPad, Mac Contacts and DAVx5 on Android, need the server, the username and the password."
-msgstr "Sunucuyu adıyla bulan istemciler, örneğin iPhone, iPad, Mac Kişiler ve Android'de DAVx5, yalnızca sunucuya, kullanıcı adına ve parolaya ihtiyaç duyar."
 
 #: ../../../lib/web/src/components/ui/dialog.tsx
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx
@@ -541,6 +534,7 @@ msgid "Collapse sidebar"
 msgstr "Kenar çubuğunu daralt"
 
 #: ../../../lib/web/src/components/entity/entity-option-dialog.tsx
+#: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Colour"
 msgstr "Renk"
 
@@ -590,11 +584,6 @@ msgstr "Görünüm ayarlarını yapılandır"
 #: ../../../lib/web/src/components/travelling-picker.tsx
 msgid "Confirm"
 msgstr "Onayla"
-
-#: src/features/help/index.tsx
-#: src/features/help/phone.tsx
-msgid "Connect your phone"
-msgstr "Telefonunuzu bağlayın"
 
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connected"
@@ -675,14 +664,6 @@ msgstr "Oluştur"
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Create {entityLabel}"
 msgstr "{entityLabel} oluştur"
-
-#: src/features/help/phone.tsx
-msgid "Create a credential for the device"
-msgstr "Cihaz için kimlik bilgisi oluşturun"
-
-#: src/features/help/phone.tsx
-msgid "Create a separate credential for each device, so a lost device can be revoked without affecting the others."
-msgstr "Her cihaz için ayrı bir kimlik bilgisi oluşturun; böylece kaybolan bir cihaz diğerlerini etkilemeden iptal edilebilir."
 
 #: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx
 msgid "Create new item"
@@ -800,10 +781,6 @@ msgstr "Silindi"
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted {field}"
 msgstr "{field} silindi"
-
-#: src/features/help/phone.tsx
-msgid "Deleting a friend's card on the device removes the contact and ends the friendship, exactly as deleting it in People does."
-msgstr "Bir arkadaşın kartını cihazda silmek, kişiyi kaldırır ve arkadaşlığı sona erdirir; tıpkı Kişiler uygulamasında silmek gibi."
 
 #: ../../../lib/web/src/components/ui/sort-direction-button.tsx
 msgid "Descending"
@@ -940,10 +917,6 @@ msgstr "E-posta"
 msgid "Email code"
 msgstr "E-posta kodu"
 
-#: src/features/help/phone.tsx
-msgid "Enable the address books it finds. Your contacts then appear in the phone's Contacts app."
-msgstr "Bulunan adres defterlerini etkinleştirin. Kişileriniz daha sonra telefonun Kişiler uygulamasında görünür."
-
 #: ../../../lib/web/src/components/banner-section.tsx
 msgid "Enter banner text (markdown supported)..."
 msgstr "Afiş metnini girin (markdown destekli)..."
@@ -952,14 +925,6 @@ msgstr "Afiş metnini girin (markdown destekli)..."
 msgid "Enter the code from your email"
 msgstr "E-postanızdaki kodu girin"
 
-#: src/features/help/phone.tsx
-msgid "Enter the server, your username and the password, and a description such as Mochi."
-msgstr "Sunucuyu, kullanıcı adınızı ve parolayı, ayrıca Mochi gibi bir açıklama girin."
-
-#: src/features/help/phone.tsx
-msgid "Enter the username, and the address book URL as the location. Enter the password when asked."
-msgstr "Kullanıcı adını ve konum olarak adres defteri URL'sini girin. İstendiğinde parolayı girin."
-
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Enter your authenticator code"
 msgstr "Kimlik doğrulayıcı kodunuzu girin"
@@ -967,10 +932,6 @@ msgstr "Kimlik doğrulayıcı kodunuzu girin"
 #: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx
 msgid "Error"
 msgstr "Hata"
-
-#: src/features/help/phone.tsx
-msgid "Every address book listed in the People sidebar is offered to the device."
-msgstr "Kişiler kenar çubuğunda listelenen her adres defteri cihaza sunulur."
 
 #: ../../../lib/web/src/components/comment-tree-layout.tsx
 #: ../../../lib/web/src/components/comment-tree-layout.tsx
@@ -1163,7 +1124,6 @@ msgid "Group: {0}"
 msgstr "Grup: {0}"
 
 #: src/features/help/index.tsx
-#: src/features/help/phone.tsx
 #: src/routes/_authenticated/document/privacy.tsx
 #: src/routes/_authenticated/document/rules.tsx
 #: src/routes/_authenticated/document/terms.tsx
@@ -1203,10 +1163,6 @@ msgstr "Görsel görüntüleyici: {0}"
 msgid "Imperial"
 msgstr "İngiliz birim sistemi"
 
-#: src/features/help/phone.tsx
-msgid "In People, choose <0>Connect a device</0> in the sidebar."
-msgstr "Kişiler uygulamasında kenar çubuğundan <0>Cihaz bağla</0> seçeneğini seçin."
-
 #: ../../../lib/web/src/features/access/types.ts
 msgid "Including anonymous users"
 msgstr "Anonim kullanıcılar dahil"
@@ -1218,10 +1174,6 @@ msgstr "Baş harf avatarı"
 #: ../../../lib/web/src/components/faceless-avatar.tsx
 msgid "Initials avatar for {name}"
 msgstr "{name} için baş harf avatarı"
-
-#: src/features/help/phone.tsx
-msgid "Install DAVx5 from F-Droid or Google Play."
-msgstr "DAVx5 uygulamasını F-Droid veya Google Play üzerinden yükleyin."
 
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Interest {weight}"
@@ -1239,10 +1191,6 @@ msgstr "Kendinizi tanıtın"
 #: ../../../lib/web/src/components/entity/entity-field-editor.tsx
 msgid "Invalid date"
 msgstr "Geçersiz tarih"
-
-#: src/features/help/phone.tsx
-msgid "iPhone and iPad"
-msgstr "iPhone ve iPad"
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "It seems like the page you're looking for <0/>does not exist or might have been removed."
@@ -1380,10 +1328,6 @@ msgstr "Mikrofon izni reddedildi"
 msgid "Minimum length"
 msgstr "Asgari uzunluk"
 
-#: src/features/help/phone.tsx
-msgid "Mochi keeps your contacts in the People app. Any phone, tablet or computer that supports CardDAV can sync them."
-msgstr "Mochi, kişilerinizi Kişiler uygulamasında tutar. CardDAV destekleyen her telefon, tablet veya bilgisayar bunları eşitleyebilir."
-
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Mochi web"
 msgstr "Mochi web"
@@ -1408,6 +1352,11 @@ msgstr "Taşındı"
 msgid "Moved {field}"
 msgstr "{field} taşındı"
 
+#. placeholder {0}: dragging.day
+#: ../../../lib/web/src/components/calendar/month-grid.tsx
+msgid "Moving to {0}"
+msgstr ""
+
 #: ../../../lib/web/src/components/entity/add-field-dialog.tsx
 #: ../../../lib/web/src/components/entity/entity-board-column.tsx
 #: ../../../lib/web/src/components/entity/entity-field-dialog.tsx
@@ -1428,10 +1377,6 @@ msgstr "Ad gerekli"
 msgid "Name must be 1000 characters or less"
 msgstr "Ad 1000 karakter veya daha az olmalı"
 
-#: src/features/help/phone.tsx
-msgid "Name the device and create the credential. The dialog shows the server, the address book URL, the username and a password."
-msgstr "Cihaza bir ad verin ve kimlik bilgisini oluşturun. İletişim kutusu sunucuyu, adres defteri URL'sini, kullanıcı adını ve bir parolayı gösterir."
-
 #: ../../../lib/web/src/features/errors/general-error.tsx
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
 msgid "Network error"
@@ -1451,6 +1396,10 @@ msgstr "Yeni oyun"
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx
 msgid "Next image"
 msgstr "Sonraki görsel"
+
+#: ../../../lib/web/src/components/calendar/mini-month.tsx
+msgid "Next month"
+msgstr ""
 
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
 msgid "No {parentClassNames} to add to"
@@ -1580,10 +1529,6 @@ msgstr "Sayı"
 msgid "On"
 msgstr "Açık"
 
-#: src/features/help/phone.tsx
-msgid "On a Mac, open Contacts › Settings › Accounts, add an account, choose Other Contacts Account, then CardDAV and Manual, and enter the same details."
-msgstr "Mac'te Kişiler › Ayarlar › Hesaplar bölümünü açın, bir hesap ekleyin, Diğer Kişiler Hesabı, ardından CardDAV ve Elle seçeneklerini seçin ve aynı bilgileri girin."
-
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
 msgstr "Hata! Sayfa bulunamadı!"
@@ -1591,10 +1536,6 @@ msgstr "Hata! Sayfa bulunamadı!"
 #: ../../../lib/web/src/components/layout/nav-group.tsx
 msgid "Open actions"
 msgstr "İşlemleri aç"
-
-#: src/features/help/phone.tsx
-msgid "Open Address Book › New Address Book › Add CardDAV Address Book."
-msgstr "Adres Defteri › Yeni Adres Defteri › CardDAV Adres Defteri Ekle yolunu açın."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"
@@ -1612,10 +1553,6 @@ msgstr "Seçenek eylemlerini aç"
 #: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx
 msgid "Open selected card"
 msgstr "Seçili kartı aç"
-
-#: src/features/help/phone.tsx
-msgid "Open Settings › Contacts › Accounts › Add Account › Other › Add CardDAV Account."
-msgstr "Ayarlar › Kişiler › Hesaplar › Hesap Ekle › Diğer › CardDAV Hesabı Ekle yolunu açın."
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Open view actions"
@@ -1717,6 +1654,10 @@ msgstr "Gönderiler ve yorumlar"
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx
 msgid "Previous image"
 msgstr "Önceki görsel"
+
+#: ../../../lib/web/src/components/calendar/mini-month.tsx
+msgid "Previous month"
+msgstr ""
 
 #: ../../../lib/web/src/components/server-documents-footer.tsx
 #: ../../../lib/web/src/features/document/document-page.tsx
@@ -1860,6 +1801,11 @@ msgstr "Sütunu yeniden adlandır"
 #: ../../../lib/web/src/components/entity/entity-board-column.tsx
 msgid "Rename this board column"
 msgstr "Bu pano sütununu yeniden adlandır"
+
+#: ../../../lib/web/src/components/calendar/month-grid.tsx
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
+msgid "Repeats"
+msgstr ""
 
 #: ../../../lib/web/src/components/entity/entity-comment-thread.tsx
 #: ../../../lib/web/src/components/entity/entity-comment-thread.tsx
@@ -2103,10 +2049,6 @@ msgstr "Başlangıç ve hedef belirle"
 msgid "Settings"
 msgstr "Ayarlar"
 
-#: src/features/help/phone.tsx
-msgid "Sharing with others"
-msgstr "Başkalarıyla paylaşma"
-
 #: src/features/help/contribute-dialog.tsx
 msgid "Short title for your idea"
 msgstr "Fikriniz için kısa bir başlık"
@@ -2231,10 +2173,6 @@ msgstr "Pazar"
 msgid "Switch to view 1-9"
 msgstr "Görünüm 1-9'a geç"
 
-#: src/features/help/index.tsx
-msgid "Sync your Mochi contacts with your phone, tablet or computer over CardDAV."
-msgstr "Mochi kişilerinizi CardDAV üzerinden telefonunuz, tabletiniz veya bilgisayarınızla eşitleyin."
-
 #: ../../../lib/web/src/components/audit-timeline.tsx
 #: ../../../lib/web/src/lib/preference-utils.ts
 #: ../../../lib/web/src/lib/preference-utils.ts
@@ -2301,10 +2239,6 @@ msgstr "Mikrofon isteği yanıtlanmadı"
 msgid "The passkey request was not answered"
 msgstr "Passkey isteği yanıtlanmadı"
 
-#: src/features/help/phone.tsx
-msgid "The password is shown only once, so copy it into the device before closing the dialog. If it is lost, delete the device under <0>Manage devices</0> and create a new one."
-msgstr "Parola yalnızca bir kez gösterilir; bu yüzden iletişim kutusunu kapatmadan önce cihaza kopyalayın. Kaybolursa <0>Cihazları yönet</0> altından cihazı silin ve yenisini oluşturun."
-
 #: ../../../lib/web/src/features/errors/general-error.tsx
 msgid "The requested content could not be found."
 msgstr "İstenen içerik bulunamadı."
@@ -2320,10 +2254,6 @@ msgstr "Bu uygulamanın passkey'inizi kullanmasına izin verilmiyor. Ayarlar'da,
 #: ../../../lib/web/src/components/game/game-end-dialogs.tsx
 msgid "This permanently deletes the game and its chat. This cannot be undone."
 msgstr "Bu işlem oyunu ve sohbetini kalıcı olarak siler. Bu işlem geri alınamaz."
-
-#: src/features/help/phone.tsx
-msgid "Thunderbird"
-msgstr "Thunderbird"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Thursday"
@@ -2554,10 +2484,6 @@ msgstr "Ne oldu"
 msgid "What have you tried, what did you expect, where are you stuck?"
 msgstr "Neyi denedin, ne bekliyordun, nerede takıldın?"
 
-#: src/features/help/phone.tsx
-msgid "What syncs"
-msgstr "Neler eşitlenir"
-
 #: src/features/help/contribute-dialog.tsx
 msgid "What would it do, who is it for, why does it matter?"
 msgstr "Ne yapacak, kimin için, neden önemli?"
@@ -2565,10 +2491,6 @@ msgstr "Ne yapacak, kimin için, neden önemli?"
 #: src/features/help/contribute-dialog.tsx
 msgid "What you want to ask, in one line"
 msgstr "Sormak istediğin şey, tek satırda"
-
-#: src/features/help/phone.tsx
-msgid "Which details to enter"
-msgstr "Hangi bilgiler girilir"
 
 #: ../../../lib/web/src/features/errors/general-error.tsx
 msgid "You do not have access to this section."

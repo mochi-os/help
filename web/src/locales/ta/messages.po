@@ -65,9 +65,21 @@ msgstr "{count, plural, one {#நி} other {#நி}}"
 msgid "{count, plural, one {#w} other {#w}}"
 msgstr "{count, plural, one {#வா} other {#வா}}"
 
+#: ../../../lib/web/src/components/calendar/tooltip.ts
+msgid "{day}, {from} to {to}"
+msgstr ""
+
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "{entityLabel} name"
 msgstr "{entityLabel} பெயர்"
+
+#: ../../../lib/web/src/components/calendar/tooltip.ts
+msgid "{from} to {to}"
+msgstr ""
+
+#: ../../../lib/web/src/components/calendar/month-grid.tsx
+msgid "{hidden, plural, one {+# more} other {+# more}}"
+msgstr ""
 
 #: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx
 msgid "{opponentName} offered a draw"
@@ -201,13 +213,13 @@ msgstr "உள்ள அறிவிப்புகளுக்குச் ச�
 msgid "Add view"
 msgstr "காட்சி சேர்"
 
-#: src/features/help/phone.tsx
-msgid "Address books are private to your account, so there is nothing to give to someone who is not a Mochi user."
-msgstr "முகவரிப் புத்தகங்கள் உங்கள் கணக்குக்கு மட்டுமே உரியவை, எனவே Mochi பயனர் அல்லாத ஒருவருக்குக் கொடுக்க எதுவும் இல்லை."
-
 #: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "AI"
 msgstr "AI"
+
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
+msgid "All day"
+msgstr ""
 
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Allow anyone to search for {entityLabel}"
@@ -225,10 +237,6 @@ msgstr "பிழை ஏற்பட்டது"
 #: ../../../lib/web/src/lib/error-normalizer.ts
 msgid "An unexpected error occurred"
 msgstr "எதிர்பாராத பிழை ஏற்பட்டது"
-
-#: src/features/help/phone.tsx
-msgid "Android"
-msgstr "Android"
 
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
@@ -446,9 +454,10 @@ msgstr "மாற்றப்பட்டது"
 msgid "Changed {field}"
 msgstr "{field} மாற்றப்பட்டது"
 
-#: src/features/help/phone.tsx
-msgid "Changes made on the device appear in People, and changes made in People appear on the device."
-msgstr "சாதனத்தில் செய்யப்படும் மாற்றங்கள் மக்கள் பயன்பாட்டில் தோன்றும், மக்கள் பயன்பாட்டில் செய்யப்படும் மாற்றங்கள் சாதனத்தில் தோன்றும்."
+#: ../../../lib/web/src/components/calendar/month-grid.tsx
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
+msgid "Changed occurrence"
+msgstr ""
 
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Checkbox"
@@ -466,14 +475,6 @@ msgstr "பக்கப்பட்டியில் இருந்து ஒ�
 #: ../../../lib/web/src/components/language-picker.tsx
 msgid "Choose language"
 msgstr "மொழியைத் தேர்ந்தெடுக்கவும்"
-
-#: src/features/help/phone.tsx
-msgid "Choose Login with URL and user name, enter the address book URL as the base URL, then the username and the password."
-msgstr "URL மற்றும் பயனர்பெயருடன் உள்நுழை என்பதைத் தேர்ந்தெடுத்து, முகவரிப் புத்தக URL-ஐ அடிப்படை URL ஆக உள்ளிட்டு, பின்னர் பயனர்பெயரையும் கடவுச்சொல்லையும் உள்ளிடவும்."
-
-#: src/features/help/phone.tsx
-msgid "Choose the address books to add."
-msgstr "சேர்க்க வேண்டிய முகவரிப் புத்தகங்களைத் தேர்ந்தெடுக்கவும்."
 
 #: ../../../lib/web/src/components/banner-section.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
@@ -493,14 +494,6 @@ msgstr "அனைத்தையும் அழி"
 #: ../../../lib/web/src/components/search-input.tsx
 msgid "Clear search"
 msgstr "தேடலை அழி"
-
-#: src/features/help/phone.tsx
-msgid "Clients that ask for a URL, such as Thunderbird and most others, take the address book URL instead of the server."
-msgstr "URL கேட்கும் கிளையன்ட்கள், எடுத்துக்காட்டாக Thunderbird மற்றும் பெரும்பாலான பிற கிளையன்ட்கள், சர்வருக்குப் பதிலாக முகவரிப் புத்தக URL-ஐப் பயன்படுத்துகின்றன."
-
-#: src/features/help/phone.tsx
-msgid "Clients that find the server by name, such as iPhone, iPad, Mac Contacts and DAVx5 on Android, need the server, the username and the password."
-msgstr "பெயரைக் கொண்டு சர்வரைக் கண்டறியும் கிளையன்ட்களுக்கு, எடுத்துக்காட்டாக iPhone, iPad, Mac தொடர்புகள் மற்றும் Android இல் உள்ள DAVx5, சர்வர், பயனர்பெயர் மற்றும் கடவுச்சொல் தேவை."
 
 #: ../../../lib/web/src/components/ui/dialog.tsx
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx
@@ -541,6 +534,7 @@ msgid "Collapse sidebar"
 msgstr "பக்கப்பட்டியைச் சுருக்கு"
 
 #: ../../../lib/web/src/components/entity/entity-option-dialog.tsx
+#: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Colour"
 msgstr "நிறம்"
 
@@ -590,11 +584,6 @@ msgstr "காட்சி அமைப்புகளை உள்ளமைக�
 #: ../../../lib/web/src/components/travelling-picker.tsx
 msgid "Confirm"
 msgstr "உறுதிசெய்"
-
-#: src/features/help/index.tsx
-#: src/features/help/phone.tsx
-msgid "Connect your phone"
-msgstr "உங்கள் ஃபோனை இணைக்கவும்"
 
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connected"
@@ -675,14 +664,6 @@ msgstr "உருவாக்கு"
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Create {entityLabel}"
 msgstr "{entityLabel} உருவாக்கு"
-
-#: src/features/help/phone.tsx
-msgid "Create a credential for the device"
-msgstr "சாதனத்துக்கான அணுகல் சான்றை உருவாக்கவும்"
-
-#: src/features/help/phone.tsx
-msgid "Create a separate credential for each device, so a lost device can be revoked without affecting the others."
-msgstr "ஒவ்வொரு சாதனத்துக்கும் தனி அணுகல் சான்றை உருவாக்கவும், அப்போது தொலைந்த சாதனத்தை மற்றவற்றைப் பாதிக்காமல் திரும்பப் பெறலாம்."
 
 #: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx
 msgid "Create new item"
@@ -800,10 +781,6 @@ msgstr "நீக்கப்பட்டது"
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted {field}"
 msgstr "{field} நீக்கப்பட்டது"
-
-#: src/features/help/phone.tsx
-msgid "Deleting a friend's card on the device removes the contact and ends the friendship, exactly as deleting it in People does."
-msgstr "சாதனத்தில் ஒரு நண்பரின் அட்டையை நீக்கினால் தொடர்பு அகற்றப்பட்டு நட்பு முடிவடையும், மக்கள் பயன்பாட்டில் நீக்குவதைப் போலவே."
 
 #: ../../../lib/web/src/components/ui/sort-direction-button.tsx
 msgid "Descending"
@@ -940,10 +917,6 @@ msgstr "மின்னஞ்சல்"
 msgid "Email code"
 msgstr "மின்னஞ்சல் குறியீடு"
 
-#: src/features/help/phone.tsx
-msgid "Enable the address books it finds. Your contacts then appear in the phone's Contacts app."
-msgstr "அது கண்டறியும் முகவரிப் புத்தகங்களை இயக்கவும். பின்னர் உங்கள் தொடர்புகள் ஃபோனின் தொடர்புகள் பயன்பாட்டில் தோன்றும்."
-
 #: ../../../lib/web/src/components/banner-section.tsx
 msgid "Enter banner text (markdown supported)..."
 msgstr "பேனர் உரையை உள்ளிடவும் (மார்க்டவுன் ஆதரிக்கப்படுகிறது)..."
@@ -952,14 +925,6 @@ msgstr "பேனர் உரையை உள்ளிடவும் (மா�
 msgid "Enter the code from your email"
 msgstr "உங்கள் மின்னஞ்சலில் உள்ள குறியீட்டை உள்ளிடவும்"
 
-#: src/features/help/phone.tsx
-msgid "Enter the server, your username and the password, and a description such as Mochi."
-msgstr "சர்வர், உங்கள் பயனர்பெயர், கடவுச்சொல் மற்றும் Mochi போன்ற ஒரு விளக்கத்தை உள்ளிடவும்."
-
-#: src/features/help/phone.tsx
-msgid "Enter the username, and the address book URL as the location. Enter the password when asked."
-msgstr "பயனர்பெயரையும், இருப்பிடமாக முகவரிப் புத்தக URL-ஐயும் உள்ளிடவும். கேட்கும்போது கடவுச்சொல்லை உள்ளிடவும்."
-
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Enter your authenticator code"
 msgstr "உங்கள் அங்கீகரிப்பான் குறியீட்டை உள்ளிடவும்"
@@ -967,10 +932,6 @@ msgstr "உங்கள் அங்கீகரிப்பான் குற�
 #: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx
 msgid "Error"
 msgstr "பிழை"
-
-#: src/features/help/phone.tsx
-msgid "Every address book listed in the People sidebar is offered to the device."
-msgstr "மக்கள் பயன்பாட்டின் பக்கப்பட்டியில் பட்டியலிடப்பட்டுள்ள ஒவ்வொரு முகவரிப் புத்தகமும் சாதனத்துக்கு வழங்கப்படும்."
 
 #: ../../../lib/web/src/components/comment-tree-layout.tsx
 #: ../../../lib/web/src/components/comment-tree-layout.tsx
@@ -1163,7 +1124,6 @@ msgid "Group: {0}"
 msgstr "குழு: {0}"
 
 #: src/features/help/index.tsx
-#: src/features/help/phone.tsx
 #: src/routes/_authenticated/document/privacy.tsx
 #: src/routes/_authenticated/document/rules.tsx
 #: src/routes/_authenticated/document/terms.tsx
@@ -1203,10 +1163,6 @@ msgstr "பட காட்சி: {0}"
 msgid "Imperial"
 msgstr "இம்பீரியல்"
 
-#: src/features/help/phone.tsx
-msgid "In People, choose <0>Connect a device</0> in the sidebar."
-msgstr "மக்கள் பயன்பாட்டில், பக்கப்பட்டியில் <0>சாதனத்தை இணைக்கவும்</0> என்பதைத் தேர்ந்தெடுக்கவும்."
-
 #: ../../../lib/web/src/features/access/types.ts
 msgid "Including anonymous users"
 msgstr "அநாமதேய பயனர்கள் உட்பட"
@@ -1218,10 +1174,6 @@ msgstr "முதலெழுத்து அவதாரம்"
 #: ../../../lib/web/src/components/faceless-avatar.tsx
 msgid "Initials avatar for {name}"
 msgstr "{name} இன் முதலெழுத்து அவதாரம்"
-
-#: src/features/help/phone.tsx
-msgid "Install DAVx5 from F-Droid or Google Play."
-msgstr "F-Droid அல்லது Google Play இலிருந்து DAVx5 ஐ நிறுவவும்."
 
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Interest {weight}"
@@ -1239,10 +1191,6 @@ msgstr "உங்களை அறிமுகப்படுத்துங்�
 #: ../../../lib/web/src/components/entity/entity-field-editor.tsx
 msgid "Invalid date"
 msgstr "தவறான தேதி"
-
-#: src/features/help/phone.tsx
-msgid "iPhone and iPad"
-msgstr "iPhone மற்றும் iPad"
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "It seems like the page you're looking for <0/>does not exist or might have been removed."
@@ -1380,10 +1328,6 @@ msgstr "மைக்ரோஃபோன் அனுமதி மறுக்க�
 msgid "Minimum length"
 msgstr "குறைந்தபட்ச நீளம்"
 
-#: src/features/help/phone.tsx
-msgid "Mochi keeps your contacts in the People app. Any phone, tablet or computer that supports CardDAV can sync them."
-msgstr "Mochi உங்கள் தொடர்புகளை மக்கள் பயன்பாட்டில் வைத்திருக்கிறது. CardDAV ஐ ஆதரிக்கும் எந்த ஃபோன், டேப்லெட் அல்லது கணினியும் அவற்றை ஒத்திசைக்கலாம்."
-
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Mochi web"
 msgstr "Mochi வலை"
@@ -1408,6 +1352,11 @@ msgstr "நகர்த்தப்பட்டது"
 msgid "Moved {field}"
 msgstr "{field} நகர்த்தப்பட்டது"
 
+#. placeholder {0}: dragging.day
+#: ../../../lib/web/src/components/calendar/month-grid.tsx
+msgid "Moving to {0}"
+msgstr ""
+
 #: ../../../lib/web/src/components/entity/add-field-dialog.tsx
 #: ../../../lib/web/src/components/entity/entity-board-column.tsx
 #: ../../../lib/web/src/components/entity/entity-field-dialog.tsx
@@ -1428,10 +1377,6 @@ msgstr "பெயர் தேவை"
 msgid "Name must be 1000 characters or less"
 msgstr "பெயர் 1000 எழுத்துக்கள் அல்லது அதற்கும் குறைவாக இருக்க வேண்டும்"
 
-#: src/features/help/phone.tsx
-msgid "Name the device and create the credential. The dialog shows the server, the address book URL, the username and a password."
-msgstr "சாதனத்துக்குப் பெயரிட்டு அணுகல் சான்றை உருவாக்கவும். உரையாடல் பெட்டி சர்வர், முகவரிப் புத்தக URL, பயனர்பெயர் மற்றும் ஒரு கடவுச்சொல்லைக் காட்டும்."
-
 #: ../../../lib/web/src/features/errors/general-error.tsx
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
 msgid "Network error"
@@ -1451,6 +1396,10 @@ msgstr "புதிய விளையாட்டு"
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx
 msgid "Next image"
 msgstr "அடுத்த படம்"
+
+#: ../../../lib/web/src/components/calendar/mini-month.tsx
+msgid "Next month"
+msgstr ""
 
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
 msgid "No {parentClassNames} to add to"
@@ -1580,10 +1529,6 @@ msgstr "எண்"
 msgid "On"
 msgstr "இயக்கத்தில்"
 
-#: src/features/help/phone.tsx
-msgid "On a Mac, open Contacts › Settings › Accounts, add an account, choose Other Contacts Account, then CardDAV and Manual, and enter the same details."
-msgstr "Mac இல், தொடர்புகள் › அமைப்புகள் › கணக்குகள் என்பதைத் திறந்து, ஒரு கணக்கைச் சேர்த்து, பிற தொடர்புகள் கணக்கு, பின்னர் CardDAV மற்றும் கைமுறை என்பதைத் தேர்ந்தெடுத்து, அதே விவரங்களை உள்ளிடவும்."
-
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
 msgstr "அய்யோ! பக்கம் கிடைக்கவில்லை!"
@@ -1591,10 +1536,6 @@ msgstr "அய்யோ! பக்கம் கிடைக்கவில்ல
 #: ../../../lib/web/src/components/layout/nav-group.tsx
 msgid "Open actions"
 msgstr "செயல்களைத் திற"
-
-#: src/features/help/phone.tsx
-msgid "Open Address Book › New Address Book › Add CardDAV Address Book."
-msgstr "முகவரிப் புத்தகம் › புதிய முகவரிப் புத்தகம் › CardDAV முகவரிப் புத்தகத்தைச் சேர் என்பதைத் திறக்கவும்."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"
@@ -1612,10 +1553,6 @@ msgstr "விருப்பத் செயல்களைத் திறக�
 #: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx
 msgid "Open selected card"
 msgstr "தேர்ந்தெடுத்த அட்டையை திற"
-
-#: src/features/help/phone.tsx
-msgid "Open Settings › Contacts › Accounts › Add Account › Other › Add CardDAV Account."
-msgstr "அமைப்புகள் › தொடர்புகள் › கணக்குகள் › கணக்கைச் சேர் › பிற › CardDAV கணக்கைச் சேர் என்பதைத் திறக்கவும்."
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Open view actions"
@@ -1717,6 +1654,10 @@ msgstr "பதிவுகள் மற்றும் கருத்துக�
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx
 msgid "Previous image"
 msgstr "முந்தைய படம்"
+
+#: ../../../lib/web/src/components/calendar/mini-month.tsx
+msgid "Previous month"
+msgstr ""
 
 #: ../../../lib/web/src/components/server-documents-footer.tsx
 #: ../../../lib/web/src/features/document/document-page.tsx
@@ -1860,6 +1801,11 @@ msgstr "நெடுவரிசையின் பெயரை மாற்ற�
 #: ../../../lib/web/src/components/entity/entity-board-column.tsx
 msgid "Rename this board column"
 msgstr "இந்த போர்டு நெடுவரிசையின் பெயரை மாற்று"
+
+#: ../../../lib/web/src/components/calendar/month-grid.tsx
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
+msgid "Repeats"
+msgstr ""
 
 #: ../../../lib/web/src/components/entity/entity-comment-thread.tsx
 #: ../../../lib/web/src/components/entity/entity-comment-thread.tsx
@@ -2103,10 +2049,6 @@ msgstr "துவக்கம் மற்றும் சேருமிடத�
 msgid "Settings"
 msgstr "அமைப்புகள்"
 
-#: src/features/help/phone.tsx
-msgid "Sharing with others"
-msgstr "பிறருடன் பகிர்தல்"
-
 #: src/features/help/contribute-dialog.tsx
 msgid "Short title for your idea"
 msgstr "உங்கள் யோசனைக்கான சுருக்கமான தலைப்பு"
@@ -2231,10 +2173,6 @@ msgstr "ஞாயிற்றுக்கிழமை"
 msgid "Switch to view 1-9"
 msgstr "காட்சி 1-9 க்கு மாறு"
 
-#: src/features/help/index.tsx
-msgid "Sync your Mochi contacts with your phone, tablet or computer over CardDAV."
-msgstr "CardDAV மூலம் உங்கள் Mochi தொடர்புகளை உங்கள் ஃபோன், டேப்லெட் அல்லது கணினியுடன் ஒத்திசைக்கவும்."
-
 #: ../../../lib/web/src/components/audit-timeline.tsx
 #: ../../../lib/web/src/lib/preference-utils.ts
 #: ../../../lib/web/src/lib/preference-utils.ts
@@ -2301,10 +2239,6 @@ msgstr "மைக்ரோஃபோன் கோரிக்கைக்கு �
 msgid "The passkey request was not answered"
 msgstr "Passkey கோரிக்கைக்கு பதில் இல்லை"
 
-#: src/features/help/phone.tsx
-msgid "The password is shown only once, so copy it into the device before closing the dialog. If it is lost, delete the device under <0>Manage devices</0> and create a new one."
-msgstr "கடவுச்சொல் ஒரு முறை மட்டுமே காட்டப்படும், எனவே உரையாடல் பெட்டியை மூடுவதற்கு முன் அதைச் சாதனத்தில் நகலெடுக்கவும். அது தொலைந்தால், <0>சாதனங்களை நிர்வகி</0> என்பதன் கீழ் சாதனத்தை நீக்கிவிட்டுப் புதியதை உருவாக்கவும்."
-
 #: ../../../lib/web/src/features/errors/general-error.tsx
 msgid "The requested content could not be found."
 msgstr "கோரப்பட்ட உள்ளடக்கத்தைக் கண்டறிய முடியவில்லை."
@@ -2320,10 +2254,6 @@ msgstr "இந்த ஆப்ஸுக்கு உங்கள் passkey-ஐ�
 #: ../../../lib/web/src/components/game/game-end-dialogs.tsx
 msgid "This permanently deletes the game and its chat. This cannot be undone."
 msgstr "இது விளையாட்டையும் அதன் அரட்டையையும் நிரந்தரமாக நீக்கும். இந்தச் செயலை மாற்ற முடியாது."
-
-#: src/features/help/phone.tsx
-msgid "Thunderbird"
-msgstr "Thunderbird"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Thursday"
@@ -2554,10 +2484,6 @@ msgstr "என்ன நடந்தது"
 msgid "What have you tried, what did you expect, where are you stuck?"
 msgstr "நீங்கள் என்ன முயற்சித்தீர்கள், என்ன எதிர்பார்த்தீர்கள், எங்கே சிக்கியுள்ளீர்கள்?"
 
-#: src/features/help/phone.tsx
-msgid "What syncs"
-msgstr "எவை ஒத்திசைக்கப்படும்"
-
 #: src/features/help/contribute-dialog.tsx
 msgid "What would it do, who is it for, why does it matter?"
 msgstr "அது என்ன செய்யும், அது யாருக்காக, அது ஏன் முக்கியம்?"
@@ -2565,10 +2491,6 @@ msgstr "அது என்ன செய்யும், அது யாரு�
 #: src/features/help/contribute-dialog.tsx
 msgid "What you want to ask, in one line"
 msgstr "நீங்கள் என்ன கேட்க விரும்புகிறீர்கள், ஒரு வரியில்"
-
-#: src/features/help/phone.tsx
-msgid "Which details to enter"
-msgstr "எந்த விவரங்களை உள்ளிட வேண்டும்"
 
 #: ../../../lib/web/src/features/errors/general-error.tsx
 msgid "You do not have access to this section."
