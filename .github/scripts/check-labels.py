@@ -24,6 +24,8 @@ KEEP_WORDS = {
     "oidc", "paypal", "pgn", "pkce", "pushbullet", "qr", "replica",
     "rose", "rss", "saml", "server", "sgf", "sha", "steel", "stripe",
     "teal", "terracotta", "url", "version", "violet", "wiki", "wikis",
+    "apple", "microsoft", "facebook", "x",
+
 }
 
 # Exact-string allowlist, checked before word matching. A digit-bearing
@@ -40,6 +42,8 @@ KEEP_ENGLISH = frozenset({
     "SAML", "SGF", "SHA", "Server", "Steel", "Stripe", "Teal",
     "Terracotta", "URL", "Version", "Violet", "Wiki", "Wikis", "libp2p",
     "ntfy",
+    "Apple", "Microsoft", "Facebook", "X",
+
 })
 
 def _strip_placeholders(value):
@@ -130,6 +134,8 @@ KEEP_LOCALE = frozenset({
     # Yoruba keeps "feed" as a loanword throughout its catalogues, so the bare
     # label is the same word; "Ìjì" (storm) was the mistranslation it replaced.
     ('yo', 'Feed'),
+    ("it", "Password"), ("mt", "Password"), ("tl", "Password"), ("tl", "Username"),
+
 })
 
 
