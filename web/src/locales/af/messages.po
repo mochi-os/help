@@ -241,6 +241,10 @@ msgstr "Daar het 'n fout voorgekom"
 msgid "An unexpected error occurred"
 msgstr "'n Onverwagte fout het voorgekom"
 
+#: src/features/help/devices.tsx
+msgid "Android"
+msgstr "Android"
+
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
 msgstr "Android-stoot"
@@ -491,6 +495,10 @@ msgstr "Kies 'n speletjie uit die sybalk of begin 'n nuwe een."
 msgid "Choose language"
 msgstr "Kies taal"
 
+#: src/features/help/devices.tsx
+msgid "Choose the account type Manual and enter the username, the password and the server address."
+msgstr "Kies die rekeningtipe Handmatig en voer die gebruikersnaam, die wagwoord en die bedieneradres in."
+
 #: ../../../lib/web/src/components/banner-section.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
@@ -607,6 +615,11 @@ msgstr "Konfigureer aansiginstellings"
 msgid "Confirm"
 msgstr "Bevestig"
 
+#: src/features/help/devices.tsx
+#: src/features/help/index.tsx
+msgid "Connect your phone"
+msgstr "Koppel jou foon"
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connected"
 msgstr "Verbind"
@@ -654,6 +667,10 @@ msgstr "Gekopieer na knipbord"
 #: ../../../lib/web/src/components/ui/copy-button.tsx
 msgid "Copy"
 msgstr "Kopieer"
+
+#: src/features/help/devices.tsx
+msgid "Copy the server address, the username and the password into the device. The password is shown once."
+msgstr "Kopieer die bedieneradres, die gebruikersnaam en die wagwoord na die toestel. Die wagwoord word net een keer gewys."
 
 #: ../../../lib/web/src/features/document/document-page.tsx
 msgid "Could not load this document. Please try again later."
@@ -729,6 +746,10 @@ msgstr "Datakonflik"
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Date"
 msgstr "Datum"
+
+#: src/features/help/devices.tsx
+msgid "DAVx5 finds both your address books and your calendars. Turn on the ones to sync."
+msgstr "DAVx5 vind sowel jou adresboeke as jou kalenders. Skakel dié aan wat jy wil sinkroniseer."
 
 #: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx
 msgid "Decline"
@@ -960,6 +981,18 @@ msgstr "Tik banierteks in (markdown ondersteun)..."
 msgid "Enter the code from your email"
 msgstr "Voer die kode uit jou e-pos in"
 
+#: src/features/help/devices.tsx
+msgid "Enter the password when asked, and choose the address books and calendars to add."
+msgstr "Voer die wagwoord in wanneer daar gevra word, en kies die adresboeke en kalenders om by te voeg."
+
+#: src/features/help/devices.tsx
+msgid "Enter the server address, the username and the password in each."
+msgstr "Voer in elkeen die bedieneradres, die gebruikersnaam en die wagwoord in."
+
+#: src/features/help/devices.tsx
+msgid "Enter the server address, the username and the password."
+msgstr "Voer die bedieneradres, die gebruikersnaam en die wagwoord in."
+
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Enter your authenticator code"
 msgstr "Voer jou verifikator-kode in"
@@ -1112,6 +1145,22 @@ msgstr "Vlae"
 msgid "Flat"
 msgstr "Plat"
 
+#: src/features/help/devices.tsx
+msgid "For calendars: Calendar, New Calendar, On the Network, with the username and the server address."
+msgstr "Vir kalenders: Kalender, Nuwe kalender, Op die netwerk, met die gebruikersnaam en die bedieneradres."
+
+#: src/features/help/devices.tsx
+msgid "For calendars: Settings, Calendar, Accounts, Add Account, Other, Add CalDAV Account."
+msgstr "Vir kalenders: Instellings, Kalender, Rekeninge, Voeg rekening by, Ander, Voeg CalDAV-rekening by."
+
+#: src/features/help/devices.tsx
+msgid "For contacts: Address Book, New Address Book, Add CardDAV Address Book, with the username and the server address."
+msgstr "Vir kontakte: Adresboek, Nuwe adresboek, Voeg CardDAV-adresboek by, met die gebruikersnaam en die bedieneradres."
+
+#: src/features/help/devices.tsx
+msgid "For contacts: Settings, Contacts, Accounts, Add Account, Other, Add CardDAV Account."
+msgstr "Vir kontakte: Instellings, Kontakte, Rekeninge, Voeg rekening by, Ander, Voeg CardDAV-rekening by."
+
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Friday"
 msgstr "Vrydag"
@@ -1131,6 +1180,10 @@ msgstr "Van"
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "From theme"
 msgstr "Vanaf tema"
+
+#: src/features/help/devices.tsx
+msgid "Get a password for the device"
+msgstr "Kry 'n wagwoord vir die toestel"
 
 #: ../../../lib/web/src/features/errors/access-denied-error.tsx
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
@@ -1158,6 +1211,7 @@ msgstr "Groepeer volgens"
 msgid "Group: {0}"
 msgstr "Groep: {0}"
 
+#: src/features/help/devices.tsx
 #: src/features/help/index.tsx
 #: src/routes/_authenticated/document/privacy.tsx
 #: src/routes/_authenticated/document/rules.tsx
@@ -1210,6 +1264,10 @@ msgstr "Voorletter-avatar"
 msgid "Initials avatar for {name}"
 msgstr "Voorletter-avatar vir {name}"
 
+#: src/features/help/devices.tsx
+msgid "Install DAVx5 and add an account with \"Login with URL and user name\"."
+msgstr "Installeer DAVx5 en voeg 'n rekening by met \"Meld aan met URL en gebruikersnaam\"."
+
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Interest {weight}"
 msgstr "Belangstelling {weight}"
@@ -1226,6 +1284,10 @@ msgstr "Stel jouself voor"
 #: ../../../lib/web/src/components/entity/entity-field-editor.tsx
 msgid "Invalid date"
 msgstr "Ongeldige datum"
+
+#: src/features/help/devices.tsx
+msgid "iPhone and iPad"
+msgstr "iPhone en iPad"
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "It seems like the page you're looking for <0/>does not exist or might have been removed."
@@ -1313,6 +1375,10 @@ msgstr "Suksesvol afgemeld"
 #: ../../../lib/web/src/components/sign-out-dialog.tsx
 msgid "Logging out…"
 msgstr "Besig om af te meld…"
+
+#: src/features/help/devices.tsx
+msgid "Mac"
+msgstr "Mac"
 
 #: ../../../lib/web/src/components/notification-category-button.tsx
 msgid "Manage categories"
@@ -1417,6 +1483,10 @@ msgstr "Naam word vereis"
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Name must be 1000 characters or less"
 msgstr "Naam moet 1000 karakters of minder wees"
+
+#: src/features/help/devices.tsx
+msgid "Name the device, for example your phone's name, and create its password."
+msgstr "Gee die toestel 'n naam, byvoorbeeld jou foon se naam, en skep sy wagwoord."
 
 #: ../../../lib/web/src/features/errors/general-error.tsx
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
@@ -1574,6 +1644,10 @@ msgstr "Nommer"
 msgid "On"
 msgstr "Aan"
 
+#: src/features/help/devices.tsx
+msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connect device stops its password at once."
+msgstr "Een wagwoord dien vir sowel kontakte as kalenders. Elke toestel kry sy eie, en as jy 'n toestel onder Koppel 'n toestel verwyder, hou sy wagwoord dadelik op werk."
+
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
 msgstr "Oeps! Bladsy nie gevind nie!"
@@ -1581,6 +1655,10 @@ msgstr "Oeps! Bladsy nie gevind nie!"
 #: ../../../lib/web/src/components/layout/nav-group.tsx
 msgid "Open actions"
 msgstr "Maak aksies oop"
+
+#: src/features/help/devices.tsx
+msgid "Open Calendars or People and choose Connect device."
+msgstr "Maak Kalenders of Mense oop en kies Koppel 'n toestel."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"
@@ -1729,6 +1807,10 @@ msgstr "Eienskappe"
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Push notification"
 msgstr "Stootkennisgewing"
+
+#: src/features/help/index.tsx
+msgid "Put your contacts and calendars on your phone, tablet or computer."
+msgstr "Sit jou kontakte en kalenders op jou foon, tablet of rekenaar."
 
 #: src/features/help/contribute-dialog.tsx
 msgid "Question"
@@ -2227,6 +2309,10 @@ msgstr "Skakel oor na aansig 1-9"
 msgid "System"
 msgstr "Stelsel"
 
+#: src/features/help/devices.tsx
+msgid "System Settings, Internet Accounts, Add Other Account, then CardDAV Account for contacts or CalDAV Account for calendars."
+msgstr "Stelselinstellings, Internetrekeninge, Voeg ander rekening by, dan CardDAV-rekening vir kontakte of CalDAV-rekening vir kalenders."
+
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Tag already exists"
 msgstr "Etiket bestaan reeds"
@@ -2283,6 +2369,10 @@ msgstr "Die kameraversoek is nie beantwoord nie"
 msgid "The microphone request was not answered"
 msgstr "Die mikrofoonversoek is nie beantwoord nie"
 
+#: src/features/help/devices.tsx
+msgid "The Mochi app shows your contacts and calendars itself. To put them into the phone's own Contacts and Calendar apps, use DAVx5."
+msgstr "Die Mochi-app wys jou kontakte en kalenders self. Gebruik DAVx5 om hulle in die foon se eie Kontakte- en Kalender-programme te kry."
+
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "The passkey request was not answered"
 msgstr "Die passkey-versoek is nie beantwoord nie"
@@ -2302,6 +2392,10 @@ msgstr "Hierdie toepassing mag nie jou passkey gebruik nie. Laat dit toe in Inst
 #: ../../../lib/web/src/components/game/game-end-dialogs.tsx
 msgid "This permanently deletes the game and its chat. This cannot be undone."
 msgstr "Dit verwyder die spel en die klets permanent. Dit kan nie ontdaan word nie."
+
+#: src/features/help/devices.tsx
+msgid "Thunderbird"
+msgstr "Thunderbird"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Thursday"
@@ -2555,6 +2649,10 @@ msgstr "Jou rekening is hierheen geskuif vanaf {source}. Totdat jy dit daar uitv
 #: ../../../lib/web/src/components/comment-composer.tsx
 msgid "Your attachments will be lost."
 msgstr "Jou aanhegsels sal verlore gaan."
+
+#: src/features/help/devices.tsx
+msgid "Your contacts and calendars sync to your phone, tablet and computer over CardDAV and CalDAV, which every major contacts and calendar app speaks."
+msgstr "Jou kontakte en kalenders sinkroniseer na jou foon, tablet en rekenaar oor CardDAV en CalDAV, wat elke groot kontak- en kalenderprogram praat."
 
 #: src/features/help/contribute-dialog.tsx
 msgid "Your introduction has been submitted and will appear after moderation."

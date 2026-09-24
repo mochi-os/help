@@ -241,6 +241,10 @@ msgstr "ਇੱਕ ਗੜਬੜ ਹੋਈ"
 msgid "An unexpected error occurred"
 msgstr "ਇੱਕ ਅਣਕਿਆਸੀ ਗੜਬੜ ਹੋਈ"
 
+#: src/features/help/devices.tsx
+msgid "Android"
+msgstr "Android"
+
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
 msgstr "Android ਪੁਸ਼"
@@ -491,6 +495,10 @@ msgstr "ਸਾਈਡਬਾਰ ਤੋਂ ਇੱਕ ਖੇਡ ਚੁਣੋ ਜਾ�
 msgid "Choose language"
 msgstr "ਭਾਸ਼ਾ ਚੁਣੋ"
 
+#: src/features/help/devices.tsx
+msgid "Choose the account type Manual and enter the username, the password and the server address."
+msgstr "ਖਾਤੇ ਦੀ ਕਿਸਮ ਮੈਨੂਅਲ ਚੁਣੋ ਅਤੇ ਵਰਤੋਂਕਾਰ ਨਾਂ, ਪਾਸਵਰਡ ਤੇ ਸਰਵਰ ਦਾ ਪਤਾ ਭਰੋ।"
+
 #: ../../../lib/web/src/components/banner-section.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
@@ -607,6 +615,11 @@ msgstr "ਦ੍ਰਿਸ਼ ਸੈਟਿੰਗਾਂ ਕੌਨਫਿਗਰ ਕਰ
 msgid "Confirm"
 msgstr "ਪੁਸ਼ਟੀ ਕਰੋ"
 
+#: src/features/help/devices.tsx
+#: src/features/help/index.tsx
+msgid "Connect your phone"
+msgstr "ਆਪਣਾ ਫ਼ੋਨ ਜੋੜੋ"
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connected"
 msgstr "ਜੁੜਿਆ"
@@ -654,6 +667,10 @@ msgstr "ਕਲਿੱਪਬੋਰਡ ਵਿੱਚ ਕਾਪੀ ਹੋਇਆ"
 #: ../../../lib/web/src/components/ui/copy-button.tsx
 msgid "Copy"
 msgstr "ਕਾਪੀ ਕਰੋ"
+
+#: src/features/help/devices.tsx
+msgid "Copy the server address, the username and the password into the device. The password is shown once."
+msgstr "ਸਰਵਰ ਦਾ ਪਤਾ, ਵਰਤੋਂਕਾਰ ਨਾਂ ਅਤੇ ਪਾਸਵਰਡ ਡਿਵਾਈਸ ਵਿੱਚ ਨਕਲ ਕਰੋ। ਪਾਸਵਰਡ ਸਿਰਫ਼ ਇੱਕ ਵਾਰ ਦਿਖਾਇਆ ਜਾਂਦਾ ਹੈ।"
 
 #: ../../../lib/web/src/features/document/document-page.tsx
 msgid "Could not load this document. Please try again later."
@@ -729,6 +746,10 @@ msgstr "ਡਾਟਾ ਟਕਰਾਅ"
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Date"
 msgstr "ਮਿਤੀ"
+
+#: src/features/help/devices.tsx
+msgid "DAVx5 finds both your address books and your calendars. Turn on the ones to sync."
+msgstr "DAVx5 ਤੁਹਾਡੀਆਂ ਪਤਾ-ਕਿਤਾਬਾਂ ਅਤੇ ਕੈਲੰਡਰ ਦੋਵੇਂ ਲੱਭ ਲੈਂਦਾ ਹੈ। ਜਿਹੜੇ ਸਿੰਕ ਕਰਨੇ ਹਨ, ਉਹ ਚਾਲੂ ਕਰੋ।"
 
 #: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx
 msgid "Decline"
@@ -960,6 +981,18 @@ msgstr "ਬੈਨਰ ਟੈਕਸਟ ਦਰਜ ਕਰੋ (ਮਾਰਕਡਾਊ�
 msgid "Enter the code from your email"
 msgstr "ਆਪਣੀ ਈਮੇਲ ਵਿੱਚੋਂ ਕੋਡ ਦਾਖਲ ਕਰੋ"
 
+#: src/features/help/devices.tsx
+msgid "Enter the password when asked, and choose the address books and calendars to add."
+msgstr "ਪੁੱਛੇ ਜਾਣ 'ਤੇ ਪਾਸਵਰਡ ਭਰੋ ਅਤੇ ਜੋੜਨ ਲਈ ਪਤਾ-ਕਿਤਾਬਾਂ ਤੇ ਕੈਲੰਡਰ ਚੁਣੋ।"
+
+#: src/features/help/devices.tsx
+msgid "Enter the server address, the username and the password in each."
+msgstr "ਹਰੇਕ ਵਿੱਚ ਸਰਵਰ ਦਾ ਪਤਾ, ਵਰਤੋਂਕਾਰ ਨਾਂ ਅਤੇ ਪਾਸਵਰਡ ਭਰੋ।"
+
+#: src/features/help/devices.tsx
+msgid "Enter the server address, the username and the password."
+msgstr "ਸਰਵਰ ਦਾ ਪਤਾ, ਵਰਤੋਂਕਾਰ ਨਾਂ ਅਤੇ ਪਾਸਵਰਡ ਭਰੋ।"
+
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Enter your authenticator code"
 msgstr "ਆਪਣਾ ਪ੍ਰਮਾਣੀਕਰਤਾ ਕੋਡ ਦਾਖਲ ਕਰੋ"
@@ -1112,6 +1145,22 @@ msgstr "ਫਲੈਗ"
 msgid "Flat"
 msgstr "ਸਮਤਲ"
 
+#: src/features/help/devices.tsx
+msgid "For calendars: Calendar, New Calendar, On the Network, with the username and the server address."
+msgstr "ਕੈਲੰਡਰਾਂ ਲਈ: ਕੈਲੰਡਰ, ਨਵਾਂ ਕੈਲੰਡਰ, ਨੈੱਟਵਰਕ ਉੱਤੇ, ਵਰਤੋਂਕਾਰ ਨਾਂ ਅਤੇ ਸਰਵਰ ਦੇ ਪਤੇ ਨਾਲ।"
+
+#: src/features/help/devices.tsx
+msgid "For calendars: Settings, Calendar, Accounts, Add Account, Other, Add CalDAV Account."
+msgstr "ਕੈਲੰਡਰਾਂ ਲਈ: ਸੈਟਿੰਗਾਂ, ਕੈਲੰਡਰ, ਖਾਤੇ, ਖਾਤਾ ਜੋੜੋ, ਹੋਰ, CalDAV ਖਾਤਾ ਜੋੜੋ।"
+
+#: src/features/help/devices.tsx
+msgid "For contacts: Address Book, New Address Book, Add CardDAV Address Book, with the username and the server address."
+msgstr "ਸੰਪਰਕਾਂ ਲਈ: ਪਤਾ-ਕਿਤਾਬ, ਨਵੀਂ ਪਤਾ-ਕਿਤਾਬ, CardDAV ਪਤਾ-ਕਿਤਾਬ ਜੋੜੋ, ਵਰਤੋਂਕਾਰ ਨਾਂ ਅਤੇ ਸਰਵਰ ਦੇ ਪਤੇ ਨਾਲ।"
+
+#: src/features/help/devices.tsx
+msgid "For contacts: Settings, Contacts, Accounts, Add Account, Other, Add CardDAV Account."
+msgstr "ਸੰਪਰਕਾਂ ਲਈ: ਸੈਟਿੰਗਾਂ, ਸੰਪਰਕ, ਖਾਤੇ, ਖਾਤਾ ਜੋੜੋ, ਹੋਰ, CardDAV ਖਾਤਾ ਜੋੜੋ।"
+
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Friday"
 msgstr "ਸ਼ੁੱਕਰਵਾਰ"
@@ -1131,6 +1180,10 @@ msgstr "ਤੋਂ"
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "From theme"
 msgstr "ਥੀਮ ਤੋਂ"
+
+#: src/features/help/devices.tsx
+msgid "Get a password for the device"
+msgstr "ਡਿਵਾਈਸ ਲਈ ਪਾਸਵਰਡ ਲਵੋ"
 
 #: ../../../lib/web/src/features/errors/access-denied-error.tsx
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
@@ -1158,6 +1211,7 @@ msgstr "ਇਸ ਅਨੁਸਾਰ ਗਰੁੱਪ ਕਰੋ"
 msgid "Group: {0}"
 msgstr "ਸਮੂਹ: {0}"
 
+#: src/features/help/devices.tsx
 #: src/features/help/index.tsx
 #: src/routes/_authenticated/document/privacy.tsx
 #: src/routes/_authenticated/document/rules.tsx
@@ -1210,6 +1264,10 @@ msgstr "ਅਰੰਭਕ ਅੱਖਰ ਅਵਤਾਰ"
 msgid "Initials avatar for {name}"
 msgstr "{name} ਲਈ ਅਰੰਭਕ ਅੱਖਰ ਅਵਤਾਰ"
 
+#: src/features/help/devices.tsx
+msgid "Install DAVx5 and add an account with \"Login with URL and user name\"."
+msgstr "DAVx5 ਇੰਸਟਾਲ ਕਰੋ ਅਤੇ \"URL ਅਤੇ ਵਰਤੋਂਕਾਰ ਨਾਂ ਨਾਲ ਲਾਗਇਨ\" ਰਾਹੀਂ ਖਾਤਾ ਜੋੜੋ।"
+
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Interest {weight}"
 msgstr "ਦਿਲਚਸਪੀ {weight}"
@@ -1226,6 +1284,10 @@ msgstr "ਆਪਣਾ ਪਰਿਚੈ ਦਿਓ"
 #: ../../../lib/web/src/components/entity/entity-field-editor.tsx
 msgid "Invalid date"
 msgstr "ਅਯੋਗ ਮਿਤੀ"
+
+#: src/features/help/devices.tsx
+msgid "iPhone and iPad"
+msgstr "iPhone ਅਤੇ iPad"
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "It seems like the page you're looking for <0/>does not exist or might have been removed."
@@ -1313,6 +1375,10 @@ msgstr "ਸਫਲਤਾਪੂਰਵਕ ਲੌਗ ਆਊਟ ਹੋ ਗਏ"
 #: ../../../lib/web/src/components/sign-out-dialog.tsx
 msgid "Logging out…"
 msgstr "ਲੌਗ ਆਊਟ ਹੋ ਰਿਹਾ ਹੈ…"
+
+#: src/features/help/devices.tsx
+msgid "Mac"
+msgstr "Mac"
 
 #: ../../../lib/web/src/components/notification-category-button.tsx
 msgid "Manage categories"
@@ -1417,6 +1483,10 @@ msgstr "ਨਾਮ ਜ਼ਰੂਰੀ ਹੈ"
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Name must be 1000 characters or less"
 msgstr "ਨਾਮ 1000 ਅੱਖਰਾਂ ਜਾਂ ਘੱਟ ਦਾ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ"
+
+#: src/features/help/devices.tsx
+msgid "Name the device, for example your phone's name, and create its password."
+msgstr "ਡਿਵਾਈਸ ਨੂੰ ਨਾਂ ਦਿਓ, ਜਿਵੇਂ ਤੁਹਾਡੇ ਫ਼ੋਨ ਦਾ ਨਾਂ, ਅਤੇ ਉਸ ਦਾ ਪਾਸਵਰਡ ਬਣਾਓ।"
 
 #: ../../../lib/web/src/features/errors/general-error.tsx
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
@@ -1574,6 +1644,10 @@ msgstr "ਨੰਬਰ"
 msgid "On"
 msgstr "ਚਾਲੂ"
 
+#: src/features/help/devices.tsx
+msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connect device stops its password at once."
+msgstr "ਇੱਕੋ ਪਾਸਵਰਡ ਸੰਪਰਕਾਂ ਅਤੇ ਕੈਲੰਡਰਾਂ ਦੋਵਾਂ ਲਈ ਕੰਮ ਕਰਦਾ ਹੈ। ਹਰ ਡਿਵਾਈਸ ਦਾ ਆਪਣਾ ਪਾਸਵਰਡ ਹੁੰਦਾ ਹੈ, ਅਤੇ ਡਿਵਾਈਸ ਜੋੜੋ ਵਿੱਚੋਂ ਡਿਵਾਈਸ ਹਟਾਉਂਦੇ ਹੀ ਉਸ ਦਾ ਪਾਸਵਰਡ ਤੁਰੰਤ ਬੰਦ ਹੋ ਜਾਂਦਾ ਹੈ।"
+
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
 msgstr "ਓਹੋ! ਪੇਜ ਨਹੀਂ ਮਿਲਿਆ!"
@@ -1581,6 +1655,10 @@ msgstr "ਓਹੋ! ਪੇਜ ਨਹੀਂ ਮਿਲਿਆ!"
 #: ../../../lib/web/src/components/layout/nav-group.tsx
 msgid "Open actions"
 msgstr "ਕਾਰਵਾਈਆਂ ਖੋਲ੍ਹੋ"
+
+#: src/features/help/devices.tsx
+msgid "Open Calendars or People and choose Connect device."
+msgstr "ਕੈਲੰਡਰ ਜਾਂ ਲੋਕ ਖੋਲ੍ਹੋ ਅਤੇ ਡਿਵਾਈਸ ਜੋੜੋ ਚੁਣੋ।"
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"
@@ -1729,6 +1807,10 @@ msgstr "ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ"
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Push notification"
 msgstr "ਪੁਸ਼ ਸੂਚਨਾ"
+
+#: src/features/help/index.tsx
+msgid "Put your contacts and calendars on your phone, tablet or computer."
+msgstr "ਆਪਣੇ ਸੰਪਰਕ ਅਤੇ ਕੈਲੰਡਰ ਆਪਣੇ ਫ਼ੋਨ, ਟੈਬਲੈੱਟ ਜਾਂ ਕੰਪਿਊਟਰ ਉੱਤੇ ਰੱਖੋ।"
 
 #: src/features/help/contribute-dialog.tsx
 msgid "Question"
@@ -2227,6 +2309,10 @@ msgstr "ਦ੍ਰਿਸ਼ 1-9 'ਤੇ ਜਾਓ"
 msgid "System"
 msgstr "ਸਿਸਟਮ"
 
+#: src/features/help/devices.tsx
+msgid "System Settings, Internet Accounts, Add Other Account, then CardDAV Account for contacts or CalDAV Account for calendars."
+msgstr "ਸਿਸਟਮ ਸੈਟਿੰਗਾਂ, ਇੰਟਰਨੈੱਟ ਖਾਤੇ, ਹੋਰ ਖਾਤਾ ਜੋੜੋ, ਫਿਰ ਸੰਪਰਕਾਂ ਲਈ CardDAV ਖਾਤਾ ਜਾਂ ਕੈਲੰਡਰਾਂ ਲਈ CalDAV ਖਾਤਾ।"
+
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Tag already exists"
 msgstr "ਟੈਗ ਪਹਿਲਾਂ ਹੀ ਮੌਜੂਦ ਹੈ"
@@ -2283,6 +2369,10 @@ msgstr "ਕੈਮਰਾ ਬੇਨਤੀ ਦਾ ਜਵਾਬ ਨਹੀਂ ਮਿ�
 msgid "The microphone request was not answered"
 msgstr "ਮਾਈਕ੍ਰੋਫ਼ੋਨ ਬੇਨਤੀ ਦਾ ਜਵਾਬ ਨਹੀਂ ਮਿਲਿਆ"
 
+#: src/features/help/devices.tsx
+msgid "The Mochi app shows your contacts and calendars itself. To put them into the phone's own Contacts and Calendar apps, use DAVx5."
+msgstr "Mochi ਐਪ ਤੁਹਾਡੇ ਸੰਪਰਕ ਅਤੇ ਕੈਲੰਡਰ ਆਪ ਹੀ ਦਿਖਾਉਂਦੀ ਹੈ। ਇਹਨਾਂ ਨੂੰ ਫ਼ੋਨ ਦੀਆਂ ਆਪਣੀਆਂ ਸੰਪਰਕ ਤੇ ਕੈਲੰਡਰ ਐਪਾਂ ਵਿੱਚ ਪਾਉਣ ਲਈ DAVx5 ਵਰਤੋ।"
+
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "The passkey request was not answered"
 msgstr "ਪਾਸਕੀ ਬੇਨਤੀ ਦਾ ਜਵਾਬ ਨਹੀਂ ਮਿਲਿਆ"
@@ -2302,6 +2392,10 @@ msgstr "ਇਸ ਐਪ ਨੂੰ ਤੁਹਾਡੀ ਪਾਸਕੀ ਵਰਤਣ 
 #: ../../../lib/web/src/components/game/game-end-dialogs.tsx
 msgid "This permanently deletes the game and its chat. This cannot be undone."
 msgstr "ਇਹ ਗੇਮ ਅਤੇ ਇਸਦੀ ਚੈਟ ਨੂੰ ਸਥਾਈ ਤੌਰ 'ਤੇ ਮਿਟਾ ਦੇਵੇਗਾ। ਇਸ ਕਾਰਵਾਈ ਨੂੰ ਵਾਪਸ ਨਹੀਂ ਲਿਆ ਜਾ ਸਕਦਾ।"
+
+#: src/features/help/devices.tsx
+msgid "Thunderbird"
+msgstr "Thunderbird"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Thursday"
@@ -2555,6 +2649,10 @@ msgstr "ਤੁਹਾਡਾ ਖਾਤਾ {source} ਤੋਂ ਇੱਥੇ ਲਿ�
 #: ../../../lib/web/src/components/comment-composer.tsx
 msgid "Your attachments will be lost."
 msgstr "ਤੁਹਾਡੇ ਅਟੈਚਮੈਂਟ ਗੁੰਮ ਹੋ ਜਾਣਗੇ।"
+
+#: src/features/help/devices.tsx
+msgid "Your contacts and calendars sync to your phone, tablet and computer over CardDAV and CalDAV, which every major contacts and calendar app speaks."
+msgstr "ਤੁਹਾਡੇ ਸੰਪਰਕ ਅਤੇ ਕੈਲੰਡਰ CardDAV ਤੇ CalDAV ਰਾਹੀਂ ਤੁਹਾਡੇ ਫ਼ੋਨ, ਟੈਬਲੈੱਟ ਅਤੇ ਕੰਪਿਊਟਰ ਨਾਲ ਸਿੰਕ ਹੁੰਦੇ ਹਨ, ਜਿਨ੍ਹਾਂ ਨੂੰ ਹਰ ਵੱਡੀ ਸੰਪਰਕ ਤੇ ਕੈਲੰਡਰ ਐਪ ਸਮਝਦੀ ਹੈ।"
 
 #: src/features/help/contribute-dialog.tsx
 msgid "Your introduction has been submitted and will appear after moderation."

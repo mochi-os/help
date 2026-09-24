@@ -241,6 +241,10 @@ msgstr "Παρουσιάστηκε σφάλμα"
 msgid "An unexpected error occurred"
 msgstr "Παρουσιάστηκε απροσδόκητο σφάλμα"
 
+#: src/features/help/devices.tsx
+msgid "Android"
+msgstr "Android"
+
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
 msgstr "Push Android"
@@ -491,6 +495,10 @@ msgstr "Επιλέξτε ένα παιχνίδι από την πλαϊνή στ
 msgid "Choose language"
 msgstr "Επιλογή γλώσσας"
 
+#: src/features/help/devices.tsx
+msgid "Choose the account type Manual and enter the username, the password and the server address."
+msgstr "Επιλέξτε τον τύπο λογαριασμού Χειροκίνητα και εισαγάγετε το όνομα χρήστη, τον κωδικό πρόσβασης και τη διεύθυνση του διακομιστή."
+
 #: ../../../lib/web/src/components/banner-section.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
@@ -607,6 +615,11 @@ msgstr "Διαμόρφωση ρυθμίσεων προβολής"
 msgid "Confirm"
 msgstr "Επιβεβαίωση"
 
+#: src/features/help/devices.tsx
+#: src/features/help/index.tsx
+msgid "Connect your phone"
+msgstr "Συνδέστε το τηλέφωνό σας"
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connected"
 msgstr "Συνδεδεμένο"
@@ -654,6 +667,10 @@ msgstr "Αντιγράφηκε στο πρόχειρο"
 #: ../../../lib/web/src/components/ui/copy-button.tsx
 msgid "Copy"
 msgstr "Αντιγραφή"
+
+#: src/features/help/devices.tsx
+msgid "Copy the server address, the username and the password into the device. The password is shown once."
+msgstr "Αντιγράψτε τη διεύθυνση του διακομιστή, το όνομα χρήστη και τον κωδικό πρόσβασης στη συσκευή. Ο κωδικός εμφανίζεται μία μόνο φορά."
 
 #: ../../../lib/web/src/features/document/document-page.tsx
 msgid "Could not load this document. Please try again later."
@@ -729,6 +746,10 @@ msgstr "Διένεξη δεδομένων"
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Date"
 msgstr "Ημερομηνία"
+
+#: src/features/help/devices.tsx
+msgid "DAVx5 finds both your address books and your calendars. Turn on the ones to sync."
+msgstr "Το DAVx5 βρίσκει τόσο τα βιβλία διευθύνσεών σας όσο και τα ημερολόγιά σας. Ενεργοποιήστε όσα θέλετε να συγχρονίζονται."
 
 #: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx
 msgid "Decline"
@@ -960,6 +981,18 @@ msgstr "Εισαγάγετε κείμενο μπάνερ (υποστηρίζετ
 msgid "Enter the code from your email"
 msgstr "Εισαγάγετε τον κωδικό από το email σας"
 
+#: src/features/help/devices.tsx
+msgid "Enter the password when asked, and choose the address books and calendars to add."
+msgstr "Εισαγάγετε τον κωδικό πρόσβασης όταν σας ζητηθεί και επιλέξτε τα βιβλία διευθύνσεων και τα ημερολόγια που θα προσθέσετε."
+
+#: src/features/help/devices.tsx
+msgid "Enter the server address, the username and the password in each."
+msgstr "Εισαγάγετε σε καθένα τη διεύθυνση του διακομιστή, το όνομα χρήστη και τον κωδικό πρόσβασης."
+
+#: src/features/help/devices.tsx
+msgid "Enter the server address, the username and the password."
+msgstr "Εισαγάγετε τη διεύθυνση του διακομιστή, το όνομα χρήστη και τον κωδικό πρόσβασης."
+
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Enter your authenticator code"
 msgstr "Εισαγάγετε τον κωδικό της εφαρμογής ελέγχου ταυτότητας"
@@ -1112,6 +1145,22 @@ msgstr "Σημαίες"
 msgid "Flat"
 msgstr "Επίπεδη"
 
+#: src/features/help/devices.tsx
+msgid "For calendars: Calendar, New Calendar, On the Network, with the username and the server address."
+msgstr "Για ημερολόγια: Ημερολόγιο, Νέο ημερολόγιο, Στο δίκτυο, με το όνομα χρήστη και τη διεύθυνση του διακομιστή."
+
+#: src/features/help/devices.tsx
+msgid "For calendars: Settings, Calendar, Accounts, Add Account, Other, Add CalDAV Account."
+msgstr "Για ημερολόγια: Ρυθμίσεις, Ημερολόγιο, Λογαριασμοί, Προσθήκη λογαριασμού, Άλλο, Προσθήκη λογαριασμού CalDAV."
+
+#: src/features/help/devices.tsx
+msgid "For contacts: Address Book, New Address Book, Add CardDAV Address Book, with the username and the server address."
+msgstr "Για επαφές: Βιβλίο διευθύνσεων, Νέο βιβλίο διευθύνσεων, Προσθήκη βιβλίου διευθύνσεων CardDAV, με το όνομα χρήστη και τη διεύθυνση του διακομιστή."
+
+#: src/features/help/devices.tsx
+msgid "For contacts: Settings, Contacts, Accounts, Add Account, Other, Add CardDAV Account."
+msgstr "Για επαφές: Ρυθμίσεις, Επαφές, Λογαριασμοί, Προσθήκη λογαριασμού, Άλλο, Προσθήκη λογαριασμού CardDAV."
+
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Friday"
 msgstr "Παρασκευή"
@@ -1131,6 +1180,10 @@ msgstr "Από"
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "From theme"
 msgstr "Από το θέμα"
+
+#: src/features/help/devices.tsx
+msgid "Get a password for the device"
+msgstr "Αποκτήστε κωδικό πρόσβασης για τη συσκευή"
 
 #: ../../../lib/web/src/features/errors/access-denied-error.tsx
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
@@ -1158,6 +1211,7 @@ msgstr "Ομαδοποίηση κατά"
 msgid "Group: {0}"
 msgstr "Ομάδα: {0}"
 
+#: src/features/help/devices.tsx
 #: src/features/help/index.tsx
 #: src/routes/_authenticated/document/privacy.tsx
 #: src/routes/_authenticated/document/rules.tsx
@@ -1210,6 +1264,10 @@ msgstr "Άβαταρ αρχικών"
 msgid "Initials avatar for {name}"
 msgstr "Άβαταρ αρχικών για {name}"
 
+#: src/features/help/devices.tsx
+msgid "Install DAVx5 and add an account with \"Login with URL and user name\"."
+msgstr "Εγκαταστήστε το DAVx5 και προσθέστε λογαριασμό με τη \"Σύνδεση με URL και όνομα χρήστη\"."
+
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Interest {weight}"
 msgstr "Ενδιαφέρον {weight}"
@@ -1226,6 +1284,10 @@ msgstr "Συστηθείτε"
 #: ../../../lib/web/src/components/entity/entity-field-editor.tsx
 msgid "Invalid date"
 msgstr "Μη έγκυρη ημερομηνία"
+
+#: src/features/help/devices.tsx
+msgid "iPhone and iPad"
+msgstr "iPhone και iPad"
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "It seems like the page you're looking for <0/>does not exist or might have been removed."
@@ -1313,6 +1375,10 @@ msgstr "Επιτυχής αποσύνδεση"
 #: ../../../lib/web/src/components/sign-out-dialog.tsx
 msgid "Logging out…"
 msgstr "Αποσύνδεση…"
+
+#: src/features/help/devices.tsx
+msgid "Mac"
+msgstr "Mac"
 
 #: ../../../lib/web/src/components/notification-category-button.tsx
 msgid "Manage categories"
@@ -1417,6 +1483,10 @@ msgstr "Το όνομα είναι υποχρεωτικό"
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Name must be 1000 characters or less"
 msgstr "Το όνομα πρέπει να είναι 1000 χαρακτήρες ή λιγότεροι"
+
+#: src/features/help/devices.tsx
+msgid "Name the device, for example your phone's name, and create its password."
+msgstr "Δώστε όνομα στη συσκευή, για παράδειγμα το όνομα του τηλεφώνου σας, και δημιουργήστε τον κωδικό της."
 
 #: ../../../lib/web/src/features/errors/general-error.tsx
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
@@ -1574,6 +1644,10 @@ msgstr "Αριθμός"
 msgid "On"
 msgstr "Ενεργό"
 
+#: src/features/help/devices.tsx
+msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connect device stops its password at once."
+msgstr "Ένας κωδικός πρόσβασης καλύπτει και τις επαφές και τα ημερολόγια. Κάθε συσκευή έχει τον δικό της, και η αφαίρεση μιας συσκευής από τη Σύνδεση συσκευής ακυρώνει αμέσως τον κωδικό της."
+
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
 msgstr "Ωχ! Η σελίδα δεν βρέθηκε!"
@@ -1581,6 +1655,10 @@ msgstr "Ωχ! Η σελίδα δεν βρέθηκε!"
 #: ../../../lib/web/src/components/layout/nav-group.tsx
 msgid "Open actions"
 msgstr "Άνοιγμα ενεργειών"
+
+#: src/features/help/devices.tsx
+msgid "Open Calendars or People and choose Connect device."
+msgstr "Ανοίξτε τα Ημερολόγια ή τα Άτομα και επιλέξτε Σύνδεση συσκευής."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"
@@ -1729,6 +1807,10 @@ msgstr "Ιδιότητες"
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Push notification"
 msgstr "Ειδοποίηση push"
+
+#: src/features/help/index.tsx
+msgid "Put your contacts and calendars on your phone, tablet or computer."
+msgstr "Βάλτε τις επαφές και τα ημερολόγιά σας στο τηλέφωνο, στην ταμπλέτα ή στον υπολογιστή σας."
 
 #: src/features/help/contribute-dialog.tsx
 msgid "Question"
@@ -2227,6 +2309,10 @@ msgstr "Εναλλαγή σε προβολή 1-9"
 msgid "System"
 msgstr "Σύστημα"
 
+#: src/features/help/devices.tsx
+msgid "System Settings, Internet Accounts, Add Other Account, then CardDAV Account for contacts or CalDAV Account for calendars."
+msgstr "Ρυθμίσεις συστήματος, Λογαριασμοί διαδικτύου, Προσθήκη άλλου λογαριασμού και μετά Λογαριασμός CardDAV για τις επαφές ή Λογαριασμός CalDAV για τα ημερολόγια."
+
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Tag already exists"
 msgstr "Η ετικέτα υπάρχει ήδη"
@@ -2283,6 +2369,10 @@ msgstr "Το αίτημα κάμερας δεν απαντήθηκε"
 msgid "The microphone request was not answered"
 msgstr "Το αίτημα μικροφώνου δεν απαντήθηκε"
 
+#: src/features/help/devices.tsx
+msgid "The Mochi app shows your contacts and calendars itself. To put them into the phone's own Contacts and Calendar apps, use DAVx5."
+msgstr "Η εφαρμογή Mochi εμφανίζει η ίδια τις επαφές και τα ημερολόγιά σας. Για να τα περάσετε στις εφαρμογές Επαφές και Ημερολόγιο του ίδιου του τηλεφώνου, χρησιμοποιήστε το DAVx5."
+
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "The passkey request was not answered"
 msgstr "Το αίτημα passkey δεν απαντήθηκε"
@@ -2302,6 +2392,10 @@ msgstr "Αυτή η εφαρμογή δεν επιτρέπεται να χρησ
 #: ../../../lib/web/src/components/game/game-end-dialogs.tsx
 msgid "This permanently deletes the game and its chat. This cannot be undone."
 msgstr "Αυτό θα διαγράψει οριστικά το παιχνίδι και τη συνομιλία του. Αυτή η ενέργεια δεν μπορεί να αναιρεθεί."
+
+#: src/features/help/devices.tsx
+msgid "Thunderbird"
+msgstr "Thunderbird"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Thursday"
@@ -2555,6 +2649,10 @@ msgstr "Ο λογαριασμός σας μεταφέρθηκε εδώ από {s
 #: ../../../lib/web/src/components/comment-composer.tsx
 msgid "Your attachments will be lost."
 msgstr "Τα συνημμένα σας θα χαθούν."
+
+#: src/features/help/devices.tsx
+msgid "Your contacts and calendars sync to your phone, tablet and computer over CardDAV and CalDAV, which every major contacts and calendar app speaks."
+msgstr "Οι επαφές και τα ημερολόγιά σας συγχρονίζονται με το τηλέφωνο, την ταμπλέτα και τον υπολογιστή σας μέσω CardDAV και CalDAV, που τα υποστηρίζει κάθε βασική εφαρμογή επαφών και ημερολογίου."
 
 #: src/features/help/contribute-dialog.tsx
 msgid "Your introduction has been submitted and will appear after moderation."

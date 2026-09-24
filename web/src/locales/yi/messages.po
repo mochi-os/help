@@ -241,6 +241,10 @@ msgstr "אַ פֿעלער איז פֿאָרגעקומען"
 msgid "An unexpected error occurred"
 msgstr "אַן אומדערוואַרטעטער פֿעלער איז פֿאָרגעקומען"
 
+#: src/features/help/devices.tsx
+msgid "Android"
+msgstr "Android"
+
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
 msgstr "Android פּוש"
@@ -491,6 +495,10 @@ msgstr "קלײַבט אַ שפּיל פֿון דער סײַדבאַר אָדער
 msgid "Choose language"
 msgstr "קלײַבט שפּראַך"
 
+#: src/features/help/devices.tsx
+msgid "Choose the account type Manual and enter the username, the password and the server address."
+msgstr "קלײַבט אויס דעם קאָנטע־טיפּ מאַנואַל און גיט אַרײַן דעם באַניצער־נאָמען, דעם פּאַראָל און דעם סערווער־אַדרעס."
+
 #: ../../../lib/web/src/components/banner-section.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
@@ -607,6 +615,11 @@ msgstr "קאָנפֿיגורירן זעהן אײַנשטעלונגען"
 msgid "Confirm"
 msgstr "באַשטעטיקן"
 
+#: src/features/help/devices.tsx
+#: src/features/help/index.tsx
+msgid "Connect your phone"
+msgstr "פֿאַרבינדט אײַער טעלעפֿאָן"
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connected"
 msgstr "פֿאַרבונדן"
@@ -654,6 +667,10 @@ msgstr "קאָפּירט צו קליפּברעט"
 #: ../../../lib/web/src/components/ui/copy-button.tsx
 msgid "Copy"
 msgstr "קאָפּירן"
+
+#: src/features/help/devices.tsx
+msgid "Copy the server address, the username and the password into the device. The password is shown once."
+msgstr "קאָפּירט דעם סערווער־אַדרעס, דעם באַניצער־נאָמען און דעם פּאַראָל אין דעם מיטל אַרײַן. דער פּאַראָל ווערט געוויזן נאָר איין מאָל."
 
 #: ../../../lib/web/src/features/document/document-page.tsx
 msgid "Could not load this document. Please try again later."
@@ -729,6 +746,10 @@ msgstr "דאַטן־קאָנפֿליקט"
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Date"
 msgstr "דאַטע"
+
+#: src/features/help/devices.tsx
+msgid "DAVx5 finds both your address books and your calendars. Turn on the ones to sync."
+msgstr "DAVx5 געפֿינט סײַ אײַערע אַדרעס־ביכער סײַ אײַערע קאַלענדאַרן. שטעלט אָן די וואָס איר ווילט סינכראָניזירן."
 
 #: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx
 msgid "Decline"
@@ -960,6 +981,18 @@ msgstr "גיט אַרײַן באַנער־טעקסט (markdown געשטיצט)..
 msgid "Enter the code from your email"
 msgstr "גיט אַרײַן דעם קאָד פֿון אײַער בליצפּאָסט"
 
+#: src/features/help/devices.tsx
+msgid "Enter the password when asked, and choose the address books and calendars to add."
+msgstr "גיט אַרײַן דעם פּאַראָל ווען מען בעט אים, און קלײַבט אויס די אַדרעס־ביכער און קאַלענדאַרן צוצולייגן."
+
+#: src/features/help/devices.tsx
+msgid "Enter the server address, the username and the password in each."
+msgstr "אין יעדן איינעם גיט אַרײַן דעם סערווער־אַדרעס, דעם באַניצער־נאָמען און דעם פּאַראָל."
+
+#: src/features/help/devices.tsx
+msgid "Enter the server address, the username and the password."
+msgstr "גיט אַרײַן דעם סערווער־אַדרעס, דעם באַניצער־נאָמען און דעם פּאַראָל."
+
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Enter your authenticator code"
 msgstr "גיט אַרײַן אײַער אויטענטיפֿיקאַטאָר־קאָד"
@@ -1112,6 +1145,22 @@ msgstr "פֿאָנען"
 msgid "Flat"
 msgstr "פלאַך"
 
+#: src/features/help/devices.tsx
+msgid "For calendars: Calendar, New Calendar, On the Network, with the username and the server address."
+msgstr "פֿאַר קאַלענדאַרן: קאַלענדאַר, נײַער קאַלענדאַר, אויפֿן נעץ, מיטן באַניצער־נאָמען און דעם סערווער־אַדרעס."
+
+#: src/features/help/devices.tsx
+msgid "For calendars: Settings, Calendar, Accounts, Add Account, Other, Add CalDAV Account."
+msgstr "פֿאַר קאַלענדאַרן: אײַנשטעלונגען, קאַלענדאַר, קאָנטעס, צולייגן קאָנטע, אַנדער, צולייגן CalDAV קאָנטע."
+
+#: src/features/help/devices.tsx
+msgid "For contacts: Address Book, New Address Book, Add CardDAV Address Book, with the username and the server address."
+msgstr "פֿאַר קאָנטאַקטן: אַדרעס־בוך, נײַ אַדרעס־בוך, צולייגן CardDAV אַדרעס־בוך, מיטן באַניצער־נאָמען און דעם סערווער־אַדרעס."
+
+#: src/features/help/devices.tsx
+msgid "For contacts: Settings, Contacts, Accounts, Add Account, Other, Add CardDAV Account."
+msgstr "פֿאַר קאָנטאַקטן: אײַנשטעלונגען, קאָנטאַקטן, קאָנטעס, צולייגן קאָנטע, אַנדער, צולייגן CardDAV קאָנטע."
+
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Friday"
 msgstr "פֿרײַטיק"
@@ -1131,6 +1180,10 @@ msgstr "פֿון"
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "From theme"
 msgstr "פֿון טעמע"
+
+#: src/features/help/devices.tsx
+msgid "Get a password for the device"
+msgstr "באַקומט אַ פּאַראָל פֿאַרן מיטל"
 
 #: ../../../lib/web/src/features/errors/access-denied-error.tsx
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
@@ -1158,6 +1211,7 @@ msgstr "גרופּירן לויט"
 msgid "Group: {0}"
 msgstr "גרופּע: {0}"
 
+#: src/features/help/devices.tsx
 #: src/features/help/index.tsx
 #: src/routes/_authenticated/document/privacy.tsx
 #: src/routes/_authenticated/document/rules.tsx
@@ -1210,6 +1264,10 @@ msgstr "ראשי־תיבות אַװאַטאַר"
 msgid "Initials avatar for {name}"
 msgstr "ראשי־תיבות אַװאַטאַר פֿאַר {name}"
 
+#: src/features/help/devices.tsx
+msgid "Install DAVx5 and add an account with \"Login with URL and user name\"."
+msgstr "אינסטאַלירט DAVx5 און לייגט צו אַ קאָנטע מיט \"אַרײַנלאָגירן מיט URL און באַניצער־נאָמען\"."
+
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Interest {weight}"
 msgstr "אינטערעס {weight}"
@@ -1226,6 +1284,10 @@ msgstr "באַקען זיך"
 #: ../../../lib/web/src/components/entity/entity-field-editor.tsx
 msgid "Invalid date"
 msgstr "ניט גילטיקע דאַטע"
+
+#: src/features/help/devices.tsx
+msgid "iPhone and iPad"
+msgstr "iPhone און iPad"
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "It seems like the page you're looking for <0/>does not exist or might have been removed."
@@ -1313,6 +1375,10 @@ msgstr "אַרויסגעקומען בהצלחה"
 #: ../../../lib/web/src/components/sign-out-dialog.tsx
 msgid "Logging out…"
 msgstr "אַרויסקומען…"
+
+#: src/features/help/devices.tsx
+msgid "Mac"
+msgstr "Mac"
 
 #: ../../../lib/web/src/components/notification-category-button.tsx
 msgid "Manage categories"
@@ -1417,6 +1483,10 @@ msgstr "נאָמען איז נייטיק"
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Name must be 1000 characters or less"
 msgstr "נאָמען מוז זײַן 1000 כאַראַקטערן אָדער ווייניקער"
+
+#: src/features/help/devices.tsx
+msgid "Name the device, for example your phone's name, and create its password."
+msgstr "גיט דעם מיטל אַ נאָמען, למשל דעם נאָמען פֿון אײַער טעלעפֿאָן, און שאַפֿט זײַן פּאַראָל."
 
 #: ../../../lib/web/src/features/errors/general-error.tsx
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
@@ -1574,6 +1644,10 @@ msgstr "נומער"
 msgid "On"
 msgstr "אָן"
 
+#: src/features/help/devices.tsx
+msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connect device stops its password at once."
+msgstr "איין פּאַראָל דינט סײַ פֿאַר די קאָנטאַקטן סײַ פֿאַר די קאַלענדאַרן. יעדער מיטל באַקומט זײַן אייגענעם, און אַז מע נעמט אַראָפּ אַ מיטל אונטער פֿאַרבינדן אַ מיטל, הערט זײַן פּאַראָל תּיכּף אויף."
+
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
 msgstr "אױ! זײַטל ניט געפֿונען!"
@@ -1581,6 +1655,10 @@ msgstr "אױ! זײַטל ניט געפֿונען!"
 #: ../../../lib/web/src/components/layout/nav-group.tsx
 msgid "Open actions"
 msgstr "עפֿענען אַקציעס"
+
+#: src/features/help/devices.tsx
+msgid "Open Calendars or People and choose Connect device."
+msgstr "עפֿנט קאַלענדאַרן אָדער מענטשן און קלײַבט אויס פֿאַרבינדן אַ מיטל."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"
@@ -1729,6 +1807,10 @@ msgstr "אייגנשאַפֿטן"
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Push notification"
 msgstr "פּוש־מעלדונג"
+
+#: src/features/help/index.tsx
+msgid "Put your contacts and calendars on your phone, tablet or computer."
+msgstr "לייגט אײַערע קאָנטאַקטן און קאַלענדאַרן אויף אײַער טעלעפֿאָן, טאַבלעט אָדער קאָמפּיוטער."
 
 #: src/features/help/contribute-dialog.tsx
 msgid "Question"
@@ -2227,6 +2309,10 @@ msgstr "ביט איבער צו ראַם 1-9"
 msgid "System"
 msgstr "סיסטעם"
 
+#: src/features/help/devices.tsx
+msgid "System Settings, Internet Accounts, Add Other Account, then CardDAV Account for contacts or CalDAV Account for calendars."
+msgstr "סיסטעם־אײַנשטעלונגען, אינטערנעץ־קאָנטעס, צולייגן אַן אַנדער קאָנטע, און דערנאָך CardDAV קאָנטע פֿאַר קאָנטאַקטן אָדער CalDAV קאָנטע פֿאַר קאַלענדאַרן."
+
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Tag already exists"
 msgstr "טאַג עקזיסטירט שוין"
@@ -2283,6 +2369,10 @@ msgstr "די קאַמערע־בקשה איז נישט געענטפֿערט גע�
 msgid "The microphone request was not answered"
 msgstr "די מיקראָפֿאָן־בקשה איז נישט געענטפֿערט געוואָרן"
 
+#: src/features/help/devices.tsx
+msgid "The Mochi app shows your contacts and calendars itself. To put them into the phone's own Contacts and Calendar apps, use DAVx5."
+msgstr "די Mochi־אַפּליקאַציע ווײַזט אַליין אײַערע קאָנטאַקטן און קאַלענדאַרן. כּדי זיי אַרײַנצוטאָן אין די אייגענע קאָנטאַקטן־ און קאַלענדאַר־אַפּליקאַציעס פֿונעם טעלעפֿאָן, ניצט DAVx5."
+
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "The passkey request was not answered"
 msgstr "די פּאַסקיי־בקשה איז נישט געענטפֿערט געוואָרן"
@@ -2302,6 +2392,10 @@ msgstr "די אַפּ איז נישט דערלויבט צו נוצן דײַן פ
 #: ../../../lib/web/src/components/game/game-end-dialogs.tsx
 msgid "This permanently deletes the game and its chat. This cannot be undone."
 msgstr "דאָס וועט אויף שטענדיק אויסמעקן דעם שפּיל און זײַן טשאַט. מע קען דעם ניט מבֿטל מאַכן."
+
+#: src/features/help/devices.tsx
+msgid "Thunderbird"
+msgstr "Thunderbird"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Thursday"
@@ -2555,6 +2649,10 @@ msgstr "דיין קאנטע איז אהערגעברענגט ווארן פון {s
 #: ../../../lib/web/src/components/comment-composer.tsx
 msgid "Your attachments will be lost."
 msgstr "דײַנע צוגעלייגטע טעקעס וועלן פֿאַרלוירן גיין."
+
+#: src/features/help/devices.tsx
+msgid "Your contacts and calendars sync to your phone, tablet and computer over CardDAV and CalDAV, which every major contacts and calendar app speaks."
+msgstr "אײַערע קאָנטאַקטן און קאַלענדאַרן סינכראָניזירן זיך מיט אײַער טעלעפֿאָן, טאַבלעט און קאָמפּיוטער איבער CardDAV און CalDAV, וואָס יעדע וויכטיקע קאָנטאַקטן־ און קאַלענדאַר־אַפּליקאַציע פֿאַרשטייט."
 
 #: src/features/help/contribute-dialog.tsx
 msgid "Your introduction has been submitted and will appear after moderation."

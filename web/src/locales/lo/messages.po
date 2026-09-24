@@ -241,6 +241,10 @@ msgstr "ເກີດຂໍ້ຜິດພາດ"
 msgid "An unexpected error occurred"
 msgstr "ເກີດຂໍ້ຜິດພາດທີ່ບໍ່ຄາດຄິດ"
 
+#: src/features/help/devices.tsx
+msgid "Android"
+msgstr "Android"
+
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
 msgstr "ການແຈ້ງເຕືອນ Android"
@@ -491,6 +495,10 @@ msgstr "ເລືອກເກມຈາກແຖບຂ້າງ ຫຼື ເລ�
 msgid "Choose language"
 msgstr "ເລືອກພາສາ"
 
+#: src/features/help/devices.tsx
+msgid "Choose the account type Manual and enter the username, the password and the server address."
+msgstr "ເລືອກປະເພດບັນຊີເປັນ ດ້ວຍຕົນເອງ ແລ້ວປ້ອນຊື່ຜູ້ໃຊ້, ລະຫັດຜ່ານ ແລະ ທີ່ຢູ່ເຊີບເວີ."
+
 #: ../../../lib/web/src/components/banner-section.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
@@ -607,6 +615,11 @@ msgstr "ກຳນົດຄ່າການຕັ້ງຄ່າມຸມມອງ
 msgid "Confirm"
 msgstr "ຢືນຢັນ"
 
+#: src/features/help/devices.tsx
+#: src/features/help/index.tsx
+msgid "Connect your phone"
+msgstr "ເຊື່ອມຕໍ່ໂທລະສັບຂອງທ່ານ"
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connected"
 msgstr "ເຊື່ອມຕໍ່ແລ້ວ"
@@ -654,6 +667,10 @@ msgstr "ສຳເນົາໄປຄລິບບອດແລ້ວ"
 #: ../../../lib/web/src/components/ui/copy-button.tsx
 msgid "Copy"
 msgstr "ສຳເນົາ"
+
+#: src/features/help/devices.tsx
+msgid "Copy the server address, the username and the password into the device. The password is shown once."
+msgstr "ສຳເນົາທີ່ຢູ່ເຊີບເວີ, ຊື່ຜູ້ໃຊ້ ແລະ ລະຫັດຜ່ານໃສ່ອຸປະກອນ. ລະຫັດຜ່ານຈະສະແດງພຽງຄັ້ງດຽວ."
 
 #: ../../../lib/web/src/features/document/document-page.tsx
 msgid "Could not load this document. Please try again later."
@@ -729,6 +746,10 @@ msgstr "ຂໍ້ມູນຂັດແຍ່ງກັນ"
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Date"
 msgstr "ວັນທີ"
+
+#: src/features/help/devices.tsx
+msgid "DAVx5 finds both your address books and your calendars. Turn on the ones to sync."
+msgstr "DAVx5 ຈະພົບທັງປຶ້ມທີ່ຢູ່ ແລະ ປະຕິທິນຂອງທ່ານ. ເປີດລາຍການທີ່ຕ້ອງການຊິງຄ໌."
 
 #: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx
 msgid "Decline"
@@ -960,6 +981,18 @@ msgstr "ປ້ອນຂໍ້ຄວາມແບນເນີ (ຮອງຮັບ 
 msgid "Enter the code from your email"
 msgstr "ປ້ອນລະຫັດຈາກອີເມວຂອງທ່ານ"
 
+#: src/features/help/devices.tsx
+msgid "Enter the password when asked, and choose the address books and calendars to add."
+msgstr "ປ້ອນລະຫັດຜ່ານເມື່ອຖືກຖາມ ແລະ ເລືອກປຶ້ມທີ່ຢູ່ ແລະ ປະຕິທິນທີ່ຕ້ອງການເພີ່ມ."
+
+#: src/features/help/devices.tsx
+msgid "Enter the server address, the username and the password in each."
+msgstr "ປ້ອນທີ່ຢູ່ເຊີບເວີ, ຊື່ຜູ້ໃຊ້ ແລະ ລະຫັດຜ່ານໃນແຕ່ລະບັນຊີ."
+
+#: src/features/help/devices.tsx
+msgid "Enter the server address, the username and the password."
+msgstr "ປ້ອນທີ່ຢູ່ເຊີບເວີ, ຊື່ຜູ້ໃຊ້ ແລະ ລະຫັດຜ່ານ."
+
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Enter your authenticator code"
 msgstr "ໃສ່ລະຫັດ authenticator ຂອງທ່ານ"
@@ -1112,6 +1145,22 @@ msgstr "ທຸງ"
 msgid "Flat"
 msgstr "ຮາບພຽງ"
 
+#: src/features/help/devices.tsx
+msgid "For calendars: Calendar, New Calendar, On the Network, with the username and the server address."
+msgstr "ສຳລັບປະຕິທິນ: ປະຕິທິນ, ປະຕິທິນໃໝ່, ຢູ່ໃນເຄືອຂ່າຍ, ພ້ອມຊື່ຜູ້ໃຊ້ ແລະ ທີ່ຢູ່ເຊີບເວີ."
+
+#: src/features/help/devices.tsx
+msgid "For calendars: Settings, Calendar, Accounts, Add Account, Other, Add CalDAV Account."
+msgstr "ສຳລັບປະຕິທິນ: ການຕັ້ງຄ່າ, ປະຕິທິນ, ບັນຊີ, ເພີ່ມບັນຊີ, ອື່ນໆ, ເພີ່ມບັນຊີ CalDAV."
+
+#: src/features/help/devices.tsx
+msgid "For contacts: Address Book, New Address Book, Add CardDAV Address Book, with the username and the server address."
+msgstr "ສຳລັບຜູ້ຕິດຕໍ່: ປຶ້ມທີ່ຢູ່, ປຶ້ມທີ່ຢູ່ໃໝ່, ເພີ່ມປຶ້ມທີ່ຢູ່ CardDAV, ພ້ອມຊື່ຜູ້ໃຊ້ ແລະ ທີ່ຢູ່ເຊີບເວີ."
+
+#: src/features/help/devices.tsx
+msgid "For contacts: Settings, Contacts, Accounts, Add Account, Other, Add CardDAV Account."
+msgstr "ສຳລັບຜູ້ຕິດຕໍ່: ການຕັ້ງຄ່າ, ລາຍຊື່ຜູ້ຕິດຕໍ່, ບັນຊີ, ເພີ່ມບັນຊີ, ອື່ນໆ, ເພີ່ມບັນຊີ CardDAV."
+
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Friday"
 msgstr "ວັນສຸກ"
@@ -1131,6 +1180,10 @@ msgstr "ຈາກ"
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "From theme"
 msgstr "ຈາກຮູບແບບ"
+
+#: src/features/help/devices.tsx
+msgid "Get a password for the device"
+msgstr "ຮັບລະຫັດຜ່ານສຳລັບອຸປະກອນ"
 
 #: ../../../lib/web/src/features/errors/access-denied-error.tsx
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
@@ -1158,6 +1211,7 @@ msgstr "ຈັດກຸ່ມຕາມ"
 msgid "Group: {0}"
 msgstr "ກຸ່ມ: {0}"
 
+#: src/features/help/devices.tsx
 #: src/features/help/index.tsx
 #: src/routes/_authenticated/document/privacy.tsx
 #: src/routes/_authenticated/document/rules.tsx
@@ -1210,6 +1264,10 @@ msgstr "ອະວາຕາຕົວອັກສອນຫຍໍ້"
 msgid "Initials avatar for {name}"
 msgstr "ອະວາຕາຕົວອັກສອນຫຍໍ້ສຳລັບ {name}"
 
+#: src/features/help/devices.tsx
+msgid "Install DAVx5 and add an account with \"Login with URL and user name\"."
+msgstr "ຕິດຕັ້ງ DAVx5 ແລະ ເພີ່ມບັນຊີດ້ວຍ \"ເຂົ້າສູ່ລະບົບດ້ວຍ URL ແລະ ຊື່ຜູ້ໃຊ້\"."
+
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Interest {weight}"
 msgstr "ຄວາມສົນໃຈ {weight}"
@@ -1226,6 +1284,10 @@ msgstr "ແນະນຳຕົວ"
 #: ../../../lib/web/src/components/entity/entity-field-editor.tsx
 msgid "Invalid date"
 msgstr "ວັນທີ່ບໍ່ຖືກຕ້ອງ"
+
+#: src/features/help/devices.tsx
+msgid "iPhone and iPad"
+msgstr "iPhone ແລະ iPad"
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "It seems like the page you're looking for <0/>does not exist or might have been removed."
@@ -1313,6 +1375,10 @@ msgstr "ອອກຈາກລະບົບສຳເລັດແລ້ວ"
 #: ../../../lib/web/src/components/sign-out-dialog.tsx
 msgid "Logging out…"
 msgstr "ກຳລັງອອກຈາກລະບົບ…"
+
+#: src/features/help/devices.tsx
+msgid "Mac"
+msgstr "Mac"
 
 #: ../../../lib/web/src/components/notification-category-button.tsx
 msgid "Manage categories"
@@ -1417,6 +1483,10 @@ msgstr "ຕ້ອງການຊື່"
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Name must be 1000 characters or less"
 msgstr "ຊື່ຕ້ອງມີ 1000 ຕົວອັກສອນຫຼືໜ້ອຍກວ່າ"
+
+#: src/features/help/devices.tsx
+msgid "Name the device, for example your phone's name, and create its password."
+msgstr "ຕັ້ງຊື່ອຸປະກອນ ເຊັ່ນ ຊື່ໂທລະສັບຂອງທ່ານ ແລ້ວສ້າງລະຫັດຜ່ານຂອງມັນ."
 
 #: ../../../lib/web/src/features/errors/general-error.tsx
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
@@ -1574,6 +1644,10 @@ msgstr "ຕົວເລກ"
 msgid "On"
 msgstr "ເປີດ"
 
+#: src/features/help/devices.tsx
+msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connect device stops its password at once."
+msgstr "ລະຫັດຜ່ານດຽວໃຊ້ໄດ້ທັງຜູ້ຕິດຕໍ່ ແລະ ປະຕິທິນ. ແຕ່ລະອຸປະກອນຈະມີລະຫັດຜ່ານຂອງຕົນເອງ ແລະ ເມື່ອລຶບອຸປະກອນໃນ ເຊື່ອມຕໍ່ອຸປະກອນ ລະຫັດຜ່ານຂອງມັນຈະໃຊ້ບໍ່ໄດ້ທັນທີ."
+
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
 msgstr "ອຸບຍ! ບໍ່ພົບໜ້າ!"
@@ -1581,6 +1655,10 @@ msgstr "ອຸບຍ! ບໍ່ພົບໜ້າ!"
 #: ../../../lib/web/src/components/layout/nav-group.tsx
 msgid "Open actions"
 msgstr "ເປີດການກະທຳ"
+
+#: src/features/help/devices.tsx
+msgid "Open Calendars or People and choose Connect device."
+msgstr "ເປີດ ປະຕິທິນ ຫຼື ຄົນ ແລ້ວເລືອກ ເຊື່ອມຕໍ່ອຸປະກອນ."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"
@@ -1729,6 +1807,10 @@ msgstr "ຄຸນສົມບັດ"
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Push notification"
 msgstr "ການແຈ້ງເຕືອນ push"
+
+#: src/features/help/index.tsx
+msgid "Put your contacts and calendars on your phone, tablet or computer."
+msgstr "ເອົາຜູ້ຕິດຕໍ່ ແລະ ປະຕິທິນຂອງທ່ານໃສ່ໂທລະສັບ, ແທັບເລັດ ຫຼື ຄອມພິວເຕີ."
 
 #: src/features/help/contribute-dialog.tsx
 msgid "Question"
@@ -2227,6 +2309,10 @@ msgstr "ສະຫຼັບໄປເບິ່ງ 1-9"
 msgid "System"
 msgstr "ລະບົບ"
 
+#: src/features/help/devices.tsx
+msgid "System Settings, Internet Accounts, Add Other Account, then CardDAV Account for contacts or CalDAV Account for calendars."
+msgstr "ການຕັ້ງຄ່າລະບົບ, ບັນຊີອິນເຕີເນັດ, ເພີ່ມບັນຊີອື່ນ, ຈາກນັ້ນບັນຊີ CardDAV ສຳລັບຜູ້ຕິດຕໍ່ ຫຼື ບັນຊີ CalDAV ສຳລັບປະຕິທິນ."
+
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Tag already exists"
 msgstr "Tag ມີຢູ່ແລ້ວ"
@@ -2283,6 +2369,10 @@ msgstr "ຄຳຮ້ອງຂໍກ້ອງບໍ່ໄດ້ຮັບການ
 msgid "The microphone request was not answered"
 msgstr "ຄຳຮ້ອງຂໍໄມໂຄຣໂຟນບໍ່ໄດ້ຮັບການຕອບ"
 
+#: src/features/help/devices.tsx
+msgid "The Mochi app shows your contacts and calendars itself. To put them into the phone's own Contacts and Calendar apps, use DAVx5."
+msgstr "ແອັບ Mochi ສະແດງຜູ້ຕິດຕໍ່ ແລະ ປະຕິທິນຂອງທ່ານຢູ່ແລ້ວ. ຫາກຕ້ອງການນຳເຂົ້າໄປໃນແອັບລາຍຊື່ຜູ້ຕິດຕໍ່ ແລະ ປະຕິທິນຂອງໂທລະສັບເອງ ໃຫ້ໃຊ້ DAVx5."
+
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "The passkey request was not answered"
 msgstr "ຄຳຮ້ອງຂໍ passkey ບໍ່ໄດ້ຮັບການຕອບ"
@@ -2302,6 +2392,10 @@ msgstr "ແອັບນີ້ບໍ່ໄດ້ຮັບອະນຸຍາດໃ
 #: ../../../lib/web/src/components/game/game-end-dialogs.tsx
 msgid "This permanently deletes the game and its chat. This cannot be undone."
 msgstr "ການດຳເນີນການນີ້ຈະລົບເກມ ແລະ ການສົນທະນາຂອງມັນຖາວອນ. ບໍ່ສາມາດຍົກເລີກການດຳເນີນການນີ້ໄດ້."
+
+#: src/features/help/devices.tsx
+msgid "Thunderbird"
+msgstr "Thunderbird"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Thursday"
@@ -2555,6 +2649,10 @@ msgstr "ບັນຊີຂອງທ່ານໄດ້ຍ້າຍມາທີ່
 #: ../../../lib/web/src/components/comment-composer.tsx
 msgid "Your attachments will be lost."
 msgstr "ໄຟລ໌ແນບຂອງທ່ານຈະສູນຫາຍ."
+
+#: src/features/help/devices.tsx
+msgid "Your contacts and calendars sync to your phone, tablet and computer over CardDAV and CalDAV, which every major contacts and calendar app speaks."
+msgstr "ຜູ້ຕິດຕໍ່ ແລະ ປະຕິທິນຂອງທ່ານຈະຊິງຄ໌ໄປຫາໂທລະສັບ, ແທັບເລັດ ແລະ ຄອມພິວເຕີຜ່ານ CardDAV ແລະ CalDAV ເຊິ່ງແອັບຜູ້ຕິດຕໍ່ ແລະ ປະຕິທິນຫຼັກທຸກແອັບຮອງຮັບ."
 
 #: src/features/help/contribute-dialog.tsx
 msgid "Your introduction has been submitted and will appear after moderation."

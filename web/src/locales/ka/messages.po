@@ -241,6 +241,10 @@ msgstr "მოხდა შეცდომა"
 msgid "An unexpected error occurred"
 msgstr "მოხდა მოულოდნელი შეცდომა"
 
+#: src/features/help/devices.tsx
+msgid "Android"
+msgstr "Android"
+
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
 msgstr "Android push შეტყობინება"
@@ -491,6 +495,10 @@ msgstr "აირჩიეთ თამაში გვერდითა პა
 msgid "Choose language"
 msgstr "აირჩიეთ ენა"
 
+#: src/features/help/devices.tsx
+msgid "Choose the account type Manual and enter the username, the password and the server address."
+msgstr "აირჩიეთ ანგარიშის ტიპი „ხელით“ და შეიყვანეთ მომხმარებლის სახელი, პაროლი და სერვერის მისამართი."
+
 #: ../../../lib/web/src/components/banner-section.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
@@ -607,6 +615,11 @@ msgstr "ხედის პარამეტრების კონფიგ�
 msgid "Confirm"
 msgstr "დადასტურება"
 
+#: src/features/help/devices.tsx
+#: src/features/help/index.tsx
+msgid "Connect your phone"
+msgstr "დააკავშირეთ თქვენი ტელეფონი"
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connected"
 msgstr "დაკავშირებულია"
@@ -654,6 +667,10 @@ msgstr "ბუფერში დაკოპირდა"
 #: ../../../lib/web/src/components/ui/copy-button.tsx
 msgid "Copy"
 msgstr "კოპირება"
+
+#: src/features/help/devices.tsx
+msgid "Copy the server address, the username and the password into the device. The password is shown once."
+msgstr "დააკოპირეთ სერვერის მისამართი, მომხმარებლის სახელი და პაროლი მოწყობილობაში. პაროლი მხოლოდ ერთხელ ჩანს."
 
 #: ../../../lib/web/src/features/document/document-page.tsx
 msgid "Could not load this document. Please try again later."
@@ -729,6 +746,10 @@ msgstr "მონაცემთა კონფლიქტი"
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Date"
 msgstr "თარიღი"
+
+#: src/features/help/devices.tsx
+msgid "DAVx5 finds both your address books and your calendars. Turn on the ones to sync."
+msgstr "DAVx5 პოულობს როგორც თქვენს მისამართების წიგნებს, ისე კალენდრებს. ჩართეთ ის, რისი სინქრონიზებაც გსურთ."
 
 #: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx
 msgid "Decline"
@@ -960,6 +981,18 @@ msgstr "შეიყვანეთ ბანერის ტექსტი (ma
 msgid "Enter the code from your email"
 msgstr "შეიყვანეთ კოდი თქვენი ელფოსტიდან"
 
+#: src/features/help/devices.tsx
+msgid "Enter the password when asked, and choose the address books and calendars to add."
+msgstr "მოთხოვნისას შეიყვანეთ პაროლი და აირჩიეთ დასამატებელი მისამართების წიგნები და კალენდრები."
+
+#: src/features/help/devices.tsx
+msgid "Enter the server address, the username and the password in each."
+msgstr "თითოეულში შეიყვანეთ სერვერის მისამართი, მომხმარებლის სახელი და პაროლი."
+
+#: src/features/help/devices.tsx
+msgid "Enter the server address, the username and the password."
+msgstr "შეიყვანეთ სერვერის მისამართი, მომხმარებლის სახელი და პაროლი."
+
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Enter your authenticator code"
 msgstr "შეიყვანეთ თქვენი authenticator-ის კოდი"
@@ -1112,6 +1145,22 @@ msgstr "დროშები"
 msgid "Flat"
 msgstr "ბრტყელი"
 
+#: src/features/help/devices.tsx
+msgid "For calendars: Calendar, New Calendar, On the Network, with the username and the server address."
+msgstr "კალენდრებისთვის: კალენდარი, ახალი კალენდარი, ქსელში, მომხმარებლის სახელითა და სერვერის მისამართით."
+
+#: src/features/help/devices.tsx
+msgid "For calendars: Settings, Calendar, Accounts, Add Account, Other, Add CalDAV Account."
+msgstr "კალენდრებისთვის: პარამეტრები, კალენდარი, ანგარიშები, ანგარიშის დამატება, სხვა, CalDAV ანგარიშის დამატება."
+
+#: src/features/help/devices.tsx
+msgid "For contacts: Address Book, New Address Book, Add CardDAV Address Book, with the username and the server address."
+msgstr "კონტაქტებისთვის: მისამართების წიგნი, ახალი მისამართების წიგნი, CardDAV მისამართების წიგნის დამატება, მომხმარებლის სახელითა და სერვერის მისამართით."
+
+#: src/features/help/devices.tsx
+msgid "For contacts: Settings, Contacts, Accounts, Add Account, Other, Add CardDAV Account."
+msgstr "კონტაქტებისთვის: პარამეტრები, კონტაქტები, ანგარიშები, ანგარიშის დამატება, სხვა, CardDAV ანგარიშის დამატება."
+
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Friday"
 msgstr "პარასკევი"
@@ -1131,6 +1180,10 @@ msgstr "ვისგან"
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "From theme"
 msgstr "თემიდან"
+
+#: src/features/help/devices.tsx
+msgid "Get a password for the device"
+msgstr "მიიღეთ პაროლი მოწყობილობისთვის"
 
 #: ../../../lib/web/src/features/errors/access-denied-error.tsx
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
@@ -1158,6 +1211,7 @@ msgstr "დაჯგუფება"
 msgid "Group: {0}"
 msgstr "ჯგუფი: {0}"
 
+#: src/features/help/devices.tsx
 #: src/features/help/index.tsx
 #: src/routes/_authenticated/document/privacy.tsx
 #: src/routes/_authenticated/document/rules.tsx
@@ -1210,6 +1264,10 @@ msgstr "ინიციალების ავატარი"
 msgid "Initials avatar for {name}"
 msgstr "{name}-ის ინიციალების ავატარი"
 
+#: src/features/help/devices.tsx
+msgid "Install DAVx5 and add an account with \"Login with URL and user name\"."
+msgstr "დააინსტალირეთ DAVx5 და დაამატეთ ანგარიში „შესვლა URL-ითა და მომხმარებლის სახელით“ საშუალებით."
+
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Interest {weight}"
 msgstr "ინტერესი {weight}"
@@ -1226,6 +1284,10 @@ msgstr "წარადგინეთ თავი"
 #: ../../../lib/web/src/components/entity/entity-field-editor.tsx
 msgid "Invalid date"
 msgstr "არასწორი თარიღი"
+
+#: src/features/help/devices.tsx
+msgid "iPhone and iPad"
+msgstr "iPhone და iPad"
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "It seems like the page you're looking for <0/>does not exist or might have been removed."
@@ -1313,6 +1375,10 @@ msgstr "წარმატებით გავიდა"
 #: ../../../lib/web/src/components/sign-out-dialog.tsx
 msgid "Logging out…"
 msgstr "გასვლა…"
+
+#: src/features/help/devices.tsx
+msgid "Mac"
+msgstr "Mac"
 
 #: ../../../lib/web/src/components/notification-category-button.tsx
 msgid "Manage categories"
@@ -1417,6 +1483,10 @@ msgstr "სახელი აუცილებელია"
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Name must be 1000 characters or less"
 msgstr "სახელი უნდა იყოს 1000 სიმბოლო ან ნაკლები"
+
+#: src/features/help/devices.tsx
+msgid "Name the device, for example your phone's name, and create its password."
+msgstr "დაარქვით მოწყობილობას სახელი, მაგალითად თქვენი ტელეფონის სახელი, და შექმენით მისი პაროლი."
 
 #: ../../../lib/web/src/features/errors/general-error.tsx
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
@@ -1574,6 +1644,10 @@ msgstr "ნომერი"
 msgid "On"
 msgstr "ჩართული"
 
+#: src/features/help/devices.tsx
+msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connect device stops its password at once."
+msgstr "ერთი პაროლი ემსახურება როგორც კონტაქტებს, ისე კალენდრებს. თითოეულ მოწყობილობას თავისი აქვს, ხოლო მოწყობილობის წაშლა განყოფილებაში „მოწყობილობის დაკავშირება“ მაშინვე აუქმებს მის პაროლს."
+
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
 msgstr "უპს! გვერდი ვერ მოიძებნა!"
@@ -1581,6 +1655,10 @@ msgstr "უპს! გვერდი ვერ მოიძებნა!"
 #: ../../../lib/web/src/components/layout/nav-group.tsx
 msgid "Open actions"
 msgstr "მოქმედებების გახსნა"
+
+#: src/features/help/devices.tsx
+msgid "Open Calendars or People and choose Connect device."
+msgstr "გახსენით კალენდრები ან ხალხი და აირჩიეთ „მოწყობილობის დაკავშირება“."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"
@@ -1729,6 +1807,10 @@ msgstr "თვისებები"
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Push notification"
 msgstr "Push შეტყობინება"
+
+#: src/features/help/index.tsx
+msgid "Put your contacts and calendars on your phone, tablet or computer."
+msgstr "გადაიტანეთ თქვენი კონტაქტები და კალენდრები ტელეფონზე, ტაბლეტზე ან კომპიუტერზე."
 
 #: src/features/help/contribute-dialog.tsx
 msgid "Question"
@@ -2227,6 +2309,10 @@ msgstr "გადართვა 1-9 ხედზე"
 msgid "System"
 msgstr "სისტემა"
 
+#: src/features/help/devices.tsx
+msgid "System Settings, Internet Accounts, Add Other Account, then CardDAV Account for contacts or CalDAV Account for calendars."
+msgstr "სისტემის პარამეტრები, ინტერნეტ-ანგარიშები, სხვა ანგარიშის დამატება, შემდეგ CardDAV ანგარიში კონტაქტებისთვის ან CalDAV ანგარიში კალენდრებისთვის."
+
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Tag already exists"
 msgstr "ტეგი უკვე არსებობს"
@@ -2283,6 +2369,10 @@ msgstr "კამერის მოთხოვნას პასუხი ა
 msgid "The microphone request was not answered"
 msgstr "მიკროფონის მოთხოვნას პასუხი არ მოჰყვა"
 
+#: src/features/help/devices.tsx
+msgid "The Mochi app shows your contacts and calendars itself. To put them into the phone's own Contacts and Calendar apps, use DAVx5."
+msgstr "Mochi-ის აპი თავად აჩვენებს თქვენს კონტაქტებსა და კალენდრებს. იმისათვის, რომ ისინი ტელეფონის საკუთარ კონტაქტებისა და კალენდრის აპებში მოხვდეს, გამოიყენეთ DAVx5."
+
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "The passkey request was not answered"
 msgstr "Passkey-ის მოთხოვნას პასუხი არ მოჰყვა"
@@ -2302,6 +2392,10 @@ msgstr "ამ აპლიკაციას თქვენი passkey-ის 
 #: ../../../lib/web/src/components/game/game-end-dialogs.tsx
 msgid "This permanently deletes the game and its chat. This cannot be undone."
 msgstr "ეს სამუდამოდ წაშლის თამაშსა და მის ჩატს. ამ მოქმედების გაუქმება შეუძლებელია."
+
+#: src/features/help/devices.tsx
+msgid "Thunderbird"
+msgstr "Thunderbird"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Thursday"
@@ -2555,6 +2649,10 @@ msgstr "თქვენი ანგარიში გადმოტანი�
 #: ../../../lib/web/src/components/comment-composer.tsx
 msgid "Your attachments will be lost."
 msgstr "თქვენი დანართები დაიკარგება."
+
+#: src/features/help/devices.tsx
+msgid "Your contacts and calendars sync to your phone, tablet and computer over CardDAV and CalDAV, which every major contacts and calendar app speaks."
+msgstr "თქვენი კონტაქტები და კალენდრები სინქრონიზდება ტელეფონთან, ტაბლეტთან და კომპიუტერთან CardDAV-ისა და CalDAV-ის საშუალებით, რომლებსაც კონტაქტებისა და კალენდრის ყველა ძირითადი აპი იგებს."
 
 #: src/features/help/contribute-dialog.tsx
 msgid "Your introduction has been submitted and will appear after moderation."

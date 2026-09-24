@@ -241,6 +241,10 @@ msgstr "Hitilafu imetokea"
 msgid "An unexpected error occurred"
 msgstr "Hitilafu isiyotarajiwa imetokea"
 
+#: src/features/help/devices.tsx
+msgid "Android"
+msgstr "Android"
+
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
 msgstr "Push ya Android"
@@ -491,6 +495,10 @@ msgstr "Chagua mchezo kutoka upau wa pembeni au anzisha mpya."
 msgid "Choose language"
 msgstr "Chagua lugha"
 
+#: src/features/help/devices.tsx
+msgid "Choose the account type Manual and enter the username, the password and the server address."
+msgstr "Chagua aina ya akaunti ya Kwa mkono kisha weka jina la mtumiaji, nenosiri na anwani ya seva."
+
 #: ../../../lib/web/src/components/banner-section.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
@@ -607,6 +615,11 @@ msgstr "Sanidi mipangilio ya mwonekano"
 msgid "Confirm"
 msgstr "Thibitisha"
 
+#: src/features/help/devices.tsx
+#: src/features/help/index.tsx
+msgid "Connect your phone"
+msgstr "Unganisha simu yako"
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connected"
 msgstr "Imeunganishwa"
@@ -654,6 +667,10 @@ msgstr "Imenakiliwa kwenye ubao wa kunakili"
 #: ../../../lib/web/src/components/ui/copy-button.tsx
 msgid "Copy"
 msgstr "Nakili"
+
+#: src/features/help/devices.tsx
+msgid "Copy the server address, the username and the password into the device. The password is shown once."
+msgstr "Nakili anwani ya seva, jina la mtumiaji na nenosiri kwenye kifaa. Nenosiri huonyeshwa mara moja tu."
 
 #: ../../../lib/web/src/features/document/document-page.tsx
 msgid "Could not load this document. Please try again later."
@@ -729,6 +746,10 @@ msgstr "Mgongano wa data"
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Date"
 msgstr "Tarehe"
+
+#: src/features/help/devices.tsx
+msgid "DAVx5 finds both your address books and your calendars. Turn on the ones to sync."
+msgstr "DAVx5 hupata vitabu vyako vya anwani pamoja na kalenda zako. Washa zile unazotaka kusawazisha."
 
 #: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx
 msgid "Decline"
@@ -960,6 +981,18 @@ msgstr "Ingiza maandishi ya bango (markdown inakubaliwa)..."
 msgid "Enter the code from your email"
 msgstr "Weka msimbo kutoka kwa barua pepe yako"
 
+#: src/features/help/devices.tsx
+msgid "Enter the password when asked, and choose the address books and calendars to add."
+msgstr "Weka nenosiri unapoombwa, kisha chagua vitabu vya anwani na kalenda za kuongeza."
+
+#: src/features/help/devices.tsx
+msgid "Enter the server address, the username and the password in each."
+msgstr "Weka anwani ya seva, jina la mtumiaji na nenosiri katika kila kimoja."
+
+#: src/features/help/devices.tsx
+msgid "Enter the server address, the username and the password."
+msgstr "Weka anwani ya seva, jina la mtumiaji na nenosiri."
+
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Enter your authenticator code"
 msgstr "Weka msimbo wako wa kithibitishaji"
@@ -1112,6 +1145,22 @@ msgstr "Alama"
 msgid "Flat"
 msgstr "Tambarare"
 
+#: src/features/help/devices.tsx
+msgid "For calendars: Calendar, New Calendar, On the Network, with the username and the server address."
+msgstr "Kwa kalenda: Kalenda, Kalenda Mpya, Kwenye Mtandao, pamoja na jina la mtumiaji na anwani ya seva."
+
+#: src/features/help/devices.tsx
+msgid "For calendars: Settings, Calendar, Accounts, Add Account, Other, Add CalDAV Account."
+msgstr "Kwa kalenda: Mipangilio, Kalenda, Akaunti, Ongeza Akaunti, Nyingine, Ongeza Akaunti ya CalDAV."
+
+#: src/features/help/devices.tsx
+msgid "For contacts: Address Book, New Address Book, Add CardDAV Address Book, with the username and the server address."
+msgstr "Kwa anwani: Kitabu cha Anwani, Kitabu Kipya cha Anwani, Ongeza Kitabu cha Anwani cha CardDAV, pamoja na jina la mtumiaji na anwani ya seva."
+
+#: src/features/help/devices.tsx
+msgid "For contacts: Settings, Contacts, Accounts, Add Account, Other, Add CardDAV Account."
+msgstr "Kwa anwani: Mipangilio, Anwani, Akaunti, Ongeza Akaunti, Nyingine, Ongeza Akaunti ya CardDAV."
+
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Friday"
 msgstr "Ijumaa"
@@ -1131,6 +1180,10 @@ msgstr "Kutoka"
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "From theme"
 msgstr "Kutoka mandhari"
+
+#: src/features/help/devices.tsx
+msgid "Get a password for the device"
+msgstr "Pata nenosiri kwa ajili ya kifaa"
 
 #: ../../../lib/web/src/features/errors/access-denied-error.tsx
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
@@ -1158,6 +1211,7 @@ msgstr "Panga kwa makundi"
 msgid "Group: {0}"
 msgstr "Kikundi: {0}"
 
+#: src/features/help/devices.tsx
 #: src/features/help/index.tsx
 #: src/routes/_authenticated/document/privacy.tsx
 #: src/routes/_authenticated/document/rules.tsx
@@ -1210,6 +1264,10 @@ msgstr "Avatar ya herufi za kwanza"
 msgid "Initials avatar for {name}"
 msgstr "Avatar ya herufi za kwanza ya {name}"
 
+#: src/features/help/devices.tsx
+msgid "Install DAVx5 and add an account with \"Login with URL and user name\"."
+msgstr "Sakinisha DAVx5 kisha ongeza akaunti kwa \"Ingia kwa URL na jina la mtumiaji\"."
+
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Interest {weight}"
 msgstr "Shauku {weight}"
@@ -1226,6 +1284,10 @@ msgstr "Jitambulishe"
 #: ../../../lib/web/src/components/entity/entity-field-editor.tsx
 msgid "Invalid date"
 msgstr "Tarehe batili"
+
+#: src/features/help/devices.tsx
+msgid "iPhone and iPad"
+msgstr "iPhone na iPad"
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "It seems like the page you're looking for <0/>does not exist or might have been removed."
@@ -1313,6 +1375,10 @@ msgstr "Umetoka kwa ufanisi"
 #: ../../../lib/web/src/components/sign-out-dialog.tsx
 msgid "Logging out…"
 msgstr "Inatoka…"
+
+#: src/features/help/devices.tsx
+msgid "Mac"
+msgstr "Mac"
 
 #: ../../../lib/web/src/components/notification-category-button.tsx
 msgid "Manage categories"
@@ -1417,6 +1483,10 @@ msgstr "Jina linahitajika"
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Name must be 1000 characters or less"
 msgstr "Jina lazima liwe na herufi 1000 au chini"
+
+#: src/features/help/devices.tsx
+msgid "Name the device, for example your phone's name, and create its password."
+msgstr "Kipe kifaa jina, kwa mfano jina la simu yako, kisha tengeneza nenosiri lake."
 
 #: ../../../lib/web/src/features/errors/general-error.tsx
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
@@ -1574,6 +1644,10 @@ msgstr "Nambari"
 msgid "On"
 msgstr "Imewashwa"
 
+#: src/features/help/devices.tsx
+msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connect device stops its password at once."
+msgstr "Nenosiri moja hutumika kwa anwani na kalenda vilevile. Kila kifaa hupata lake, na kuondoa kifaa chini ya Unganisha kifaa husimamisha nenosiri lake papo hapo."
+
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
 msgstr "Lo! Ukurasa Haukupatikana!"
@@ -1581,6 +1655,10 @@ msgstr "Lo! Ukurasa Haukupatikana!"
 #: ../../../lib/web/src/components/layout/nav-group.tsx
 msgid "Open actions"
 msgstr "Fungua vitendo"
+
+#: src/features/help/devices.tsx
+msgid "Open Calendars or People and choose Connect device."
+msgstr "Fungua Kalenda au Watu kisha chagua Unganisha kifaa."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"
@@ -1729,6 +1807,10 @@ msgstr "Sifa"
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Push notification"
 msgstr "Arifa ya push"
+
+#: src/features/help/index.tsx
+msgid "Put your contacts and calendars on your phone, tablet or computer."
+msgstr "Weka anwani na kalenda zako kwenye simu, kompyuta kibao au kompyuta yako."
 
 #: src/features/help/contribute-dialog.tsx
 msgid "Question"
@@ -2227,6 +2309,10 @@ msgstr "Badilisha kwa mwonekano 1-9"
 msgid "System"
 msgstr "Mfumo"
 
+#: src/features/help/devices.tsx
+msgid "System Settings, Internet Accounts, Add Other Account, then CardDAV Account for contacts or CalDAV Account for calendars."
+msgstr "Mipangilio ya Mfumo, Akaunti za Intaneti, Ongeza Akaunti Nyingine, kisha Akaunti ya CardDAV kwa anwani au Akaunti ya CalDAV kwa kalenda."
+
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Tag already exists"
 msgstr "Lebo tayari ipo"
@@ -2283,6 +2369,10 @@ msgstr "Ombi la kamera halikujibiwa"
 msgid "The microphone request was not answered"
 msgstr "Ombi la maikrofoni halikujibiwa"
 
+#: src/features/help/devices.tsx
+msgid "The Mochi app shows your contacts and calendars itself. To put them into the phone's own Contacts and Calendar apps, use DAVx5."
+msgstr "Programu ya Mochi yenyewe huonyesha anwani na kalenda zako. Ili kuziweka kwenye programu za Anwani na Kalenda za simu yenyewe, tumia DAVx5."
+
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "The passkey request was not answered"
 msgstr "Ombi la passkey halikujibiwa"
@@ -2302,6 +2392,10 @@ msgstr "Programu hii hairuhusiwi kutumia passkey yako. Iruhusu katika Mipangilio
 #: ../../../lib/web/src/components/game/game-end-dialogs.tsx
 msgid "This permanently deletes the game and its chat. This cannot be undone."
 msgstr "Hatua hii itafuta mchezo na mazungumzo yake kabisa. Hatua hii haiwezi kutenduliwa."
+
+#: src/features/help/devices.tsx
+msgid "Thunderbird"
+msgstr "Thunderbird"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Thursday"
@@ -2555,6 +2649,10 @@ msgstr "Akaunti yako ilihamishiwa hapa kutoka {source}. Mpaka uifute hapo, ujumb
 #: ../../../lib/web/src/components/comment-composer.tsx
 msgid "Your attachments will be lost."
 msgstr "Viambatisho vyako vitapotea."
+
+#: src/features/help/devices.tsx
+msgid "Your contacts and calendars sync to your phone, tablet and computer over CardDAV and CalDAV, which every major contacts and calendar app speaks."
+msgstr "Anwani na kalenda zako husawazishwa na simu, kompyuta kibao na kompyuta yako kupitia CardDAV na CalDAV, ambazo kila programu kuu ya anwani na kalenda huzielewa."
 
 #: src/features/help/contribute-dialog.tsx
 msgid "Your introduction has been submitted and will appear after moderation."

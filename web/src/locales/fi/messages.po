@@ -241,6 +241,10 @@ msgstr "Tapahtui virhe"
 msgid "An unexpected error occurred"
 msgstr "Tapahtui odottamaton virhe"
 
+#: src/features/help/devices.tsx
+msgid "Android"
+msgstr "Android"
+
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
 msgstr "Android-push"
@@ -491,6 +495,10 @@ msgstr "Valitse peli sivupalkista tai aloita uusi."
 msgid "Choose language"
 msgstr "Valitse kieli"
 
+#: src/features/help/devices.tsx
+msgid "Choose the account type Manual and enter the username, the password and the server address."
+msgstr "Valitse tilin tyypiksi Manuaalinen ja anna käyttäjätunnus, salasana ja palvelimen osoite."
+
 #: ../../../lib/web/src/components/banner-section.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
@@ -607,6 +615,11 @@ msgstr "Määritä näkymän asetukset"
 msgid "Confirm"
 msgstr "Vahvista"
 
+#: src/features/help/devices.tsx
+#: src/features/help/index.tsx
+msgid "Connect your phone"
+msgstr "Yhdistä puhelimesi"
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connected"
 msgstr "Yhdistetty"
@@ -654,6 +667,10 @@ msgstr "Kopioitu leikepöydälle"
 #: ../../../lib/web/src/components/ui/copy-button.tsx
 msgid "Copy"
 msgstr "Kopioi"
+
+#: src/features/help/devices.tsx
+msgid "Copy the server address, the username and the password into the device. The password is shown once."
+msgstr "Kopioi palvelimen osoite, käyttäjätunnus ja salasana laitteeseen. Salasana näytetään vain kerran."
 
 #: ../../../lib/web/src/features/document/document-page.tsx
 msgid "Could not load this document. Please try again later."
@@ -729,6 +746,10 @@ msgstr "Tietoristiriita"
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Date"
 msgstr "Päivämäärä"
+
+#: src/features/help/devices.tsx
+msgid "DAVx5 finds both your address books and your calendars. Turn on the ones to sync."
+msgstr "DAVx5 löytää sekä osoitekirjasi että kalenterisi. Ota käyttöön ne, jotka haluat synkronoida."
 
 #: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx
 msgid "Decline"
@@ -960,6 +981,18 @@ msgstr "Anna bannerin teksti (markdown tuettu)..."
 msgid "Enter the code from your email"
 msgstr "Anna sähköpostiisi saamasi koodi"
 
+#: src/features/help/devices.tsx
+msgid "Enter the password when asked, and choose the address books and calendars to add."
+msgstr "Anna salasana, kun sitä kysytään, ja valitse lisättävät osoitekirjat ja kalenterit."
+
+#: src/features/help/devices.tsx
+msgid "Enter the server address, the username and the password in each."
+msgstr "Anna kuhunkin palvelimen osoite, käyttäjätunnus ja salasana."
+
+#: src/features/help/devices.tsx
+msgid "Enter the server address, the username and the password."
+msgstr "Anna palvelimen osoite, käyttäjätunnus ja salasana."
+
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Enter your authenticator code"
 msgstr "Anna todennussovelluksen koodi"
@@ -1112,6 +1145,22 @@ msgstr "Liput"
 msgid "Flat"
 msgstr "Litteä"
 
+#: src/features/help/devices.tsx
+msgid "For calendars: Calendar, New Calendar, On the Network, with the username and the server address."
+msgstr "Kalentereille: Kalenteri, Uusi kalenteri, Verkossa, käyttäjätunnuksella ja palvelimen osoitteella."
+
+#: src/features/help/devices.tsx
+msgid "For calendars: Settings, Calendar, Accounts, Add Account, Other, Add CalDAV Account."
+msgstr "Kalentereille: Asetukset, Kalenteri, Tilit, Lisää tili, Muu, Lisää CalDAV-tili."
+
+#: src/features/help/devices.tsx
+msgid "For contacts: Address Book, New Address Book, Add CardDAV Address Book, with the username and the server address."
+msgstr "Yhteystiedoille: Osoitekirja, Uusi osoitekirja, Lisää CardDAV-osoitekirja, käyttäjätunnuksella ja palvelimen osoitteella."
+
+#: src/features/help/devices.tsx
+msgid "For contacts: Settings, Contacts, Accounts, Add Account, Other, Add CardDAV Account."
+msgstr "Yhteystiedoille: Asetukset, Yhteystiedot, Tilit, Lisää tili, Muu, Lisää CardDAV-tili."
+
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Friday"
 msgstr "Perjantai"
@@ -1131,6 +1180,10 @@ msgstr "Lähettäjä"
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "From theme"
 msgstr "Teemasta"
+
+#: src/features/help/devices.tsx
+msgid "Get a password for the device"
+msgstr "Hanki laitteelle salasana"
 
 #: ../../../lib/web/src/features/errors/access-denied-error.tsx
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
@@ -1158,6 +1211,7 @@ msgstr "Ryhmittele"
 msgid "Group: {0}"
 msgstr "Ryhmä: {0}"
 
+#: src/features/help/devices.tsx
 #: src/features/help/index.tsx
 #: src/routes/_authenticated/document/privacy.tsx
 #: src/routes/_authenticated/document/rules.tsx
@@ -1210,6 +1264,10 @@ msgstr "Nimikirjainavatar"
 msgid "Initials avatar for {name}"
 msgstr "Käyttäjän {name} nimikirjainavatar"
 
+#: src/features/help/devices.tsx
+msgid "Install DAVx5 and add an account with \"Login with URL and user name\"."
+msgstr "Asenna DAVx5 ja lisää tili valinnalla \"Kirjaudu URL-osoitteella ja käyttäjätunnuksella\"."
+
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Interest {weight}"
 msgstr "Kiinnostus {weight}"
@@ -1226,6 +1284,10 @@ msgstr "Esittele itsesi"
 #: ../../../lib/web/src/components/entity/entity-field-editor.tsx
 msgid "Invalid date"
 msgstr "Virheellinen päivämäärä"
+
+#: src/features/help/devices.tsx
+msgid "iPhone and iPad"
+msgstr "iPhone ja iPad"
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "It seems like the page you're looking for <0/>does not exist or might have been removed."
@@ -1313,6 +1375,10 @@ msgstr "Uloskirjautuminen onnistui"
 #: ../../../lib/web/src/components/sign-out-dialog.tsx
 msgid "Logging out…"
 msgstr "Kirjaudutaan ulos…"
+
+#: src/features/help/devices.tsx
+msgid "Mac"
+msgstr "Mac"
 
 #: ../../../lib/web/src/components/notification-category-button.tsx
 msgid "Manage categories"
@@ -1417,6 +1483,10 @@ msgstr "Nimi vaaditaan"
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Name must be 1000 characters or less"
 msgstr "Nimen on oltava enintään 1000 merkkiä"
+
+#: src/features/help/devices.tsx
+msgid "Name the device, for example your phone's name, and create its password."
+msgstr "Anna laitteelle nimi, esimerkiksi puhelimesi nimi, ja luo sille salasana."
 
 #: ../../../lib/web/src/features/errors/general-error.tsx
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
@@ -1574,6 +1644,10 @@ msgstr "Numero"
 msgid "On"
 msgstr "Päällä"
 
+#: src/features/help/devices.tsx
+msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connect device stops its password at once."
+msgstr "Yksi salasana riittää sekä yhteystiedoille että kalentereille. Jokaisella laitteella on oma salasanansa, ja laitteen poistaminen kohdasta Yhdistä laite lakkauttaa sen salasanan heti."
+
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
 msgstr "Hups! Sivua ei löytynyt!"
@@ -1581,6 +1655,10 @@ msgstr "Hups! Sivua ei löytynyt!"
 #: ../../../lib/web/src/components/layout/nav-group.tsx
 msgid "Open actions"
 msgstr "Avaa toiminnot"
+
+#: src/features/help/devices.tsx
+msgid "Open Calendars or People and choose Connect device."
+msgstr "Avaa Kalenterit tai Ihmiset ja valitse Yhdistä laite."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"
@@ -1729,6 +1807,10 @@ msgstr "Ominaisuudet"
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Push notification"
 msgstr "Push-ilmoitus"
+
+#: src/features/help/index.tsx
+msgid "Put your contacts and calendars on your phone, tablet or computer."
+msgstr "Saat yhteystietosi ja kalenterisi puhelimeen, tablettiin tai tietokoneeseen."
 
 #: src/features/help/contribute-dialog.tsx
 msgid "Question"
@@ -2227,6 +2309,10 @@ msgstr "Vaihda näkymään 1-9"
 msgid "System"
 msgstr "Järjestelmä"
 
+#: src/features/help/devices.tsx
+msgid "System Settings, Internet Accounts, Add Other Account, then CardDAV Account for contacts or CalDAV Account for calendars."
+msgstr "Järjestelmäasetukset, Internet-tilit, Lisää muu tili ja sitten CardDAV-tili yhteystiedoille tai CalDAV-tili kalentereille."
+
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Tag already exists"
 msgstr "Tunniste on jo olemassa"
@@ -2283,6 +2369,10 @@ msgstr "Kamerapyyntöön ei vastattu"
 msgid "The microphone request was not answered"
 msgstr "Mikrofonipyyntöön ei vastattu"
 
+#: src/features/help/devices.tsx
+msgid "The Mochi app shows your contacts and calendars itself. To put them into the phone's own Contacts and Calendar apps, use DAVx5."
+msgstr "Mochi-sovellus näyttää yhteystietosi ja kalenterisi itsekin. Jos haluat ne puhelimen omiin Yhteystiedot- ja Kalenteri-sovelluksiin, käytä DAVx5:tä."
+
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "The passkey request was not answered"
 msgstr "Avainkoodipyyntöön ei vastattu"
@@ -2302,6 +2392,10 @@ msgstr "Tämä sovellus ei saa käyttää avainkoodiasi. Salli se Asetuksissa ko
 #: ../../../lib/web/src/components/game/game-end-dialogs.tsx
 msgid "This permanently deletes the game and its chat. This cannot be undone."
 msgstr "Tämä poistaa pelin ja sen keskustelun pysyvästi. Tätä ei voi peruuttaa."
+
+#: src/features/help/devices.tsx
+msgid "Thunderbird"
+msgstr "Thunderbird"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Thursday"
@@ -2555,6 +2649,10 @@ msgstr "Tilisi siirrettiin tänne kohteesta {source}. Kunnes poistat sen sieltä
 #: ../../../lib/web/src/components/comment-composer.tsx
 msgid "Your attachments will be lost."
 msgstr "Liitteesi menetetään."
+
+#: src/features/help/devices.tsx
+msgid "Your contacts and calendars sync to your phone, tablet and computer over CardDAV and CalDAV, which every major contacts and calendar app speaks."
+msgstr "Yhteystietosi ja kalenterisi synkronoituvat puhelimeen, tablettiin ja tietokoneeseen CardDAV- ja CalDAV-yhteyskäytännöillä, joita kaikki merkittävät yhteystieto- ja kalenterisovellukset osaavat."
 
 #: src/features/help/contribute-dialog.tsx
 msgid "Your introduction has been submitted and will appear after moderation."

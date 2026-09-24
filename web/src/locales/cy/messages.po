@@ -241,6 +241,10 @@ msgstr "Digwyddodd gwall"
 msgid "An unexpected error occurred"
 msgstr "Digwyddodd gwall annisgwyl"
 
+#: src/features/help/devices.tsx
+msgid "Android"
+msgstr "Android"
+
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
 msgstr "Gwthiad Android"
@@ -491,6 +495,10 @@ msgstr "Dewiswch gêm o'r bar ochr neu dechreuwch un newydd."
 msgid "Choose language"
 msgstr "Dewiswch iaith"
 
+#: src/features/help/devices.tsx
+msgid "Choose the account type Manual and enter the username, the password and the server address."
+msgstr "Dewiswch y math o gyfrif Â Llaw a rhowch yr enw defnyddiwr, y cyfrinair a chyfeiriad y gweinydd."
+
 #: ../../../lib/web/src/components/banner-section.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
@@ -607,6 +615,11 @@ msgstr "Ffurfweddu gosodiadau golwg"
 msgid "Confirm"
 msgstr "Cadarnhau"
 
+#: src/features/help/devices.tsx
+#: src/features/help/index.tsx
+msgid "Connect your phone"
+msgstr "Cysylltu eich ffôn"
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connected"
 msgstr "Wedi cysylltu"
@@ -654,6 +667,10 @@ msgstr "Wedi'i gopïo i'r clipfwrdd"
 #: ../../../lib/web/src/components/ui/copy-button.tsx
 msgid "Copy"
 msgstr "Copïo"
+
+#: src/features/help/devices.tsx
+msgid "Copy the server address, the username and the password into the device. The password is shown once."
+msgstr "Copïwch gyfeiriad y gweinydd, yr enw defnyddiwr a'r cyfrinair i'r ddyfais. Dangosir y cyfrinair unwaith yn unig."
 
 #: ../../../lib/web/src/features/document/document-page.tsx
 msgid "Could not load this document. Please try again later."
@@ -729,6 +746,10 @@ msgstr "Gwrthdaro data"
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Date"
 msgstr "Dyddiad"
+
+#: src/features/help/devices.tsx
+msgid "DAVx5 finds both your address books and your calendars. Turn on the ones to sync."
+msgstr "Mae DAVx5 yn dod o hyd i'ch llyfrau cyfeiriadau a'ch calendrau. Trowch y rhai rydych am eu cysoni ymlaen."
 
 #: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx
 msgid "Decline"
@@ -960,6 +981,18 @@ msgstr "Rhowch destun y faner (cefnogir markdown)..."
 msgid "Enter the code from your email"
 msgstr "Rhowch y cod o'ch e-bost"
 
+#: src/features/help/devices.tsx
+msgid "Enter the password when asked, and choose the address books and calendars to add."
+msgstr "Rhowch y cyfrinair pan ofynnir amdano, a dewiswch y llyfrau cyfeiriadau a'r calendrau i'w hychwanegu."
+
+#: src/features/help/devices.tsx
+msgid "Enter the server address, the username and the password in each."
+msgstr "Rhowch gyfeiriad y gweinydd, yr enw defnyddiwr a'r cyfrinair ym mhob un."
+
+#: src/features/help/devices.tsx
+msgid "Enter the server address, the username and the password."
+msgstr "Rhowch gyfeiriad y gweinydd, yr enw defnyddiwr a'r cyfrinair."
+
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Enter your authenticator code"
 msgstr "Rhowch god eich ap dilysu"
@@ -1112,6 +1145,22 @@ msgstr "Baneri"
 msgid "Flat"
 msgstr "Gwastad"
 
+#: src/features/help/devices.tsx
+msgid "For calendars: Calendar, New Calendar, On the Network, with the username and the server address."
+msgstr "Ar gyfer calendrau: Calendr, Calendr Newydd, Ar y Rhwydwaith, gyda'r enw defnyddiwr a chyfeiriad y gweinydd."
+
+#: src/features/help/devices.tsx
+msgid "For calendars: Settings, Calendar, Accounts, Add Account, Other, Add CalDAV Account."
+msgstr "Ar gyfer calendrau: Gosodiadau, Calendr, Cyfrifon, Ychwanegu Cyfrif, Arall, Ychwanegu Cyfrif CalDAV."
+
+#: src/features/help/devices.tsx
+msgid "For contacts: Address Book, New Address Book, Add CardDAV Address Book, with the username and the server address."
+msgstr "Ar gyfer cysylltiadau: Llyfr Cyfeiriadau, Llyfr Cyfeiriadau Newydd, Ychwanegu Llyfr Cyfeiriadau CardDAV, gyda'r enw defnyddiwr a chyfeiriad y gweinydd."
+
+#: src/features/help/devices.tsx
+msgid "For contacts: Settings, Contacts, Accounts, Add Account, Other, Add CardDAV Account."
+msgstr "Ar gyfer cysylltiadau: Gosodiadau, Cysylltiadau, Cyfrifon, Ychwanegu Cyfrif, Arall, Ychwanegu Cyfrif CardDAV."
+
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Friday"
 msgstr "Dydd Gwener"
@@ -1131,6 +1180,10 @@ msgstr "O"
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "From theme"
 msgstr "O'r thema"
+
+#: src/features/help/devices.tsx
+msgid "Get a password for the device"
+msgstr "Cael cyfrinair ar gyfer y ddyfais"
 
 #: ../../../lib/web/src/features/errors/access-denied-error.tsx
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
@@ -1158,6 +1211,7 @@ msgstr "Grwpio yn ôl"
 msgid "Group: {0}"
 msgstr "Grŵp: {0}"
 
+#: src/features/help/devices.tsx
 #: src/features/help/index.tsx
 #: src/routes/_authenticated/document/privacy.tsx
 #: src/routes/_authenticated/document/rules.tsx
@@ -1210,6 +1264,10 @@ msgstr "Afatar llythrennau blaen"
 msgid "Initials avatar for {name}"
 msgstr "Afatar llythrennau blaen ar gyfer {name}"
 
+#: src/features/help/devices.tsx
+msgid "Install DAVx5 and add an account with \"Login with URL and user name\"."
+msgstr "Gosodwch DAVx5 ac ychwanegwch gyfrif gyda \"Mewngofnodi gydag URL ac enw defnyddiwr\"."
+
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Interest {weight}"
 msgstr "Diddordeb {weight}"
@@ -1226,6 +1284,10 @@ msgstr "Cyflwynwch eich hun"
 #: ../../../lib/web/src/components/entity/entity-field-editor.tsx
 msgid "Invalid date"
 msgstr "Dyddiad annilys"
+
+#: src/features/help/devices.tsx
+msgid "iPhone and iPad"
+msgstr "iPhone ac iPad"
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "It seems like the page you're looking for <0/>does not exist or might have been removed."
@@ -1313,6 +1375,10 @@ msgstr "Allgofnodwyd yn llwyddiannus"
 #: ../../../lib/web/src/components/sign-out-dialog.tsx
 msgid "Logging out…"
 msgstr "Yn allgofnodi…"
+
+#: src/features/help/devices.tsx
+msgid "Mac"
+msgstr "Mac"
 
 #: ../../../lib/web/src/components/notification-category-button.tsx
 msgid "Manage categories"
@@ -1417,6 +1483,10 @@ msgstr "Mae angen enw"
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Name must be 1000 characters or less"
 msgstr "Rhaid i'r enw fod yn 1000 o nodau neu lai"
+
+#: src/features/help/devices.tsx
+msgid "Name the device, for example your phone's name, and create its password."
+msgstr "Rhowch enw i'r ddyfais, enw eich ffôn er enghraifft, a chrëwch ei chyfrinair."
 
 #: ../../../lib/web/src/features/errors/general-error.tsx
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
@@ -1574,6 +1644,10 @@ msgstr "Rhif"
 msgid "On"
 msgstr "Ymlaen"
 
+#: src/features/help/devices.tsx
+msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connect device stops its password at once."
+msgstr "Mae un cyfrinair yn gweithio ar gyfer cysylltiadau a chalendrau fel ei gilydd. Mae gan bob dyfais ei chyfrinair ei hun, ac mae tynnu dyfais o dan Cysylltu dyfais yn atal ei chyfrinair ar unwaith."
+
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
 msgstr "Wps! Heb Ddod o Hyd i'r Dudalen!"
@@ -1581,6 +1655,10 @@ msgstr "Wps! Heb Ddod o Hyd i'r Dudalen!"
 #: ../../../lib/web/src/components/layout/nav-group.tsx
 msgid "Open actions"
 msgstr "Agor gweithredoedd"
+
+#: src/features/help/devices.tsx
+msgid "Open Calendars or People and choose Connect device."
+msgstr "Agorwch Calendrau neu Pobl a dewiswch Cysylltu dyfais."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"
@@ -1729,6 +1807,10 @@ msgstr "Priodweddau"
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Push notification"
 msgstr "Hysbysiad gwthio"
+
+#: src/features/help/index.tsx
+msgid "Put your contacts and calendars on your phone, tablet or computer."
+msgstr "Rhowch eich cysylltiadau a'ch calendrau ar eich ffôn, eich llechen neu'ch cyfrifiadur."
 
 #: src/features/help/contribute-dialog.tsx
 msgid "Question"
@@ -2227,6 +2309,10 @@ msgstr "Newid i olwg 1-9"
 msgid "System"
 msgstr "System"
 
+#: src/features/help/devices.tsx
+msgid "System Settings, Internet Accounts, Add Other Account, then CardDAV Account for contacts or CalDAV Account for calendars."
+msgstr "Gosodiadau'r System, Cyfrifon Rhyngrwyd, Ychwanegu Cyfrif Arall, yna Cyfrif CardDAV ar gyfer cysylltiadau neu Gyfrif CalDAV ar gyfer calendrau."
+
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Tag already exists"
 msgstr "Mae'r tag eisoes yn bodoli"
@@ -2283,6 +2369,10 @@ msgstr "Ni chafodd y cais camera ei ateb"
 msgid "The microphone request was not answered"
 msgstr "Ni chafodd y cais meicroffon ei ateb"
 
+#: src/features/help/devices.tsx
+msgid "The Mochi app shows your contacts and calendars itself. To put them into the phone's own Contacts and Calendar apps, use DAVx5."
+msgstr "Mae ap Mochi yn dangos eich cysylltiadau a'ch calendrau ei hun. I'w rhoi yn apiau Cysylltiadau a Chalendr y ffôn ei hun, defnyddiwch DAVx5."
+
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "The passkey request was not answered"
 msgstr "Ni chafodd y cais pasallwedd ei ateb"
@@ -2302,6 +2392,10 @@ msgstr "Nid yw'r ap hwn yn cael defnyddio eich pasallwedd. Caniatewch hynny yn G
 #: ../../../lib/web/src/components/game/game-end-dialogs.tsx
 msgid "This permanently deletes the game and its chat. This cannot be undone."
 msgstr "Bydd hyn yn dileu'r gêm a'i sgwrs yn barhaol. Ni ellir dadwneud hyn."
+
+#: src/features/help/devices.tsx
+msgid "Thunderbird"
+msgstr "Thunderbird"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Thursday"
@@ -2555,6 +2649,10 @@ msgstr "Symudwyd eich cyfrif yma o {source}. Hyd nes y byddwch yn ei ddileu yno,
 #: ../../../lib/web/src/components/comment-composer.tsx
 msgid "Your attachments will be lost."
 msgstr "Bydd eich atodiadau'n cael eu colli."
+
+#: src/features/help/devices.tsx
+msgid "Your contacts and calendars sync to your phone, tablet and computer over CardDAV and CalDAV, which every major contacts and calendar app speaks."
+msgstr "Mae eich cysylltiadau a'ch calendrau yn cysoni â'ch ffôn, eich llechen a'ch cyfrifiadur dros CardDAV a CalDAV, sy'n cael eu deall gan bob prif ap cysylltiadau a chalendr."
 
 #: src/features/help/contribute-dialog.tsx
 msgid "Your introduction has been submitted and will appear after moderation."

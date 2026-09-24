@@ -241,6 +241,10 @@ msgstr "Seħħet żball"
 msgid "An unexpected error occurred"
 msgstr "Seħħ żball mhux mistenni"
 
+#: src/features/help/devices.tsx
+msgid "Android"
+msgstr "Android"
+
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
 msgstr "Push Android"
@@ -491,6 +495,10 @@ msgstr "Agħżel logħba mill-barra tal-ġenb jew ibda waħda ġdida."
 msgid "Choose language"
 msgstr "Agħżel lingwa"
 
+#: src/features/help/devices.tsx
+msgid "Choose the account type Manual and enter the username, the password and the server address."
+msgstr "Agħżel it-tip ta' kont Manwali u daħħal l-isem tal-utent, il-password u l-indirizz tas-server."
+
 #: ../../../lib/web/src/components/banner-section.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
@@ -607,6 +615,11 @@ msgstr "Ikkonfigura s-settings tal-view"
 msgid "Confirm"
 msgstr "Ikkonferma"
 
+#: src/features/help/devices.tsx
+#: src/features/help/index.tsx
+msgid "Connect your phone"
+msgstr "Qabbad it-telefon tiegħek"
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connected"
 msgstr "Konness"
@@ -654,6 +667,10 @@ msgstr "Ikkupjat fil-clipboard"
 #: ../../../lib/web/src/components/ui/copy-button.tsx
 msgid "Copy"
 msgstr "Ikkupja"
+
+#: src/features/help/devices.tsx
+msgid "Copy the server address, the username and the password into the device. The password is shown once."
+msgstr "Ikkopja l-indirizz tas-server, l-isem tal-utent u l-password fl-apparat. Il-password tintwera darba biss."
 
 #: ../../../lib/web/src/features/document/document-page.tsx
 msgid "Could not load this document. Please try again later."
@@ -729,6 +746,10 @@ msgstr "Kunflitt fid-dejta"
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Date"
 msgstr "Data"
+
+#: src/features/help/devices.tsx
+msgid "DAVx5 finds both your address books and your calendars. Turn on the ones to sync."
+msgstr "DAVx5 isib kemm il-kotba tal-indirizzi kif ukoll il-kalendarji tiegħek. Ixgħel dawk li trid tissinkronizza."
 
 #: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx
 msgid "Decline"
@@ -960,6 +981,18 @@ msgstr "Daħħal it-test tal-banner (markdown sapportit)..."
 msgid "Enter the code from your email"
 msgstr "Daħħal il-kodiċi mill-email tiegħek"
 
+#: src/features/help/devices.tsx
+msgid "Enter the password when asked, and choose the address books and calendars to add."
+msgstr "Daħħal il-password meta tintalab, u agħżel il-kotba tal-indirizzi u l-kalendarji li trid iżżid."
+
+#: src/features/help/devices.tsx
+msgid "Enter the server address, the username and the password in each."
+msgstr "F'kull wieħed minnhom daħħal l-indirizz tas-server, l-isem tal-utent u l-password."
+
+#: src/features/help/devices.tsx
+msgid "Enter the server address, the username and the password."
+msgstr "Daħħal l-indirizz tas-server, l-isem tal-utent u l-password."
+
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Enter your authenticator code"
 msgstr "Daħħal il-kodiċi tal-awtentikatur tiegħek"
@@ -1112,6 +1145,22 @@ msgstr "Bandieri"
 msgid "Flat"
 msgstr "Ċatta"
 
+#: src/features/help/devices.tsx
+msgid "For calendars: Calendar, New Calendar, On the Network, with the username and the server address."
+msgstr "Għall-kalendarji: Kalendarju, Kalendarju Ġdid, Fuq in-Netwerk, bl-isem tal-utent u l-indirizz tas-server."
+
+#: src/features/help/devices.tsx
+msgid "For calendars: Settings, Calendar, Accounts, Add Account, Other, Add CalDAV Account."
+msgstr "Għall-kalendarji: Issettjar, Kalendarju, Kontijiet, Żid Kont, Oħrajn, Żid Kont CalDAV."
+
+#: src/features/help/devices.tsx
+msgid "For contacts: Address Book, New Address Book, Add CardDAV Address Book, with the username and the server address."
+msgstr "Għall-kuntatti: Ktieb tal-Indirizzi, Ktieb tal-Indirizzi Ġdid, Żid Ktieb tal-Indirizzi CardDAV, bl-isem tal-utent u l-indirizz tas-server."
+
+#: src/features/help/devices.tsx
+msgid "For contacts: Settings, Contacts, Accounts, Add Account, Other, Add CardDAV Account."
+msgstr "Għall-kuntatti: Issettjar, Kuntatti, Kontijiet, Żid Kont, Oħrajn, Żid Kont CardDAV."
+
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Friday"
 msgstr "Il-Ġimgħa"
@@ -1131,6 +1180,10 @@ msgstr "Minn"
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "From theme"
 msgstr "Mit-tema"
+
+#: src/features/help/devices.tsx
+msgid "Get a password for the device"
+msgstr "Ikseb password għall-apparat"
 
 #: ../../../lib/web/src/features/errors/access-denied-error.tsx
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
@@ -1158,6 +1211,7 @@ msgstr "Iggrupp skont"
 msgid "Group: {0}"
 msgstr "Grupp: {0}"
 
+#: src/features/help/devices.tsx
 #: src/features/help/index.tsx
 #: src/routes/_authenticated/document/privacy.tsx
 #: src/routes/_authenticated/document/rules.tsx
@@ -1210,6 +1264,10 @@ msgstr "Avatar bl-inizjali"
 msgid "Initials avatar for {name}"
 msgstr "Avatar bl-inizjali għal {name}"
 
+#: src/features/help/devices.tsx
+msgid "Install DAVx5 and add an account with \"Login with URL and user name\"."
+msgstr "Installa DAVx5 u żid kont b'\"Idħol b'URL u isem tal-utent\"."
+
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Interest {weight}"
 msgstr "Interess {weight}"
@@ -1226,6 +1284,10 @@ msgstr "Ippreżenta lilek innifsek"
 #: ../../../lib/web/src/components/entity/entity-field-editor.tsx
 msgid "Invalid date"
 msgstr "Data invalida"
+
+#: src/features/help/devices.tsx
+msgid "iPhone and iPad"
+msgstr "iPhone u iPad"
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "It seems like the page you're looking for <0/>does not exist or might have been removed."
@@ -1313,6 +1375,10 @@ msgstr "Ħareġ b'suċċess"
 #: ../../../lib/web/src/components/sign-out-dialog.tsx
 msgid "Logging out…"
 msgstr "Qed joħroġ…"
+
+#: src/features/help/devices.tsx
+msgid "Mac"
+msgstr "Mac"
 
 #: ../../../lib/web/src/components/notification-category-button.tsx
 msgid "Manage categories"
@@ -1417,6 +1483,10 @@ msgstr "L-isem huwa meħtieġ"
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Name must be 1000 characters or less"
 msgstr "L-isem irid ikun ta' 1000 karattru jew inqas"
+
+#: src/features/help/devices.tsx
+msgid "Name the device, for example your phone's name, and create its password."
+msgstr "Agħti isem lill-apparat, pereżempju l-isem tat-telefon tiegħek, u oħloq il-password tiegħu."
 
 #: ../../../lib/web/src/features/errors/general-error.tsx
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
@@ -1574,6 +1644,10 @@ msgstr "Numru"
 msgid "On"
 msgstr "Mixgħul"
 
+#: src/features/help/devices.tsx
+msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connect device stops its password at once."
+msgstr "Password waħda taqdi kemm il-kuntatti kif ukoll il-kalendarji. Kull apparat għandu tiegħu, u meta tneħħi apparat taħt Qabbad apparat, il-password tiegħu tieqaf taħdem mill-ewwel."
+
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
 msgstr "Oops! Paġna Mhux Misjuba!"
@@ -1581,6 +1655,10 @@ msgstr "Oops! Paġna Mhux Misjuba!"
 #: ../../../lib/web/src/components/layout/nav-group.tsx
 msgid "Open actions"
 msgstr "Iftaħ l-azzjonijiet"
+
+#: src/features/help/devices.tsx
+msgid "Open Calendars or People and choose Connect device."
+msgstr "Iftaħ Kalendarji jew Nies u agħżel Qabbad apparat."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"
@@ -1729,6 +1807,10 @@ msgstr "Proprjetajiet"
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Push notification"
 msgstr "Notifika push"
+
+#: src/features/help/index.tsx
+msgid "Put your contacts and calendars on your phone, tablet or computer."
+msgstr "Poġġi l-kuntatti u l-kalendarji tiegħek fuq it-telefon, it-tablet jew il-kompjuter tiegħek."
 
 #: src/features/help/contribute-dialog.tsx
 msgid "Question"
@@ -2227,6 +2309,10 @@ msgstr "Aqleb għal vista 1-9"
 msgid "System"
 msgstr "Sistema"
 
+#: src/features/help/devices.tsx
+msgid "System Settings, Internet Accounts, Add Other Account, then CardDAV Account for contacts or CalDAV Account for calendars."
+msgstr "Issettjar tas-Sistema, Kontijiet tal-Internet, Żid Kont Ieħor, imbagħad Kont CardDAV għall-kuntatti jew Kont CalDAV għall-kalendarji."
+
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Tag already exists"
 msgstr "Tag diġà jeżisti"
@@ -2283,6 +2369,10 @@ msgstr "It-talba għall-kamera ma twiġbitx"
 msgid "The microphone request was not answered"
 msgstr "It-talba għall-mikrofonu ma twiġbitx"
 
+#: src/features/help/devices.tsx
+msgid "The Mochi app shows your contacts and calendars itself. To put them into the phone's own Contacts and Calendar apps, use DAVx5."
+msgstr "L-app Mochi turi l-kuntatti u l-kalendarji tiegħek hi stess. Biex iddaħħalhom fl-apps Kuntatti u Kalendarju tat-telefon innifsu, uża DAVx5."
+
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "The passkey request was not answered"
 msgstr "It-talba għall-passkey ma twiġbitx"
@@ -2302,6 +2392,10 @@ msgstr "Din l-app mhijiex permessa tuża l-passkey tiegħek. Ippermettiha fis-Se
 #: ../../../lib/web/src/components/game/game-end-dialogs.tsx
 msgid "This permanently deletes the game and its chat. This cannot be undone."
 msgstr "Dan għad iħassar il-logħba u ċ-chat tagħha b'mod permanenti. Din l-azzjoni ma tistax titħassar."
+
+#: src/features/help/devices.tsx
+msgid "Thunderbird"
+msgstr "Thunderbird"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Thursday"
@@ -2555,6 +2649,10 @@ msgstr "Il-kont tiegħek ġie miċċaqqlaq hawn minn {source}. Sakemm tħassru h
 #: ../../../lib/web/src/components/comment-composer.tsx
 msgid "Your attachments will be lost."
 msgstr "L-annessi tiegħek se jintilfu."
+
+#: src/features/help/devices.tsx
+msgid "Your contacts and calendars sync to your phone, tablet and computer over CardDAV and CalDAV, which every major contacts and calendar app speaks."
+msgstr "Il-kuntatti u l-kalendarji tiegħek jissinkronizzaw mat-telefon, mat-tablet u mal-kompjuter tiegħek permezz ta' CardDAV u CalDAV, li kull app ewlenija tal-kuntatti u tal-kalendarju tifhem."
 
 #: src/features/help/contribute-dialog.tsx
 msgid "Your introduction has been submitted and will appear after moderation."

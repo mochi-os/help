@@ -241,6 +241,10 @@ msgstr "Įvyko klaida"
 msgid "An unexpected error occurred"
 msgstr "Įvyko netikėta klaida"
 
+#: src/features/help/devices.tsx
+msgid "Android"
+msgstr "Android"
+
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
 msgstr "Android push"
@@ -491,6 +495,10 @@ msgstr "Pasirinkite žaidimą iš šoninės juostos arba pradėkite naują."
 msgid "Choose language"
 msgstr "Pasirinkite kalbą"
 
+#: src/features/help/devices.tsx
+msgid "Choose the account type Manual and enter the username, the password and the server address."
+msgstr "Pasirinkite paskyros tipą Rankinis ir įveskite naudotojo vardą, slaptažodį ir serverio adresą."
+
 #: ../../../lib/web/src/components/banner-section.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
@@ -607,6 +615,11 @@ msgstr "Konfigūruoti rodinio nustatymus"
 msgid "Confirm"
 msgstr "Patvirtinti"
 
+#: src/features/help/devices.tsx
+#: src/features/help/index.tsx
+msgid "Connect your phone"
+msgstr "Prijunkite telefoną"
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connected"
 msgstr "Prijungta"
@@ -654,6 +667,10 @@ msgstr "Nukopijuota į iškarpinę"
 #: ../../../lib/web/src/components/ui/copy-button.tsx
 msgid "Copy"
 msgstr "Kopijuoti"
+
+#: src/features/help/devices.tsx
+msgid "Copy the server address, the username and the password into the device. The password is shown once."
+msgstr "Nukopijuokite serverio adresą, naudotojo vardą ir slaptažodį į įrenginį. Slaptažodis parodomas tik vieną kartą."
 
 #: ../../../lib/web/src/features/document/document-page.tsx
 msgid "Could not load this document. Please try again later."
@@ -729,6 +746,10 @@ msgstr "Duomenų konfliktas"
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Date"
 msgstr "Data"
+
+#: src/features/help/devices.tsx
+msgid "DAVx5 finds both your address books and your calendars. Turn on the ones to sync."
+msgstr "DAVx5 randa ir jūsų adresų knygas, ir kalendorius. Įjunkite tuos, kuriuos norite sinchronizuoti."
 
 #: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx
 msgid "Decline"
@@ -960,6 +981,18 @@ msgstr "Įveskite reklamjuostės tekstą (palaikomas markdown)…"
 msgid "Enter the code from your email"
 msgstr "Įveskite kodą iš savo el. laiško"
 
+#: src/features/help/devices.tsx
+msgid "Enter the password when asked, and choose the address books and calendars to add."
+msgstr "Paprašius įveskite slaptažodį ir pasirinkite, kurias adresų knygas ir kalendorius pridėti."
+
+#: src/features/help/devices.tsx
+msgid "Enter the server address, the username and the password in each."
+msgstr "Kiekviename įveskite serverio adresą, naudotojo vardą ir slaptažodį."
+
+#: src/features/help/devices.tsx
+msgid "Enter the server address, the username and the password."
+msgstr "Įveskite serverio adresą, naudotojo vardą ir slaptažodį."
+
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Enter your authenticator code"
 msgstr "Įveskite autentifikatoriaus kodą"
@@ -1112,6 +1145,22 @@ msgstr "Žymos"
 msgid "Flat"
 msgstr "Plokščia"
 
+#: src/features/help/devices.tsx
+msgid "For calendars: Calendar, New Calendar, On the Network, with the username and the server address."
+msgstr "Kalendoriams: Kalendorius, Naujas kalendorius, Tinkle, su naudotojo vardu ir serverio adresu."
+
+#: src/features/help/devices.tsx
+msgid "For calendars: Settings, Calendar, Accounts, Add Account, Other, Add CalDAV Account."
+msgstr "Kalendoriams: Nuostatos, Kalendorius, Paskyros, Pridėti paskyrą, Kita, Pridėti CalDAV paskyrą."
+
+#: src/features/help/devices.tsx
+msgid "For contacts: Address Book, New Address Book, Add CardDAV Address Book, with the username and the server address."
+msgstr "Kontaktams: Adresų knyga, Nauja adresų knyga, Pridėti CardDAV adresų knygą, su naudotojo vardu ir serverio adresu."
+
+#: src/features/help/devices.tsx
+msgid "For contacts: Settings, Contacts, Accounts, Add Account, Other, Add CardDAV Account."
+msgstr "Kontaktams: Nuostatos, Kontaktai, Paskyros, Pridėti paskyrą, Kita, Pridėti CardDAV paskyrą."
+
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Friday"
 msgstr "Penktadienis"
@@ -1131,6 +1180,10 @@ msgstr "Nuo"
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "From theme"
 msgstr "Iš temos"
+
+#: src/features/help/devices.tsx
+msgid "Get a password for the device"
+msgstr "Gaukite įrenginio slaptažodį"
 
 #: ../../../lib/web/src/features/errors/access-denied-error.tsx
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
@@ -1158,6 +1211,7 @@ msgstr "Grupuoti pagal"
 msgid "Group: {0}"
 msgstr "Grupė: {0}"
 
+#: src/features/help/devices.tsx
 #: src/features/help/index.tsx
 #: src/routes/_authenticated/document/privacy.tsx
 #: src/routes/_authenticated/document/rules.tsx
@@ -1210,6 +1264,10 @@ msgstr "Inicialų avataras"
 msgid "Initials avatar for {name}"
 msgstr "{name} inicialų avataras"
 
+#: src/features/help/devices.tsx
+msgid "Install DAVx5 and add an account with \"Login with URL and user name\"."
+msgstr "Įdiekite DAVx5 ir pridėkite paskyrą pasirinkę \"Prisijungti naudojant URL ir naudotojo vardą\"."
+
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Interest {weight}"
 msgstr "Susidomėjimas {weight}"
@@ -1226,6 +1284,10 @@ msgstr "Prisistatykite"
 #: ../../../lib/web/src/components/entity/entity-field-editor.tsx
 msgid "Invalid date"
 msgstr "Netinkama data"
+
+#: src/features/help/devices.tsx
+msgid "iPhone and iPad"
+msgstr "iPhone ir iPad"
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "It seems like the page you're looking for <0/>does not exist or might have been removed."
@@ -1313,6 +1375,10 @@ msgstr "Sėkmingai atsijungta"
 #: ../../../lib/web/src/components/sign-out-dialog.tsx
 msgid "Logging out…"
 msgstr "Atsijungiama…"
+
+#: src/features/help/devices.tsx
+msgid "Mac"
+msgstr "Mac"
 
 #: ../../../lib/web/src/components/notification-category-button.tsx
 msgid "Manage categories"
@@ -1417,6 +1483,10 @@ msgstr "Pavadinimas yra privalomas"
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Name must be 1000 characters or less"
 msgstr "Pavadinimas turi būti ne ilgesnis nei 1000 simbolių"
+
+#: src/features/help/devices.tsx
+msgid "Name the device, for example your phone's name, and create its password."
+msgstr "Pavadinkite įrenginį, pavyzdžiui, savo telefono vardu, ir sukurkite jo slaptažodį."
 
 #: ../../../lib/web/src/features/errors/general-error.tsx
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
@@ -1574,6 +1644,10 @@ msgstr "Skaičius"
 msgid "On"
 msgstr "Įjungta"
 
+#: src/features/help/devices.tsx
+msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connect device stops its password at once."
+msgstr "Vienas slaptažodis tinka ir kontaktams, ir kalendoriams. Kiekvienas įrenginys gauna savąjį, o pašalinus įrenginį skiltyje Prijungti įrenginį jo slaptažodis nustoja galioti iš karto."
+
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
 msgstr "Oi! Puslapis nerastas!"
@@ -1581,6 +1655,10 @@ msgstr "Oi! Puslapis nerastas!"
 #: ../../../lib/web/src/components/layout/nav-group.tsx
 msgid "Open actions"
 msgstr "Atidaryti veiksmus"
+
+#: src/features/help/devices.tsx
+msgid "Open Calendars or People and choose Connect device."
+msgstr "Atverkite Kalendorius arba Žmones ir pasirinkite Prijungti įrenginį."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"
@@ -1729,6 +1807,10 @@ msgstr "Savybės"
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Push notification"
 msgstr "Push pranešimas"
+
+#: src/features/help/index.tsx
+msgid "Put your contacts and calendars on your phone, tablet or computer."
+msgstr "Turėkite savo kontaktus ir kalendorius telefone, planšetėje ar kompiuteryje."
 
 #: src/features/help/contribute-dialog.tsx
 msgid "Question"
@@ -2227,6 +2309,10 @@ msgstr "Perjungti į rodinį 1-9"
 msgid "System"
 msgstr "Sistema"
 
+#: src/features/help/devices.tsx
+msgid "System Settings, Internet Accounts, Add Other Account, then CardDAV Account for contacts or CalDAV Account for calendars."
+msgstr "Sistemos nuostatos, Interneto paskyros, Pridėti kitą paskyrą, tada CardDAV paskyra kontaktams arba CalDAV paskyra kalendoriams."
+
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Tag already exists"
 msgstr "Žyma jau egzistuoja"
@@ -2283,6 +2369,10 @@ msgstr "Į kameros užklausą neatsakyta"
 msgid "The microphone request was not answered"
 msgstr "Į mikrofono užklausą neatsakyta"
 
+#: src/features/help/devices.tsx
+msgid "The Mochi app shows your contacts and calendars itself. To put them into the phone's own Contacts and Calendar apps, use DAVx5."
+msgstr "Programa Mochi pati rodo jūsų kontaktus ir kalendorius. Kad jie atsirastų paties telefono Kontaktų ir Kalendoriaus programose, naudokite DAVx5."
+
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "The passkey request was not answered"
 msgstr "Į slaptarakčio užklausą neatsakyta"
@@ -2302,6 +2392,10 @@ msgstr "Šiai programai neleidžiama naudoti jūsų slaptarakčio. Leiskite tai 
 #: ../../../lib/web/src/components/game/game-end-dialogs.tsx
 msgid "This permanently deletes the game and its chat. This cannot be undone."
 msgstr "Tai visam laikui ištrins žaidimą ir jo pokalbį. Šio veiksmo negalima anuliuoti."
+
+#: src/features/help/devices.tsx
+msgid "Thunderbird"
+msgstr "Thunderbird"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Thursday"
@@ -2555,6 +2649,10 @@ msgstr "Jūsų paskyra buvo perkelta čia iš {source}. Kol jos ten neištrinate
 #: ../../../lib/web/src/components/comment-composer.tsx
 msgid "Your attachments will be lost."
 msgstr "Jūsų priedai bus prarasti."
+
+#: src/features/help/devices.tsx
+msgid "Your contacts and calendars sync to your phone, tablet and computer over CardDAV and CalDAV, which every major contacts and calendar app speaks."
+msgstr "Jūsų kontaktai ir kalendoriai sinchronizuojami su telefonu, planšete ir kompiuteriu per CardDAV ir CalDAV, kuriuos supranta visos svarbiausios kontaktų ir kalendorių programos."
 
 #: src/features/help/contribute-dialog.tsx
 msgid "Your introduction has been submitted and will appear after moderation."

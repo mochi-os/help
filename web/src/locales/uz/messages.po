@@ -241,6 +241,10 @@ msgstr "Xatolik yuz berdi"
 msgid "An unexpected error occurred"
 msgstr "Kutilmagan xatolik yuz berdi"
 
+#: src/features/help/devices.tsx
+msgid "Android"
+msgstr "Android"
+
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
 msgstr "Android push"
@@ -491,6 +495,10 @@ msgstr "Yon paneldan oʻyin tanlang yoki yangisini boshlang."
 msgid "Choose language"
 msgstr "Tilni tanlang"
 
+#: src/features/help/devices.tsx
+msgid "Choose the account type Manual and enter the username, the password and the server address."
+msgstr "Hisob turini Qoʻlda deb tanlang va foydalanuvchi nomi, parol va server manzilini kiriting."
+
 #: ../../../lib/web/src/components/banner-section.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
@@ -607,6 +615,11 @@ msgstr "Koʻrinish sozlamalarini sozlash"
 msgid "Confirm"
 msgstr "Tasdiqlash"
 
+#: src/features/help/devices.tsx
+#: src/features/help/index.tsx
+msgid "Connect your phone"
+msgstr "Telefoningizni ulang"
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connected"
 msgstr "Ulangan"
@@ -654,6 +667,10 @@ msgstr "Buferga nusxalandi"
 #: ../../../lib/web/src/components/ui/copy-button.tsx
 msgid "Copy"
 msgstr "Nusxalash"
+
+#: src/features/help/devices.tsx
+msgid "Copy the server address, the username and the password into the device. The password is shown once."
+msgstr "Server manzili, foydalanuvchi nomi va parolni qurilmaga koʻchiring. Parol faqat bir marta koʻrsatiladi."
 
 #: ../../../lib/web/src/features/document/document-page.tsx
 msgid "Could not load this document. Please try again later."
@@ -729,6 +746,10 @@ msgstr "Maʼlumotlar ziddiyati"
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Date"
 msgstr "Sana"
+
+#: src/features/help/devices.tsx
+msgid "DAVx5 finds both your address books and your calendars. Turn on the ones to sync."
+msgstr "DAVx5 manzillar kitoblaringizni ham, kalendarlaringizni ham topadi. Sinxronlamoqchi boʻlganlaringizni yoqing."
 
 #: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx
 msgid "Decline"
@@ -960,6 +981,18 @@ msgstr "Banner matnini kiriting (markdown qoʻllanadi)..."
 msgid "Enter the code from your email"
 msgstr "Elektron pochtangizdagi kodni kiriting"
 
+#: src/features/help/devices.tsx
+msgid "Enter the password when asked, and choose the address books and calendars to add."
+msgstr "Soʻralganda parolni kiriting va qoʻshmoqchi boʻlgan manzillar kitoblari va kalendarlarni tanlang."
+
+#: src/features/help/devices.tsx
+msgid "Enter the server address, the username and the password in each."
+msgstr "Har birida server manzili, foydalanuvchi nomi va parolni kiriting."
+
+#: src/features/help/devices.tsx
+msgid "Enter the server address, the username and the password."
+msgstr "Server manzili, foydalanuvchi nomi va parolni kiriting."
+
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Enter your authenticator code"
 msgstr "Autentifikator kodingizni kiriting"
@@ -1112,6 +1145,22 @@ msgstr "Bayroqlar"
 msgid "Flat"
 msgstr "Tekis"
 
+#: src/features/help/devices.tsx
+msgid "For calendars: Calendar, New Calendar, On the Network, with the username and the server address."
+msgstr "Kalendarlar uchun: Kalendar, Yangi kalendar, Tarmoqda, foydalanuvchi nomi va server manzili bilan."
+
+#: src/features/help/devices.tsx
+msgid "For calendars: Settings, Calendar, Accounts, Add Account, Other, Add CalDAV Account."
+msgstr "Kalendarlar uchun: Sozlamalar, Kalendar, Hisoblar, Hisob qoʻshish, Boshqa, CalDAV hisobini qoʻshish."
+
+#: src/features/help/devices.tsx
+msgid "For contacts: Address Book, New Address Book, Add CardDAV Address Book, with the username and the server address."
+msgstr "Kontaktlar uchun: Manzillar kitobi, Yangi manzillar kitobi, CardDAV manzillar kitobini qoʻshish, foydalanuvchi nomi va server manzili bilan."
+
+#: src/features/help/devices.tsx
+msgid "For contacts: Settings, Contacts, Accounts, Add Account, Other, Add CardDAV Account."
+msgstr "Kontaktlar uchun: Sozlamalar, Kontaktlar, Hisoblar, Hisob qoʻshish, Boshqa, CardDAV hisobini qoʻshish."
+
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Friday"
 msgstr "Juma"
@@ -1131,6 +1180,10 @@ msgstr "Kimdan"
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "From theme"
 msgstr "Mavzudan"
+
+#: src/features/help/devices.tsx
+msgid "Get a password for the device"
+msgstr "Qurilma uchun parol oling"
 
 #: ../../../lib/web/src/features/errors/access-denied-error.tsx
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
@@ -1158,6 +1211,7 @@ msgstr "Boʻyicha guruhlash"
 msgid "Group: {0}"
 msgstr "Guruh: {0}"
 
+#: src/features/help/devices.tsx
 #: src/features/help/index.tsx
 #: src/routes/_authenticated/document/privacy.tsx
 #: src/routes/_authenticated/document/rules.tsx
@@ -1210,6 +1264,10 @@ msgstr "Bosh harflar avatari"
 msgid "Initials avatar for {name}"
 msgstr "{name} uchun bosh harflar avatari"
 
+#: src/features/help/devices.tsx
+msgid "Install DAVx5 and add an account with \"Login with URL and user name\"."
+msgstr "DAVx5 ni oʻrnating va \"URL va foydalanuvchi nomi bilan kirish\" orqali hisob qoʻshing."
+
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Interest {weight}"
 msgstr "Qiziqish {weight}"
@@ -1226,6 +1284,10 @@ msgstr "O'zingizni tanishtiring"
 #: ../../../lib/web/src/components/entity/entity-field-editor.tsx
 msgid "Invalid date"
 msgstr "Notoʻgʻri sana"
+
+#: src/features/help/devices.tsx
+msgid "iPhone and iPad"
+msgstr "iPhone va iPad"
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "It seems like the page you're looking for <0/>does not exist or might have been removed."
@@ -1313,6 +1375,10 @@ msgstr "Muvaffaqiyatli chiqildi"
 #: ../../../lib/web/src/components/sign-out-dialog.tsx
 msgid "Logging out…"
 msgstr "Chiqilmoqda…"
+
+#: src/features/help/devices.tsx
+msgid "Mac"
+msgstr "Mac"
 
 #: ../../../lib/web/src/components/notification-category-button.tsx
 msgid "Manage categories"
@@ -1417,6 +1483,10 @@ msgstr "Nom kerak"
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Name must be 1000 characters or less"
 msgstr "Nom 1000 ta belgidan oshmasligi kerak"
+
+#: src/features/help/devices.tsx
+msgid "Name the device, for example your phone's name, and create its password."
+msgstr "Qurilmaga nom bering, masalan telefoningiz nomini, va uning parolini yarating."
 
 #: ../../../lib/web/src/features/errors/general-error.tsx
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
@@ -1574,6 +1644,10 @@ msgstr "Raqam"
 msgid "On"
 msgstr "Yoniq"
 
+#: src/features/help/devices.tsx
+msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connect device stops its password at once."
+msgstr "Bitta parol ham kontaktlar, ham kalendarlar uchun ishlaydi. Har bir qurilma oʻz parolini oladi va qurilmani Qurilma ulash boʻlimidan oʻchirsangiz, uning paroli darhol ishlamay qoladi."
+
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
 msgstr "Voy! Sahifa topilmadi!"
@@ -1581,6 +1655,10 @@ msgstr "Voy! Sahifa topilmadi!"
 #: ../../../lib/web/src/components/layout/nav-group.tsx
 msgid "Open actions"
 msgstr "Amallarni ochish"
+
+#: src/features/help/devices.tsx
+msgid "Open Calendars or People and choose Connect device."
+msgstr "Kalendarlar yoki Odamlar ni oching va Qurilma ulash ni tanlang."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"
@@ -1729,6 +1807,10 @@ msgstr "Xususiyatlar"
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Push notification"
 msgstr "Push bildirishnoma"
+
+#: src/features/help/index.tsx
+msgid "Put your contacts and calendars on your phone, tablet or computer."
+msgstr "Kontaktlaringiz va kalendarlaringizni telefon, planshet yoki kompyuteringizga joylang."
 
 #: src/features/help/contribute-dialog.tsx
 msgid "Question"
@@ -2227,6 +2309,10 @@ msgstr "1-9 koʻrinishiga oʻtish"
 msgid "System"
 msgstr "Tizim"
 
+#: src/features/help/devices.tsx
+msgid "System Settings, Internet Accounts, Add Other Account, then CardDAV Account for contacts or CalDAV Account for calendars."
+msgstr "Tizim sozlamalari, Internet hisoblari, Boshqa hisob qoʻshish, soʻng kontaktlar uchun CardDAV hisobi yoki kalendarlar uchun CalDAV hisobi."
+
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Tag already exists"
 msgstr "Teg allaqachon mavjud"
@@ -2283,6 +2369,10 @@ msgstr "Kamera so‘roviga javob berilmadi"
 msgid "The microphone request was not answered"
 msgstr "Mikrofon so‘roviga javob berilmadi"
 
+#: src/features/help/devices.tsx
+msgid "The Mochi app shows your contacts and calendars itself. To put them into the phone's own Contacts and Calendar apps, use DAVx5."
+msgstr "Mochi ilovasi kontaktlar va kalendarlaringizni oʻzi koʻrsatadi. Ularni telefonning oʻz Kontaktlar va Kalendar ilovalariga joylash uchun DAVx5 dan foydalaning."
+
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "The passkey request was not answered"
 msgstr "Passkey so‘roviga javob berilmadi"
@@ -2302,6 +2392,10 @@ msgstr "Bu ilovaga passkey’ingizdan foydalanishga ruxsat berilmagan. Sozlamala
 #: ../../../lib/web/src/components/game/game-end-dialogs.tsx
 msgid "This permanently deletes the game and its chat. This cannot be undone."
 msgstr "Bu oʻyin va uning chatini butunlay oʻchirib tashlaydi. Bu amalni bekor qilib boʻlmaydi."
+
+#: src/features/help/devices.tsx
+msgid "Thunderbird"
+msgstr "Thunderbird"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Thursday"
@@ -2555,6 +2649,10 @@ msgstr "Hisobingiz {source} dan bu yerga ko'chirildi. U yerdan o'chirmaguncha, x
 #: ../../../lib/web/src/components/comment-composer.tsx
 msgid "Your attachments will be lost."
 msgstr "Biriktirmalaringiz yo‘qoladi."
+
+#: src/features/help/devices.tsx
+msgid "Your contacts and calendars sync to your phone, tablet and computer over CardDAV and CalDAV, which every major contacts and calendar app speaks."
+msgstr "Kontaktlaringiz va kalendarlaringiz CardDAV va CalDAV orqali telefon, planshet va kompyuteringiz bilan sinxronlanadi; bu protokollarni barcha yirik kontakt va kalendar ilovalari tushunadi."
 
 #: src/features/help/contribute-dialog.tsx
 msgid "Your introduction has been submitted and will appear after moderation."

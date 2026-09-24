@@ -241,6 +241,10 @@ msgstr "Kwenzeke impazamo"
 msgid "An unexpected error occurred"
 msgstr "Kwenzeke impazamo engalindelekanga"
 
+#: src/features/help/devices.tsx
+msgid "Android"
+msgstr "Android"
+
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
 msgstr "I-push ye-Android"
@@ -491,6 +495,10 @@ msgstr "Khetha umdlalo kwibha esecaleni okanye qalisa omtsha."
 msgid "Choose language"
 msgstr "Khetha ulwimi"
 
+#: src/features/help/devices.tsx
+msgid "Choose the account type Manual and enter the username, the password and the server address."
+msgstr "Khetha uhlobo lwe-akhawunti oluthi Ngesandla uze ufake igama lomsebenzisi, igama lokugqitha kunye nedilesi yeseva."
+
 #: ../../../lib/web/src/components/banner-section.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
@@ -607,6 +615,11 @@ msgstr "Lungiselela iisetingi zembono"
 msgid "Confirm"
 msgstr "Qinisekisa"
 
+#: src/features/help/devices.tsx
+#: src/features/help/index.tsx
+msgid "Connect your phone"
+msgstr "Qhagamshela ifowuni yakho"
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connected"
 msgstr "Idibene"
@@ -654,6 +667,10 @@ msgstr "Kukotshelwe kwibhodi yokukotshela"
 #: ../../../lib/web/src/components/ui/copy-button.tsx
 msgid "Copy"
 msgstr "Kotshela"
+
+#: src/features/help/devices.tsx
+msgid "Copy the server address, the username and the password into the device. The password is shown once."
+msgstr "Kopa idilesi yeseva, igama lomsebenzisi negama lokugqitha kwisixhobo. Igama lokugqitha liboniswa kanye kuphela."
 
 #: ../../../lib/web/src/features/document/document-page.tsx
 msgid "Could not load this document. Please try again later."
@@ -729,6 +746,10 @@ msgstr "Ungquzulwano lwedatha"
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Date"
 msgstr "Umhla"
+
+#: src/features/help/devices.tsx
+msgid "DAVx5 finds both your address books and your calendars. Turn on the ones to sync."
+msgstr "I-DAVx5 ifumana zombini iincwadi zakho zeedilesi neekhalenda zakho. Vula ezo ufuna ukuzilungelelanisa."
 
 #: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx
 msgid "Decline"
@@ -960,6 +981,18 @@ msgstr "Faka umbhalo webhena (i-markdown iyaxhaswa)..."
 msgid "Enter the code from your email"
 msgstr "Faka ikhowudi evela kwi-imeyile yakho"
 
+#: src/features/help/devices.tsx
+msgid "Enter the password when asked, and choose the address books and calendars to add."
+msgstr "Faka igama lokugqitha xa licelwa, uze ukhethe iincwadi zeedilesi neekhalenda ofuna ukuzongeza."
+
+#: src/features/help/devices.tsx
+msgid "Enter the server address, the username and the password in each."
+msgstr "Kwisinye ngasinye faka idilesi yeseva, igama lomsebenzisi negama lokugqitha."
+
+#: src/features/help/devices.tsx
+msgid "Enter the server address, the username and the password."
+msgstr "Faka idilesi yeseva, igama lomsebenzisi negama lokugqitha."
+
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Enter your authenticator code"
 msgstr "Faka ikhowudi yakho yesiqinisekisi"
@@ -1112,6 +1145,22 @@ msgstr "Iiflegi"
 msgid "Flat"
 msgstr "Isicaba"
 
+#: src/features/help/devices.tsx
+msgid "For calendars: Calendar, New Calendar, On the Network, with the username and the server address."
+msgstr "Kwiikhalenda: Ikhalenda, Ikhalenda Entsha, Kwinethiwekhi, ngegama lomsebenzisi nedilesi yeseva."
+
+#: src/features/help/devices.tsx
+msgid "For calendars: Settings, Calendar, Accounts, Add Account, Other, Add CalDAV Account."
+msgstr "Kwiikhalenda: Iisetingi, Ikhalenda, Ii-akhawunti, Yongeza i-akhawunti, Okunye, Yongeza i-akhawunti ye-CalDAV."
+
+#: src/features/help/devices.tsx
+msgid "For contacts: Address Book, New Address Book, Add CardDAV Address Book, with the username and the server address."
+msgstr "Kwabaqhagamshelwana nabo: Incwadi yeedilesi, Incwadi entsha yeedilesi, Yongeza incwadi yeedilesi ye-CardDAV, ngegama lomsebenzisi nedilesi yeseva."
+
+#: src/features/help/devices.tsx
+msgid "For contacts: Settings, Contacts, Accounts, Add Account, Other, Add CardDAV Account."
+msgstr "Kwabaqhagamshelwana nabo: Iisetingi, Abaqhagamshelwana nabo, Ii-akhawunti, Yongeza i-akhawunti, Okunye, Yongeza i-akhawunti ye-CardDAV."
+
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Friday"
 msgstr "ULwesihlanu"
@@ -1131,6 +1180,10 @@ msgstr "Suka"
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "From theme"
 msgstr "Kwitimu"
+
+#: src/features/help/devices.tsx
+msgid "Get a password for the device"
+msgstr "Fumana igama lokugqitha lesixhobo"
 
 #: ../../../lib/web/src/features/errors/access-denied-error.tsx
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
@@ -1158,6 +1211,7 @@ msgstr "Qoqa nge-"
 msgid "Group: {0}"
 msgstr "Iqela: {0}"
 
+#: src/features/help/devices.tsx
 #: src/features/help/index.tsx
 #: src/routes/_authenticated/document/privacy.tsx
 #: src/routes/_authenticated/document/rules.tsx
@@ -1210,6 +1264,10 @@ msgstr "I-avatar yoonobumba bokuqala"
 msgid "Initials avatar for {name}"
 msgstr "I-avatar yoonobumba bokuqala ka-{name}"
 
+#: src/features/help/devices.tsx
+msgid "Install DAVx5 and add an account with \"Login with URL and user name\"."
+msgstr "Faka i-DAVx5 uze wongeze i-akhawunti usebenzisa \"Ngena nge-URL negama lomsebenzisi\"."
+
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Interest {weight}"
 msgstr "Umdla {weight}"
@@ -1226,6 +1284,10 @@ msgstr "Zazise"
 #: ../../../lib/web/src/components/entity/entity-field-editor.tsx
 msgid "Invalid date"
 msgstr "Umhla ongasebenziyo"
+
+#: src/features/help/devices.tsx
+msgid "iPhone and iPad"
+msgstr "iPhone ne-iPad"
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "It seems like the page you're looking for <0/>does not exist or might have been removed."
@@ -1313,6 +1375,10 @@ msgstr "Uphume ngempumelelo"
 #: ../../../lib/web/src/components/sign-out-dialog.tsx
 msgid "Logging out…"
 msgstr "Iyaphuma…"
+
+#: src/features/help/devices.tsx
+msgid "Mac"
+msgstr "Mac"
 
 #: ../../../lib/web/src/components/notification-category-button.tsx
 msgid "Manage categories"
@@ -1417,6 +1483,10 @@ msgstr "Igama liyafuneka"
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Name must be 1000 characters or less"
 msgstr "Igama kufuneka libe yimpawu eziyi-1000 okanye ngaphantsi"
+
+#: src/features/help/devices.tsx
+msgid "Name the device, for example your phone's name, and create its password."
+msgstr "Nika isixhobo igama, umzekelo igama lefowuni yakho, uze wenze igama laso lokugqitha."
 
 #: ../../../lib/web/src/features/errors/general-error.tsx
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
@@ -1574,6 +1644,10 @@ msgstr "Inani"
 msgid "On"
 msgstr "Ivuliwe"
 
+#: src/features/help/devices.tsx
+msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connect device stops its password at once."
+msgstr "Igama elinye lokugqitha lisebenza kubo bobabini abaqhagamshelwana nabo neekhalenda. Isixhobo ngasinye sinelalo, kwaye ukususa isixhobo phantsi kweQhagamshela isixhobo kumisa igama laso lokugqitha ngoko nangoko."
+
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
 msgstr "Yhu! Iphepha Alifumanekanga!"
@@ -1581,6 +1655,10 @@ msgstr "Yhu! Iphepha Alifumanekanga!"
 #: ../../../lib/web/src/components/layout/nav-group.tsx
 msgid "Open actions"
 msgstr "Vula izenzo"
+
+#: src/features/help/devices.tsx
+msgid "Open Calendars or People and choose Connect device."
+msgstr "Vula Iikhalenda okanye Abantu uze ukhethe Qhagamshela isixhobo."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"
@@ -1729,6 +1807,10 @@ msgstr "Iimpawu"
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Push notification"
 msgstr "Isaziso se-push"
+
+#: src/features/help/index.tsx
+msgid "Put your contacts and calendars on your phone, tablet or computer."
+msgstr "Beka abaqhagamshelwana nabo neekhalenda zakho kwifowuni, kwithebhulethi okanye kwikhompyutha yakho."
 
 #: src/features/help/contribute-dialog.tsx
 msgid "Question"
@@ -2227,6 +2309,10 @@ msgstr "Tshintshela kwijongo 1-9"
 msgid "System"
 msgstr "Inkqubo"
 
+#: src/features/help/devices.tsx
+msgid "System Settings, Internet Accounts, Add Other Account, then CardDAV Account for contacts or CalDAV Account for calendars."
+msgstr "Iisetingi zeNkqubo, Ii-akhawunti ze-intanethi, Yongeza enye i-akhawunti, uze ukhethe i-akhawunti ye-CardDAV kwabaqhagamshelwana nabo okanye i-akhawunti ye-CalDAV kwiikhalenda."
+
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Tag already exists"
 msgstr "Iletile sele ikhona"
@@ -2283,6 +2369,10 @@ msgstr "Isicelo sekhamera asiphendulwanga"
 msgid "The microphone request was not answered"
 msgstr "Isicelo semayikrofoni asiphendulwanga"
 
+#: src/features/help/devices.tsx
+msgid "The Mochi app shows your contacts and calendars itself. To put them into the phone's own Contacts and Calendar apps, use DAVx5."
+msgstr "Usetyenziso lwe-Mochi lubonisa abaqhagamshelwana nabo neekhalenda zakho ngokwalo. Ukuze uzifake kusetyenziso lwefowuni lwabaqhagamshelwana nabo nolwekhalenda, sebenzisa i-DAVx5."
+
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "The passkey request was not answered"
 msgstr "Isicelo se-passkey asiphendulwanga"
@@ -2302,6 +2392,10 @@ msgstr "Le app ayivumelekanga ukusebenzisa i-passkey yakho. Yivumele kwiiSetingi
 #: ../../../lib/web/src/components/game/game-end-dialogs.tsx
 msgid "This permanently deletes the game and its chat. This cannot be undone."
 msgstr "Oku kuza kucima umdlalo nengxoxo yawo ngokusisigxina. Esi senzo asinakuguqulwa."
+
+#: src/features/help/devices.tsx
+msgid "Thunderbird"
+msgstr "Thunderbird"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Thursday"
@@ -2555,6 +2649,10 @@ msgstr "I-akhawunti yakho ihanjiswe apha ukusuka ku-{source}. Kude ukuze uyicime
 #: ../../../lib/web/src/components/comment-composer.tsx
 msgid "Your attachments will be lost."
 msgstr "Iziqhoboshelo zakho ziza kulahleka."
+
+#: src/features/help/devices.tsx
+msgid "Your contacts and calendars sync to your phone, tablet and computer over CardDAV and CalDAV, which every major contacts and calendar app speaks."
+msgstr "Abaqhagamshelwana nabo neekhalenda zakho zilungelelaniswa kwifowuni, kwithebhulethi nakwikhompyutha yakho nge-CardDAV nange-CalDAV, eziqondwa lusetyenziso ngalunye olukhulu lwabaqhagamshelwana nabo nolweekhalenda."
 
 #: src/features/help/contribute-dialog.tsx
 msgid "Your introduction has been submitted and will appear after moderation."

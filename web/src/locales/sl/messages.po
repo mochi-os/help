@@ -241,6 +241,10 @@ msgstr "Prišlo je do napake"
 msgid "An unexpected error occurred"
 msgstr "Prišlo je do nepričakovane napake"
 
+#: src/features/help/devices.tsx
+msgid "Android"
+msgstr "Android"
+
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
 msgstr "Android push"
@@ -491,6 +495,10 @@ msgstr "Izberite igro iz stranske vrstice ali začnite novo."
 msgid "Choose language"
 msgstr "Izberite jezik"
 
+#: src/features/help/devices.tsx
+msgid "Choose the account type Manual and enter the username, the password and the server address."
+msgstr "Izberite vrsto računa Ročno in vnesite uporabniško ime, geslo in naslov strežnika."
+
 #: ../../../lib/web/src/components/banner-section.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
@@ -607,6 +615,11 @@ msgstr "Konfigurirajte nastavitve pogleda"
 msgid "Confirm"
 msgstr "Potrdi"
 
+#: src/features/help/devices.tsx
+#: src/features/help/index.tsx
+msgid "Connect your phone"
+msgstr "Povežite svoj telefon"
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connected"
 msgstr "Povezano"
@@ -654,6 +667,10 @@ msgstr "Kopirano v odložišče"
 #: ../../../lib/web/src/components/ui/copy-button.tsx
 msgid "Copy"
 msgstr "Kopiraj"
+
+#: src/features/help/devices.tsx
+msgid "Copy the server address, the username and the password into the device. The password is shown once."
+msgstr "Naslov strežnika, uporabniško ime in geslo prepišite v napravo. Geslo je prikazano samo enkrat."
 
 #: ../../../lib/web/src/features/document/document-page.tsx
 msgid "Could not load this document. Please try again later."
@@ -729,6 +746,10 @@ msgstr "Konflikt podatkov"
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Date"
 msgstr "Datum"
+
+#: src/features/help/devices.tsx
+msgid "DAVx5 finds both your address books and your calendars. Turn on the ones to sync."
+msgstr "DAVx5 najde tako vaše imenike kot vaše koledarje. Vklopite tiste, ki jih želite sinhronizirati."
 
 #: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx
 msgid "Decline"
@@ -960,6 +981,18 @@ msgstr "Vnesite besedilo pasice (markdown podprt)..."
 msgid "Enter the code from your email"
 msgstr "Vnesite kodo iz e-pošte"
 
+#: src/features/help/devices.tsx
+msgid "Enter the password when asked, and choose the address books and calendars to add."
+msgstr "Ko boste pozvani, vnesite geslo ter izberite imenike in koledarje, ki jih želite dodati."
+
+#: src/features/help/devices.tsx
+msgid "Enter the server address, the username and the password in each."
+msgstr "Pri vsakem vnesite naslov strežnika, uporabniško ime in geslo."
+
+#: src/features/help/devices.tsx
+msgid "Enter the server address, the username and the password."
+msgstr "Vnesite naslov strežnika, uporabniško ime in geslo."
+
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Enter your authenticator code"
 msgstr "Vnesite kodo iz aplikacije za preverjanje"
@@ -1112,6 +1145,22 @@ msgstr "Zastavice"
 msgid "Flat"
 msgstr "Ploščato"
 
+#: src/features/help/devices.tsx
+msgid "For calendars: Calendar, New Calendar, On the Network, with the username and the server address."
+msgstr "Za koledarje: Koledar, Nov koledar, V omrežju, z uporabniškim imenom in naslovom strežnika."
+
+#: src/features/help/devices.tsx
+msgid "For calendars: Settings, Calendar, Accounts, Add Account, Other, Add CalDAV Account."
+msgstr "Za koledarje: Nastavitve, Koledar, Računi, Dodaj račun, Drugo, Dodaj račun CalDAV."
+
+#: src/features/help/devices.tsx
+msgid "For contacts: Address Book, New Address Book, Add CardDAV Address Book, with the username and the server address."
+msgstr "Za stike: Imenik, Nov imenik, Dodaj imenik CardDAV, z uporabniškim imenom in naslovom strežnika."
+
+#: src/features/help/devices.tsx
+msgid "For contacts: Settings, Contacts, Accounts, Add Account, Other, Add CardDAV Account."
+msgstr "Za stike: Nastavitve, Stiki, Računi, Dodaj račun, Drugo, Dodaj račun CardDAV."
+
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Friday"
 msgstr "Petek"
@@ -1131,6 +1180,10 @@ msgstr "Od"
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "From theme"
 msgstr "Iz teme"
+
+#: src/features/help/devices.tsx
+msgid "Get a password for the device"
+msgstr "Pridobite geslo za napravo"
 
 #: ../../../lib/web/src/features/errors/access-denied-error.tsx
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
@@ -1158,6 +1211,7 @@ msgstr "Združi po"
 msgid "Group: {0}"
 msgstr "Skupina: {0}"
 
+#: src/features/help/devices.tsx
 #: src/features/help/index.tsx
 #: src/routes/_authenticated/document/privacy.tsx
 #: src/routes/_authenticated/document/rules.tsx
@@ -1210,6 +1264,10 @@ msgstr "Avatar z začetnicami"
 msgid "Initials avatar for {name}"
 msgstr "Avatar z začetnicami za {name}"
 
+#: src/features/help/devices.tsx
+msgid "Install DAVx5 and add an account with \"Login with URL and user name\"."
+msgstr "Namestite DAVx5 in dodajte račun z možnostjo \"Prijava z naslovom URL in uporabniškim imenom\"."
+
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Interest {weight}"
 msgstr "Zanimanje {weight}"
@@ -1226,6 +1284,10 @@ msgstr "Predstavite se"
 #: ../../../lib/web/src/components/entity/entity-field-editor.tsx
 msgid "Invalid date"
 msgstr "Neveljaven datum"
+
+#: src/features/help/devices.tsx
+msgid "iPhone and iPad"
+msgstr "iPhone in iPad"
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "It seems like the page you're looking for <0/>does not exist or might have been removed."
@@ -1313,6 +1375,10 @@ msgstr "Uspešna odjava"
 #: ../../../lib/web/src/components/sign-out-dialog.tsx
 msgid "Logging out…"
 msgstr "Odjavljanje…"
+
+#: src/features/help/devices.tsx
+msgid "Mac"
+msgstr "Mac"
 
 #: ../../../lib/web/src/components/notification-category-button.tsx
 msgid "Manage categories"
@@ -1417,6 +1483,10 @@ msgstr "Ime je obvezno"
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Name must be 1000 characters or less"
 msgstr "Ime mora imeti največ 1000 znakov"
+
+#: src/features/help/devices.tsx
+msgid "Name the device, for example your phone's name, and create its password."
+msgstr "Poimenujte napravo, na primer z imenom telefona, in ustvarite njeno geslo."
 
 #: ../../../lib/web/src/features/errors/general-error.tsx
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
@@ -1574,6 +1644,10 @@ msgstr "Številka"
 msgid "On"
 msgstr "Vklopljeno"
 
+#: src/features/help/devices.tsx
+msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connect device stops its password at once."
+msgstr "Eno geslo velja za stike in koledarje. Vsaka naprava dobi svoje, odstranitev naprave pod Poveži napravo pa njeno geslo takoj onemogoči."
+
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
 msgstr "Ups! Strani ni bilo mogoče najti!"
@@ -1581,6 +1655,10 @@ msgstr "Ups! Strani ni bilo mogoče najti!"
 #: ../../../lib/web/src/components/layout/nav-group.tsx
 msgid "Open actions"
 msgstr "Odpri dejanja"
+
+#: src/features/help/devices.tsx
+msgid "Open Calendars or People and choose Connect device."
+msgstr "Odprite Koledarji ali Ljudje in izberite Poveži napravo."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"
@@ -1729,6 +1807,10 @@ msgstr "Lastnosti"
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Push notification"
 msgstr "Push obvestilo"
+
+#: src/features/help/index.tsx
+msgid "Put your contacts and calendars on your phone, tablet or computer."
+msgstr "Prenesite svoje stike in koledarje v telefon, tablico ali računalnik."
 
 #: src/features/help/contribute-dialog.tsx
 msgid "Question"
@@ -2227,6 +2309,10 @@ msgstr "Preklopi na pogled 1-9"
 msgid "System"
 msgstr "Sistem"
 
+#: src/features/help/devices.tsx
+msgid "System Settings, Internet Accounts, Add Other Account, then CardDAV Account for contacts or CalDAV Account for calendars."
+msgstr "Sistemske nastavitve, Internetni računi, Dodaj drug račun, nato Račun CardDAV za stike ali Račun CalDAV za koledarje."
+
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Tag already exists"
 msgstr "Oznaka že obstaja"
@@ -2283,6 +2369,10 @@ msgstr "Zahteva za kamero ni dobila odgovora"
 msgid "The microphone request was not answered"
 msgstr "Zahteva za mikrofon ni dobila odgovora"
 
+#: src/features/help/devices.tsx
+msgid "The Mochi app shows your contacts and calendars itself. To put them into the phone's own Contacts and Calendar apps, use DAVx5."
+msgstr "Aplikacija Mochi vaše stike in koledarje prikazuje sama. Če jih želite prenesti v telefonovi aplikaciji Stiki in Koledar, uporabite DAVx5."
+
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "The passkey request was not answered"
 msgstr "Zahteva za geslo-ključ ni dobila odgovora"
@@ -2302,6 +2392,10 @@ msgstr "Ta aplikacija ne sme uporabljati vašega geslo-ključa. Dovolite ji to v
 #: ../../../lib/web/src/components/game/game-end-dialogs.tsx
 msgid "This permanently deletes the game and its chat. This cannot be undone."
 msgstr "To bo trajno izbrisalo igro in njen klepet. Tega dejanja ni mogoče razveljaviti."
+
+#: src/features/help/devices.tsx
+msgid "Thunderbird"
+msgstr "Thunderbird"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Thursday"
@@ -2555,6 +2649,10 @@ msgstr "Vaš račun je bil preseljen sem iz {source}. Dokler ga tam ne izbrišet
 #: ../../../lib/web/src/components/comment-composer.tsx
 msgid "Your attachments will be lost."
 msgstr "Vaše priloge bodo izgubljene."
+
+#: src/features/help/devices.tsx
+msgid "Your contacts and calendars sync to your phone, tablet and computer over CardDAV and CalDAV, which every major contacts and calendar app speaks."
+msgstr "Vaši stiki in koledarji se s telefonom, tablico in računalnikom sinhronizirajo prek protokolov CardDAV in CalDAV, ki ju razume vsaka pomembnejša aplikacija za stike in koledarje."
 
 #: src/features/help/contribute-dialog.tsx
 msgid "Your introduction has been submitted and will appear after moderation."

@@ -241,6 +241,10 @@ msgstr "Хатогӣ рух дод"
 msgid "An unexpected error occurred"
 msgstr "Хатогии ғайричашмдошт рух дод"
 
+#: src/features/help/devices.tsx
+msgid "Android"
+msgstr "Android"
+
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
 msgstr "Push барои Android"
@@ -491,6 +495,10 @@ msgstr "Аз панели канорӣ бозиеро интихоб кунед 
 msgid "Choose language"
 msgstr "Забон интихоб кунед"
 
+#: src/features/help/devices.tsx
+msgid "Choose the account type Manual and enter the username, the password and the server address."
+msgstr "Навъи ҳисобро «Дастӣ» интихоб кунед ва номи корбар, рамз ва суроғаи серверро ворид кунед."
+
 #: ../../../lib/web/src/components/banner-section.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
@@ -607,6 +615,11 @@ msgstr "Танзимоти намуд"
 msgid "Confirm"
 msgstr "Тасдиқ"
 
+#: src/features/help/devices.tsx
+#: src/features/help/index.tsx
+msgid "Connect your phone"
+msgstr "Телефони худро пайваст кунед"
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connected"
 msgstr "Пайваст шуда"
@@ -654,6 +667,10 @@ msgstr "Ба буфер нусхабардорӣ шуд"
 #: ../../../lib/web/src/components/ui/copy-button.tsx
 msgid "Copy"
 msgstr "Нусхабардорӣ"
+
+#: src/features/help/devices.tsx
+msgid "Copy the server address, the username and the password into the device. The password is shown once."
+msgstr "Суроғаи сервер, номи корбар ва рамзро ба дастгоҳ нусхабардорӣ кунед. Рамз танҳо як маротиба нишон дода мешавад."
 
 #: ../../../lib/web/src/features/document/document-page.tsx
 msgid "Could not load this document. Please try again later."
@@ -729,6 +746,10 @@ msgstr "Ихтилофи маълумот"
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Date"
 msgstr "Сана"
+
+#: src/features/help/devices.tsx
+msgid "DAVx5 finds both your address books and your calendars. Turn on the ones to sync."
+msgstr "DAVx5 ҳам китобҳои суроғаҳо ва ҳам тақвимҳои шуморо меёбад. Онҳоеро, ки бояд ҳамоҳанг шаванд, фаъол кунед."
 
 #: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx
 msgid "Decline"
@@ -960,6 +981,18 @@ msgstr "Матни баннерро ворид кунед (markdown дастги
 msgid "Enter the code from your email"
 msgstr "Рамзро аз почтаи электронии худ ворид кунед"
 
+#: src/features/help/devices.tsx
+msgid "Enter the password when asked, and choose the address books and calendars to add."
+msgstr "Ҳангоми дархост рамзро ворид кунед ва китобҳои суроғаҳо ва тақвимҳоеро, ки илова кардан мехоҳед, интихоб кунед."
+
+#: src/features/help/devices.tsx
+msgid "Enter the server address, the username and the password in each."
+msgstr "Дар ҳар яки онҳо суроғаи сервер, номи корбар ва рамзро ворид кунед."
+
+#: src/features/help/devices.tsx
+msgid "Enter the server address, the username and the password."
+msgstr "Суроғаи сервер, номи корбар ва рамзро ворид кунед."
+
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Enter your authenticator code"
 msgstr "Рамзи аутентификатори худро ворид кунед"
@@ -1112,6 +1145,22 @@ msgstr "Парчамҳо"
 msgid "Flat"
 msgstr "Ҳамвор"
 
+#: src/features/help/devices.tsx
+msgid "For calendars: Calendar, New Calendar, On the Network, with the username and the server address."
+msgstr "Барои тақвимҳо: Тақвим, Тақвими нав, Дар шабака, бо номи корбар ва суроғаи сервер."
+
+#: src/features/help/devices.tsx
+msgid "For calendars: Settings, Calendar, Accounts, Add Account, Other, Add CalDAV Account."
+msgstr "Барои тақвимҳо: Танзимот, Тақвим, Ҳисобҳо, Илова кардани ҳисоб, Дигар, Илова кардани ҳисоби CalDAV."
+
+#: src/features/help/devices.tsx
+msgid "For contacts: Address Book, New Address Book, Add CardDAV Address Book, with the username and the server address."
+msgstr "Барои тамосҳо: Китоби суроғаҳо, Китоби нави суроғаҳо, Илова кардани китоби суроғаҳои CardDAV, бо номи корбар ва суроғаи сервер."
+
+#: src/features/help/devices.tsx
+msgid "For contacts: Settings, Contacts, Accounts, Add Account, Other, Add CardDAV Account."
+msgstr "Барои тамосҳо: Танзимот, Тамосҳо, Ҳисобҳо, Илова кардани ҳисоб, Дигар, Илова кардани ҳисоби CardDAV."
+
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Friday"
 msgstr "Ҷумъа"
@@ -1131,6 +1180,10 @@ msgstr "Аз"
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "From theme"
 msgstr "Аз мавзӯъ"
+
+#: src/features/help/devices.tsx
+msgid "Get a password for the device"
+msgstr "Барои дастгоҳ рамз гиред"
 
 #: ../../../lib/web/src/features/errors/access-denied-error.tsx
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
@@ -1158,6 +1211,7 @@ msgstr "Гурӯҳбандӣ аз рӯи"
 msgid "Group: {0}"
 msgstr "Гурӯҳ: {0}"
 
+#: src/features/help/devices.tsx
 #: src/features/help/index.tsx
 #: src/routes/_authenticated/document/privacy.tsx
 #: src/routes/_authenticated/document/rules.tsx
@@ -1210,6 +1264,10 @@ msgstr "Аватари ҳарфҳои аввал"
 msgid "Initials avatar for {name}"
 msgstr "Аватари ҳарфҳои аввал барои {name}"
 
+#: src/features/help/devices.tsx
+msgid "Install DAVx5 and add an account with \"Login with URL and user name\"."
+msgstr "DAVx5-ро насб кунед ва тавассути «Воридшавӣ бо URL ва номи корбар» ҳисоб илова кунед."
+
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Interest {weight}"
 msgstr "Таваҷҷуҳ {weight}"
@@ -1226,6 +1284,10 @@ msgstr "Худро муаррифӣ кунед"
 #: ../../../lib/web/src/components/entity/entity-field-editor.tsx
 msgid "Invalid date"
 msgstr "Сана нодуруст"
+
+#: src/features/help/devices.tsx
+msgid "iPhone and iPad"
+msgstr "iPhone ва iPad"
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "It seems like the page you're looking for <0/>does not exist or might have been removed."
@@ -1313,6 +1375,10 @@ msgstr "Бомуваффақият баромад"
 #: ../../../lib/web/src/components/sign-out-dialog.tsx
 msgid "Logging out…"
 msgstr "Баромадан…"
+
+#: src/features/help/devices.tsx
+msgid "Mac"
+msgstr "Mac"
 
 #: ../../../lib/web/src/components/notification-category-button.tsx
 msgid "Manage categories"
@@ -1417,6 +1483,10 @@ msgstr "Ном талаб карда мешавад"
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Name must be 1000 characters or less"
 msgstr "Ном бояд 1000 аломат ё камтар бошад"
+
+#: src/features/help/devices.tsx
+msgid "Name the device, for example your phone's name, and create its password."
+msgstr "Ба дастгоҳ ном диҳед, масалан номи телефони худ, ва рамзи онро эҷод кунед."
 
 #: ../../../lib/web/src/features/errors/general-error.tsx
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
@@ -1574,6 +1644,10 @@ msgstr "Рақам"
 msgid "On"
 msgstr "Фаъол"
 
+#: src/features/help/devices.tsx
+msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connect device stops its password at once."
+msgstr "Як рамз ҳам ба тамосҳо ва ҳам ба тақвимҳо хизмат мекунад. Ҳар дастгоҳ рамзи худро дорад ва хориҷ кардани дастгоҳ дар «Пайваст кардани дастгоҳ» рамзи онро дарҳол қатъ мекунад."
+
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
 msgstr "Эҳ! Саҳифа ёфт нашуд!"
@@ -1581,6 +1655,10 @@ msgstr "Эҳ! Саҳифа ёфт нашуд!"
 #: ../../../lib/web/src/components/layout/nav-group.tsx
 msgid "Open actions"
 msgstr "Кушодани амалҳо"
+
+#: src/features/help/devices.tsx
+msgid "Open Calendars or People and choose Connect device."
+msgstr "Тақвимҳо ё Шахсонро кушоед ва «Пайваст кардани дастгоҳ»-ро интихоб кунед."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"
@@ -1729,6 +1807,10 @@ msgstr "Хусусиятҳо"
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Push notification"
 msgstr "Огоҳиномаи push"
+
+#: src/features/help/index.tsx
+msgid "Put your contacts and calendars on your phone, tablet or computer."
+msgstr "Тамосҳо ва тақвимҳои худро ба телефон, планшет ё компютери худ гузоред."
 
 #: src/features/help/contribute-dialog.tsx
 msgid "Question"
@@ -2227,6 +2309,10 @@ msgstr "Гузариш ба назари 1-9"
 msgid "System"
 msgstr "Система"
 
+#: src/features/help/devices.tsx
+msgid "System Settings, Internet Accounts, Add Other Account, then CardDAV Account for contacts or CalDAV Account for calendars."
+msgstr "Танзимоти система, Ҳисобҳои интернет, Илова кардани ҳисоби дигар, сипас Ҳисоби CardDAV барои тамосҳо ё Ҳисоби CalDAV барои тақвимҳо."
+
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Tag already exists"
 msgstr "Барчасп аллакай вуҷуд дорад"
@@ -2283,6 +2369,10 @@ msgstr "Ба дархости камера ҷавоб дода нашуд"
 msgid "The microphone request was not answered"
 msgstr "Ба дархости микрофон ҷавоб дода нашуд"
 
+#: src/features/help/devices.tsx
+msgid "The Mochi app shows your contacts and calendars itself. To put them into the phone's own Contacts and Calendar apps, use DAVx5."
+msgstr "Барномаи Mochi тамосҳо ва тақвимҳои шуморо худаш нишон медиҳад. Барои ба барномаҳои Тамосҳо ва Тақвими худи телефон гузоштани онҳо DAVx5-ро истифода баред."
+
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "The passkey request was not answered"
 msgstr "Ба дархости калиди дастрасӣ ҷавоб дода нашуд"
@@ -2302,6 +2392,10 @@ msgstr "Ба ин барнома иҷозат дода нашудааст, ки 
 #: ../../../lib/web/src/components/game/game-end-dialogs.tsx
 msgid "This permanently deletes the game and its chat. This cannot be undone."
 msgstr "Ин бозӣ ва чати онро якумра нест мекунад. Ин амалро баргардонидан мумкин нест."
+
+#: src/features/help/devices.tsx
+msgid "Thunderbird"
+msgstr "Thunderbird"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Thursday"
@@ -2555,6 +2649,10 @@ msgstr "Ҳисоби шумо аз {source} ба ин ҷо интиқол дод
 #: ../../../lib/web/src/components/comment-composer.tsx
 msgid "Your attachments will be lost."
 msgstr "Замимаҳои шумо гум мешаванд."
+
+#: src/features/help/devices.tsx
+msgid "Your contacts and calendars sync to your phone, tablet and computer over CardDAV and CalDAV, which every major contacts and calendar app speaks."
+msgstr "Тамосҳо ва тақвимҳои шумо тавассути CardDAV ва CalDAV бо телефон, планшет ва компютери шумо ҳамоҳанг мешаванд, ки ҳар барномаи бузурги тамосҳо ва тақвим онҳоро мефаҳмад."
 
 #: src/features/help/contribute-dialog.tsx
 msgid "Your introduction has been submitted and will appear after moderation."

@@ -241,6 +241,10 @@ msgstr "אירעה שגיאה"
 msgid "An unexpected error occurred"
 msgstr "אירעה שגיאה בלתי צפויה"
 
+#: src/features/help/devices.tsx
+msgid "Android"
+msgstr "Android"
+
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
 msgstr "פוש ל-Android"
@@ -491,6 +495,10 @@ msgstr "בחר משחק מהסרגל הצדדי או התחל אחד חדש."
 msgid "Choose language"
 msgstr "בחר שפה"
 
+#: src/features/help/devices.tsx
+msgid "Choose the account type Manual and enter the username, the password and the server address."
+msgstr "בחר בסוג החשבון ידני והזן את שם המשתמש, הסיסמה וכתובת השרת."
+
 #: ../../../lib/web/src/components/banner-section.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
@@ -607,6 +615,11 @@ msgstr "הגדר את הגדרות התצוגה"
 msgid "Confirm"
 msgstr "אישור"
 
+#: src/features/help/devices.tsx
+#: src/features/help/index.tsx
+msgid "Connect your phone"
+msgstr "חיבור הטלפון שלך"
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connected"
 msgstr "מחובר"
@@ -654,6 +667,10 @@ msgstr "הועתק ללוח"
 #: ../../../lib/web/src/components/ui/copy-button.tsx
 msgid "Copy"
 msgstr "העתק"
+
+#: src/features/help/devices.tsx
+msgid "Copy the server address, the username and the password into the device. The password is shown once."
+msgstr "העתק את כתובת השרת, שם המשתמש והסיסמה אל המכשיר. הסיסמה מוצגת פעם אחת בלבד."
 
 #: ../../../lib/web/src/features/document/document-page.tsx
 msgid "Could not load this document. Please try again later."
@@ -729,6 +746,10 @@ msgstr "התנגשות נתונים"
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Date"
 msgstr "תאריך"
+
+#: src/features/help/devices.tsx
+msgid "DAVx5 finds both your address books and your calendars. Turn on the ones to sync."
+msgstr "DAVx5 מוצא גם את פנקסי הכתובות וגם את היומנים שלך. הפעל את אלה שברצונך לסנכרן."
 
 #: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx
 msgid "Decline"
@@ -960,6 +981,18 @@ msgstr "הזן טקסט באנר (יש תמיכה ב-markdown)..."
 msgid "Enter the code from your email"
 msgstr "הזן את הקוד מהאימייל שלך"
 
+#: src/features/help/devices.tsx
+msgid "Enter the password when asked, and choose the address books and calendars to add."
+msgstr "הזן את הסיסמה כשתתבקש, ובחר את פנקסי הכתובות והיומנים להוספה."
+
+#: src/features/help/devices.tsx
+msgid "Enter the server address, the username and the password in each."
+msgstr "בכל אחד מהם הזן את כתובת השרת, שם המשתמש והסיסמה."
+
+#: src/features/help/devices.tsx
+msgid "Enter the server address, the username and the password."
+msgstr "הזן את כתובת השרת, שם המשתמש והסיסמה."
+
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Enter your authenticator code"
 msgstr "הזן את הקוד מאפליקציית האימות"
@@ -1112,6 +1145,22 @@ msgstr "דגלים"
 msgid "Flat"
 msgstr "שטוח"
 
+#: src/features/help/devices.tsx
+msgid "For calendars: Calendar, New Calendar, On the Network, with the username and the server address."
+msgstr "ליומנים: יומן, יומן חדש, ברשת, עם שם המשתמש וכתובת השרת."
+
+#: src/features/help/devices.tsx
+msgid "For calendars: Settings, Calendar, Accounts, Add Account, Other, Add CalDAV Account."
+msgstr "ליומנים: הגדרות, יומן, חשבונות, הוספת חשבון, אחר, הוספת חשבון CalDAV."
+
+#: src/features/help/devices.tsx
+msgid "For contacts: Address Book, New Address Book, Add CardDAV Address Book, with the username and the server address."
+msgstr "לאנשי קשר: פנקס כתובות, פנקס כתובות חדש, הוספת פנקס כתובות CardDAV, עם שם המשתמש וכתובת השרת."
+
+#: src/features/help/devices.tsx
+msgid "For contacts: Settings, Contacts, Accounts, Add Account, Other, Add CardDAV Account."
+msgstr "לאנשי קשר: הגדרות, אנשי קשר, חשבונות, הוספת חשבון, אחר, הוספת חשבון CardDAV."
+
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Friday"
 msgstr "שישי"
@@ -1131,6 +1180,10 @@ msgstr "מאת"
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "From theme"
 msgstr "מערכת נושא"
+
+#: src/features/help/devices.tsx
+msgid "Get a password for the device"
+msgstr "קבלת סיסמה למכשיר"
 
 #: ../../../lib/web/src/features/errors/access-denied-error.tsx
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
@@ -1158,6 +1211,7 @@ msgstr "קבץ לפי"
 msgid "Group: {0}"
 msgstr "קבוצה: {0}"
 
+#: src/features/help/devices.tsx
 #: src/features/help/index.tsx
 #: src/routes/_authenticated/document/privacy.tsx
 #: src/routes/_authenticated/document/rules.tsx
@@ -1210,6 +1264,10 @@ msgstr "אווטר ראשי תיבות"
 msgid "Initials avatar for {name}"
 msgstr "אווטר ראשי תיבות של {name}"
 
+#: src/features/help/devices.tsx
+msgid "Install DAVx5 and add an account with \"Login with URL and user name\"."
+msgstr "התקן את DAVx5 והוסף חשבון באמצעות \"התחברות עם כתובת URL ושם משתמש\"."
+
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Interest {weight}"
 msgstr "עניין {weight}"
@@ -1226,6 +1284,10 @@ msgstr "הצג את עצמך"
 #: ../../../lib/web/src/components/entity/entity-field-editor.tsx
 msgid "Invalid date"
 msgstr "תאריך לא תקין"
+
+#: src/features/help/devices.tsx
+msgid "iPhone and iPad"
+msgstr "iPhone ו-iPad"
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "It seems like the page you're looking for <0/>does not exist or might have been removed."
@@ -1313,6 +1375,10 @@ msgstr "ההתנתקות בוצעה בהצלחה"
 #: ../../../lib/web/src/components/sign-out-dialog.tsx
 msgid "Logging out…"
 msgstr "מתנתק…"
+
+#: src/features/help/devices.tsx
+msgid "Mac"
+msgstr "Mac"
 
 #: ../../../lib/web/src/components/notification-category-button.tsx
 msgid "Manage categories"
@@ -1417,6 +1483,10 @@ msgstr "שם נדרש"
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Name must be 1000 characters or less"
 msgstr "השם חייב להיות 1000 תווים או פחות"
+
+#: src/features/help/devices.tsx
+msgid "Name the device, for example your phone's name, and create its password."
+msgstr "תן למכשיר שם, למשל שם הטלפון שלך, וצור את הסיסמה שלו."
 
 #: ../../../lib/web/src/features/errors/general-error.tsx
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
@@ -1574,6 +1644,10 @@ msgstr "מספר"
 msgid "On"
 msgstr "פעיל"
 
+#: src/features/help/devices.tsx
+msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connect device stops its password at once."
+msgstr "סיסמה אחת משמשת גם לאנשי הקשר וגם ליומנים. לכל מכשיר יש סיסמה משלו, והסרת מכשיר תחת חיבור מכשיר מבטלת את הסיסמה שלו מיד."
+
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
 msgstr "אופס! הדף לא נמצא!"
@@ -1581,6 +1655,10 @@ msgstr "אופס! הדף לא נמצא!"
 #: ../../../lib/web/src/components/layout/nav-group.tsx
 msgid "Open actions"
 msgstr "פתיחת פעולות"
+
+#: src/features/help/devices.tsx
+msgid "Open Calendars or People and choose Connect device."
+msgstr "פתח את יומנים או אנשים ובחר חיבור מכשיר."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"
@@ -1729,6 +1807,10 @@ msgstr "מאפיינים"
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Push notification"
 msgstr "התראת פוש"
+
+#: src/features/help/index.tsx
+msgid "Put your contacts and calendars on your phone, tablet or computer."
+msgstr "שמור את אנשי הקשר והיומנים שלך בטלפון, בטאבלט או במחשב."
 
 #: src/features/help/contribute-dialog.tsx
 msgid "Question"
@@ -2227,6 +2309,10 @@ msgstr "עבור לתצוגה 1-9"
 msgid "System"
 msgstr "מערכת"
 
+#: src/features/help/devices.tsx
+msgid "System Settings, Internet Accounts, Add Other Account, then CardDAV Account for contacts or CalDAV Account for calendars."
+msgstr "הגדרות המערכת, חשבונות אינטרנט, הוספת חשבון אחר, ולאחר מכן חשבון CardDAV לאנשי הקשר או חשבון CalDAV ליומנים."
+
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Tag already exists"
 msgstr "התגית כבר קיימת"
@@ -2283,6 +2369,10 @@ msgstr "בקשת המצלמה לא נענתה"
 msgid "The microphone request was not answered"
 msgstr "בקשת המיקרופון לא נענתה"
 
+#: src/features/help/devices.tsx
+msgid "The Mochi app shows your contacts and calendars itself. To put them into the phone's own Contacts and Calendar apps, use DAVx5."
+msgstr "אפליקציית Mochi מציגה את אנשי הקשר והיומנים שלך בעצמה. כדי להעביר אותם לאפליקציות אנשי הקשר והיומן של הטלפון עצמו, השתמש ב-DAVx5."
+
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "The passkey request was not answered"
 msgstr "בקשת מפתח הגישה לא נענתה"
@@ -2302,6 +2392,10 @@ msgstr "לאפליקציה זו אין הרשאה להשתמש במפתח הגי
 #: ../../../lib/web/src/components/game/game-end-dialogs.tsx
 msgid "This permanently deletes the game and its chat. This cannot be undone."
 msgstr "פעולה זו תמחק לצמיתות את המשחק ואת הצ'אט שלו. לא ניתן לבטל פעולה זו."
+
+#: src/features/help/devices.tsx
+msgid "Thunderbird"
+msgstr "Thunderbird"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Thursday"
@@ -2555,6 +2649,10 @@ msgstr "חשבונך הועבר לכאן מ-{source}. עד שתמחק אותו �
 #: ../../../lib/web/src/components/comment-composer.tsx
 msgid "Your attachments will be lost."
 msgstr "הקבצים המצורפים שלך יאבדו."
+
+#: src/features/help/devices.tsx
+msgid "Your contacts and calendars sync to your phone, tablet and computer over CardDAV and CalDAV, which every major contacts and calendar app speaks."
+msgstr "אנשי הקשר והיומנים שלך מסונכרנים עם הטלפון, הטאבלט והמחשב שלך באמצעות CardDAV ו-CalDAV, שבהם תומכת כל אפליקציית אנשי קשר ויומן מרכזית."
 
 #: src/features/help/contribute-dialog.tsx
 msgid "Your introduction has been submitted and will appear after moderation."

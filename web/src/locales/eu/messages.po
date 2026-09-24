@@ -241,6 +241,10 @@ msgstr "Errore bat gertatu da"
 msgid "An unexpected error occurred"
 msgstr "Ustekabeko errore bat gertatu da"
 
+#: src/features/help/devices.tsx
+msgid "Android"
+msgstr "Android"
+
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
 msgstr "Android push"
@@ -491,6 +495,10 @@ msgstr "Aukeratu joko bat alboko barratik edo hasi berri bat."
 msgid "Choose language"
 msgstr "Aukeratu hizkuntza"
 
+#: src/features/help/devices.tsx
+msgid "Choose the account type Manual and enter the username, the password and the server address."
+msgstr "Aukeratu Eskuz kontu mota eta idatzi erabiltzaile-izena, pasahitza eta zerbitzariaren helbidea."
+
 #: ../../../lib/web/src/components/banner-section.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
@@ -607,6 +615,11 @@ msgstr "Konfiguratu ikuspegi ezarpenak"
 msgid "Confirm"
 msgstr "Berretsi"
 
+#: src/features/help/devices.tsx
+#: src/features/help/index.tsx
+msgid "Connect your phone"
+msgstr "Konektatu zure telefonoa"
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connected"
 msgstr "Konektatua"
@@ -654,6 +667,10 @@ msgstr "Arbelera kopiatu da"
 #: ../../../lib/web/src/components/ui/copy-button.tsx
 msgid "Copy"
 msgstr "Kopiatu"
+
+#: src/features/help/devices.tsx
+msgid "Copy the server address, the username and the password into the device. The password is shown once."
+msgstr "Kopiatu zerbitzariaren helbidea, erabiltzaile-izena eta pasahitza gailuan. Pasahitza behin bakarrik erakusten da."
 
 #: ../../../lib/web/src/features/document/document-page.tsx
 msgid "Could not load this document. Please try again later."
@@ -729,6 +746,10 @@ msgstr "Datu-gatazka"
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Date"
 msgstr "Data"
+
+#: src/features/help/devices.tsx
+msgid "DAVx5 finds both your address books and your calendars. Turn on the ones to sync."
+msgstr "DAVx5-ek zure helbide-liburuak zein egutegiak aurkitzen ditu. Aktibatu sinkronizatu nahi dituzunak."
 
 #: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx
 msgid "Decline"
@@ -960,6 +981,18 @@ msgstr "Sartu iragarki-testua (markdown onartzen da)..."
 msgid "Enter the code from your email"
 msgstr "Sartu zure mezu elektronikoko kodea"
 
+#: src/features/help/devices.tsx
+msgid "Enter the password when asked, and choose the address books and calendars to add."
+msgstr "Idatzi pasahitza eskatzen zaizunean, eta aukeratu gehitu nahi dituzun helbide-liburuak eta egutegiak."
+
+#: src/features/help/devices.tsx
+msgid "Enter the server address, the username and the password in each."
+msgstr "Idatzi zerbitzariaren helbidea, erabiltzaile-izena eta pasahitza bakoitzean."
+
+#: src/features/help/devices.tsx
+msgid "Enter the server address, the username and the password."
+msgstr "Idatzi zerbitzariaren helbidea, erabiltzaile-izena eta pasahitza."
+
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Enter your authenticator code"
 msgstr "Sartu zure autentifikazio-aplikazioaren kodea"
@@ -1112,6 +1145,22 @@ msgstr "Banderak"
 msgid "Flat"
 msgstr "Laua"
 
+#: src/features/help/devices.tsx
+msgid "For calendars: Calendar, New Calendar, On the Network, with the username and the server address."
+msgstr "Egutegietarako: Egutegia, Egutegi berria, Sarean, erabiltzaile-izenarekin eta zerbitzariaren helbidearekin."
+
+#: src/features/help/devices.tsx
+msgid "For calendars: Settings, Calendar, Accounts, Add Account, Other, Add CalDAV Account."
+msgstr "Egutegietarako: Ezarpenak, Egutegia, Kontuak, Gehitu kontua, Bestelakoa, Gehitu CalDAV kontua."
+
+#: src/features/help/devices.tsx
+msgid "For contacts: Address Book, New Address Book, Add CardDAV Address Book, with the username and the server address."
+msgstr "Kontaktuetarako: Helbide-liburua, Helbide-liburu berria, Gehitu CardDAV helbide-liburua, erabiltzaile-izenarekin eta zerbitzariaren helbidearekin."
+
+#: src/features/help/devices.tsx
+msgid "For contacts: Settings, Contacts, Accounts, Add Account, Other, Add CardDAV Account."
+msgstr "Kontaktuetarako: Ezarpenak, Kontaktuak, Kontuak, Gehitu kontua, Bestelakoa, Gehitu CardDAV kontua."
+
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Friday"
 msgstr "Ostirala"
@@ -1131,6 +1180,10 @@ msgstr "Nondik"
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "From theme"
 msgstr "Gaiatik"
+
+#: src/features/help/devices.tsx
+msgid "Get a password for the device"
+msgstr "Lortu gailurako pasahitz bat"
 
 #: ../../../lib/web/src/features/errors/access-denied-error.tsx
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
@@ -1158,6 +1211,7 @@ msgstr "Taldekatu honen arabera"
 msgid "Group: {0}"
 msgstr "Taldea: {0}"
 
+#: src/features/help/devices.tsx
 #: src/features/help/index.tsx
 #: src/routes/_authenticated/document/privacy.tsx
 #: src/routes/_authenticated/document/rules.tsx
@@ -1210,6 +1264,10 @@ msgstr "Inizialen avatarra"
 msgid "Initials avatar for {name}"
 msgstr "{name}(r)en inizialen avatarra"
 
+#: src/features/help/devices.tsx
+msgid "Install DAVx5 and add an account with \"Login with URL and user name\"."
+msgstr "Instalatu DAVx5 eta gehitu kontu bat «URLarekin eta erabiltzaile-izenarekin hasi saioa» aukeraren bidez."
+
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Interest {weight}"
 msgstr "Interesa {weight}"
@@ -1226,6 +1284,10 @@ msgstr "Aurkeztu zeure burua"
 #: ../../../lib/web/src/components/entity/entity-field-editor.tsx
 msgid "Invalid date"
 msgstr "Data baliogabea"
+
+#: src/features/help/devices.tsx
+msgid "iPhone and iPad"
+msgstr "iPhone eta iPad"
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "It seems like the page you're looking for <0/>does not exist or might have been removed."
@@ -1313,6 +1375,10 @@ msgstr "Saioa ondo amaituta"
 #: ../../../lib/web/src/components/sign-out-dialog.tsx
 msgid "Logging out…"
 msgstr "Saioa amaitzen…"
+
+#: src/features/help/devices.tsx
+msgid "Mac"
+msgstr "Mac"
 
 #: ../../../lib/web/src/components/notification-category-button.tsx
 msgid "Manage categories"
@@ -1417,6 +1483,10 @@ msgstr "Izena beharrezkoa da"
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Name must be 1000 characters or less"
 msgstr "Izenak 1000 karaktere edo gutxiago izan behar ditu"
+
+#: src/features/help/devices.tsx
+msgid "Name the device, for example your phone's name, and create its password."
+msgstr "Eman izena gailuari, adibidez zure telefonoaren izena, eta sortu haren pasahitza."
 
 #: ../../../lib/web/src/features/errors/general-error.tsx
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
@@ -1574,6 +1644,10 @@ msgstr "Zenbakia"
 msgid "On"
 msgstr "Aktibatuta"
 
+#: src/features/help/devices.tsx
+msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connect device stops its password at once."
+msgstr "Pasahitz bakar batek kontaktuak eta egutegiak hartzen ditu biak. Gailu bakoitzak berea du, eta gailu bat Konektatu gailu bat atalean kentzen baduzu, haren pasahitzak berehala uzten dio balio izateari."
+
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
 msgstr "Hutsegitea! Ez da orria aurkitu!"
@@ -1581,6 +1655,10 @@ msgstr "Hutsegitea! Ez da orria aurkitu!"
 #: ../../../lib/web/src/components/layout/nav-group.tsx
 msgid "Open actions"
 msgstr "Ireki ekintzak"
+
+#: src/features/help/devices.tsx
+msgid "Open Calendars or People and choose Connect device."
+msgstr "Ireki Egutegiak edo Jendea eta aukeratu Konektatu gailu bat."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"
@@ -1729,6 +1807,10 @@ msgstr "Propietateak"
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Push notification"
 msgstr "Push jakinarazpena"
+
+#: src/features/help/index.tsx
+msgid "Put your contacts and calendars on your phone, tablet or computer."
+msgstr "Eraman zure kontaktuak eta egutegiak telefonora, tabletara edo ordenagailura."
 
 #: src/features/help/contribute-dialog.tsx
 msgid "Question"
@@ -2227,6 +2309,10 @@ msgstr "Aldatu 1-9 ikuspegira"
 msgid "System"
 msgstr "Sistema"
 
+#: src/features/help/devices.tsx
+msgid "System Settings, Internet Accounts, Add Other Account, then CardDAV Account for contacts or CalDAV Account for calendars."
+msgstr "Sistemaren ezarpenak, Interneteko kontuak, Gehitu beste kontu bat, eta gero CardDAV kontua kontaktuetarako edo CalDAV kontua egutegietarako."
+
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Tag already exists"
 msgstr "Etiketa lehendik dago"
@@ -2283,6 +2369,10 @@ msgstr "Kamera eskaerak ez du erantzunik jaso"
 msgid "The microphone request was not answered"
 msgstr "Mikrofono eskaerak ez du erantzunik jaso"
 
+#: src/features/help/devices.tsx
+msgid "The Mochi app shows your contacts and calendars itself. To put them into the phone's own Contacts and Calendar apps, use DAVx5."
+msgstr "Mochi aplikazioak berak erakusten ditu zure kontaktuak eta egutegiak. Telefonoaren beraren Kontaktuak eta Egutegia aplikazioetara eramateko, erabili DAVx5."
+
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "The passkey request was not answered"
 msgstr "Passkey eskaerak ez du erantzunik jaso"
@@ -2302,6 +2392,10 @@ msgstr "Aplikazio honek ez du baimenik zure passkey-a erabiltzeko. Baimendu Ezar
 #: ../../../lib/web/src/components/game/game-end-dialogs.tsx
 msgid "This permanently deletes the game and its chat. This cannot be undone."
 msgstr "Honek jokoa eta bere txata betiko ezabatuko ditu. Ekintza hau ezin da desegin."
+
+#: src/features/help/devices.tsx
+msgid "Thunderbird"
+msgstr "Thunderbird"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Thursday"
@@ -2555,6 +2649,10 @@ msgstr "Zure kontua {source}-etik hona mugitu da. Han ezabatu arte, mezuak eta j
 #: ../../../lib/web/src/components/comment-composer.tsx
 msgid "Your attachments will be lost."
 msgstr "Zure eranskinak galduko dira."
+
+#: src/features/help/devices.tsx
+msgid "Your contacts and calendars sync to your phone, tablet and computer over CardDAV and CalDAV, which every major contacts and calendar app speaks."
+msgstr "Zure kontaktuak eta egutegiak telefonoarekin, tabletarekin eta ordenagailuarekin sinkronizatzen dira CardDAV eta CalDAV bidez, eta kontaktu- eta egutegi-aplikazio nagusi guztiek ulertzen dituzte bi horiek."
 
 #: src/features/help/contribute-dialog.tsx
 msgid "Your introduction has been submitted and will appear after moderation."

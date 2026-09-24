@@ -241,6 +241,10 @@ msgstr "Radās kļūda"
 msgid "An unexpected error occurred"
 msgstr "Radās negaidīta kļūda"
 
+#: src/features/help/devices.tsx
+msgid "Android"
+msgstr "Android"
+
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
 msgstr "Android push"
@@ -491,6 +495,10 @@ msgstr "Izvēlies spēli no sānu joslas vai sāc jaunu."
 msgid "Choose language"
 msgstr "Izvēlies valodu"
 
+#: src/features/help/devices.tsx
+msgid "Choose the account type Manual and enter the username, the password and the server address."
+msgstr "Izvēlieties konta veidu Manuāli un ievadiet lietotājvārdu, paroli un servera adresi."
+
 #: ../../../lib/web/src/components/banner-section.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
@@ -607,6 +615,11 @@ msgstr "Konfigurē skata iestatījumus"
 msgid "Confirm"
 msgstr "Apstiprināt"
 
+#: src/features/help/devices.tsx
+#: src/features/help/index.tsx
+msgid "Connect your phone"
+msgstr "Savienojiet savu tālruni"
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connected"
 msgstr "Savienots"
@@ -654,6 +667,10 @@ msgstr "Nokopēts starpliktuvē"
 #: ../../../lib/web/src/components/ui/copy-button.tsx
 msgid "Copy"
 msgstr "Kopēt"
+
+#: src/features/help/devices.tsx
+msgid "Copy the server address, the username and the password into the device. The password is shown once."
+msgstr "Nokopējiet servera adresi, lietotājvārdu un paroli ierīcē. Parole tiek parādīta tikai vienu reizi."
 
 #: ../../../lib/web/src/features/document/document-page.tsx
 msgid "Could not load this document. Please try again later."
@@ -729,6 +746,10 @@ msgstr "Datu konflikts"
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Date"
 msgstr "Datums"
+
+#: src/features/help/devices.tsx
+msgid "DAVx5 finds both your address books and your calendars. Turn on the ones to sync."
+msgstr "DAVx5 atrod gan jūsu adrešu grāmatas, gan kalendārus. Ieslēdziet tos, kurus vēlaties sinhronizēt."
 
 #: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx
 msgid "Decline"
@@ -960,6 +981,18 @@ msgstr "Ievadiet reklāmkaroga tekstu (atbalsta markdown)..."
 msgid "Enter the code from your email"
 msgstr "Ievadiet kodu no sava e-pasta"
 
+#: src/features/help/devices.tsx
+msgid "Enter the password when asked, and choose the address books and calendars to add."
+msgstr "Ievadiet paroli, kad tā tiek prasīta, un izvēlieties pievienojamās adrešu grāmatas un kalendārus."
+
+#: src/features/help/devices.tsx
+msgid "Enter the server address, the username and the password in each."
+msgstr "Katrā no tiem ievadiet servera adresi, lietotājvārdu un paroli."
+
+#: src/features/help/devices.tsx
+msgid "Enter the server address, the username and the password."
+msgstr "Ievadiet servera adresi, lietotājvārdu un paroli."
+
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Enter your authenticator code"
 msgstr "Ievadiet autentifikatora kodu"
@@ -1112,6 +1145,22 @@ msgstr "Karogi"
 msgid "Flat"
 msgstr "Plakana"
 
+#: src/features/help/devices.tsx
+msgid "For calendars: Calendar, New Calendar, On the Network, with the username and the server address."
+msgstr "Kalendāriem: Kalendārs, Jauns kalendārs, Tīklā, ar lietotājvārdu un servera adresi."
+
+#: src/features/help/devices.tsx
+msgid "For calendars: Settings, Calendar, Accounts, Add Account, Other, Add CalDAV Account."
+msgstr "Kalendāriem: Iestatījumi, Kalendārs, Konti, Pievienot kontu, Cits, Pievienot CalDAV kontu."
+
+#: src/features/help/devices.tsx
+msgid "For contacts: Address Book, New Address Book, Add CardDAV Address Book, with the username and the server address."
+msgstr "Kontaktiem: Adrešu grāmata, Jauna adrešu grāmata, Pievienot CardDAV adrešu grāmatu, ar lietotājvārdu un servera adresi."
+
+#: src/features/help/devices.tsx
+msgid "For contacts: Settings, Contacts, Accounts, Add Account, Other, Add CardDAV Account."
+msgstr "Kontaktiem: Iestatījumi, Kontakti, Konti, Pievienot kontu, Cits, Pievienot CardDAV kontu."
+
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Friday"
 msgstr "Piektdiena"
@@ -1131,6 +1180,10 @@ msgstr "No"
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "From theme"
 msgstr "No motīva"
+
+#: src/features/help/devices.tsx
+msgid "Get a password for the device"
+msgstr "Iegūstiet paroli ierīcei"
 
 #: ../../../lib/web/src/features/errors/access-denied-error.tsx
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
@@ -1158,6 +1211,7 @@ msgstr "Grupēt pēc"
 msgid "Group: {0}"
 msgstr "Grupa: {0}"
 
+#: src/features/help/devices.tsx
 #: src/features/help/index.tsx
 #: src/routes/_authenticated/document/privacy.tsx
 #: src/routes/_authenticated/document/rules.tsx
@@ -1210,6 +1264,10 @@ msgstr "Iniciāļu avatars"
 msgid "Initials avatar for {name}"
 msgstr "{name} iniciāļu avatars"
 
+#: src/features/help/devices.tsx
+msgid "Install DAVx5 and add an account with \"Login with URL and user name\"."
+msgstr "Instalējiet DAVx5 un pievienojiet kontu ar opciju “Pieteikšanās ar URL un lietotājvārdu”."
+
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Interest {weight}"
 msgstr "Interese {weight}"
@@ -1226,6 +1284,10 @@ msgstr "Iepazīstini ar sevi"
 #: ../../../lib/web/src/components/entity/entity-field-editor.tsx
 msgid "Invalid date"
 msgstr "Nederīgs datums"
+
+#: src/features/help/devices.tsx
+msgid "iPhone and iPad"
+msgstr "iPhone un iPad"
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "It seems like the page you're looking for <0/>does not exist or might have been removed."
@@ -1313,6 +1375,10 @@ msgstr "Izrakstīšanās veiksmīga"
 #: ../../../lib/web/src/components/sign-out-dialog.tsx
 msgid "Logging out…"
 msgstr "Izrakstās…"
+
+#: src/features/help/devices.tsx
+msgid "Mac"
+msgstr "Mac"
 
 #: ../../../lib/web/src/components/notification-category-button.tsx
 msgid "Manage categories"
@@ -1417,6 +1483,10 @@ msgstr "Nosaukums ir obligāts"
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Name must be 1000 characters or less"
 msgstr "Nosaukums nedrīkst pārsniegt 1000 rakstzīmes"
+
+#: src/features/help/devices.tsx
+msgid "Name the device, for example your phone's name, and create its password."
+msgstr "Nosauciet ierīci, piemēram, sava tālruņa vārdā, un izveidojiet tās paroli."
 
 #: ../../../lib/web/src/features/errors/general-error.tsx
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
@@ -1574,6 +1644,10 @@ msgstr "Numurs"
 msgid "On"
 msgstr "Ieslēgts"
 
+#: src/features/help/devices.tsx
+msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connect device stops its password at once."
+msgstr "Viena parole der gan kontaktiem, gan kalendāriem. Katrai ierīcei ir sava, un, noņemot ierīci sadaļā Pievienot ierīci, tās parole nekavējoties pārstāj darboties."
+
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
 msgstr "Hops! Lapa nav atrasta!"
@@ -1581,6 +1655,10 @@ msgstr "Hops! Lapa nav atrasta!"
 #: ../../../lib/web/src/components/layout/nav-group.tsx
 msgid "Open actions"
 msgstr "Atvērt darbības"
+
+#: src/features/help/devices.tsx
+msgid "Open Calendars or People and choose Connect device."
+msgstr "Atveriet Kalendāri vai Cilvēki un izvēlieties Pievienot ierīci."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"
@@ -1729,6 +1807,10 @@ msgstr "Īpašības"
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Push notification"
 msgstr "Push paziņojums"
+
+#: src/features/help/index.tsx
+msgid "Put your contacts and calendars on your phone, tablet or computer."
+msgstr "Pārnesiet savus kontaktus un kalendārus uz tālruni, planšetdatoru vai datoru."
 
 #: src/features/help/contribute-dialog.tsx
 msgid "Question"
@@ -2227,6 +2309,10 @@ msgstr "Pārslēgt uz skatu 1-9"
 msgid "System"
 msgstr "Sistēma"
 
+#: src/features/help/devices.tsx
+msgid "System Settings, Internet Accounts, Add Other Account, then CardDAV Account for contacts or CalDAV Account for calendars."
+msgstr "Sistēmas iestatījumi, Interneta konti, Pievienot citu kontu, pēc tam CardDAV konts kontaktiem vai CalDAV konts kalendāriem."
+
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Tag already exists"
 msgstr "Tags jau eksistē"
@@ -2283,6 +2369,10 @@ msgstr "Uz kameras pieprasījumu netika atbildēts"
 msgid "The microphone request was not answered"
 msgstr "Uz mikrofona pieprasījumu netika atbildēts"
 
+#: src/features/help/devices.tsx
+msgid "The Mochi app shows your contacts and calendars itself. To put them into the phone's own Contacts and Calendar apps, use DAVx5."
+msgstr "Lietotne Mochi pati rāda jūsu kontaktus un kalendārus. Lai tos ievietotu paša tālruņa lietotnēs Kontakti un Kalendārs, izmantojiet DAVx5."
+
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "The passkey request was not answered"
 msgstr "Uz piekļuves atslēgas pieprasījumu netika atbildēts"
@@ -2302,6 +2392,10 @@ msgstr "Šai lietotnei nav atļauts izmantot jūsu piekļuves atslēgu. Atļauji
 #: ../../../lib/web/src/components/game/game-end-dialogs.tsx
 msgid "This permanently deletes the game and its chat. This cannot be undone."
 msgstr "Tas neatgriezeniski dzēsīs spēli un tās tērzēšanu. Šo darbību nevar atsaukt."
+
+#: src/features/help/devices.tsx
+msgid "Thunderbird"
+msgstr "Thunderbird"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Thursday"
@@ -2555,6 +2649,10 @@ msgstr "Jūsu konts tika pārvietots šeit no {source}. Kamēr to tur nedzēšat
 #: ../../../lib/web/src/components/comment-composer.tsx
 msgid "Your attachments will be lost."
 msgstr "Jūsu pielikumi tiks zaudēti."
+
+#: src/features/help/devices.tsx
+msgid "Your contacts and calendars sync to your phone, tablet and computer over CardDAV and CalDAV, which every major contacts and calendar app speaks."
+msgstr "Jūsu kontakti un kalendāri sinhronizējas ar tālruni, planšetdatoru un datoru, izmantojot CardDAV un CalDAV, ko saprot visas lielākās kontaktu un kalendāra lietotnes."
 
 #: src/features/help/contribute-dialog.tsx
 msgid "Your introduction has been submitted and will appear after moderation."

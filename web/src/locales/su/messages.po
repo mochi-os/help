@@ -241,6 +241,10 @@ msgstr "Aya kasalahan"
 msgid "An unexpected error occurred"
 msgstr "Aya kasalahan anu teu disangka-sangka"
 
+#: src/features/help/devices.tsx
+msgid "Android"
+msgstr "Android"
+
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
 msgstr "Push Android"
@@ -491,6 +495,10 @@ msgstr "Pilih kaulinan ti sidebar atawa mimitian nu anyar."
 msgid "Choose language"
 msgstr "Pilih basa"
 
+#: src/features/help/devices.tsx
+msgid "Choose the account type Manual and enter the username, the password and the server address."
+msgstr "Pilih jinis akun Manual terus asupkeun ngaran pamaké, kecap sandi, jeung alamat server."
+
 #: ../../../lib/web/src/components/banner-section.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
@@ -607,6 +615,11 @@ msgstr "Atur setélan view"
 msgid "Confirm"
 msgstr "Konfirmasi"
 
+#: src/features/help/devices.tsx
+#: src/features/help/index.tsx
+msgid "Connect your phone"
+msgstr "Sambungkeun telepon anjeun"
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connected"
 msgstr "Tersambung"
@@ -654,6 +667,10 @@ msgstr "Disalin ka clipboard"
 #: ../../../lib/web/src/components/ui/copy-button.tsx
 msgid "Copy"
 msgstr "Salin"
+
+#: src/features/help/devices.tsx
+msgid "Copy the server address, the username and the password into the device. The password is shown once."
+msgstr "Salin alamat server, ngaran pamaké, jeung kecap sandi kana pakakas. Kecap sandi ngan ditémbongkeun sakali."
 
 #: ../../../lib/web/src/features/document/document-page.tsx
 msgid "Could not load this document. Please try again later."
@@ -729,6 +746,10 @@ msgstr "Konflik data"
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Date"
 msgstr "Tanggal"
+
+#: src/features/help/devices.tsx
+msgid "DAVx5 finds both your address books and your calendars. Turn on the ones to sync."
+msgstr "DAVx5 manggihan buku alamat jeung kalénder anjeun. Hurungkeun nu rék disingkronkeun."
 
 #: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx
 msgid "Decline"
@@ -960,6 +981,18 @@ msgstr "Asupkeun téks spanduk (markdown didukung)..."
 msgid "Enter the code from your email"
 msgstr "Lebetkeun kode tina email anjeun"
 
+#: src/features/help/devices.tsx
+msgid "Enter the password when asked, and choose the address books and calendars to add."
+msgstr "Asupkeun kecap sandi nalika dipénta, terus pilih buku alamat jeung kalénder nu rék ditambahkeun."
+
+#: src/features/help/devices.tsx
+msgid "Enter the server address, the username and the password in each."
+msgstr "Asupkeun alamat server, ngaran pamaké, jeung kecap sandi dina unggal akun."
+
+#: src/features/help/devices.tsx
+msgid "Enter the server address, the username and the password."
+msgstr "Asupkeun alamat server, ngaran pamaké, jeung kecap sandi."
+
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Enter your authenticator code"
 msgstr "Lebetkeun kode aplikasi pamariksa"
@@ -1112,6 +1145,22 @@ msgstr "Bandéra"
 msgid "Flat"
 msgstr "Datar"
 
+#: src/features/help/devices.tsx
+msgid "For calendars: Calendar, New Calendar, On the Network, with the username and the server address."
+msgstr "Pikeun kalénder: Kalénder, Kalénder Anyar, Dina Jaringan, jeung ngaran pamaké katut alamat server."
+
+#: src/features/help/devices.tsx
+msgid "For calendars: Settings, Calendar, Accounts, Add Account, Other, Add CalDAV Account."
+msgstr "Pikeun kalénder: Setélan, Kalénder, Akun, Tambah Akun, Séjén, Tambah Akun CalDAV."
+
+#: src/features/help/devices.tsx
+msgid "For contacts: Address Book, New Address Book, Add CardDAV Address Book, with the username and the server address."
+msgstr "Pikeun kontak: Buku Alamat, Buku Alamat Anyar, Tambah Buku Alamat CardDAV, jeung ngaran pamaké katut alamat server."
+
+#: src/features/help/devices.tsx
+msgid "For contacts: Settings, Contacts, Accounts, Add Account, Other, Add CardDAV Account."
+msgstr "Pikeun kontak: Setélan, Kontak, Akun, Tambah Akun, Séjén, Tambah Akun CardDAV."
+
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Friday"
 msgstr "Jumaah"
@@ -1131,6 +1180,10 @@ msgstr "Ti"
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "From theme"
 msgstr "Tina téma"
+
+#: src/features/help/devices.tsx
+msgid "Get a password for the device"
+msgstr "Meunangkeun kecap sandi pikeun pakakas"
 
 #: ../../../lib/web/src/features/errors/access-denied-error.tsx
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
@@ -1158,6 +1211,7 @@ msgstr "Kelompokkeun dumasar"
 msgid "Group: {0}"
 msgstr "Grup: {0}"
 
+#: src/features/help/devices.tsx
 #: src/features/help/index.tsx
 #: src/routes/_authenticated/document/privacy.tsx
 #: src/routes/_authenticated/document/rules.tsx
@@ -1210,6 +1264,10 @@ msgstr "Avatar inisial"
 msgid "Initials avatar for {name}"
 msgstr "Avatar inisial pikeun {name}"
 
+#: src/features/help/devices.tsx
+msgid "Install DAVx5 and add an account with \"Login with URL and user name\"."
+msgstr "Pasang DAVx5 terus tambahkeun akun ngaliwatan \"Asup maké URL jeung ngaran pamaké\"."
+
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Interest {weight}"
 msgstr "Minat {weight}"
@@ -1226,6 +1284,10 @@ msgstr "Wanohkeun diri"
 #: ../../../lib/web/src/components/entity/entity-field-editor.tsx
 msgid "Invalid date"
 msgstr "Tanggal teu sah"
+
+#: src/features/help/devices.tsx
+msgid "iPhone and iPad"
+msgstr "iPhone jeung iPad"
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "It seems like the page you're looking for <0/>does not exist or might have been removed."
@@ -1313,6 +1375,10 @@ msgstr "Hasil kaluar"
 #: ../../../lib/web/src/components/sign-out-dialog.tsx
 msgid "Logging out…"
 msgstr "Keur kaluar…"
+
+#: src/features/help/devices.tsx
+msgid "Mac"
+msgstr "Mac"
 
 #: ../../../lib/web/src/components/notification-category-button.tsx
 msgid "Manage categories"
@@ -1417,6 +1483,10 @@ msgstr "Ngaran kudu diisi"
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Name must be 1000 characters or less"
 msgstr "Ngaran kudu 1000 karakter atawa kurang"
+
+#: src/features/help/devices.tsx
+msgid "Name the device, for example your phone's name, and create its password."
+msgstr "Béré ngaran pakakas, contona ngaran telepon anjeun, terus jieun kecap sandina."
 
 #: ../../../lib/web/src/features/errors/general-error.tsx
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
@@ -1574,6 +1644,10 @@ msgstr "Wilangan"
 msgid "On"
 msgstr "Hurung"
 
+#: src/features/help/devices.tsx
+msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connect device stops its password at once."
+msgstr "Hiji kecap sandi dipaké pikeun kontak jeung kalénder sakaligus. Unggal pakakas boga kecap sandi sorangan, sarta ngahapus pakakas dina Sambungkeun pakakas langsung nyieun kecap sandina teu jalan deui."
+
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
 msgstr "Aduh! Kaca Teu Kapanggih!"
@@ -1581,6 +1655,10 @@ msgstr "Aduh! Kaca Teu Kapanggih!"
 #: ../../../lib/web/src/components/layout/nav-group.tsx
 msgid "Open actions"
 msgstr "Buka aksi"
+
+#: src/features/help/devices.tsx
+msgid "Open Calendars or People and choose Connect device."
+msgstr "Buka Kalénder atawa Jalma terus pilih Sambungkeun pakakas."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"
@@ -1729,6 +1807,10 @@ msgstr "Sipat"
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Push notification"
 msgstr "Wawaran push"
+
+#: src/features/help/index.tsx
+msgid "Put your contacts and calendars on your phone, tablet or computer."
+msgstr "Simpen kontak jeung kalénder anjeun dina telepon, tablét, atawa komputer."
 
 #: src/features/help/contribute-dialog.tsx
 msgid "Question"
@@ -2227,6 +2309,10 @@ msgstr "Pindah ka tampilan 1-9"
 msgid "System"
 msgstr "Sistem"
 
+#: src/features/help/devices.tsx
+msgid "System Settings, Internet Accounts, Add Other Account, then CardDAV Account for contacts or CalDAV Account for calendars."
+msgstr "Setélan Sistem, Akun Internét, Tambah Akun Séjén, terus Akun CardDAV pikeun kontak atawa Akun CalDAV pikeun kalénder."
+
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Tag already exists"
 msgstr "Tag tos aya"
@@ -2283,6 +2369,10 @@ msgstr "Paménta kaméra teu diwaler"
 msgid "The microphone request was not answered"
 msgstr "Paménta mikropon teu diwaler"
 
+#: src/features/help/devices.tsx
+msgid "The Mochi app shows your contacts and calendars itself. To put them into the phone's own Contacts and Calendar apps, use DAVx5."
+msgstr "Aplikasi Mochi geus némbongkeun kontak jeung kalénder anjeun sorangan. Pikeun ngasupkeunana kana aplikasi Kontak jeung Kalénder bawaan telepon, paké DAVx5."
+
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "The passkey request was not answered"
 msgstr "Paménta passkey teu diwaler"
@@ -2302,6 +2392,10 @@ msgstr "Aplikasi ieu teu diidinan ngagunakeun passkey anjeun. Idinan dina Setél
 #: ../../../lib/web/src/components/game/game-end-dialogs.tsx
 msgid "This permanently deletes the game and its chat. This cannot be undone."
 msgstr "Ieu bakal ngahapus kaulinan sareng obrolanana sacara permanén. Tindakan ieu teu tiasa dibatalkeun."
+
+#: src/features/help/devices.tsx
+msgid "Thunderbird"
+msgstr "Thunderbird"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Thursday"
@@ -2555,6 +2649,10 @@ msgstr "Akun anjeun dipindahkeun ka dieu ti {source}. Dugi ka anjeun mupus éta 
 #: ../../../lib/web/src/components/comment-composer.tsx
 msgid "Your attachments will be lost."
 msgstr "Lampiran anjeun bakal leungit."
+
+#: src/features/help/devices.tsx
+msgid "Your contacts and calendars sync to your phone, tablet and computer over CardDAV and CalDAV, which every major contacts and calendar app speaks."
+msgstr "Kontak jeung kalénder anjeun disingkronkeun ka telepon, tablét, jeung komputer ngaliwatan CardDAV jeung CalDAV, nu dipikaharti ku sakabéh aplikasi kontak jeung kalénder utama."
 
 #: src/features/help/contribute-dialog.tsx
 msgid "Your introduction has been submitted and will appear after moderation."

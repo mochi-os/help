@@ -241,6 +241,10 @@ msgstr ""
 msgid "An unexpected error occurred"
 msgstr ""
 
+#: src/features/help/devices.tsx
+msgid "Android"
+msgstr ""
+
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
 msgstr ""
@@ -491,6 +495,10 @@ msgstr ""
 msgid "Choose language"
 msgstr ""
 
+#: src/features/help/devices.tsx
+msgid "Choose the account type Manual and enter the username, the password and the server address."
+msgstr ""
+
 #: ../../../lib/web/src/components/banner-section.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
@@ -607,6 +615,11 @@ msgstr ""
 msgid "Confirm"
 msgstr ""
 
+#: src/features/help/devices.tsx
+#: src/features/help/index.tsx
+msgid "Connect your phone"
+msgstr ""
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connected"
 msgstr ""
@@ -653,6 +666,10 @@ msgstr ""
 #: ../../../lib/web/src/components/calendar/time-grid.tsx
 #: ../../../lib/web/src/components/ui/copy-button.tsx
 msgid "Copy"
+msgstr ""
+
+#: src/features/help/devices.tsx
+msgid "Copy the server address, the username and the password into the device. The password is shown once."
 msgstr ""
 
 #: ../../../lib/web/src/features/document/document-page.tsx
@@ -728,6 +745,10 @@ msgstr ""
 
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Date"
+msgstr ""
+
+#: src/features/help/devices.tsx
+msgid "DAVx5 finds both your address books and your calendars. Turn on the ones to sync."
 msgstr ""
 
 #: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx
@@ -960,6 +981,18 @@ msgstr ""
 msgid "Enter the code from your email"
 msgstr ""
 
+#: src/features/help/devices.tsx
+msgid "Enter the password when asked, and choose the address books and calendars to add."
+msgstr ""
+
+#: src/features/help/devices.tsx
+msgid "Enter the server address, the username and the password in each."
+msgstr ""
+
+#: src/features/help/devices.tsx
+msgid "Enter the server address, the username and the password."
+msgstr ""
+
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Enter your authenticator code"
 msgstr ""
@@ -1112,6 +1145,22 @@ msgstr ""
 msgid "Flat"
 msgstr ""
 
+#: src/features/help/devices.tsx
+msgid "For calendars: Calendar, New Calendar, On the Network, with the username and the server address."
+msgstr ""
+
+#: src/features/help/devices.tsx
+msgid "For calendars: Settings, Calendar, Accounts, Add Account, Other, Add CalDAV Account."
+msgstr ""
+
+#: src/features/help/devices.tsx
+msgid "For contacts: Address Book, New Address Book, Add CardDAV Address Book, with the username and the server address."
+msgstr ""
+
+#: src/features/help/devices.tsx
+msgid "For contacts: Settings, Contacts, Accounts, Add Account, Other, Add CardDAV Account."
+msgstr ""
+
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Friday"
 msgstr ""
@@ -1130,6 +1179,10 @@ msgstr ""
 #: ../../../lib/web/src/lib/preference-utils.ts
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "From theme"
+msgstr ""
+
+#: src/features/help/devices.tsx
+msgid "Get a password for the device"
 msgstr ""
 
 #: ../../../lib/web/src/features/errors/access-denied-error.tsx
@@ -1158,6 +1211,7 @@ msgstr ""
 msgid "Group: {0}"
 msgstr ""
 
+#: src/features/help/devices.tsx
 #: src/features/help/index.tsx
 #: src/routes/_authenticated/document/privacy.tsx
 #: src/routes/_authenticated/document/rules.tsx
@@ -1210,6 +1264,10 @@ msgstr ""
 msgid "Initials avatar for {name}"
 msgstr ""
 
+#: src/features/help/devices.tsx
+msgid "Install DAVx5 and add an account with \"Login with URL and user name\"."
+msgstr ""
+
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Interest {weight}"
 msgstr ""
@@ -1225,6 +1283,10 @@ msgstr ""
 
 #: ../../../lib/web/src/components/entity/entity-field-editor.tsx
 msgid "Invalid date"
+msgstr ""
+
+#: src/features/help/devices.tsx
+msgid "iPhone and iPad"
 msgstr ""
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
@@ -1312,6 +1374,10 @@ msgstr ""
 
 #: ../../../lib/web/src/components/sign-out-dialog.tsx
 msgid "Logging out…"
+msgstr ""
+
+#: src/features/help/devices.tsx
+msgid "Mac"
 msgstr ""
 
 #: ../../../lib/web/src/components/notification-category-button.tsx
@@ -1416,6 +1482,10 @@ msgstr ""
 
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Name must be 1000 characters or less"
+msgstr ""
+
+#: src/features/help/devices.tsx
+msgid "Name the device, for example your phone's name, and create its password."
 msgstr ""
 
 #: ../../../lib/web/src/features/errors/general-error.tsx
@@ -1574,12 +1644,20 @@ msgstr ""
 msgid "On"
 msgstr ""
 
+#: src/features/help/devices.tsx
+msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connect device stops its password at once."
+msgstr ""
+
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
 msgstr ""
 
 #: ../../../lib/web/src/components/layout/nav-group.tsx
 msgid "Open actions"
+msgstr ""
+
+#: src/features/help/devices.tsx
+msgid "Open Calendars or People and choose Connect device."
 msgstr ""
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
@@ -1728,6 +1806,10 @@ msgstr ""
 
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Push notification"
+msgstr ""
+
+#: src/features/help/index.tsx
+msgid "Put your contacts and calendars on your phone, tablet or computer."
 msgstr ""
 
 #: src/features/help/contribute-dialog.tsx
@@ -2227,6 +2309,10 @@ msgstr ""
 msgid "System"
 msgstr ""
 
+#: src/features/help/devices.tsx
+msgid "System Settings, Internet Accounts, Add Other Account, then CardDAV Account for contacts or CalDAV Account for calendars."
+msgstr ""
+
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Tag already exists"
 msgstr ""
@@ -2283,6 +2369,10 @@ msgstr ""
 msgid "The microphone request was not answered"
 msgstr ""
 
+#: src/features/help/devices.tsx
+msgid "The Mochi app shows your contacts and calendars itself. To put them into the phone's own Contacts and Calendar apps, use DAVx5."
+msgstr ""
+
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "The passkey request was not answered"
 msgstr ""
@@ -2301,6 +2391,10 @@ msgstr ""
 
 #: ../../../lib/web/src/components/game/game-end-dialogs.tsx
 msgid "This permanently deletes the game and its chat. This cannot be undone."
+msgstr ""
+
+#: src/features/help/devices.tsx
+msgid "Thunderbird"
 msgstr ""
 
 #: ../../../lib/web/src/lib/preference-utils.ts
@@ -2554,6 +2648,10 @@ msgstr ""
 
 #: ../../../lib/web/src/components/comment-composer.tsx
 msgid "Your attachments will be lost."
+msgstr ""
+
+#: src/features/help/devices.tsx
+msgid "Your contacts and calendars sync to your phone, tablet and computer over CardDAV and CalDAV, which every major contacts and calendar app speaks."
 msgstr ""
 
 #: src/features/help/contribute-dialog.tsx

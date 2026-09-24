@@ -241,6 +241,10 @@ msgstr "ስህተት ተከስቷል"
 msgid "An unexpected error occurred"
 msgstr "ያልተጠበቀ ስህተት ተከስቷል"
 
+#: src/features/help/devices.tsx
+msgid "Android"
+msgstr "Android"
+
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
 msgstr "የAndroid ግፋ"
@@ -491,6 +495,10 @@ msgstr "ከጎን አሞሌ ጨዋታ ምረጥ ወይም አዲስ ጀምር።
 msgid "Choose language"
 msgstr "ቋንቋ ምረጥ"
 
+#: src/features/help/devices.tsx
+msgid "Choose the account type Manual and enter the username, the password and the server address."
+msgstr "«በእጅ» የሚለውን የመለያ ዓይነት ይምረጡና የተጠቃሚ ስም፣ የይለፍ ቃል እና የአገልጋይ አድራሻ ያስገቡ።"
+
 #: ../../../lib/web/src/components/banner-section.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
@@ -607,6 +615,11 @@ msgstr "የእይታ ቅንብሮችን አዋቅር"
 msgid "Confirm"
 msgstr "አረጋግጥ"
 
+#: src/features/help/devices.tsx
+#: src/features/help/index.tsx
+msgid "Connect your phone"
+msgstr "ስልክዎን ያገናኙ"
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connected"
 msgstr "ተገናኝቷል"
@@ -654,6 +667,10 @@ msgstr "ወደ ቅንጥብ ሰሌዳ ተቀድቷል"
 #: ../../../lib/web/src/components/ui/copy-button.tsx
 msgid "Copy"
 msgstr "ቅዳ"
+
+#: src/features/help/devices.tsx
+msgid "Copy the server address, the username and the password into the device. The password is shown once."
+msgstr "የአገልጋይ አድራሻውን፣ የተጠቃሚ ስሙንና የይለፍ ቃሉን ወደ መሣሪያው ይቅዱ። የይለፍ ቃሉ የሚታየው አንድ ጊዜ ብቻ ነው።"
 
 #: ../../../lib/web/src/features/document/document-page.tsx
 msgid "Could not load this document. Please try again later."
@@ -729,6 +746,10 @@ msgstr "የውሂብ ግጭት"
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Date"
 msgstr "ቀን"
+
+#: src/features/help/devices.tsx
+msgid "DAVx5 finds both your address books and your calendars. Turn on the ones to sync."
+msgstr "DAVx5 የአድራሻ ደብተሮችዎንም ቀን መቁጠሪያዎችዎንም ያገኛል። ማመሳሰል የሚፈልጓቸውን ያብሩ።"
 
 #: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx
 msgid "Decline"
@@ -960,6 +981,18 @@ msgstr "የባነር ጽሑፍ አስገባ (ማርክዳውን ይደገፋል)
 msgid "Enter the code from your email"
 msgstr "ከኢሜይልዎ የመጣውን ኮድ ያስገቡ"
 
+#: src/features/help/devices.tsx
+msgid "Enter the password when asked, and choose the address books and calendars to add."
+msgstr "ሲጠየቁ የይለፍ ቃሉን ያስገቡ፤ ከዚያም የሚጨምሯቸውን የአድራሻ ደብተሮችና ቀን መቁጠሪያዎች ይምረጡ።"
+
+#: src/features/help/devices.tsx
+msgid "Enter the server address, the username and the password in each."
+msgstr "በእያንዳንዱ ውስጥ የአገልጋይ አድራሻውን፣ የተጠቃሚ ስሙንና የይለፍ ቃሉን ያስገቡ።"
+
+#: src/features/help/devices.tsx
+msgid "Enter the server address, the username and the password."
+msgstr "የአገልጋይ አድራሻውን፣ የተጠቃሚ ስሙንና የይለፍ ቃሉን ያስገቡ።"
+
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Enter your authenticator code"
 msgstr "የአረጋጋጭዎን ኮድ ያስገቡ"
@@ -1112,6 +1145,22 @@ msgstr "ባንዲራዎች"
 msgid "Flat"
 msgstr "ጠፍጣፋ"
 
+#: src/features/help/devices.tsx
+msgid "For calendars: Calendar, New Calendar, On the Network, with the username and the server address."
+msgstr "ለቀን መቁጠሪያዎች፦ ቀን መቁጠሪያ፣ አዲስ ቀን መቁጠሪያ፣ በአውታረ መረብ ላይ፣ ከተጠቃሚ ስሙና ከአገልጋዩ አድራሻ ጋር።"
+
+#: src/features/help/devices.tsx
+msgid "For calendars: Settings, Calendar, Accounts, Add Account, Other, Add CalDAV Account."
+msgstr "ለቀን መቁጠሪያዎች፦ ቅንብሮች፣ ቀን መቁጠሪያ፣ መለያዎች፣ መለያ አክል፣ ሌላ፣ የCalDAV መለያ አክል።"
+
+#: src/features/help/devices.tsx
+msgid "For contacts: Address Book, New Address Book, Add CardDAV Address Book, with the username and the server address."
+msgstr "ለዕውቂያዎች፦ የአድራሻ ደብተር፣ አዲስ የአድራሻ ደብተር፣ የCardDAV አድራሻ ደብተር አክል፣ ከተጠቃሚ ስሙና ከአገልጋዩ አድራሻ ጋር።"
+
+#: src/features/help/devices.tsx
+msgid "For contacts: Settings, Contacts, Accounts, Add Account, Other, Add CardDAV Account."
+msgstr "ለዕውቂያዎች፦ ቅንብሮች፣ ዕውቂያዎች፣ መለያዎች፣ መለያ አክል፣ ሌላ፣ የCardDAV መለያ አክል።"
+
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Friday"
 msgstr "ዓርብ"
@@ -1131,6 +1180,10 @@ msgstr "ከ"
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "From theme"
 msgstr "ከገጽታ"
+
+#: src/features/help/devices.tsx
+msgid "Get a password for the device"
+msgstr "ለመሣሪያው የይለፍ ቃል ያግኙ"
 
 #: ../../../lib/web/src/features/errors/access-denied-error.tsx
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
@@ -1158,6 +1211,7 @@ msgstr "በቡድን ይመድቡ"
 msgid "Group: {0}"
 msgstr "ቡድን፦ {0}"
 
+#: src/features/help/devices.tsx
 #: src/features/help/index.tsx
 #: src/routes/_authenticated/document/privacy.tsx
 #: src/routes/_authenticated/document/rules.tsx
@@ -1210,6 +1264,10 @@ msgstr "የመነሻ ፊደላት አምሳያ"
 msgid "Initials avatar for {name}"
 msgstr "የ{name} የመነሻ ፊደላት አምሳያ"
 
+#: src/features/help/devices.tsx
+msgid "Install DAVx5 and add an account with \"Login with URL and user name\"."
+msgstr "DAVx5 ን ይጫኑ፤ ከዚያም «በURL እና በተጠቃሚ ስም መግባት» በሚለው መለያ ያክሉ።"
+
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Interest {weight}"
 msgstr "ፍላጎት {weight}"
@@ -1226,6 +1284,10 @@ msgstr "ራስዎን ያስተዋውቁ"
 #: ../../../lib/web/src/components/entity/entity-field-editor.tsx
 msgid "Invalid date"
 msgstr "ልክ ያልሆነ ቀን"
+
+#: src/features/help/devices.tsx
+msgid "iPhone and iPad"
+msgstr "iPhone እና iPad"
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "It seems like the page you're looking for <0/>does not exist or might have been removed."
@@ -1313,6 +1375,10 @@ msgstr "በተሳካ ሁኔታ ወጥቷል"
 #: ../../../lib/web/src/components/sign-out-dialog.tsx
 msgid "Logging out…"
 msgstr "በመውጣት ላይ…"
+
+#: src/features/help/devices.tsx
+msgid "Mac"
+msgstr "Mac"
 
 #: ../../../lib/web/src/components/notification-category-button.tsx
 msgid "Manage categories"
@@ -1417,6 +1483,10 @@ msgstr "ስም ያስፈልጋል"
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Name must be 1000 characters or less"
 msgstr "ስም 1000 ቁምፊዎች ወይም ከዚያ ያነሰ መሆን አለበት"
+
+#: src/features/help/devices.tsx
+msgid "Name the device, for example your phone's name, and create its password."
+msgstr "መሣሪያውን ይሰይሙ፣ ለምሳሌ የስልክዎ ስም፣ ከዚያም የይለፍ ቃሉን ይፍጠሩ።"
 
 #: ../../../lib/web/src/features/errors/general-error.tsx
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
@@ -1574,6 +1644,10 @@ msgstr "ቁጥር"
 msgid "On"
 msgstr "በርቷል"
 
+#: src/features/help/devices.tsx
+msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connect device stops its password at once."
+msgstr "አንድ የይለፍ ቃል ለዕውቂያዎችም ለቀን መቁጠሪያዎችም ያገለግላል። እያንዳንዱ መሣሪያ የራሱ አለው፤ በመሣሪያ አገናኝ ውስጥ መሣሪያን ማስወገድ የይለፍ ቃሉን ወዲያውኑ ያቋርጣል።"
+
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
 msgstr "ኦህ! ገጽ አልተገኘም!"
@@ -1581,6 +1655,10 @@ msgstr "ኦህ! ገጽ አልተገኘም!"
 #: ../../../lib/web/src/components/layout/nav-group.tsx
 msgid "Open actions"
 msgstr "እርምጃዎችን ክፈት"
+
+#: src/features/help/devices.tsx
+msgid "Open Calendars or People and choose Connect device."
+msgstr "ቀን መቁጠሪያዎች ወይም ሰዎች የሚለውን ይክፈቱና መሣሪያ አገናኝ ይምረጡ።"
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"
@@ -1729,6 +1807,10 @@ msgstr "ባህሪያት"
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Push notification"
 msgstr "የግፋ ማሳወቂያ"
+
+#: src/features/help/index.tsx
+msgid "Put your contacts and calendars on your phone, tablet or computer."
+msgstr "ዕውቂያዎችዎንና ቀን መቁጠሪያዎችዎን በስልክዎ፣ በጡባዊዎ ወይም በኮምፒውተርዎ ላይ ያኑሩ።"
 
 #: src/features/help/contribute-dialog.tsx
 msgid "Question"
@@ -2227,6 +2309,10 @@ msgstr "ወደ ዕይታ 1-9 ቀይር"
 msgid "System"
 msgstr "ስርዓት"
 
+#: src/features/help/devices.tsx
+msgid "System Settings, Internet Accounts, Add Other Account, then CardDAV Account for contacts or CalDAV Account for calendars."
+msgstr "የስርዓት ቅንብሮች፣ የበይነመረብ መለያዎች፣ ሌላ መለያ አክል፣ ከዚያም ለዕውቂያዎች የCardDAV መለያ ወይም ለቀን መቁጠሪያዎች የCalDAV መለያ።"
+
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Tag already exists"
 msgstr "መለያው አስቀድሞ አለ"
@@ -2283,6 +2369,10 @@ msgstr "የካሜራ ጥያቄው መልስ አላገኘም"
 msgid "The microphone request was not answered"
 msgstr "የማይክሮፎን ጥያቄው መልስ አላገኘም"
 
+#: src/features/help/devices.tsx
+msgid "The Mochi app shows your contacts and calendars itself. To put them into the phone's own Contacts and Calendar apps, use DAVx5."
+msgstr "የMochi መተግበሪያ ዕውቂያዎችዎንና ቀን መቁጠሪያዎችዎን ራሱ ያሳያል። ወደ ስልኩ የራሱ ዕውቂያዎችና ቀን መቁጠሪያ መተግበሪያዎች ለማስገባት DAVx5 ን ይጠቀሙ።"
+
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "The passkey request was not answered"
 msgstr "የፓስኪ ጥያቄው መልስ አላገኘም"
@@ -2302,6 +2392,10 @@ msgstr "ይህ መተግበሪያ የእርስዎን ፓስኪ እንዲጠቀ�
 #: ../../../lib/web/src/components/game/game-end-dialogs.tsx
 msgid "This permanently deletes the game and its chat. This cannot be undone."
 msgstr "ይህ ጨዋታውን እና ውይይቱን በቋሚነት ይሰርዛል። ይህ ወደኋላ ሊመለስ አይችልም።"
+
+#: src/features/help/devices.tsx
+msgid "Thunderbird"
+msgstr "Thunderbird"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Thursday"
@@ -2555,6 +2649,10 @@ msgstr "መለያህ ከ{source} ወደዚህ ተዛውሯል። እዚያ እ�
 #: ../../../lib/web/src/components/comment-composer.tsx
 msgid "Your attachments will be lost."
 msgstr "አባሪዎችህ ይጠፋሉ።"
+
+#: src/features/help/devices.tsx
+msgid "Your contacts and calendars sync to your phone, tablet and computer over CardDAV and CalDAV, which every major contacts and calendar app speaks."
+msgstr "ዕውቂያዎችዎና ቀን መቁጠሪያዎችዎ በCardDAV እና በCalDAV አማካኝነት ከስልክዎ፣ ከጡባዊዎና ከኮምፒውተርዎ ጋር ይመሳሰላሉ፤ እነዚህን ሁሉም ዋና ዋና የዕውቂያና የቀን መቁጠሪያ መተግበሪያዎች ይደግፋሉ።"
 
 #: src/features/help/contribute-dialog.tsx
 msgid "Your introduction has been submitted and will appear after moderation."

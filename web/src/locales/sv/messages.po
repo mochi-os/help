@@ -241,6 +241,10 @@ msgstr "Ett fel uppstod"
 msgid "An unexpected error occurred"
 msgstr "Ett oväntat fel uppstod"
 
+#: src/features/help/devices.tsx
+msgid "Android"
+msgstr "Android"
+
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
 msgstr "Android-push"
@@ -491,6 +495,10 @@ msgstr "Välj ett spel från sidofältet eller starta ett nytt."
 msgid "Choose language"
 msgstr "Välj språk"
 
+#: src/features/help/devices.tsx
+msgid "Choose the account type Manual and enter the username, the password and the server address."
+msgstr "Välj kontotypen Manuell och ange användarnamnet, lösenordet och serveradressen."
+
 #: ../../../lib/web/src/components/banner-section.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
@@ -607,6 +615,11 @@ msgstr "Konfigurera vyinställningar"
 msgid "Confirm"
 msgstr "Bekräfta"
 
+#: src/features/help/devices.tsx
+#: src/features/help/index.tsx
+msgid "Connect your phone"
+msgstr "Anslut din telefon"
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connected"
 msgstr "Ansluten"
@@ -654,6 +667,10 @@ msgstr "Kopierat till urklipp"
 #: ../../../lib/web/src/components/ui/copy-button.tsx
 msgid "Copy"
 msgstr "Kopiera"
+
+#: src/features/help/devices.tsx
+msgid "Copy the server address, the username and the password into the device. The password is shown once."
+msgstr "Kopiera serveradressen, användarnamnet och lösenordet till enheten. Lösenordet visas bara en gång."
 
 #: ../../../lib/web/src/features/document/document-page.tsx
 msgid "Could not load this document. Please try again later."
@@ -729,6 +746,10 @@ msgstr "Datakonflikt"
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Date"
 msgstr "Datum"
+
+#: src/features/help/devices.tsx
+msgid "DAVx5 finds both your address books and your calendars. Turn on the ones to sync."
+msgstr "DAVx5 hittar både dina adressböcker och dina kalendrar. Slå på dem du vill synkronisera."
 
 #: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx
 msgid "Decline"
@@ -960,6 +981,18 @@ msgstr "Ange bannertext (markdown stöds)..."
 msgid "Enter the code from your email"
 msgstr "Ange koden från ditt e-postmeddelande"
 
+#: src/features/help/devices.tsx
+msgid "Enter the password when asked, and choose the address books and calendars to add."
+msgstr "Ange lösenordet när du blir tillfrågad och välj vilka adressböcker och kalendrar som ska läggas till."
+
+#: src/features/help/devices.tsx
+msgid "Enter the server address, the username and the password in each."
+msgstr "Ange serveradressen, användarnamnet och lösenordet i var och en."
+
+#: src/features/help/devices.tsx
+msgid "Enter the server address, the username and the password."
+msgstr "Ange serveradressen, användarnamnet och lösenordet."
+
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Enter your authenticator code"
 msgstr "Ange din autentiseringskod"
@@ -1112,6 +1145,22 @@ msgstr "Flaggor"
 msgid "Flat"
 msgstr "Platt"
 
+#: src/features/help/devices.tsx
+msgid "For calendars: Calendar, New Calendar, On the Network, with the username and the server address."
+msgstr "För kalendrar: Kalender, Ny kalender, I nätverket, med användarnamnet och serveradressen."
+
+#: src/features/help/devices.tsx
+msgid "For calendars: Settings, Calendar, Accounts, Add Account, Other, Add CalDAV Account."
+msgstr "För kalendrar: Inställningar, Kalender, Konton, Lägg till konto, Övrigt, Lägg till CalDAV-konto."
+
+#: src/features/help/devices.tsx
+msgid "For contacts: Address Book, New Address Book, Add CardDAV Address Book, with the username and the server address."
+msgstr "För kontakter: Adressbok, Ny adressbok, Lägg till CardDAV-adressbok, med användarnamnet och serveradressen."
+
+#: src/features/help/devices.tsx
+msgid "For contacts: Settings, Contacts, Accounts, Add Account, Other, Add CardDAV Account."
+msgstr "För kontakter: Inställningar, Kontakter, Konton, Lägg till konto, Övrigt, Lägg till CardDAV-konto."
+
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Friday"
 msgstr "Fredag"
@@ -1131,6 +1180,10 @@ msgstr "Från"
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "From theme"
 msgstr "Från tema"
+
+#: src/features/help/devices.tsx
+msgid "Get a password for the device"
+msgstr "Hämta ett lösenord till enheten"
 
 #: ../../../lib/web/src/features/errors/access-denied-error.tsx
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
@@ -1158,6 +1211,7 @@ msgstr "Gruppera efter"
 msgid "Group: {0}"
 msgstr "Grupp: {0}"
 
+#: src/features/help/devices.tsx
 #: src/features/help/index.tsx
 #: src/routes/_authenticated/document/privacy.tsx
 #: src/routes/_authenticated/document/rules.tsx
@@ -1210,6 +1264,10 @@ msgstr "Initialavatar"
 msgid "Initials avatar for {name}"
 msgstr "Initialavatar för {name}"
 
+#: src/features/help/devices.tsx
+msgid "Install DAVx5 and add an account with \"Login with URL and user name\"."
+msgstr "Installera DAVx5 och lägg till ett konto med \"Logga in med URL och användarnamn\"."
+
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Interest {weight}"
 msgstr "Intresse {weight}"
@@ -1226,6 +1284,10 @@ msgstr "Presentera dig"
 #: ../../../lib/web/src/components/entity/entity-field-editor.tsx
 msgid "Invalid date"
 msgstr "Ogiltigt datum"
+
+#: src/features/help/devices.tsx
+msgid "iPhone and iPad"
+msgstr "iPhone och iPad"
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "It seems like the page you're looking for <0/>does not exist or might have been removed."
@@ -1313,6 +1375,10 @@ msgstr "Utloggad"
 #: ../../../lib/web/src/components/sign-out-dialog.tsx
 msgid "Logging out…"
 msgstr "Loggar ut…"
+
+#: src/features/help/devices.tsx
+msgid "Mac"
+msgstr "Mac"
 
 #: ../../../lib/web/src/components/notification-category-button.tsx
 msgid "Manage categories"
@@ -1417,6 +1483,10 @@ msgstr "Namn krävs"
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Name must be 1000 characters or less"
 msgstr "Namnet får vara högst 1000 tecken"
+
+#: src/features/help/devices.tsx
+msgid "Name the device, for example your phone's name, and create its password."
+msgstr "Ge enheten ett namn, till exempel namnet på din telefon, och skapa dess lösenord."
 
 #: ../../../lib/web/src/features/errors/general-error.tsx
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
@@ -1574,6 +1644,10 @@ msgstr "Nummer"
 msgid "On"
 msgstr "På"
 
+#: src/features/help/devices.tsx
+msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connect device stops its password at once."
+msgstr "Ett lösenord räcker för både kontakter och kalendrar. Varje enhet får ett eget, och tar du bort en enhet under Anslut enhet slutar dess lösenord att gälla direkt."
+
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
 msgstr "Hoppsan! Sidan hittades inte!"
@@ -1581,6 +1655,10 @@ msgstr "Hoppsan! Sidan hittades inte!"
 #: ../../../lib/web/src/components/layout/nav-group.tsx
 msgid "Open actions"
 msgstr "Öppna åtgärder"
+
+#: src/features/help/devices.tsx
+msgid "Open Calendars or People and choose Connect device."
+msgstr "Öppna Kalendrar eller Personer och välj Anslut enhet."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"
@@ -1729,6 +1807,10 @@ msgstr "Egenskaper"
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Push notification"
 msgstr "Push-avisering"
+
+#: src/features/help/index.tsx
+msgid "Put your contacts and calendars on your phone, tablet or computer."
+msgstr "Få dina kontakter och kalendrar till telefonen, surfplattan eller datorn."
 
 #: src/features/help/contribute-dialog.tsx
 msgid "Question"
@@ -2227,6 +2309,10 @@ msgstr "Växla till vy 1-9"
 msgid "System"
 msgstr "System"
 
+#: src/features/help/devices.tsx
+msgid "System Settings, Internet Accounts, Add Other Account, then CardDAV Account for contacts or CalDAV Account for calendars."
+msgstr "Systeminställningar, Internetkonton, Lägg till annat konto och sedan CardDAV-konto för kontakter eller CalDAV-konto för kalendrar."
+
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Tag already exists"
 msgstr "Taggen finns redan"
@@ -2283,6 +2369,10 @@ msgstr "Kamerabegäran besvarades inte"
 msgid "The microphone request was not answered"
 msgstr "Mikrofonbegäran besvarades inte"
 
+#: src/features/help/devices.tsx
+msgid "The Mochi app shows your contacts and calendars itself. To put them into the phone's own Contacts and Calendar apps, use DAVx5."
+msgstr "Mochi-appen visar dina kontakter och kalendrar själv. Vill du ha in dem i telefonens egna Kontakter- och Kalender-appar använder du DAVx5."
+
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "The passkey request was not answered"
 msgstr "Passkey-begäran besvarades inte"
@@ -2302,6 +2392,10 @@ msgstr "Den här appen får inte använda din passkey. Tillåt det i Inställnin
 #: ../../../lib/web/src/components/game/game-end-dialogs.tsx
 msgid "This permanently deletes the game and its chat. This cannot be undone."
 msgstr "Detta tar bort partiet och dess chatt permanent. Detta går inte att ångra."
+
+#: src/features/help/devices.tsx
+msgid "Thunderbird"
+msgstr "Thunderbird"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Thursday"
@@ -2555,6 +2649,10 @@ msgstr "Ditt konto flyttades hit från {source}. Tills du tar bort det där kan 
 #: ../../../lib/web/src/components/comment-composer.tsx
 msgid "Your attachments will be lost."
 msgstr "Dina bilagor går förlorade."
+
+#: src/features/help/devices.tsx
+msgid "Your contacts and calendars sync to your phone, tablet and computer over CardDAV and CalDAV, which every major contacts and calendar app speaks."
+msgstr "Dina kontakter och kalendrar synkroniseras till telefonen, surfplattan och datorn via CardDAV och CalDAV, som alla vanliga kontakt- och kalenderappar hanterar."
 
 #: src/features/help/contribute-dialog.tsx
 msgid "Your introduction has been submitted and will appear after moderation."

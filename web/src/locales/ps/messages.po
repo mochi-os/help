@@ -241,6 +241,10 @@ msgstr "یوه تېروتنه رامنځته شوه"
 msgid "An unexpected error occurred"
 msgstr "یوه ناڅاپي تېروتنه رامنځته شوه"
 
+#: src/features/help/devices.tsx
+msgid "Android"
+msgstr "Android"
+
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
 msgstr "د Android پوش"
@@ -491,6 +495,10 @@ msgstr "د څنګې پټۍ څخه لوبه وټاکئ یا نوې پیل کړئ.
 msgid "Choose language"
 msgstr "ژبه وټاکئ"
 
+#: src/features/help/devices.tsx
+msgid "Choose the account type Manual and enter the username, the password and the server address."
+msgstr "د حساب ډول لاسي وټاکئ او د کاروونکي نوم، پټنوم او د سرور پته دننه کړئ."
+
 #: ../../../lib/web/src/components/banner-section.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
@@ -607,6 +615,11 @@ msgstr "د لید ترتیبات تنظیم کړئ"
 msgid "Confirm"
 msgstr "تایید کړئ"
 
+#: src/features/help/devices.tsx
+#: src/features/help/index.tsx
+msgid "Connect your phone"
+msgstr "خپل ټیلیفون وصل کړئ"
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connected"
 msgstr "وصل شو"
@@ -654,6 +667,10 @@ msgstr "په کلیپ بورډ کاپي شو"
 #: ../../../lib/web/src/components/ui/copy-button.tsx
 msgid "Copy"
 msgstr "کاپي کړئ"
+
+#: src/features/help/devices.tsx
+msgid "Copy the server address, the username and the password into the device. The password is shown once."
+msgstr "د سرور پته، د کاروونکي نوم او پټنوم په وسیله کې کاپي کړئ. پټنوم یوازې یو ځل ښودل کیږي."
 
 #: ../../../lib/web/src/features/document/document-page.tsx
 msgid "Could not load this document. Please try again later."
@@ -729,6 +746,10 @@ msgstr "د ډېټا ټکر"
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Date"
 msgstr "نېټه"
+
+#: src/features/help/devices.tsx
+msgid "DAVx5 finds both your address books and your calendars. Turn on the ones to sync."
+msgstr "DAVx5 هم ستاسو د پتو کتابچې او هم ستاسو کليزونه پیدا کوي. هغه چې غواړئ همغږي شي، فعال یې کړئ."
 
 #: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx
 msgid "Decline"
@@ -960,6 +981,18 @@ msgstr "د بینر متن دننه کړئ (markdown ملاتړ کیږي)..."
 msgid "Enter the code from your email"
 msgstr "هغه کوډ دننه کړئ چې ستاسو په برېښنالیک کې راغلی"
 
+#: src/features/help/devices.tsx
+msgid "Enter the password when asked, and choose the address books and calendars to add."
+msgstr "کله چې وغوښتل شي پټنوم دننه کړئ، او هغه د پتو کتابچې او کليزونه وټاکئ چې غواړئ اضافه یې کړئ."
+
+#: src/features/help/devices.tsx
+msgid "Enter the server address, the username and the password in each."
+msgstr "په هر یو کې د سرور پته، د کاروونکي نوم او پټنوم دننه کړئ."
+
+#: src/features/help/devices.tsx
+msgid "Enter the server address, the username and the password."
+msgstr "د سرور پته، د کاروونکي نوم او پټنوم دننه کړئ."
+
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Enter your authenticator code"
 msgstr "د خپل تصدیق کوونکي کوډ دننه کړئ"
@@ -1112,6 +1145,22 @@ msgstr "بیرغونه"
 msgid "Flat"
 msgstr "هوار"
 
+#: src/features/help/devices.tsx
+msgid "For calendars: Calendar, New Calendar, On the Network, with the username and the server address."
+msgstr "د کليزونو لپاره: کليز، نوی کليز، په شبکه کې، د کاروونکي نوم او د سرور پتې سره."
+
+#: src/features/help/devices.tsx
+msgid "For calendars: Settings, Calendar, Accounts, Add Account, Other, Add CalDAV Account."
+msgstr "د کليزونو لپاره: ترتیبات، کليز، حسابونه، حساب اضافه کړئ، نور، د CalDAV حساب اضافه کړئ."
+
+#: src/features/help/devices.tsx
+msgid "For contacts: Address Book, New Address Book, Add CardDAV Address Book, with the username and the server address."
+msgstr "د اړیکو لپاره: د پتو کتابچه، نوې د پتو کتابچه، د CardDAV د پتو کتابچه اضافه کړئ، د کاروونکي نوم او د سرور پتې سره."
+
+#: src/features/help/devices.tsx
+msgid "For contacts: Settings, Contacts, Accounts, Add Account, Other, Add CardDAV Account."
+msgstr "د اړیکو لپاره: ترتیبات، اړیکې، حسابونه، حساب اضافه کړئ، نور، د CardDAV حساب اضافه کړئ."
+
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Friday"
 msgstr "جمعه"
@@ -1131,6 +1180,10 @@ msgstr "له"
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "From theme"
 msgstr "د ښکارندوی څخه"
+
+#: src/features/help/devices.tsx
+msgid "Get a password for the device"
+msgstr "د وسیلې لپاره پټنوم ترلاسه کړئ"
 
 #: ../../../lib/web/src/features/errors/access-denied-error.tsx
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
@@ -1158,6 +1211,7 @@ msgstr "ګروپ بندي"
 msgid "Group: {0}"
 msgstr "ډله: {0}"
 
+#: src/features/help/devices.tsx
 #: src/features/help/index.tsx
 #: src/routes/_authenticated/document/privacy.tsx
 #: src/routes/_authenticated/document/rules.tsx
@@ -1210,6 +1264,10 @@ msgstr "د لومړنیو تورو اوتار"
 msgid "Initials avatar for {name}"
 msgstr "د {name} لپاره د لومړنیو تورو اوتار"
 
+#: src/features/help/devices.tsx
+msgid "Install DAVx5 and add an account with \"Login with URL and user name\"."
+msgstr "DAVx5 نصب کړئ او د «د URL او د کاروونکي نوم سره ننوتل» له لارې حساب اضافه کړئ."
+
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Interest {weight}"
 msgstr "لېوالتیا {weight}"
@@ -1226,6 +1284,10 @@ msgstr "ځان معرفي کړئ"
 #: ../../../lib/web/src/components/entity/entity-field-editor.tsx
 msgid "Invalid date"
 msgstr "ناسمه نېټه"
+
+#: src/features/help/devices.tsx
+msgid "iPhone and iPad"
+msgstr "iPhone او iPad"
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "It seems like the page you're looking for <0/>does not exist or might have been removed."
@@ -1313,6 +1375,10 @@ msgstr "په بریالیتوب سره لاګ آوټ شو"
 #: ../../../lib/web/src/components/sign-out-dialog.tsx
 msgid "Logging out…"
 msgstr "لاګ آوټ کیږي…"
+
+#: src/features/help/devices.tsx
+msgid "Mac"
+msgstr "Mac"
 
 #: ../../../lib/web/src/components/notification-category-button.tsx
 msgid "Manage categories"
@@ -1417,6 +1483,10 @@ msgstr "نوم اړین دی"
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Name must be 1000 characters or less"
 msgstr "نوم باید 1000 توري یا لږ وي"
+
+#: src/features/help/devices.tsx
+msgid "Name the device, for example your phone's name, and create its password."
+msgstr "وسیلې ته نوم ورکړئ، د بېلګې په توګه ستاسو د ټیلیفون نوم، او پټنوم یې جوړ کړئ."
 
 #: ../../../lib/web/src/features/errors/general-error.tsx
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
@@ -1574,6 +1644,10 @@ msgstr "شمیره"
 msgid "On"
 msgstr "فعال"
 
+#: src/features/help/devices.tsx
+msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connect device stops its password at once."
+msgstr "یو پټنوم هم د اړیکو او هم د کليزونو لپاره کار کوي. هره وسیله خپل پټنوم لري، او که یوه وسیله د وسیله وصل کړئ برخې څخه لرې کړئ، پټنوم یې سمدستي بې اغېزې کیږي."
+
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
 msgstr "اوه! پاڼه ونه موندل شوه!"
@@ -1581,6 +1655,10 @@ msgstr "اوه! پاڼه ونه موندل شوه!"
 #: ../../../lib/web/src/components/layout/nav-group.tsx
 msgid "Open actions"
 msgstr "کړنې پرانیزئ"
+
+#: src/features/help/devices.tsx
+msgid "Open Calendars or People and choose Connect device."
+msgstr "کليزونه یا خلک پرانیځئ او وسیله وصل کړئ وټاکئ."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"
@@ -1729,6 +1807,10 @@ msgstr "ځانګړتیاوې"
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Push notification"
 msgstr "د پوش خبرتیا"
+
+#: src/features/help/index.tsx
+msgid "Put your contacts and calendars on your phone, tablet or computer."
+msgstr "خپلې اړیکې او کليزونه په خپل ټیلیفون، ټابلیټ یا کمپیوټر کې وساتئ."
 
 #: src/features/help/contribute-dialog.tsx
 msgid "Question"
@@ -2227,6 +2309,10 @@ msgstr "د 1-9 لیدلو ته بدل کړئ"
 msgid "System"
 msgstr "سیسټم"
 
+#: src/features/help/devices.tsx
+msgid "System Settings, Internet Accounts, Add Other Account, then CardDAV Account for contacts or CalDAV Account for calendars."
+msgstr "د سیسټم ترتیبات، د انټرنټ حسابونه، بل حساب اضافه کړئ، بیا د اړیکو لپاره د CardDAV حساب یا د کليزونو لپاره د CalDAV حساب."
+
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Tag already exists"
 msgstr "ټاګ دمخه شتون لري"
@@ -2283,6 +2369,10 @@ msgstr "د کیمرې غوښتنې ته ځواب ورنکړل شو"
 msgid "The microphone request was not answered"
 msgstr "د مایکروفون غوښتنې ته ځواب ورنکړل شو"
 
+#: src/features/help/devices.tsx
+msgid "The Mochi app shows your contacts and calendars itself. To put them into the phone's own Contacts and Calendar apps, use DAVx5."
+msgstr "د Mochi اپلیکیشن پخپله ستاسو اړیکې او کليزونه ښیي. د دې لپاره چې دوی د ټیلیفون په خپلو اړیکو او کليز اپلیکیشنونو کې ولرئ، DAVx5 وکاروئ."
+
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "The passkey request was not answered"
 msgstr "د passkey غوښتنې ته ځواب ورنکړل شو"
@@ -2302,6 +2392,10 @@ msgstr "دې اپ ته اجازه نشته چې ستاسو passkey وکاروي.
 #: ../../../lib/web/src/components/game/game-end-dialogs.tsx
 msgid "This permanently deletes the game and its chat. This cannot be undone."
 msgstr "دا به لوبه او د هغې چیټ د تل لپاره ړنګ کړي. دا کړنه بیرته نشي کیدی."
+
+#: src/features/help/devices.tsx
+msgid "Thunderbird"
+msgstr "Thunderbird"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Thursday"
@@ -2555,6 +2649,10 @@ msgstr "ستاسو حساب له {source} دلته لیږدول شوی. تر ه�
 #: ../../../lib/web/src/components/comment-composer.tsx
 msgid "Your attachments will be lost."
 msgstr "ستاسو ضمیمې به له لاسه ولاړې شي."
+
+#: src/features/help/devices.tsx
+msgid "Your contacts and calendars sync to your phone, tablet and computer over CardDAV and CalDAV, which every major contacts and calendar app speaks."
+msgstr "ستاسو اړیکې او کليزونه د CardDAV او CalDAV له لارې ستاسو له ټیلیفون، ټابلیټ او کمپیوټر سره همغږي کیږي؛ دا پروتوکولونه هر مهم د اړیکو او کليز اپلیکیشن پېژني."
 
 #: src/features/help/contribute-dialog.tsx
 msgid "Your introduction has been submitted and will appear after moderation."

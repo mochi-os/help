@@ -241,6 +241,10 @@ msgstr "حدث خطأ"
 msgid "An unexpected error occurred"
 msgstr "حدث خطأ غير متوقع"
 
+#: src/features/help/devices.tsx
+msgid "Android"
+msgstr "Android"
+
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
 msgstr "إشعار Android"
@@ -491,6 +495,10 @@ msgstr "اختر لعبة من الشريط الجانبي أو ابدأ لعب�
 msgid "Choose language"
 msgstr "اختر اللغة"
 
+#: src/features/help/devices.tsx
+msgid "Choose the account type Manual and enter the username, the password and the server address."
+msgstr "اختر نوع الحساب «يدوي» وأدخل اسم المستخدم وكلمة المرور وعنوان الخادم."
+
 #: ../../../lib/web/src/components/banner-section.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
@@ -607,6 +615,11 @@ msgstr "تكوين إعدادات العرض"
 msgid "Confirm"
 msgstr "تأكيد"
 
+#: src/features/help/devices.tsx
+#: src/features/help/index.tsx
+msgid "Connect your phone"
+msgstr "اربط هاتفك"
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connected"
 msgstr "متصل"
@@ -654,6 +667,10 @@ msgstr "تم النسخ إلى الحافظة"
 #: ../../../lib/web/src/components/ui/copy-button.tsx
 msgid "Copy"
 msgstr "نسخ"
+
+#: src/features/help/devices.tsx
+msgid "Copy the server address, the username and the password into the device. The password is shown once."
+msgstr "انسخ عنوان الخادم واسم المستخدم وكلمة المرور إلى الجهاز. تُعرض كلمة المرور مرة واحدة فقط."
 
 #: ../../../lib/web/src/features/document/document-page.tsx
 msgid "Could not load this document. Please try again later."
@@ -729,6 +746,10 @@ msgstr "تعارض في البيانات"
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Date"
 msgstr "التاريخ"
+
+#: src/features/help/devices.tsx
+msgid "DAVx5 finds both your address books and your calendars. Turn on the ones to sync."
+msgstr "يعثر DAVx5 على دفاتر عناوينك وتقويماتك معًا. فعّل ما تريد مزامنته منها."
 
 #: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx
 msgid "Decline"
@@ -960,6 +981,18 @@ msgstr "أدخل نص الشعار (Markdown مدعوم)..."
 msgid "Enter the code from your email"
 msgstr "أدخل الرمز من بريدك الإلكتروني"
 
+#: src/features/help/devices.tsx
+msgid "Enter the password when asked, and choose the address books and calendars to add."
+msgstr "أدخل كلمة المرور عند طلبها، واختر دفاتر العناوين والتقويمات التي تريد إضافتها."
+
+#: src/features/help/devices.tsx
+msgid "Enter the server address, the username and the password in each."
+msgstr "أدخل عنوان الخادم واسم المستخدم وكلمة المرور في كل منهما."
+
+#: src/features/help/devices.tsx
+msgid "Enter the server address, the username and the password."
+msgstr "أدخل عنوان الخادم واسم المستخدم وكلمة المرور."
+
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Enter your authenticator code"
 msgstr "أدخل رمز تطبيق المصادقة"
@@ -1112,6 +1145,22 @@ msgstr "الأعلام"
 msgid "Flat"
 msgstr "مسطح"
 
+#: src/features/help/devices.tsx
+msgid "For calendars: Calendar, New Calendar, On the Network, with the username and the server address."
+msgstr "للتقويمات: التقويم، تقويم جديد، على الشبكة، مع اسم المستخدم وعنوان الخادم."
+
+#: src/features/help/devices.tsx
+msgid "For calendars: Settings, Calendar, Accounts, Add Account, Other, Add CalDAV Account."
+msgstr "للتقويمات: الإعدادات، التقويم، الحسابات، إضافة حساب، أخرى، إضافة حساب CalDAV."
+
+#: src/features/help/devices.tsx
+msgid "For contacts: Address Book, New Address Book, Add CardDAV Address Book, with the username and the server address."
+msgstr "لجهات الاتصال: دفتر العناوين، دفتر عناوين جديد، إضافة دفتر عناوين CardDAV، مع اسم المستخدم وعنوان الخادم."
+
+#: src/features/help/devices.tsx
+msgid "For contacts: Settings, Contacts, Accounts, Add Account, Other, Add CardDAV Account."
+msgstr "لجهات الاتصال: الإعدادات، جهات الاتصال، الحسابات، إضافة حساب، أخرى، إضافة حساب CardDAV."
+
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Friday"
 msgstr "الجمعة"
@@ -1131,6 +1180,10 @@ msgstr "من"
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "From theme"
 msgstr "من السمة"
+
+#: src/features/help/devices.tsx
+msgid "Get a password for the device"
+msgstr "احصل على كلمة مرور للجهاز"
 
 #: ../../../lib/web/src/features/errors/access-denied-error.tsx
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
@@ -1158,6 +1211,7 @@ msgstr "تجميع حسب"
 msgid "Group: {0}"
 msgstr "المجموعة: {0}"
 
+#: src/features/help/devices.tsx
 #: src/features/help/index.tsx
 #: src/routes/_authenticated/document/privacy.tsx
 #: src/routes/_authenticated/document/rules.tsx
@@ -1210,6 +1264,10 @@ msgstr "صورة رمزية بالأحرف الأولى"
 msgid "Initials avatar for {name}"
 msgstr "صورة {name} الرمزية بالأحرف الأولى"
 
+#: src/features/help/devices.tsx
+msgid "Install DAVx5 and add an account with \"Login with URL and user name\"."
+msgstr "ثبّت DAVx5 وأضف حسابًا عبر «تسجيل الدخول بعنوان URL واسم المستخدم»."
+
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Interest {weight}"
 msgstr "الاهتمام {weight}"
@@ -1226,6 +1284,10 @@ msgstr "قدّم نفسك"
 #: ../../../lib/web/src/components/entity/entity-field-editor.tsx
 msgid "Invalid date"
 msgstr "تاريخ غير صالح"
+
+#: src/features/help/devices.tsx
+msgid "iPhone and iPad"
+msgstr "iPhone وiPad"
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "It seems like the page you're looking for <0/>does not exist or might have been removed."
@@ -1313,6 +1375,10 @@ msgstr "تم تسجيل الخروج بنجاح"
 #: ../../../lib/web/src/components/sign-out-dialog.tsx
 msgid "Logging out…"
 msgstr "جاري تسجيل الخروج…"
+
+#: src/features/help/devices.tsx
+msgid "Mac"
+msgstr "Mac"
 
 #: ../../../lib/web/src/components/notification-category-button.tsx
 msgid "Manage categories"
@@ -1417,6 +1483,10 @@ msgstr "الاسم مطلوب"
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Name must be 1000 characters or less"
 msgstr "يجب ألا يتجاوز الاسم 1000 حرف"
+
+#: src/features/help/devices.tsx
+msgid "Name the device, for example your phone's name, and create its password."
+msgstr "سمِّ الجهاز، باسم هاتفك مثلًا، وأنشئ كلمة المرور الخاصة به."
 
 #: ../../../lib/web/src/features/errors/general-error.tsx
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
@@ -1574,6 +1644,10 @@ msgstr "الرقم"
 msgid "On"
 msgstr "مفعّل"
 
+#: src/features/help/devices.tsx
+msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connect device stops its password at once."
+msgstr "كلمة مرور واحدة تخدم جهات الاتصال والتقويمات معًا. لكل جهاز كلمة مروره الخاصة، وإزالة جهاز من «ربط جهاز» توقف كلمة مروره فورًا."
+
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
 msgstr "عذراً! الصفحة غير موجودة!"
@@ -1581,6 +1655,10 @@ msgstr "عذراً! الصفحة غير موجودة!"
 #: ../../../lib/web/src/components/layout/nav-group.tsx
 msgid "Open actions"
 msgstr "فتح الإجراءات"
+
+#: src/features/help/devices.tsx
+msgid "Open Calendars or People and choose Connect device."
+msgstr "افتح التقويمات أو الأشخاص واختر «ربط جهاز»."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"
@@ -1729,6 +1807,10 @@ msgstr "الخصائص"
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Push notification"
 msgstr "إشعار فوري"
+
+#: src/features/help/index.tsx
+msgid "Put your contacts and calendars on your phone, tablet or computer."
+msgstr "ضع جهات اتصالك وتقويماتك على هاتفك أو جهازك اللوحي أو حاسوبك."
 
 #: src/features/help/contribute-dialog.tsx
 msgid "Question"
@@ -2227,6 +2309,10 @@ msgstr "التبديل إلى العرض 1-9"
 msgid "System"
 msgstr "النظام"
 
+#: src/features/help/devices.tsx
+msgid "System Settings, Internet Accounts, Add Other Account, then CardDAV Account for contacts or CalDAV Account for calendars."
+msgstr "إعدادات النظام، حسابات الإنترنت، إضافة حساب آخر، ثم حساب CardDAV لجهات الاتصال أو حساب CalDAV للتقويمات."
+
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Tag already exists"
 msgstr "الوسم موجود بالفعل"
@@ -2283,6 +2369,10 @@ msgstr "لم تتم الإجابة على طلب الكاميرا"
 msgid "The microphone request was not answered"
 msgstr "لم تتم الإجابة على طلب الميكروفون"
 
+#: src/features/help/devices.tsx
+msgid "The Mochi app shows your contacts and calendars itself. To put them into the phone's own Contacts and Calendar apps, use DAVx5."
+msgstr "يعرض تطبيق Mochi جهات اتصالك وتقويماتك بنفسه. ولوضعها في تطبيقَي جهات الاتصال والتقويم الخاصين بالهاتف، استخدم DAVx5."
+
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "The passkey request was not answered"
 msgstr "لم تتم الإجابة على طلب مفتاح المرور"
@@ -2302,6 +2392,10 @@ msgstr "لا يُسمح لهذا التطبيق باستخدام مفتاح ال
 #: ../../../lib/web/src/components/game/game-end-dialogs.tsx
 msgid "This permanently deletes the game and its chat. This cannot be undone."
 msgstr "سيؤدي هذا إلى حذف اللعبة ومحادثتها نهائيًا. لا يمكن التراجع عن هذا الإجراء."
+
+#: src/features/help/devices.tsx
+msgid "Thunderbird"
+msgstr "Thunderbird"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Thursday"
@@ -2555,6 +2649,10 @@ msgstr "تم نقل حسابك إلى هنا من {source}. حتى تحذفه م
 #: ../../../lib/web/src/components/comment-composer.tsx
 msgid "Your attachments will be lost."
 msgstr "سيتم فقدان مرفقاتك."
+
+#: src/features/help/devices.tsx
+msgid "Your contacts and calendars sync to your phone, tablet and computer over CardDAV and CalDAV, which every major contacts and calendar app speaks."
+msgstr "تتزامن جهات اتصالك وتقويماتك مع هاتفك وجهازك اللوحي وحاسوبك عبر CardDAV وCalDAV، وهما ما يفهمه كل تطبيق رئيسي لجهات الاتصال والتقويم."
 
 #: src/features/help/contribute-dialog.tsx
 msgid "Your introduction has been submitted and will appear after moderation."

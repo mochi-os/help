@@ -241,6 +241,10 @@ msgstr "Villa kom upp"
 msgid "An unexpected error occurred"
 msgstr "Óvænt villa kom upp"
 
+#: src/features/help/devices.tsx
+msgid "Android"
+msgstr "Android"
+
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
 msgstr "Android-ýting"
@@ -491,6 +495,10 @@ msgstr "Veldu leik úr hliðarstikunni eða byrjaðu nýjan."
 msgid "Choose language"
 msgstr "Veldu tungumál"
 
+#: src/features/help/devices.tsx
+msgid "Choose the account type Manual and enter the username, the password and the server address."
+msgstr "Veldu reikningsgerðina Handvirkt og sláðu inn notandanafnið, lykilorðið og vistfang þjónsins."
+
 #: ../../../lib/web/src/components/banner-section.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
@@ -607,6 +615,11 @@ msgstr "Stilla sýnar"
 msgid "Confirm"
 msgstr "Staðfesta"
 
+#: src/features/help/devices.tsx
+#: src/features/help/index.tsx
+msgid "Connect your phone"
+msgstr "Tengdu símann þinn"
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connected"
 msgstr "Tengt"
@@ -654,6 +667,10 @@ msgstr "Afritað á klippiborðið"
 #: ../../../lib/web/src/components/ui/copy-button.tsx
 msgid "Copy"
 msgstr "Afrita"
+
+#: src/features/help/devices.tsx
+msgid "Copy the server address, the username and the password into the device. The password is shown once."
+msgstr "Afritaðu vistfang þjónsins, notandanafnið og lykilorðið yfir í tækið. Lykilorðið birtist aðeins einu sinni."
 
 #: ../../../lib/web/src/features/document/document-page.tsx
 msgid "Could not load this document. Please try again later."
@@ -729,6 +746,10 @@ msgstr "Gagnaárekstur"
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Date"
 msgstr "Dagsetning"
+
+#: src/features/help/devices.tsx
+msgid "DAVx5 finds both your address books and your calendars. Turn on the ones to sync."
+msgstr "DAVx5 finnur bæði nafnaskrárnar þínar og dagatölin þín. Kveiktu á þeim sem þú vilt samstilla."
 
 #: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx
 msgid "Decline"
@@ -960,6 +981,18 @@ msgstr "Sláðu inn texta borða (markdown stutt)..."
 msgid "Enter the code from your email"
 msgstr "Sláðu inn kóðann úr tölvupóstinum þínum"
 
+#: src/features/help/devices.tsx
+msgid "Enter the password when asked, and choose the address books and calendars to add."
+msgstr "Sláðu inn lykilorðið þegar beðið er um það og veldu þær nafnaskrár og þau dagatöl sem á að bæta við."
+
+#: src/features/help/devices.tsx
+msgid "Enter the server address, the username and the password in each."
+msgstr "Sláðu inn vistfang þjónsins, notandanafnið og lykilorðið í hverju þeirra."
+
+#: src/features/help/devices.tsx
+msgid "Enter the server address, the username and the password."
+msgstr "Sláðu inn vistfang þjónsins, notandanafnið og lykilorðið."
+
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Enter your authenticator code"
 msgstr "Sláðu inn auðkenniskóðann þinn"
@@ -1112,6 +1145,22 @@ msgstr "Flögg"
 msgid "Flat"
 msgstr "Flatt"
 
+#: src/features/help/devices.tsx
+msgid "For calendars: Calendar, New Calendar, On the Network, with the username and the server address."
+msgstr "Fyrir dagatöl: Dagatal, Nýtt dagatal, Á netinu, með notandanafninu og vistfangi þjónsins."
+
+#: src/features/help/devices.tsx
+msgid "For calendars: Settings, Calendar, Accounts, Add Account, Other, Add CalDAV Account."
+msgstr "Fyrir dagatöl: Stillingar, Dagatal, Reikningar, Bæta við reikningi, Annað, Bæta við CalDAV-reikningi."
+
+#: src/features/help/devices.tsx
+msgid "For contacts: Address Book, New Address Book, Add CardDAV Address Book, with the username and the server address."
+msgstr "Fyrir tengiliði: Nafnaskrá, Ný nafnaskrá, Bæta við CardDAV-nafnaskrá, með notandanafninu og vistfangi þjónsins."
+
+#: src/features/help/devices.tsx
+msgid "For contacts: Settings, Contacts, Accounts, Add Account, Other, Add CardDAV Account."
+msgstr "Fyrir tengiliði: Stillingar, Tengiliðir, Reikningar, Bæta við reikningi, Annað, Bæta við CardDAV-reikningi."
+
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Friday"
 msgstr "Föstudagur"
@@ -1131,6 +1180,10 @@ msgstr "Frá"
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "From theme"
 msgstr "Frá þema"
+
+#: src/features/help/devices.tsx
+msgid "Get a password for the device"
+msgstr "Fáðu lykilorð fyrir tækið"
 
 #: ../../../lib/web/src/features/errors/access-denied-error.tsx
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
@@ -1158,6 +1211,7 @@ msgstr "Hópa eftir"
 msgid "Group: {0}"
 msgstr "Hópur: {0}"
 
+#: src/features/help/devices.tsx
 #: src/features/help/index.tsx
 #: src/routes/_authenticated/document/privacy.tsx
 #: src/routes/_authenticated/document/rules.tsx
@@ -1210,6 +1264,10 @@ msgstr "Upphafsstafaauðkenni"
 msgid "Initials avatar for {name}"
 msgstr "Upphafsstafaauðkenni fyrir {name}"
 
+#: src/features/help/devices.tsx
+msgid "Install DAVx5 and add an account with \"Login with URL and user name\"."
+msgstr "Settu upp DAVx5 og bættu við reikningi með \"Skrá inn með URL-slóð og notandanafni\"."
+
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Interest {weight}"
 msgstr "Áhugi {weight}"
@@ -1226,6 +1284,10 @@ msgstr "Kynntu þig"
 #: ../../../lib/web/src/components/entity/entity-field-editor.tsx
 msgid "Invalid date"
 msgstr "Ógild dagsetning"
+
+#: src/features/help/devices.tsx
+msgid "iPhone and iPad"
+msgstr "iPhone og iPad"
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "It seems like the page you're looking for <0/>does not exist or might have been removed."
@@ -1313,6 +1375,10 @@ msgstr "Útskráning tókst"
 #: ../../../lib/web/src/components/sign-out-dialog.tsx
 msgid "Logging out…"
 msgstr "Útskrái…"
+
+#: src/features/help/devices.tsx
+msgid "Mac"
+msgstr "Mac"
 
 #: ../../../lib/web/src/components/notification-category-button.tsx
 msgid "Manage categories"
@@ -1417,6 +1483,10 @@ msgstr "Nafn er nauðsynlegt"
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Name must be 1000 characters or less"
 msgstr "Nafn má ekki vera lengra en 1000 stafir"
+
+#: src/features/help/devices.tsx
+msgid "Name the device, for example your phone's name, and create its password."
+msgstr "Gefðu tækinu nafn, til dæmis nafn símans þíns, og búðu til lykilorð fyrir það."
 
 #: ../../../lib/web/src/features/errors/general-error.tsx
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
@@ -1574,6 +1644,10 @@ msgstr "Tala"
 msgid "On"
 msgstr "Kveikt"
 
+#: src/features/help/devices.tsx
+msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connect device stops its password at once."
+msgstr "Eitt lykilorð gildir bæði fyrir tengiliði og dagatöl. Hvert tæki fær sitt eigið og þegar tæki er fjarlægt undir Tengja tæki hættir lykilorð þess að gilda samstundis."
+
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
 msgstr "Úps! Síða fannst ekki!"
@@ -1581,6 +1655,10 @@ msgstr "Úps! Síða fannst ekki!"
 #: ../../../lib/web/src/components/layout/nav-group.tsx
 msgid "Open actions"
 msgstr "Opna aðgerðir"
+
+#: src/features/help/devices.tsx
+msgid "Open Calendars or People and choose Connect device."
+msgstr "Opnaðu Dagatöl eða Fólk og veldu Tengja tæki."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"
@@ -1729,6 +1807,10 @@ msgstr "Eiginleikar"
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Push notification"
 msgstr "Ýtitilkynning"
+
+#: src/features/help/index.tsx
+msgid "Put your contacts and calendars on your phone, tablet or computer."
+msgstr "Hafðu tengiliðina þína og dagatölin í símanum, spjaldtölvunni eða tölvunni."
 
 #: src/features/help/contribute-dialog.tsx
 msgid "Question"
@@ -2227,6 +2309,10 @@ msgstr "Skipta yfir í sýn 1-9"
 msgid "System"
 msgstr "Kerfi"
 
+#: src/features/help/devices.tsx
+msgid "System Settings, Internet Accounts, Add Other Account, then CardDAV Account for contacts or CalDAV Account for calendars."
+msgstr "Kerfisstillingar, Internetreikningar, Bæta við öðrum reikningi og síðan CardDAV-reikningur fyrir tengiliði eða CalDAV-reikningur fyrir dagatöl."
+
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Tag already exists"
 msgstr "Merki er þegar til"
@@ -2283,6 +2369,10 @@ msgstr "Myndavélarbeiðninni var ekki svarað"
 msgid "The microphone request was not answered"
 msgstr "Hljóðnemabeiðninni var ekki svarað"
 
+#: src/features/help/devices.tsx
+msgid "The Mochi app shows your contacts and calendars itself. To put them into the phone's own Contacts and Calendar apps, use DAVx5."
+msgstr "Mochi-forritið sýnir tengiliðina þína og dagatölin sjálft. Til að koma þeim inn í Tengiliði og Dagatal í símanum sjálfum skaltu nota DAVx5."
+
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "The passkey request was not answered"
 msgstr "Aðgangslykilsbeiðninni var ekki svarað"
@@ -2302,6 +2392,10 @@ msgstr "Þetta forrit má ekki nota aðgangslykilinn þinn. Leyfðu það í Sti
 #: ../../../lib/web/src/components/game/game-end-dialogs.tsx
 msgid "This permanently deletes the game and its chat. This cannot be undone."
 msgstr "Þetta eyðir leiknum og spjallinu varanlega. Ekki er hægt að afturkalla þessa aðgerð."
+
+#: src/features/help/devices.tsx
+msgid "Thunderbird"
+msgstr "Thunderbird"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Thursday"
@@ -2555,6 +2649,10 @@ msgstr "Reikningurinn þinn var fluttur hingað frá {source}. Þar til þú ey�
 #: ../../../lib/web/src/components/comment-composer.tsx
 msgid "Your attachments will be lost."
 msgstr "Viðhengin þín glatast."
+
+#: src/features/help/devices.tsx
+msgid "Your contacts and calendars sync to your phone, tablet and computer over CardDAV and CalDAV, which every major contacts and calendar app speaks."
+msgstr "Tengiliðirnir þínir og dagatölin samstillast við símann, spjaldtölvuna og tölvuna um CardDAV og CalDAV, sem öll helstu tengiliða- og dagatalsforrit skilja."
 
 #: src/features/help/contribute-dialog.tsx
 msgid "Your introduction has been submitted and will appear after moderation."

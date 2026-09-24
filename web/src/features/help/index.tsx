@@ -6,7 +6,7 @@ import { useEffect, useState } from 'react'
 import { Link } from '@tanstack/react-router'
 import { Trans, useLingui } from '@lingui/react/macro'
 import { Card, Main, PageHeader } from '@mochi/web'
-import { Bug, HelpCircle, Lightbulb, Sparkles } from 'lucide-react'
+import { Bug, HelpCircle, Lightbulb, Smartphone, Sparkles } from 'lucide-react'
 import { helpApi, type Kind } from '@/api/help'
 import { ContributeDialog } from '@/features/help/contribute-dialog'
 
@@ -90,6 +90,21 @@ export function Help() {
               </button>
             ))}
           </div>
+          <Link to='/devices' className='mt-4 block'>
+            <Card className='hover:border-primary/40 hover:bg-hover flex items-center gap-4 p-6 transition-all duration-200'>
+              <div className='bg-primary/10 text-primary flex h-10 w-10 shrink-0 items-center justify-center rounded-lg'>
+                <Smartphone className='h-5 w-5' />
+              </div>
+              <div>
+                <h3 className='mb-1 text-lg font-medium'>
+                  <Trans>Connect your phone</Trans>
+                </h3>
+                <p className='text-muted-foreground text-sm'>
+                  <Trans>Put your contacts and calendars on your phone, tablet or computer.</Trans>
+                </p>
+              </div>
+            </Card>
+          </Link>
         </div>
         <p className='text-muted-foreground space-x-2 pt-2 pb-6 text-center text-sm'>
           <Link

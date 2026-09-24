@@ -241,6 +241,10 @@ msgstr "Адбылася памылка"
 msgid "An unexpected error occurred"
 msgstr "Адбылася нечаканая памылка"
 
+#: src/features/help/devices.tsx
+msgid "Android"
+msgstr "Android"
+
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
 msgstr "Push для Android"
@@ -491,6 +495,10 @@ msgstr "Выберыце гульню з бакавой панэлі або па
 msgid "Choose language"
 msgstr "Выберыце мову"
 
+#: src/features/help/devices.tsx
+msgid "Choose the account type Manual and enter the username, the password and the server address."
+msgstr "Выберыце тып уліковага запісу «Уручную» і ўвядзіце імя карыстальніка, пароль і адрас сервера."
+
 #: ../../../lib/web/src/components/banner-section.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
@@ -607,6 +615,11 @@ msgstr "Наладзіць налады выгляду"
 msgid "Confirm"
 msgstr "Пацвердзіць"
 
+#: src/features/help/devices.tsx
+#: src/features/help/index.tsx
+msgid "Connect your phone"
+msgstr "Падключыце свой тэлефон"
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connected"
 msgstr "Падключана"
@@ -654,6 +667,10 @@ msgstr "Скапіравана ў буфер абмену"
 #: ../../../lib/web/src/components/ui/copy-button.tsx
 msgid "Copy"
 msgstr "Капіраваць"
+
+#: src/features/help/devices.tsx
+msgid "Copy the server address, the username and the password into the device. The password is shown once."
+msgstr "Скапіруйце адрас сервера, імя карыстальніка і пароль у прыладу. Пароль паказваецца толькі адзін раз."
 
 #: ../../../lib/web/src/features/document/document-page.tsx
 msgid "Could not load this document. Please try again later."
@@ -729,6 +746,10 @@ msgstr "Канфлікт даных"
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Date"
 msgstr "Дата"
+
+#: src/features/help/devices.tsx
+msgid "DAVx5 finds both your address books and your calendars. Turn on the ones to sync."
+msgstr "DAVx5 знаходзіць і вашы адрасныя кнігі, і вашы календары. Уключыце тыя, якія трэба сінхранізаваць."
 
 #: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx
 msgid "Decline"
@@ -960,6 +981,18 @@ msgstr "Увядзіце тэкст банера (падтрымліваецца
 msgid "Enter the code from your email"
 msgstr "Увядзіце код з вашай электроннай пошты"
 
+#: src/features/help/devices.tsx
+msgid "Enter the password when asked, and choose the address books and calendars to add."
+msgstr "Увядзіце пароль, калі яго запытаюць, і выберыце адрасныя кнігі і календары, якія трэба дадаць."
+
+#: src/features/help/devices.tsx
+msgid "Enter the server address, the username and the password in each."
+msgstr "У кожным з іх увядзіце адрас сервера, імя карыстальніка і пароль."
+
+#: src/features/help/devices.tsx
+msgid "Enter the server address, the username and the password."
+msgstr "Увядзіце адрас сервера, імя карыстальніка і пароль."
+
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Enter your authenticator code"
 msgstr "Увядзіце код з праграмы-аўтэнтыфікатара"
@@ -1112,6 +1145,22 @@ msgstr "Адзнакі"
 msgid "Flat"
 msgstr "Плоская"
 
+#: src/features/help/devices.tsx
+msgid "For calendars: Calendar, New Calendar, On the Network, with the username and the server address."
+msgstr "Для календароў: Каляндар, Новы каляндар, У сетцы, з імем карыстальніка і адрасам сервера."
+
+#: src/features/help/devices.tsx
+msgid "For calendars: Settings, Calendar, Accounts, Add Account, Other, Add CalDAV Account."
+msgstr "Для календароў: Налады, Каляндар, Уліковыя запісы, Дадаць уліковы запіс, Іншае, Дадаць уліковы запіс CalDAV."
+
+#: src/features/help/devices.tsx
+msgid "For contacts: Address Book, New Address Book, Add CardDAV Address Book, with the username and the server address."
+msgstr "Для кантактаў: Адрасная кніга, Новая адрасная кніга, Дадаць адрасную кнігу CardDAV, з імем карыстальніка і адрасам сервера."
+
+#: src/features/help/devices.tsx
+msgid "For contacts: Settings, Contacts, Accounts, Add Account, Other, Add CardDAV Account."
+msgstr "Для кантактаў: Налады, Кантакты, Уліковыя запісы, Дадаць уліковы запіс, Іншае, Дадаць уліковы запіс CardDAV."
+
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Friday"
 msgstr "Пятніца"
@@ -1131,6 +1180,10 @@ msgstr "Ад"
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "From theme"
 msgstr "З тэмы"
+
+#: src/features/help/devices.tsx
+msgid "Get a password for the device"
+msgstr "Атрымайце пароль для прылады"
 
 #: ../../../lib/web/src/features/errors/access-denied-error.tsx
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
@@ -1158,6 +1211,7 @@ msgstr "Групаваць па"
 msgid "Group: {0}"
 msgstr "Група: {0}"
 
+#: src/features/help/devices.tsx
 #: src/features/help/index.tsx
 #: src/routes/_authenticated/document/privacy.tsx
 #: src/routes/_authenticated/document/rules.tsx
@@ -1210,6 +1264,10 @@ msgstr "Аватар з ініцыялаў"
 msgid "Initials avatar for {name}"
 msgstr "Аватар з ініцыялаў для {name}"
 
+#: src/features/help/devices.tsx
+msgid "Install DAVx5 and add an account with \"Login with URL and user name\"."
+msgstr "Усталюйце DAVx5 і дадайце ўліковы запіс праз «Уваход з дапамогай URL і імя карыстальніка»."
+
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Interest {weight}"
 msgstr "Цікавасць {weight}"
@@ -1226,6 +1284,10 @@ msgstr "Прадстаўцеся"
 #: ../../../lib/web/src/components/entity/entity-field-editor.tsx
 msgid "Invalid date"
 msgstr "Няправільная дата"
+
+#: src/features/help/devices.tsx
+msgid "iPhone and iPad"
+msgstr "iPhone і iPad"
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "It seems like the page you're looking for <0/>does not exist or might have been removed."
@@ -1313,6 +1375,10 @@ msgstr "Выхад выкананы паспяхова"
 #: ../../../lib/web/src/components/sign-out-dialog.tsx
 msgid "Logging out…"
 msgstr "Выхад…"
+
+#: src/features/help/devices.tsx
+msgid "Mac"
+msgstr "Mac"
 
 #: ../../../lib/web/src/components/notification-category-button.tsx
 msgid "Manage categories"
@@ -1417,6 +1483,10 @@ msgstr "Назва абавязковая"
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Name must be 1000 characters or less"
 msgstr "Назва павінна быць не больш за 1000 сімвалаў"
+
+#: src/features/help/devices.tsx
+msgid "Name the device, for example your phone's name, and create its password."
+msgstr "Дайце прыладзе назву, напрыклад назву вашага тэлефона, і стварыце для яе пароль."
 
 #: ../../../lib/web/src/features/errors/general-error.tsx
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
@@ -1574,6 +1644,10 @@ msgstr "Лік"
 msgid "On"
 msgstr "Укл."
 
+#: src/features/help/devices.tsx
+msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connect device stops its password at once."
+msgstr "Адзін пароль абслугоўвае і кантакты, і календары. Кожная прылада атрымлівае свой уласны, а выдаленне прылады ў раздзеле «Падключыць прыладу» адразу спыняе дзеянне яе пароля."
+
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
 msgstr "Вой! Старонка не знойдзена!"
@@ -1581,6 +1655,10 @@ msgstr "Вой! Старонка не знойдзена!"
 #: ../../../lib/web/src/components/layout/nav-group.tsx
 msgid "Open actions"
 msgstr "Адкрыць дзеянні"
+
+#: src/features/help/devices.tsx
+msgid "Open Calendars or People and choose Connect device."
+msgstr "Адкрыйце Календары або Людзі і выберыце «Падключыць прыладу»."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"
@@ -1729,6 +1807,10 @@ msgstr "Уласцівасці"
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Push notification"
 msgstr "Push-апавяшчэнне"
+
+#: src/features/help/index.tsx
+msgid "Put your contacts and calendars on your phone, tablet or computer."
+msgstr "Размясціце свае кантакты і календары на тэлефоне, планшэце ці камп'ютары."
 
 #: src/features/help/contribute-dialog.tsx
 msgid "Question"
@@ -2227,6 +2309,10 @@ msgstr "Пераключыцца на выгляд 1-9"
 msgid "System"
 msgstr "Сістэма"
 
+#: src/features/help/devices.tsx
+msgid "System Settings, Internet Accounts, Add Other Account, then CardDAV Account for contacts or CalDAV Account for calendars."
+msgstr "Сістэмныя налады, Уліковыя запісы інтэрнэту, Дадаць іншы ўліковы запіс, потым Уліковы запіс CardDAV для кантактаў або Уліковы запіс CalDAV для календароў."
+
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Tag already exists"
 msgstr "Тэг ужо існуе"
@@ -2283,6 +2369,10 @@ msgstr "Запыт камеры застаўся без адказу"
 msgid "The microphone request was not answered"
 msgstr "Запыт мікрафона застаўся без адказу"
 
+#: src/features/help/devices.tsx
+msgid "The Mochi app shows your contacts and calendars itself. To put them into the phone's own Contacts and Calendar apps, use DAVx5."
+msgstr "Праграма Mochi сама паказвае вашы кантакты і календары. Каб перанесці іх ва ўласныя праграмы тэлефона «Кантакты» і «Каляндар», скарыстайцеся DAVx5."
+
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "The passkey request was not answered"
 msgstr "Запыт passkey застаўся без адказу"
@@ -2302,6 +2392,10 @@ msgstr "Гэтай праграме не дазволена выкарыстоў
 #: ../../../lib/web/src/components/game/game-end-dialogs.tsx
 msgid "This permanently deletes the game and its chat. This cannot be undone."
 msgstr "Гэта незваротна выдаліць гульню і яе чат. Гэтае дзеянне нельга адрабіць."
+
+#: src/features/help/devices.tsx
+msgid "Thunderbird"
+msgstr "Thunderbird"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Thursday"
@@ -2555,6 +2649,10 @@ msgstr "Ваш акаўнт быў перанесены сюды з {source}. П
 #: ../../../lib/web/src/components/comment-composer.tsx
 msgid "Your attachments will be lost."
 msgstr "Вашы ўкладанні будуць страчаны."
+
+#: src/features/help/devices.tsx
+msgid "Your contacts and calendars sync to your phone, tablet and computer over CardDAV and CalDAV, which every major contacts and calendar app speaks."
+msgstr "Вашы кантакты і календары сінхранізуюцца з тэлефонам, планшэтам і камп'ютарам праз CardDAV і CalDAV, якія разумее кожная буйная праграма для кантактаў і календароў."
 
 #: src/features/help/contribute-dialog.tsx
 msgid "Your introduction has been submitted and will appear after moderation."
