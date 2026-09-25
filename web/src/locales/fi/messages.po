@@ -40,6 +40,10 @@ msgid "{0, plural, one {# result} other {# results}}"
 msgstr "{0, plural, one {# tulos} other {# tulosta}}"
 
 #. placeholder {0}: displayInfo.count
+#. placeholder {0}: selectedIds.length
+#. placeholder {0}: unknownIds.length
+#: ../../../lib/web/src/components/person-picker.tsx
+#: ../../../lib/web/src/components/person-picker.tsx
 #: ../../../lib/web/src/components/person-picker.tsx
 msgid "{0, plural, one {# selected} other {# selected}}"
 msgstr "{0, plural, one {# valittu} other {# valittu}}"
@@ -65,21 +69,23 @@ msgstr "{count, plural, one {#min} other {#min}}"
 msgid "{count, plural, one {#w} other {#w}}"
 msgstr "{count, plural, one {#vk} other {#vk}}"
 
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
 #: ../../../lib/web/src/components/calendar/tooltip.ts
 msgid "{day}, {from} to {to}"
-msgstr ""
+msgstr "{day}, {from}–{to}"
 
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "{entityLabel} name"
 msgstr "{entityLabel}: nimi"
 
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
 #: ../../../lib/web/src/components/calendar/tooltip.ts
 msgid "{from} to {to}"
-msgstr ""
+msgstr "{from}–{to}"
 
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 msgid "{hidden, plural, one {+# more} other {+# more}}"
-msgstr ""
+msgstr "{hidden, plural, one {+# lisää} other {+# lisää}}"
 
 #: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx
 msgid "{opponentName} offered a draw"
@@ -218,8 +224,9 @@ msgid "AI"
 msgstr "Tekoäly"
 
 #: ../../../lib/web/src/components/calendar/time-grid.tsx
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
 msgid "All day"
-msgstr ""
+msgstr "Koko päivä"
 
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Allow anyone to search for {entityLabel}"
@@ -237,6 +244,10 @@ msgstr "Tapahtui virhe"
 #: ../../../lib/web/src/lib/error-normalizer.ts
 msgid "An unexpected error occurred"
 msgstr "Tapahtui odottamaton virhe"
+
+#: src/features/help/devices.tsx
+msgid "Android"
+msgstr "Android"
 
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
@@ -296,6 +307,10 @@ msgstr "Esitä kysymys"
 #: src/features/help/contribute-dialog.tsx
 msgid "Ask the community on the Mochi users mailing list. Be specific about what you've tried so far."
 msgstr "Kysy yhteisöltä Mochi-käyttäjien postituslistalla. Kerro tarkasti, mitä olet jo kokeillut."
+
+#: ../../../lib/web/src/components/timezone-select.tsx
+msgid "At sea"
+msgstr "Merellä"
 
 #: ../../../lib/web/src/components/comment-composer.tsx
 msgid "Attach comment files"
@@ -392,6 +407,10 @@ msgstr "Selaimen ilmoitukset"
 msgid "Bug report submitted."
 msgstr "Vikailmoitus lähetetty."
 
+#: ../../../lib/web/src/features/accounts/types.ts
+msgid "Calendar server"
+msgstr "Kalenteripalvelin"
+
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "Camera permission denied"
 msgstr "Kameran käyttöoikeus evättiin"
@@ -457,7 +476,7 @@ msgstr "{field} muutettu"
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 #: ../../../lib/web/src/components/calendar/time-grid.tsx
 msgid "Changed occurrence"
-msgstr ""
+msgstr "Muutettu toistokerta"
 
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Checkbox"
@@ -467,6 +486,10 @@ msgstr "Valintaruutu"
 msgid "Checklist"
 msgstr "Tarkistuslista"
 
+#: ../../../lib/web/src/components/ui/date-picker.tsx
+msgid "Choose a date"
+msgstr "Valitse päivämäärä"
+
 #: ../../../lib/web/src/components/game/game-empty-state.tsx
 msgid "Choose a game from the sidebar or start a new one."
 msgstr "Valitse peli sivupalkista tai aloita uusi."
@@ -475,6 +498,10 @@ msgstr "Valitse peli sivupalkista tai aloita uusi."
 #: ../../../lib/web/src/components/language-picker.tsx
 msgid "Choose language"
 msgstr "Valitse kieli"
+
+#: src/features/help/devices.tsx
+msgid "Choose the account type Manual and enter the username, the password and the server address."
+msgstr "Valitse tilin tyypiksi Manuaalinen ja anna käyttäjätunnus, salasana ja palvelimen osoite."
 
 #: ../../../lib/web/src/components/banner-section.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
@@ -499,6 +526,7 @@ msgstr "Tyhjennä haku"
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx
 #: ../../../lib/web/src/components/ui/sheet.tsx
+#: ../../../lib/web/src/components/ui/side-panel.tsx
 #: ../../../lib/web/src/components/ui/side-panel.tsx
 #: src/features/help/contribute-dialog.tsx
 msgid "Close"
@@ -585,6 +613,11 @@ msgstr "Määritä näkymän asetukset"
 msgid "Confirm"
 msgstr "Vahvista"
 
+#: src/features/help/devices.tsx
+#: src/features/help/index.tsx
+msgid "Connect your phone"
+msgstr "Yhdistä puhelimesi"
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connected"
 msgstr "Yhdistetty"
@@ -613,6 +646,10 @@ msgstr "Jatka"
 msgid "Continue with {label}"
 msgstr "Jatka käyttäen palvelua {label}"
 
+#: ../../../lib/web/src/features/accounts/account-add.tsx
+msgid "Continue with {providerLabel}"
+msgstr "Jatka palvelulla {providerLabel}"
+
 #: ../../../lib/web/src/lib/toast-utils.ts
 msgid "Copied"
 msgstr "Kopioitu"
@@ -621,9 +658,17 @@ msgstr "Kopioitu"
 msgid "Copied to clipboard"
 msgstr "Kopioitu leikepöydälle"
 
+#: ../../../lib/web/src/components/calendar/month-grid.tsx
+#: ../../../lib/web/src/components/calendar/month-grid.tsx
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
 #: ../../../lib/web/src/components/ui/copy-button.tsx
 msgid "Copy"
 msgstr "Kopioi"
+
+#: src/features/help/devices.tsx
+msgid "Copy the server address, the username and the password into the device. The password is shown once."
+msgstr "Kopioi palvelimen osoite, käyttäjätunnus ja salasana laitteeseen. Salasana näytetään vain kerran."
 
 #: ../../../lib/web/src/features/document/document-page.tsx
 msgid "Could not load this document. Please try again later."
@@ -699,6 +744,10 @@ msgstr "Tietoristiriita"
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Date"
 msgstr "Päivämäärä"
+
+#: src/features/help/devices.tsx
+msgid "DAVx5 finds both your address books and your calendars. Turn on the ones to sync."
+msgstr "DAVx5 löytää sekä osoitekirjasi että kalenterisi. Ota käyttöön ne, jotka haluat synkronoida."
 
 #: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx
 msgid "Decline"
@@ -917,6 +966,10 @@ msgstr "Sähköposti"
 msgid "Email code"
 msgstr "Sähköpostikoodi"
 
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
+msgid "Ends before it starts"
+msgstr "Päättyy ennen alkamistaan"
+
 #: ../../../lib/web/src/components/banner-section.tsx
 msgid "Enter banner text (markdown supported)..."
 msgstr "Anna bannerin teksti (markdown tuettu)..."
@@ -924,6 +977,18 @@ msgstr "Anna bannerin teksti (markdown tuettu)..."
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Enter the code from your email"
 msgstr "Anna sähköpostiisi saamasi koodi"
+
+#: src/features/help/devices.tsx
+msgid "Enter the password when asked, and choose the address books and calendars to add."
+msgstr "Anna salasana, kun sitä kysytään, ja valitse lisättävät osoitekirjat ja kalenterit."
+
+#: src/features/help/devices.tsx
+msgid "Enter the server address, the username and the password in each."
+msgstr "Anna kuhunkin palvelimen osoite, käyttäjätunnus ja salasana."
+
+#: src/features/help/devices.tsx
+msgid "Enter the server address, the username and the password."
+msgstr "Anna palvelimen osoite, käyttäjätunnus ja salasana."
 
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Enter your authenticator code"
@@ -1077,6 +1142,22 @@ msgstr "Liput"
 msgid "Flat"
 msgstr "Litteä"
 
+#: src/features/help/devices.tsx
+msgid "For calendars: Calendar, New Calendar, On the Network, with the username and the server address."
+msgstr "Kalentereille: Kalenteri, Uusi kalenteri, Verkossa, käyttäjätunnuksella ja palvelimen osoitteella."
+
+#: src/features/help/devices.tsx
+msgid "For calendars: Settings, Calendar, Accounts, Add Account, Other, Add CalDAV Account."
+msgstr "Kalentereille: Asetukset, Kalenteri, Tilit, Lisää tili, Muu, Lisää CalDAV-tili."
+
+#: src/features/help/devices.tsx
+msgid "For contacts: Address Book, New Address Book, Add CardDAV Address Book, with the username and the server address."
+msgstr "Yhteystiedoille: Osoitekirja, Uusi osoitekirja, Lisää CardDAV-osoitekirja, käyttäjätunnuksella ja palvelimen osoitteella."
+
+#: src/features/help/devices.tsx
+msgid "For contacts: Settings, Contacts, Accounts, Add Account, Other, Add CardDAV Account."
+msgstr "Yhteystiedoille: Asetukset, Yhteystiedot, Tilit, Lisää tili, Muu, Lisää CardDAV-tili."
+
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Friday"
 msgstr "Perjantai"
@@ -1096,6 +1177,10 @@ msgstr "Lähettäjä"
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "From theme"
 msgstr "Teemasta"
+
+#: src/features/help/devices.tsx
+msgid "Get a password for the device"
+msgstr "Hanki laitteelle salasana"
 
 #: ../../../lib/web/src/features/errors/access-denied-error.tsx
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
@@ -1123,6 +1208,7 @@ msgstr "Ryhmittele"
 msgid "Group: {0}"
 msgstr "Ryhmä: {0}"
 
+#: src/features/help/devices.tsx
 #: src/features/help/index.tsx
 #: src/routes/_authenticated/document/privacy.tsx
 #: src/routes/_authenticated/document/rules.tsx
@@ -1175,6 +1261,10 @@ msgstr "Nimikirjainavatar"
 msgid "Initials avatar for {name}"
 msgstr "Käyttäjän {name} nimikirjainavatar"
 
+#: src/features/help/devices.tsx
+msgid "Install DAVx5 and add an account with \"Login with URL and user name\"."
+msgstr "Asenna DAVx5 ja lisää tili valinnalla \"Kirjaudu URL-osoitteella ja käyttäjätunnuksella\"."
+
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Interest {weight}"
 msgstr "Kiinnostus {weight}"
@@ -1191,6 +1281,10 @@ msgstr "Esittele itsesi"
 #: ../../../lib/web/src/components/entity/entity-field-editor.tsx
 msgid "Invalid date"
 msgstr "Virheellinen päivämäärä"
+
+#: src/features/help/devices.tsx
+msgid "iPhone and iPad"
+msgstr "iPhone ja iPad"
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "It seems like the page you're looking for <0/>does not exist or might have been removed."
@@ -1279,6 +1373,10 @@ msgstr "Uloskirjautuminen onnistui"
 msgid "Logging out…"
 msgstr "Kirjaudutaan ulos…"
 
+#: src/features/help/devices.tsx
+msgid "Mac"
+msgstr "Mac"
+
 #: ../../../lib/web/src/components/notification-category-button.tsx
 msgid "Manage categories"
 msgstr "Hallitse kategorioita"
@@ -1340,6 +1438,10 @@ msgstr "Moderointi"
 msgid "Monday"
 msgstr "Maanantai"
 
+#: ../../../lib/web/src/components/calendar/date-header.tsx
+msgid "Month"
+msgstr "Kuukausi"
+
 #: ../../../lib/web/src/components/options-menu.tsx
 msgid "More options"
 msgstr "Lisää vaihtoehtoja"
@@ -1352,10 +1454,12 @@ msgstr "Siirretty"
 msgid "Moved {field}"
 msgstr "{field} siirretty"
 
-#. placeholder {0}: dragging.day
+#. placeholder {0}: dayName(current.day)
+#. placeholder {0}: dayName(dragging.day)
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
 msgid "Moving to {0}"
-msgstr ""
+msgstr "Siirretään päivälle {0}"
 
 #: ../../../lib/web/src/components/entity/add-field-dialog.tsx
 #: ../../../lib/web/src/components/entity/entity-board-column.tsx
@@ -1377,6 +1481,10 @@ msgstr "Nimi vaaditaan"
 msgid "Name must be 1000 characters or less"
 msgstr "Nimen on oltava enintään 1000 merkkiä"
 
+#: src/features/help/devices.tsx
+msgid "Name the device, for example your phone's name, and create its password."
+msgstr "Anna laitteelle nimi, esimerkiksi puhelimesi nimi, ja luo sille salasana."
+
 #: ../../../lib/web/src/features/errors/general-error.tsx
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
 msgid "Network error"
@@ -1397,9 +1505,13 @@ msgstr "Uusi peli"
 msgid "Next image"
 msgstr "Seuraava kuva"
 
-#: ../../../lib/web/src/components/calendar/mini-month.tsx
+#: ../../../lib/web/src/components/calendar/date-header.tsx
 msgid "Next month"
-msgstr ""
+msgstr "Seuraava kuukausi"
+
+#: ../../../lib/web/src/components/calendar/date-header.tsx
+msgid "Next year"
+msgstr "Seuraava vuosi"
 
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
 msgid "No {parentClassNames} to add to"
@@ -1529,6 +1641,10 @@ msgstr "Numero"
 msgid "On"
 msgstr "Päällä"
 
+#: src/features/help/devices.tsx
+msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connect device stops its password at once."
+msgstr "Yksi salasana riittää sekä yhteystiedoille että kalentereille. Jokaisella laitteella on oma salasanansa, ja laitteen poistaminen kohdasta Yhdistä laite lakkauttaa sen salasanan heti."
+
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
 msgstr "Hups! Sivua ei löytynyt!"
@@ -1536,6 +1652,10 @@ msgstr "Hups! Sivua ei löytynyt!"
 #: ../../../lib/web/src/components/layout/nav-group.tsx
 msgid "Open actions"
 msgstr "Avaa toiminnot"
+
+#: src/features/help/devices.tsx
+msgid "Open Calendars or People and choose Connect device."
+msgstr "Avaa Kalenterit tai Ihmiset ja valitse Yhdistä laite."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"
@@ -1655,9 +1775,13 @@ msgstr "Julkaisut ja kommentit"
 msgid "Previous image"
 msgstr "Edellinen kuva"
 
-#: ../../../lib/web/src/components/calendar/mini-month.tsx
+#: ../../../lib/web/src/components/calendar/date-header.tsx
 msgid "Previous month"
-msgstr ""
+msgstr "Edellinen kuukausi"
+
+#: ../../../lib/web/src/components/calendar/date-header.tsx
+msgid "Previous year"
+msgstr "Edellinen vuosi"
 
 #: ../../../lib/web/src/components/server-documents-footer.tsx
 #: ../../../lib/web/src/features/document/document-page.tsx
@@ -1680,6 +1804,10 @@ msgstr "Ominaisuudet"
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Push notification"
 msgstr "Push-ilmoitus"
+
+#: src/features/help/index.tsx
+msgid "Put your contacts and calendars on your phone, tablet or computer."
+msgstr "Saat yhteystietosi ja kalenterisi puhelimeen, tablettiin tai tietokoneeseen."
 
 #: src/features/help/contribute-dialog.tsx
 msgid "Question"
@@ -1758,6 +1886,7 @@ msgstr "Poista suodatin {0}"
 #: ../../../lib/web/src/components/member-list.tsx
 #: ../../../lib/web/src/components/member-list.tsx
 #: ../../../lib/web/src/components/person-picker.tsx
+#: ../../../lib/web/src/components/person-picker.tsx
 msgid "Remove {name}"
 msgstr "Poista {name}"
 
@@ -1805,7 +1934,7 @@ msgstr "Nimeä tämä taulun sarake uudelleen"
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 #: ../../../lib/web/src/components/calendar/time-grid.tsx
 msgid "Repeats"
-msgstr ""
+msgstr "Toistuu"
 
 #: ../../../lib/web/src/components/entity/entity-comment-thread.tsx
 #: ../../../lib/web/src/components/entity/entity-comment-thread.tsx
@@ -2179,6 +2308,10 @@ msgstr "Vaihda näkymään 1-9"
 msgid "System"
 msgstr "Järjestelmä"
 
+#: src/features/help/devices.tsx
+msgid "System Settings, Internet Accounts, Add Other Account, then CardDAV Account for contacts or CalDAV Account for calendars."
+msgstr "Järjestelmäasetukset, Internet-tilit, Lisää muu tili ja sitten CardDAV-tili yhteystiedoille tai CalDAV-tili kalentereille."
+
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Tag already exists"
 msgstr "Tunniste on jo olemassa"
@@ -2235,6 +2368,10 @@ msgstr "Kamerapyyntöön ei vastattu"
 msgid "The microphone request was not answered"
 msgstr "Mikrofonipyyntöön ei vastattu"
 
+#: src/features/help/devices.tsx
+msgid "The Mochi app shows your contacts and calendars itself. To put them into the phone's own Contacts and Calendar apps, use DAVx5."
+msgstr "Mochi-sovellus näyttää yhteystietosi ja kalenterisi itsekin. Jos haluat ne puhelimen omiin Yhteystiedot- ja Kalenteri-sovelluksiin, käytä DAVx5:tä."
+
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "The passkey request was not answered"
 msgstr "Avainkoodipyyntöön ei vastattu"
@@ -2254,6 +2391,10 @@ msgstr "Tämä sovellus ei saa käyttää avainkoodiasi. Salli se Asetuksissa ko
 #: ../../../lib/web/src/components/game/game-end-dialogs.tsx
 msgid "This permanently deletes the game and its chat. This cannot be undone."
 msgstr "Tämä poistaa pelin ja sen keskustelun pysyvästi. Tätä ei voi peruuttaa."
+
+#: src/features/help/devices.tsx
+msgid "Thunderbird"
+msgstr "Thunderbird"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Thursday"
@@ -2492,6 +2633,10 @@ msgstr "Mitä se tekisi, kenelle se on, miksi sillä on merkitystä?"
 msgid "What you want to ask, in one line"
 msgstr "Mitä haluat kysyä, yhdellä rivillä"
 
+#: ../../../lib/web/src/components/calendar/date-header.tsx
+msgid "Year"
+msgstr "Vuosi"
+
 #: ../../../lib/web/src/features/errors/general-error.tsx
 msgid "You do not have access to this section."
 msgstr "Sinulla ei ole pääsyä tähän osioon."
@@ -2503,6 +2648,10 @@ msgstr "Tilisi siirrettiin tänne kohteesta {source}. Kunnes poistat sen sieltä
 #: ../../../lib/web/src/components/comment-composer.tsx
 msgid "Your attachments will be lost."
 msgstr "Liitteesi menetetään."
+
+#: src/features/help/devices.tsx
+msgid "Your contacts and calendars sync to your phone, tablet and computer over CardDAV and CalDAV, which every major contacts and calendar app speaks."
+msgstr "Yhteystietosi ja kalenterisi synkronoituvat puhelimeen, tablettiin ja tietokoneeseen CardDAV- ja CalDAV-yhteyskäytännöillä, joita kaikki merkittävät yhteystieto- ja kalenterisovellukset osaavat."
 
 #: src/features/help/contribute-dialog.tsx
 msgid "Your introduction has been submitted and will appear after moderation."

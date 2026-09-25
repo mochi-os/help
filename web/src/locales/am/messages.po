@@ -40,6 +40,10 @@ msgid "{0, plural, one {# result} other {# results}}"
 msgstr "{0, plural, one {# ውጤት} other {# ውጤቶች}}"
 
 #. placeholder {0}: displayInfo.count
+#. placeholder {0}: selectedIds.length
+#. placeholder {0}: unknownIds.length
+#: ../../../lib/web/src/components/person-picker.tsx
+#: ../../../lib/web/src/components/person-picker.tsx
 #: ../../../lib/web/src/components/person-picker.tsx
 msgid "{0, plural, one {# selected} other {# selected}}"
 msgstr "{0, plural, one {# ተመርጧል} other {# ተመርጠዋል}}"
@@ -65,21 +69,23 @@ msgstr "{count, plural, one {#ደ} other {#ደ}}"
 msgid "{count, plural, one {#w} other {#w}}"
 msgstr "{count, plural, one {#ሳ} other {#ሳ}}"
 
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
 #: ../../../lib/web/src/components/calendar/tooltip.ts
 msgid "{day}, {from} to {to}"
-msgstr ""
+msgstr "{day}, ከ{from} እስከ {to}"
 
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "{entityLabel} name"
 msgstr "የ{entityLabel} ስም"
 
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
 #: ../../../lib/web/src/components/calendar/tooltip.ts
 msgid "{from} to {to}"
-msgstr ""
+msgstr "ከ{from} እስከ {to}"
 
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 msgid "{hidden, plural, one {+# more} other {+# more}}"
-msgstr ""
+msgstr "{hidden, plural, one {+# ተጨማሪ} other {+# ተጨማሪ}}"
 
 #: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx
 msgid "{opponentName} offered a draw"
@@ -218,8 +224,9 @@ msgid "AI"
 msgstr "AI"
 
 #: ../../../lib/web/src/components/calendar/time-grid.tsx
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
 msgid "All day"
-msgstr ""
+msgstr "ሙሉ ቀን"
 
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Allow anyone to search for {entityLabel}"
@@ -237,6 +244,10 @@ msgstr "ስህተት ተከስቷል"
 #: ../../../lib/web/src/lib/error-normalizer.ts
 msgid "An unexpected error occurred"
 msgstr "ያልተጠበቀ ስህተት ተከስቷል"
+
+#: src/features/help/devices.tsx
+msgid "Android"
+msgstr "Android"
 
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
@@ -296,6 +307,10 @@ msgstr "ጥያቄ ይጠይቁ"
 #: src/features/help/contribute-dialog.tsx
 msgid "Ask the community on the Mochi users mailing list. Be specific about what you've tried so far."
 msgstr "በMochi ተጠቃሚዎች መልእክት ዝርዝር ላይ ማህበረሰቡን ይጠይቁ። እስካሁን ስለሞከሩት በዝርዝር ይግለጹ።"
+
+#: ../../../lib/web/src/components/timezone-select.tsx
+msgid "At sea"
+msgstr "በባሕር ላይ"
 
 #: ../../../lib/web/src/components/comment-composer.tsx
 msgid "Attach comment files"
@@ -392,6 +407,10 @@ msgstr "የአሳሽ ማሳወቂያዎች"
 msgid "Bug report submitted."
 msgstr "የስህተት ሪፖርት ቀርቧል።"
 
+#: ../../../lib/web/src/features/accounts/types.ts
+msgid "Calendar server"
+msgstr "የቀን መቁጠሪያ ሰርቨር"
+
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "Camera permission denied"
 msgstr "የካሜራ ፈቃድ ተከልክሏል"
@@ -457,7 +476,7 @@ msgstr "{field} ተቀይሯል"
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 #: ../../../lib/web/src/components/calendar/time-grid.tsx
 msgid "Changed occurrence"
-msgstr ""
+msgstr "የተቀየረ ድግግሞሽ"
 
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Checkbox"
@@ -467,6 +486,10 @@ msgstr "ቼክቦክስ"
 msgid "Checklist"
 msgstr "ዝርዝር"
 
+#: ../../../lib/web/src/components/ui/date-picker.tsx
+msgid "Choose a date"
+msgstr "ቀን ይምረጡ"
+
 #: ../../../lib/web/src/components/game/game-empty-state.tsx
 msgid "Choose a game from the sidebar or start a new one."
 msgstr "ከጎን አሞሌ ጨዋታ ምረጥ ወይም አዲስ ጀምር።"
@@ -475,6 +498,10 @@ msgstr "ከጎን አሞሌ ጨዋታ ምረጥ ወይም አዲስ ጀምር።
 #: ../../../lib/web/src/components/language-picker.tsx
 msgid "Choose language"
 msgstr "ቋንቋ ምረጥ"
+
+#: src/features/help/devices.tsx
+msgid "Choose the account type Manual and enter the username, the password and the server address."
+msgstr "«በእጅ» የሚለውን የመለያ ዓይነት ይምረጡና የተጠቃሚ ስም፣ የይለፍ ቃል እና የአገልጋይ አድራሻ ያስገቡ።"
 
 #: ../../../lib/web/src/components/banner-section.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
@@ -499,6 +526,7 @@ msgstr "ፍለጋ አጽዳ"
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx
 #: ../../../lib/web/src/components/ui/sheet.tsx
+#: ../../../lib/web/src/components/ui/side-panel.tsx
 #: ../../../lib/web/src/components/ui/side-panel.tsx
 #: src/features/help/contribute-dialog.tsx
 msgid "Close"
@@ -585,6 +613,11 @@ msgstr "የእይታ ቅንብሮችን አዋቅር"
 msgid "Confirm"
 msgstr "አረጋግጥ"
 
+#: src/features/help/devices.tsx
+#: src/features/help/index.tsx
+msgid "Connect your phone"
+msgstr "ስልክዎን ያገናኙ"
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connected"
 msgstr "ተገናኝቷል"
@@ -613,6 +646,10 @@ msgstr "ቀጥል"
 msgid "Continue with {label}"
 msgstr "በ{label} ይቀጥሉ"
 
+#: ../../../lib/web/src/features/accounts/account-add.tsx
+msgid "Continue with {providerLabel}"
+msgstr "በ{providerLabel} ይቀጥሉ"
+
 #: ../../../lib/web/src/lib/toast-utils.ts
 msgid "Copied"
 msgstr "ተቀድቷል"
@@ -621,9 +658,17 @@ msgstr "ተቀድቷል"
 msgid "Copied to clipboard"
 msgstr "ወደ ቅንጥብ ሰሌዳ ተቀድቷል"
 
+#: ../../../lib/web/src/components/calendar/month-grid.tsx
+#: ../../../lib/web/src/components/calendar/month-grid.tsx
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
 #: ../../../lib/web/src/components/ui/copy-button.tsx
 msgid "Copy"
 msgstr "ቅዳ"
+
+#: src/features/help/devices.tsx
+msgid "Copy the server address, the username and the password into the device. The password is shown once."
+msgstr "የአገልጋይ አድራሻውን፣ የተጠቃሚ ስሙንና የይለፍ ቃሉን ወደ መሣሪያው ይቅዱ። የይለፍ ቃሉ የሚታየው አንድ ጊዜ ብቻ ነው።"
 
 #: ../../../lib/web/src/features/document/document-page.tsx
 msgid "Could not load this document. Please try again later."
@@ -699,6 +744,10 @@ msgstr "የውሂብ ግጭት"
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Date"
 msgstr "ቀን"
+
+#: src/features/help/devices.tsx
+msgid "DAVx5 finds both your address books and your calendars. Turn on the ones to sync."
+msgstr "DAVx5 የአድራሻ ደብተሮችዎንም ቀን መቁጠሪያዎችዎንም ያገኛል። ማመሳሰል የሚፈልጓቸውን ያብሩ።"
 
 #: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx
 msgid "Decline"
@@ -917,6 +966,10 @@ msgstr "ኢሜይል"
 msgid "Email code"
 msgstr "የኢሜይል ኮድ"
 
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
+msgid "Ends before it starts"
+msgstr "ከመጀመሩ በፊት ያበቃል"
+
 #: ../../../lib/web/src/components/banner-section.tsx
 msgid "Enter banner text (markdown supported)..."
 msgstr "የባነር ጽሑፍ አስገባ (ማርክዳውን ይደገፋል)..."
@@ -924,6 +977,18 @@ msgstr "የባነር ጽሑፍ አስገባ (ማርክዳውን ይደገፋል)
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Enter the code from your email"
 msgstr "ከኢሜይልዎ የመጣውን ኮድ ያስገቡ"
+
+#: src/features/help/devices.tsx
+msgid "Enter the password when asked, and choose the address books and calendars to add."
+msgstr "ሲጠየቁ የይለፍ ቃሉን ያስገቡ፤ ከዚያም የሚጨምሯቸውን የአድራሻ ደብተሮችና ቀን መቁጠሪያዎች ይምረጡ።"
+
+#: src/features/help/devices.tsx
+msgid "Enter the server address, the username and the password in each."
+msgstr "በእያንዳንዱ ውስጥ የአገልጋይ አድራሻውን፣ የተጠቃሚ ስሙንና የይለፍ ቃሉን ያስገቡ።"
+
+#: src/features/help/devices.tsx
+msgid "Enter the server address, the username and the password."
+msgstr "የአገልጋይ አድራሻውን፣ የተጠቃሚ ስሙንና የይለፍ ቃሉን ያስገቡ።"
 
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Enter your authenticator code"
@@ -1077,6 +1142,22 @@ msgstr "ባንዲራዎች"
 msgid "Flat"
 msgstr "ጠፍጣፋ"
 
+#: src/features/help/devices.tsx
+msgid "For calendars: Calendar, New Calendar, On the Network, with the username and the server address."
+msgstr "ለቀን መቁጠሪያዎች፦ ቀን መቁጠሪያ፣ አዲስ ቀን መቁጠሪያ፣ በአውታረ መረብ ላይ፣ ከተጠቃሚ ስሙና ከአገልጋዩ አድራሻ ጋር።"
+
+#: src/features/help/devices.tsx
+msgid "For calendars: Settings, Calendar, Accounts, Add Account, Other, Add CalDAV Account."
+msgstr "ለቀን መቁጠሪያዎች፦ ቅንብሮች፣ ቀን መቁጠሪያ፣ መለያዎች፣ መለያ አክል፣ ሌላ፣ የCalDAV መለያ አክል።"
+
+#: src/features/help/devices.tsx
+msgid "For contacts: Address Book, New Address Book, Add CardDAV Address Book, with the username and the server address."
+msgstr "ለዕውቂያዎች፦ የአድራሻ ደብተር፣ አዲስ የአድራሻ ደብተር፣ የCardDAV አድራሻ ደብተር አክል፣ ከተጠቃሚ ስሙና ከአገልጋዩ አድራሻ ጋር።"
+
+#: src/features/help/devices.tsx
+msgid "For contacts: Settings, Contacts, Accounts, Add Account, Other, Add CardDAV Account."
+msgstr "ለዕውቂያዎች፦ ቅንብሮች፣ ዕውቂያዎች፣ መለያዎች፣ መለያ አክል፣ ሌላ፣ የCardDAV መለያ አክል።"
+
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Friday"
 msgstr "ዓርብ"
@@ -1096,6 +1177,10 @@ msgstr "ከ"
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "From theme"
 msgstr "ከገጽታ"
+
+#: src/features/help/devices.tsx
+msgid "Get a password for the device"
+msgstr "ለመሣሪያው የይለፍ ቃል ያግኙ"
 
 #: ../../../lib/web/src/features/errors/access-denied-error.tsx
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
@@ -1123,6 +1208,7 @@ msgstr "በቡድን ይመድቡ"
 msgid "Group: {0}"
 msgstr "ቡድን፦ {0}"
 
+#: src/features/help/devices.tsx
 #: src/features/help/index.tsx
 #: src/routes/_authenticated/document/privacy.tsx
 #: src/routes/_authenticated/document/rules.tsx
@@ -1175,6 +1261,10 @@ msgstr "የመነሻ ፊደላት አምሳያ"
 msgid "Initials avatar for {name}"
 msgstr "የ{name} የመነሻ ፊደላት አምሳያ"
 
+#: src/features/help/devices.tsx
+msgid "Install DAVx5 and add an account with \"Login with URL and user name\"."
+msgstr "DAVx5 ን ይጫኑ፤ ከዚያም «በURL እና በተጠቃሚ ስም መግባት» በሚለው መለያ ያክሉ።"
+
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Interest {weight}"
 msgstr "ፍላጎት {weight}"
@@ -1191,6 +1281,10 @@ msgstr "ራስዎን ያስተዋውቁ"
 #: ../../../lib/web/src/components/entity/entity-field-editor.tsx
 msgid "Invalid date"
 msgstr "ልክ ያልሆነ ቀን"
+
+#: src/features/help/devices.tsx
+msgid "iPhone and iPad"
+msgstr "iPhone እና iPad"
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "It seems like the page you're looking for <0/>does not exist or might have been removed."
@@ -1279,6 +1373,10 @@ msgstr "በተሳካ ሁኔታ ወጥቷል"
 msgid "Logging out…"
 msgstr "በመውጣት ላይ…"
 
+#: src/features/help/devices.tsx
+msgid "Mac"
+msgstr "Mac"
+
 #: ../../../lib/web/src/components/notification-category-button.tsx
 msgid "Manage categories"
 msgstr "ምድቦችን ያስተዳድሩ"
@@ -1340,6 +1438,10 @@ msgstr "ቁጥጥር"
 msgid "Monday"
 msgstr "ሰኞ"
 
+#: ../../../lib/web/src/components/calendar/date-header.tsx
+msgid "Month"
+msgstr "ወር"
+
 #: ../../../lib/web/src/components/options-menu.tsx
 msgid "More options"
 msgstr "ተጨማሪ አማራጮች"
@@ -1352,10 +1454,12 @@ msgstr "ተንቀሳቅሷል"
 msgid "Moved {field}"
 msgstr "{field} ተንቀሳቅሷል"
 
-#. placeholder {0}: dragging.day
+#. placeholder {0}: dayName(current.day)
+#. placeholder {0}: dayName(dragging.day)
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
 msgid "Moving to {0}"
-msgstr ""
+msgstr "ወደ {0} በማንቀሳቀስ ላይ"
 
 #: ../../../lib/web/src/components/entity/add-field-dialog.tsx
 #: ../../../lib/web/src/components/entity/entity-board-column.tsx
@@ -1377,6 +1481,10 @@ msgstr "ስም ያስፈልጋል"
 msgid "Name must be 1000 characters or less"
 msgstr "ስም 1000 ቁምፊዎች ወይም ከዚያ ያነሰ መሆን አለበት"
 
+#: src/features/help/devices.tsx
+msgid "Name the device, for example your phone's name, and create its password."
+msgstr "መሣሪያውን ይሰይሙ፣ ለምሳሌ የስልክዎ ስም፣ ከዚያም የይለፍ ቃሉን ይፍጠሩ።"
+
 #: ../../../lib/web/src/features/errors/general-error.tsx
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
 msgid "Network error"
@@ -1397,9 +1505,13 @@ msgstr "አዲስ ጨዋታ"
 msgid "Next image"
 msgstr "ቀጣይ ምስል"
 
-#: ../../../lib/web/src/components/calendar/mini-month.tsx
+#: ../../../lib/web/src/components/calendar/date-header.tsx
 msgid "Next month"
-msgstr ""
+msgstr "ቀጣይ ወር"
+
+#: ../../../lib/web/src/components/calendar/date-header.tsx
+msgid "Next year"
+msgstr "ቀጣይ ዓመት"
 
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
 msgid "No {parentClassNames} to add to"
@@ -1529,6 +1641,10 @@ msgstr "ቁጥር"
 msgid "On"
 msgstr "በርቷል"
 
+#: src/features/help/devices.tsx
+msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connect device stops its password at once."
+msgstr "አንድ የይለፍ ቃል ለዕውቂያዎችም ለቀን መቁጠሪያዎችም ያገለግላል። እያንዳንዱ መሣሪያ የራሱ አለው፤ በመሣሪያ አገናኝ ውስጥ መሣሪያን ማስወገድ የይለፍ ቃሉን ወዲያውኑ ያቋርጣል።"
+
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
 msgstr "ኦህ! ገጽ አልተገኘም!"
@@ -1536,6 +1652,10 @@ msgstr "ኦህ! ገጽ አልተገኘም!"
 #: ../../../lib/web/src/components/layout/nav-group.tsx
 msgid "Open actions"
 msgstr "እርምጃዎችን ክፈት"
+
+#: src/features/help/devices.tsx
+msgid "Open Calendars or People and choose Connect device."
+msgstr "ቀን መቁጠሪያዎች ወይም ሰዎች የሚለውን ይክፈቱና መሣሪያ አገናኝ ይምረጡ።"
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"
@@ -1655,9 +1775,13 @@ msgstr "ልጥፎች እና አስተያየቶች"
 msgid "Previous image"
 msgstr "ቀዳሚ ምስል"
 
-#: ../../../lib/web/src/components/calendar/mini-month.tsx
+#: ../../../lib/web/src/components/calendar/date-header.tsx
 msgid "Previous month"
-msgstr ""
+msgstr "ቀዳሚ ወር"
+
+#: ../../../lib/web/src/components/calendar/date-header.tsx
+msgid "Previous year"
+msgstr "ቀዳሚ ዓመት"
 
 #: ../../../lib/web/src/components/server-documents-footer.tsx
 #: ../../../lib/web/src/features/document/document-page.tsx
@@ -1680,6 +1804,10 @@ msgstr "ባህሪያት"
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Push notification"
 msgstr "የግፋ ማሳወቂያ"
+
+#: src/features/help/index.tsx
+msgid "Put your contacts and calendars on your phone, tablet or computer."
+msgstr "ዕውቂያዎችዎንና ቀን መቁጠሪያዎችዎን በስልክዎ፣ በጡባዊዎ ወይም በኮምፒውተርዎ ላይ ያኑሩ።"
 
 #: src/features/help/contribute-dialog.tsx
 msgid "Question"
@@ -1758,6 +1886,7 @@ msgstr "የ{0} ማጣሪያን ያስወግዱ"
 #: ../../../lib/web/src/components/member-list.tsx
 #: ../../../lib/web/src/components/member-list.tsx
 #: ../../../lib/web/src/components/person-picker.tsx
+#: ../../../lib/web/src/components/person-picker.tsx
 msgid "Remove {name}"
 msgstr "{name}ን አስወግድ"
 
@@ -1805,7 +1934,7 @@ msgstr "የዚህ ቦርድ አምድ ስም ቀይር"
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 #: ../../../lib/web/src/components/calendar/time-grid.tsx
 msgid "Repeats"
-msgstr ""
+msgstr "ይደገማል"
 
 #: ../../../lib/web/src/components/entity/entity-comment-thread.tsx
 #: ../../../lib/web/src/components/entity/entity-comment-thread.tsx
@@ -2179,6 +2308,10 @@ msgstr "ወደ ዕይታ 1-9 ቀይር"
 msgid "System"
 msgstr "ስርዓት"
 
+#: src/features/help/devices.tsx
+msgid "System Settings, Internet Accounts, Add Other Account, then CardDAV Account for contacts or CalDAV Account for calendars."
+msgstr "የስርዓት ቅንብሮች፣ የበይነመረብ መለያዎች፣ ሌላ መለያ አክል፣ ከዚያም ለዕውቂያዎች የCardDAV መለያ ወይም ለቀን መቁጠሪያዎች የCalDAV መለያ።"
+
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Tag already exists"
 msgstr "መለያው አስቀድሞ አለ"
@@ -2235,6 +2368,10 @@ msgstr "የካሜራ ጥያቄው መልስ አላገኘም"
 msgid "The microphone request was not answered"
 msgstr "የማይክሮፎን ጥያቄው መልስ አላገኘም"
 
+#: src/features/help/devices.tsx
+msgid "The Mochi app shows your contacts and calendars itself. To put them into the phone's own Contacts and Calendar apps, use DAVx5."
+msgstr "የMochi መተግበሪያ ዕውቂያዎችዎንና ቀን መቁጠሪያዎችዎን ራሱ ያሳያል። ወደ ስልኩ የራሱ ዕውቂያዎችና ቀን መቁጠሪያ መተግበሪያዎች ለማስገባት DAVx5 ን ይጠቀሙ።"
+
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "The passkey request was not answered"
 msgstr "የፓስኪ ጥያቄው መልስ አላገኘም"
@@ -2254,6 +2391,10 @@ msgstr "ይህ መተግበሪያ የእርስዎን ፓስኪ እንዲጠቀ�
 #: ../../../lib/web/src/components/game/game-end-dialogs.tsx
 msgid "This permanently deletes the game and its chat. This cannot be undone."
 msgstr "ይህ ጨዋታውን እና ውይይቱን በቋሚነት ይሰርዛል። ይህ ወደኋላ ሊመለስ አይችልም።"
+
+#: src/features/help/devices.tsx
+msgid "Thunderbird"
+msgstr "Thunderbird"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Thursday"
@@ -2492,6 +2633,10 @@ msgstr "ምን ያደርጋል፣ ለማን ነው፣ ለምን አስፈላጊ 
 msgid "What you want to ask, in one line"
 msgstr "ምን መጠየቅ እንደምትፈልግ በአንድ መስመር"
 
+#: ../../../lib/web/src/components/calendar/date-header.tsx
+msgid "Year"
+msgstr "ዓመት"
+
 #: ../../../lib/web/src/features/errors/general-error.tsx
 msgid "You do not have access to this section."
 msgstr "የዚህ ክፍል መዳረሻ የለዎትም።"
@@ -2503,6 +2648,10 @@ msgstr "መለያህ ከ{source} ወደዚህ ተዛውሯል። እዚያ እ�
 #: ../../../lib/web/src/components/comment-composer.tsx
 msgid "Your attachments will be lost."
 msgstr "አባሪዎችህ ይጠፋሉ።"
+
+#: src/features/help/devices.tsx
+msgid "Your contacts and calendars sync to your phone, tablet and computer over CardDAV and CalDAV, which every major contacts and calendar app speaks."
+msgstr "ዕውቂያዎችዎና ቀን መቁጠሪያዎችዎ በCardDAV እና በCalDAV አማካኝነት ከስልክዎ፣ ከጡባዊዎና ከኮምፒውተርዎ ጋር ይመሳሰላሉ፤ እነዚህን ሁሉም ዋና ዋና የዕውቂያና የቀን መቁጠሪያ መተግበሪያዎች ይደግፋሉ።"
 
 #: src/features/help/contribute-dialog.tsx
 msgid "Your introduction has been submitted and will appear after moderation."

@@ -40,6 +40,10 @@ msgid "{0, plural, one {# result} other {# results}}"
 msgstr "{0, plural, other {# rezilta}}"
 
 #. placeholder {0}: displayInfo.count
+#. placeholder {0}: selectedIds.length
+#. placeholder {0}: unknownIds.length
+#: ../../../lib/web/src/components/person-picker.tsx
+#: ../../../lib/web/src/components/person-picker.tsx
 #: ../../../lib/web/src/components/person-picker.tsx
 msgid "{0, plural, one {# selected} other {# selected}}"
 msgstr "{0, plural, other {# chwazi}}"
@@ -65,21 +69,23 @@ msgstr "{count, plural, one {#min} other {#min}}"
 msgid "{count, plural, one {#w} other {#w}}"
 msgstr "{count, plural, one {#sem} other {#sem}}"
 
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
 #: ../../../lib/web/src/components/calendar/tooltip.ts
 msgid "{day}, {from} to {to}"
-msgstr ""
+msgstr "{day}, {from} a {to}"
 
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "{entityLabel} name"
 msgstr "Non {entityLabel}"
 
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
 #: ../../../lib/web/src/components/calendar/tooltip.ts
 msgid "{from} to {to}"
-msgstr ""
+msgstr "{from} a {to}"
 
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 msgid "{hidden, plural, one {+# more} other {+# more}}"
-msgstr ""
+msgstr "{hidden, plural, other {+# lòt}}"
 
 #: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx
 msgid "{opponentName} offered a draw"
@@ -218,8 +224,9 @@ msgid "AI"
 msgstr "AI"
 
 #: ../../../lib/web/src/components/calendar/time-grid.tsx
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
 msgid "All day"
-msgstr ""
+msgstr "Tout jounen"
 
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Allow anyone to search for {entityLabel}"
@@ -237,6 +244,10 @@ msgstr "Yon erè te rive"
 #: ../../../lib/web/src/lib/error-normalizer.ts
 msgid "An unexpected error occurred"
 msgstr "Yon erè inatandi te rive"
+
+#: src/features/help/devices.tsx
+msgid "Android"
+msgstr "Android"
 
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
@@ -296,6 +307,10 @@ msgstr "Poze yon kesyon"
 #: src/features/help/contribute-dialog.tsx
 msgid "Ask the community on the Mochi users mailing list. Be specific about what you've tried so far."
 msgstr "Mande kominote a sou lis imèl itilizatè Mochi yo. Bay detay sou sa ou deja eseye."
+
+#: ../../../lib/web/src/components/timezone-select.tsx
+msgid "At sea"
+msgstr "Nan lanmè"
 
 #: ../../../lib/web/src/components/comment-composer.tsx
 msgid "Attach comment files"
@@ -392,6 +407,10 @@ msgstr "Notifikasyon navigatè"
 msgid "Bug report submitted."
 msgstr "Rapò boug la voye."
 
+#: ../../../lib/web/src/features/accounts/types.ts
+msgid "Calendar server"
+msgstr "Sèvè kalandriye"
+
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "Camera permission denied"
 msgstr "Pèmisyon kamera refize"
@@ -457,7 +476,7 @@ msgstr "{field} chanje"
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 #: ../../../lib/web/src/components/calendar/time-grid.tsx
 msgid "Changed occurrence"
-msgstr ""
+msgstr "Repetisyon ki chanje"
 
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Checkbox"
@@ -467,6 +486,10 @@ msgstr "Kaz"
 msgid "Checklist"
 msgstr "Lis verifikasyon"
 
+#: ../../../lib/web/src/components/ui/date-picker.tsx
+msgid "Choose a date"
+msgstr "Chwazi yon dat"
+
 #: ../../../lib/web/src/components/game/game-empty-state.tsx
 msgid "Choose a game from the sidebar or start a new one."
 msgstr "Chwazi yon jwèt nan ba kote a oswa kòmanse yon nouvo."
@@ -475,6 +498,10 @@ msgstr "Chwazi yon jwèt nan ba kote a oswa kòmanse yon nouvo."
 #: ../../../lib/web/src/components/language-picker.tsx
 msgid "Choose language"
 msgstr "Chwazi lang"
+
+#: src/features/help/devices.tsx
+msgid "Choose the account type Manual and enter the username, the password and the server address."
+msgstr "Chwazi kalite kont Manyèl epi antre non itilizatè a, modpas la ak adrès sèvè a."
 
 #: ../../../lib/web/src/components/banner-section.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
@@ -499,6 +526,7 @@ msgstr "Efase rechèch"
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx
 #: ../../../lib/web/src/components/ui/sheet.tsx
+#: ../../../lib/web/src/components/ui/side-panel.tsx
 #: ../../../lib/web/src/components/ui/side-panel.tsx
 #: src/features/help/contribute-dialog.tsx
 msgid "Close"
@@ -585,6 +613,11 @@ msgstr "Konfigire paramèt vi"
 msgid "Confirm"
 msgstr "Konfime"
 
+#: src/features/help/devices.tsx
+#: src/features/help/index.tsx
+msgid "Connect your phone"
+msgstr "Konekte telefòn ou"
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connected"
 msgstr "Konekte"
@@ -613,6 +646,10 @@ msgstr "Kontinye"
 msgid "Continue with {label}"
 msgstr "Kontinye ak {label}"
 
+#: ../../../lib/web/src/features/accounts/account-add.tsx
+msgid "Continue with {providerLabel}"
+msgstr "Kontinye ak {providerLabel}"
+
 #: ../../../lib/web/src/lib/toast-utils.ts
 msgid "Copied"
 msgstr "Kopye"
@@ -621,9 +658,17 @@ msgstr "Kopye"
 msgid "Copied to clipboard"
 msgstr "Kopye nan clipboard"
 
+#: ../../../lib/web/src/components/calendar/month-grid.tsx
+#: ../../../lib/web/src/components/calendar/month-grid.tsx
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
 #: ../../../lib/web/src/components/ui/copy-button.tsx
 msgid "Copy"
 msgstr "Kopye"
+
+#: src/features/help/devices.tsx
+msgid "Copy the server address, the username and the password into the device. The password is shown once."
+msgstr "Kopye adrès sèvè a, non itilizatè a ak modpas la nan aparèy la. Modpas la parèt yon sèl fwa."
 
 #: ../../../lib/web/src/features/document/document-page.tsx
 msgid "Could not load this document. Please try again later."
@@ -699,6 +744,10 @@ msgstr "Konfli done"
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Date"
 msgstr "Dat"
+
+#: src/features/help/devices.tsx
+msgid "DAVx5 finds both your address books and your calendars. Turn on the ones to sync."
+msgstr "DAVx5 jwenn ni kanè adrès ou yo ni kalandriye ou yo. Limen sa ou vle senkronize yo."
 
 #: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx
 msgid "Decline"
@@ -917,6 +966,10 @@ msgstr "Imèl"
 msgid "Email code"
 msgstr "Kòd imèl"
 
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
+msgid "Ends before it starts"
+msgstr "Li fini anvan li kòmanse"
+
 #: ../../../lib/web/src/components/banner-section.tsx
 msgid "Enter banner text (markdown supported)..."
 msgstr "Antre tèks banyè (markdown sipòte)..."
@@ -924,6 +977,18 @@ msgstr "Antre tèks banyè (markdown sipòte)..."
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Enter the code from your email"
 msgstr "Antre kòd la ki nan imel ou"
+
+#: src/features/help/devices.tsx
+msgid "Enter the password when asked, and choose the address books and calendars to add."
+msgstr "Antre modpas la lè yo mande l, epi chwazi kanè adrès ak kalandriye ou vle ajoute yo."
+
+#: src/features/help/devices.tsx
+msgid "Enter the server address, the username and the password in each."
+msgstr "Nan chak youn, antre adrès sèvè a, non itilizatè a ak modpas la."
+
+#: src/features/help/devices.tsx
+msgid "Enter the server address, the username and the password."
+msgstr "Antre adrès sèvè a, non itilizatè a ak modpas la."
 
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Enter your authenticator code"
@@ -1077,6 +1142,22 @@ msgstr "Drapo"
 msgid "Flat"
 msgstr "Plat"
 
+#: src/features/help/devices.tsx
+msgid "For calendars: Calendar, New Calendar, On the Network, with the username and the server address."
+msgstr "Pou kalandriye: Kalandriye, Nouvo kalandriye, Sou rezo a, ak non itilizatè a epi adrès sèvè a."
+
+#: src/features/help/devices.tsx
+msgid "For calendars: Settings, Calendar, Accounts, Add Account, Other, Add CalDAV Account."
+msgstr "Pou kalandriye: Paramèt, Kalandriye, Kont, Ajoute kont, Lòt, Ajoute kont CalDAV."
+
+#: src/features/help/devices.tsx
+msgid "For contacts: Address Book, New Address Book, Add CardDAV Address Book, with the username and the server address."
+msgstr "Pou kontak: Kanè adrès, Nouvo kanè adrès, Ajoute kanè adrès CardDAV, ak non itilizatè a epi adrès sèvè a."
+
+#: src/features/help/devices.tsx
+msgid "For contacts: Settings, Contacts, Accounts, Add Account, Other, Add CardDAV Account."
+msgstr "Pou kontak: Paramèt, Kontak, Kont, Ajoute kont, Lòt, Ajoute kont CardDAV."
+
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Friday"
 msgstr "Vandredi"
@@ -1096,6 +1177,10 @@ msgstr "Soti nan"
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "From theme"
 msgstr "Soti nan tèm"
+
+#: src/features/help/devices.tsx
+msgid "Get a password for the device"
+msgstr "Jwenn yon modpas pou aparèy la"
 
 #: ../../../lib/web/src/features/errors/access-denied-error.tsx
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
@@ -1123,6 +1208,7 @@ msgstr "Gwoupe pa"
 msgid "Group: {0}"
 msgstr "Gwoup: {0}"
 
+#: src/features/help/devices.tsx
 #: src/features/help/index.tsx
 #: src/routes/_authenticated/document/privacy.tsx
 #: src/routes/_authenticated/document/rules.tsx
@@ -1175,6 +1261,10 @@ msgstr "Avata ak inisyal"
 msgid "Initials avatar for {name}"
 msgstr "Avata ak inisyal pou {name}"
 
+#: src/features/help/devices.tsx
+msgid "Install DAVx5 and add an account with \"Login with URL and user name\"."
+msgstr "Enstale DAVx5 epi ajoute yon kont ak \"Konekte ak URL ak non itilizatè\"."
+
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Interest {weight}"
 msgstr "Enterè {weight}"
@@ -1191,6 +1281,10 @@ msgstr "Prezante tèt ou"
 #: ../../../lib/web/src/components/entity/entity-field-editor.tsx
 msgid "Invalid date"
 msgstr "Dat envalid"
+
+#: src/features/help/devices.tsx
+msgid "iPhone and iPad"
+msgstr "iPhone ak iPad"
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "It seems like the page you're looking for <0/>does not exist or might have been removed."
@@ -1279,6 +1373,10 @@ msgstr "Dekonekte avèk siksè"
 msgid "Logging out…"
 msgstr "Ap dekonekte…"
 
+#: src/features/help/devices.tsx
+msgid "Mac"
+msgstr "Mac"
+
 #: ../../../lib/web/src/components/notification-category-button.tsx
 msgid "Manage categories"
 msgstr "Jere kategori yo"
@@ -1340,6 +1438,10 @@ msgstr "Moderasyon"
 msgid "Monday"
 msgstr "Lendi"
 
+#: ../../../lib/web/src/components/calendar/date-header.tsx
+msgid "Month"
+msgstr "Mwa"
+
 #: ../../../lib/web/src/components/options-menu.tsx
 msgid "More options"
 msgstr "Plis opsyon"
@@ -1352,10 +1454,12 @@ msgstr "Deplase"
 msgid "Moved {field}"
 msgstr "{field} deplase"
 
-#. placeholder {0}: dragging.day
+#. placeholder {0}: dayName(current.day)
+#. placeholder {0}: dayName(dragging.day)
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
 msgid "Moving to {0}"
-msgstr ""
+msgstr "Ap deplase nan {0}"
 
 #: ../../../lib/web/src/components/entity/add-field-dialog.tsx
 #: ../../../lib/web/src/components/entity/entity-board-column.tsx
@@ -1377,6 +1481,10 @@ msgstr "Non obligatwa"
 msgid "Name must be 1000 characters or less"
 msgstr "Non dwe gen 1000 karaktè oswa mwens"
 
+#: src/features/help/devices.tsx
+msgid "Name the device, for example your phone's name, and create its password."
+msgstr "Bay aparèy la yon non, pa egzanp non telefòn ou, epi kreye modpas li."
+
 #: ../../../lib/web/src/features/errors/general-error.tsx
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
 msgid "Network error"
@@ -1397,9 +1505,13 @@ msgstr "Nouvo jwèt"
 msgid "Next image"
 msgstr "Pwochen imaj"
 
-#: ../../../lib/web/src/components/calendar/mini-month.tsx
+#: ../../../lib/web/src/components/calendar/date-header.tsx
 msgid "Next month"
-msgstr ""
+msgstr "Mwa pwochen"
+
+#: ../../../lib/web/src/components/calendar/date-header.tsx
+msgid "Next year"
+msgstr "Ane pwochen"
 
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
 msgid "No {parentClassNames} to add to"
@@ -1529,6 +1641,10 @@ msgstr "Nimewo"
 msgid "On"
 msgstr "Aktive"
 
+#: src/features/help/devices.tsx
+msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connect device stops its password at once."
+msgstr "Yon sèl modpas sèvi pou kontak yo ak kalandriye yo ansanm. Chak aparèy gen pa li, e lè ou retire yon aparèy anba Konekte yon aparèy, modpas li sispann mache touswit."
+
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
 msgstr "Oops! Paj Pa Jwenn!"
@@ -1536,6 +1652,10 @@ msgstr "Oops! Paj Pa Jwenn!"
 #: ../../../lib/web/src/components/layout/nav-group.tsx
 msgid "Open actions"
 msgstr "Ouvri aksyon yo"
+
+#: src/features/help/devices.tsx
+msgid "Open Calendars or People and choose Connect device."
+msgstr "Louvri Kalandriye oswa Moun epi chwazi Konekte yon aparèy."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"
@@ -1655,9 +1775,13 @@ msgstr "Pòs ak kòmantè"
 msgid "Previous image"
 msgstr "Imaj anvan"
 
-#: ../../../lib/web/src/components/calendar/mini-month.tsx
+#: ../../../lib/web/src/components/calendar/date-header.tsx
 msgid "Previous month"
-msgstr ""
+msgstr "Mwa anvan"
+
+#: ../../../lib/web/src/components/calendar/date-header.tsx
+msgid "Previous year"
+msgstr "Ane anvan"
 
 #: ../../../lib/web/src/components/server-documents-footer.tsx
 #: ../../../lib/web/src/features/document/document-page.tsx
@@ -1680,6 +1804,10 @@ msgstr "Pwopriyete"
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Push notification"
 msgstr "Notifikasyon push"
+
+#: src/features/help/index.tsx
+msgid "Put your contacts and calendars on your phone, tablet or computer."
+msgstr "Mete kontak ou yo ak kalandriye ou yo sou telefòn, tablèt oswa òdinatè ou."
 
 #: src/features/help/contribute-dialog.tsx
 msgid "Question"
@@ -1758,6 +1886,7 @@ msgstr "Retire filtè {0}"
 #: ../../../lib/web/src/components/member-list.tsx
 #: ../../../lib/web/src/components/member-list.tsx
 #: ../../../lib/web/src/components/person-picker.tsx
+#: ../../../lib/web/src/components/person-picker.tsx
 msgid "Remove {name}"
 msgstr "Retire {name}"
 
@@ -1805,7 +1934,7 @@ msgstr "Rebatize kolòn tablo sa a"
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 #: ../../../lib/web/src/components/calendar/time-grid.tsx
 msgid "Repeats"
-msgstr ""
+msgstr "Li repete"
 
 #: ../../../lib/web/src/components/entity/entity-comment-thread.tsx
 #: ../../../lib/web/src/components/entity/entity-comment-thread.tsx
@@ -2179,6 +2308,10 @@ msgstr "Chanje pou wè 1-9"
 msgid "System"
 msgstr "Sistèm"
 
+#: src/features/help/devices.tsx
+msgid "System Settings, Internet Accounts, Add Other Account, then CardDAV Account for contacts or CalDAV Account for calendars."
+msgstr "Paramèt Sistèm, Kont Entènèt, Ajoute yon lòt kont, apre sa Kont CardDAV pou kontak yo oswa Kont CalDAV pou kalandriye yo."
+
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Tag already exists"
 msgstr "Tag deja egziste"
@@ -2235,6 +2368,10 @@ msgstr "Demann kamera a pa jwenn repons"
 msgid "The microphone request was not answered"
 msgstr "Demann mikwofòn nan pa jwenn repons"
 
+#: src/features/help/devices.tsx
+msgid "The Mochi app shows your contacts and calendars itself. To put them into the phone's own Contacts and Calendar apps, use DAVx5."
+msgstr "Aplikasyon Mochi a montre kontak ou yo ak kalandriye ou yo li menm. Pou mete yo nan aplikasyon Kontak ak Kalandriye telefòn nan, sèvi ak DAVx5."
+
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "The passkey request was not answered"
 msgstr "Demann passkey la pa jwenn repons"
@@ -2254,6 +2391,10 @@ msgstr "Aplikasyon sa a pa gen dwa itilize passkey ou. Bay li pèmisyon nan Para
 #: ../../../lib/web/src/components/game/game-end-dialogs.tsx
 msgid "This permanently deletes the game and its chat. This cannot be undone."
 msgstr "Sa a ap efase jwèt la ak chat li pou tout tan. Aksyon sa a pa ka anile."
+
+#: src/features/help/devices.tsx
+msgid "Thunderbird"
+msgstr "Thunderbird"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Thursday"
@@ -2492,6 +2633,10 @@ msgstr "Kisa li ta fè, pou ki moun li ye, poukisa li enpòtan?"
 msgid "What you want to ask, in one line"
 msgstr "Sa ou vle mande, nan yon sèl liy"
 
+#: ../../../lib/web/src/components/calendar/date-header.tsx
+msgid "Year"
+msgstr "Ane"
+
 #: ../../../lib/web/src/features/errors/general-error.tsx
 msgid "You do not have access to this section."
 msgstr "Ou pa gen aksè nan seksyon sa a."
@@ -2503,6 +2648,10 @@ msgstr "Kont ou te deplase isit la depi {source}. Jiskaske ou efase li la, mesaj
 #: ../../../lib/web/src/components/comment-composer.tsx
 msgid "Your attachments will be lost."
 msgstr "Fichye ou tache yo ap pèdi."
+
+#: src/features/help/devices.tsx
+msgid "Your contacts and calendars sync to your phone, tablet and computer over CardDAV and CalDAV, which every major contacts and calendar app speaks."
+msgstr "Kontak ou yo ak kalandriye ou yo senkronize ak telefòn, tablèt ak òdinatè ou atravè CardDAV ak CalDAV, ke tout gwo aplikasyon kontak ak kalandriye konprann."
 
 #: src/features/help/contribute-dialog.tsx
 msgid "Your introduction has been submitted and will appear after moderation."

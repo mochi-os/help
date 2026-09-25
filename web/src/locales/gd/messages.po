@@ -40,6 +40,10 @@ msgid "{0, plural, one {# result} other {# results}}"
 msgstr "{0, plural, one {# toradh} two {# thoradh} few {# toraidhean} other {# toraidhean}}"
 
 #. placeholder {0}: displayInfo.count
+#. placeholder {0}: selectedIds.length
+#. placeholder {0}: unknownIds.length
+#: ../../../lib/web/src/components/person-picker.tsx
+#: ../../../lib/web/src/components/person-picker.tsx
 #: ../../../lib/web/src/components/person-picker.tsx
 msgid "{0, plural, one {# selected} other {# selected}}"
 msgstr "{0, plural, one {# air a thaghadh} two {# air an taghadh} few {# air an taghadh} other {# air an taghadh}}"
@@ -65,21 +69,23 @@ msgstr "{count, plural, one {#mion} other {#mion}}"
 msgid "{count, plural, one {#w} other {#w}}"
 msgstr "{count, plural, one {#sea} other {#sea}}"
 
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
 #: ../../../lib/web/src/components/calendar/tooltip.ts
 msgid "{day}, {from} to {to}"
-msgstr ""
+msgstr "{day}, {from} gu {to}"
 
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "{entityLabel} name"
 msgstr "Ainm {entityLabel}"
 
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
 #: ../../../lib/web/src/components/calendar/tooltip.ts
 msgid "{from} to {to}"
-msgstr ""
+msgstr "{from} gu {to}"
 
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 msgid "{hidden, plural, one {+# more} other {+# more}}"
-msgstr ""
+msgstr "{hidden, plural, one {+# eile} two {+# eile} few {+# eile} other {+# eile}}"
 
 #: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx
 msgid "{opponentName} offered a draw"
@@ -218,8 +224,9 @@ msgid "AI"
 msgstr "AI"
 
 #: ../../../lib/web/src/components/calendar/time-grid.tsx
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
 msgid "All day"
-msgstr ""
+msgstr "Fad an latha"
 
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Allow anyone to search for {entityLabel}"
@@ -237,6 +244,10 @@ msgstr "Thachair mearachd"
 #: ../../../lib/web/src/lib/error-normalizer.ts
 msgid "An unexpected error occurred"
 msgstr "Thachair mearachd ris nach robh dùil"
+
+#: src/features/help/devices.tsx
+msgid "Android"
+msgstr "Android"
 
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
@@ -296,6 +307,10 @@ msgstr "Cuir ceist"
 #: src/features/help/contribute-dialog.tsx
 msgid "Ask the community on the Mochi users mailing list. Be specific about what you've tried so far."
 msgstr "Faighnich don choimhearsnachd air liosta puist nan luchd-cleachdaidh Mochi. Bi mionaideach mu na dh'fheuch thu gu ruige seo."
+
+#: ../../../lib/web/src/components/timezone-select.tsx
+msgid "At sea"
+msgstr "Aig muir"
 
 #: ../../../lib/web/src/components/comment-composer.tsx
 msgid "Attach comment files"
@@ -392,6 +407,10 @@ msgstr "Brathan brabhsair"
 msgid "Bug report submitted."
 msgstr "Chaidh aithisg buga a chur a-steach."
 
+#: ../../../lib/web/src/features/accounts/types.ts
+msgid "Calendar server"
+msgstr "Frithealaiche mhìosachan"
+
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "Camera permission denied"
 msgstr "Chaidh cead a' chamara a dhiùltadh"
@@ -457,7 +476,7 @@ msgstr "Chaidh {field} atharrachadh"
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 #: ../../../lib/web/src/components/calendar/time-grid.tsx
 msgid "Changed occurrence"
-msgstr ""
+msgstr "Turas atharraichte"
 
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Checkbox"
@@ -467,6 +486,10 @@ msgstr "Bogsa-cromaige"
 msgid "Checklist"
 msgstr "Liosta-dearbhaidh"
 
+#: ../../../lib/web/src/components/ui/date-picker.tsx
+msgid "Choose a date"
+msgstr "Tagh ceann-là"
+
 #: ../../../lib/web/src/components/game/game-empty-state.tsx
 msgid "Choose a game from the sidebar or start a new one."
 msgstr "Tagh geama bhon bhàr-thaobh no tòisich fear ùr."
@@ -475,6 +498,10 @@ msgstr "Tagh geama bhon bhàr-thaobh no tòisich fear ùr."
 #: ../../../lib/web/src/components/language-picker.tsx
 msgid "Choose language"
 msgstr "Tagh cànan"
+
+#: src/features/help/devices.tsx
+msgid "Choose the account type Manual and enter the username, the password and the server address."
+msgstr "Tagh an seòrsa cunntais De Làimh agus cuir a-steach an t-ainm-cleachdaiche, am facal-faire agus seòladh an fhrithealaiche."
 
 #: ../../../lib/web/src/components/banner-section.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
@@ -499,6 +526,7 @@ msgstr "Falamhaich an lorg"
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx
 #: ../../../lib/web/src/components/ui/sheet.tsx
+#: ../../../lib/web/src/components/ui/side-panel.tsx
 #: ../../../lib/web/src/components/ui/side-panel.tsx
 #: src/features/help/contribute-dialog.tsx
 msgid "Close"
@@ -585,6 +613,11 @@ msgstr "Rèitich roghainnean seallaidh"
 msgid "Confirm"
 msgstr "Dearbhaich"
 
+#: src/features/help/devices.tsx
+#: src/features/help/index.tsx
+msgid "Connect your phone"
+msgstr "Ceangail am fòn agad"
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connected"
 msgstr "Ceangailte"
@@ -613,6 +646,10 @@ msgstr "Lean air adhart"
 msgid "Continue with {label}"
 msgstr "Lean air adhart le {label}"
 
+#: ../../../lib/web/src/features/accounts/account-add.tsx
+msgid "Continue with {providerLabel}"
+msgstr "Lean air adhart le {providerLabel}"
+
 #: ../../../lib/web/src/lib/toast-utils.ts
 msgid "Copied"
 msgstr "Chaidh lethbhreac a dhèanamh"
@@ -621,9 +658,17 @@ msgstr "Chaidh lethbhreac a dhèanamh"
 msgid "Copied to clipboard"
 msgstr "Air a chopaigeadh chun a' chliopaboird"
 
+#: ../../../lib/web/src/components/calendar/month-grid.tsx
+#: ../../../lib/web/src/components/calendar/month-grid.tsx
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
 #: ../../../lib/web/src/components/ui/copy-button.tsx
 msgid "Copy"
 msgstr "Dèan lethbhreac"
+
+#: src/features/help/devices.tsx
+msgid "Copy the server address, the username and the password into the device. The password is shown once."
+msgstr "Dèan lethbhreac de sheòladh an fhrithealaiche, den ainm-chleachdaiche agus den fhacal-fhaire dhan uidheam. Chithear am facal-faire aon turas a-mhàin."
 
 #: ../../../lib/web/src/features/document/document-page.tsx
 msgid "Could not load this document. Please try again later."
@@ -699,6 +744,10 @@ msgstr "Còmhstri dàta"
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Date"
 msgstr "Ceann-là"
+
+#: src/features/help/devices.tsx
+msgid "DAVx5 finds both your address books and your calendars. Turn on the ones to sync."
+msgstr "Lorgaidh DAVx5 an dà chuid na leabhraichean-sheòlaidhean agad agus na mìosachain agad. Cuir air an fheadhainn a tha thu airson sioncronachadh."
 
 #: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx
 msgid "Decline"
@@ -917,6 +966,10 @@ msgstr "Post-d"
 msgid "Email code"
 msgstr "Còd puist-d"
 
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
+msgid "Ends before it starts"
+msgstr "Thig e gu crìch mus tòisich e"
+
 #: ../../../lib/web/src/components/banner-section.tsx
 msgid "Enter banner text (markdown supported)..."
 msgstr "Cuir a-steach teacsa na brataich (markdown a' faighinn taic)..."
@@ -924,6 +977,18 @@ msgstr "Cuir a-steach teacsa na brataich (markdown a' faighinn taic)..."
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Enter the code from your email"
 msgstr "Cuir a-steach an còd on phost-d agad"
+
+#: src/features/help/devices.tsx
+msgid "Enter the password when asked, and choose the address books and calendars to add."
+msgstr "Cuir a-steach am facal-faire nuair a thèid iarraidh ort, agus tagh na leabhraichean-sheòlaidhean agus na mìosachain a thèid a chur ris."
+
+#: src/features/help/devices.tsx
+msgid "Enter the server address, the username and the password in each."
+msgstr "Cuir a-steach seòladh an fhrithealaiche, an t-ainm-cleachdaiche agus am facal-faire anns gach fear dhiubh."
+
+#: src/features/help/devices.tsx
+msgid "Enter the server address, the username and the password."
+msgstr "Cuir a-steach seòladh an fhrithealaiche, an t-ainm-cleachdaiche agus am facal-faire."
 
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Enter your authenticator code"
@@ -1077,6 +1142,22 @@ msgstr "Brataichean"
 msgid "Flat"
 msgstr "Còmhnard"
 
+#: src/features/help/devices.tsx
+msgid "For calendars: Calendar, New Calendar, On the Network, with the username and the server address."
+msgstr "Airson mìosachain: Mìosachan, Mìosachan Ùr, Air an Lìonra, leis an ainm-chleachdaiche agus seòladh an fhrithealaiche."
+
+#: src/features/help/devices.tsx
+msgid "For calendars: Settings, Calendar, Accounts, Add Account, Other, Add CalDAV Account."
+msgstr "Airson mìosachain: Roghainnean, Mìosachan, Cunntasan, Cuir Cunntas ris, Eile, Cuir Cunntas CalDAV ris."
+
+#: src/features/help/devices.tsx
+msgid "For contacts: Address Book, New Address Book, Add CardDAV Address Book, with the username and the server address."
+msgstr "Airson luchd-aithne: Leabhar nan Seòladh, Leabhar Sheòlaidhean Ùr, Cuir Leabhar Sheòlaidhean CardDAV ris, leis an ainm-chleachdaiche agus seòladh an fhrithealaiche."
+
+#: src/features/help/devices.tsx
+msgid "For contacts: Settings, Contacts, Accounts, Add Account, Other, Add CardDAV Account."
+msgstr "Airson luchd-aithne: Roghainnean, Luchd-aithne, Cunntasan, Cuir Cunntas ris, Eile, Cuir Cunntas CardDAV ris."
+
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Friday"
 msgstr "DihAoine"
@@ -1096,6 +1177,10 @@ msgstr "O"
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "From theme"
 msgstr "On ùrlar"
+
+#: src/features/help/devices.tsx
+msgid "Get a password for the device"
+msgstr "Faigh facal-faire dhan uidheam"
 
 #: ../../../lib/web/src/features/errors/access-denied-error.tsx
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
@@ -1123,6 +1208,7 @@ msgstr "Cuir ann am buidhnean a rèir"
 msgid "Group: {0}"
 msgstr "Buidheann: {0}"
 
+#: src/features/help/devices.tsx
 #: src/features/help/index.tsx
 #: src/routes/_authenticated/document/privacy.tsx
 #: src/routes/_authenticated/document/rules.tsx
@@ -1175,6 +1261,10 @@ msgstr "Avatar litrichean-toisich"
 msgid "Initials avatar for {name}"
 msgstr "Avatar litrichean-toisich airson {name}"
 
+#: src/features/help/devices.tsx
+msgid "Install DAVx5 and add an account with \"Login with URL and user name\"."
+msgstr "Stàlaich DAVx5 agus cuir cunntas ris le \"Clàraich a-steach le URL is ainm-cleachdaiche\"."
+
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Interest {weight}"
 msgstr "Ùidh {weight}"
@@ -1191,6 +1281,10 @@ msgstr "Cuir thu fhèin an aithne"
 #: ../../../lib/web/src/components/entity/entity-field-editor.tsx
 msgid "Invalid date"
 msgstr "Ceann-latha mì-dhligheach"
+
+#: src/features/help/devices.tsx
+msgid "iPhone and iPad"
+msgstr "iPhone agus iPad"
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "It seems like the page you're looking for <0/>does not exist or might have been removed."
@@ -1279,6 +1373,10 @@ msgstr "Chaidh clàradh a-mach gu soirbheachail"
 msgid "Logging out…"
 msgstr "A' clàradh a-mach…"
 
+#: src/features/help/devices.tsx
+msgid "Mac"
+msgstr "Mac"
+
 #: ../../../lib/web/src/components/notification-category-button.tsx
 msgid "Manage categories"
 msgstr "Stiùirich roinnean"
@@ -1340,6 +1438,10 @@ msgstr "Modarataireachd"
 msgid "Monday"
 msgstr "DiLuain"
 
+#: ../../../lib/web/src/components/calendar/date-header.tsx
+msgid "Month"
+msgstr "Mìos"
+
 #: ../../../lib/web/src/components/options-menu.tsx
 msgid "More options"
 msgstr "Barrachd roghainnean"
@@ -1352,10 +1454,12 @@ msgstr "Air a ghluasad"
 msgid "Moved {field}"
 msgstr "Chaidh {field} a ghluasad"
 
-#. placeholder {0}: dragging.day
+#. placeholder {0}: dayName(current.day)
+#. placeholder {0}: dayName(dragging.day)
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
 msgid "Moving to {0}"
-msgstr ""
+msgstr "Ga ghluasad gu {0}"
 
 #: ../../../lib/web/src/components/entity/add-field-dialog.tsx
 #: ../../../lib/web/src/components/entity/entity-board-column.tsx
@@ -1377,6 +1481,10 @@ msgstr "Tha ainm a dhìth"
 msgid "Name must be 1000 characters or less"
 msgstr "Feumaidh an t-ainm a bhith 1000 caractaran no nas lugha"
 
+#: src/features/help/devices.tsx
+msgid "Name the device, for example your phone's name, and create its password."
+msgstr "Thoir ainm dhan uidheam, mar eisimpleir ainm an fhòn agad, agus cruthaich am facal-faire aige."
+
 #: ../../../lib/web/src/features/errors/general-error.tsx
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
 msgid "Network error"
@@ -1397,9 +1505,13 @@ msgstr "Geama ùr"
 msgid "Next image"
 msgstr "An ath dhealbh"
 
-#: ../../../lib/web/src/components/calendar/mini-month.tsx
+#: ../../../lib/web/src/components/calendar/date-header.tsx
 msgid "Next month"
-msgstr ""
+msgstr "An ath-mhìos"
+
+#: ../../../lib/web/src/components/calendar/date-header.tsx
+msgid "Next year"
+msgstr "An ath-bhliadhna"
 
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
 msgid "No {parentClassNames} to add to"
@@ -1529,6 +1641,10 @@ msgstr "Àireamh"
 msgid "On"
 msgstr "Air"
 
+#: src/features/help/devices.tsx
+msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connect device stops its password at once."
+msgstr "Bidh aon fhacal-faire ag obair airson an luchd-aithne agus nam mìosachan le chèile. Gheibh gach uidheam fear dha fhèin, agus ma bheir thu uidheam air falbh fo Ceangail uidheam, sguiridh am facal-faire aige sa bhad."
+
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
 msgstr "Och! Cha deach an duilleag a lorg!"
@@ -1536,6 +1652,10 @@ msgstr "Och! Cha deach an duilleag a lorg!"
 #: ../../../lib/web/src/components/layout/nav-group.tsx
 msgid "Open actions"
 msgstr "Fosgail na gnìomhan"
+
+#: src/features/help/devices.tsx
+msgid "Open Calendars or People and choose Connect device."
+msgstr "Fosgail Mìosachain no Daoine agus tagh Ceangail uidheam."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"
@@ -1655,9 +1775,13 @@ msgstr "Postaichean is beachdan"
 msgid "Previous image"
 msgstr "An dealbh roimhe"
 
-#: ../../../lib/web/src/components/calendar/mini-month.tsx
+#: ../../../lib/web/src/components/calendar/date-header.tsx
 msgid "Previous month"
-msgstr ""
+msgstr "Am mìos roimhe"
+
+#: ../../../lib/web/src/components/calendar/date-header.tsx
+msgid "Previous year"
+msgstr "A' bhliadhna roimhe"
 
 #: ../../../lib/web/src/components/server-documents-footer.tsx
 #: ../../../lib/web/src/features/document/document-page.tsx
@@ -1680,6 +1804,10 @@ msgstr "Feartan"
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Push notification"
 msgstr "Brath push"
+
+#: src/features/help/index.tsx
+msgid "Put your contacts and calendars on your phone, tablet or computer."
+msgstr "Cuir an luchd-aithne agus na mìosachain agad air an fhòn, air an tablaid no air a' choimpiutair agad."
 
 #: src/features/help/contribute-dialog.tsx
 msgid "Question"
@@ -1758,6 +1886,7 @@ msgstr "Thoir an criathrag {0} air falbh"
 #: ../../../lib/web/src/components/member-list.tsx
 #: ../../../lib/web/src/components/member-list.tsx
 #: ../../../lib/web/src/components/person-picker.tsx
+#: ../../../lib/web/src/components/person-picker.tsx
 msgid "Remove {name}"
 msgstr "Thoir {name} air falbh"
 
@@ -1805,7 +1934,7 @@ msgstr "Cuir ainm ùr air colbh a' bhùird seo"
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 #: ../../../lib/web/src/components/calendar/time-grid.tsx
 msgid "Repeats"
-msgstr ""
+msgstr "Ag ath-aithris"
 
 #: ../../../lib/web/src/components/entity/entity-comment-thread.tsx
 #: ../../../lib/web/src/components/entity/entity-comment-thread.tsx
@@ -2179,6 +2308,10 @@ msgstr "Atharraich gu sealladh 1-9"
 msgid "System"
 msgstr "Siostam"
 
+#: src/features/help/devices.tsx
+msgid "System Settings, Internet Accounts, Add Other Account, then CardDAV Account for contacts or CalDAV Account for calendars."
+msgstr "Roghainnean an t-Siostaim, Cunntasan Eadar-lìn, Cuir Cunntas Eile ris, an uair sin Cunntas CardDAV airson luchd-aithne no Cunntas CalDAV airson mìosachain."
+
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Tag already exists"
 msgstr "Tha an taga ann mu thràth"
@@ -2235,6 +2368,10 @@ msgstr "Cha deach an t-iarrtas camara a fhreagairt"
 msgid "The microphone request was not answered"
 msgstr "Cha deach an t-iarrtas micreofon a fhreagairt"
 
+#: src/features/help/devices.tsx
+msgid "The Mochi app shows your contacts and calendars itself. To put them into the phone's own Contacts and Calendar apps, use DAVx5."
+msgstr "Seallaidh an aplacaid Mochi an luchd-aithne agus na mìosachain agad i fhèin. Gus an cur ann an aplacaidean Luchd-aithne is Mìosachan an fhòn fhèin, cleachd DAVx5."
+
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "The passkey request was not answered"
 msgstr "Cha deach an t-iarrtas pasgair a fhreagairt"
@@ -2254,6 +2391,10 @@ msgstr "Chan eil cead aig an aplacaid seo am pasgair agad a chleachdadh. Ceadaic
 #: ../../../lib/web/src/components/game/game-end-dialogs.tsx
 msgid "This permanently deletes the game and its chat. This cannot be undone."
 msgstr "Sguabaidh seo às an geama agus an cabadaich aige gu buan. Chan urrainn seo a neo-dhèanamh."
+
+#: src/features/help/devices.tsx
+msgid "Thunderbird"
+msgstr "Thunderbird"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Thursday"
@@ -2492,6 +2633,10 @@ msgstr "Dè dhèanadh e, cò dha a tha e, carson a tha e cudromach?"
 msgid "What you want to ask, in one line"
 msgstr "Na tha thu airson faighneachd, ann an aon loidhne"
 
+#: ../../../lib/web/src/components/calendar/date-header.tsx
+msgid "Year"
+msgstr "Bliadhna"
+
 #: ../../../lib/web/src/features/errors/general-error.tsx
 msgid "You do not have access to this section."
 msgstr "Chan eil cead-inntrigidh agad dhan earrann seo."
@@ -2503,6 +2648,10 @@ msgstr "Chaidh do chunntas a ghluasad an seo à {source}. Gus an sguab thu às e
 #: ../../../lib/web/src/components/comment-composer.tsx
 msgid "Your attachments will be lost."
 msgstr "Thèid na ceanglachain agad air chall."
+
+#: src/features/help/devices.tsx
+msgid "Your contacts and calendars sync to your phone, tablet and computer over CardDAV and CalDAV, which every major contacts and calendar app speaks."
+msgstr "Thèid an luchd-aithne agus na mìosachain agad a shioncronachadh dhan fhòn, dhan tablaid agus dhan choimpiutair agad tro CardDAV agus CalDAV, a thuigeas a h-uile prìomh aplacaid luchd-aithne is mìosachain."
 
 #: src/features/help/contribute-dialog.tsx
 msgid "Your introduction has been submitted and will appear after moderation."

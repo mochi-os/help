@@ -40,6 +40,10 @@ msgid "{0, plural, one {# result} other {# results}}"
 msgstr "{0, plural, other {ရလဒ် #}}"
 
 #. placeholder {0}: displayInfo.count
+#. placeholder {0}: selectedIds.length
+#. placeholder {0}: unknownIds.length
+#: ../../../lib/web/src/components/person-picker.tsx
+#: ../../../lib/web/src/components/person-picker.tsx
 #: ../../../lib/web/src/components/person-picker.tsx
 msgid "{0, plural, one {# selected} other {# selected}}"
 msgstr "{0, plural, other {# ရွေးထား}}"
@@ -65,21 +69,23 @@ msgstr "{count, plural, one {#မိ} other {#မိ}}"
 msgid "{count, plural, one {#w} other {#w}}"
 msgstr "{count, plural, one {#ပတ်} other {#ပတ်}}"
 
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
 #: ../../../lib/web/src/components/calendar/tooltip.ts
 msgid "{day}, {from} to {to}"
-msgstr ""
+msgstr "{day} {from} မှ {to}"
 
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "{entityLabel} name"
 msgstr "{entityLabel} အမည်"
 
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
 #: ../../../lib/web/src/components/calendar/tooltip.ts
 msgid "{from} to {to}"
-msgstr ""
+msgstr "{from} မှ {to}"
 
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 msgid "{hidden, plural, one {+# more} other {+# more}}"
-msgstr ""
+msgstr "{hidden, plural, other {+# ခု ထပ်မံ}}"
 
 #: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx
 msgid "{opponentName} offered a draw"
@@ -218,8 +224,9 @@ msgid "AI"
 msgstr "AI"
 
 #: ../../../lib/web/src/components/calendar/time-grid.tsx
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
 msgid "All day"
-msgstr ""
+msgstr "တစ်နေကုန်"
 
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Allow anyone to search for {entityLabel}"
@@ -237,6 +244,10 @@ msgstr "အမှားတစ်ခု ဖြစ်ပွားခဲ့သည�
 #: ../../../lib/web/src/lib/error-normalizer.ts
 msgid "An unexpected error occurred"
 msgstr "မမျှော်လင့်ထားသော အမှားတစ်ခု ဖြစ်ပွားခဲ့သည်"
+
+#: src/features/help/devices.tsx
+msgid "Android"
+msgstr "Android"
 
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
@@ -296,6 +307,10 @@ msgstr "မေးခွန်းမေးပါ"
 #: src/features/help/contribute-dialog.tsx
 msgid "Ask the community on the Mochi users mailing list. Be specific about what you've tried so far."
 msgstr "Mochi အသုံးပြုသူများ၏ စာတိုက်စာရင်းတွင် အသိုင်းအဝိုင်းအား မေးပါ။ ယခုအထိ သင်ကြိုးစားခဲ့သည့်အရာများကို တိကျစွာ ဖော်ပြပါ။"
+
+#: ../../../lib/web/src/components/timezone-select.tsx
+msgid "At sea"
+msgstr "ပင်လယ်ပြင်တွင်"
 
 #: ../../../lib/web/src/components/comment-composer.tsx
 msgid "Attach comment files"
@@ -392,6 +407,10 @@ msgstr "Browser အကြောင်းကြားချက်များ"
 msgid "Bug report submitted."
 msgstr "ချွတ်ယွင်းချက် အစီရင်ခံစာ တင်သွင်းပြီးပါပြီ။"
 
+#: ../../../lib/web/src/features/accounts/types.ts
+msgid "Calendar server"
+msgstr "ပြက္ခဒိန် ဆာဗာ"
+
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "Camera permission denied"
 msgstr "ကင်မရာခွင့်ပြုချက်ကို ငြင်းပယ်ခဲ့သည်"
@@ -457,7 +476,7 @@ msgstr "{field} ကို ပြောင်းလဲခဲ့သည်"
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 #: ../../../lib/web/src/components/calendar/time-grid.tsx
 msgid "Changed occurrence"
-msgstr ""
+msgstr "ပြောင်းလဲထားသော အကြိမ်"
 
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Checkbox"
@@ -467,6 +486,10 @@ msgstr "checkbox"
 msgid "Checklist"
 msgstr "Checklist"
 
+#: ../../../lib/web/src/components/ui/date-picker.tsx
+msgid "Choose a date"
+msgstr "ရက်စွဲ ရွေးပါ"
+
 #: ../../../lib/web/src/components/game/game-empty-state.tsx
 msgid "Choose a game from the sidebar or start a new one."
 msgstr "ဘေးဘားမှ ဂိမ်းတစ်ခုကို ရွေးချယ်ပါ သို့မဟုတ် အသစ်တစ်ခု စတင်ပါ။"
@@ -475,6 +498,10 @@ msgstr "ဘေးဘားမှ ဂိမ်းတစ်ခုကို ရွ�
 #: ../../../lib/web/src/components/language-picker.tsx
 msgid "Choose language"
 msgstr "ဘာသာစကား ရွေးချယ်ပါ"
+
+#: src/features/help/devices.tsx
+msgid "Choose the account type Manual and enter the username, the password and the server address."
+msgstr "အကောင့်အမျိုးအစားကို ကိုယ်တိုင် ရွေးပြီး သုံးစွဲသူအမည်၊ စကားဝှက်နှင့် ဆာဗာလိပ်စာကို ထည့်ပါ။"
 
 #: ../../../lib/web/src/components/banner-section.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
@@ -499,6 +526,7 @@ msgstr "ရှာဖွေမှု ရှင်းမည်"
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx
 #: ../../../lib/web/src/components/ui/sheet.tsx
+#: ../../../lib/web/src/components/ui/side-panel.tsx
 #: ../../../lib/web/src/components/ui/side-panel.tsx
 #: src/features/help/contribute-dialog.tsx
 msgid "Close"
@@ -585,6 +613,11 @@ msgstr "ကြည့်ရှုမှု ဆက်တင်များ ပြ�
 msgid "Confirm"
 msgstr "အတည်ပြုမည်"
 
+#: src/features/help/devices.tsx
+#: src/features/help/index.tsx
+msgid "Connect your phone"
+msgstr "သင့်ဖုန်းကို ချိတ်ဆက်ပါ"
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connected"
 msgstr "ချိတ်ဆက်ပြီး"
@@ -613,6 +646,10 @@ msgstr "ဆက်လက်လုပ်ဆောင်မည်"
 msgid "Continue with {label}"
 msgstr "{label} ဖြင့် ဆက်လက်လုပ်ဆောင်ပါ"
 
+#: ../../../lib/web/src/features/accounts/account-add.tsx
+msgid "Continue with {providerLabel}"
+msgstr "{providerLabel} ဖြင့် ဆက်လုပ်မည်"
+
 #: ../../../lib/web/src/lib/toast-utils.ts
 msgid "Copied"
 msgstr "ကူးယူပြီးပါပြီ"
@@ -621,9 +658,17 @@ msgstr "ကူးယူပြီးပါပြီ"
 msgid "Copied to clipboard"
 msgstr "ကလစ်ဘုတ်သို့ ကူးပြီး"
 
+#: ../../../lib/web/src/components/calendar/month-grid.tsx
+#: ../../../lib/web/src/components/calendar/month-grid.tsx
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
 #: ../../../lib/web/src/components/ui/copy-button.tsx
 msgid "Copy"
 msgstr "ကူးမည်"
+
+#: src/features/help/devices.tsx
+msgid "Copy the server address, the username and the password into the device. The password is shown once."
+msgstr "ဆာဗာလိပ်စာ၊ သုံးစွဲသူအမည်နှင့် စကားဝှက်ကို ကိရိယာထဲသို့ ကူးထည့်ပါ။ စကားဝှက်ကို တစ်ကြိမ်သာ ပြပါသည်။"
 
 #: ../../../lib/web/src/features/document/document-page.tsx
 msgid "Could not load this document. Please try again later."
@@ -699,6 +744,10 @@ msgstr "ဒေတာ ကွဲလွဲမှု"
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Date"
 msgstr "ရက်စွဲ"
+
+#: src/features/help/devices.tsx
+msgid "DAVx5 finds both your address books and your calendars. Turn on the ones to sync."
+msgstr "DAVx5 က သင့်လိပ်စာစာအုပ်များနှင့် ပြက္ခဒိန်များ နှစ်မျိုးလုံးကို ရှာတွေ့ပါသည်။ စင့်ခ်လုပ်လိုသည့်အရာများကို ဖွင့်ပါ။"
 
 #: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx
 msgid "Decline"
@@ -917,6 +966,10 @@ msgstr "အီးမေးလ်"
 msgid "Email code"
 msgstr "အီးမေးလ် ကုဒ်"
 
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
+msgid "Ends before it starts"
+msgstr "မစတင်မီ ပြီးဆုံးသည်"
+
 #: ../../../lib/web/src/components/banner-section.tsx
 msgid "Enter banner text (markdown supported)..."
 msgstr "ဘန်နာ စာသား ထည့်ပါ (markdown ပံ့ပိုးသည်)..."
@@ -924,6 +977,18 @@ msgstr "ဘန်နာ စာသား ထည့်ပါ (markdown ပံ့�
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Enter the code from your email"
 msgstr "သင့်အီးမေးလ်မှ ကုဒ်ကို ထည့်ပါ"
+
+#: src/features/help/devices.tsx
+msgid "Enter the password when asked, and choose the address books and calendars to add."
+msgstr "တောင်းဆိုသည့်အခါ စကားဝှက်ကို ထည့်ပြီး ထည့်သွင်းလိုသော လိပ်စာစာအုပ်များနှင့် ပြက္ခဒိန်များကို ရွေးပါ။"
+
+#: src/features/help/devices.tsx
+msgid "Enter the server address, the username and the password in each."
+msgstr "တစ်ခုစီတွင် ဆာဗာလိပ်စာ၊ သုံးစွဲသူအမည်နှင့် စကားဝှက်ကို ထည့်ပါ။"
+
+#: src/features/help/devices.tsx
+msgid "Enter the server address, the username and the password."
+msgstr "ဆာဗာလိပ်စာ၊ သုံးစွဲသူအမည်နှင့် စကားဝှက်ကို ထည့်ပါ။"
 
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Enter your authenticator code"
@@ -1077,6 +1142,22 @@ msgstr "အလံများ"
 msgid "Flat"
 msgstr "ပြားသော"
 
+#: src/features/help/devices.tsx
+msgid "For calendars: Calendar, New Calendar, On the Network, with the username and the server address."
+msgstr "ပြက္ခဒိန်များအတွက်- ပြက္ခဒိန်၊ ပြက္ခဒိန်အသစ်၊ ကွန်ရက်ပေါ်တွင်၊ သုံးစွဲသူအမည်နှင့် ဆာဗာလိပ်စာဖြင့်။"
+
+#: src/features/help/devices.tsx
+msgid "For calendars: Settings, Calendar, Accounts, Add Account, Other, Add CalDAV Account."
+msgstr "ပြက္ခဒိန်များအတွက်- ဆက်တင်များ၊ ပြက္ခဒိန်၊ အကောင့်များ၊ အကောင့် ထည့်မည်၊ အခြား၊ CalDAV အကောင့် ထည့်မည်။"
+
+#: src/features/help/devices.tsx
+msgid "For contacts: Address Book, New Address Book, Add CardDAV Address Book, with the username and the server address."
+msgstr "အဆက်အသွယ်များအတွက်- လိပ်စာစာအုပ်၊ လိပ်စာစာအုပ်အသစ်၊ CardDAV လိပ်စာစာအုပ် ထည့်မည်၊ သုံးစွဲသူအမည်နှင့် ဆာဗာလိပ်စာဖြင့်။"
+
+#: src/features/help/devices.tsx
+msgid "For contacts: Settings, Contacts, Accounts, Add Account, Other, Add CardDAV Account."
+msgstr "အဆက်အသွယ်များအတွက်- ဆက်တင်များ၊ အဆက်အသွယ်များ၊ အကောင့်များ၊ အကောင့် ထည့်မည်၊ အခြား၊ CardDAV အကောင့် ထည့်မည်။"
+
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Friday"
 msgstr "သောကြာ"
@@ -1096,6 +1177,10 @@ msgstr "မှ"
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "From theme"
 msgstr "အပြင်အဆင်မှ"
+
+#: src/features/help/devices.tsx
+msgid "Get a password for the device"
+msgstr "ကိရိယာအတွက် စကားဝှက် ရယူပါ"
 
 #: ../../../lib/web/src/features/errors/access-denied-error.tsx
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
@@ -1123,6 +1208,7 @@ msgstr "အလိုက် အုပ်စုဖွဲ့ရန်"
 msgid "Group: {0}"
 msgstr "အုပ်စု- {0}"
 
+#: src/features/help/devices.tsx
 #: src/features/help/index.tsx
 #: src/routes/_authenticated/document/privacy.tsx
 #: src/routes/_authenticated/document/rules.tsx
@@ -1175,6 +1261,10 @@ msgstr "အမည်အစအက္ခရာ အသွင်ပုံ"
 msgid "Initials avatar for {name}"
 msgstr "{name} အတွက် အမည်အစအက္ခရာ အသွင်ပုံ"
 
+#: src/features/help/devices.tsx
+msgid "Install DAVx5 and add an account with \"Login with URL and user name\"."
+msgstr "DAVx5 ကို ထည့်သွင်းပြီး \"URL နှင့် သုံးစွဲသူအမည်ဖြင့် ဝင်ရန်\" ဖြင့် အကောင့်တစ်ခု ထည့်ပါ။"
+
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Interest {weight}"
 msgstr "စိတ်ဝင်စားမှု {weight}"
@@ -1191,6 +1281,10 @@ msgstr "ကိုယ့်ကိုယ်ကို မိတ်ဆက်ပါ"
 #: ../../../lib/web/src/components/entity/entity-field-editor.tsx
 msgid "Invalid date"
 msgstr "မမှန်ကန်သော ရက်စွဲ"
+
+#: src/features/help/devices.tsx
+msgid "iPhone and iPad"
+msgstr "iPhone နှင့် iPad"
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "It seems like the page you're looking for <0/>does not exist or might have been removed."
@@ -1279,6 +1373,10 @@ msgstr "အောင်မြင်စွာ ထွက်ပြီးပါပ�
 msgid "Logging out…"
 msgstr "ထွက်နေသည်…"
 
+#: src/features/help/devices.tsx
+msgid "Mac"
+msgstr "Mac"
+
 #: ../../../lib/web/src/components/notification-category-button.tsx
 msgid "Manage categories"
 msgstr "အမျိုးအစားများ စီမံရန်"
@@ -1340,6 +1438,10 @@ msgstr "စိစစ်မှု"
 msgid "Monday"
 msgstr "တနင်္လာ"
 
+#: ../../../lib/web/src/components/calendar/date-header.tsx
+msgid "Month"
+msgstr "လ"
+
 #: ../../../lib/web/src/components/options-menu.tsx
 msgid "More options"
 msgstr "နောက်ထပ် ရွေးချယ်စရာများ"
@@ -1352,10 +1454,12 @@ msgstr "ရွှေ့ခဲ့သည်"
 msgid "Moved {field}"
 msgstr "{field} ကို ရွှေ့ခဲ့သည်"
 
-#. placeholder {0}: dragging.day
+#. placeholder {0}: dayName(current.day)
+#. placeholder {0}: dayName(dragging.day)
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
 msgid "Moving to {0}"
-msgstr ""
+msgstr "{0} သို့ ရွှေ့နေသည်"
 
 #: ../../../lib/web/src/components/entity/add-field-dialog.tsx
 #: ../../../lib/web/src/components/entity/entity-board-column.tsx
@@ -1377,6 +1481,10 @@ msgstr "အမည် လိုအပ်သည်"
 msgid "Name must be 1000 characters or less"
 msgstr "အမည်သည် စာလုံး ၁၀၀၀ သို့မဟုတ် ထိုထက်နည်းရမည်"
 
+#: src/features/help/devices.tsx
+msgid "Name the device, for example your phone's name, and create its password."
+msgstr "ကိရိယာကို အမည်ပေးပါ၊ ဥပမာ သင့်ဖုန်း၏အမည်၊ ပြီးလျှင် ၎င်း၏စကားဝှက်ကို ဖန်တီးပါ။"
+
 #: ../../../lib/web/src/features/errors/general-error.tsx
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
 msgid "Network error"
@@ -1397,9 +1505,13 @@ msgstr "ဂိမ်းအသစ်"
 msgid "Next image"
 msgstr "နောက်ပုံ"
 
-#: ../../../lib/web/src/components/calendar/mini-month.tsx
+#: ../../../lib/web/src/components/calendar/date-header.tsx
 msgid "Next month"
-msgstr ""
+msgstr "နောက်လ"
+
+#: ../../../lib/web/src/components/calendar/date-header.tsx
+msgid "Next year"
+msgstr "နောက်နှစ်"
 
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
 msgid "No {parentClassNames} to add to"
@@ -1529,6 +1641,10 @@ msgstr "နံပါတ်"
 msgid "On"
 msgstr "ဖွင့်"
 
+#: src/features/help/devices.tsx
+msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connect device stops its password at once."
+msgstr "စကားဝှက်တစ်ခုတည်းဖြင့် အဆက်အသွယ်များနှင့် ပြက္ခဒိန်များ နှစ်မျိုးလုံးကို သုံးနိုင်ပါသည်။ ကိရိယာတိုင်းတွင် မိမိကိုယ်ပိုင်စကားဝှက် ရှိပြီး ကိရိယာ ချိတ်ဆက်မည် အောက်မှ ကိရိယာတစ်ခုကို ဖယ်ရှားလိုက်လျှင် ၎င်း၏စကားဝှက်သည် ချက်ချင်း ရပ်တန့်သွားပါသည်။"
+
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
 msgstr "အိုး! စာမျက်နှာ မတွေ့ပါ!"
@@ -1536,6 +1652,10 @@ msgstr "အိုး! စာမျက်နှာ မတွေ့ပါ!"
 #: ../../../lib/web/src/components/layout/nav-group.tsx
 msgid "Open actions"
 msgstr "လုပ်ဆောင်ချက်များ ဖွင့်ရန်"
+
+#: src/features/help/devices.tsx
+msgid "Open Calendars or People and choose Connect device."
+msgstr "ပြက္ခဒိန်များ သို့မဟုတ် လူများ ကိုဖွင့်ပြီး ကိရိယာ ချိတ်ဆက်မည် ကို ရွေးပါ။"
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"
@@ -1655,9 +1775,13 @@ msgstr "ပို့စ်နှင့် comment များ"
 msgid "Previous image"
 msgstr "ယခင်ပုံ"
 
-#: ../../../lib/web/src/components/calendar/mini-month.tsx
+#: ../../../lib/web/src/components/calendar/date-header.tsx
 msgid "Previous month"
-msgstr ""
+msgstr "ယခင်လ"
+
+#: ../../../lib/web/src/components/calendar/date-header.tsx
+msgid "Previous year"
+msgstr "ယခင်နှစ်"
 
 #: ../../../lib/web/src/components/server-documents-footer.tsx
 #: ../../../lib/web/src/features/document/document-page.tsx
@@ -1680,6 +1804,10 @@ msgstr "ဂုဏ်သတ္တိများ"
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Push notification"
 msgstr "Push အကြောင်းကြားချက်"
+
+#: src/features/help/index.tsx
+msgid "Put your contacts and calendars on your phone, tablet or computer."
+msgstr "သင့်အဆက်အသွယ်များနှင့် ပြက္ခဒိန်များကို ဖုန်း၊ တက်ဘလက် သို့မဟုတ် ကွန်ပျူတာပေါ်တွင် ထားပါ။"
 
 #: src/features/help/contribute-dialog.tsx
 msgid "Question"
@@ -1758,6 +1886,7 @@ msgstr "{0} filter ဖယ်ရှား"
 #: ../../../lib/web/src/components/member-list.tsx
 #: ../../../lib/web/src/components/member-list.tsx
 #: ../../../lib/web/src/components/person-picker.tsx
+#: ../../../lib/web/src/components/person-picker.tsx
 msgid "Remove {name}"
 msgstr "{name} ဖယ်ရှား"
 
@@ -1805,7 +1934,7 @@ msgstr "ဤ board column ကို အမည်ပြောင်း"
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 #: ../../../lib/web/src/components/calendar/time-grid.tsx
 msgid "Repeats"
-msgstr ""
+msgstr "ထပ်ခါထပ်ခါ ဖြစ်သည်"
 
 #: ../../../lib/web/src/components/entity/entity-comment-thread.tsx
 #: ../../../lib/web/src/components/entity/entity-comment-thread.tsx
@@ -2179,6 +2308,10 @@ msgstr "ကြည့်ရှုခြင်း 1-9 သို့ ပြောင
 msgid "System"
 msgstr "စနစ်"
 
+#: src/features/help/devices.tsx
+msgid "System Settings, Internet Accounts, Add Other Account, then CardDAV Account for contacts or CalDAV Account for calendars."
+msgstr "စနစ်ဆက်တင်များ၊ အင်တာနက်အကောင့်များ၊ အခြားအကောင့် ထည့်မည်၊ ထို့နောက် အဆက်အသွယ်များအတွက် CardDAV အကောင့် သို့မဟုတ် ပြက္ခဒိန်များအတွက် CalDAV အကောင့်။"
+
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Tag already exists"
 msgstr "Tag ရှိနှင့်ပြီးဖြစ်သည်"
@@ -2235,6 +2368,10 @@ msgstr "ကင်မရာ တောင်းဆိုမှုကို မဖ�
 msgid "The microphone request was not answered"
 msgstr "မိုက်ခရိုဖုန်း တောင်းဆိုမှုကို မဖြေကြားခဲ့ပါ"
 
+#: src/features/help/devices.tsx
+msgid "The Mochi app shows your contacts and calendars itself. To put them into the phone's own Contacts and Calendar apps, use DAVx5."
+msgstr "Mochi အက်ပ်သည် သင့်အဆက်အသွယ်များနှင့် ပြက္ခဒိန်များကို ကိုယ်တိုင် ပြသပါသည်။ ၎င်းတို့ကို ဖုန်း၏ကိုယ်ပိုင် အဆက်အသွယ်များနှင့် ပြက္ခဒိန် အက်ပ်များထဲသို့ ထည့်ရန် DAVx5 ကို အသုံးပြုပါ။"
+
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "The passkey request was not answered"
 msgstr "Passkey တောင်းဆိုမှုကို မဖြေကြားခဲ့ပါ"
@@ -2254,6 +2391,10 @@ msgstr "ဤအက်ပ်သည် သင့် passkey ကို အသုံ�
 #: ../../../lib/web/src/components/game/game-end-dialogs.tsx
 msgid "This permanently deletes the game and its chat. This cannot be undone."
 msgstr "ဤလုပ်ဆောင်ချက်သည် ဂိမ်းနှင့် ၎င်း၏ ချတ်ကို အပြီးအပိုင် ဖျက်ပစ်မည်ဖြစ်သည်။ ဤလုပ်ဆောင်ချက်ကို ပြန်ပြောင်း၍မရပါ။"
+
+#: src/features/help/devices.tsx
+msgid "Thunderbird"
+msgstr "Thunderbird"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Thursday"
@@ -2492,6 +2633,10 @@ msgstr "၎င်းက ဘာလုပ်ပေးမည်လဲ၊ ဘယ်�
 msgid "What you want to ask, in one line"
 msgstr "သင်မေးချင်တာကို တစ်ကြောင်းတည်းနဲ့"
 
+#: ../../../lib/web/src/components/calendar/date-header.tsx
+msgid "Year"
+msgstr "နှစ်"
+
 #: ../../../lib/web/src/features/errors/general-error.tsx
 msgid "You do not have access to this section."
 msgstr "ဤအပိုင်းသို့ သင့်တွင် ဝင်ရောက်ခွင့်မရှိပါ။"
@@ -2503,6 +2648,10 @@ msgstr "သင်၏အကောင့်ကို {source} မှ ဤနေရ�
 #: ../../../lib/web/src/components/comment-composer.tsx
 msgid "Your attachments will be lost."
 msgstr "သင့်ပူးတွဲဖိုင်များ ပျောက်ဆုံးသွားပါမည်။"
+
+#: src/features/help/devices.tsx
+msgid "Your contacts and calendars sync to your phone, tablet and computer over CardDAV and CalDAV, which every major contacts and calendar app speaks."
+msgstr "သင့်အဆက်အသွယ်များနှင့် ပြက္ခဒိန်များသည် CardDAV နှင့် CalDAV မှတစ်ဆင့် ဖုန်း၊ တက်ဘလက်နှင့် ကွန်ပျူတာသို့ စင့်ခ်လုပ်ပါသည်။ အဓိက အဆက်အသွယ်နှင့် ပြက္ခဒိန် အက်ပ်တိုင်းက ၎င်းတို့ကို ပံ့ပိုးပါသည်။"
 
 #: src/features/help/contribute-dialog.tsx
 msgid "Your introduction has been submitted and will appear after moderation."

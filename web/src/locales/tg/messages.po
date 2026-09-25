@@ -40,6 +40,10 @@ msgid "{0, plural, one {# result} other {# results}}"
 msgstr "{0, plural, one {# натиҷа} other {# натиҷа}}"
 
 #. placeholder {0}: displayInfo.count
+#. placeholder {0}: selectedIds.length
+#. placeholder {0}: unknownIds.length
+#: ../../../lib/web/src/components/person-picker.tsx
+#: ../../../lib/web/src/components/person-picker.tsx
 #: ../../../lib/web/src/components/person-picker.tsx
 msgid "{0, plural, one {# selected} other {# selected}}"
 msgstr "{0, plural, one {# интихобшуда} other {# интихобшуда}}"
@@ -65,21 +69,23 @@ msgstr "{count, plural, one {#дақ} other {#дақ}}"
 msgid "{count, plural, one {#w} other {#w}}"
 msgstr "{count, plural, one {#ҳаф} other {#ҳаф}}"
 
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
 #: ../../../lib/web/src/components/calendar/tooltip.ts
 msgid "{day}, {from} to {to}"
-msgstr ""
+msgstr "{day}, аз {from} то {to}"
 
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "{entityLabel} name"
 msgstr "Номи {entityLabel}"
 
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
 #: ../../../lib/web/src/components/calendar/tooltip.ts
 msgid "{from} to {to}"
-msgstr ""
+msgstr "аз {from} то {to}"
 
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 msgid "{hidden, plural, one {+# more} other {+# more}}"
-msgstr ""
+msgstr "{hidden, plural, one {+# бештар} other {+# бештар}}"
 
 #: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx
 msgid "{opponentName} offered a draw"
@@ -218,8 +224,9 @@ msgid "AI"
 msgstr "AI"
 
 #: ../../../lib/web/src/components/calendar/time-grid.tsx
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
 msgid "All day"
-msgstr ""
+msgstr "Тамоми рӯз"
 
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Allow anyone to search for {entityLabel}"
@@ -237,6 +244,10 @@ msgstr "Хатогӣ рух дод"
 #: ../../../lib/web/src/lib/error-normalizer.ts
 msgid "An unexpected error occurred"
 msgstr "Хатогии ғайричашмдошт рух дод"
+
+#: src/features/help/devices.tsx
+msgid "Android"
+msgstr "Android"
 
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
@@ -296,6 +307,10 @@ msgstr "Савол додан"
 #: src/features/help/contribute-dialog.tsx
 msgid "Ask the community on the Mochi users mailing list. Be specific about what you've tried so far."
 msgstr "Аз ҷомеа дар рӯйхати почтаи корбарони Mochi пурсед. Дақиқ нависед, ки то ҳол чӣ кор кардаед."
+
+#: ../../../lib/web/src/components/timezone-select.tsx
+msgid "At sea"
+msgstr "Дар баҳр"
 
 #: ../../../lib/web/src/components/comment-composer.tsx
 msgid "Attach comment files"
@@ -392,6 +407,10 @@ msgstr "Огоҳиномаҳои браузер"
 msgid "Bug report submitted."
 msgstr "Гузориши хато фиристода шуд."
 
+#: ../../../lib/web/src/features/accounts/types.ts
+msgid "Calendar server"
+msgstr "Сервери тақвим"
+
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "Camera permission denied"
 msgstr "Иҷозати камера рад карда шуд"
@@ -457,7 +476,7 @@ msgstr "{field} тағйир дода шуд"
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 #: ../../../lib/web/src/components/calendar/time-grid.tsx
 msgid "Changed occurrence"
-msgstr ""
+msgstr "Такрори тағйирёфта"
 
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Checkbox"
@@ -467,6 +486,10 @@ msgstr "Парчаминтихоб"
 msgid "Checklist"
 msgstr "Рӯйхат"
 
+#: ../../../lib/web/src/components/ui/date-picker.tsx
+msgid "Choose a date"
+msgstr "Санаро интихоб кунед"
+
 #: ../../../lib/web/src/components/game/game-empty-state.tsx
 msgid "Choose a game from the sidebar or start a new one."
 msgstr "Аз панели канорӣ бозиеро интихоб кунед ё нав оғоз кунед."
@@ -475,6 +498,10 @@ msgstr "Аз панели канорӣ бозиеро интихоб кунед 
 #: ../../../lib/web/src/components/language-picker.tsx
 msgid "Choose language"
 msgstr "Забон интихоб кунед"
+
+#: src/features/help/devices.tsx
+msgid "Choose the account type Manual and enter the username, the password and the server address."
+msgstr "Навъи ҳисобро «Дастӣ» интихоб кунед ва номи корбар, рамз ва суроғаи серверро ворид кунед."
 
 #: ../../../lib/web/src/components/banner-section.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
@@ -499,6 +526,7 @@ msgstr "Тоза кардани ҷустуҷӯ"
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx
 #: ../../../lib/web/src/components/ui/sheet.tsx
+#: ../../../lib/web/src/components/ui/side-panel.tsx
 #: ../../../lib/web/src/components/ui/side-panel.tsx
 #: src/features/help/contribute-dialog.tsx
 msgid "Close"
@@ -585,6 +613,11 @@ msgstr "Танзимоти намуд"
 msgid "Confirm"
 msgstr "Тасдиқ"
 
+#: src/features/help/devices.tsx
+#: src/features/help/index.tsx
+msgid "Connect your phone"
+msgstr "Телефони худро пайваст кунед"
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connected"
 msgstr "Пайваст шуда"
@@ -613,6 +646,10 @@ msgstr "Идома"
 msgid "Continue with {label}"
 msgstr "Бо {label} идома диҳед"
 
+#: ../../../lib/web/src/features/accounts/account-add.tsx
+msgid "Continue with {providerLabel}"
+msgstr "Идома бо {providerLabel}"
+
 #: ../../../lib/web/src/lib/toast-utils.ts
 msgid "Copied"
 msgstr "Нусхабардорӣ шуд"
@@ -621,9 +658,17 @@ msgstr "Нусхабардорӣ шуд"
 msgid "Copied to clipboard"
 msgstr "Ба буфер нусхабардорӣ шуд"
 
+#: ../../../lib/web/src/components/calendar/month-grid.tsx
+#: ../../../lib/web/src/components/calendar/month-grid.tsx
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
 #: ../../../lib/web/src/components/ui/copy-button.tsx
 msgid "Copy"
 msgstr "Нусхабардорӣ"
+
+#: src/features/help/devices.tsx
+msgid "Copy the server address, the username and the password into the device. The password is shown once."
+msgstr "Суроғаи сервер, номи корбар ва рамзро ба дастгоҳ нусхабардорӣ кунед. Рамз танҳо як маротиба нишон дода мешавад."
 
 #: ../../../lib/web/src/features/document/document-page.tsx
 msgid "Could not load this document. Please try again later."
@@ -699,6 +744,10 @@ msgstr "Ихтилофи маълумот"
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Date"
 msgstr "Сана"
+
+#: src/features/help/devices.tsx
+msgid "DAVx5 finds both your address books and your calendars. Turn on the ones to sync."
+msgstr "DAVx5 ҳам китобҳои суроғаҳо ва ҳам тақвимҳои шуморо меёбад. Онҳоеро, ки бояд ҳамоҳанг шаванд, фаъол кунед."
 
 #: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx
 msgid "Decline"
@@ -917,6 +966,10 @@ msgstr "Имейл"
 msgid "Email code"
 msgstr "Рамзи email"
 
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
+msgid "Ends before it starts"
+msgstr "Пеш аз оғоз ба анҷом мерасад"
+
 #: ../../../lib/web/src/components/banner-section.tsx
 msgid "Enter banner text (markdown supported)..."
 msgstr "Матни баннерро ворид кунед (markdown дастгирӣ мешавад)..."
@@ -924,6 +977,18 @@ msgstr "Матни баннерро ворид кунед (markdown дастги
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Enter the code from your email"
 msgstr "Рамзро аз почтаи электронии худ ворид кунед"
+
+#: src/features/help/devices.tsx
+msgid "Enter the password when asked, and choose the address books and calendars to add."
+msgstr "Ҳангоми дархост рамзро ворид кунед ва китобҳои суроғаҳо ва тақвимҳоеро, ки илова кардан мехоҳед, интихоб кунед."
+
+#: src/features/help/devices.tsx
+msgid "Enter the server address, the username and the password in each."
+msgstr "Дар ҳар яки онҳо суроғаи сервер, номи корбар ва рамзро ворид кунед."
+
+#: src/features/help/devices.tsx
+msgid "Enter the server address, the username and the password."
+msgstr "Суроғаи сервер, номи корбар ва рамзро ворид кунед."
 
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Enter your authenticator code"
@@ -1077,6 +1142,22 @@ msgstr "Парчамҳо"
 msgid "Flat"
 msgstr "Ҳамвор"
 
+#: src/features/help/devices.tsx
+msgid "For calendars: Calendar, New Calendar, On the Network, with the username and the server address."
+msgstr "Барои тақвимҳо: Тақвим, Тақвими нав, Дар шабака, бо номи корбар ва суроғаи сервер."
+
+#: src/features/help/devices.tsx
+msgid "For calendars: Settings, Calendar, Accounts, Add Account, Other, Add CalDAV Account."
+msgstr "Барои тақвимҳо: Танзимот, Тақвим, Ҳисобҳо, Илова кардани ҳисоб, Дигар, Илова кардани ҳисоби CalDAV."
+
+#: src/features/help/devices.tsx
+msgid "For contacts: Address Book, New Address Book, Add CardDAV Address Book, with the username and the server address."
+msgstr "Барои тамосҳо: Китоби суроғаҳо, Китоби нави суроғаҳо, Илова кардани китоби суроғаҳои CardDAV, бо номи корбар ва суроғаи сервер."
+
+#: src/features/help/devices.tsx
+msgid "For contacts: Settings, Contacts, Accounts, Add Account, Other, Add CardDAV Account."
+msgstr "Барои тамосҳо: Танзимот, Тамосҳо, Ҳисобҳо, Илова кардани ҳисоб, Дигар, Илова кардани ҳисоби CardDAV."
+
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Friday"
 msgstr "Ҷумъа"
@@ -1096,6 +1177,10 @@ msgstr "Аз"
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "From theme"
 msgstr "Аз мавзӯъ"
+
+#: src/features/help/devices.tsx
+msgid "Get a password for the device"
+msgstr "Барои дастгоҳ рамз гиред"
 
 #: ../../../lib/web/src/features/errors/access-denied-error.tsx
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
@@ -1123,6 +1208,7 @@ msgstr "Гурӯҳбандӣ аз рӯи"
 msgid "Group: {0}"
 msgstr "Гурӯҳ: {0}"
 
+#: src/features/help/devices.tsx
 #: src/features/help/index.tsx
 #: src/routes/_authenticated/document/privacy.tsx
 #: src/routes/_authenticated/document/rules.tsx
@@ -1175,6 +1261,10 @@ msgstr "Аватари ҳарфҳои аввал"
 msgid "Initials avatar for {name}"
 msgstr "Аватари ҳарфҳои аввал барои {name}"
 
+#: src/features/help/devices.tsx
+msgid "Install DAVx5 and add an account with \"Login with URL and user name\"."
+msgstr "DAVx5-ро насб кунед ва тавассути «Воридшавӣ бо URL ва номи корбар» ҳисоб илова кунед."
+
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Interest {weight}"
 msgstr "Таваҷҷуҳ {weight}"
@@ -1191,6 +1281,10 @@ msgstr "Худро муаррифӣ кунед"
 #: ../../../lib/web/src/components/entity/entity-field-editor.tsx
 msgid "Invalid date"
 msgstr "Сана нодуруст"
+
+#: src/features/help/devices.tsx
+msgid "iPhone and iPad"
+msgstr "iPhone ва iPad"
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "It seems like the page you're looking for <0/>does not exist or might have been removed."
@@ -1279,6 +1373,10 @@ msgstr "Бомуваффақият баромад"
 msgid "Logging out…"
 msgstr "Баромадан…"
 
+#: src/features/help/devices.tsx
+msgid "Mac"
+msgstr "Mac"
+
 #: ../../../lib/web/src/components/notification-category-button.tsx
 msgid "Manage categories"
 msgstr "Идоракунии категорияҳо"
@@ -1340,6 +1438,10 @@ msgstr "Модератсия"
 msgid "Monday"
 msgstr "Душанбе"
 
+#: ../../../lib/web/src/components/calendar/date-header.tsx
+msgid "Month"
+msgstr "Моҳ"
+
 #: ../../../lib/web/src/components/options-menu.tsx
 msgid "More options"
 msgstr "Имконоти бештар"
@@ -1352,10 +1454,12 @@ msgstr "Кӯчонида шуд"
 msgid "Moved {field}"
 msgstr "{field} кӯчонида шуд"
 
-#. placeholder {0}: dragging.day
+#. placeholder {0}: dayName(current.day)
+#. placeholder {0}: dayName(dragging.day)
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
 msgid "Moving to {0}"
-msgstr ""
+msgstr "Ба {0} интиқол дода мешавад"
 
 #: ../../../lib/web/src/components/entity/add-field-dialog.tsx
 #: ../../../lib/web/src/components/entity/entity-board-column.tsx
@@ -1377,6 +1481,10 @@ msgstr "Ном талаб карда мешавад"
 msgid "Name must be 1000 characters or less"
 msgstr "Ном бояд 1000 аломат ё камтар бошад"
 
+#: src/features/help/devices.tsx
+msgid "Name the device, for example your phone's name, and create its password."
+msgstr "Ба дастгоҳ ном диҳед, масалан номи телефони худ, ва рамзи онро эҷод кунед."
+
 #: ../../../lib/web/src/features/errors/general-error.tsx
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
 msgid "Network error"
@@ -1397,9 +1505,13 @@ msgstr "Бозии нав"
 msgid "Next image"
 msgstr "Тасвири навбатӣ"
 
-#: ../../../lib/web/src/components/calendar/mini-month.tsx
+#: ../../../lib/web/src/components/calendar/date-header.tsx
 msgid "Next month"
-msgstr ""
+msgstr "Моҳи оянда"
+
+#: ../../../lib/web/src/components/calendar/date-header.tsx
+msgid "Next year"
+msgstr "Соли оянда"
 
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
 msgid "No {parentClassNames} to add to"
@@ -1529,6 +1641,10 @@ msgstr "Рақам"
 msgid "On"
 msgstr "Фаъол"
 
+#: src/features/help/devices.tsx
+msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connect device stops its password at once."
+msgstr "Як рамз ҳам ба тамосҳо ва ҳам ба тақвимҳо хизмат мекунад. Ҳар дастгоҳ рамзи худро дорад ва хориҷ кардани дастгоҳ дар «Пайваст кардани дастгоҳ» рамзи онро дарҳол қатъ мекунад."
+
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
 msgstr "Эҳ! Саҳифа ёфт нашуд!"
@@ -1536,6 +1652,10 @@ msgstr "Эҳ! Саҳифа ёфт нашуд!"
 #: ../../../lib/web/src/components/layout/nav-group.tsx
 msgid "Open actions"
 msgstr "Кушодани амалҳо"
+
+#: src/features/help/devices.tsx
+msgid "Open Calendars or People and choose Connect device."
+msgstr "Тақвимҳо ё Шахсонро кушоед ва «Пайваст кардани дастгоҳ»-ро интихоб кунед."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"
@@ -1655,9 +1775,13 @@ msgstr "Постҳо ва шарҳҳо"
 msgid "Previous image"
 msgstr "Тасвири қаблӣ"
 
-#: ../../../lib/web/src/components/calendar/mini-month.tsx
+#: ../../../lib/web/src/components/calendar/date-header.tsx
 msgid "Previous month"
-msgstr ""
+msgstr "Моҳи гузашта"
+
+#: ../../../lib/web/src/components/calendar/date-header.tsx
+msgid "Previous year"
+msgstr "Соли гузашта"
 
 #: ../../../lib/web/src/components/server-documents-footer.tsx
 #: ../../../lib/web/src/features/document/document-page.tsx
@@ -1680,6 +1804,10 @@ msgstr "Хусусиятҳо"
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Push notification"
 msgstr "Огоҳиномаи push"
+
+#: src/features/help/index.tsx
+msgid "Put your contacts and calendars on your phone, tablet or computer."
+msgstr "Тамосҳо ва тақвимҳои худро ба телефон, планшет ё компютери худ гузоред."
 
 #: src/features/help/contribute-dialog.tsx
 msgid "Question"
@@ -1758,6 +1886,7 @@ msgstr "Хориҷ кардани филтри {0}"
 #: ../../../lib/web/src/components/member-list.tsx
 #: ../../../lib/web/src/components/member-list.tsx
 #: ../../../lib/web/src/components/person-picker.tsx
+#: ../../../lib/web/src/components/person-picker.tsx
 msgid "Remove {name}"
 msgstr "Хориҷ кардани {name}"
 
@@ -1805,7 +1934,7 @@ msgstr "Тағйири номи ин сутуни тахта"
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 #: ../../../lib/web/src/components/calendar/time-grid.tsx
 msgid "Repeats"
-msgstr ""
+msgstr "Такрор мешавад"
 
 #: ../../../lib/web/src/components/entity/entity-comment-thread.tsx
 #: ../../../lib/web/src/components/entity/entity-comment-thread.tsx
@@ -2179,6 +2308,10 @@ msgstr "Гузариш ба назари 1-9"
 msgid "System"
 msgstr "Система"
 
+#: src/features/help/devices.tsx
+msgid "System Settings, Internet Accounts, Add Other Account, then CardDAV Account for contacts or CalDAV Account for calendars."
+msgstr "Танзимоти система, Ҳисобҳои интернет, Илова кардани ҳисоби дигар, сипас Ҳисоби CardDAV барои тамосҳо ё Ҳисоби CalDAV барои тақвимҳо."
+
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Tag already exists"
 msgstr "Барчасп аллакай вуҷуд дорад"
@@ -2235,6 +2368,10 @@ msgstr "Ба дархости камера ҷавоб дода нашуд"
 msgid "The microphone request was not answered"
 msgstr "Ба дархости микрофон ҷавоб дода нашуд"
 
+#: src/features/help/devices.tsx
+msgid "The Mochi app shows your contacts and calendars itself. To put them into the phone's own Contacts and Calendar apps, use DAVx5."
+msgstr "Барномаи Mochi тамосҳо ва тақвимҳои шуморо худаш нишон медиҳад. Барои ба барномаҳои Тамосҳо ва Тақвими худи телефон гузоштани онҳо DAVx5-ро истифода баред."
+
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "The passkey request was not answered"
 msgstr "Ба дархости калиди дастрасӣ ҷавоб дода нашуд"
@@ -2254,6 +2391,10 @@ msgstr "Ба ин барнома иҷозат дода нашудааст, ки 
 #: ../../../lib/web/src/components/game/game-end-dialogs.tsx
 msgid "This permanently deletes the game and its chat. This cannot be undone."
 msgstr "Ин бозӣ ва чати онро якумра нест мекунад. Ин амалро баргардонидан мумкин нест."
+
+#: src/features/help/devices.tsx
+msgid "Thunderbird"
+msgstr "Thunderbird"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Thursday"
@@ -2492,6 +2633,10 @@ msgstr "Он чӣ кор мекунад, барои кӣ аст, чаро ин �
 msgid "What you want to ask, in one line"
 msgstr "Чӣ пурсидан мехоҳед, дар як сатр"
 
+#: ../../../lib/web/src/components/calendar/date-header.tsx
+msgid "Year"
+msgstr "Сол"
+
 #: ../../../lib/web/src/features/errors/general-error.tsx
 msgid "You do not have access to this section."
 msgstr "Шумо ба ин бахш дастрасӣ надоред."
@@ -2503,6 +2648,10 @@ msgstr "Ҳисоби шумо аз {source} ба ин ҷо интиқол дод
 #: ../../../lib/web/src/components/comment-composer.tsx
 msgid "Your attachments will be lost."
 msgstr "Замимаҳои шумо гум мешаванд."
+
+#: src/features/help/devices.tsx
+msgid "Your contacts and calendars sync to your phone, tablet and computer over CardDAV and CalDAV, which every major contacts and calendar app speaks."
+msgstr "Тамосҳо ва тақвимҳои шумо тавассути CardDAV ва CalDAV бо телефон, планшет ва компютери шумо ҳамоҳанг мешаванд, ки ҳар барномаи бузурги тамосҳо ва тақвим онҳоро мефаҳмад."
 
 #: src/features/help/contribute-dialog.tsx
 msgid "Your introduction has been submitted and will appear after moderation."

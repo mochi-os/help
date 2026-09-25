@@ -40,6 +40,10 @@ msgid "{0, plural, one {# result} other {# results}}"
 msgstr "{0, plural, one {# encam} other {# encam}}"
 
 #. placeholder {0}: displayInfo.count
+#. placeholder {0}: selectedIds.length
+#. placeholder {0}: unknownIds.length
+#: ../../../lib/web/src/components/person-picker.tsx
+#: ../../../lib/web/src/components/person-picker.tsx
 #: ../../../lib/web/src/components/person-picker.tsx
 msgid "{0, plural, one {# selected} other {# selected}}"
 msgstr "{0, plural, one {# hilbijartî} other {# hilbijartî}}"
@@ -65,21 +69,23 @@ msgstr "{count, plural, one {#xul} other {#xul}}"
 msgid "{count, plural, one {#w} other {#w}}"
 msgstr "{count, plural, one {#hef} other {#hef}}"
 
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
 #: ../../../lib/web/src/components/calendar/tooltip.ts
 msgid "{day}, {from} to {to}"
-msgstr ""
+msgstr "{day}, ji {from} heta {to}"
 
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "{entityLabel} name"
 msgstr "Navê {entityLabel}"
 
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
 #: ../../../lib/web/src/components/calendar/tooltip.ts
 msgid "{from} to {to}"
-msgstr ""
+msgstr "ji {from} heta {to}"
 
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 msgid "{hidden, plural, one {+# more} other {+# more}}"
-msgstr ""
+msgstr "{hidden, plural, one {+# din} other {+# din}}"
 
 #: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx
 msgid "{opponentName} offered a draw"
@@ -218,8 +224,9 @@ msgid "AI"
 msgstr "AI"
 
 #: ../../../lib/web/src/components/calendar/time-grid.tsx
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
 msgid "All day"
-msgstr ""
+msgstr "Tevahiya rojê"
 
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Allow anyone to search for {entityLabel}"
@@ -237,6 +244,10 @@ msgstr "Çewtiyek çêbû"
 #: ../../../lib/web/src/lib/error-normalizer.ts
 msgid "An unexpected error occurred"
 msgstr "Çewtiyeke neçaverêkirî çêbû"
+
+#: src/features/help/devices.tsx
+msgid "Android"
+msgstr "Android"
 
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
@@ -296,6 +307,10 @@ msgstr "Pirsekê bipirse"
 #: src/features/help/contribute-dialog.tsx
 msgid "Ask the community on the Mochi users mailing list. Be specific about what you've tried so far."
 msgstr "Li lîsteya posteyê ya bikarhênerên Mochi ji civakê bipirse. Diyar bike ka heta niha çi ceribandiye."
+
+#: ../../../lib/web/src/components/timezone-select.tsx
+msgid "At sea"
+msgstr "Li deryayê"
 
 #: ../../../lib/web/src/components/comment-composer.tsx
 msgid "Attach comment files"
@@ -392,6 +407,10 @@ msgstr "Agahdariyên geroka"
 msgid "Bug report submitted."
 msgstr "Rapora çewtiyê hat şandin."
 
+#: ../../../lib/web/src/features/accounts/types.ts
+msgid "Calendar server"
+msgstr "Servera salnameyê"
+
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "Camera permission denied"
 msgstr "Destûra kamerayê hat redkirin"
@@ -457,7 +476,7 @@ msgstr "{field} hate guhertin"
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 #: ../../../lib/web/src/components/calendar/time-grid.tsx
 msgid "Changed occurrence"
-msgstr ""
+msgstr "Cara guhertî"
 
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Checkbox"
@@ -467,6 +486,10 @@ msgstr "Qutiya kontrol"
 msgid "Checklist"
 msgstr "Lîsteya kontrolê"
 
+#: ../../../lib/web/src/components/ui/date-picker.tsx
+msgid "Choose a date"
+msgstr "Dîrokekê hilbijêre"
+
 #: ../../../lib/web/src/components/game/game-empty-state.tsx
 msgid "Choose a game from the sidebar or start a new one."
 msgstr "Lîstikekê ji panela kêlekê hilbijêre an yeke nû dest pê bike."
@@ -475,6 +498,10 @@ msgstr "Lîstikekê ji panela kêlekê hilbijêre an yeke nû dest pê bike."
 #: ../../../lib/web/src/components/language-picker.tsx
 msgid "Choose language"
 msgstr "Ziman hilbijêre"
+
+#: src/features/help/devices.tsx
+msgid "Choose the account type Manual and enter the username, the password and the server address."
+msgstr "Cureyê hesabê Bi destan hilbijêre û navê bikarhêner, şîfre û navnîşana rajekar binivîse."
 
 #: ../../../lib/web/src/components/banner-section.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
@@ -499,6 +526,7 @@ msgstr "Lêgerînê paqij bike"
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx
 #: ../../../lib/web/src/components/ui/sheet.tsx
+#: ../../../lib/web/src/components/ui/side-panel.tsx
 #: ../../../lib/web/src/components/ui/side-panel.tsx
 #: src/features/help/contribute-dialog.tsx
 msgid "Close"
@@ -585,6 +613,11 @@ msgstr "Mîhengên dîtinê biguherîne"
 msgid "Confirm"
 msgstr "Piştrast bike"
 
+#: src/features/help/devices.tsx
+#: src/features/help/index.tsx
+msgid "Connect your phone"
+msgstr "Telefona xwe girêde"
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connected"
 msgstr "Girêdayî"
@@ -613,6 +646,10 @@ msgstr "Berdewam bike"
 msgid "Continue with {label}"
 msgstr "Bi {label} berdewam be"
 
+#: ../../../lib/web/src/features/accounts/account-add.tsx
+msgid "Continue with {providerLabel}"
+msgstr "Bi {providerLabel} bidomîne"
+
 #: ../../../lib/web/src/lib/toast-utils.ts
 msgid "Copied"
 msgstr "Hat kopîkirin"
@@ -621,9 +658,17 @@ msgstr "Hat kopîkirin"
 msgid "Copied to clipboard"
 msgstr "Hat kopîkirin li clipboard"
 
+#: ../../../lib/web/src/components/calendar/month-grid.tsx
+#: ../../../lib/web/src/components/calendar/month-grid.tsx
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
 #: ../../../lib/web/src/components/ui/copy-button.tsx
 msgid "Copy"
 msgstr "Kopî bike"
+
+#: src/features/help/devices.tsx
+msgid "Copy the server address, the username and the password into the device. The password is shown once."
+msgstr "Navnîşana rajekar, navê bikarhêner û şîfreyê li amûrê kopî bike. Şîfre tenê carekê tê nîşandan."
 
 #: ../../../lib/web/src/features/document/document-page.tsx
 msgid "Could not load this document. Please try again later."
@@ -699,6 +744,10 @@ msgstr "Nakokiya daneyan"
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Date"
 msgstr "Dîrok"
+
+#: src/features/help/devices.tsx
+msgid "DAVx5 finds both your address books and your calendars. Turn on the ones to sync."
+msgstr "DAVx5 hem pirtûkên navnîşanan hem jî salnameyên te dibîne. Yên ku tu dixwazî hevdem bikî veke."
 
 #: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx
 msgid "Decline"
@@ -917,6 +966,10 @@ msgstr "E-name"
 msgid "Email code"
 msgstr "Koda e-nameyê"
 
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
+msgid "Ends before it starts"
+msgstr "Berî ku dest pê bike diqede"
+
 #: ../../../lib/web/src/components/banner-section.tsx
 msgid "Enter banner text (markdown supported)..."
 msgstr "Nivîsa pankartê binivîse (markdown tê piştgirîkirin)..."
@@ -924,6 +977,18 @@ msgstr "Nivîsa pankartê binivîse (markdown tê piştgirîkirin)..."
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Enter the code from your email"
 msgstr "Koda ji e-nameya xwe binivîse"
+
+#: src/features/help/devices.tsx
+msgid "Enter the password when asked, and choose the address books and calendars to add."
+msgstr "Gava tê pirsîn şîfreyê binivîse û pirtûkên navnîşanan û salnameyên ku werin zêdekirin hilbijêre."
+
+#: src/features/help/devices.tsx
+msgid "Enter the server address, the username and the password in each."
+msgstr "Di her yekê de navnîşana rajekar, navê bikarhêner û şîfreyê binivîse."
+
+#: src/features/help/devices.tsx
+msgid "Enter the server address, the username and the password."
+msgstr "Navnîşana rajekar, navê bikarhêner û şîfreyê binivîse."
 
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Enter your authenticator code"
@@ -1077,6 +1142,22 @@ msgstr "Ala"
 msgid "Flat"
 msgstr "Tasî"
 
+#: src/features/help/devices.tsx
+msgid "For calendars: Calendar, New Calendar, On the Network, with the username and the server address."
+msgstr "Ji bo salnameyan: Salname, Salnameya Nû, Li ser Torê, bi navê bikarhêner û navnîşana rajekar."
+
+#: src/features/help/devices.tsx
+msgid "For calendars: Settings, Calendar, Accounts, Add Account, Other, Add CalDAV Account."
+msgstr "Ji bo salnameyan: Mîheng, Salname, Hesab, Hesab Zêde Bike, Yên din, Hesabê CalDAV Zêde Bike."
+
+#: src/features/help/devices.tsx
+msgid "For contacts: Address Book, New Address Book, Add CardDAV Address Book, with the username and the server address."
+msgstr "Ji bo peywendiyan: Pirtûka Navnîşanan, Pirtûka Navnîşanan a Nû, Pirtûka Navnîşanan a CardDAV Zêde Bike, bi navê bikarhêner û navnîşana rajekar."
+
+#: src/features/help/devices.tsx
+msgid "For contacts: Settings, Contacts, Accounts, Add Account, Other, Add CardDAV Account."
+msgstr "Ji bo peywendiyan: Mîheng, Peywendî, Hesab, Hesab Zêde Bike, Yên din, Hesabê CardDAV Zêde Bike."
+
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Friday"
 msgstr "Înî"
@@ -1096,6 +1177,10 @@ msgstr "Ji"
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "From theme"
 msgstr "Ji temayê"
+
+#: src/features/help/devices.tsx
+msgid "Get a password for the device"
+msgstr "Ji bo amûrê şîfreyekê bistîne"
 
 #: ../../../lib/web/src/features/errors/access-denied-error.tsx
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
@@ -1123,6 +1208,7 @@ msgstr "Li gorî kom bike"
 msgid "Group: {0}"
 msgstr "Kom: {0}"
 
+#: src/features/help/devices.tsx
 #: src/features/help/index.tsx
 #: src/routes/_authenticated/document/privacy.tsx
 #: src/routes/_authenticated/document/rules.tsx
@@ -1175,6 +1261,10 @@ msgstr "Avatara tîpên destpêkê"
 msgid "Initials avatar for {name}"
 msgstr "Avatara tîpên destpêkê ji bo {name}"
 
+#: src/features/help/devices.tsx
+msgid "Install DAVx5 and add an account with \"Login with URL and user name\"."
+msgstr "DAVx5 saz bike û bi \"Bi URL û navê bikarhêner têkeve\" hesabekê zêde bike."
+
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Interest {weight}"
 msgstr "Eleqe {weight}"
@@ -1191,6 +1281,10 @@ msgstr "Xwe bide nasîn"
 #: ../../../lib/web/src/components/entity/entity-field-editor.tsx
 msgid "Invalid date"
 msgstr "Tarîxa nederbasdar"
+
+#: src/features/help/devices.tsx
+msgid "iPhone and iPad"
+msgstr "iPhone û iPad"
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "It seems like the page you're looking for <0/>does not exist or might have been removed."
@@ -1279,6 +1373,10 @@ msgstr "Bi serkeftî derket"
 msgid "Logging out…"
 msgstr "Tê derketin…"
 
+#: src/features/help/devices.tsx
+msgid "Mac"
+msgstr "Mac"
+
 #: ../../../lib/web/src/components/notification-category-button.tsx
 msgid "Manage categories"
 msgstr "Kategorîyan bi rêve bibe"
@@ -1340,6 +1438,10 @@ msgstr "Moderasyon"
 msgid "Monday"
 msgstr "Duşem"
 
+#: ../../../lib/web/src/components/calendar/date-header.tsx
+msgid "Month"
+msgstr "Meh"
+
 #: ../../../lib/web/src/components/options-menu.tsx
 msgid "More options"
 msgstr "Vebijarkên zêdetir"
@@ -1352,10 +1454,12 @@ msgstr "Hate guhastin"
 msgid "Moved {field}"
 msgstr "{field} hate guhastin"
 
-#. placeholder {0}: dragging.day
+#. placeholder {0}: dayName(current.day)
+#. placeholder {0}: dayName(dragging.day)
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
 msgid "Moving to {0}"
-msgstr ""
+msgstr "Tê veguhastin bo {0}"
 
 #: ../../../lib/web/src/components/entity/add-field-dialog.tsx
 #: ../../../lib/web/src/components/entity/entity-board-column.tsx
@@ -1377,6 +1481,10 @@ msgstr "Nav pêwîst e"
 msgid "Name must be 1000 characters or less"
 msgstr "Nav divê 1000 tîp an kêmtir be"
 
+#: src/features/help/devices.tsx
+msgid "Name the device, for example your phone's name, and create its password."
+msgstr "Navekî li amûrê bike, mînak navê telefona xwe, û şîfreya wê çêbike."
+
 #: ../../../lib/web/src/features/errors/general-error.tsx
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
 msgid "Network error"
@@ -1397,9 +1505,13 @@ msgstr "Lîstika nû"
 msgid "Next image"
 msgstr "Wêneya pêştir"
 
-#: ../../../lib/web/src/components/calendar/mini-month.tsx
+#: ../../../lib/web/src/components/calendar/date-header.tsx
 msgid "Next month"
-msgstr ""
+msgstr "Meha bê"
+
+#: ../../../lib/web/src/components/calendar/date-header.tsx
+msgid "Next year"
+msgstr "Sala bê"
 
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
 msgid "No {parentClassNames} to add to"
@@ -1529,6 +1641,10 @@ msgstr "Hejmar"
 msgid "On"
 msgstr "Vekirî"
 
+#: src/features/help/devices.tsx
+msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connect device stops its password at once."
+msgstr "Şîfreyek hem ji bo peywendiyan hem jî ji bo salnameyan dixebite. Her amûr şîfreya xwe distîne, û rakirina amûrekê di bin Amûrê girêde de şîfreya wê tavilê betal dike."
+
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
 msgstr "Wey! Rûpel nehat dîtin!"
@@ -1536,6 +1652,10 @@ msgstr "Wey! Rûpel nehat dîtin!"
 #: ../../../lib/web/src/components/layout/nav-group.tsx
 msgid "Open actions"
 msgstr "Kiryaran veke"
+
+#: src/features/help/devices.tsx
+msgid "Open Calendars or People and choose Connect device."
+msgstr "Salnameyan an Kesan veke û Amûrê girêde hilbijêre."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"
@@ -1655,9 +1775,13 @@ msgstr "Poste û şîrove"
 msgid "Previous image"
 msgstr "Wêneya pêştir"
 
-#: ../../../lib/web/src/components/calendar/mini-month.tsx
+#: ../../../lib/web/src/components/calendar/date-header.tsx
 msgid "Previous month"
-msgstr ""
+msgstr "Meha borî"
+
+#: ../../../lib/web/src/components/calendar/date-header.tsx
+msgid "Previous year"
+msgstr "Sala borî"
 
 #: ../../../lib/web/src/components/server-documents-footer.tsx
 #: ../../../lib/web/src/features/document/document-page.tsx
@@ -1680,6 +1804,10 @@ msgstr "Taybetmendî"
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Push notification"
 msgstr "Agahdariya push"
+
+#: src/features/help/index.tsx
+msgid "Put your contacts and calendars on your phone, tablet or computer."
+msgstr "Peywendî û salnameyên xwe têxe telefon, tablet an komputera xwe."
 
 #: src/features/help/contribute-dialog.tsx
 msgid "Question"
@@ -1758,6 +1886,7 @@ msgstr "Fîltera {0} rake"
 #: ../../../lib/web/src/components/member-list.tsx
 #: ../../../lib/web/src/components/member-list.tsx
 #: ../../../lib/web/src/components/person-picker.tsx
+#: ../../../lib/web/src/components/person-picker.tsx
 msgid "Remove {name}"
 msgstr "{name} rake"
 
@@ -1805,7 +1934,7 @@ msgstr "Navê vê stûna paneyê biguhere"
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 #: ../../../lib/web/src/components/calendar/time-grid.tsx
 msgid "Repeats"
-msgstr ""
+msgstr "Dubare dibe"
 
 #: ../../../lib/web/src/components/entity/entity-comment-thread.tsx
 #: ../../../lib/web/src/components/entity/entity-comment-thread.tsx
@@ -2179,6 +2308,10 @@ msgstr "Veguherîne dîtina 1-9"
 msgid "System"
 msgstr "Pergal"
 
+#: src/features/help/devices.tsx
+msgid "System Settings, Internet Accounts, Add Other Account, then CardDAV Account for contacts or CalDAV Account for calendars."
+msgstr "Mîhengên Pergalê, Hesabên Înternetê, Hesabekî Din Zêde Bike, paşê ji bo peywendiyan Hesabê CardDAV an ji bo salnameyan Hesabê CalDAV."
+
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Tag already exists"
 msgstr "Tag jixwe heye"
@@ -2235,6 +2368,10 @@ msgstr "Daxwaza kamerayê nehat bersivandin"
 msgid "The microphone request was not answered"
 msgstr "Daxwaza mîkrofonê nehat bersivandin"
 
+#: src/features/help/devices.tsx
+msgid "The Mochi app shows your contacts and calendars itself. To put them into the phone's own Contacts and Calendar apps, use DAVx5."
+msgstr "Sepana Mochi peywendî û salnameyên te bi xwe nîşan dide. Ji bo ku tu wan têxî sepanên Peywendî û Salnameyê yên telefonê bi xwe, DAVx5 bi kar bîne."
+
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "The passkey request was not answered"
 msgstr "Daxwaza passkey nehat bersivandin"
@@ -2254,6 +2391,10 @@ msgstr "Ev sepan destûr nîne ku passkey-a te bi kar bîne. Di Mîhengan de, di
 #: ../../../lib/web/src/components/game/game-end-dialogs.tsx
 msgid "This permanently deletes the game and its chat. This cannot be undone."
 msgstr "Ev ê lîstik û sohbeta wê bi awayekî domdar jê bibe. Ev kirin nayê vegerandin."
+
+#: src/features/help/devices.tsx
+msgid "Thunderbird"
+msgstr "Thunderbird"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Thursday"
@@ -2492,6 +2633,10 @@ msgstr "Ew ê çi bike, ji bo kê ye, çima girîng e?"
 msgid "What you want to ask, in one line"
 msgstr "Tu çi dixwazî bipirsî, di yek rêzê de"
 
+#: ../../../lib/web/src/components/calendar/date-header.tsx
+msgid "Year"
+msgstr "Sal"
+
 #: ../../../lib/web/src/features/errors/general-error.tsx
 msgid "You do not have access to this section."
 msgstr "Destûra te ya gihîştina vê beşê tune ye."
@@ -2503,6 +2648,10 @@ msgstr "Hesabê we ji {source} hat vir veguheztin. Heya ku hûn wê li wir jêne
 #: ../../../lib/web/src/components/comment-composer.tsx
 msgid "Your attachments will be lost."
 msgstr "Pêvekên te wê winda bibin."
+
+#: src/features/help/devices.tsx
+msgid "Your contacts and calendars sync to your phone, tablet and computer over CardDAV and CalDAV, which every major contacts and calendar app speaks."
+msgstr "Peywendî û salnameyên te bi CardDAV û CalDAV re bi telefon, tablet û komputera te re hevdem dibin; van protokolan hemû sepanên peywendî û salnameyê yên sereke fêm dikin."
 
 #: src/features/help/contribute-dialog.tsx
 msgid "Your introduction has been submitted and will appear after moderation."

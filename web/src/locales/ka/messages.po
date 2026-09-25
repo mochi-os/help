@@ -40,6 +40,10 @@ msgid "{0, plural, one {# result} other {# results}}"
 msgstr "{0, plural, other {# პოსტი}}"
 
 #. placeholder {0}: displayInfo.count
+#. placeholder {0}: selectedIds.length
+#. placeholder {0}: unknownIds.length
+#: ../../../lib/web/src/components/person-picker.tsx
+#: ../../../lib/web/src/components/person-picker.tsx
 #: ../../../lib/web/src/components/person-picker.tsx
 msgid "{0, plural, one {# selected} other {# selected}}"
 msgstr "{0, plural, other {# გაყიდვა}}"
@@ -65,21 +69,23 @@ msgstr "{count, plural, one {#წთ} other {#წთ}}"
 msgid "{count, plural, one {#w} other {#w}}"
 msgstr "{count, plural, one {#კვ} other {#კვ}}"
 
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
 #: ../../../lib/web/src/components/calendar/tooltip.ts
 msgid "{day}, {from} to {to}"
-msgstr ""
+msgstr "{day}, {from}-დან {to}-მდე"
 
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "{entityLabel} name"
 msgstr "{entityLabel}-ის სახელი"
 
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
 #: ../../../lib/web/src/components/calendar/tooltip.ts
 msgid "{from} to {to}"
-msgstr ""
+msgstr "{from}-დან {to}-მდე"
 
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 msgid "{hidden, plural, one {+# more} other {+# more}}"
-msgstr ""
+msgstr "{hidden, plural, one {+# სხვა} other {+# სხვა}}"
 
 #: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx
 msgid "{opponentName} offered a draw"
@@ -218,8 +224,9 @@ msgid "AI"
 msgstr "AI"
 
 #: ../../../lib/web/src/components/calendar/time-grid.tsx
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
 msgid "All day"
-msgstr ""
+msgstr "მთელი დღე"
 
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Allow anyone to search for {entityLabel}"
@@ -237,6 +244,10 @@ msgstr "მოხდა შეცდომა"
 #: ../../../lib/web/src/lib/error-normalizer.ts
 msgid "An unexpected error occurred"
 msgstr "მოხდა მოულოდნელი შეცდომა"
+
+#: src/features/help/devices.tsx
+msgid "Android"
+msgstr "Android"
 
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
@@ -296,6 +307,10 @@ msgstr "კითხვის დასმა"
 #: src/features/help/contribute-dialog.tsx
 msgid "Ask the community on the Mochi users mailing list. Be specific about what you've tried so far."
 msgstr "ჰკითხეთ თემს Mochi-ის მომხმარებელთა საფოსტო სიაში. კონკრეტულად აღწერეთ, რა სცადეთ აქამდე."
+
+#: ../../../lib/web/src/components/timezone-select.tsx
+msgid "At sea"
+msgstr "ზღვაზე"
 
 #: ../../../lib/web/src/components/comment-composer.tsx
 msgid "Attach comment files"
@@ -392,6 +407,10 @@ msgstr "ბრაუზერის შეტყობინებები"
 msgid "Bug report submitted."
 msgstr "შეცდომის მოხსენება გაიგზავნა."
 
+#: ../../../lib/web/src/features/accounts/types.ts
+msgid "Calendar server"
+msgstr "კალენდრის სერვერი"
+
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "Camera permission denied"
 msgstr "კამერის უფლება უარყოფილია"
@@ -457,7 +476,7 @@ msgstr "შეიცვალა {field}"
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 #: ../../../lib/web/src/components/calendar/time-grid.tsx
 msgid "Changed occurrence"
-msgstr ""
+msgstr "შეცვლილი გამეორება"
 
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Checkbox"
@@ -467,6 +486,10 @@ msgstr "ფლაგი"
 msgid "Checklist"
 msgstr "ჩამონათვალი"
 
+#: ../../../lib/web/src/components/ui/date-picker.tsx
+msgid "Choose a date"
+msgstr "აირჩიეთ თარიღი"
+
 #: ../../../lib/web/src/components/game/game-empty-state.tsx
 msgid "Choose a game from the sidebar or start a new one."
 msgstr "აირჩიეთ თამაში გვერდითა პანელიდან ან დაიწყეთ ახალი."
@@ -475,6 +498,10 @@ msgstr "აირჩიეთ თამაში გვერდითა პა
 #: ../../../lib/web/src/components/language-picker.tsx
 msgid "Choose language"
 msgstr "აირჩიეთ ენა"
+
+#: src/features/help/devices.tsx
+msgid "Choose the account type Manual and enter the username, the password and the server address."
+msgstr "აირჩიეთ ანგარიშის ტიპი „ხელით“ და შეიყვანეთ მომხმარებლის სახელი, პაროლი და სერვერის მისამართი."
 
 #: ../../../lib/web/src/components/banner-section.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
@@ -499,6 +526,7 @@ msgstr "ძიების გასუფთავება"
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx
 #: ../../../lib/web/src/components/ui/sheet.tsx
+#: ../../../lib/web/src/components/ui/side-panel.tsx
 #: ../../../lib/web/src/components/ui/side-panel.tsx
 #: src/features/help/contribute-dialog.tsx
 msgid "Close"
@@ -585,6 +613,11 @@ msgstr "ხედის პარამეტრების კონფიგ�
 msgid "Confirm"
 msgstr "დადასტურება"
 
+#: src/features/help/devices.tsx
+#: src/features/help/index.tsx
+msgid "Connect your phone"
+msgstr "დააკავშირეთ თქვენი ტელეფონი"
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connected"
 msgstr "დაკავშირებულია"
@@ -613,6 +646,10 @@ msgstr "გაგრძელება"
 msgid "Continue with {label}"
 msgstr "გაგრძელება {label}-ით"
 
+#: ../../../lib/web/src/features/accounts/account-add.tsx
+msgid "Continue with {providerLabel}"
+msgstr "გაგრძელება {providerLabel}-ით"
+
 #: ../../../lib/web/src/lib/toast-utils.ts
 msgid "Copied"
 msgstr "დაკოპირდა"
@@ -621,9 +658,17 @@ msgstr "დაკოპირდა"
 msgid "Copied to clipboard"
 msgstr "ბუფერში დაკოპირდა"
 
+#: ../../../lib/web/src/components/calendar/month-grid.tsx
+#: ../../../lib/web/src/components/calendar/month-grid.tsx
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
 #: ../../../lib/web/src/components/ui/copy-button.tsx
 msgid "Copy"
 msgstr "კოპირება"
+
+#: src/features/help/devices.tsx
+msgid "Copy the server address, the username and the password into the device. The password is shown once."
+msgstr "დააკოპირეთ სერვერის მისამართი, მომხმარებლის სახელი და პაროლი მოწყობილობაში. პაროლი მხოლოდ ერთხელ ჩანს."
 
 #: ../../../lib/web/src/features/document/document-page.tsx
 msgid "Could not load this document. Please try again later."
@@ -699,6 +744,10 @@ msgstr "მონაცემთა კონფლიქტი"
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Date"
 msgstr "თარიღი"
+
+#: src/features/help/devices.tsx
+msgid "DAVx5 finds both your address books and your calendars. Turn on the ones to sync."
+msgstr "DAVx5 პოულობს როგორც თქვენს მისამართების წიგნებს, ისე კალენდრებს. ჩართეთ ის, რისი სინქრონიზებაც გსურთ."
 
 #: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx
 msgid "Decline"
@@ -917,6 +966,10 @@ msgstr "ელფოსტა"
 msgid "Email code"
 msgstr "ელფოსტის კოდი"
 
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
+msgid "Ends before it starts"
+msgstr "სრულდება დაწყებამდე"
+
 #: ../../../lib/web/src/components/banner-section.tsx
 msgid "Enter banner text (markdown supported)..."
 msgstr "შეიყვანეთ ბანერის ტექსტი (markdown მხარდაჭერილია)..."
@@ -924,6 +977,18 @@ msgstr "შეიყვანეთ ბანერის ტექსტი (ma
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Enter the code from your email"
 msgstr "შეიყვანეთ კოდი თქვენი ელფოსტიდან"
+
+#: src/features/help/devices.tsx
+msgid "Enter the password when asked, and choose the address books and calendars to add."
+msgstr "მოთხოვნისას შეიყვანეთ პაროლი და აირჩიეთ დასამატებელი მისამართების წიგნები და კალენდრები."
+
+#: src/features/help/devices.tsx
+msgid "Enter the server address, the username and the password in each."
+msgstr "თითოეულში შეიყვანეთ სერვერის მისამართი, მომხმარებლის სახელი და პაროლი."
+
+#: src/features/help/devices.tsx
+msgid "Enter the server address, the username and the password."
+msgstr "შეიყვანეთ სერვერის მისამართი, მომხმარებლის სახელი და პაროლი."
 
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Enter your authenticator code"
@@ -1077,6 +1142,22 @@ msgstr "დროშები"
 msgid "Flat"
 msgstr "ბრტყელი"
 
+#: src/features/help/devices.tsx
+msgid "For calendars: Calendar, New Calendar, On the Network, with the username and the server address."
+msgstr "კალენდრებისთვის: კალენდარი, ახალი კალენდარი, ქსელში, მომხმარებლის სახელითა და სერვერის მისამართით."
+
+#: src/features/help/devices.tsx
+msgid "For calendars: Settings, Calendar, Accounts, Add Account, Other, Add CalDAV Account."
+msgstr "კალენდრებისთვის: პარამეტრები, კალენდარი, ანგარიშები, ანგარიშის დამატება, სხვა, CalDAV ანგარიშის დამატება."
+
+#: src/features/help/devices.tsx
+msgid "For contacts: Address Book, New Address Book, Add CardDAV Address Book, with the username and the server address."
+msgstr "კონტაქტებისთვის: მისამართების წიგნი, ახალი მისამართების წიგნი, CardDAV მისამართების წიგნის დამატება, მომხმარებლის სახელითა და სერვერის მისამართით."
+
+#: src/features/help/devices.tsx
+msgid "For contacts: Settings, Contacts, Accounts, Add Account, Other, Add CardDAV Account."
+msgstr "კონტაქტებისთვის: პარამეტრები, კონტაქტები, ანგარიშები, ანგარიშის დამატება, სხვა, CardDAV ანგარიშის დამატება."
+
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Friday"
 msgstr "პარასკევი"
@@ -1096,6 +1177,10 @@ msgstr "ვისგან"
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "From theme"
 msgstr "თემიდან"
+
+#: src/features/help/devices.tsx
+msgid "Get a password for the device"
+msgstr "მიიღეთ პაროლი მოწყობილობისთვის"
 
 #: ../../../lib/web/src/features/errors/access-denied-error.tsx
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
@@ -1123,6 +1208,7 @@ msgstr "დაჯგუფება"
 msgid "Group: {0}"
 msgstr "ჯგუფი: {0}"
 
+#: src/features/help/devices.tsx
 #: src/features/help/index.tsx
 #: src/routes/_authenticated/document/privacy.tsx
 #: src/routes/_authenticated/document/rules.tsx
@@ -1175,6 +1261,10 @@ msgstr "ინიციალების ავატარი"
 msgid "Initials avatar for {name}"
 msgstr "{name}-ის ინიციალების ავატარი"
 
+#: src/features/help/devices.tsx
+msgid "Install DAVx5 and add an account with \"Login with URL and user name\"."
+msgstr "დააინსტალირეთ DAVx5 და დაამატეთ ანგარიში „შესვლა URL-ითა და მომხმარებლის სახელით“ საშუალებით."
+
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Interest {weight}"
 msgstr "ინტერესი {weight}"
@@ -1191,6 +1281,10 @@ msgstr "წარადგინეთ თავი"
 #: ../../../lib/web/src/components/entity/entity-field-editor.tsx
 msgid "Invalid date"
 msgstr "არასწორი თარიღი"
+
+#: src/features/help/devices.tsx
+msgid "iPhone and iPad"
+msgstr "iPhone და iPad"
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "It seems like the page you're looking for <0/>does not exist or might have been removed."
@@ -1279,13 +1373,17 @@ msgstr "წარმატებით გავიდა"
 msgid "Logging out…"
 msgstr "გასვლა…"
 
+#: src/features/help/devices.tsx
+msgid "Mac"
+msgstr "Mac"
+
 #: ../../../lib/web/src/components/notification-category-button.tsx
 msgid "Manage categories"
 msgstr "კატეგორიების მართვა"
 
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
 msgid "Manual"
-msgstr "სახელმძღვანელო"
+msgstr "ხელით"
 
 #: ../../../lib/web/src/components/layout/notification-menu.tsx
 #: ../../../lib/web/src/components/layout/notification-menu.tsx
@@ -1340,6 +1438,10 @@ msgstr "მოდერაცია"
 msgid "Monday"
 msgstr "ორშაბათი"
 
+#: ../../../lib/web/src/components/calendar/date-header.tsx
+msgid "Month"
+msgstr "თვე"
+
 #: ../../../lib/web/src/components/options-menu.tsx
 msgid "More options"
 msgstr "მეტი ვარიანტი"
@@ -1352,10 +1454,12 @@ msgstr "გადაადგილდა"
 msgid "Moved {field}"
 msgstr "გადაადგილდა {field}"
 
-#. placeholder {0}: dragging.day
+#. placeholder {0}: dayName(current.day)
+#. placeholder {0}: dayName(dragging.day)
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
 msgid "Moving to {0}"
-msgstr ""
+msgstr "მიმდინარეობს გადატანა {0}-ზე"
 
 #: ../../../lib/web/src/components/entity/add-field-dialog.tsx
 #: ../../../lib/web/src/components/entity/entity-board-column.tsx
@@ -1377,6 +1481,10 @@ msgstr "სახელი აუცილებელია"
 msgid "Name must be 1000 characters or less"
 msgstr "სახელი უნდა იყოს 1000 სიმბოლო ან ნაკლები"
 
+#: src/features/help/devices.tsx
+msgid "Name the device, for example your phone's name, and create its password."
+msgstr "დაარქვით მოწყობილობას სახელი, მაგალითად თქვენი ტელეფონის სახელი, და შექმენით მისი პაროლი."
+
 #: ../../../lib/web/src/features/errors/general-error.tsx
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
 msgid "Network error"
@@ -1397,9 +1505,13 @@ msgstr "ახალი თამაში"
 msgid "Next image"
 msgstr "შემდეგი სურათი"
 
-#: ../../../lib/web/src/components/calendar/mini-month.tsx
+#: ../../../lib/web/src/components/calendar/date-header.tsx
 msgid "Next month"
-msgstr ""
+msgstr "შემდეგი თვე"
+
+#: ../../../lib/web/src/components/calendar/date-header.tsx
+msgid "Next year"
+msgstr "შემდეგი წელი"
 
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
 msgid "No {parentClassNames} to add to"
@@ -1529,6 +1641,10 @@ msgstr "ნომერი"
 msgid "On"
 msgstr "ჩართული"
 
+#: src/features/help/devices.tsx
+msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connect device stops its password at once."
+msgstr "ერთი პაროლი ემსახურება როგორც კონტაქტებს, ისე კალენდრებს. თითოეულ მოწყობილობას თავისი აქვს, ხოლო მოწყობილობის წაშლა განყოფილებაში „მოწყობილობის დაკავშირება“ მაშინვე აუქმებს მის პაროლს."
+
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
 msgstr "უპს! გვერდი ვერ მოიძებნა!"
@@ -1536,6 +1652,10 @@ msgstr "უპს! გვერდი ვერ მოიძებნა!"
 #: ../../../lib/web/src/components/layout/nav-group.tsx
 msgid "Open actions"
 msgstr "მოქმედებების გახსნა"
+
+#: src/features/help/devices.tsx
+msgid "Open Calendars or People and choose Connect device."
+msgstr "გახსენით კალენდრები ან ხალხი და აირჩიეთ „მოწყობილობის დაკავშირება“."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"
@@ -1655,9 +1775,13 @@ msgstr "პოსტები და კომენტარები"
 msgid "Previous image"
 msgstr "წინა სურათი"
 
-#: ../../../lib/web/src/components/calendar/mini-month.tsx
+#: ../../../lib/web/src/components/calendar/date-header.tsx
 msgid "Previous month"
-msgstr ""
+msgstr "წინა თვე"
+
+#: ../../../lib/web/src/components/calendar/date-header.tsx
+msgid "Previous year"
+msgstr "წინა წელი"
 
 #: ../../../lib/web/src/components/server-documents-footer.tsx
 #: ../../../lib/web/src/features/document/document-page.tsx
@@ -1680,6 +1804,10 @@ msgstr "თვისებები"
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Push notification"
 msgstr "Push შეტყობინება"
+
+#: src/features/help/index.tsx
+msgid "Put your contacts and calendars on your phone, tablet or computer."
+msgstr "გადაიტანეთ თქვენი კონტაქტები და კალენდრები ტელეფონზე, ტაბლეტზე ან კომპიუტერზე."
 
 #: src/features/help/contribute-dialog.tsx
 msgid "Question"
@@ -1758,6 +1886,7 @@ msgstr "{0} ფილტრის წაშლა"
 #: ../../../lib/web/src/components/member-list.tsx
 #: ../../../lib/web/src/components/member-list.tsx
 #: ../../../lib/web/src/components/person-picker.tsx
+#: ../../../lib/web/src/components/person-picker.tsx
 msgid "Remove {name}"
 msgstr "{name}-ის წაშლა"
 
@@ -1805,7 +1934,7 @@ msgstr "ამ დაფის სვეტის სახელის შე�
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 #: ../../../lib/web/src/components/calendar/time-grid.tsx
 msgid "Repeats"
-msgstr ""
+msgstr "მეორდება"
 
 #: ../../../lib/web/src/components/entity/entity-comment-thread.tsx
 #: ../../../lib/web/src/components/entity/entity-comment-thread.tsx
@@ -2179,6 +2308,10 @@ msgstr "გადართვა 1-9 ხედზე"
 msgid "System"
 msgstr "სისტემა"
 
+#: src/features/help/devices.tsx
+msgid "System Settings, Internet Accounts, Add Other Account, then CardDAV Account for contacts or CalDAV Account for calendars."
+msgstr "სისტემის პარამეტრები, ინტერნეტ-ანგარიშები, სხვა ანგარიშის დამატება, შემდეგ CardDAV ანგარიში კონტაქტებისთვის ან CalDAV ანგარიში კალენდრებისთვის."
+
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Tag already exists"
 msgstr "ტეგი უკვე არსებობს"
@@ -2235,6 +2368,10 @@ msgstr "კამერის მოთხოვნას პასუხი ა
 msgid "The microphone request was not answered"
 msgstr "მიკროფონის მოთხოვნას პასუხი არ მოჰყვა"
 
+#: src/features/help/devices.tsx
+msgid "The Mochi app shows your contacts and calendars itself. To put them into the phone's own Contacts and Calendar apps, use DAVx5."
+msgstr "Mochi-ის აპი თავად აჩვენებს თქვენს კონტაქტებსა და კალენდრებს. იმისათვის, რომ ისინი ტელეფონის საკუთარ კონტაქტებისა და კალენდრის აპებში მოხვდეს, გამოიყენეთ DAVx5."
+
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "The passkey request was not answered"
 msgstr "Passkey-ის მოთხოვნას პასუხი არ მოჰყვა"
@@ -2254,6 +2391,10 @@ msgstr "ამ აპლიკაციას თქვენი passkey-ის 
 #: ../../../lib/web/src/components/game/game-end-dialogs.tsx
 msgid "This permanently deletes the game and its chat. This cannot be undone."
 msgstr "ეს სამუდამოდ წაშლის თამაშსა და მის ჩატს. ამ მოქმედების გაუქმება შეუძლებელია."
+
+#: src/features/help/devices.tsx
+msgid "Thunderbird"
+msgstr "Thunderbird"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Thursday"
@@ -2292,7 +2433,7 @@ msgstr "ზედმეტად ბევრი მოთხოვნა"
 
 #: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "Top"
-msgstr "ძალიან დიდი"
+msgstr "ზედა"
 
 #: ../../../lib/web/src/components/travelling-picker.tsx
 msgid "Travelling"
@@ -2348,7 +2489,7 @@ msgstr "მიუნიჭებელი"
 
 #: ../../../lib/web/src/components/attachment-image.tsx
 msgid "Unavailable"
-msgstr "არაავტორიზებული წვდომა"
+msgstr "მიუწვდომელი"
 
 #: ../../../lib/web/src/lib/request.ts
 #: ../../../lib/web/src/lib/request.ts
@@ -2357,7 +2498,7 @@ msgstr "API-ის მოულოდნელი შეცდომა"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "United States"
-msgstr "ამ ვიკის უნიკალური იდენტიფიკატორები."
+msgstr "შეერთებული შტატები"
 
 #: ../../../lib/web/src/components/audit-timeline.tsx
 #: ../../../lib/web/src/components/entity/entity-field-dialog.tsx
@@ -2366,16 +2507,16 @@ msgstr "ამ ვიკის უნიკალური იდენტიფ
 #: ../../../lib/web/src/components/tree-table-header.tsx
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Unknown"
-msgstr "ერთეულები"
+msgstr "უცნობი"
 
 #: ../../../lib/web/src/components/options-menu.tsx
 msgid "Unsubscribe"
-msgstr "ამოუცნობი ანგარიში"
+msgstr "გამოწერის გაუქმება"
 
 #: ../../../lib/web/src/components/entity/entity-object-links.tsx
 #: ../../../lib/web/src/lib/entity-title.ts
 msgid "Untitled"
-msgstr "შეჩერება მოხსნილია"
+msgstr "უსათაურო"
 
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
@@ -2417,7 +2558,7 @@ msgstr "შემოწმება"
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 #: ../../../lib/web/src/features/accounts/account-verify.tsx
 msgid "Verify"
-msgstr "შემოწმებული"
+msgstr "შემოწმება"
 
 #: ../../../lib/web/src/features/accounts/account-verify.tsx
 msgid "Verify email address"
@@ -2457,11 +2598,11 @@ msgstr "თვალყურის დევნება"
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
 #: ../../../lib/web/src/components/filter-bar.tsx
 msgid "Watched"
-msgstr "ყურება"
+msgstr "თვალყურის ქვეშ"
 
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
 msgid "Watched only"
-msgstr "ნანახი"
+msgstr "მხოლოდ თვალყურის ქვეშ"
 
 #. placeholder {0}: account.identifier
 #: ../../../lib/web/src/features/accounts/account-verify.tsx
@@ -2492,6 +2633,10 @@ msgstr "რას გააკეთებდა, ვისთვის არ�
 msgid "What you want to ask, in one line"
 msgstr "რის კითხვა გინდა, ერთ ხაზში"
 
+#: ../../../lib/web/src/components/calendar/date-header.tsx
+msgid "Year"
+msgstr "წელი"
+
 #: ../../../lib/web/src/features/errors/general-error.tsx
 msgid "You do not have access to this section."
 msgstr "ამ განყოფილებაზე წვდომა არ გაქვთ."
@@ -2503,6 +2648,10 @@ msgstr "თქვენი ანგარიში გადმოტანი�
 #: ../../../lib/web/src/components/comment-composer.tsx
 msgid "Your attachments will be lost."
 msgstr "თქვენი დანართები დაიკარგება."
+
+#: src/features/help/devices.tsx
+msgid "Your contacts and calendars sync to your phone, tablet and computer over CardDAV and CalDAV, which every major contacts and calendar app speaks."
+msgstr "თქვენი კონტაქტები და კალენდრები სინქრონიზდება ტელეფონთან, ტაბლეტთან და კომპიუტერთან CardDAV-ისა და CalDAV-ის საშუალებით, რომლებსაც კონტაქტებისა და კალენდრის ყველა ძირითადი აპი იგებს."
 
 #: src/features/help/contribute-dialog.tsx
 msgid "Your introduction has been submitted and will appear after moderation."

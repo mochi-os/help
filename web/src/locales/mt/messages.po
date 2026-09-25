@@ -40,6 +40,10 @@ msgid "{0, plural, one {# result} other {# results}}"
 msgstr "{0, plural, one {# riżultat} few {# riżultati} many {# riżultati} other {# riżultati}}"
 
 #. placeholder {0}: displayInfo.count
+#. placeholder {0}: selectedIds.length
+#. placeholder {0}: unknownIds.length
+#: ../../../lib/web/src/components/person-picker.tsx
+#: ../../../lib/web/src/components/person-picker.tsx
 #: ../../../lib/web/src/components/person-picker.tsx
 msgid "{0, plural, one {# selected} other {# selected}}"
 msgstr "{0, plural, one {# magħżul} few {# magħżula} many {# magħżula} other {# magħżula}}"
@@ -65,21 +69,23 @@ msgstr "{count, plural, one {#min} other {#min}}"
 msgid "{count, plural, one {#w} other {#w}}"
 msgstr "{count, plural, one {#ġim} other {#ġim}}"
 
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
 #: ../../../lib/web/src/components/calendar/tooltip.ts
 msgid "{day}, {from} to {to}"
-msgstr ""
+msgstr "{day}, minn {from} sa {to}"
 
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "{entityLabel} name"
 msgstr "Isem ta' {entityLabel}"
 
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
 #: ../../../lib/web/src/components/calendar/tooltip.ts
 msgid "{from} to {to}"
-msgstr ""
+msgstr "minn {from} sa {to}"
 
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 msgid "{hidden, plural, one {+# more} other {+# more}}"
-msgstr ""
+msgstr "{hidden, plural, one {+# ieħor} two {+# oħra} few {+# oħra} many {+# oħra} other {+# oħra}}"
 
 #: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx
 msgid "{opponentName} offered a draw"
@@ -218,8 +224,9 @@ msgid "AI"
 msgstr "AI"
 
 #: ../../../lib/web/src/components/calendar/time-grid.tsx
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
 msgid "All day"
-msgstr ""
+msgstr "Il-ġurnata kollha"
 
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Allow anyone to search for {entityLabel}"
@@ -237,6 +244,10 @@ msgstr "Seħħet żball"
 #: ../../../lib/web/src/lib/error-normalizer.ts
 msgid "An unexpected error occurred"
 msgstr "Seħħ żball mhux mistenni"
+
+#: src/features/help/devices.tsx
+msgid "Android"
+msgstr "Android"
 
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
@@ -296,6 +307,10 @@ msgstr "Staqsi mistoqsija"
 #: src/features/help/contribute-dialog.tsx
 msgid "Ask the community on the Mochi users mailing list. Be specific about what you've tried so far."
 msgstr "Staqsi lill-komunità fil-lista tal-posta tal-utenti ta' Mochi. Kun speċifiku dwar dak li ppruvajt sa issa."
+
+#: ../../../lib/web/src/components/timezone-select.tsx
+msgid "At sea"
+msgstr "Fuq il-baħar"
 
 #: ../../../lib/web/src/components/comment-composer.tsx
 msgid "Attach comment files"
@@ -392,6 +407,10 @@ msgstr "Notifiki tal-browser"
 msgid "Bug report submitted."
 msgstr "Ir-rapport tal-bug intbagħat."
 
+#: ../../../lib/web/src/features/accounts/types.ts
+msgid "Calendar server"
+msgstr "Server tal-kalendarju"
+
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "Camera permission denied"
 msgstr "Il-permess tal-kamera ġie miċħud"
@@ -457,7 +476,7 @@ msgstr "Inbidel {field}"
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 #: ../../../lib/web/src/components/calendar/time-grid.tsx
 msgid "Changed occurrence"
-msgstr ""
+msgstr "Okkorrenza mibdula"
 
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Checkbox"
@@ -467,6 +486,10 @@ msgstr "Checkbox"
 msgid "Checklist"
 msgstr "Checklist"
 
+#: ../../../lib/web/src/components/ui/date-picker.tsx
+msgid "Choose a date"
+msgstr "Agħżel data"
+
 #: ../../../lib/web/src/components/game/game-empty-state.tsx
 msgid "Choose a game from the sidebar or start a new one."
 msgstr "Agħżel logħba mill-barra tal-ġenb jew ibda waħda ġdida."
@@ -475,6 +498,10 @@ msgstr "Agħżel logħba mill-barra tal-ġenb jew ibda waħda ġdida."
 #: ../../../lib/web/src/components/language-picker.tsx
 msgid "Choose language"
 msgstr "Agħżel lingwa"
+
+#: src/features/help/devices.tsx
+msgid "Choose the account type Manual and enter the username, the password and the server address."
+msgstr "Agħżel it-tip ta' kont Manwali u daħħal l-isem tal-utent, il-password u l-indirizz tas-server."
 
 #: ../../../lib/web/src/components/banner-section.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
@@ -499,6 +526,7 @@ msgstr "Naddaf it-tiftix"
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx
 #: ../../../lib/web/src/components/ui/sheet.tsx
+#: ../../../lib/web/src/components/ui/side-panel.tsx
 #: ../../../lib/web/src/components/ui/side-panel.tsx
 #: src/features/help/contribute-dialog.tsx
 msgid "Close"
@@ -585,6 +613,11 @@ msgstr "Ikkonfigura s-settings tal-view"
 msgid "Confirm"
 msgstr "Ikkonferma"
 
+#: src/features/help/devices.tsx
+#: src/features/help/index.tsx
+msgid "Connect your phone"
+msgstr "Qabbad it-telefon tiegħek"
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connected"
 msgstr "Konness"
@@ -613,6 +646,10 @@ msgstr "Kompli"
 msgid "Continue with {label}"
 msgstr "Kompli b'{label}"
 
+#: ../../../lib/web/src/features/accounts/account-add.tsx
+msgid "Continue with {providerLabel}"
+msgstr "Kompli b'{providerLabel}"
+
 #: ../../../lib/web/src/lib/toast-utils.ts
 msgid "Copied"
 msgstr "Ikkupjat"
@@ -621,9 +658,17 @@ msgstr "Ikkupjat"
 msgid "Copied to clipboard"
 msgstr "Ikkupjat fil-clipboard"
 
+#: ../../../lib/web/src/components/calendar/month-grid.tsx
+#: ../../../lib/web/src/components/calendar/month-grid.tsx
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
 #: ../../../lib/web/src/components/ui/copy-button.tsx
 msgid "Copy"
 msgstr "Ikkupja"
+
+#: src/features/help/devices.tsx
+msgid "Copy the server address, the username and the password into the device. The password is shown once."
+msgstr "Ikkopja l-indirizz tas-server, l-isem tal-utent u l-password fl-apparat. Il-password tintwera darba biss."
 
 #: ../../../lib/web/src/features/document/document-page.tsx
 msgid "Could not load this document. Please try again later."
@@ -699,6 +744,10 @@ msgstr "Kunflitt fid-dejta"
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Date"
 msgstr "Data"
+
+#: src/features/help/devices.tsx
+msgid "DAVx5 finds both your address books and your calendars. Turn on the ones to sync."
+msgstr "DAVx5 isib kemm il-kotba tal-indirizzi kif ukoll il-kalendarji tiegħek. Ixgħel dawk li trid tissinkronizza."
 
 #: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx
 msgid "Decline"
@@ -917,6 +966,10 @@ msgstr "Email"
 msgid "Email code"
 msgstr "Kodiċi tal-email"
 
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
+msgid "Ends before it starts"
+msgstr "Jispiċċa qabel ma jibda"
+
 #: ../../../lib/web/src/components/banner-section.tsx
 msgid "Enter banner text (markdown supported)..."
 msgstr "Daħħal it-test tal-banner (markdown sapportit)..."
@@ -924,6 +977,18 @@ msgstr "Daħħal it-test tal-banner (markdown sapportit)..."
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Enter the code from your email"
 msgstr "Daħħal il-kodiċi mill-email tiegħek"
+
+#: src/features/help/devices.tsx
+msgid "Enter the password when asked, and choose the address books and calendars to add."
+msgstr "Daħħal il-password meta tintalab, u agħżel il-kotba tal-indirizzi u l-kalendarji li trid iżżid."
+
+#: src/features/help/devices.tsx
+msgid "Enter the server address, the username and the password in each."
+msgstr "F'kull wieħed minnhom daħħal l-indirizz tas-server, l-isem tal-utent u l-password."
+
+#: src/features/help/devices.tsx
+msgid "Enter the server address, the username and the password."
+msgstr "Daħħal l-indirizz tas-server, l-isem tal-utent u l-password."
 
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Enter your authenticator code"
@@ -1077,6 +1142,22 @@ msgstr "Bandieri"
 msgid "Flat"
 msgstr "Ċatta"
 
+#: src/features/help/devices.tsx
+msgid "For calendars: Calendar, New Calendar, On the Network, with the username and the server address."
+msgstr "Għall-kalendarji: Kalendarju, Kalendarju Ġdid, Fuq in-Netwerk, bl-isem tal-utent u l-indirizz tas-server."
+
+#: src/features/help/devices.tsx
+msgid "For calendars: Settings, Calendar, Accounts, Add Account, Other, Add CalDAV Account."
+msgstr "Għall-kalendarji: Issettjar, Kalendarju, Kontijiet, Żid Kont, Oħrajn, Żid Kont CalDAV."
+
+#: src/features/help/devices.tsx
+msgid "For contacts: Address Book, New Address Book, Add CardDAV Address Book, with the username and the server address."
+msgstr "Għall-kuntatti: Ktieb tal-Indirizzi, Ktieb tal-Indirizzi Ġdid, Żid Ktieb tal-Indirizzi CardDAV, bl-isem tal-utent u l-indirizz tas-server."
+
+#: src/features/help/devices.tsx
+msgid "For contacts: Settings, Contacts, Accounts, Add Account, Other, Add CardDAV Account."
+msgstr "Għall-kuntatti: Issettjar, Kuntatti, Kontijiet, Żid Kont, Oħrajn, Żid Kont CardDAV."
+
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Friday"
 msgstr "Il-Ġimgħa"
@@ -1096,6 +1177,10 @@ msgstr "Minn"
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "From theme"
 msgstr "Mit-tema"
+
+#: src/features/help/devices.tsx
+msgid "Get a password for the device"
+msgstr "Ikseb password għall-apparat"
 
 #: ../../../lib/web/src/features/errors/access-denied-error.tsx
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
@@ -1123,6 +1208,7 @@ msgstr "Iggrupp skont"
 msgid "Group: {0}"
 msgstr "Grupp: {0}"
 
+#: src/features/help/devices.tsx
 #: src/features/help/index.tsx
 #: src/routes/_authenticated/document/privacy.tsx
 #: src/routes/_authenticated/document/rules.tsx
@@ -1175,6 +1261,10 @@ msgstr "Avatar bl-inizjali"
 msgid "Initials avatar for {name}"
 msgstr "Avatar bl-inizjali għal {name}"
 
+#: src/features/help/devices.tsx
+msgid "Install DAVx5 and add an account with \"Login with URL and user name\"."
+msgstr "Installa DAVx5 u żid kont b'\"Idħol b'URL u isem tal-utent\"."
+
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Interest {weight}"
 msgstr "Interess {weight}"
@@ -1191,6 +1281,10 @@ msgstr "Ippreżenta lilek innifsek"
 #: ../../../lib/web/src/components/entity/entity-field-editor.tsx
 msgid "Invalid date"
 msgstr "Data invalida"
+
+#: src/features/help/devices.tsx
+msgid "iPhone and iPad"
+msgstr "iPhone u iPad"
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "It seems like the page you're looking for <0/>does not exist or might have been removed."
@@ -1279,6 +1373,10 @@ msgstr "Ħareġ b'suċċess"
 msgid "Logging out…"
 msgstr "Qed joħroġ…"
 
+#: src/features/help/devices.tsx
+msgid "Mac"
+msgstr "Mac"
+
 #: ../../../lib/web/src/components/notification-category-button.tsx
 msgid "Manage categories"
 msgstr "Immaniġġja l-kategoriji"
@@ -1340,6 +1438,10 @@ msgstr "Moderazzjoni"
 msgid "Monday"
 msgstr "It-Tnejn"
 
+#: ../../../lib/web/src/components/calendar/date-header.tsx
+msgid "Month"
+msgstr "Xahar"
+
 #: ../../../lib/web/src/components/options-menu.tsx
 msgid "More options"
 msgstr "Aktar għażliet"
@@ -1352,10 +1454,12 @@ msgstr "Ġie mċaqlaq"
 msgid "Moved {field}"
 msgstr "Ġie mċaqlaq {field}"
 
-#. placeholder {0}: dragging.day
+#. placeholder {0}: dayName(current.day)
+#. placeholder {0}: dayName(dragging.day)
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
 msgid "Moving to {0}"
-msgstr ""
+msgstr "Qed jiġi mċaqlaq għal {0}"
 
 #: ../../../lib/web/src/components/entity/add-field-dialog.tsx
 #: ../../../lib/web/src/components/entity/entity-board-column.tsx
@@ -1377,6 +1481,10 @@ msgstr "L-isem huwa meħtieġ"
 msgid "Name must be 1000 characters or less"
 msgstr "L-isem irid ikun ta' 1000 karattru jew inqas"
 
+#: src/features/help/devices.tsx
+msgid "Name the device, for example your phone's name, and create its password."
+msgstr "Agħti isem lill-apparat, pereżempju l-isem tat-telefon tiegħek, u oħloq il-password tiegħu."
+
 #: ../../../lib/web/src/features/errors/general-error.tsx
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
 msgid "Network error"
@@ -1397,9 +1505,13 @@ msgstr "Logħba ġdida"
 msgid "Next image"
 msgstr "Stampa li jmiss"
 
-#: ../../../lib/web/src/components/calendar/mini-month.tsx
+#: ../../../lib/web/src/components/calendar/date-header.tsx
 msgid "Next month"
-msgstr ""
+msgstr "Ix-xahar li ġej"
+
+#: ../../../lib/web/src/components/calendar/date-header.tsx
+msgid "Next year"
+msgstr "Is-sena li ġejja"
 
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
 msgid "No {parentClassNames} to add to"
@@ -1529,6 +1641,10 @@ msgstr "Numru"
 msgid "On"
 msgstr "Mixgħul"
 
+#: src/features/help/devices.tsx
+msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connect device stops its password at once."
+msgstr "Password waħda taqdi kemm il-kuntatti kif ukoll il-kalendarji. Kull apparat għandu tiegħu, u meta tneħħi apparat taħt Qabbad apparat, il-password tiegħu tieqaf taħdem mill-ewwel."
+
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
 msgstr "Oops! Paġna Mhux Misjuba!"
@@ -1536,6 +1652,10 @@ msgstr "Oops! Paġna Mhux Misjuba!"
 #: ../../../lib/web/src/components/layout/nav-group.tsx
 msgid "Open actions"
 msgstr "Iftaħ l-azzjonijiet"
+
+#: src/features/help/devices.tsx
+msgid "Open Calendars or People and choose Connect device."
+msgstr "Iftaħ Kalendarji jew Nies u agħżel Qabbad apparat."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"
@@ -1655,9 +1775,13 @@ msgstr "Posts u kummenti"
 msgid "Previous image"
 msgstr "Stampa preċedenti"
 
-#: ../../../lib/web/src/components/calendar/mini-month.tsx
+#: ../../../lib/web/src/components/calendar/date-header.tsx
 msgid "Previous month"
-msgstr ""
+msgstr "Ix-xahar preċedenti"
+
+#: ../../../lib/web/src/components/calendar/date-header.tsx
+msgid "Previous year"
+msgstr "Is-sena preċedenti"
 
 #: ../../../lib/web/src/components/server-documents-footer.tsx
 #: ../../../lib/web/src/features/document/document-page.tsx
@@ -1680,6 +1804,10 @@ msgstr "Proprjetajiet"
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Push notification"
 msgstr "Notifika push"
+
+#: src/features/help/index.tsx
+msgid "Put your contacts and calendars on your phone, tablet or computer."
+msgstr "Poġġi l-kuntatti u l-kalendarji tiegħek fuq it-telefon, it-tablet jew il-kompjuter tiegħek."
 
 #: src/features/help/contribute-dialog.tsx
 msgid "Question"
@@ -1758,6 +1886,7 @@ msgstr "Neħħi l-filter ta' {0}"
 #: ../../../lib/web/src/components/member-list.tsx
 #: ../../../lib/web/src/components/member-list.tsx
 #: ../../../lib/web/src/components/person-picker.tsx
+#: ../../../lib/web/src/components/person-picker.tsx
 msgid "Remove {name}"
 msgstr "Neħħi {name}"
 
@@ -1805,7 +1934,7 @@ msgstr "Irrinomina din il-kolonna tal-bord"
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 #: ../../../lib/web/src/components/calendar/time-grid.tsx
 msgid "Repeats"
-msgstr ""
+msgstr "Jirrepeti"
 
 #: ../../../lib/web/src/components/entity/entity-comment-thread.tsx
 #: ../../../lib/web/src/components/entity/entity-comment-thread.tsx
@@ -2179,6 +2308,10 @@ msgstr "Aqleb għal vista 1-9"
 msgid "System"
 msgstr "Sistema"
 
+#: src/features/help/devices.tsx
+msgid "System Settings, Internet Accounts, Add Other Account, then CardDAV Account for contacts or CalDAV Account for calendars."
+msgstr "Issettjar tas-Sistema, Kontijiet tal-Internet, Żid Kont Ieħor, imbagħad Kont CardDAV għall-kuntatti jew Kont CalDAV għall-kalendarji."
+
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Tag already exists"
 msgstr "Tag diġà jeżisti"
@@ -2235,6 +2368,10 @@ msgstr "It-talba għall-kamera ma twiġbitx"
 msgid "The microphone request was not answered"
 msgstr "It-talba għall-mikrofonu ma twiġbitx"
 
+#: src/features/help/devices.tsx
+msgid "The Mochi app shows your contacts and calendars itself. To put them into the phone's own Contacts and Calendar apps, use DAVx5."
+msgstr "L-app Mochi turi l-kuntatti u l-kalendarji tiegħek hi stess. Biex iddaħħalhom fl-apps Kuntatti u Kalendarju tat-telefon innifsu, uża DAVx5."
+
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "The passkey request was not answered"
 msgstr "It-talba għall-passkey ma twiġbitx"
@@ -2254,6 +2391,10 @@ msgstr "Din l-app mhijiex permessa tuża l-passkey tiegħek. Ippermettiha fis-Se
 #: ../../../lib/web/src/components/game/game-end-dialogs.tsx
 msgid "This permanently deletes the game and its chat. This cannot be undone."
 msgstr "Dan għad iħassar il-logħba u ċ-chat tagħha b'mod permanenti. Din l-azzjoni ma tistax titħassar."
+
+#: src/features/help/devices.tsx
+msgid "Thunderbird"
+msgstr "Thunderbird"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Thursday"
@@ -2492,6 +2633,10 @@ msgstr "X'tagħmel, għal min hi, għaliex hi importanti?"
 msgid "What you want to ask, in one line"
 msgstr "Dak li trid tistaqsi, f'linja waħda"
 
+#: ../../../lib/web/src/components/calendar/date-header.tsx
+msgid "Year"
+msgstr "Sena"
+
 #: ../../../lib/web/src/features/errors/general-error.tsx
 msgid "You do not have access to this section."
 msgstr "M'għandekx aċċess għal din it-taqsima."
@@ -2503,6 +2648,10 @@ msgstr "Il-kont tiegħek ġie miċċaqqlaq hawn minn {source}. Sakemm tħassru h
 #: ../../../lib/web/src/components/comment-composer.tsx
 msgid "Your attachments will be lost."
 msgstr "L-annessi tiegħek se jintilfu."
+
+#: src/features/help/devices.tsx
+msgid "Your contacts and calendars sync to your phone, tablet and computer over CardDAV and CalDAV, which every major contacts and calendar app speaks."
+msgstr "Il-kuntatti u l-kalendarji tiegħek jissinkronizzaw mat-telefon, mat-tablet u mal-kompjuter tiegħek permezz ta' CardDAV u CalDAV, li kull app ewlenija tal-kuntatti u tal-kalendarju tifhem."
 
 #: src/features/help/contribute-dialog.tsx
 msgid "Your introduction has been submitted and will appear after moderation."

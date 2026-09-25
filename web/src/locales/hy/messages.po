@@ -40,6 +40,10 @@ msgid "{0, plural, one {# result} other {# results}}"
 msgstr "{0, plural, one {# արդյունք} other {# արդյունք}}"
 
 #. placeholder {0}: displayInfo.count
+#. placeholder {0}: selectedIds.length
+#. placeholder {0}: unknownIds.length
+#: ../../../lib/web/src/components/person-picker.tsx
+#: ../../../lib/web/src/components/person-picker.tsx
 #: ../../../lib/web/src/components/person-picker.tsx
 msgid "{0, plural, one {# selected} other {# selected}}"
 msgstr "{0, plural, one {# ընտրված} other {# ընտրված}}"
@@ -65,21 +69,23 @@ msgstr "{count, plural, one {#ր} other {#ր}}"
 msgid "{count, plural, one {#w} other {#w}}"
 msgstr "{count, plural, one {#շաբ} other {#շաբ}}"
 
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
 #: ../../../lib/web/src/components/calendar/tooltip.ts
 msgid "{day}, {from} to {to}"
-msgstr ""
+msgstr "{day}, {from}-ից մինչև {to}"
 
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "{entityLabel} name"
 msgstr "{entityLabel}-ի անունը"
 
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
 #: ../../../lib/web/src/components/calendar/tooltip.ts
 msgid "{from} to {to}"
-msgstr ""
+msgstr "{from}-ից մինչև {to}"
 
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 msgid "{hidden, plural, one {+# more} other {+# more}}"
-msgstr ""
+msgstr "{hidden, plural, one {+# ավելին} other {+# ավելին}}"
 
 #: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx
 msgid "{opponentName} offered a draw"
@@ -218,8 +224,9 @@ msgid "AI"
 msgstr "AI"
 
 #: ../../../lib/web/src/components/calendar/time-grid.tsx
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
 msgid "All day"
-msgstr ""
+msgstr "Ամբողջ օրը"
 
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Allow anyone to search for {entityLabel}"
@@ -237,6 +244,10 @@ msgstr "Սխալ առաջացավ"
 #: ../../../lib/web/src/lib/error-normalizer.ts
 msgid "An unexpected error occurred"
 msgstr "Անսպասելի սխալ առաջացավ"
+
+#: src/features/help/devices.tsx
+msgid "Android"
+msgstr "Android"
 
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
@@ -296,6 +307,10 @@ msgstr "Տալ հարց"
 #: src/features/help/contribute-dialog.tsx
 msgid "Ask the community on the Mochi users mailing list. Be specific about what you've tried so far."
 msgstr "Հարցրեք համայնքին Mochi-ի օգտատերերի էլփոստի ցանկում։ Կոնկրետ նշեք, թե ինչ եք արդեն փորձել։"
+
+#: ../../../lib/web/src/components/timezone-select.tsx
+msgid "At sea"
+msgstr "Ծովում"
 
 #: ../../../lib/web/src/components/comment-composer.tsx
 msgid "Attach comment files"
@@ -392,6 +407,10 @@ msgstr "Բրաուզերի ծանուցումներ"
 msgid "Bug report submitted."
 msgstr "Սխալի մասին հաղորդումն ուղարկվեց։"
 
+#: ../../../lib/web/src/features/accounts/types.ts
+msgid "Calendar server"
+msgstr "Օրացույցի սերվեր"
+
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "Camera permission denied"
 msgstr "Տեսախցիկի թույլտվությունը մերժվեց"
@@ -457,7 +476,7 @@ msgstr "Փոփոխվել է {field}"
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 #: ../../../lib/web/src/components/calendar/time-grid.tsx
 msgid "Changed occurrence"
-msgstr ""
+msgstr "Փոփոխված կրկնություն"
 
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Checkbox"
@@ -467,6 +486,10 @@ msgstr "Նշավանդակ"
 msgid "Checklist"
 msgstr "Ստուգաթերթիկ"
 
+#: ../../../lib/web/src/components/ui/date-picker.tsx
+msgid "Choose a date"
+msgstr "Ընտրեք ամսաթիվ"
+
 #: ../../../lib/web/src/components/game/game-empty-state.tsx
 msgid "Choose a game from the sidebar or start a new one."
 msgstr "Ընտրեք խաղ կողագոտուց կամ սկսեք նորը։"
@@ -475,6 +498,10 @@ msgstr "Ընտրեք խաղ կողագոտուց կամ սկսեք նորը։"
 #: ../../../lib/web/src/components/language-picker.tsx
 msgid "Choose language"
 msgstr "Ընտրել լեզուն"
+
+#: src/features/help/devices.tsx
+msgid "Choose the account type Manual and enter the username, the password and the server address."
+msgstr "Ընտրեք հաշվի տեսակը՝ Ձեռքով, և մուտքագրեք օգտանունը, գաղտնաբառը և սերվերի հասցեն։"
 
 #: ../../../lib/web/src/components/banner-section.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
@@ -499,6 +526,7 @@ msgstr "Մաքրել որոնումը"
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx
 #: ../../../lib/web/src/components/ui/sheet.tsx
+#: ../../../lib/web/src/components/ui/side-panel.tsx
 #: ../../../lib/web/src/components/ui/side-panel.tsx
 #: src/features/help/contribute-dialog.tsx
 msgid "Close"
@@ -585,6 +613,11 @@ msgstr "Կարգավորել տեսքի կարգավորումները"
 msgid "Confirm"
 msgstr "Հաստատել"
 
+#: src/features/help/devices.tsx
+#: src/features/help/index.tsx
+msgid "Connect your phone"
+msgstr "Միացրեք ձեր հեռախոսը"
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connected"
 msgstr "Միացված"
@@ -613,6 +646,10 @@ msgstr "Շարունակել"
 msgid "Continue with {label}"
 msgstr "Շարունակել {label}-ով"
 
+#: ../../../lib/web/src/features/accounts/account-add.tsx
+msgid "Continue with {providerLabel}"
+msgstr "Շարունակել {providerLabel}-ով"
+
 #: ../../../lib/web/src/lib/toast-utils.ts
 msgid "Copied"
 msgstr "Պատճենվեց"
@@ -621,9 +658,17 @@ msgstr "Պատճենվեց"
 msgid "Copied to clipboard"
 msgstr "Պատճենվեց սեղմատախտակին"
 
+#: ../../../lib/web/src/components/calendar/month-grid.tsx
+#: ../../../lib/web/src/components/calendar/month-grid.tsx
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
 #: ../../../lib/web/src/components/ui/copy-button.tsx
 msgid "Copy"
 msgstr "Պատճենել"
+
+#: src/features/help/devices.tsx
+msgid "Copy the server address, the username and the password into the device. The password is shown once."
+msgstr "Պատճենեք սերվերի հասցեն, օգտանունը և գաղտնաբառը սարքի մեջ։ Գաղտնաբառը ցուցադրվում է միայն մեկ անգամ։"
 
 #: ../../../lib/web/src/features/document/document-page.tsx
 msgid "Could not load this document. Please try again later."
@@ -699,6 +744,10 @@ msgstr "Տվյալների կոնֆլիկտ"
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Date"
 msgstr "Ամսաթիվ"
+
+#: src/features/help/devices.tsx
+msgid "DAVx5 finds both your address books and your calendars. Turn on the ones to sync."
+msgstr "DAVx5-ը գտնում է թե՛ ձեր հասցեագրքերը, թե՛ ձեր օրացույցները։ Միացրեք նրանք, որոնք պետք է համաժամացվեն։"
 
 #: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx
 msgid "Decline"
@@ -917,6 +966,10 @@ msgstr "Էլ․ փոստ"
 msgid "Email code"
 msgstr "Էլ․ փոստի կոդ"
 
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
+msgid "Ends before it starts"
+msgstr "Ավարտվում է նախքան սկսվելը"
+
 #: ../../../lib/web/src/components/banner-section.tsx
 msgid "Enter banner text (markdown supported)..."
 msgstr "Մուտքագրեք պաստառի տեքստը (markdown-ը աջակցվում է)..."
@@ -924,6 +977,18 @@ msgstr "Մուտքագրեք պաստառի տեքստը (markdown-ը աջակց
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Enter the code from your email"
 msgstr "Մուտքագրեք ձեր էլ. փոստից ստացած կոդը"
+
+#: src/features/help/devices.tsx
+msgid "Enter the password when asked, and choose the address books and calendars to add."
+msgstr "Հարցնելիս մուտքագրեք գաղտնաբառը և ընտրեք ավելացվող հասցեագրքերն ու օրացույցները։"
+
+#: src/features/help/devices.tsx
+msgid "Enter the server address, the username and the password in each."
+msgstr "Յուրաքանչյուրում մուտքագրեք սերվերի հասցեն, օգտանունը և գաղտնաբառը։"
+
+#: src/features/help/devices.tsx
+msgid "Enter the server address, the username and the password."
+msgstr "Մուտքագրեք սերվերի հասցեն, օգտանունը և գաղտնաբառը։"
 
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Enter your authenticator code"
@@ -1077,6 +1142,22 @@ msgstr "Դրոշներ"
 msgid "Flat"
 msgstr "Հարթ"
 
+#: src/features/help/devices.tsx
+msgid "For calendars: Calendar, New Calendar, On the Network, with the username and the server address."
+msgstr "Օրացույցների համար՝ Օրացույց, Նոր օրացույց, Ցանցում, օգտանունով և սերվերի հասցեով։"
+
+#: src/features/help/devices.tsx
+msgid "For calendars: Settings, Calendar, Accounts, Add Account, Other, Add CalDAV Account."
+msgstr "Օրացույցների համար՝ Կարգավորումներ, Օրացույց, Հաշիվներ, Ավելացնել հաշիվ, Այլ, Ավելացնել CalDAV հաշիվ։"
+
+#: src/features/help/devices.tsx
+msgid "For contacts: Address Book, New Address Book, Add CardDAV Address Book, with the username and the server address."
+msgstr "Կոնտակտների համար՝ Հասցեագիրք, Նոր հասցեագիրք, Ավելացնել CardDAV հասցեագիրք, օգտանունով և սերվերի հասցեով։"
+
+#: src/features/help/devices.tsx
+msgid "For contacts: Settings, Contacts, Accounts, Add Account, Other, Add CardDAV Account."
+msgstr "Կոնտակտների համար՝ Կարգավորումներ, Կոնտակտներ, Հաշիվներ, Ավելացնել հաշիվ, Այլ, Ավելացնել CardDAV հաշիվ։"
+
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Friday"
 msgstr "Ուրբաթ"
@@ -1096,6 +1177,10 @@ msgstr "Ումից"
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "From theme"
 msgstr "Թեմայից"
+
+#: src/features/help/devices.tsx
+msgid "Get a password for the device"
+msgstr "Ստացեք գաղտնաբառ սարքի համար"
 
 #: ../../../lib/web/src/features/errors/access-denied-error.tsx
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
@@ -1123,6 +1208,7 @@ msgstr "Խմբավորել ըստ"
 msgid "Group: {0}"
 msgstr "Խումբ՝ {0}"
 
+#: src/features/help/devices.tsx
 #: src/features/help/index.tsx
 #: src/routes/_authenticated/document/privacy.tsx
 #: src/routes/_authenticated/document/rules.tsx
@@ -1175,6 +1261,10 @@ msgstr "Սկզբնատառերի ավատար"
 msgid "Initials avatar for {name}"
 msgstr "{name}-ի սկզբնատառերի ավատար"
 
+#: src/features/help/devices.tsx
+msgid "Install DAVx5 and add an account with \"Login with URL and user name\"."
+msgstr "Տեղադրեք DAVx5-ը և ավելացրեք հաշիվ «Մուտք URL-ով և օգտանունով» տարբերակով։"
+
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Interest {weight}"
 msgstr "Հետաքրքրություն՝ {weight}"
@@ -1191,6 +1281,10 @@ msgstr "Ներկայացրեք ձեզ"
 #: ../../../lib/web/src/components/entity/entity-field-editor.tsx
 msgid "Invalid date"
 msgstr "Անվավեր ամսաթիվ"
+
+#: src/features/help/devices.tsx
+msgid "iPhone and iPad"
+msgstr "iPhone և iPad"
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "It seems like the page you're looking for <0/>does not exist or might have been removed."
@@ -1279,6 +1373,10 @@ msgstr "Հաջողությամբ դուրս եկաք"
 msgid "Logging out…"
 msgstr "Դուրս գալիս…"
 
+#: src/features/help/devices.tsx
+msgid "Mac"
+msgstr "Mac"
+
 #: ../../../lib/web/src/components/notification-category-button.tsx
 msgid "Manage categories"
 msgstr "Կառավարել կատեգորիաները"
@@ -1340,6 +1438,10 @@ msgstr "Մոդերացիա"
 msgid "Monday"
 msgstr "Երկուշաբթի"
 
+#: ../../../lib/web/src/components/calendar/date-header.tsx
+msgid "Month"
+msgstr "Ամիս"
+
 #: ../../../lib/web/src/components/options-menu.tsx
 msgid "More options"
 msgstr "Լրացուցիչ ընտրանքներ"
@@ -1352,10 +1454,12 @@ msgstr "Տեղափոխվել է"
 msgid "Moved {field}"
 msgstr "Տեղափոխվել է {field}"
 
-#. placeholder {0}: dragging.day
+#. placeholder {0}: dayName(current.day)
+#. placeholder {0}: dayName(dragging.day)
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
 msgid "Moving to {0}"
-msgstr ""
+msgstr "Տեղափոխվում է {0}"
 
 #: ../../../lib/web/src/components/entity/add-field-dialog.tsx
 #: ../../../lib/web/src/components/entity/entity-board-column.tsx
@@ -1377,6 +1481,10 @@ msgstr "Անունը պարտադիր է"
 msgid "Name must be 1000 characters or less"
 msgstr "Անունը պետք է լինի 1000 նիշից ոչ ավելի"
 
+#: src/features/help/devices.tsx
+msgid "Name the device, for example your phone's name, and create its password."
+msgstr "Անվանեք սարքը, օրինակ՝ ձեր հեռախոսի անունով, և ստեղծեք դրա գաղտնաբառը։"
+
 #: ../../../lib/web/src/features/errors/general-error.tsx
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
 msgid "Network error"
@@ -1397,9 +1505,13 @@ msgstr "Նոր խաղ"
 msgid "Next image"
 msgstr "Հաջորդ նկարը"
 
-#: ../../../lib/web/src/components/calendar/mini-month.tsx
+#: ../../../lib/web/src/components/calendar/date-header.tsx
 msgid "Next month"
-msgstr ""
+msgstr "Հաջորդ ամիս"
+
+#: ../../../lib/web/src/components/calendar/date-header.tsx
+msgid "Next year"
+msgstr "Հաջորդ տարի"
 
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
 msgid "No {parentClassNames} to add to"
@@ -1529,6 +1641,10 @@ msgstr "Թիվ"
 msgid "On"
 msgstr "Միացված"
 
+#: src/features/help/devices.tsx
+msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connect device stops its password at once."
+msgstr "Մեկ գաղտնաբառը սպասարկում է և՛ կոնտակտները, և՛ օրացույցները։ Յուրաքանչյուր սարք ունի իրենը, իսկ «Միացնել սարք» բաժնում սարքը հեռացնելն անմիջապես դադարեցնում է դրա գաղտնաբառի գործողությունը։"
+
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
 msgstr "Ուփ։ Էջը չի գտնվել։"
@@ -1536,6 +1652,10 @@ msgstr "Ուփ։ Էջը չի գտնվել։"
 #: ../../../lib/web/src/components/layout/nav-group.tsx
 msgid "Open actions"
 msgstr "Բացել գործողությունները"
+
+#: src/features/help/devices.tsx
+msgid "Open Calendars or People and choose Connect device."
+msgstr "Բացեք Օրացույցներ կամ Մարդիկ և ընտրեք «Միացնել սարք»։"
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"
@@ -1655,9 +1775,13 @@ msgstr "Գրառումներ և մեկնաբանություններ"
 msgid "Previous image"
 msgstr "Նախորդ նկարը"
 
-#: ../../../lib/web/src/components/calendar/mini-month.tsx
+#: ../../../lib/web/src/components/calendar/date-header.tsx
 msgid "Previous month"
-msgstr ""
+msgstr "Նախորդ ամիս"
+
+#: ../../../lib/web/src/components/calendar/date-header.tsx
+msgid "Previous year"
+msgstr "Նախորդ տարի"
 
 #: ../../../lib/web/src/components/server-documents-footer.tsx
 #: ../../../lib/web/src/features/document/document-page.tsx
@@ -1680,6 +1804,10 @@ msgstr "Հատկություններ"
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Push notification"
 msgstr "Push ծանուցում"
+
+#: src/features/help/index.tsx
+msgid "Put your contacts and calendars on your phone, tablet or computer."
+msgstr "Տեղադրեք ձեր կոնտակտներն ու օրացույցները ձեր հեռախոսում, պլանշետում կամ համակարգչում։"
 
 #: src/features/help/contribute-dialog.tsx
 msgid "Question"
@@ -1758,6 +1886,7 @@ msgstr "Հեռացնել {0} զտիչը"
 #: ../../../lib/web/src/components/member-list.tsx
 #: ../../../lib/web/src/components/member-list.tsx
 #: ../../../lib/web/src/components/person-picker.tsx
+#: ../../../lib/web/src/components/person-picker.tsx
 msgid "Remove {name}"
 msgstr "Հեռացնել {name}-ը"
 
@@ -1805,7 +1934,7 @@ msgstr "Վերանվանել այս տախտակի սյունակը"
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 #: ../../../lib/web/src/components/calendar/time-grid.tsx
 msgid "Repeats"
-msgstr ""
+msgstr "Կրկնվում է"
 
 #: ../../../lib/web/src/components/entity/entity-comment-thread.tsx
 #: ../../../lib/web/src/components/entity/entity-comment-thread.tsx
@@ -2179,6 +2308,10 @@ msgstr "Անցնել 1-9 տեսքի"
 msgid "System"
 msgstr "Համակարգ"
 
+#: src/features/help/devices.tsx
+msgid "System Settings, Internet Accounts, Add Other Account, then CardDAV Account for contacts or CalDAV Account for calendars."
+msgstr "Համակարգի կարգավորումներ, Ինտերնետային հաշիվներ, Ավելացնել այլ հաշիվ, ապա CardDAV հաշիվ՝ կոնտակտների համար, կամ CalDAV հաշիվ՝ օրացույցների համար։"
+
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Tag already exists"
 msgstr "Թեգն արդեն գոյություն ունի"
@@ -2235,6 +2368,10 @@ msgstr "Տեսախցիկի հարցումը չպատասխանվեց"
 msgid "The microphone request was not answered"
 msgstr "Խոսափողի հարցումը չպատասխանվեց"
 
+#: src/features/help/devices.tsx
+msgid "The Mochi app shows your contacts and calendars itself. To put them into the phone's own Contacts and Calendar apps, use DAVx5."
+msgstr "Mochi հավելվածն ինքն է ցույց տալիս ձեր կոնտակտներն ու օրացույցները։ Դրանք հեռախոսի սեփական Կոնտակտներ և Օրացույց հավելվածներում տեղադրելու համար օգտագործեք DAVx5։"
+
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "The passkey request was not answered"
 msgstr "Անցաբանալու հարցումը չպատասխանվեց"
@@ -2254,6 +2391,10 @@ msgstr "Այս հավելվածին թույլատրված չէ օգտագործ
 #: ../../../lib/web/src/components/game/game-end-dialogs.tsx
 msgid "This permanently deletes the game and its chat. This cannot be undone."
 msgstr "Սա ընդմիշտ կջնջի խաղը և դրա չաթը։ Այս գործողությունը հնարավոր չէ հետարկել։"
+
+#: src/features/help/devices.tsx
+msgid "Thunderbird"
+msgstr "Thunderbird"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Thursday"
@@ -2492,6 +2633,10 @@ msgstr "Ի՞նչ կաներ, ո՞ւմ համար է, ինչո՞ւ է կարևո�
 msgid "What you want to ask, in one line"
 msgstr "Ինչ ես ուզում հարցնել, մեկ տողով"
 
+#: ../../../lib/web/src/components/calendar/date-header.tsx
+msgid "Year"
+msgstr "Տարի"
+
 #: ../../../lib/web/src/features/errors/general-error.tsx
 msgid "You do not have access to this section."
 msgstr "Այս բաժինը ձեզ հասանելի չէ։"
@@ -2503,6 +2648,10 @@ msgstr "Ձեր հաշիվը տեղափոխվել է այստեղ {source}-ից: 
 #: ../../../lib/web/src/components/comment-composer.tsx
 msgid "Your attachments will be lost."
 msgstr "Ձեր կցորդները կկորչեն։"
+
+#: src/features/help/devices.tsx
+msgid "Your contacts and calendars sync to your phone, tablet and computer over CardDAV and CalDAV, which every major contacts and calendar app speaks."
+msgstr "Ձեր կոնտակտներն ու օրացույցները համաժամացվում են ձեր հեռախոսի, պլանշետի և համակարգչի հետ CardDAV-ի և CalDAV-ի միջոցով, որոնք հասկանում են կոնտակտների ու օրացույցի բոլոր խոշոր հավելվածները։"
 
 #: src/features/help/contribute-dialog.tsx
 msgid "Your introduction has been submitted and will appear after moderation."

@@ -40,6 +40,10 @@ msgid "{0, plural, one {# result} other {# results}}"
 msgstr "{0, plural, one {# முடிவு} other {# முடிவுகள்}}"
 
 #. placeholder {0}: displayInfo.count
+#. placeholder {0}: selectedIds.length
+#. placeholder {0}: unknownIds.length
+#: ../../../lib/web/src/components/person-picker.tsx
+#: ../../../lib/web/src/components/person-picker.tsx
 #: ../../../lib/web/src/components/person-picker.tsx
 msgid "{0, plural, one {# selected} other {# selected}}"
 msgstr "{0, plural, one {# தேர்ந்தெடுக்கப்பட்டது} other {# தேர்ந்தெடுக்கப்பட்டது}}"
@@ -65,21 +69,23 @@ msgstr "{count, plural, one {#நி} other {#நி}}"
 msgid "{count, plural, one {#w} other {#w}}"
 msgstr "{count, plural, one {#வா} other {#வா}}"
 
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
 #: ../../../lib/web/src/components/calendar/tooltip.ts
 msgid "{day}, {from} to {to}"
-msgstr ""
+msgstr "{day}, {from} முதல் {to} வரை"
 
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "{entityLabel} name"
 msgstr "{entityLabel} பெயர்"
 
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
 #: ../../../lib/web/src/components/calendar/tooltip.ts
 msgid "{from} to {to}"
-msgstr ""
+msgstr "{from} முதல் {to} வரை"
 
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 msgid "{hidden, plural, one {+# more} other {+# more}}"
-msgstr ""
+msgstr "{hidden, plural, one {+# மேலும்} other {+# மேலும்}}"
 
 #: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx
 msgid "{opponentName} offered a draw"
@@ -218,8 +224,9 @@ msgid "AI"
 msgstr "AI"
 
 #: ../../../lib/web/src/components/calendar/time-grid.tsx
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
 msgid "All day"
-msgstr ""
+msgstr "நாள் முழுவதும்"
 
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Allow anyone to search for {entityLabel}"
@@ -237,6 +244,10 @@ msgstr "பிழை ஏற்பட்டது"
 #: ../../../lib/web/src/lib/error-normalizer.ts
 msgid "An unexpected error occurred"
 msgstr "எதிர்பாராத பிழை ஏற்பட்டது"
+
+#: src/features/help/devices.tsx
+msgid "Android"
+msgstr "Android"
 
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
@@ -296,6 +307,10 @@ msgstr "ஒரு கேள்வி கேளுங்கள்"
 #: src/features/help/contribute-dialog.tsx
 msgid "Ask the community on the Mochi users mailing list. Be specific about what you've tried so far."
 msgstr "Mochi பயனர் அஞ்சல் பட்டியலில் சமூகத்திடம் கேளுங்கள். இதுவரை நீங்கள் என்ன முயற்சித்தீர்கள் என்பது குறித்து குறிப்பாக இருங்கள்."
+
+#: ../../../lib/web/src/components/timezone-select.tsx
+msgid "At sea"
+msgstr "கடலில்"
 
 #: ../../../lib/web/src/components/comment-composer.tsx
 msgid "Attach comment files"
@@ -392,6 +407,10 @@ msgstr "உலாவி அறிவிப்புகள்"
 msgid "Bug report submitted."
 msgstr "பிழை அறிக்கை சமர்ப்பிக்கப்பட்டது."
 
+#: ../../../lib/web/src/features/accounts/types.ts
+msgid "Calendar server"
+msgstr "நாட்காட்டி சர்வர்"
+
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "Camera permission denied"
 msgstr "கேமரா அனுமதி மறுக்கப்பட்டது"
@@ -457,7 +476,7 @@ msgstr "{field} மாற்றப்பட்டது"
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 #: ../../../lib/web/src/components/calendar/time-grid.tsx
 msgid "Changed occurrence"
-msgstr ""
+msgstr "மாற்றப்பட்ட நிகழ்வு"
 
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Checkbox"
@@ -467,6 +486,10 @@ msgstr "தேர்வுப் பெட்டி"
 msgid "Checklist"
 msgstr "சரிபார்ப்பு பட்டியல்"
 
+#: ../../../lib/web/src/components/ui/date-picker.tsx
+msgid "Choose a date"
+msgstr "தேதியைத் தேர்ந்தெடுக்கவும்"
+
 #: ../../../lib/web/src/components/game/game-empty-state.tsx
 msgid "Choose a game from the sidebar or start a new one."
 msgstr "பக்கப்பட்டியில் இருந்து ஒரு விளையாட்டைத் தேர்ந்தெடுக்கவும் அல்லது புதிய ஒன்றைத் தொடங்கவும்."
@@ -475,6 +498,10 @@ msgstr "பக்கப்பட்டியில் இருந்து ஒ�
 #: ../../../lib/web/src/components/language-picker.tsx
 msgid "Choose language"
 msgstr "மொழியைத் தேர்ந்தெடுக்கவும்"
+
+#: src/features/help/devices.tsx
+msgid "Choose the account type Manual and enter the username, the password and the server address."
+msgstr "கணக்கு வகையாக கைமுறை என்பதைத் தேர்ந்தெடுத்து, பயனர்பெயர், கடவுச்சொல் மற்றும் சர்வர் முகவரியை உள்ளிடவும்."
 
 #: ../../../lib/web/src/components/banner-section.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
@@ -499,6 +526,7 @@ msgstr "தேடலை அழி"
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx
 #: ../../../lib/web/src/components/ui/sheet.tsx
+#: ../../../lib/web/src/components/ui/side-panel.tsx
 #: ../../../lib/web/src/components/ui/side-panel.tsx
 #: src/features/help/contribute-dialog.tsx
 msgid "Close"
@@ -585,6 +613,11 @@ msgstr "காட்சி அமைப்புகளை உள்ளமைக�
 msgid "Confirm"
 msgstr "உறுதிசெய்"
 
+#: src/features/help/devices.tsx
+#: src/features/help/index.tsx
+msgid "Connect your phone"
+msgstr "உங்கள் ஃபோனை இணைக்கவும்"
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connected"
 msgstr "இணைக்கப்பட்டது"
@@ -613,6 +646,10 @@ msgstr "தொடர்"
 msgid "Continue with {label}"
 msgstr "{label} மூலம் தொடரவும்"
 
+#: ../../../lib/web/src/features/accounts/account-add.tsx
+msgid "Continue with {providerLabel}"
+msgstr "{providerLabel} மூலம் தொடரவும்"
+
 #: ../../../lib/web/src/lib/toast-utils.ts
 msgid "Copied"
 msgstr "நகலெடுக்கப்பட்டது"
@@ -621,9 +658,17 @@ msgstr "நகலெடுக்கப்பட்டது"
 msgid "Copied to clipboard"
 msgstr "கிளிப்போர்டுக்கு நகலெடுக்கப்பட்டது"
 
+#: ../../../lib/web/src/components/calendar/month-grid.tsx
+#: ../../../lib/web/src/components/calendar/month-grid.tsx
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
 #: ../../../lib/web/src/components/ui/copy-button.tsx
 msgid "Copy"
 msgstr "நகலெடு"
+
+#: src/features/help/devices.tsx
+msgid "Copy the server address, the username and the password into the device. The password is shown once."
+msgstr "சர்வர் முகவரி, பயனர்பெயர் மற்றும் கடவுச்சொல்லை சாதனத்தில் நகலெடுத்து உள்ளிடவும். கடவுச்சொல் ஒரு முறை மட்டுமே காட்டப்படும்."
 
 #: ../../../lib/web/src/features/document/document-page.tsx
 msgid "Could not load this document. Please try again later."
@@ -699,6 +744,10 @@ msgstr "தரவு முரண்பாடு"
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Date"
 msgstr "தேதி"
+
+#: src/features/help/devices.tsx
+msgid "DAVx5 finds both your address books and your calendars. Turn on the ones to sync."
+msgstr "DAVx5 உங்கள் முகவரிப் புத்தகங்களையும் நாட்காட்டிகளையும் கண்டறியும். ஒத்திசைக்க வேண்டியவற்றை இயக்கவும்."
 
 #: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx
 msgid "Decline"
@@ -917,6 +966,10 @@ msgstr "மின்னஞ்சல்"
 msgid "Email code"
 msgstr "மின்னஞ்சல் குறியீடு"
 
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
+msgid "Ends before it starts"
+msgstr "தொடங்குவதற்கு முன்பே முடிகிறது"
+
 #: ../../../lib/web/src/components/banner-section.tsx
 msgid "Enter banner text (markdown supported)..."
 msgstr "பேனர் உரையை உள்ளிடவும் (மார்க்டவுன் ஆதரிக்கப்படுகிறது)..."
@@ -924,6 +977,18 @@ msgstr "பேனர் உரையை உள்ளிடவும் (மா�
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Enter the code from your email"
 msgstr "உங்கள் மின்னஞ்சலில் உள்ள குறியீட்டை உள்ளிடவும்"
+
+#: src/features/help/devices.tsx
+msgid "Enter the password when asked, and choose the address books and calendars to add."
+msgstr "கேட்கும்போது கடவுச்சொல்லை உள்ளிட்டு, சேர்க்க வேண்டிய முகவரிப் புத்தகங்களையும் நாட்காட்டிகளையும் தேர்ந்தெடுக்கவும்."
+
+#: src/features/help/devices.tsx
+msgid "Enter the server address, the username and the password in each."
+msgstr "ஒவ்வொன்றிலும் சர்வர் முகவரி, பயனர்பெயர் மற்றும் கடவுச்சொல்லை உள்ளிடவும்."
+
+#: src/features/help/devices.tsx
+msgid "Enter the server address, the username and the password."
+msgstr "சர்வர் முகவரி, பயனர்பெயர் மற்றும் கடவுச்சொல்லை உள்ளிடவும்."
 
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Enter your authenticator code"
@@ -1077,6 +1142,22 @@ msgstr "கொடிகள்"
 msgid "Flat"
 msgstr "தட்டையானது"
 
+#: src/features/help/devices.tsx
+msgid "For calendars: Calendar, New Calendar, On the Network, with the username and the server address."
+msgstr "நாட்காட்டிகளுக்கு: நாட்காட்டி, புதிய நாட்காட்டி, நெட்வொர்க்கில், பயனர்பெயர் மற்றும் சர்வர் முகவரியுடன்."
+
+#: src/features/help/devices.tsx
+msgid "For calendars: Settings, Calendar, Accounts, Add Account, Other, Add CalDAV Account."
+msgstr "நாட்காட்டிகளுக்கு: அமைப்புகள், நாட்காட்டி, கணக்குகள், கணக்கைச் சேர், மற்றவை, CalDAV கணக்கைச் சேர்."
+
+#: src/features/help/devices.tsx
+msgid "For contacts: Address Book, New Address Book, Add CardDAV Address Book, with the username and the server address."
+msgstr "தொடர்புகளுக்கு: முகவரிப் புத்தகம், புதிய முகவரிப் புத்தகம், CardDAV முகவரிப் புத்தகத்தைச் சேர், பயனர்பெயர் மற்றும் சர்வர் முகவரியுடன்."
+
+#: src/features/help/devices.tsx
+msgid "For contacts: Settings, Contacts, Accounts, Add Account, Other, Add CardDAV Account."
+msgstr "தொடர்புகளுக்கு: அமைப்புகள், தொடர்புகள், கணக்குகள், கணக்கைச் சேர், மற்றவை, CardDAV கணக்கைச் சேர்."
+
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Friday"
 msgstr "வெள்ளிக்கிழமை"
@@ -1096,6 +1177,10 @@ msgstr "இருந்து"
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "From theme"
 msgstr "தீமிலிருந்து"
+
+#: src/features/help/devices.tsx
+msgid "Get a password for the device"
+msgstr "சாதனத்திற்கான கடவுச்சொல்லைப் பெறுங்கள்"
 
 #: ../../../lib/web/src/features/errors/access-denied-error.tsx
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
@@ -1123,6 +1208,7 @@ msgstr "இதன்படி தொகுக்கவும்"
 msgid "Group: {0}"
 msgstr "குழு: {0}"
 
+#: src/features/help/devices.tsx
 #: src/features/help/index.tsx
 #: src/routes/_authenticated/document/privacy.tsx
 #: src/routes/_authenticated/document/rules.tsx
@@ -1175,6 +1261,10 @@ msgstr "முதலெழுத்து அவதாரம்"
 msgid "Initials avatar for {name}"
 msgstr "{name} இன் முதலெழுத்து அவதாரம்"
 
+#: src/features/help/devices.tsx
+msgid "Install DAVx5 and add an account with \"Login with URL and user name\"."
+msgstr "DAVx5 ஐ நிறுவி, \"URL மற்றும் பயனர்பெயருடன் உள்நுழை\" மூலம் கணக்கைச் சேர்க்கவும்."
+
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Interest {weight}"
 msgstr "ஆர்வம் {weight}"
@@ -1191,6 +1281,10 @@ msgstr "உங்களை அறிமுகப்படுத்துங்�
 #: ../../../lib/web/src/components/entity/entity-field-editor.tsx
 msgid "Invalid date"
 msgstr "தவறான தேதி"
+
+#: src/features/help/devices.tsx
+msgid "iPhone and iPad"
+msgstr "iPhone மற்றும் iPad"
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "It seems like the page you're looking for <0/>does not exist or might have been removed."
@@ -1279,6 +1373,10 @@ msgstr "வெற்றிகரமாக வெளியேறியது"
 msgid "Logging out…"
 msgstr "வெளியேறுகிறது…"
 
+#: src/features/help/devices.tsx
+msgid "Mac"
+msgstr "Mac"
+
 #: ../../../lib/web/src/components/notification-category-button.tsx
 msgid "Manage categories"
 msgstr "வகைகளை நிர்வகி"
@@ -1340,6 +1438,10 @@ msgstr "மட்டுறுத்தல்"
 msgid "Monday"
 msgstr "திங்கட்கிழமை"
 
+#: ../../../lib/web/src/components/calendar/date-header.tsx
+msgid "Month"
+msgstr "மாதம்"
+
 #: ../../../lib/web/src/components/options-menu.tsx
 msgid "More options"
 msgstr "மேலும் விருப்பங்கள்"
@@ -1352,10 +1454,12 @@ msgstr "நகர்த்தப்பட்டது"
 msgid "Moved {field}"
 msgstr "{field} நகர்த்தப்பட்டது"
 
-#. placeholder {0}: dragging.day
+#. placeholder {0}: dayName(current.day)
+#. placeholder {0}: dayName(dragging.day)
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
 msgid "Moving to {0}"
-msgstr ""
+msgstr "{0} க்கு நகர்த்தப்படுகிறது"
 
 #: ../../../lib/web/src/components/entity/add-field-dialog.tsx
 #: ../../../lib/web/src/components/entity/entity-board-column.tsx
@@ -1377,6 +1481,10 @@ msgstr "பெயர் தேவை"
 msgid "Name must be 1000 characters or less"
 msgstr "பெயர் 1000 எழுத்துக்கள் அல்லது அதற்கும் குறைவாக இருக்க வேண்டும்"
 
+#: src/features/help/devices.tsx
+msgid "Name the device, for example your phone's name, and create its password."
+msgstr "சாதனத்திற்குப் பெயரிடுங்கள், எடுத்துக்காட்டாக உங்கள் ஃபோனின் பெயர், பிறகு அதன் கடவுச்சொல்லை உருவாக்குங்கள்."
+
 #: ../../../lib/web/src/features/errors/general-error.tsx
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
 msgid "Network error"
@@ -1397,9 +1505,13 @@ msgstr "புதிய விளையாட்டு"
 msgid "Next image"
 msgstr "அடுத்த படம்"
 
-#: ../../../lib/web/src/components/calendar/mini-month.tsx
+#: ../../../lib/web/src/components/calendar/date-header.tsx
 msgid "Next month"
-msgstr ""
+msgstr "அடுத்த மாதம்"
+
+#: ../../../lib/web/src/components/calendar/date-header.tsx
+msgid "Next year"
+msgstr "அடுத்த ஆண்டு"
 
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
 msgid "No {parentClassNames} to add to"
@@ -1529,6 +1641,10 @@ msgstr "எண்"
 msgid "On"
 msgstr "இயக்கத்தில்"
 
+#: src/features/help/devices.tsx
+msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connect device stops its password at once."
+msgstr "ஒரே கடவுச்சொல் தொடர்புகளுக்கும் நாட்காட்டிகளுக்கும் பயன்படும். ஒவ்வொரு சாதனத்திற்கும் தனிக் கடவுச்சொல் வழங்கப்படும்; சாதனத்தை இணைக்கவும் பகுதியில் ஒரு சாதனத்தை நீக்கினால் அதன் கடவுச்சொல் உடனே செயலிழக்கும்."
+
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
 msgstr "அய்யோ! பக்கம் கிடைக்கவில்லை!"
@@ -1536,6 +1652,10 @@ msgstr "அய்யோ! பக்கம் கிடைக்கவில்ல
 #: ../../../lib/web/src/components/layout/nav-group.tsx
 msgid "Open actions"
 msgstr "செயல்களைத் திற"
+
+#: src/features/help/devices.tsx
+msgid "Open Calendars or People and choose Connect device."
+msgstr "நாட்காட்டிகள் அல்லது மக்கள் ஐத் திறந்து சாதனத்தை இணைக்கவும் என்பதைத் தேர்ந்தெடுக்கவும்."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"
@@ -1655,9 +1775,13 @@ msgstr "பதிவுகள் மற்றும் கருத்துக�
 msgid "Previous image"
 msgstr "முந்தைய படம்"
 
-#: ../../../lib/web/src/components/calendar/mini-month.tsx
+#: ../../../lib/web/src/components/calendar/date-header.tsx
 msgid "Previous month"
-msgstr ""
+msgstr "முந்தைய மாதம்"
+
+#: ../../../lib/web/src/components/calendar/date-header.tsx
+msgid "Previous year"
+msgstr "முந்தைய ஆண்டு"
 
 #: ../../../lib/web/src/components/server-documents-footer.tsx
 #: ../../../lib/web/src/features/document/document-page.tsx
@@ -1680,6 +1804,10 @@ msgstr "பண்புகள்"
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Push notification"
 msgstr "புஷ் அறிவிப்பு"
+
+#: src/features/help/index.tsx
+msgid "Put your contacts and calendars on your phone, tablet or computer."
+msgstr "உங்கள் தொடர்புகளையும் நாட்காட்டிகளையும் ஃபோன், டேப்லெட் அல்லது கணினியில் வைத்துக்கொள்ளுங்கள்."
 
 #: src/features/help/contribute-dialog.tsx
 msgid "Question"
@@ -1758,6 +1886,7 @@ msgstr "{0} filter-ஐ அகற்று"
 #: ../../../lib/web/src/components/member-list.tsx
 #: ../../../lib/web/src/components/member-list.tsx
 #: ../../../lib/web/src/components/person-picker.tsx
+#: ../../../lib/web/src/components/person-picker.tsx
 msgid "Remove {name}"
 msgstr "{name}-ஐ அகற்று"
 
@@ -1805,7 +1934,7 @@ msgstr "இந்த போர்டு நெடுவரிசையின் 
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 #: ../../../lib/web/src/components/calendar/time-grid.tsx
 msgid "Repeats"
-msgstr ""
+msgstr "மீண்டும் நிகழ்கிறது"
 
 #: ../../../lib/web/src/components/entity/entity-comment-thread.tsx
 #: ../../../lib/web/src/components/entity/entity-comment-thread.tsx
@@ -2179,6 +2308,10 @@ msgstr "காட்சி 1-9 க்கு மாறு"
 msgid "System"
 msgstr "சிஸ்டம்"
 
+#: src/features/help/devices.tsx
+msgid "System Settings, Internet Accounts, Add Other Account, then CardDAV Account for contacts or CalDAV Account for calendars."
+msgstr "சிஸ்டம் அமைப்புகள், இணையக் கணக்குகள், பிற கணக்கைச் சேர், பிறகு தொடர்புகளுக்கு CardDAV கணக்கு அல்லது நாட்காட்டிகளுக்கு CalDAV கணக்கு."
+
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Tag already exists"
 msgstr "டேக் ஏற்கனவே உள்ளது"
@@ -2235,6 +2368,10 @@ msgstr "கேமரா கோரிக்கைக்கு பதில் இ
 msgid "The microphone request was not answered"
 msgstr "மைக்ரோஃபோன் கோரிக்கைக்கு பதில் இல்லை"
 
+#: src/features/help/devices.tsx
+msgid "The Mochi app shows your contacts and calendars itself. To put them into the phone's own Contacts and Calendar apps, use DAVx5."
+msgstr "Mochi செயலி உங்கள் தொடர்புகளையும் நாட்காட்டிகளையும் தானே காட்டுகிறது. அவற்றை ஃபோனின் சொந்த தொடர்புகள் மற்றும் நாட்காட்டி செயலிகளில் சேர்க்க DAVx5 ஐப் பயன்படுத்துங்கள்."
+
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "The passkey request was not answered"
 msgstr "Passkey கோரிக்கைக்கு பதில் இல்லை"
@@ -2254,6 +2391,10 @@ msgstr "இந்த ஆப்ஸுக்கு உங்கள் passkey-ஐ�
 #: ../../../lib/web/src/components/game/game-end-dialogs.tsx
 msgid "This permanently deletes the game and its chat. This cannot be undone."
 msgstr "இது விளையாட்டையும் அதன் அரட்டையையும் நிரந்தரமாக நீக்கும். இந்தச் செயலை மாற்ற முடியாது."
+
+#: src/features/help/devices.tsx
+msgid "Thunderbird"
+msgstr "Thunderbird"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Thursday"
@@ -2492,6 +2633,10 @@ msgstr "அது என்ன செய்யும், அது யாரு�
 msgid "What you want to ask, in one line"
 msgstr "நீங்கள் என்ன கேட்க விரும்புகிறீர்கள், ஒரு வரியில்"
 
+#: ../../../lib/web/src/components/calendar/date-header.tsx
+msgid "Year"
+msgstr "ஆண்டு"
+
 #: ../../../lib/web/src/features/errors/general-error.tsx
 msgid "You do not have access to this section."
 msgstr "இந்தப் பிரிவுக்கான அணுகல் உங்களுக்கு இல்லை."
@@ -2503,6 +2648,10 @@ msgstr "உங்கள் கணக்கு {source} இலிருந்த�
 #: ../../../lib/web/src/components/comment-composer.tsx
 msgid "Your attachments will be lost."
 msgstr "உங்கள் இணைப்புகள் இழக்கப்படும்."
+
+#: src/features/help/devices.tsx
+msgid "Your contacts and calendars sync to your phone, tablet and computer over CardDAV and CalDAV, which every major contacts and calendar app speaks."
+msgstr "உங்கள் தொடர்புகளும் நாட்காட்டிகளும் CardDAV மற்றும் CalDAV வழியாக ஃபோன், டேப்லெட் மற்றும் கணினியுடன் ஒத்திசைக்கப்படும்; முக்கியமான தொடர்பு மற்றும் நாட்காட்டி செயலிகள் அனைத்தும் இவற்றை ஆதரிக்கின்றன."
 
 #: src/features/help/contribute-dialog.tsx
 msgid "Your introduction has been submitted and will appear after moderation."

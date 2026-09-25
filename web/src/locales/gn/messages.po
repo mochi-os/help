@@ -40,6 +40,10 @@ msgid "{0, plural, one {# result} other {# results}}"
 msgstr "{0, plural, one {# ojejuhu} other {# ojejuhu}}"
 
 #. placeholder {0}: displayInfo.count
+#. placeholder {0}: selectedIds.length
+#. placeholder {0}: unknownIds.length
+#: ../../../lib/web/src/components/person-picker.tsx
+#: ../../../lib/web/src/components/person-picker.tsx
 #: ../../../lib/web/src/components/person-picker.tsx
 msgid "{0, plural, one {# selected} other {# selected}}"
 msgstr "{0, plural, one {# poravopyre} other {# poravopyre}}"
@@ -65,21 +69,23 @@ msgstr "{count, plural, one {#min} other {#min}}"
 msgid "{count, plural, one {#w} other {#w}}"
 msgstr "{count, plural, one {#arap} other {#arap}}"
 
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
 #: ../../../lib/web/src/components/calendar/tooltip.ts
 msgid "{day}, {from} to {to}"
-msgstr ""
+msgstr "{day}, {from} guive {to} peve"
 
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "{entityLabel} name"
 msgstr "{entityLabel} réra"
 
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
 #: ../../../lib/web/src/components/calendar/tooltip.ts
 msgid "{from} to {to}"
-msgstr ""
+msgstr "{from} guive {to} peve"
 
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 msgid "{hidden, plural, one {+# more} other {+# more}}"
-msgstr ""
+msgstr "{hidden, plural, one {+# hetave} other {+# hetave}}"
 
 #: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx
 msgid "{opponentName} offered a draw"
@@ -218,8 +224,9 @@ msgid "AI"
 msgstr "AI"
 
 #: ../../../lib/web/src/components/calendar/time-grid.tsx
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
 msgid "All day"
-msgstr ""
+msgstr "Ára pukukue"
 
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Allow anyone to search for {entityLabel}"
@@ -237,6 +244,10 @@ msgstr "Oĩ peteĩ jejavy"
 #: ../../../lib/web/src/lib/error-normalizer.ts
 msgid "An unexpected error occurred"
 msgstr "Oĩ peteĩ jejavy ñeha'ãrõ'ỹva"
+
+#: src/features/help/devices.tsx
+msgid "Android"
+msgstr "Android"
 
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
@@ -296,6 +307,10 @@ msgstr "Eporandu peteĩ mba'e"
 #: src/features/help/contribute-dialog.tsx
 msgid "Ask the community on the Mochi users mailing list. Be specific about what you've tried so far."
 msgstr "Eporandu tekohápe Mochi puruhárakuéra correo listápe. Ehechauka mba'épa reha'ãma ko'ágã peve."
+
+#: ../../../lib/web/src/components/timezone-select.tsx
+msgid "At sea"
+msgstr "Paraguasúpe"
 
 #: ../../../lib/web/src/components/comment-composer.tsx
 msgid "Attach comment files"
@@ -392,6 +407,10 @@ msgstr "Browser ñe'ẽmondokuéra"
 msgid "Bug report submitted."
 msgstr "Jejavy marandu oñemondóma."
 
+#: ../../../lib/web/src/features/accounts/types.ts
+msgid "Calendar server"
+msgstr "Arapapaha mohendaha"
+
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "Camera permission denied"
 msgstr "Cámara permiso ojeheja"
@@ -457,7 +476,7 @@ msgstr "{field} oñemoambue"
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 #: ../../../lib/web/src/components/calendar/time-grid.tsx
 msgid "Changed occurrence"
-msgstr ""
+msgstr "Evento oñemoambuéva"
 
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Checkbox"
@@ -467,6 +486,10 @@ msgstr "Checkbox"
 msgid "Checklist"
 msgstr "Checklist"
 
+#: ../../../lib/web/src/components/ui/date-picker.tsx
+msgid "Choose a date"
+msgstr "Eiporavo peteĩ ára"
+
 #: ../../../lib/web/src/components/game/game-empty-state.tsx
 msgid "Choose a game from the sidebar or start a new one."
 msgstr "Eiporavo peteĩ ñembosarái sidebar-gui térã eñepyrũ peteĩ pyahu."
@@ -475,6 +498,10 @@ msgstr "Eiporavo peteĩ ñembosarái sidebar-gui térã eñepyrũ peteĩ pyahu."
 #: ../../../lib/web/src/components/language-picker.tsx
 msgid "Choose language"
 msgstr "Eiporavo ñe'ẽ"
+
+#: src/features/help/devices.tsx
+msgid "Choose the account type Manual and enter the username, the password and the server address."
+msgstr "Eiporavo tetãygua tipo Manual ha emoinge puruhára réra, ñe'ẽñemi ha mohendaha dirección."
 
 #: ../../../lib/web/src/components/banner-section.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
@@ -499,6 +526,7 @@ msgstr "Embopotĩ jeheka"
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx
 #: ../../../lib/web/src/components/ui/sheet.tsx
+#: ../../../lib/web/src/components/ui/side-panel.tsx
 #: ../../../lib/web/src/components/ui/side-panel.tsx
 #: src/features/help/contribute-dialog.tsx
 msgid "Close"
@@ -585,6 +613,11 @@ msgstr "Embohekombo'e view hekombo'e"
 msgid "Confirm"
 msgstr "Emoneĩ"
 
+#: src/features/help/devices.tsx
+#: src/features/help/index.tsx
+msgid "Connect your phone"
+msgstr "Embojoaju ne pumbyry"
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connected"
 msgstr "Oñembojuaju"
@@ -613,6 +646,10 @@ msgstr "Tenonde"
 msgid "Continue with {label}"
 msgstr "Eku tenonde {label} ndive"
 
+#: ../../../lib/web/src/features/accounts/account-add.tsx
+msgid "Continue with {providerLabel}"
+msgstr "Eku'e {providerLabel} ndive"
+
 #: ../../../lib/web/src/lib/toast-utils.ts
 msgid "Copied"
 msgstr "Oñemonguatia"
@@ -621,9 +658,17 @@ msgstr "Oñemonguatia"
 msgid "Copied to clipboard"
 msgstr "Oñekopiáma clipboard-pe"
 
+#: ../../../lib/web/src/components/calendar/month-grid.tsx
+#: ../../../lib/web/src/components/calendar/month-grid.tsx
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
 #: ../../../lib/web/src/components/ui/copy-button.tsx
 msgid "Copy"
 msgstr "Kopia"
+
+#: src/features/help/devices.tsx
+msgid "Copy the server address, the username and the password into the device. The password is shown once."
+msgstr "Embokopia mohendaha dirección, puruhára réra ha ñe'ẽñemi pe mba'epurúpe. Pe ñe'ẽñemi ojehechauka peteĩ jeýnte."
 
 #: ../../../lib/web/src/features/document/document-page.tsx
 msgid "Could not load this document. Please try again later."
@@ -699,6 +744,10 @@ msgstr "Mba'ekuaarã joavy"
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Date"
 msgstr "Ára"
+
+#: src/features/help/devices.tsx
+msgid "DAVx5 finds both your address books and your calendars. Turn on the ones to sync."
+msgstr "DAVx5 ojuhu ne ogarenda kuatia ha ne arapapahakuéra. Emyandy umi eipotáva oñembojoja."
 
 #: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx
 msgid "Decline"
@@ -917,6 +966,10 @@ msgstr "Email"
 msgid "Email code"
 msgstr "Código email"
 
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
+msgid "Ends before it starts"
+msgstr "Opa oñepyrũ mboyve"
+
 #: ../../../lib/web/src/components/banner-section.tsx
 msgid "Enter banner text (markdown supported)..."
 msgstr "Emoinge banner moñe'ẽ (markdown ojepuru)..."
@@ -924,6 +977,18 @@ msgstr "Emoinge banner moñe'ẽ (markdown ojepuru)..."
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Enter the code from your email"
 msgstr "Emoinge code ne email-pegua"
+
+#: src/features/help/devices.tsx
+msgid "Enter the password when asked, and choose the address books and calendars to add."
+msgstr "Emoinge ñe'ẽñemi ojejerurévo, ha eiporavo umi ogarenda kuatia ha arapapaha embojuajúva."
+
+#: src/features/help/devices.tsx
+msgid "Enter the server address, the username and the password in each."
+msgstr "Emoinge peteĩteĩvape mohendaha dirección, puruhára réra ha ñe'ẽñemi."
+
+#: src/features/help/devices.tsx
+msgid "Enter the server address, the username and the password."
+msgstr "Emoinge mohendaha dirección, puruhára réra ha ñe'ẽñemi."
 
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Enter your authenticator code"
@@ -1077,6 +1142,22 @@ msgstr "Banderakuéra"
 msgid "Flat"
 msgstr "Ipe"
 
+#: src/features/help/devices.tsx
+msgid "For calendars: Calendar, New Calendar, On the Network, with the username and the server address."
+msgstr "Arapapahakuérape ĝuarã: Arapapaha, Arapapaha pyahu, Ñanduti ári, puruhára réra ha mohendaha dirección reheve."
+
+#: src/features/help/devices.tsx
+msgid "For calendars: Settings, Calendar, Accounts, Add Account, Other, Add CalDAV Account."
+msgstr "Arapapahakuérape ĝuarã: Ñemboheko, Arapapaha, Tetãyguakuéra, Embojuaju tetãygua, Ambue, Embojuaju tetãygua CalDAV."
+
+#: src/features/help/devices.tsx
+msgid "For contacts: Address Book, New Address Book, Add CardDAV Address Book, with the username and the server address."
+msgstr "Contactokuérape ĝuarã: Ogarenda kuatia, Ogarenda kuatia pyahu, Embojuaju ogarenda kuatia CardDAV, puruhára réra ha mohendaha dirección reheve."
+
+#: src/features/help/devices.tsx
+msgid "For contacts: Settings, Contacts, Accounts, Add Account, Other, Add CardDAV Account."
+msgstr "Contactokuérape ĝuarã: Ñemboheko, Contactokuéra, Tetãyguakuéra, Embojuaju tetãygua, Ambue, Embojuaju tetãygua CardDAV."
+
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Friday"
 msgstr "Arapoteĩ"
@@ -1096,6 +1177,10 @@ msgstr "Oguõva"
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "From theme"
 msgstr "Téma guive"
+
+#: src/features/help/devices.tsx
+msgid "Get a password for the device"
+msgstr "Ejuhu peteĩ ñe'ẽñemi pe mba'epurúpe ĝuarã"
 
 #: ../../../lib/web/src/features/errors/access-denied-error.tsx
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
@@ -1123,6 +1208,7 @@ msgstr "Embyaty rupive"
 msgid "Group: {0}"
 msgstr "Aty: {0}"
 
+#: src/features/help/devices.tsx
 #: src/features/help/index.tsx
 #: src/routes/_authenticated/document/privacy.tsx
 #: src/routes/_authenticated/document/rules.tsx
@@ -1175,6 +1261,10 @@ msgstr "Avatar tai ñepyrũrãva"
 msgid "Initials avatar for {name}"
 msgstr "{name} avatar tai ñepyrũrãva"
 
+#: src/features/help/devices.tsx
+msgid "Install DAVx5 and add an account with \"Login with URL and user name\"."
+msgstr "Emohenda DAVx5 ha embojuaju peteĩ tetãygua \"Eike URL ha puruhára réra reheve\" ndive."
+
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Interest {weight}"
 msgstr "Temimbota {weight}"
@@ -1191,6 +1281,10 @@ msgstr "Eikuaauka ne ra'e"
 #: ../../../lib/web/src/components/entity/entity-field-editor.tsx
 msgid "Invalid date"
 msgstr "Arange ndoikóiva"
+
+#: src/features/help/devices.tsx
+msgid "iPhone and iPad"
+msgstr "iPhone ha iPad"
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "It seems like the page you're looking for <0/>does not exist or might have been removed."
@@ -1279,6 +1373,10 @@ msgstr "Osẽ porã"
 msgid "Logging out…"
 msgstr "Osẽhína…"
 
+#: src/features/help/devices.tsx
+msgid "Mac"
+msgstr "Mac"
+
 #: ../../../lib/web/src/components/notification-category-button.tsx
 msgid "Manage categories"
 msgstr "Eñangareko categoríakuéra rehe"
@@ -1340,6 +1438,10 @@ msgstr "Ñangareko"
 msgid "Monday"
 msgstr "Arakõi"
 
+#: ../../../lib/web/src/components/calendar/date-header.tsx
+msgid "Month"
+msgstr "Jasy"
+
 #: ../../../lib/web/src/components/options-menu.tsx
 msgid "More options"
 msgstr "Opción hetave"
@@ -1352,10 +1454,12 @@ msgstr "Oñemongu'e"
 msgid "Moved {field}"
 msgstr "{field} oñemongu'e"
 
-#. placeholder {0}: dragging.day
+#. placeholder {0}: dayName(current.day)
+#. placeholder {0}: dayName(dragging.day)
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
 msgid "Moving to {0}"
-msgstr ""
+msgstr "Oñemongu'ehína {0}-pe"
 
 #: ../../../lib/web/src/components/entity/add-field-dialog.tsx
 #: ../../../lib/web/src/components/entity/entity-board-column.tsx
@@ -1377,6 +1481,10 @@ msgstr "Téra oñeikotevẽ"
 msgid "Name must be 1000 characters or less"
 msgstr "Téra ojejapo va'erã 1000 tai'ã térã sa'ive ndive"
 
+#: src/features/help/devices.tsx
+msgid "Name the device, for example your phone's name, and create its password."
+msgstr "Embohéra pe mba'epuru, techapyrãrõ ne pumbyry réra, ha emoheñói iñe'ẽñemi."
+
 #: ../../../lib/web/src/features/errors/general-error.tsx
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
 msgid "Network error"
@@ -1397,9 +1505,13 @@ msgstr "Ñembosarái pyahu"
 msgid "Next image"
 msgstr "Ta'anga oseguíva"
 
-#: ../../../lib/web/src/components/calendar/mini-month.tsx
+#: ../../../lib/web/src/components/calendar/date-header.tsx
 msgid "Next month"
-msgstr ""
+msgstr "Jasy oúva"
+
+#: ../../../lib/web/src/components/calendar/date-header.tsx
+msgid "Next year"
+msgstr "Ary oúva"
 
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
 msgid "No {parentClassNames} to add to"
@@ -1529,6 +1641,10 @@ msgstr "Papapy"
 msgid "On"
 msgstr "Myendy"
 
+#: src/features/help/devices.tsx
+msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connect device stops its password at once."
+msgstr "Peteĩ ñe'ẽñemi oservi contactokuérape ha arapapahakuérape. Peteĩteĩ mba'epuru oguereko ijehegua, ha embogue vove peteĩ mba'epuru Embojoaju peteĩ mba'e ryepýpe, iñe'ẽñemi opa pya'e."
+
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
 msgstr "Hetia'epa! ¡Kuatiarogue ndojejuhúi!"
@@ -1536,6 +1652,10 @@ msgstr "Hetia'epa! ¡Kuatiarogue ndojejuhúi!"
 #: ../../../lib/web/src/components/layout/nav-group.tsx
 msgid "Open actions"
 msgstr "Eipe'a tembiaporã"
+
+#: src/features/help/devices.tsx
+msgid "Open Calendars or People and choose Connect device."
+msgstr "Eipe'a Arapapahakuéra térã Tapichakuéra ha eiporavo Embojoaju peteĩ mba'e."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"
@@ -1655,9 +1775,13 @@ msgstr "Marandu ha comentarios"
 msgid "Previous image"
 msgstr "Ta'anga tenondete"
 
-#: ../../../lib/web/src/components/calendar/mini-month.tsx
+#: ../../../lib/web/src/components/calendar/date-header.tsx
 msgid "Previous month"
-msgstr ""
+msgstr "Jasy ohasava'ekue"
+
+#: ../../../lib/web/src/components/calendar/date-header.tsx
+msgid "Previous year"
+msgstr "Ary ohasava'ekue"
 
 #: ../../../lib/web/src/components/server-documents-footer.tsx
 #: ../../../lib/web/src/features/document/document-page.tsx
@@ -1680,6 +1804,10 @@ msgstr "Mba'éichagua"
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Push notification"
 msgstr "Push marandu"
+
+#: src/features/help/index.tsx
+msgid "Put your contacts and calendars on your phone, tablet or computer."
+msgstr "Emoĩ ne contactokuéra ha ne arapapahakuéra ne pumbyrýpe, tablétape térã computadorápe."
 
 #: src/features/help/contribute-dialog.tsx
 msgid "Question"
@@ -1758,6 +1886,7 @@ msgstr "Embogue {0} filter"
 #: ../../../lib/web/src/components/member-list.tsx
 #: ../../../lib/web/src/components/member-list.tsx
 #: ../../../lib/web/src/components/person-picker.tsx
+#: ../../../lib/web/src/components/person-picker.tsx
 msgid "Remove {name}"
 msgstr "Embogue {name}"
 
@@ -1805,7 +1934,7 @@ msgstr "Embohera jey ko board columna"
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 #: ../../../lib/web/src/components/calendar/time-grid.tsx
 msgid "Repeats"
-msgstr ""
+msgstr "Oiko jey"
 
 #: ../../../lib/web/src/components/entity/entity-comment-thread.tsx
 #: ../../../lib/web/src/components/entity/entity-comment-thread.tsx
@@ -2179,6 +2308,10 @@ msgstr "Eike vista 1-9"
 msgid "System"
 msgstr "Sistema"
 
+#: src/features/help/devices.tsx
+msgid "System Settings, Internet Accounts, Add Other Account, then CardDAV Account for contacts or CalDAV Account for calendars."
+msgstr "Ñemboheko Sistema, Internet Tetãyguakuéra, Embojuaju ambue tetãygua, upéi Tetãygua CardDAV contactokuérape ĝuarã térã Tetãygua CalDAV arapapahakuérape ĝuarã."
+
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Tag already exists"
 msgstr "Tag oĩma"
@@ -2235,6 +2368,10 @@ msgstr "Cámara jerure ndojehechái mbohovái"
 msgid "The microphone request was not answered"
 msgstr "Micrófono jerure ndojehechái mbohovái"
 
+#: src/features/help/devices.tsx
+msgid "The Mochi app shows your contacts and calendars itself. To put them into the phone's own Contacts and Calendar apps, use DAVx5."
+msgstr "Mochi aplikasiõ ohechauka ijehegui ne contactokuéra ha ne arapapahakuéra. Emoĩ hağua umíva pumbyry Contactokuéra ha Arapapaha aplikasiõme, eipuru DAVx5."
+
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "The passkey request was not answered"
 msgstr "Passkey jerure ndojehechái mbohovái"
@@ -2254,6 +2391,10 @@ msgstr "Ko aplicación ndaikatúi oiporu nde passkey. Emoneĩ Ajustes-pe, Permis
 #: ../../../lib/web/src/components/game/game-end-dialogs.tsx
 msgid "This permanently deletes the game and its chat. This cannot be undone."
 msgstr "Kóva ohundíta opa árape g̃uarã ñembosarái ha ijoayhuháicha. Ndaikatuvéima ojejapo jey."
+
+#: src/features/help/devices.tsx
+msgid "Thunderbird"
+msgstr "Thunderbird"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Thursday"
@@ -2492,6 +2633,10 @@ msgstr "¿Mba'épa ojapóta, mávape g̃uarãpa, mba'érepa iporã?"
 msgid "What you want to ask, in one line"
 msgstr "Mba'e reporanduséva, peteĩ líneape"
 
+#: ../../../lib/web/src/components/calendar/date-header.tsx
+msgid "Year"
+msgstr "Ary"
+
 #: ../../../lib/web/src/features/errors/general-error.tsx
 msgid "You do not have access to this section."
 msgstr "Ndereguerekói jeike ko vorépe."
@@ -2503,6 +2648,10 @@ msgstr "Nde cuenta oiko ko'ápe {source} guive. Peve reipe'a upépe, marandu ha 
 #: ../../../lib/web/src/components/comment-composer.tsx
 msgid "Your attachments will be lost."
 msgstr "Ne archivo mbojoapypyre okañýta."
+
+#: src/features/help/devices.tsx
+msgid "Your contacts and calendars sync to your phone, tablet and computer over CardDAV and CalDAV, which every major contacts and calendar app speaks."
+msgstr "Ne contactokuéra ha ne arapapahakuéra oñembojoja ne pumbyry, tablét ha computadora ndive CardDAV ha CalDAV rupive; umíva ontende opaite contacto ha arapapaha aplikasiõ guasu."
 
 #: src/features/help/contribute-dialog.tsx
 msgid "Your introduction has been submitted and will appear after moderation."

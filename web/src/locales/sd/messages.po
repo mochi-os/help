@@ -40,6 +40,10 @@ msgid "{0, plural, one {# result} other {# results}}"
 msgstr "{0, plural, one {# نتيجو} other {# نتيجا}}"
 
 #. placeholder {0}: displayInfo.count
+#. placeholder {0}: selectedIds.length
+#. placeholder {0}: unknownIds.length
+#: ../../../lib/web/src/components/person-picker.tsx
+#: ../../../lib/web/src/components/person-picker.tsx
 #: ../../../lib/web/src/components/person-picker.tsx
 msgid "{0, plural, one {# selected} other {# selected}}"
 msgstr "{0, plural, one {# چونڊيل} other {# چونڊيل}}"
@@ -65,21 +69,23 @@ msgstr "{count, plural, one {#م} other {#م}}"
 msgid "{count, plural, one {#w} other {#w}}"
 msgstr "{count, plural, one {#ه} other {#ه}}"
 
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
 #: ../../../lib/web/src/components/calendar/tooltip.ts
 msgid "{day}, {from} to {to}"
-msgstr ""
+msgstr "{day}، {from} کان {to}"
 
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "{entityLabel} name"
 msgstr "{entityLabel} جو نالو"
 
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
 #: ../../../lib/web/src/components/calendar/tooltip.ts
 msgid "{from} to {to}"
-msgstr ""
+msgstr "{from} کان {to}"
 
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 msgid "{hidden, plural, one {+# more} other {+# more}}"
-msgstr ""
+msgstr "{hidden, plural, one {+# وڌيڪ} other {+# وڌيڪ}}"
 
 #: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx
 msgid "{opponentName} offered a draw"
@@ -218,8 +224,9 @@ msgid "AI"
 msgstr "AI"
 
 #: ../../../lib/web/src/components/calendar/time-grid.tsx
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
 msgid "All day"
-msgstr ""
+msgstr "سڄو ڏينهن"
 
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Allow anyone to search for {entityLabel}"
@@ -237,6 +244,10 @@ msgstr "هڪ خرابي پيش آئي"
 #: ../../../lib/web/src/lib/error-normalizer.ts
 msgid "An unexpected error occurred"
 msgstr "هڪ غير متوقع خرابي پيش آئي"
+
+#: src/features/help/devices.tsx
+msgid "Android"
+msgstr "Android"
 
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
@@ -296,6 +307,10 @@ msgstr "سوال پڇو"
 #: src/features/help/contribute-dialog.tsx
 msgid "Ask the community on the Mochi users mailing list. Be specific about what you've tried so far."
 msgstr "Mochi استعمال ڪندڙن جي ميلنگ لسٽ تي ڪميونٽي کان پڇو. هينئر تائين توهان ڇا ڪوشش ڪئي آهي، ان بابت واضح رهو."
+
+#: ../../../lib/web/src/components/timezone-select.tsx
+msgid "At sea"
+msgstr "سمنڊ ۾"
 
 #: ../../../lib/web/src/components/comment-composer.tsx
 msgid "Attach comment files"
@@ -392,6 +407,10 @@ msgstr "براؤزر اطلاع"
 msgid "Bug report submitted."
 msgstr "بگ رپورٽ جمع ڪرايو ويو."
 
+#: ../../../lib/web/src/features/accounts/types.ts
+msgid "Calendar server"
+msgstr "ڪئلينڊر سرور"
+
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "Camera permission denied"
 msgstr "ڪئميرا جي اجازت رد ڪئي وئي"
@@ -457,7 +476,7 @@ msgstr "{field} تبديل ٿيو"
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 #: ../../../lib/web/src/components/calendar/time-grid.tsx
 msgid "Changed occurrence"
-msgstr ""
+msgstr "تبديل ٿيل واقعو"
 
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Checkbox"
@@ -467,6 +486,10 @@ msgstr "چيڪ بڪس"
 msgid "Checklist"
 msgstr "چيڪ لسٽ"
 
+#: ../../../lib/web/src/components/ui/date-picker.tsx
+msgid "Choose a date"
+msgstr "تاريخ چونڊيو"
+
 #: ../../../lib/web/src/components/game/game-empty-state.tsx
 msgid "Choose a game from the sidebar or start a new one."
 msgstr "سائڊبار مان راند چونڊيو يا نئين شروع ڪريو."
@@ -475,6 +498,10 @@ msgstr "سائڊبار مان راند چونڊيو يا نئين شروع ڪر�
 #: ../../../lib/web/src/components/language-picker.tsx
 msgid "Choose language"
 msgstr "ٻولي چونڊيو"
+
+#: src/features/help/devices.tsx
+msgid "Choose the account type Manual and enter the username, the password and the server address."
+msgstr "اڪائونٽ جو قسم دستي چونڊيو ۽ صارف نالو، پاسورڊ ۽ سرور جو پتو داخل ڪريو."
 
 #: ../../../lib/web/src/components/banner-section.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
@@ -499,6 +526,7 @@ msgstr "ڳولا صاف ڪريو"
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx
 #: ../../../lib/web/src/components/ui/sheet.tsx
+#: ../../../lib/web/src/components/ui/side-panel.tsx
 #: ../../../lib/web/src/components/ui/side-panel.tsx
 #: src/features/help/contribute-dialog.tsx
 msgid "Close"
@@ -585,6 +613,11 @@ msgstr "نظاري جون سيٽنگون ترتيب ڏيو"
 msgid "Confirm"
 msgstr "تصديق ڪريو"
 
+#: src/features/help/devices.tsx
+#: src/features/help/index.tsx
+msgid "Connect your phone"
+msgstr "پنهنجو فون ڳنڍيو"
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connected"
 msgstr "ڳنڍيل"
@@ -613,6 +646,10 @@ msgstr "جاري رکو"
 msgid "Continue with {label}"
 msgstr "{label} سان جاري رکو"
 
+#: ../../../lib/web/src/features/accounts/account-add.tsx
+msgid "Continue with {providerLabel}"
+msgstr "{providerLabel} سان جاري رکو"
+
 #: ../../../lib/web/src/lib/toast-utils.ts
 msgid "Copied"
 msgstr "ڪاپي ٿيو"
@@ -621,9 +658,17 @@ msgstr "ڪاپي ٿيو"
 msgid "Copied to clipboard"
 msgstr "ڪلپ بورڊ تي ڪاپي ٿيو"
 
+#: ../../../lib/web/src/components/calendar/month-grid.tsx
+#: ../../../lib/web/src/components/calendar/month-grid.tsx
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
 #: ../../../lib/web/src/components/ui/copy-button.tsx
 msgid "Copy"
 msgstr "ڪاپي ڪريو"
+
+#: src/features/help/devices.tsx
+msgid "Copy the server address, the username and the password into the device. The password is shown once."
+msgstr "سرور جو پتو، صارف نالو ۽ پاسورڊ ڊوائيس ۾ ڪاپي ڪريو. پاسورڊ صرف هڪ ڀيرو ڏيکاريو ويندو آهي."
 
 #: ../../../lib/web/src/features/document/document-page.tsx
 msgid "Could not load this document. Please try again later."
@@ -699,6 +744,10 @@ msgstr "ڊيٽا جو ٽڪراءُ"
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Date"
 msgstr "تاريخ"
+
+#: src/features/help/devices.tsx
+msgid "DAVx5 finds both your address books and your calendars. Turn on the ones to sync."
+msgstr "DAVx5 توهان جون ايڊريس بڪ ۽ ڪئلينڊر ٻئي ڳولي لهندو آهي. جن کي هم وقت ڪرڻو آهي، انهن کي آن ڪريو."
 
 #: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx
 msgid "Decline"
@@ -917,6 +966,10 @@ msgstr "اي ميل"
 msgid "Email code"
 msgstr "اي ميل ڪوڊ"
 
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
+msgid "Ends before it starts"
+msgstr "شروع ٿيڻ کان اڳ ختم ٿئي ٿو"
+
 #: ../../../lib/web/src/components/banner-section.tsx
 msgid "Enter banner text (markdown supported)..."
 msgstr "بينر متن داخل ڪريو (markdown سپورٽ ٿيل)..."
@@ -924,6 +977,18 @@ msgstr "بينر متن داخل ڪريو (markdown سپورٽ ٿيل)..."
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Enter the code from your email"
 msgstr "پنھنجي اِيميل مان ڪوڊ داخل ڪريو"
+
+#: src/features/help/devices.tsx
+msgid "Enter the password when asked, and choose the address books and calendars to add."
+msgstr "جڏهن پڇيو وڃي ته پاسورڊ داخل ڪريو، ۽ شامل ڪرڻ لاءِ ايڊريس بڪ ۽ ڪئلينڊر چونڊيو."
+
+#: src/features/help/devices.tsx
+msgid "Enter the server address, the username and the password in each."
+msgstr "هر هڪ ۾ سرور جو پتو، صارف نالو ۽ پاسورڊ داخل ڪريو."
+
+#: src/features/help/devices.tsx
+msgid "Enter the server address, the username and the password."
+msgstr "سرور جو پتو، صارف نالو ۽ پاسورڊ داخل ڪريو."
 
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Enter your authenticator code"
@@ -1077,6 +1142,22 @@ msgstr "نشان"
 msgid "Flat"
 msgstr "هموار"
 
+#: src/features/help/devices.tsx
+msgid "For calendars: Calendar, New Calendar, On the Network, with the username and the server address."
+msgstr "ڪئلينڊر لاءِ: ڪئلينڊر، نئون ڪئلينڊر، نيٽ ورڪ تي، صارف نالي ۽ سرور جي پتي سان."
+
+#: src/features/help/devices.tsx
+msgid "For calendars: Settings, Calendar, Accounts, Add Account, Other, Add CalDAV Account."
+msgstr "ڪئلينڊر لاءِ: سيٽنگون، ڪئلينڊر، اڪائونٽس، اڪائونٽ شامل ڪريو، ٻيو، CalDAV اڪائونٽ شامل ڪريو."
+
+#: src/features/help/devices.tsx
+msgid "For contacts: Address Book, New Address Book, Add CardDAV Address Book, with the username and the server address."
+msgstr "رابطن لاءِ: ايڊريس بڪ، نئين ايڊريس بڪ، CardDAV ايڊريس بڪ شامل ڪريو، صارف نالي ۽ سرور جي پتي سان."
+
+#: src/features/help/devices.tsx
+msgid "For contacts: Settings, Contacts, Accounts, Add Account, Other, Add CardDAV Account."
+msgstr "رابطن لاءِ: سيٽنگون، رابطا، اڪائونٽس، اڪائونٽ شامل ڪريو، ٻيو، CardDAV اڪائونٽ شامل ڪريو."
+
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Friday"
 msgstr "جمعو"
@@ -1096,6 +1177,10 @@ msgstr "کان"
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "From theme"
 msgstr "ٿيم کان"
+
+#: src/features/help/devices.tsx
+msgid "Get a password for the device"
+msgstr "ڊوائيس لاءِ پاسورڊ حاصل ڪريو"
 
 #: ../../../lib/web/src/features/errors/access-denied-error.tsx
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
@@ -1123,6 +1208,7 @@ msgstr "گروپ بندي ڪريو"
 msgid "Group: {0}"
 msgstr "گروپ: {0}"
 
+#: src/features/help/devices.tsx
 #: src/features/help/index.tsx
 #: src/routes/_authenticated/document/privacy.tsx
 #: src/routes/_authenticated/document/rules.tsx
@@ -1175,6 +1261,10 @@ msgstr "شروعاتي اکرن جو اوتار"
 msgid "Initials avatar for {name}"
 msgstr "{name} لاءِ شروعاتي اکرن جو اوتار"
 
+#: src/features/help/devices.tsx
+msgid "Install DAVx5 and add an account with \"Login with URL and user name\"."
+msgstr "DAVx5 انسٽال ڪريو ۽ ”URL ۽ صارف نالي سان لاگ ان ٿيو“ ذريعي اڪائونٽ شامل ڪريو."
+
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Interest {weight}"
 msgstr "دلچسپي {weight}"
@@ -1191,6 +1281,10 @@ msgstr "پنهنجو تعارف ڪرايو"
 #: ../../../lib/web/src/components/entity/entity-field-editor.tsx
 msgid "Invalid date"
 msgstr "غلط تاريخ"
+
+#: src/features/help/devices.tsx
+msgid "iPhone and iPad"
+msgstr "iPhone ۽ iPad"
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "It seems like the page you're looking for <0/>does not exist or might have been removed."
@@ -1279,6 +1373,10 @@ msgstr "ڪاميابيءَ سان لاگ آئوٽ ٿيو"
 msgid "Logging out…"
 msgstr "لاگ آئوٽ ٿي رهيو آهي…"
 
+#: src/features/help/devices.tsx
+msgid "Mac"
+msgstr "Mac"
+
 #: ../../../lib/web/src/components/notification-category-button.tsx
 msgid "Manage categories"
 msgstr "زمرن جو انتظام ڪريو"
@@ -1340,6 +1438,10 @@ msgstr "نگراني"
 msgid "Monday"
 msgstr "سومر"
 
+#: ../../../lib/web/src/components/calendar/date-header.tsx
+msgid "Month"
+msgstr "مهينو"
+
 #: ../../../lib/web/src/components/options-menu.tsx
 msgid "More options"
 msgstr "وڌيڪ اختيار"
@@ -1352,10 +1454,12 @@ msgstr "منتقل ٿيو"
 msgid "Moved {field}"
 msgstr "{field} منتقل ٿيو"
 
-#. placeholder {0}: dragging.day
+#. placeholder {0}: dayName(current.day)
+#. placeholder {0}: dayName(dragging.day)
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
 msgid "Moving to {0}"
-msgstr ""
+msgstr "{0} ڏانهن منتقل ٿي رهيو آهي"
 
 #: ../../../lib/web/src/components/entity/add-field-dialog.tsx
 #: ../../../lib/web/src/components/entity/entity-board-column.tsx
@@ -1377,6 +1481,10 @@ msgstr "نالو گهربل آهي"
 msgid "Name must be 1000 characters or less"
 msgstr "نالو 1000 اکرن يا گهٽ هجڻ گهرجي"
 
+#: src/features/help/devices.tsx
+msgid "Name the device, for example your phone's name, and create its password."
+msgstr "ڊوائيس کي نالو ڏيو، مثال طور توهان جي فون جو نالو، ۽ ان جو پاسورڊ ٺاهيو."
+
 #: ../../../lib/web/src/features/errors/general-error.tsx
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
 msgid "Network error"
@@ -1397,9 +1505,13 @@ msgstr "نئين گيم"
 msgid "Next image"
 msgstr "اڳيون تصوير"
 
-#: ../../../lib/web/src/components/calendar/mini-month.tsx
+#: ../../../lib/web/src/components/calendar/date-header.tsx
 msgid "Next month"
-msgstr ""
+msgstr "ايندڙ مهينو"
+
+#: ../../../lib/web/src/components/calendar/date-header.tsx
+msgid "Next year"
+msgstr "ايندڙ سال"
 
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
 msgid "No {parentClassNames} to add to"
@@ -1529,6 +1641,10 @@ msgstr "نمبر"
 msgid "On"
 msgstr "آن"
 
+#: src/features/help/devices.tsx
+msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connect device stops its password at once."
+msgstr "هڪ ئي پاسورڊ رابطن ۽ ڪئلينڊر ٻنهي لاءِ ڪم ڪري ٿو. هر ڊوائيس کي پنهنجو پاسورڊ ملندو آهي، ۽ ڊوائيس ڳنڍيو هيٺ ڪنهن ڊوائيس کي هٽائڻ سان ان جو پاسورڊ فوري طور بند ٿي ويندو آهي."
+
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
 msgstr "افسوس! صفحو نه مليو!"
@@ -1536,6 +1652,10 @@ msgstr "افسوس! صفحو نه مليو!"
 #: ../../../lib/web/src/components/layout/nav-group.tsx
 msgid "Open actions"
 msgstr "ڪارروايون کوليو"
+
+#: src/features/help/devices.tsx
+msgid "Open Calendars or People and choose Connect device."
+msgstr "ڪئلينڊر يا ماڻهو کوليو ۽ ڊوائيس ڳنڍيو چونڊيو."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"
@@ -1655,9 +1775,13 @@ msgstr "پوسٽون ۽ تبصرا"
 msgid "Previous image"
 msgstr "پوئيون تصوير"
 
-#: ../../../lib/web/src/components/calendar/mini-month.tsx
+#: ../../../lib/web/src/components/calendar/date-header.tsx
 msgid "Previous month"
-msgstr ""
+msgstr "پوئيون مهينو"
+
+#: ../../../lib/web/src/components/calendar/date-header.tsx
+msgid "Previous year"
+msgstr "پوئيون سال"
 
 #: ../../../lib/web/src/components/server-documents-footer.tsx
 #: ../../../lib/web/src/features/document/document-page.tsx
@@ -1680,6 +1804,10 @@ msgstr "خاصيتون"
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Push notification"
 msgstr "پش اطلاع"
+
+#: src/features/help/index.tsx
+msgid "Put your contacts and calendars on your phone, tablet or computer."
+msgstr "پنهنجا رابطا ۽ ڪئلينڊر پنهنجي فون، ٽيبليٽ يا ڪمپيوٽر تي رکو."
 
 #: src/features/help/contribute-dialog.tsx
 msgid "Question"
@@ -1758,6 +1886,7 @@ msgstr "{0} فلٽر هٽايو"
 #: ../../../lib/web/src/components/member-list.tsx
 #: ../../../lib/web/src/components/member-list.tsx
 #: ../../../lib/web/src/components/person-picker.tsx
+#: ../../../lib/web/src/components/person-picker.tsx
 msgid "Remove {name}"
 msgstr "{name} هٽايو"
 
@@ -1805,7 +1934,7 @@ msgstr "هن بورڊ ڪالم جو نالو تبديل ڪريو"
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 #: ../../../lib/web/src/components/calendar/time-grid.tsx
 msgid "Repeats"
-msgstr ""
+msgstr "ورجائي ٿو"
 
 #: ../../../lib/web/src/components/entity/entity-comment-thread.tsx
 #: ../../../lib/web/src/components/entity/entity-comment-thread.tsx
@@ -2179,6 +2308,10 @@ msgstr "ڏيک 1-9 تي مٽايو"
 msgid "System"
 msgstr "سسٽم"
 
+#: src/features/help/devices.tsx
+msgid "System Settings, Internet Accounts, Add Other Account, then CardDAV Account for contacts or CalDAV Account for calendars."
+msgstr "سسٽم سيٽنگون، انٽرنيٽ اڪائونٽس، ٻيو اڪائونٽ شامل ڪريو، پوءِ رابطن لاءِ CardDAV اڪائونٽ يا ڪئلينڊر لاءِ CalDAV اڪائونٽ."
+
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Tag already exists"
 msgstr "ٽيگ اڳ ۾ ئي موجود آهي"
@@ -2235,6 +2368,10 @@ msgstr "ڪئميرا درخواست جو جواب نه مليو"
 msgid "The microphone request was not answered"
 msgstr "مائڪروفون درخواست جو جواب نه مليو"
 
+#: src/features/help/devices.tsx
+msgid "The Mochi app shows your contacts and calendars itself. To put them into the phone's own Contacts and Calendar apps, use DAVx5."
+msgstr "Mochi ايپ پاڻ توهان جا رابطا ۽ ڪئلينڊر ڏيکاريندي آهي. انهن کي فون جي پنهنجي رابطا ۽ ڪئلينڊر ايپن ۾ آڻڻ لاءِ DAVx5 استعمال ڪريو."
+
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "The passkey request was not answered"
 msgstr "Passkey درخواست جو جواب نه مليو"
@@ -2254,6 +2391,10 @@ msgstr "هن ايپ کي توهان جي passkey استعمال ڪرڻ جي اج
 #: ../../../lib/web/src/components/game/game-end-dialogs.tsx
 msgid "This permanently deletes the game and its chat. This cannot be undone."
 msgstr "هي عمل گيم ۽ ان جي چيٽ کي مستقل طور ختم ڪندو. هي عمل واپس نه ٿي سگهندو."
+
+#: src/features/help/devices.tsx
+msgid "Thunderbird"
+msgstr "Thunderbird"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Thursday"
@@ -2492,6 +2633,10 @@ msgstr "اهو ڇا ڪندو، ڪنهن لاءِ آهي، اهو ڇو اهم آ�
 msgid "What you want to ask, in one line"
 msgstr "ڇا پڇڻ چاهيو ٿا، هڪ لڪير ۾"
 
+#: ../../../lib/web/src/components/calendar/date-header.tsx
+msgid "Year"
+msgstr "سال"
+
 #: ../../../lib/web/src/features/errors/general-error.tsx
 msgid "You do not have access to this section."
 msgstr "توهان کي هن حصي تائين رسائي ناهي."
@@ -2503,6 +2648,10 @@ msgstr "توهان جو اڪائونٽ {source} کان هتي منتقل ڪيو 
 #: ../../../lib/web/src/components/comment-composer.tsx
 msgid "Your attachments will be lost."
 msgstr "توهان جون منسلڪات گم ٿي وينديون."
+
+#: src/features/help/devices.tsx
+msgid "Your contacts and calendars sync to your phone, tablet and computer over CardDAV and CalDAV, which every major contacts and calendar app speaks."
+msgstr "توهان جا رابطا ۽ ڪئلينڊر CardDAV ۽ CalDAV ذريعي توهان جي فون، ٽيبليٽ ۽ ڪمپيوٽر سان هم وقت ٿيندا آهن، جن کي هر وڏي رابطا ۽ ڪئلينڊر ايپ سمجهي ٿي."
 
 #: src/features/help/contribute-dialog.tsx
 msgid "Your introduction has been submitted and will appear after moderation."

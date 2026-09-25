@@ -40,6 +40,10 @@ msgid "{0, plural, one {# result} other {# results}}"
 msgstr "{0, plural, one {Umphumela #} other {Imiphumela #}}"
 
 #. placeholder {0}: displayInfo.count
+#. placeholder {0}: selectedIds.length
+#. placeholder {0}: unknownIds.length
+#: ../../../lib/web/src/components/person-picker.tsx
+#: ../../../lib/web/src/components/person-picker.tsx
 #: ../../../lib/web/src/components/person-picker.tsx
 msgid "{0, plural, one {# selected} other {# selected}}"
 msgstr "{0, plural, one {# kukhethiwe} other {# kukhethiwe}}"
@@ -65,21 +69,23 @@ msgstr "{count, plural, one {#mzu} other {#mzu}}"
 msgid "{count, plural, one {#w} other {#w}}"
 msgstr "{count, plural, one {#vk} other {#vk}}"
 
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
 #: ../../../lib/web/src/components/calendar/tooltip.ts
 msgid "{day}, {from} to {to}"
-msgstr ""
+msgstr "{day}, kusukela ku-{from} kuya ku-{to}"
 
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "{entityLabel} name"
 msgstr "Igama le-{entityLabel}"
 
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
 #: ../../../lib/web/src/components/calendar/tooltip.ts
 msgid "{from} to {to}"
-msgstr ""
+msgstr "kusukela ku-{from} kuya ku-{to}"
 
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 msgid "{hidden, plural, one {+# more} other {+# more}}"
-msgstr ""
+msgstr "{hidden, plural, one {+# okunye} other {+# okunye}}"
 
 #: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx
 msgid "{opponentName} offered a draw"
@@ -218,8 +224,9 @@ msgid "AI"
 msgstr "I-AI"
 
 #: ../../../lib/web/src/components/calendar/time-grid.tsx
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
 msgid "All day"
-msgstr ""
+msgstr "Usuku lonke"
 
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Allow anyone to search for {entityLabel}"
@@ -237,6 +244,10 @@ msgstr "Kwenzeke iphutha"
 #: ../../../lib/web/src/lib/error-normalizer.ts
 msgid "An unexpected error occurred"
 msgstr "Kwenzeke iphutha elingalindelekile"
+
+#: src/features/help/devices.tsx
+msgid "Android"
+msgstr "Android"
 
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
@@ -296,6 +307,10 @@ msgstr "Buza umbuzo"
 #: src/features/help/contribute-dialog.tsx
 msgid "Ask the community on the Mochi users mailing list. Be specific about what you've tried so far."
 msgstr "Buza umphakathi ohlwini lwe-imeyili labasebenzisi be-Mochi. Yiba oqondile mayelana nalokho osukuzamile kuze kube manje."
+
+#: ../../../lib/web/src/components/timezone-select.tsx
+msgid "At sea"
+msgstr "Olwandle"
 
 #: ../../../lib/web/src/components/comment-composer.tsx
 msgid "Attach comment files"
@@ -392,6 +407,10 @@ msgstr "Izaziso zebhrawuza"
 msgid "Bug report submitted."
 msgstr "Umbiko wephutha uthunyelwe."
 
+#: ../../../lib/web/src/features/accounts/types.ts
+msgid "Calendar server"
+msgstr "Iseva yekhalenda"
+
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "Camera permission denied"
 msgstr "Imvume yekhamera inqatshiwe"
@@ -457,7 +476,7 @@ msgstr "Kushintshiwe {field}"
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 #: ../../../lib/web/src/components/calendar/time-grid.tsx
 msgid "Changed occurrence"
-msgstr ""
+msgstr "Isenzeko esishintshiwe"
 
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Checkbox"
@@ -467,6 +486,10 @@ msgstr "Ibhokisi lokumaka"
 msgid "Checklist"
 msgstr "Uhlu lokuhlola"
 
+#: ../../../lib/web/src/components/ui/date-picker.tsx
+msgid "Choose a date"
+msgstr "Khetha usuku"
+
 #: ../../../lib/web/src/components/game/game-empty-state.tsx
 msgid "Choose a game from the sidebar or start a new one."
 msgstr "Khetha umdlalo kubha eseceleni noma uqale omusha."
@@ -475,6 +498,10 @@ msgstr "Khetha umdlalo kubha eseceleni noma uqale omusha."
 #: ../../../lib/web/src/components/language-picker.tsx
 msgid "Choose language"
 msgstr "Khetha ulimi"
+
+#: src/features/help/devices.tsx
+msgid "Choose the account type Manual and enter the username, the password and the server address."
+msgstr "Khetha uhlobo lwe-akhawunti oluthi Ngesandla bese ufaka igama lomsebenzisi, iphasiwedi nekheli leseva."
 
 #: ../../../lib/web/src/components/banner-section.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
@@ -499,6 +526,7 @@ msgstr "Sula usesho"
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx
 #: ../../../lib/web/src/components/ui/sheet.tsx
+#: ../../../lib/web/src/components/ui/side-panel.tsx
 #: ../../../lib/web/src/components/ui/side-panel.tsx
 #: src/features/help/contribute-dialog.tsx
 msgid "Close"
@@ -585,6 +613,11 @@ msgstr "Cushwa izilungiselelo zombukiso"
 msgid "Confirm"
 msgstr "Qinisekisa"
 
+#: src/features/help/devices.tsx
+#: src/features/help/index.tsx
+msgid "Connect your phone"
+msgstr "Xhuma ifoni yakho"
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connected"
 msgstr "Kuxhunyiwe"
@@ -613,6 +646,10 @@ msgstr "Qhubeka"
 msgid "Continue with {label}"
 msgstr "Qhubeka nge-{label}"
 
+#: ../../../lib/web/src/features/accounts/account-add.tsx
+msgid "Continue with {providerLabel}"
+msgstr "Qhubeka nge-{providerLabel}"
+
 #: ../../../lib/web/src/lib/toast-utils.ts
 msgid "Copied"
 msgstr "Kukopishiwe"
@@ -621,9 +658,17 @@ msgstr "Kukopishiwe"
 msgid "Copied to clipboard"
 msgstr "Kukopishelwe kwi-clipboard"
 
+#: ../../../lib/web/src/components/calendar/month-grid.tsx
+#: ../../../lib/web/src/components/calendar/month-grid.tsx
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
 #: ../../../lib/web/src/components/ui/copy-button.tsx
 msgid "Copy"
 msgstr "Kopisha"
+
+#: src/features/help/devices.tsx
+msgid "Copy the server address, the username and the password into the device. The password is shown once."
+msgstr "Kopisha ikheli leseva, igama lomsebenzisi nephasiwedi kudivayisi. Iphasiwedi ibonakaliswa kanye kuphela."
 
 #: ../../../lib/web/src/features/document/document-page.tsx
 msgid "Could not load this document. Please try again later."
@@ -699,6 +744,10 @@ msgstr "Ukungqubuzana kwedatha"
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Date"
 msgstr "Usuku"
+
+#: src/features/help/devices.tsx
+msgid "DAVx5 finds both your address books and your calendars. Turn on the ones to sync."
+msgstr "I-DAVx5 ithola zombili izincwadi zamakheli zakho namakhalenda akho. Vula lawo ofuna ukuwavumelanisa."
 
 #: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx
 msgid "Decline"
@@ -917,6 +966,10 @@ msgstr "I-imeyili"
 msgid "Email code"
 msgstr "Ikhodi ye-imeyili"
 
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
+msgid "Ends before it starts"
+msgstr "Iphela ingakaqali"
+
 #: ../../../lib/web/src/components/banner-section.tsx
 msgid "Enter banner text (markdown supported)..."
 msgstr "Faka umbhalo webhana (i-markdown isekelwa)..."
@@ -924,6 +977,18 @@ msgstr "Faka umbhalo webhana (i-markdown isekelwa)..."
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Enter the code from your email"
 msgstr "Faka ikhodi evela ku-imeyili yakho"
+
+#: src/features/help/devices.tsx
+msgid "Enter the password when asked, and choose the address books and calendars to add."
+msgstr "Faka iphasiwedi lapho ucelwa, bese ukhetha izincwadi zamakheli namakhalenda ofuna ukuwangeza."
+
+#: src/features/help/devices.tsx
+msgid "Enter the server address, the username and the password in each."
+msgstr "Kukho kokubili faka ikheli leseva, igama lomsebenzisi nephasiwedi."
+
+#: src/features/help/devices.tsx
+msgid "Enter the server address, the username and the password."
+msgstr "Faka ikheli leseva, igama lomsebenzisi nephasiwedi."
 
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Enter your authenticator code"
@@ -1077,6 +1142,22 @@ msgstr "Amafulegi"
 msgid "Flat"
 msgstr "Isicaba"
 
+#: src/features/help/devices.tsx
+msgid "For calendars: Calendar, New Calendar, On the Network, with the username and the server address."
+msgstr "Kumakhalenda: Ikhalenda, Ikhalenda Elisha, Kunethiwekhi, ngegama lomsebenzisi nekheli leseva."
+
+#: src/features/help/devices.tsx
+msgid "For calendars: Settings, Calendar, Accounts, Add Account, Other, Add CalDAV Account."
+msgstr "Kumakhalenda: Izilungiselelo, Ikhalenda, Ama-akhawunti, Engeza i-Akhawunti, Okunye, Engeza i-Akhawunti ye-CalDAV."
+
+#: src/features/help/devices.tsx
+msgid "For contacts: Address Book, New Address Book, Add CardDAV Address Book, with the username and the server address."
+msgstr "Koxhumana nabo: Incwadi Yamakheli, Incwadi Yamakheli Entsha, Engeza Incwadi Yamakheli ye-CardDAV, ngegama lomsebenzisi nekheli leseva."
+
+#: src/features/help/devices.tsx
+msgid "For contacts: Settings, Contacts, Accounts, Add Account, Other, Add CardDAV Account."
+msgstr "Koxhumana nabo: Izilungiselelo, Oxhumana nabo, Ama-akhawunti, Engeza i-Akhawunti, Okunye, Engeza i-Akhawunti ye-CardDAV."
+
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Friday"
 msgstr "ULwesihlanu"
@@ -1096,6 +1177,10 @@ msgstr "Kusukela"
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "From theme"
 msgstr "Kusukela endikimbeni"
+
+#: src/features/help/devices.tsx
+msgid "Get a password for the device"
+msgstr "Thola iphasiwedi yedivayisi"
 
 #: ../../../lib/web/src/features/errors/access-denied-error.tsx
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
@@ -1123,6 +1208,7 @@ msgstr "Hlanganisa nge"
 msgid "Group: {0}"
 msgstr "Iqembu: {0}"
 
+#: src/features/help/devices.tsx
 #: src/features/help/index.tsx
 #: src/routes/_authenticated/document/privacy.tsx
 #: src/routes/_authenticated/document/rules.tsx
@@ -1175,6 +1261,10 @@ msgstr "I-avatar yezinhlamvu zokuqala"
 msgid "Initials avatar for {name}"
 msgstr "I-avatar yezinhlamvu zokuqala ka-{name}"
 
+#: src/features/help/devices.tsx
+msgid "Install DAVx5 and add an account with \"Login with URL and user name\"."
+msgstr "Faka i-DAVx5 bese wengeza i-akhawunti ngokuthi \"Ngena nge-URL negama lomsebenzisi\"."
+
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Interest {weight}"
 msgstr "Intshisekelo {weight}"
@@ -1191,6 +1281,10 @@ msgstr "Zazise"
 #: ../../../lib/web/src/components/entity/entity-field-editor.tsx
 msgid "Invalid date"
 msgstr "Idethi engalungile"
+
+#: src/features/help/devices.tsx
+msgid "iPhone and iPad"
+msgstr "i-iPhone ne-iPad"
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "It seems like the page you're looking for <0/>does not exist or might have been removed."
@@ -1279,6 +1373,10 @@ msgstr "Uphume ngempumelelo"
 msgid "Logging out…"
 msgstr "Iyaphuma…"
 
+#: src/features/help/devices.tsx
+msgid "Mac"
+msgstr "Mac"
+
 #: ../../../lib/web/src/components/notification-category-button.tsx
 msgid "Manage categories"
 msgstr "Phatha izigaba"
@@ -1340,6 +1438,10 @@ msgstr "Ukulawula"
 msgid "Monday"
 msgstr "UMsombuluko"
 
+#: ../../../lib/web/src/components/calendar/date-header.tsx
+msgid "Month"
+msgstr "Inyanga"
+
 #: ../../../lib/web/src/components/options-menu.tsx
 msgid "More options"
 msgstr "Eziningi izinketho"
@@ -1352,10 +1454,12 @@ msgstr "Kuhanjiswe"
 msgid "Moved {field}"
 msgstr "Kuhanjiswe {field}"
 
-#. placeholder {0}: dragging.day
+#. placeholder {0}: dayName(current.day)
+#. placeholder {0}: dayName(dragging.day)
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
 msgid "Moving to {0}"
-msgstr ""
+msgstr "Kuhanjiswa ku-{0}"
 
 #: ../../../lib/web/src/components/entity/add-field-dialog.tsx
 #: ../../../lib/web/src/components/entity/entity-board-column.tsx
@@ -1377,6 +1481,10 @@ msgstr "Kudingeka igama"
 msgid "Name must be 1000 characters or less"
 msgstr "Igama kufanele libe nezinhlamvu ezingu-1000 noma ngaphansi"
 
+#: src/features/help/devices.tsx
+msgid "Name the device, for example your phone's name, and create its password."
+msgstr "Nika idivayisi igama, isibonelo igama lefoni yakho, bese wenza iphasiwedi yayo."
+
 #: ../../../lib/web/src/features/errors/general-error.tsx
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
 msgid "Network error"
@@ -1397,9 +1505,13 @@ msgstr "Umdlalo omusha"
 msgid "Next image"
 msgstr "Isithombe esilandelayo"
 
-#: ../../../lib/web/src/components/calendar/mini-month.tsx
+#: ../../../lib/web/src/components/calendar/date-header.tsx
 msgid "Next month"
-msgstr ""
+msgstr "Inyanga ezayo"
+
+#: ../../../lib/web/src/components/calendar/date-header.tsx
+msgid "Next year"
+msgstr "Unyaka ozayo"
 
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
 msgid "No {parentClassNames} to add to"
@@ -1529,6 +1641,10 @@ msgstr "Inombolo"
 msgid "On"
 msgstr "Kuvuliwe"
 
+#: src/features/help/devices.tsx
+msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connect device stops its password at once."
+msgstr "Iphasiwedi eyodwa isebenza koxhumana nabo nakumakhalenda ngokufanayo. Idivayisi ngayinye ithola eyayo, futhi uma ususa idivayisi ngaphansi kwe-Xhuma idivayisi iphasiwedi yayo iyeka ukusebenza ngaso leso sikhathi."
+
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
 msgstr "Yini! Ikhasi Alitholakali!"
@@ -1536,6 +1652,10 @@ msgstr "Yini! Ikhasi Alitholakali!"
 #: ../../../lib/web/src/components/layout/nav-group.tsx
 msgid "Open actions"
 msgstr "Vula izenzo"
+
+#: src/features/help/devices.tsx
+msgid "Open Calendars or People and choose Connect device."
+msgstr "Vula Amakhalenda noma Abantu bese ukhetha u-Xhuma idivayisi."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"
@@ -1655,9 +1775,13 @@ msgstr "Okwabiwayo namazwana"
 msgid "Previous image"
 msgstr "Isithombe esedlule"
 
-#: ../../../lib/web/src/components/calendar/mini-month.tsx
+#: ../../../lib/web/src/components/calendar/date-header.tsx
 msgid "Previous month"
-msgstr ""
+msgstr "Inyanga edlule"
+
+#: ../../../lib/web/src/components/calendar/date-header.tsx
+msgid "Previous year"
+msgstr "Unyaka odlule"
 
 #: ../../../lib/web/src/components/server-documents-footer.tsx
 #: ../../../lib/web/src/features/document/document-page.tsx
@@ -1680,6 +1804,10 @@ msgstr "Izici"
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Push notification"
 msgstr "Isaziso se-push"
+
+#: src/features/help/index.tsx
+msgid "Put your contacts and calendars on your phone, tablet or computer."
+msgstr "Faka oxhumana nabo namakhalenda akho efonini, kuthebhulethi noma kukhompyutha yakho."
 
 #: src/features/help/contribute-dialog.tsx
 msgid "Question"
@@ -1758,6 +1886,7 @@ msgstr "Susa isihlungi se-{0}"
 #: ../../../lib/web/src/components/member-list.tsx
 #: ../../../lib/web/src/components/member-list.tsx
 #: ../../../lib/web/src/components/person-picker.tsx
+#: ../../../lib/web/src/components/person-picker.tsx
 msgid "Remove {name}"
 msgstr "Khipha {name}"
 
@@ -1805,7 +1934,7 @@ msgstr "Qamba kabusha leli kholomu lebhodi"
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 #: ../../../lib/web/src/components/calendar/time-grid.tsx
 msgid "Repeats"
-msgstr ""
+msgstr "Iyaphindwa"
 
 #: ../../../lib/web/src/components/entity/entity-comment-thread.tsx
 #: ../../../lib/web/src/components/entity/entity-comment-thread.tsx
@@ -2179,6 +2308,10 @@ msgstr "Shintshela kombono 1-9"
 msgid "System"
 msgstr "Isistimu"
 
+#: src/features/help/devices.tsx
+msgid "System Settings, Internet Accounts, Add Other Account, then CardDAV Account for contacts or CalDAV Account for calendars."
+msgstr "Izilungiselelo Zesistimu, Ama-akhawunti e-Inthanethi, Engeza Enye i-Akhawunti, bese i-Akhawunti ye-CardDAV koxhumana nabo noma i-Akhawunti ye-CalDAV kumakhalenda."
+
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Tag already exists"
 msgstr "Ithegi selikhona"
@@ -2235,6 +2368,10 @@ msgstr "Isicelo sekhamera asiphendulwanga"
 msgid "The microphone request was not answered"
 msgstr "Isicelo semakrofoni asiphendulwanga"
 
+#: src/features/help/devices.tsx
+msgid "The Mochi app shows your contacts and calendars itself. To put them into the phone's own Contacts and Calendar apps, use DAVx5."
+msgstr "Uhlelo lokusebenza lwe-Mochi lubonisa oxhumana nabo namakhalenda akho ngokwalo. Ukuze uzifake kuzinhlelo zokusebenza zefoni uqobo zabaxhumana nabo nezekhalenda, sebenzisa i-DAVx5."
+
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "The passkey request was not answered"
 msgstr "Isicelo se-passkey asiphendulwanga"
@@ -2254,6 +2391,10 @@ msgstr "Le app ayivunyelwe ukusebenzisa i-passkey yakho. Yivumele kuzilungiselel
 #: ../../../lib/web/src/components/game/game-end-dialogs.tsx
 msgid "This permanently deletes the game and its chat. This cannot be undone."
 msgstr "Lokhu kuzosusa umdlalo nengxoxo yawo unomphela. Lesi senzo asikwazi ukuhlehliswa."
+
+#: src/features/help/devices.tsx
+msgid "Thunderbird"
+msgstr "Thunderbird"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Thursday"
@@ -2492,6 +2633,10 @@ msgstr "Bekungenzani, kungokabani, kungani kubalulekile?"
 msgid "What you want to ask, in one line"
 msgstr "Ofuna ukukubuza, emugqeni owodwa"
 
+#: ../../../lib/web/src/components/calendar/date-header.tsx
+msgid "Year"
+msgstr "Unyaka"
+
 #: ../../../lib/web/src/features/errors/general-error.tsx
 msgid "You do not have access to this section."
 msgstr "Awunakho ukufinyelela kule ngxenye."
@@ -2503,6 +2648,10 @@ msgstr "I-akhawunti yakho isuswe lapha ivela ku-{source}. Uze uyisuse lapho, imi
 #: ../../../lib/web/src/components/comment-composer.tsx
 msgid "Your attachments will be lost."
 msgstr "Okunamathiselwe kwakho kuzolahleka."
+
+#: src/features/help/devices.tsx
+msgid "Your contacts and calendars sync to your phone, tablet and computer over CardDAV and CalDAV, which every major contacts and calendar app speaks."
+msgstr "Oxhumana nabo namakhalenda akho bavumelaniswa nefoni yakho, ithebhulethi nekhompyutha nge-CardDAV ne-CalDAV, okuyinto eqondwa yizo zonke izinhlelo zokusebenza ezinkulu zokuxhumana nezekhalenda."
 
 #: src/features/help/contribute-dialog.tsx
 msgid "Your introduction has been submitted and will appear after moderation."
