@@ -380,7 +380,7 @@ msgstr "阻擋"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Board"
-msgstr "棋盤"
+msgstr "看板"
 
 #: ../../../lib/web/src/components/post-tags.tsx
 #: ../../../lib/web/src/components/post-tags.tsx
@@ -1494,9 +1494,13 @@ msgid "Network error"
 msgstr "網路錯誤"
 
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
-#: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "New"
 msgstr "新增"
+
+#: ../../../lib/web/src/components/ui/sort-selector.tsx
+msgctxt "sort order"
+msgid "New"
+msgstr "最新"
 
 #: ../../../lib/web/src/components/game/game-empty-state.tsx
 #: ../../../lib/web/src/components/game/game-empty-state.tsx
@@ -1634,11 +1638,15 @@ msgstr "找不到任何項目"
 msgid "Notifications: {0}"
 msgstr "通知：{0}"
 
-#: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
-#: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Number"
 msgstr "數字"
+
+#: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
+#: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
+msgctxt "item number"
+msgid "Number"
+msgstr "編號"
 
 #: ../../../lib/web/src/components/filter-bar.tsx
 msgid "On"
@@ -1658,7 +1666,7 @@ msgstr "開啟動作選單"
 
 #: src/features/help/devices.tsx
 msgid "Open Calendars or People and choose Connect device."
-msgstr "開啟行事曆或人員，然後選擇「連接裝置」。"
+msgstr "開啟行事曆或聯絡人，然後選擇「連接裝置」。"
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"
@@ -1722,7 +1730,7 @@ msgstr "通行金鑰驗證失敗。請再試一次。"
 
 #: ../../../lib/web/src/components/restore-banner.tsx
 msgid "Passkeys"
-msgstr "Passkey"
+msgstr "通行密鑰"
 
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "Passkeys are not available in this browser"
@@ -1950,11 +1958,11 @@ msgstr "回覆 {0}..."
 #: src/features/help/contribute-dialog.tsx
 #: src/features/help/index.tsx
 msgid "Report a bug"
-msgstr "回報 bug"
+msgstr "回報錯誤"
 
 #: src/features/help/contribute-dialog.tsx
 msgid "Report bug"
-msgstr "回報 bug"
+msgstr "回報錯誤"
 
 #: ../../../lib/web/src/components/entity/entity-field-dialog.tsx
 msgid "Required"
@@ -2261,7 +2269,7 @@ msgstr "遇到困難了嗎?在 Mochi 使用者郵件列表上向社群求助。"
 
 #: ../../../lib/web/src/features/access/access-list.tsx
 msgid "Subject"
-msgstr "主旨"
+msgstr "使用者或群組"
 
 #: ../../../lib/web/src/components/comment-composer.tsx
 msgid "Submit comment"
@@ -2303,9 +2311,13 @@ msgstr "星期日"
 msgid "Switch to view 1-9"
 msgstr "切換至檢視 1-9"
 
+#: ../../../lib/web/src/lib/preference-utils.ts
+#: ../../../lib/web/src/lib/preference-utils.ts
+msgid "System"
+msgstr "系統"
+
 #: ../../../lib/web/src/components/audit-timeline.tsx
-#: ../../../lib/web/src/lib/preference-utils.ts
-#: ../../../lib/web/src/lib/preference-utils.ts
+msgctxt "actor"
 msgid "System"
 msgstr "系統"
 
@@ -2375,7 +2387,7 @@ msgstr "Mochi 應用程式本身就會顯示您的聯絡人和行事曆。若要
 
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "The passkey request was not answered"
-msgstr "Passkey 要求未獲回應"
+msgstr "通行密鑰要求未獲回應"
 
 #: ../../../lib/web/src/features/errors/general-error.tsx
 msgid "The requested content could not be found."
@@ -2387,7 +2399,7 @@ msgstr "伺服器傳回網頁而非資料。"
 
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "This app is not allowed to use your passkey. Allow it in Settings, under Permissions."
-msgstr "此應用程式無權使用您的 Passkey。請在「設定」的「權限」中允許。"
+msgstr "此應用程式無權使用您的通行密鑰。請在「設定」的「權限」中允許。"
 
 #: ../../../lib/web/src/components/game/game-end-dialogs.tsx
 msgid "This permanently deletes the game and its chat. This cannot be undone."
@@ -2434,7 +2446,7 @@ msgstr "要求次數過多"
 
 #: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "Top"
-msgstr "頂端"
+msgstr "最佳"
 
 #: ../../../lib/web/src/components/travelling-picker.tsx
 msgid "Travelling"

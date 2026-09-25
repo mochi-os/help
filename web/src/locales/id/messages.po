@@ -480,7 +480,7 @@ msgstr "Kotak centang"
 
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Checklist"
-msgstr "Checklist"
+msgstr "Daftar periksa"
 
 #: ../../../lib/web/src/components/ui/date-picker.tsx
 msgid "Choose a date"
@@ -757,7 +757,7 @@ msgstr "Tolak"
 
 #: ../../../lib/web/src/components/ai-prompts-editor.tsx
 msgid "Default"
-msgstr "Default"
+msgstr "Bawaan"
 
 #: ../../../lib/web/src/features/accounts/account-add.tsx
 msgid "Default AI account"
@@ -1494,9 +1494,13 @@ msgid "Network error"
 msgstr "Kesalahan jaringan"
 
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
-#: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "New"
 msgstr "Baru"
+
+#: ../../../lib/web/src/components/ui/sort-selector.tsx
+msgctxt "sort order"
+msgid "New"
+msgstr "Terbaru"
 
 #: ../../../lib/web/src/components/game/game-empty-state.tsx
 #: ../../../lib/web/src/components/game/game-empty-state.tsx
@@ -1634,11 +1638,15 @@ msgstr "Tidak ada yang ditemukan"
 msgid "Notifications: {0}"
 msgstr "Notifikasi: {0}"
 
-#: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
-#: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Number"
 msgstr "Angka"
+
+#: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
+#: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
+msgctxt "item number"
+msgid "Number"
+msgstr "Nomor"
 
 #: ../../../lib/web/src/components/filter-bar.tsx
 msgid "On"
@@ -2085,7 +2093,7 @@ msgstr "Mencari..."
 
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Select"
-msgstr "Pilih"
+msgstr "Pilihan"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Select a field"
@@ -2261,7 +2269,7 @@ msgstr "Mentok di sesuatu? Tanyakan ke komunitas di milis pengguna Mochi."
 
 #: ../../../lib/web/src/features/access/access-list.tsx
 msgid "Subject"
-msgstr "Subjek"
+msgstr "Pengguna atau grup"
 
 #: ../../../lib/web/src/components/comment-composer.tsx
 msgid "Submit comment"
@@ -2303,9 +2311,13 @@ msgstr "Minggu"
 msgid "Switch to view 1-9"
 msgstr "Beralih ke tampilan 1-9"
 
+#: ../../../lib/web/src/lib/preference-utils.ts
+#: ../../../lib/web/src/lib/preference-utils.ts
+msgid "System"
+msgstr "Sistem"
+
 #: ../../../lib/web/src/components/audit-timeline.tsx
-#: ../../../lib/web/src/lib/preference-utils.ts
-#: ../../../lib/web/src/lib/preference-utils.ts
+msgctxt "actor"
 msgid "System"
 msgstr "Sistem"
 
@@ -2434,7 +2446,7 @@ msgstr "Terlalu banyak permintaan"
 
 #: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "Top"
-msgstr "Atas"
+msgstr "Teratas"
 
 #: ../../../lib/web/src/components/travelling-picker.tsx
 msgid "Travelling"

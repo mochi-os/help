@@ -25,7 +25,8 @@ KEEP_WORDS = {
     "rose", "rss", "saml", "server", "sgf", "sha", "steel", "stripe",
     "teal", "terracotta", "url", "version", "violet", "wiki", "wikis",
     "apple", "microsoft", "facebook", "x", "android", "mac",
-
+    "caldav", "carddav", "webdav", "vcard", "icalendar", "ics", "thunderbird",
+    "contacts",
 }
 
 # Exact-string allowlist, checked before word matching. A digit-bearing
@@ -43,7 +44,8 @@ KEEP_ENGLISH = frozenset({
     "Terracotta", "URL", "Version", "Violet", "Wiki", "Wikis", "libp2p",
     "ntfy",
     "Apple", "Microsoft", "Facebook", "X", "Android", "Mac",
-
+    "CalDAV", "CardDAV", "WebDAV", "vCard", "iCalendar", "ICS", "DAVx5", "Thunderbird",
+    "Contacts",
 })
 
 def _strip_placeholders(value):
@@ -87,6 +89,8 @@ KEEP_LOCALE = frozenset({
     ("sl", "Interval"), ("su", "Interval"),
     ("da", "Region"), ("de", "Region"), ("nb", "Region"),
     ("nn", "Region"), ("sv", "Region"),
+    # Polish "region" and the Welsh loanword "tag" are the languages' own words.
+    ("pl", "Region"), ("cy", "Tag"),
     ("da", "Type"), ("fr", "Type"), ("nb", "Type"), ("nn", "Type"),
     ("fr", "Description"), ("fr", "Notes"), ("sv", "Information"),
     # "Error" is the Catalan and Spanish word, and the loanword Filipino UI
