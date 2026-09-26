@@ -622,6 +622,10 @@ msgstr "Telefonunuzu qoşun"
 msgid "Connected"
 msgstr "Qoşuldu"
 
+#: src/features/help/devices.tsx
+msgid "Connected devices always shows the server address and the username. They are the same for every device, calendar and address book."
+msgstr "Qoşulmuş cihazlar həmişə server ünvanını və istifadəçi adını göstərir. Onlar hər cihaz, təqvim və ünvan kitabçası üçün eynidir."
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connecting..."
 msgstr "Qoşulur..."
@@ -1650,8 +1654,8 @@ msgid "On"
 msgstr "Açıq"
 
 #: src/features/help/devices.tsx
-msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connect device stops its password at once."
-msgstr "Bir parol həm kontaktlara, həm də təqvimlərə xidmət edir. Hər cihazın öz parolu olur və Cihaz qoş bölməsində cihazı silmək onun parolunu dərhal dayandırır."
+msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connected devices stops its password at once."
+msgstr "Bir parol həm kontaktlara, həm də təqvimlərə xidmət edir. Hər cihazın öz parolu olur və Qoşulmuş cihazlar bölməsində cihazı silmək onun parolunu dərhal dayandırır."
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
@@ -1662,8 +1666,8 @@ msgid "Open actions"
 msgstr "Əməliyyatları aç"
 
 #: src/features/help/devices.tsx
-msgid "Open Calendars or People and choose Connect device."
-msgstr "Təqvimlər və ya İnsanlar bölməsini açın və Cihaz qoş seçin."
+msgid "Open Calendars or People, choose Connected devices, then Add device."
+msgstr "Təqvimlər və ya İnsanlar bölməsini açın, Qoşulmuş cihazlar seçin, sonra Cihaz əlavə et seçin."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"

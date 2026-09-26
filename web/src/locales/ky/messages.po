@@ -622,6 +622,10 @@ msgstr "Телефонуңузду туташтырыңыз"
 msgid "Connected"
 msgstr "Байланышты"
 
+#: src/features/help/devices.tsx
+msgid "Connected devices always shows the server address and the username. They are the same for every device, calendar and address book."
+msgstr "«Туташтырылган түзмөктөр» ар дайым сервердин дарегин жана колдонуучу атын көрсөтөт. Алар ар бир түзмөк, календарь жана дарек китепчеси үчүн бирдей."
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connecting..."
 msgstr "Туташтырылууда..."
@@ -1650,8 +1654,8 @@ msgid "On"
 msgstr "Күйүк"
 
 #: src/features/help/devices.tsx
-msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connect device stops its password at once."
-msgstr "Бир сырсөз байланыштарга да, календарларга да жарайт. Ар бир түзмөктүн өзүнүкү болот, ал эми «Түзмөк туташтыруу» бөлүмүндө түзмөктү өчүрүү анын сырсөзүн дароо жараксыз кылат."
+msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connected devices stops its password at once."
+msgstr "Бир сырсөз байланыштарга да, календарларга да жарайт. Ар бир түзмөктүн өзүнүкү болот, ал эми «Туташтырылган түзмөктөр» бөлүмүндө түзмөктү өчүрүү анын сырсөзүн дароо жараксыз кылат."
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
@@ -1662,8 +1666,8 @@ msgid "Open actions"
 msgstr "Аракеттерди ачуу"
 
 #: src/features/help/devices.tsx
-msgid "Open Calendars or People and choose Connect device."
-msgstr "Календарлар же Адамдар бөлүмүн ачып, «Түзмөк туташтыруу» дегенди тандаңыз."
+msgid "Open Calendars or People, choose Connected devices, then Add device."
+msgstr "Календарлар же Адамдар бөлүмүн ачып, «Туташтырылган түзмөктөр», андан кийин «Түзмөк кошуу» дегенди тандаңыз."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"

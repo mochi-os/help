@@ -622,6 +622,10 @@ msgstr "သင့်ဖုန်းကို ချိတ်ဆက်ပါ"
 msgid "Connected"
 msgstr "ချိတ်ဆက်ပြီး"
 
+#: src/features/help/devices.tsx
+msgid "Connected devices always shows the server address and the username. They are the same for every device, calendar and address book."
+msgstr "ချိတ်ဆက်ထားသော ကိရိယာများ တွင် ဆာဗာလိပ်စာနှင့် သုံးစွဲသူအမည်ကို အမြဲပြပါသည်။ ၎င်းတို့သည် ကိရိယာ၊ ပြက္ခဒိန်နှင့် လိပ်စာစာအုပ်တိုင်းအတွက် အတူတူပင် ဖြစ်ပါသည်။"
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connecting..."
 msgstr "ချိတ်ဆက်နေသည်..."
@@ -1650,8 +1654,8 @@ msgid "On"
 msgstr "ဖွင့်"
 
 #: src/features/help/devices.tsx
-msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connect device stops its password at once."
-msgstr "စကားဝှက်တစ်ခုတည်းဖြင့် အဆက်အသွယ်များနှင့် ပြက္ခဒိန်များ နှစ်မျိုးလုံးကို သုံးနိုင်ပါသည်။ ကိရိယာတိုင်းတွင် မိမိကိုယ်ပိုင်စကားဝှက် ရှိပြီး ကိရိယာ ချိတ်ဆက်မည် အောက်မှ ကိရိယာတစ်ခုကို ဖယ်ရှားလိုက်လျှင် ၎င်း၏စကားဝှက်သည် ချက်ချင်း ရပ်တန့်သွားပါသည်။"
+msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connected devices stops its password at once."
+msgstr "စကားဝှက်တစ်ခုတည်းဖြင့် အဆက်အသွယ်များနှင့် ပြက္ခဒိန်များ နှစ်မျိုးလုံးကို သုံးနိုင်ပါသည်။ ကိရိယာတိုင်းတွင် မိမိကိုယ်ပိုင်စကားဝှက် ရှိပြီး ချိတ်ဆက်ထားသော ကိရိယာများ အောက်မှ ကိရိယာတစ်ခုကို ဖယ်ရှားလိုက်လျှင် ၎င်း၏စကားဝှက်သည် ချက်ချင်း ရပ်တန့်သွားပါသည်။"
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
@@ -1662,8 +1666,8 @@ msgid "Open actions"
 msgstr "လုပ်ဆောင်ချက်များ ဖွင့်ရန်"
 
 #: src/features/help/devices.tsx
-msgid "Open Calendars or People and choose Connect device."
-msgstr "ပြက္ခဒိန်များ သို့မဟုတ် လူများ ကိုဖွင့်ပြီး ကိရိယာ ချိတ်ဆက်မည် ကို ရွေးပါ။"
+msgid "Open Calendars or People, choose Connected devices, then Add device."
+msgstr "ပြက္ခဒိန်များ သို့မဟုတ် လူများ ကိုဖွင့်ပြီး ချိတ်ဆက်ထားသော ကိရိယာများ ကို ရွေးပါ၊ ထို့နောက် ကိရိယာ ထည့်မည် ကို ရွေးပါ။"
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"

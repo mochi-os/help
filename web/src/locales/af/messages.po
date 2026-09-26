@@ -622,6 +622,10 @@ msgstr "Koppel jou foon"
 msgid "Connected"
 msgstr "Verbind"
 
+#: src/features/help/devices.tsx
+msgid "Connected devices always shows the server address and the username. They are the same for every device, calendar and address book."
+msgstr "Verbinde toestelle wys altyd die bedieneradres en die gebruikersnaam. Hulle is dieselfde vir elke toestel, kalender en adresboek."
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connecting..."
 msgstr "Verbind tans..."
@@ -1650,8 +1654,8 @@ msgid "On"
 msgstr "Aan"
 
 #: src/features/help/devices.tsx
-msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connect device stops its password at once."
-msgstr "Een wagwoord dien vir sowel kontakte as kalenders. Elke toestel kry sy eie, en as jy 'n toestel onder Koppel 'n toestel verwyder, hou sy wagwoord dadelik op werk."
+msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connected devices stops its password at once."
+msgstr "Een wagwoord dien vir sowel kontakte as kalenders. Elke toestel kry sy eie, en as jy 'n toestel onder Verbinde toestelle verwyder, hou sy wagwoord dadelik op werk."
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
@@ -1662,8 +1666,8 @@ msgid "Open actions"
 msgstr "Maak aksies oop"
 
 #: src/features/help/devices.tsx
-msgid "Open Calendars or People and choose Connect device."
-msgstr "Maak Kalenders of Mense oop en kies Koppel 'n toestel."
+msgid "Open Calendars or People, choose Connected devices, then Add device."
+msgstr "Maak Kalenders of Mense oop, kies Verbinde toestelle en dan Voeg 'n toestel by."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"

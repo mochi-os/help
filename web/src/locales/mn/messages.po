@@ -622,6 +622,10 @@ msgstr "Утсаа холбоорой"
 msgid "Connected"
 msgstr "Холбогдсон"
 
+#: src/features/help/devices.tsx
+msgid "Connected devices always shows the server address and the username. They are the same for every device, calendar and address book."
+msgstr "Холбогдсон төхөөрөмжүүд нь серверийн хаяг болон хэрэглэгчийн нэрийг үргэлж харуулдаг. Эдгээр нь төхөөрөмж, хуанли, хаягийн дэвтэр бүрд ижил байна."
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connecting..."
 msgstr "Холбогдож байна..."
@@ -1650,8 +1654,8 @@ msgid "On"
 msgstr "Асаалттай"
 
 #: src/features/help/devices.tsx
-msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connect device stops its password at once."
-msgstr "Нэг нууц үг харилцагчид болон хуанлиуд хоёуланд нь ажиллана. Төхөөрөмж бүр өөрийн гэсэн нууц үгтэй бөгөөд Төхөөрөмж холбох хэсгээс төхөөрөмжийг устгавал түүний нууц үг тэр даруй хүчингүй болно."
+msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connected devices stops its password at once."
+msgstr "Нэг нууц үг харилцагчид болон хуанлиуд хоёуланд нь ажиллана. Төхөөрөмж бүр өөрийн гэсэн нууц үгтэй бөгөөд Холбогдсон төхөөрөмжүүд хэсгээс төхөөрөмжийг устгавал түүний нууц үг тэр даруй хүчингүй болно."
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
@@ -1662,8 +1666,8 @@ msgid "Open actions"
 msgstr "Үйлдлүүдийг нээх"
 
 #: src/features/help/devices.tsx
-msgid "Open Calendars or People and choose Connect device."
-msgstr "Хуанлиуд эсвэл Хүмүүс хэсгийг нээгээд Төхөөрөмж холбох гэдгийг сонгоно уу."
+msgid "Open Calendars or People, choose Connected devices, then Add device."
+msgstr "Хуанлиуд эсвэл Хүмүүс хэсгийг нээгээд Холбогдсон төхөөрөмжүүд, дараа нь Төхөөрөмж нэмэх гэдгийг сонгоно уу."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"

@@ -622,6 +622,10 @@ msgstr "Sambungake telpon sampeyan"
 msgid "Connected"
 msgstr "Wis nyambung"
 
+#: src/features/help/devices.tsx
+msgid "Connected devices always shows the server address and the username. They are the same for every device, calendar and address book."
+msgstr "Piranti sing kasambung tansah nampilake alamat server lan jeneng panganggo. Kalorone padha kanggo saben piranti, tanggalan, lan buku alamat."
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connecting..."
 msgstr "Nyambungake..."
@@ -1650,8 +1654,8 @@ msgid "On"
 msgstr "Urip"
 
 #: src/features/help/devices.tsx
-msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connect device stops its password at once."
-msgstr "Siji sandhi kanggo kontak lan tanggalan pisan. Saben piranti duwe sandhine dhewe, lan mbusak piranti ing Sambungake piranti langsung mateni sandhine."
+msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connected devices stops its password at once."
+msgstr "Siji sandhi kanggo kontak lan tanggalan pisan. Saben piranti duwe sandhine dhewe, lan mbusak piranti ing Piranti sing kasambung langsung mateni sandhine."
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
@@ -1662,8 +1666,8 @@ msgid "Open actions"
 msgstr "Bukak tumindak"
 
 #: src/features/help/devices.tsx
-msgid "Open Calendars or People and choose Connect device."
-msgstr "Bukak Tanggalan utawa Wong banjur pilih Sambungake piranti."
+msgid "Open Calendars or People, choose Connected devices, then Add device."
+msgstr "Bukak Tanggalan utawa Wong, pilih Piranti sing kasambung, banjur Tambah piranti."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"

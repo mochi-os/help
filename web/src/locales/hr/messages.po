@@ -622,6 +622,10 @@ msgstr "Povežite svoj telefon"
 msgid "Connected"
 msgstr "Povezano"
 
+#: src/features/help/devices.tsx
+msgid "Connected devices always shows the server address and the username. They are the same for every device, calendar and address book."
+msgstr "Odjeljak Povezani uređaji uvijek prikazuje adresu poslužitelja i korisničko ime. Isti su za svaki uređaj, kalendar i adresar."
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connecting..."
 msgstr "Povezivanje..."
@@ -1650,8 +1654,8 @@ msgid "On"
 msgstr "Uključeno"
 
 #: src/features/help/devices.tsx
-msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connect device stops its password at once."
-msgstr "Jedna lozinka pokriva i kontakte i kalendare. Svaki uređaj dobiva svoju, a uklanjanjem uređaja pod Poveži uređaj njegova lozinka odmah prestaje vrijediti."
+msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connected devices stops its password at once."
+msgstr "Jedna lozinka pokriva i kontakte i kalendare. Svaki uređaj dobiva svoju, a uklanjanjem uređaja pod Povezani uređaji njegova lozinka odmah prestaje vrijediti."
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
@@ -1662,8 +1666,8 @@ msgid "Open actions"
 msgstr "Otvori radnje"
 
 #: src/features/help/devices.tsx
-msgid "Open Calendars or People and choose Connect device."
-msgstr "Otvorite Kalendari ili Ljudi i odaberite Poveži uređaj."
+msgid "Open Calendars or People, choose Connected devices, then Add device."
+msgstr "Otvorite Kalendari ili Ljudi, odaberite Povezani uređaji, a zatim Dodaj uređaj."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"

@@ -622,6 +622,10 @@ msgstr "تلفن خود را متصل کنید"
 msgid "Connected"
 msgstr "متصل"
 
+#: src/features/help/devices.tsx
+msgid "Connected devices always shows the server address and the username. They are the same for every device, calendar and address book."
+msgstr "بخش دستگاه‌های متصل همیشه آدرس سرور و نام کاربری را نشان می‌دهد. این دو برای هر دستگاه، تقویم و دفترچهٔ نشانی یکسان‌اند."
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connecting..."
 msgstr "در حال اتصال..."
@@ -1650,8 +1654,8 @@ msgid "On"
 msgstr "روشن"
 
 #: src/features/help/devices.tsx
-msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connect device stops its password at once."
-msgstr "یک گذرواژه هم برای مخاطبین و هم برای تقویم‌ها کار می‌کند. هر دستگاه گذرواژهٔ خودش را دارد و اگر دستگاهی را در بخش اتصال دستگاه حذف کنید، گذرواژه‌اش بی‌درنگ از کار می‌افتد."
+msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connected devices stops its password at once."
+msgstr "یک گذرواژه هم برای مخاطبین و هم برای تقویم‌ها کار می‌کند. هر دستگاه گذرواژهٔ خودش را دارد و اگر دستگاهی را در بخش دستگاه‌های متصل حذف کنید، گذرواژه‌اش بی‌درنگ از کار می‌افتد."
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
@@ -1662,8 +1666,8 @@ msgid "Open actions"
 msgstr "باز کردن عملیات"
 
 #: src/features/help/devices.tsx
-msgid "Open Calendars or People and choose Connect device."
-msgstr "تقویم‌ها یا افراد را باز کنید و اتصال دستگاه را انتخاب کنید."
+msgid "Open Calendars or People, choose Connected devices, then Add device."
+msgstr "تقویم‌ها یا افراد را باز کنید و دستگاه‌های متصل و سپس افزودن دستگاه را انتخاب کنید."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"

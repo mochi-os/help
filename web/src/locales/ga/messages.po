@@ -622,6 +622,10 @@ msgstr "Ceangail do ghuthán"
 msgid "Connected"
 msgstr "Ceangailte"
 
+#: src/features/help/devices.tsx
+msgid "Connected devices always shows the server address and the username. They are the same for every device, calendar and address book."
+msgstr "Taispeánann Gléasanna ceangailte seoladh an fhreastalaí agus an t-ainm úsáideora i gcónaí. Is ionann iad do gach gléas, féilire agus leabhar seoltaí."
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connecting..."
 msgstr "Ag nascadh..."
@@ -1650,8 +1654,8 @@ msgid "On"
 msgstr "Ann"
 
 #: src/features/help/devices.tsx
-msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connect device stops its password at once."
-msgstr "Feidhmíonn pasfhocal amháin do na teagmhálacha agus do na féilirí araon. Faigheann gach gléas a cheann féin, agus má bhaineann tú gléas faoi Ceangail gléas, stopann a phasfhocal láithreach."
+msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connected devices stops its password at once."
+msgstr "Feidhmíonn pasfhocal amháin do na teagmhálacha agus do na féilirí araon. Faigheann gach gléas a cheann féin, agus má bhaineann tú gléas faoi Gléasanna ceangailte, stopann a phasfhocal láithreach."
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
@@ -1662,8 +1666,8 @@ msgid "Open actions"
 msgstr "Oscail gníomhartha"
 
 #: src/features/help/devices.tsx
-msgid "Open Calendars or People and choose Connect device."
-msgstr "Oscail Féilirí nó Daoine agus roghnaigh Ceangail gléas."
+msgid "Open Calendars or People, choose Connected devices, then Add device."
+msgstr "Oscail Féilirí nó Daoine, roghnaigh Gléasanna ceangailte, agus ansin Cuir gléas leis."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"

@@ -622,6 +622,10 @@ msgstr "เชื่อมต่อโทรศัพท์ของคุณ"
 msgid "Connected"
 msgstr "เชื่อมต่อแล้ว"
 
+#: src/features/help/devices.tsx
+msgid "Connected devices always shows the server address and the username. They are the same for every device, calendar and address book."
+msgstr "หน้าอุปกรณ์ที่เชื่อมต่อจะแสดงที่อยู่เซิร์ฟเวอร์และชื่อผู้ใช้เสมอ ทั้งสองอย่างเหมือนกันสำหรับทุกอุปกรณ์ ปฏิทิน และสมุดที่อยู่"
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connecting..."
 msgstr "กำลังเชื่อมต่อ..."
@@ -1650,8 +1654,8 @@ msgid "On"
 msgstr "เปิด"
 
 #: src/features/help/devices.tsx
-msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connect device stops its password at once."
-msgstr "รหัสผ่านเดียวใช้ได้ทั้งกับผู้ติดต่อและปฏิทิน อุปกรณ์แต่ละเครื่องมีรหัสผ่านของตัวเอง และเมื่อลบอุปกรณ์ในเชื่อมต่ออุปกรณ์ รหัสผ่านของอุปกรณ์นั้นจะใช้ไม่ได้ทันที"
+msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connected devices stops its password at once."
+msgstr "รหัสผ่านเดียวใช้ได้ทั้งกับผู้ติดต่อและปฏิทิน อุปกรณ์แต่ละเครื่องมีรหัสผ่านของตัวเอง และเมื่อลบอุปกรณ์ในหน้าอุปกรณ์ที่เชื่อมต่อ รหัสผ่านของอุปกรณ์นั้นจะใช้ไม่ได้ทันที"
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
@@ -1662,8 +1666,8 @@ msgid "Open actions"
 msgstr "เปิดการดำเนินการ"
 
 #: src/features/help/devices.tsx
-msgid "Open Calendars or People and choose Connect device."
-msgstr "เปิดปฏิทินหรือผู้คน แล้วเลือกเชื่อมต่ออุปกรณ์"
+msgid "Open Calendars or People, choose Connected devices, then Add device."
+msgstr "เปิดปฏิทินหรือผู้คน เลือกอุปกรณ์ที่เชื่อมต่อ แล้วเลือกเพิ่มอุปกรณ์"
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"

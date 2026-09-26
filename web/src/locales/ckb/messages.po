@@ -622,6 +622,10 @@ msgstr "مۆبایلەکەت ببەستەوە"
 msgid "Connected"
 msgstr "پەیوەستکراو"
 
+#: src/features/help/devices.tsx
+msgid "Connected devices always shows the server address and the username. They are the same for every device, calendar and address book."
+msgstr "«ئامێرە پەیوەستکراوەکان» هەمیشە ناونیشانی ڕاژەکار و ناوی بەکارهێنەر پیشان دەدات. ئەمانە بۆ هەموو ئامێرێک و ڕۆژژمێرێک و دەفتەری ناونیشانێک وەک یەکن."
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connecting..."
 msgstr "پەیوەندی دەکرێت..."
@@ -1650,8 +1654,8 @@ msgid "On"
 msgstr "کارا"
 
 #: src/features/help/devices.tsx
-msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connect device stops its password at once."
-msgstr "یەک وشەی تێپەڕ بۆ هەردوو پەیوەندییەکان و ڕۆژژمێرەکان کار دەکات. هەر ئامێرێک هی خۆی هەیە، و لابردنی ئامێرێک لە ژێر «ئامێرێک بەستنەوە» دەستبەجێ وشەی تێپەڕەکەی لە کار دەخات."
+msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connected devices stops its password at once."
+msgstr "یەک وشەی تێپەڕ بۆ هەردوو پەیوەندییەکان و ڕۆژژمێرەکان کار دەکات. هەر ئامێرێک هی خۆی هەیە، و لابردنی ئامێرێک لە ژێر «ئامێرە پەیوەستکراوەکان» دەستبەجێ وشەی تێپەڕەکەی لە کار دەخات."
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
@@ -1662,8 +1666,8 @@ msgid "Open actions"
 msgstr "کردارەکان بکەرەوە"
 
 #: src/features/help/devices.tsx
-msgid "Open Calendars or People and choose Connect device."
-msgstr "ڕۆژژمێرەکان یان خەڵک بکەرەوە و «ئامێرێک بەستنەوە» هەڵبژێرە."
+msgid "Open Calendars or People, choose Connected devices, then Add device."
+msgstr "ڕۆژژمێرەکان یان خەڵک بکەرەوە، «ئامێرە پەیوەستکراوەکان» هەڵبژێرە، پاشان «زیادکردنی ئامێر»."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"

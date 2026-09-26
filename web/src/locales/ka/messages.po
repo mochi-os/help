@@ -622,6 +622,10 @@ msgstr "დააკავშირეთ თქვენი ტელეფო�
 msgid "Connected"
 msgstr "დაკავშირებულია"
 
+#: src/features/help/devices.tsx
+msgid "Connected devices always shows the server address and the username. They are the same for every device, calendar and address book."
+msgstr "„დაკავშირებული მოწყობილობები“ ყოველთვის აჩვენებს სერვერის მისამართს და მომხმარებლის სახელს. ისინი ერთნაირია ყველა მოწყობილობისთვის, კალენდრისთვის და მისამართების წიგნისთვის."
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connecting..."
 msgstr "დაკავშირება..."
@@ -1650,8 +1654,8 @@ msgid "On"
 msgstr "ჩართული"
 
 #: src/features/help/devices.tsx
-msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connect device stops its password at once."
-msgstr "ერთი პაროლი ემსახურება როგორც კონტაქტებს, ისე კალენდრებს. თითოეულ მოწყობილობას თავისი აქვს, ხოლო მოწყობილობის წაშლა განყოფილებაში „მოწყობილობის დაკავშირება“ მაშინვე აუქმებს მის პაროლს."
+msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connected devices stops its password at once."
+msgstr "ერთი პაროლი ემსახურება როგორც კონტაქტებს, ისე კალენდრებს. თითოეულ მოწყობილობას თავისი აქვს, ხოლო მოწყობილობის წაშლა განყოფილებაში „დაკავშირებული მოწყობილობები“ მაშინვე აუქმებს მის პაროლს."
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
@@ -1662,8 +1666,8 @@ msgid "Open actions"
 msgstr "მოქმედებების გახსნა"
 
 #: src/features/help/devices.tsx
-msgid "Open Calendars or People and choose Connect device."
-msgstr "გახსენით კალენდრები ან ადამიანები და აირჩიეთ „მოწყობილობის დაკავშირება“."
+msgid "Open Calendars or People, choose Connected devices, then Add device."
+msgstr "გახსენით კალენდრები ან ადამიანები, აირჩიეთ „დაკავშირებული მოწყობილობები“, შემდეგ კი „მოწყობილობის დამატება“."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"

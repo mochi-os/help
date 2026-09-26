@@ -622,6 +622,10 @@ msgstr "Konekte telefòn ou"
 msgid "Connected"
 msgstr "Konekte"
 
+#: src/features/help/devices.tsx
+msgid "Connected devices always shows the server address and the username. They are the same for every device, calendar and address book."
+msgstr "Aparèy konekte yo toujou montre adrès sèvè a ak non itilizatè a. Yo menm bagay pou chak aparèy, kalandriye ak kanè adrès."
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connecting..."
 msgstr "Konekte..."
@@ -1650,8 +1654,8 @@ msgid "On"
 msgstr "Aktive"
 
 #: src/features/help/devices.tsx
-msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connect device stops its password at once."
-msgstr "Yon sèl modpas sèvi pou kontak yo ak kalandriye yo ansanm. Chak aparèy gen pa li, e lè ou retire yon aparèy anba Konekte yon aparèy, modpas li sispann mache touswit."
+msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connected devices stops its password at once."
+msgstr "Yon sèl modpas sèvi pou kontak yo ak kalandriye yo ansanm. Chak aparèy gen pa li, e lè ou retire yon aparèy anba Aparèy konekte yo, modpas li sispann mache touswit."
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
@@ -1662,8 +1666,8 @@ msgid "Open actions"
 msgstr "Ouvri aksyon yo"
 
 #: src/features/help/devices.tsx
-msgid "Open Calendars or People and choose Connect device."
-msgstr "Louvri Kalandriye oswa Moun epi chwazi Konekte yon aparèy."
+msgid "Open Calendars or People, choose Connected devices, then Add device."
+msgstr "Louvri Kalandriye oswa Moun, chwazi Aparèy konekte yo, epi apre sa Ajoute yon aparèy."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"

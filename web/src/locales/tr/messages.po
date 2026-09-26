@@ -622,6 +622,10 @@ msgstr "Telefonunuzu bağlayın"
 msgid "Connected"
 msgstr "Bağlandı"
 
+#: src/features/help/devices.tsx
+msgid "Connected devices always shows the server address and the username. They are the same for every device, calendar and address book."
+msgstr "Bağlı cihazlar her zaman sunucu adresini ve kullanıcı adını gösterir. Bunlar her cihaz, takvim ve adres defteri için aynıdır."
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connecting..."
 msgstr "Bağlanıyor..."
@@ -1650,8 +1654,8 @@ msgid "On"
 msgstr "Açık"
 
 #: src/features/help/devices.tsx
-msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connect device stops its password at once."
-msgstr "Tek bir parola hem kişiler hem de takvimler için geçerlidir. Her cihazın kendi parolası olur ve bir cihazı Cihaz bağla bölümünden kaldırdığınızda parolası anında geçersiz olur."
+msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connected devices stops its password at once."
+msgstr "Tek bir parola hem kişiler hem de takvimler için geçerlidir. Her cihazın kendi parolası olur ve bir cihazı Bağlı cihazlar bölümünden kaldırdığınızda parolası anında geçersiz olur."
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
@@ -1662,8 +1666,8 @@ msgid "Open actions"
 msgstr "İşlemleri aç"
 
 #: src/features/help/devices.tsx
-msgid "Open Calendars or People and choose Connect device."
-msgstr "Takvimler veya Kişiler uygulamasını açın ve Cihaz bağla seçeneğini seçin."
+msgid "Open Calendars or People, choose Connected devices, then Add device."
+msgstr "Takvimler veya Kişiler uygulamasını açın, Bağlı cihazlar seçeneğini ve ardından Cihaz ekle seçeneğini seçin."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"

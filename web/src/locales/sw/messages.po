@@ -622,6 +622,10 @@ msgstr "Unganisha simu yako"
 msgid "Connected"
 msgstr "Imeunganishwa"
 
+#: src/features/help/devices.tsx
+msgid "Connected devices always shows the server address and the username. They are the same for every device, calendar and address book."
+msgstr "Vifaa vilivyounganishwa huonyesha anwani ya seva na jina la mtumiaji kila wakati. Ni sawa kwa kila kifaa, kalenda na kitabu cha anwani."
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connecting..."
 msgstr "Inaunganisha..."
@@ -1650,8 +1654,8 @@ msgid "On"
 msgstr "Imewashwa"
 
 #: src/features/help/devices.tsx
-msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connect device stops its password at once."
-msgstr "Nenosiri moja hutumika kwa anwani na kalenda vilevile. Kila kifaa hupata lake, na kuondoa kifaa chini ya Unganisha kifaa husimamisha nenosiri lake papo hapo."
+msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connected devices stops its password at once."
+msgstr "Nenosiri moja hutumika kwa anwani na kalenda vilevile. Kila kifaa hupata lake, na kuondoa kifaa chini ya Vifaa vilivyounganishwa husimamisha nenosiri lake papo hapo."
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
@@ -1662,8 +1666,8 @@ msgid "Open actions"
 msgstr "Fungua vitendo"
 
 #: src/features/help/devices.tsx
-msgid "Open Calendars or People and choose Connect device."
-msgstr "Fungua Kalenda au Watu kisha chagua Unganisha kifaa."
+msgid "Open Calendars or People, choose Connected devices, then Add device."
+msgstr "Fungua Kalenda au Watu, chagua Vifaa vilivyounganishwa, kisha Ongeza kifaa."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"

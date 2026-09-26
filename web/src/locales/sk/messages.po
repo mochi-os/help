@@ -622,6 +622,10 @@ msgstr "Pripojte svoj telefón"
 msgid "Connected"
 msgstr "Pripojené"
 
+#: src/features/help/devices.tsx
+msgid "Connected devices always shows the server address and the username. They are the same for every device, calendar and address book."
+msgstr "Časť Pripojené zariadenia vždy zobrazuje adresu servera a používateľské meno. Sú rovnaké pre každé zariadenie, kalendár aj adresár."
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connecting..."
 msgstr "Pripája sa..."
@@ -1650,8 +1654,8 @@ msgid "On"
 msgstr "Zapnuté"
 
 #: src/features/help/devices.tsx
-msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connect device stops its password at once."
-msgstr "Jedno heslo slúži pre kontakty aj kalendáre. Každé zariadenie má vlastné a po odstránení zariadenia v časti Pripojiť zariadenie jeho heslo okamžite prestane platiť."
+msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connected devices stops its password at once."
+msgstr "Jedno heslo slúži pre kontakty aj kalendáre. Každé zariadenie má vlastné a po odstránení zariadenia v časti Pripojené zariadenia jeho heslo okamžite prestane platiť."
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
@@ -1662,8 +1666,8 @@ msgid "Open actions"
 msgstr "Otvoriť akcie"
 
 #: src/features/help/devices.tsx
-msgid "Open Calendars or People and choose Connect device."
-msgstr "Otvorte Kalendáre alebo Ľudia a zvoľte Pripojiť zariadenie."
+msgid "Open Calendars or People, choose Connected devices, then Add device."
+msgstr "Otvorte Kalendáre alebo Ľudia, zvoľte Pripojené zariadenia a potom Pridať zariadenie."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"

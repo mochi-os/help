@@ -622,6 +622,10 @@ msgstr "Телефони худро пайваст кунед"
 msgid "Connected"
 msgstr "Пайваст шуда"
 
+#: src/features/help/devices.tsx
+msgid "Connected devices always shows the server address and the username. They are the same for every device, calendar and address book."
+msgstr "«Дастгоҳҳои пайвастшуда» ҳамеша суроғаи сервер ва номи корбарро нишон медиҳад. Онҳо барои ҳар дастгоҳ, тақвим ва китоби суроғаҳо якхелаанд."
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connecting..."
 msgstr "Пайваст шуда истодааст..."
@@ -1650,8 +1654,8 @@ msgid "On"
 msgstr "Фаъол"
 
 #: src/features/help/devices.tsx
-msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connect device stops its password at once."
-msgstr "Як рамз ҳам ба тамосҳо ва ҳам ба тақвимҳо хизмат мекунад. Ҳар дастгоҳ рамзи худро дорад ва хориҷ кардани дастгоҳ дар «Пайваст кардани дастгоҳ» рамзи онро дарҳол қатъ мекунад."
+msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connected devices stops its password at once."
+msgstr "Як рамз ҳам ба тамосҳо ва ҳам ба тақвимҳо хизмат мекунад. Ҳар дастгоҳ рамзи худро дорад ва хориҷ кардани дастгоҳ дар «Дастгоҳҳои пайвастшуда» рамзи онро дарҳол қатъ мекунад."
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
@@ -1662,8 +1666,8 @@ msgid "Open actions"
 msgstr "Кушодани амалҳо"
 
 #: src/features/help/devices.tsx
-msgid "Open Calendars or People and choose Connect device."
-msgstr "Тақвимҳо ё Одамонро кушоед ва «Пайваст кардани дастгоҳ»-ро интихоб кунед."
+msgid "Open Calendars or People, choose Connected devices, then Add device."
+msgstr "Тақвимҳо ё Одамонро кушоед, «Дастгоҳҳои пайвастшуда»-ро интихоб кунед ва баъд «Иловаи дастгоҳ»-ро."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"

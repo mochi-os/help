@@ -622,6 +622,10 @@ msgstr "Телефоныңызды қосыңыз"
 msgid "Connected"
 msgstr "Қосылды"
 
+#: src/features/help/devices.tsx
+msgid "Connected devices always shows the server address and the username. They are the same for every device, calendar and address book."
+msgstr "Қосылған құрылғылар бөлімі әрқашан сервер мекенжайы мен пайдаланушы атын көрсетеді. Олар әр құрылғы, күнтізбе және мекенжай кітабы үшін бірдей."
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connecting..."
 msgstr "Қосылуда..."
@@ -1650,8 +1654,8 @@ msgid "On"
 msgstr "Қосулы"
 
 #: src/features/help/devices.tsx
-msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connect device stops its password at once."
-msgstr "Бір құпия сөз контактілерге де, күнтізбелерге де жарайды. Әр құрылғы өз құпия сөзін алады, ал құрылғыны Құрылғыны қосу бөлімінен жойсаңыз, оның құпия сөзі бірден жарамсыз болады."
+msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connected devices stops its password at once."
+msgstr "Бір құпия сөз контактілерге де, күнтізбелерге де жарайды. Әр құрылғы өз құпия сөзін алады, ал құрылғыны Қосылған құрылғылар бөлімінен жойсаңыз, оның құпия сөзі бірден жарамсыз болады."
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
@@ -1662,8 +1666,8 @@ msgid "Open actions"
 msgstr "Әрекеттерді ашу"
 
 #: src/features/help/devices.tsx
-msgid "Open Calendars or People and choose Connect device."
-msgstr "Күнтізбелер немесе Адамдар қолданбасын ашып, Құрылғыны қосу дегенді таңдаңыз."
+msgid "Open Calendars or People, choose Connected devices, then Add device."
+msgstr "Күнтізбелер немесе Адамдар қолданбасын ашып, Қосылған құрылғылар бөлімін, содан кейін Құрылғы қосу дегенді таңдаңыз."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"

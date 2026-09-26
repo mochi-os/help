@@ -622,6 +622,10 @@ msgstr "Prijunkite telefoną"
 msgid "Connected"
 msgstr "Prijungta"
 
+#: src/features/help/devices.tsx
+msgid "Connected devices always shows the server address and the username. They are the same for every device, calendar and address book."
+msgstr "Skiltis Prijungti įrenginiai visada rodo serverio adresą ir naudotojo vardą. Jie tokie patys kiekvienam įrenginiui, kalendoriui ir adresų knygai."
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connecting..."
 msgstr "Jungiamasi..."
@@ -1650,8 +1654,8 @@ msgid "On"
 msgstr "Įjungta"
 
 #: src/features/help/devices.tsx
-msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connect device stops its password at once."
-msgstr "Vienas slaptažodis tinka ir kontaktams, ir kalendoriams. Kiekvienas įrenginys gauna savąjį, o pašalinus įrenginį skiltyje Prijungti įrenginį jo slaptažodis nustoja galioti iš karto."
+msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connected devices stops its password at once."
+msgstr "Vienas slaptažodis tinka ir kontaktams, ir kalendoriams. Kiekvienas įrenginys gauna savąjį, o pašalinus įrenginį skiltyje Prijungti įrenginiai jo slaptažodis nustoja galioti iš karto."
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
@@ -1662,8 +1666,8 @@ msgid "Open actions"
 msgstr "Atidaryti veiksmus"
 
 #: src/features/help/devices.tsx
-msgid "Open Calendars or People and choose Connect device."
-msgstr "Atverkite Kalendorius arba Žmones ir pasirinkite Prijungti įrenginį."
+msgid "Open Calendars or People, choose Connected devices, then Add device."
+msgstr "Atverkite Kalendorius arba Žmones, pasirinkite Prijungti įrenginiai, tada Pridėti įrenginį."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"

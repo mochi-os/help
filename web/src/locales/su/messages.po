@@ -622,6 +622,10 @@ msgstr "Sambungkeun telepon anjeun"
 msgid "Connected"
 msgstr "Tersambung"
 
+#: src/features/help/devices.tsx
+msgid "Connected devices always shows the server address and the username. They are the same for every device, calendar and address book."
+msgstr "Alat nu nyambung sok némbongkeun alamat server jeung ngaran pamaké. Duanana sarua pikeun unggal pakakas, kalénder, jeung buku alamat."
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connecting..."
 msgstr "Nyambungkeun..."
@@ -1650,8 +1654,8 @@ msgid "On"
 msgstr "Hurung"
 
 #: src/features/help/devices.tsx
-msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connect device stops its password at once."
-msgstr "Hiji kecap sandi dipaké pikeun kontak jeung kalénder sakaligus. Unggal pakakas boga kecap sandi sorangan, sarta ngahapus pakakas dina Sambungkeun pakakas langsung nyieun kecap sandina teu jalan deui."
+msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connected devices stops its password at once."
+msgstr "Hiji kecap sandi dipaké pikeun kontak jeung kalénder sakaligus. Unggal pakakas boga kecap sandi sorangan, sarta ngahapus pakakas dina Alat nu nyambung langsung nyieun kecap sandina teu jalan deui."
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
@@ -1662,8 +1666,8 @@ msgid "Open actions"
 msgstr "Buka aksi"
 
 #: src/features/help/devices.tsx
-msgid "Open Calendars or People and choose Connect device."
-msgstr "Buka Kalénder atawa Jalma terus pilih Sambungkeun pakakas."
+msgid "Open Calendars or People, choose Connected devices, then Add device."
+msgstr "Buka Kalénder atawa Jalma, pilih Alat nu nyambung, terus Tambah pakakas."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"

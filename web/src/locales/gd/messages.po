@@ -622,6 +622,10 @@ msgstr "Ceangail am fòn agad"
 msgid "Connected"
 msgstr "Ceangailte"
 
+#: src/features/help/devices.tsx
+msgid "Connected devices always shows the server address and the username. They are the same for every device, calendar and address book."
+msgstr "Seallaidh Innealan ceangailte seòladh an fhrithealaiche agus an t-ainm-cleachdaiche an-còmhnaidh. Tha iad co-ionann airson gach uidheam, mìosachan agus leabhar-sheòlaidhean."
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connecting..."
 msgstr "A' ceangal..."
@@ -1650,8 +1654,8 @@ msgid "On"
 msgstr "Air"
 
 #: src/features/help/devices.tsx
-msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connect device stops its password at once."
-msgstr "Bidh aon fhacal-faire ag obair airson an luchd-aithne agus nam mìosachan le chèile. Gheibh gach uidheam fear dha fhèin, agus ma bheir thu uidheam air falbh fo Ceangail uidheam, sguiridh am facal-faire aige sa bhad."
+msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connected devices stops its password at once."
+msgstr "Bidh aon fhacal-faire ag obair airson an luchd-aithne agus nam mìosachan le chèile. Gheibh gach uidheam fear dha fhèin, agus ma bheir thu uidheam air falbh fo Innealan ceangailte, sguiridh am facal-faire aige sa bhad."
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
@@ -1662,8 +1666,8 @@ msgid "Open actions"
 msgstr "Fosgail na gnìomhan"
 
 #: src/features/help/devices.tsx
-msgid "Open Calendars or People and choose Connect device."
-msgstr "Fosgail Mìosachain no Daoine agus tagh Ceangail uidheam."
+msgid "Open Calendars or People, choose Connected devices, then Add device."
+msgstr "Fosgail Mìosachain no Daoine, tagh Innealan ceangailte, agus an uairsin Cuir inneal ris."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"

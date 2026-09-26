@@ -622,6 +622,10 @@ msgstr "ភ្ជាប់ទូរសព្ទរបស់អ្នក"
 msgid "Connected"
 msgstr "បានភ្ជាប់"
 
+#: src/features/help/devices.tsx
+msgid "Connected devices always shows the server address and the username. They are the same for every device, calendar and address book."
+msgstr "ឧបករណ៍ដែលបានភ្ជាប់ តែងតែបង្ហាញអាសយដ្ឋានម៉ាស៊ីនមេ និងឈ្មោះអ្នកប្រើ។ ពួកវាដូចគ្នាសម្រាប់គ្រប់ឧបករណ៍ ប្រតិទិន និងសៀវភៅអាសយដ្ឋាន។"
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connecting..."
 msgstr "កំពុងភ្ជាប់..."
@@ -1650,8 +1654,8 @@ msgid "On"
 msgstr "បើក"
 
 #: src/features/help/devices.tsx
-msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connect device stops its password at once."
-msgstr "ពាក្យសម្ងាត់មួយប្រើបានទាំងទំនាក់ទំនង និងប្រតិទិន។ ឧបករណ៍នីមួយៗមានពាក្យសម្ងាត់រៀងៗខ្លួន ហើយការលុបឧបករណ៍នៅក្រោម ភ្ជាប់ឧបករណ៍ នឹងបញ្ឈប់ពាក្យសម្ងាត់របស់វាភ្លាមៗ។"
+msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connected devices stops its password at once."
+msgstr "ពាក្យសម្ងាត់មួយប្រើបានទាំងទំនាក់ទំនង និងប្រតិទិន។ ឧបករណ៍នីមួយៗមានពាក្យសម្ងាត់រៀងៗខ្លួន ហើយការលុបឧបករណ៍នៅក្រោម ឧបករណ៍ដែលបានភ្ជាប់ នឹងបញ្ឈប់ពាក្យសម្ងាត់របស់វាភ្លាមៗ។"
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
@@ -1662,8 +1666,8 @@ msgid "Open actions"
 msgstr "បើកសកម្មភាព"
 
 #: src/features/help/devices.tsx
-msgid "Open Calendars or People and choose Connect device."
-msgstr "បើក ប្រតិទិន ឬ មនុស្ស រួចជ្រើសរើស ភ្ជាប់ឧបករណ៍។"
+msgid "Open Calendars or People, choose Connected devices, then Add device."
+msgstr "បើក ប្រតិទិន ឬ មនុស្ស ជ្រើសរើស ឧបករណ៍ដែលបានភ្ជាប់ រួចជ្រើសរើស បន្ថែមឧបករណ៍។"
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"

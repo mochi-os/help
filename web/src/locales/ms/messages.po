@@ -622,6 +622,10 @@ msgstr "Sambungkan telefon anda"
 msgid "Connected"
 msgstr "Disambungkan"
 
+#: src/features/help/devices.tsx
+msgid "Connected devices always shows the server address and the username. They are the same for every device, calendar and address book."
+msgstr "Peranti yang disambungkan sentiasa memaparkan alamat pelayan dan nama pengguna. Kedua-duanya sama bagi setiap peranti, kalendar dan buku alamat."
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connecting..."
 msgstr "Menyambung..."
@@ -1650,8 +1654,8 @@ msgid "On"
 msgstr "Hidup"
 
 #: src/features/help/devices.tsx
-msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connect device stops its password at once."
-msgstr "Satu kata laluan berfungsi untuk kenalan dan kalendar sekali gus. Setiap peranti mendapat kata laluannya sendiri, dan membuang peranti di bawah Sambungkan peranti menghentikan kata laluannya serta-merta."
+msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connected devices stops its password at once."
+msgstr "Satu kata laluan berfungsi untuk kenalan dan kalendar sekali gus. Setiap peranti mendapat kata laluannya sendiri, dan membuang peranti di bawah Peranti yang disambungkan menghentikan kata laluannya serta-merta."
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
@@ -1662,8 +1666,8 @@ msgid "Open actions"
 msgstr "Buka tindakan"
 
 #: src/features/help/devices.tsx
-msgid "Open Calendars or People and choose Connect device."
-msgstr "Buka Kalendar atau Orang dan pilih Sambungkan peranti."
+msgid "Open Calendars or People, choose Connected devices, then Add device."
+msgstr "Buka Kalendar atau Orang, pilih Peranti yang disambungkan, kemudian Tambah peranti."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"

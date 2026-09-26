@@ -622,6 +622,10 @@ msgstr "Συνδέστε το τηλέφωνό σας"
 msgid "Connected"
 msgstr "Συνδεδεμένο"
 
+#: src/features/help/devices.tsx
+msgid "Connected devices always shows the server address and the username. They are the same for every device, calendar and address book."
+msgstr "Οι Συνδεδεμένες συσκευές εμφανίζουν πάντα τη διεύθυνση του διακομιστή και το όνομα χρήστη. Είναι τα ίδια για κάθε συσκευή, ημερολόγιο και βιβλίο διευθύνσεων."
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connecting..."
 msgstr "Σύνδεση..."
@@ -1650,8 +1654,8 @@ msgid "On"
 msgstr "Ενεργό"
 
 #: src/features/help/devices.tsx
-msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connect device stops its password at once."
-msgstr "Ένας κωδικός πρόσβασης καλύπτει και τις επαφές και τα ημερολόγια. Κάθε συσκευή έχει τον δικό της, και η αφαίρεση μιας συσκευής από τη Σύνδεση συσκευής ακυρώνει αμέσως τον κωδικό της."
+msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connected devices stops its password at once."
+msgstr "Ένας κωδικός πρόσβασης καλύπτει και τις επαφές και τα ημερολόγια. Κάθε συσκευή έχει τον δικό της, και η αφαίρεση μιας συσκευής από τις Συνδεδεμένες συσκευές ακυρώνει αμέσως τον κωδικό της."
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
@@ -1662,8 +1666,8 @@ msgid "Open actions"
 msgstr "Άνοιγμα ενεργειών"
 
 #: src/features/help/devices.tsx
-msgid "Open Calendars or People and choose Connect device."
-msgstr "Ανοίξτε τα Ημερολόγια ή τα Άτομα και επιλέξτε Σύνδεση συσκευής."
+msgid "Open Calendars or People, choose Connected devices, then Add device."
+msgstr "Ανοίξτε τα Ημερολόγια ή τα Άτομα, επιλέξτε Συνδεδεμένες συσκευές και έπειτα Προσθήκη συσκευής."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"

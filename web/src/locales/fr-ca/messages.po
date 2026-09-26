@@ -622,6 +622,10 @@ msgstr ""
 msgid "Connected"
 msgstr ""
 
+#: src/features/help/devices.tsx
+msgid "Connected devices always shows the server address and the username. They are the same for every device, calendar and address book."
+msgstr ""
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connecting..."
 msgstr ""
@@ -1650,7 +1654,7 @@ msgid "On"
 msgstr ""
 
 #: src/features/help/devices.tsx
-msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connect device stops its password at once."
+msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connected devices stops its password at once."
 msgstr ""
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
@@ -1662,7 +1666,7 @@ msgid "Open actions"
 msgstr ""
 
 #: src/features/help/devices.tsx
-msgid "Open Calendars or People and choose Connect device."
+msgid "Open Calendars or People, choose Connected devices, then Add device."
 msgstr ""
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx

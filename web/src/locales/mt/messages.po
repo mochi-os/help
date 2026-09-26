@@ -622,6 +622,10 @@ msgstr "Qabbad it-telefon tiegħek"
 msgid "Connected"
 msgstr "Konness"
 
+#: src/features/help/devices.tsx
+msgid "Connected devices always shows the server address and the username. They are the same for every device, calendar and address book."
+msgstr "Apparati mqabbda dejjem juru l-indirizz tas-server u l-isem tal-utent. Huma l-istess għal kull apparat, kalendarju u ktieb tal-indirizzi."
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connecting..."
 msgstr "Qed jgħaqqad..."
@@ -1650,8 +1654,8 @@ msgid "On"
 msgstr "Mixgħul"
 
 #: src/features/help/devices.tsx
-msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connect device stops its password at once."
-msgstr "Password waħda taqdi kemm il-kuntatti kif ukoll il-kalendarji. Kull apparat għandu tiegħu, u meta tneħħi apparat taħt Qabbad apparat, il-password tiegħu tieqaf taħdem mill-ewwel."
+msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connected devices stops its password at once."
+msgstr "Password waħda taqdi kemm il-kuntatti kif ukoll il-kalendarji. Kull apparat għandu tiegħu, u meta tneħħi apparat taħt Apparati mqabbda, il-password tiegħu tieqaf taħdem mill-ewwel."
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
@@ -1662,8 +1666,8 @@ msgid "Open actions"
 msgstr "Iftaħ l-azzjonijiet"
 
 #: src/features/help/devices.tsx
-msgid "Open Calendars or People and choose Connect device."
-msgstr "Iftaħ Kalendarji jew Nies u agħżel Qabbad apparat."
+msgid "Open Calendars or People, choose Connected devices, then Add device."
+msgstr "Iftaħ Kalendarji jew Nies, agħżel Apparati mqabbda, imbagħad Żid apparat."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"

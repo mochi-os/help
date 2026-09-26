@@ -622,6 +622,10 @@ msgstr "Ühendage oma telefon"
 msgid "Connected"
 msgstr "Ühendatud"
 
+#: src/features/help/devices.tsx
+msgid "Connected devices always shows the server address and the username. They are the same for every device, calendar and address book."
+msgstr "Jaotis Ühendatud seadmed näitab alati serveri aadressi ja kasutajanime. Need on iga seadme, kalendri ja aadressiraamatu puhul samad."
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connecting..."
 msgstr "Ühendamine..."
@@ -1650,8 +1654,8 @@ msgid "On"
 msgstr "Sees"
 
 #: src/features/help/devices.tsx
-msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connect device stops its password at once."
-msgstr "Üks parool kehtib nii kontaktidele kui ka kalendritele. Igal seadmel on oma parool ja seadme eemaldamine jaotisest Ühenda seade lõpetab selle parooli kehtivuse kohe."
+msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connected devices stops its password at once."
+msgstr "Üks parool kehtib nii kontaktidele kui ka kalendritele. Igal seadmel on oma parool ja seadme eemaldamine jaotisest Ühendatud seadmed lõpetab selle parooli kehtivuse kohe."
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
@@ -1662,8 +1666,8 @@ msgid "Open actions"
 msgstr "Ava toimingud"
 
 #: src/features/help/devices.tsx
-msgid "Open Calendars or People and choose Connect device."
-msgstr "Avage Kalendrid või Inimesed ja valige Ühenda seade."
+msgid "Open Calendars or People, choose Connected devices, then Add device."
+msgstr "Avage Kalendrid või Inimesed, valige Ühendatud seadmed ja seejärel Lisa seade."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"

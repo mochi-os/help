@@ -622,6 +622,10 @@ msgstr "Csatlakoztassa a telefonját"
 msgid "Connected"
 msgstr "Csatlakoztatva"
 
+#: src/features/help/devices.tsx
+msgid "Connected devices always shows the server address and the username. They are the same for every device, calendar and address book."
+msgstr "A Csatlakoztatott eszközök oldal mindig megjeleníti a kiszolgáló címét és a felhasználónevet. Ezek minden eszköznél, naptárnál és címjegyzéknél ugyanazok."
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connecting..."
 msgstr "Csatlakozás…"
@@ -1650,8 +1654,8 @@ msgid "On"
 msgstr "Be"
 
 #: src/features/help/devices.tsx
-msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connect device stops its password at once."
-msgstr "Egyetlen jelszó szolgál a névjegyekhez és a naptárakhoz is. Minden eszköz sajátot kap, és ha egy eszközt eltávolít az Eszköz csatlakoztatása alatt, a jelszava azonnal érvénytelenné válik."
+msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connected devices stops its password at once."
+msgstr "Egyetlen jelszó szolgál a névjegyekhez és a naptárakhoz is. Minden eszköz sajátot kap, és ha egy eszközt eltávolít a Csatlakoztatott eszközök alatt, a jelszava azonnal érvénytelenné válik."
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
@@ -1662,8 +1666,8 @@ msgid "Open actions"
 msgstr "Műveletek megnyitása"
 
 #: src/features/help/devices.tsx
-msgid "Open Calendars or People and choose Connect device."
-msgstr "Nyissa meg a Naptárak vagy a Személyek alkalmazást, és válassza az Eszköz csatlakoztatása lehetőséget."
+msgid "Open Calendars or People, choose Connected devices, then Add device."
+msgstr "Nyissa meg a Naptárak vagy a Személyek alkalmazást, válassza a Csatlakoztatott eszközök lehetőséget, majd az Eszköz hozzáadása lehetőséget."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"

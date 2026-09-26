@@ -622,6 +622,10 @@ msgstr "Ikonekta ang iyong telepono"
 msgid "Connected"
 msgstr "Konektado"
 
+#: src/features/help/devices.tsx
+msgid "Connected devices always shows the server address and the username. They are the same for every device, calendar and address book."
+msgstr "Palaging ipinapakita ng Mga nakakonektang device ang address ng server at ang username. Pareho ang mga ito para sa bawat device, kalendaryo at aklat ng address."
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connecting..."
 msgstr "Kumokonekta..."
@@ -1650,8 +1654,8 @@ msgid "On"
 msgstr "Naka-on"
 
 #: src/features/help/devices.tsx
-msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connect device stops its password at once."
-msgstr "Isang password ang gumagana para sa mga contact at sa mga kalendaryo. May sarili ang bawat device, at kapag inalis mo ang isang device sa Ikonekta ang device, agad na hihinto ang password nito."
+msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connected devices stops its password at once."
+msgstr "Isang password ang gumagana para sa mga contact at sa mga kalendaryo. May sarili ang bawat device, at kapag inalis mo ang isang device sa Mga nakakonektang device, agad na hihinto ang password nito."
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
@@ -1662,8 +1666,8 @@ msgid "Open actions"
 msgstr "Buksan ang mga aksyon"
 
 #: src/features/help/devices.tsx
-msgid "Open Calendars or People and choose Connect device."
-msgstr "Buksan ang Mga kalendaryo o Mga Tao at piliin ang Ikonekta ang device."
+msgid "Open Calendars or People, choose Connected devices, then Add device."
+msgstr "Buksan ang Mga kalendaryo o Mga Tao, piliin ang Mga nakakonektang device, at pagkatapos ang Magdagdag ng device."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"

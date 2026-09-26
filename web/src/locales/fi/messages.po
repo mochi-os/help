@@ -622,6 +622,10 @@ msgstr "Yhdistä puhelimesi"
 msgid "Connected"
 msgstr "Yhdistetty"
 
+#: src/features/help/devices.tsx
+msgid "Connected devices always shows the server address and the username. They are the same for every device, calendar and address book."
+msgstr "Kohta Yhdistetyt laitteet näyttää aina palvelimen osoitteen ja käyttäjätunnuksen. Ne ovat samat jokaiselle laitteelle, kalenterille ja osoitekirjalle."
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connecting..."
 msgstr "Yhdistetään..."
@@ -1650,8 +1654,8 @@ msgid "On"
 msgstr "Päällä"
 
 #: src/features/help/devices.tsx
-msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connect device stops its password at once."
-msgstr "Yksi salasana riittää sekä yhteystiedoille että kalentereille. Jokaisella laitteella on oma salasanansa, ja laitteen poistaminen kohdasta Yhdistä laite lakkauttaa sen salasanan heti."
+msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connected devices stops its password at once."
+msgstr "Yksi salasana riittää sekä yhteystiedoille että kalentereille. Jokaisella laitteella on oma salasanansa, ja laitteen poistaminen kohdasta Yhdistetyt laitteet lakkauttaa sen salasanan heti."
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
@@ -1662,8 +1666,8 @@ msgid "Open actions"
 msgstr "Avaa toiminnot"
 
 #: src/features/help/devices.tsx
-msgid "Open Calendars or People and choose Connect device."
-msgstr "Avaa Kalenterit tai Ihmiset ja valitse Yhdistä laite."
+msgid "Open Calendars or People, choose Connected devices, then Add device."
+msgstr "Avaa Kalenterit tai Ihmiset, valitse Yhdistetyt laitteet ja sitten Lisää laite."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"

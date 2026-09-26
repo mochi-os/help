@@ -622,6 +622,10 @@ msgstr "Telefonyňyzy birikdiriň"
 msgid "Connected"
 msgstr "Baglandy"
 
+#: src/features/help/devices.tsx
+msgid "Connected devices always shows the server address and the username. They are the same for every device, calendar and address book."
+msgstr "Birikdirilen enjamlar bölümi hemişe serweriň salgysyny we ulanyjy adyny görkezýär. Olar her enjam, senenama we salgy kitapçasy üçin birmeňzeşdir."
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connecting..."
 msgstr "Birikdirilýär..."
@@ -1650,8 +1654,8 @@ msgid "On"
 msgstr "Açyk"
 
 #: src/features/help/devices.tsx
-msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connect device stops its password at once."
-msgstr "Bir parol aragatnaşyklar üçin-de, senenamalar üçin-de ýeterlik. Her enjamyň öz paroly bar we Enjamy birikdir bölüminden enjamy aýyrsaňyz, onuň paroly şol bada hereketden galýar."
+msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connected devices stops its password at once."
+msgstr "Bir parol aragatnaşyklar üçin-de, senenamalar üçin-de ýeterlik. Her enjamyň öz paroly bar we Birikdirilen enjamlar bölüminden enjamy aýyrsaňyz, onuň paroly şol bada hereketden galýar."
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
@@ -1662,8 +1666,8 @@ msgid "Open actions"
 msgstr "Amallary aç"
 
 #: src/features/help/devices.tsx
-msgid "Open Calendars or People and choose Connect device."
-msgstr "Senenamalary ýa-da Adamlary açyň we Enjamy birikdir saýlaň."
+msgid "Open Calendars or People, choose Connected devices, then Add device."
+msgstr "Senenamalary ýa-da Adamlary açyň, Birikdirilen enjamlar saýlaň, soňra Enjam goş saýlaň."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"

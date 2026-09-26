@@ -622,6 +622,10 @@ msgstr "Celularniykita tinkichiy"
 msgid "Connected"
 msgstr "Tinkichisqa"
 
+#: src/features/help/devices.tsx
+msgid "Connected devices always shows the server address and the username. They are the same for every device, calendar and address book."
+msgstr "Tinkisqa apaykachanakuna nisqaqa servidor direccionta apaykachaq sutitawan sapa kuti rikuchin. Kaykunaqa sapa mañanapaqpas, calendariopaqpas, direccion maytupaqpas kaqllam."
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connecting..."
 msgstr "Tinkichkan..."
@@ -1650,8 +1654,8 @@ msgid "On"
 msgstr "Hapichisqa"
 
 #: src/features/help/devices.tsx
-msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connect device stops its password at once."
-msgstr "Huk contraseñallam contactokunapaqpas calendariokunapaqpas. Sapa mañanam kikinpa contraseñanta chaskin, hinaspa Huk mañanata tinkichiy nisqapi mañanata qichuptiykiqa contraseñanqa chaylla manaña llamk'anñachu."
+msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connected devices stops its password at once."
+msgstr "Huk contraseñallam contactokunapaqpas calendariokunapaqpas. Sapa mañanam kikinpa contraseñanta chaskin, hinaspa Tinkisqa apaykachanakuna nisqapi mañanata qichuptiykiqa contraseñanqa chaylla manaña llamk'anñachu."
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
@@ -1662,8 +1666,8 @@ msgid "Open actions"
 msgstr "Ruwaykunata kichay"
 
 #: src/features/help/devices.tsx
-msgid "Open Calendars or People and choose Connect device."
-msgstr "Calendariokuna icha Runakuna nisqata kichay, hinaspa Huk mañanata tinkichiy nisqata akllay."
+msgid "Open Calendars or People, choose Connected devices, then Add device."
+msgstr "Calendariokuna icha Runakuna nisqata kichay, Tinkisqa apaykachanakuna nisqata akllay, hinaspa Huk mañanata yapay nisqata akllay."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"

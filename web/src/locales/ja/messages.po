@@ -622,6 +622,10 @@ msgstr "スマートフォンを接続する"
 msgid "Connected"
 msgstr "接続済み"
 
+#: src/features/help/devices.tsx
+msgid "Connected devices always shows the server address and the username. They are the same for every device, calendar and address book."
+msgstr "「接続中のデバイス」には、サーバーアドレスとユーザー名が常に表示されます。これらはすべてのデバイス、カレンダー、アドレス帳で共通です。"
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connecting..."
 msgstr "接続中..."
@@ -1650,8 +1654,8 @@ msgid "On"
 msgstr "オン"
 
 #: src/features/help/devices.tsx
-msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connect device stops its password at once."
-msgstr "1 つのパスワードで連絡先とカレンダーの両方を利用できます。デバイスごとに専用のパスワードが発行され、「デバイスを接続」でデバイスを削除すると、そのパスワードはただちに無効になります。"
+msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connected devices stops its password at once."
+msgstr "1 つのパスワードで連絡先とカレンダーの両方を利用できます。デバイスごとに専用のパスワードが発行され、「接続中のデバイス」でデバイスを削除すると、そのパスワードはただちに無効になります。"
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
@@ -1662,8 +1666,8 @@ msgid "Open actions"
 msgstr "操作メニューを開く"
 
 #: src/features/help/devices.tsx
-msgid "Open Calendars or People and choose Connect device."
-msgstr "カレンダーまたはピープルを開き、「デバイスを接続」を選びます。"
+msgid "Open Calendars or People, choose Connected devices, then Add device."
+msgstr "カレンダーまたはピープルを開き、「接続中のデバイス」を選んでから「デバイスを追加」を選びます。"
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"

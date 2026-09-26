@@ -622,6 +622,10 @@ msgstr "Свържете телефона си"
 msgid "Connected"
 msgstr "Свързано"
 
+#: src/features/help/devices.tsx
+msgid "Connected devices always shows the server address and the username. They are the same for every device, calendar and address book."
+msgstr "Свързани устройства винаги показва адреса на сървъра и потребителското име. Те са едни и същи за всяко устройство, календар и адресна книга."
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connecting..."
 msgstr "Свързване..."
@@ -1650,8 +1654,8 @@ msgid "On"
 msgstr "Вкл."
 
 #: src/features/help/devices.tsx
-msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connect device stops its password at once."
-msgstr "Една парола важи както за контактите, така и за календарите. Всяко устройство получава своя собствена, а премахването на устройство от Свързване на устройство веднага спира неговата парола."
+msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connected devices stops its password at once."
+msgstr "Една парола важи както за контактите, така и за календарите. Всяко устройство получава своя собствена, а премахването на устройство от Свързани устройства веднага спира неговата парола."
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
@@ -1662,8 +1666,8 @@ msgid "Open actions"
 msgstr "Отвори действията"
 
 #: src/features/help/devices.tsx
-msgid "Open Calendars or People and choose Connect device."
-msgstr "Отворете Календари или Хора и изберете Свързване на устройство."
+msgid "Open Calendars or People, choose Connected devices, then Add device."
+msgstr "Отворете Календари или Хора, изберете Свързани устройства, след това Добавяне на устройство."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"

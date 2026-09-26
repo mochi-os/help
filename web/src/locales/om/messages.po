@@ -622,6 +622,10 @@ msgstr "Bilbila kee walqabsiisi"
 msgid "Connected"
 msgstr "Walitti hidhame"
 
+#: src/features/help/devices.tsx
+msgid "Connected devices always shows the server address and the username. They are the same for every device, calendar and address book."
+msgstr "Meeshaalee walqabsiifaman yeroo hunda teessoo sarvarii fi maqaa fayyadamaa agarsiisa. Isaan meeshaa, kaalaandarii fi kitaaba teessoo hundaaf tokkuma."
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connecting..."
 msgstr "Walqunnamsiisaa jira..."
@@ -1650,8 +1654,8 @@ msgid "On"
 msgstr "Banaa"
 
 #: src/features/help/devices.tsx
-msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connect device stops its password at once."
-msgstr "Jechi darbii tokko quunnamtiiwwanii fi kaalaandaroota lamaaniifuu ni tajaajila. Meeshaan hundi kan mataa isaa argata, meeshaa tokko Meeshaa walqabsiisi jalatti yoo haqxe jechi darbii isaa yeruma sana hojiin ala ta'a."
+msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connected devices stops its password at once."
+msgstr "Jechi darbii tokko quunnamtiiwwanii fi kaalaandaroota lamaaniifuu ni tajaajila. Meeshaan hundi kan mataa isaa argata, meeshaa tokko Meeshaalee walqabsiifaman jalatti yoo haqxe jechi darbii isaa yeruma sana hojiin ala ta'a."
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
@@ -1662,8 +1666,8 @@ msgid "Open actions"
 msgstr "Gochaalee bani"
 
 #: src/features/help/devices.tsx
-msgid "Open Calendars or People and choose Connect device."
-msgstr "Kaalaandaroota yookaan Namoota bani, Meeshaa walqabsiisi filadhu."
+msgid "Open Calendars or People, choose Connected devices, then Add device."
+msgstr "Kaalaandaroota yookaan Namoota bani, Meeshaalee walqabsiifaman filadhu, sana booda Meeshaa dabali filadhu."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"

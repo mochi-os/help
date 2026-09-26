@@ -622,6 +622,10 @@ msgstr "ስልክዎን ያገናኙ"
 msgid "Connected"
 msgstr "ተገናኝቷል"
 
+#: src/features/help/devices.tsx
+msgid "Connected devices always shows the server address and the username. They are the same for every device, calendar and address book."
+msgstr "የተገናኙ መሳሪያዎች ሁልጊዜ የአገልጋይ አድራሻውንና የተጠቃሚ ስሙን ያሳያል። እነዚህ ለእያንዳንዱ መሣሪያ፣ ቀን መቁጠሪያ እና የአድራሻ ደብተር አንድ ዓይነት ናቸው።"
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connecting..."
 msgstr "በመገናኘት ላይ..."
@@ -1650,8 +1654,8 @@ msgid "On"
 msgstr "በርቷል"
 
 #: src/features/help/devices.tsx
-msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connect device stops its password at once."
-msgstr "አንድ የይለፍ ቃል ለዕውቂያዎችም ለቀን መቁጠሪያዎችም ያገለግላል። እያንዳንዱ መሣሪያ የራሱ አለው፤ በመሣሪያ አገናኝ ውስጥ መሣሪያን ማስወገድ የይለፍ ቃሉን ወዲያውኑ ያቋርጣል።"
+msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connected devices stops its password at once."
+msgstr "አንድ የይለፍ ቃል ለዕውቂያዎችም ለቀን መቁጠሪያዎችም ያገለግላል። እያንዳንዱ መሣሪያ የራሱ አለው፤ የተገናኙ መሳሪያዎች ውስጥ መሣሪያን ማስወገድ የይለፍ ቃሉን ወዲያውኑ ያቋርጣል።"
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
@@ -1662,8 +1666,8 @@ msgid "Open actions"
 msgstr "እርምጃዎችን ክፈት"
 
 #: src/features/help/devices.tsx
-msgid "Open Calendars or People and choose Connect device."
-msgstr "ቀን መቁጠሪያዎች ወይም ሰዎች የሚለውን ይክፈቱና መሣሪያ አገናኝ ይምረጡ።"
+msgid "Open Calendars or People, choose Connected devices, then Add device."
+msgstr "ቀን መቁጠሪያዎች ወይም ሰዎች የሚለውን ይክፈቱ፣ የተገናኙ መሳሪያዎች ይምረጡ፣ ከዚያም መሳሪያ ያክሉ ይምረጡ።"
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"

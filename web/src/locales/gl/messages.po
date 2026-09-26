@@ -622,6 +622,10 @@ msgstr "Conecta o teu teléfono"
 msgid "Connected"
 msgstr "Conectado"
 
+#: src/features/help/devices.tsx
+msgid "Connected devices always shows the server address and the username. They are the same for every device, calendar and address book."
+msgstr "Dispositivos conectados mostra sempre o enderezo do servidor e o nome de usuario. Son os mesmos para cada dispositivo, calendario e axenda de enderezos."
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connecting..."
 msgstr "Conectando..."
@@ -1650,8 +1654,8 @@ msgid "On"
 msgstr "Activado"
 
 #: src/features/help/devices.tsx
-msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connect device stops its password at once."
-msgstr "Un mesmo contrasinal serve para os contactos e mais os calendarios. Cada dispositivo ten o seu e, ao eliminar un dispositivo en Conectar un dispositivo, o seu contrasinal deixa de valer ao instante."
+msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connected devices stops its password at once."
+msgstr "Un mesmo contrasinal serve para os contactos e mais os calendarios. Cada dispositivo ten o seu e, ao eliminar un dispositivo en Dispositivos conectados, o seu contrasinal deixa de valer ao instante."
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
@@ -1662,8 +1666,8 @@ msgid "Open actions"
 msgstr "Abrir accións"
 
 #: src/features/help/devices.tsx
-msgid "Open Calendars or People and choose Connect device."
-msgstr "Abre Calendarios ou Persoas e escolle Conectar un dispositivo."
+msgid "Open Calendars or People, choose Connected devices, then Add device."
+msgstr "Abre Calendarios ou Persoas, escolle Dispositivos conectados e despois Engadir un dispositivo."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"

@@ -622,6 +622,10 @@ msgstr "پنهنجو فون ڳنڍيو"
 msgid "Connected"
 msgstr "ڳنڍيل"
 
+#: src/features/help/devices.tsx
+msgid "Connected devices always shows the server address and the username. They are the same for every device, calendar and address book."
+msgstr "ڳنڍيل ڊوائيس هميشه سرور جو پتو ۽ صارف نالو ڏيکاريندو آهي. اهي هر ڊوائيس، ڪئلينڊر ۽ ايڊريس بڪ لاءِ ساڳيا آهن."
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connecting..."
 msgstr "ڳنڍجي رهيو آهي..."
@@ -1650,8 +1654,8 @@ msgid "On"
 msgstr "آن"
 
 #: src/features/help/devices.tsx
-msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connect device stops its password at once."
-msgstr "هڪ ئي پاسورڊ رابطن ۽ ڪئلينڊر ٻنهي لاءِ ڪم ڪري ٿو. هر ڊوائيس کي پنهنجو پاسورڊ ملندو آهي، ۽ ڊوائيس ڳنڍيو هيٺ ڪنهن ڊوائيس کي هٽائڻ سان ان جو پاسورڊ فوري طور بند ٿي ويندو آهي."
+msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connected devices stops its password at once."
+msgstr "هڪ ئي پاسورڊ رابطن ۽ ڪئلينڊر ٻنهي لاءِ ڪم ڪري ٿو. هر ڊوائيس کي پنهنجو پاسورڊ ملندو آهي، ۽ ڳنڍيل ڊوائيس هيٺ ڪنهن ڊوائيس کي هٽائڻ سان ان جو پاسورڊ فوري طور بند ٿي ويندو آهي."
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
@@ -1662,8 +1666,8 @@ msgid "Open actions"
 msgstr "ڪارروايون کوليو"
 
 #: src/features/help/devices.tsx
-msgid "Open Calendars or People and choose Connect device."
-msgstr "ڪئلينڊر يا ماڻهو کوليو ۽ ڊوائيس ڳنڍيو چونڊيو."
+msgid "Open Calendars or People, choose Connected devices, then Add device."
+msgstr "ڪئلينڊر يا ماڻهو کوليو، ڳنڍيل ڊوائيس چونڊيو، پوءِ ڊوائيس شامل ڪريو چونڊيو."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"

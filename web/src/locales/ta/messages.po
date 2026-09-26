@@ -622,6 +622,10 @@ msgstr "உங்கள் ஃபோனை இணைக்கவும்"
 msgid "Connected"
 msgstr "இணைக்கப்பட்டது"
 
+#: src/features/help/devices.tsx
+msgid "Connected devices always shows the server address and the username. They are the same for every device, calendar and address book."
+msgstr "இணைக்கப்பட்ட சாதனங்கள் எப்போதும் சர்வர் முகவரியையும் பயனர்பெயரையும் காட்டும். ஒவ்வொரு சாதனம், நாட்காட்டி, முகவரிப் புத்தகத்துக்கும் இவை ஒன்றே."
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connecting..."
 msgstr "இணைக்கிறது..."
@@ -1650,8 +1654,8 @@ msgid "On"
 msgstr "இயக்கத்தில்"
 
 #: src/features/help/devices.tsx
-msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connect device stops its password at once."
-msgstr "ஒரே கடவுச்சொல் தொடர்புகளுக்கும் நாட்காட்டிகளுக்கும் பயன்படும். ஒவ்வொரு சாதனத்திற்கும் தனிக் கடவுச்சொல் வழங்கப்படும்; சாதனத்தை இணைக்கவும் பகுதியில் ஒரு சாதனத்தை நீக்கினால் அதன் கடவுச்சொல் உடனே செயலிழக்கும்."
+msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connected devices stops its password at once."
+msgstr "ஒரே கடவுச்சொல் தொடர்புகளுக்கும் நாட்காட்டிகளுக்கும் பயன்படும். ஒவ்வொரு சாதனத்திற்கும் தனிக் கடவுச்சொல் வழங்கப்படும்; இணைக்கப்பட்ட சாதனங்கள் பகுதியில் ஒரு சாதனத்தை நீக்கினால் அதன் கடவுச்சொல் உடனே செயலிழக்கும்."
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
@@ -1662,8 +1666,8 @@ msgid "Open actions"
 msgstr "செயல்களைத் திற"
 
 #: src/features/help/devices.tsx
-msgid "Open Calendars or People and choose Connect device."
-msgstr "நாட்காட்டிகள் அல்லது மக்கள் ஐத் திறந்து சாதனத்தை இணைக்கவும் என்பதைத் தேர்ந்தெடுக்கவும்."
+msgid "Open Calendars or People, choose Connected devices, then Add device."
+msgstr "நாட்காட்டிகள் அல்லது மக்கள் ஐத் திறந்து இணைக்கப்பட்ட சாதனங்கள் என்பதைத் தேர்ந்தெடுத்து, பின்னர் சாதனத்தைச் சேர்க்கவும் என்பதைத் தேர்ந்தெடுக்கவும்."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"

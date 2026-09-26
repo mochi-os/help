@@ -622,6 +622,10 @@ msgstr "Միացրեք ձեր հեռախոսը"
 msgid "Connected"
 msgstr "Միացված"
 
+#: src/features/help/devices.tsx
+msgid "Connected devices always shows the server address and the username. They are the same for every device, calendar and address book."
+msgstr "«Միացված սարքեր»-ը միշտ ցույց է տալիս սերվերի հասցեն և օգտանունը։ Դրանք նույնն են յուրաքանչյուր սարքի, օրացույցի և հասցեագրքի համար։"
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connecting..."
 msgstr "Միանում է..."
@@ -1650,8 +1654,8 @@ msgid "On"
 msgstr "Միացված"
 
 #: src/features/help/devices.tsx
-msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connect device stops its password at once."
-msgstr "Մեկ գաղտնաբառը սպասարկում է և՛ կոնտակտները, և՛ օրացույցները։ Յուրաքանչյուր սարք ունի իրենը, իսկ «Միացնել սարք» բաժնում սարքը հեռացնելն անմիջապես դադարեցնում է դրա գաղտնաբառի գործողությունը։"
+msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connected devices stops its password at once."
+msgstr "Մեկ գաղտնաբառը սպասարկում է և՛ կոնտակտները, և՛ օրացույցները։ Յուրաքանչյուր սարք ունի իրենը, իսկ «Միացված սարքեր» բաժնում սարքը հեռացնելն անմիջապես դադարեցնում է դրա գաղտնաբառի գործողությունը։"
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
@@ -1662,8 +1666,8 @@ msgid "Open actions"
 msgstr "Բացել գործողությունները"
 
 #: src/features/help/devices.tsx
-msgid "Open Calendars or People and choose Connect device."
-msgstr "Բացեք Օրացույցներ կամ Մարդիկ և ընտրեք «Միացնել սարք»։"
+msgid "Open Calendars or People, choose Connected devices, then Add device."
+msgstr "Բացեք Օրացույցներ կամ Մարդիկ, ընտրեք «Միացված սարքեր», ապա «Ավելացնել սարք»։"
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"

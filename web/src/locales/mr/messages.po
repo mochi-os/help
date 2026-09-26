@@ -622,6 +622,10 @@ msgstr "तुमचा फोन जोडा"
 msgid "Connected"
 msgstr "कनेक्ट केले"
 
+#: src/features/help/devices.tsx
+msgid "Connected devices always shows the server address and the username. They are the same for every device, calendar and address book."
+msgstr "कनेक्ट केलेली डिव्हाइस नेहमी सर्व्हर पत्ता आणि वापरकर्तानाव दाखवते. ते प्रत्येक डिव्हाइस, कॅलेंडर आणि पत्तापुस्तिकेसाठी सारखेच असतात."
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connecting..."
 msgstr "कनेक्ट होत आहे..."
@@ -1650,8 +1654,8 @@ msgid "On"
 msgstr "चालू"
 
 #: src/features/help/devices.tsx
-msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connect device stops its password at once."
-msgstr "एकच पासवर्ड संपर्क आणि कॅलेंडर दोन्हींसाठी चालतो. प्रत्येक डिव्हाइसला स्वतःचा पासवर्ड मिळतो आणि डिव्हाइस कनेक्ट करा अंतर्गत डिव्हाइस काढून टाकल्यास त्याचा पासवर्ड लगेच बंद होतो."
+msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connected devices stops its password at once."
+msgstr "एकच पासवर्ड संपर्क आणि कॅलेंडर दोन्हींसाठी चालतो. प्रत्येक डिव्हाइसला स्वतःचा पासवर्ड मिळतो आणि कनेक्ट केलेली डिव्हाइस अंतर्गत डिव्हाइस काढून टाकल्यास त्याचा पासवर्ड लगेच बंद होतो."
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
@@ -1662,8 +1666,8 @@ msgid "Open actions"
 msgstr "क्रिया उघडा"
 
 #: src/features/help/devices.tsx
-msgid "Open Calendars or People and choose Connect device."
-msgstr "कॅलेंडर किंवा लोक उघडा आणि डिव्हाइस कनेक्ट करा निवडा."
+msgid "Open Calendars or People, choose Connected devices, then Add device."
+msgstr "कॅलेंडर किंवा लोक उघडा, कनेक्ट केलेली डिव्हाइस निवडा, मग डिव्हाइस जोडा निवडा."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"

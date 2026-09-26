@@ -622,6 +622,10 @@ msgstr "Kople til telefonen din"
 msgid "Connected"
 msgstr "Tilkopla"
 
+#: src/features/help/devices.tsx
+msgid "Connected devices always shows the server address and the username. They are the same for every device, calendar and address book."
+msgstr "Tilkopla einingar viser alltid serveradressa og brukarnamnet. Dei er dei same for kvar eining, kalender og adressebok."
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connecting..."
 msgstr "Koplar til..."
@@ -1650,8 +1654,8 @@ msgid "On"
 msgstr "På"
 
 #: src/features/help/devices.tsx
-msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connect device stops its password at once."
-msgstr "Eitt passord gjeld både kontaktar og kalendrar. Kvar eining får sitt eige, og fjernar du ei eining under Kople til ei eining, sluttar passordet hennar å verke med ein gong."
+msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connected devices stops its password at once."
+msgstr "Eitt passord gjeld både kontaktar og kalendrar. Kvar eining får sitt eige, og fjernar du ei eining under Tilkopla einingar, sluttar passordet hennar å verke med ein gong."
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
@@ -1662,8 +1666,8 @@ msgid "Open actions"
 msgstr "Opne handlingar"
 
 #: src/features/help/devices.tsx
-msgid "Open Calendars or People and choose Connect device."
-msgstr "Opne Kalendrar eller Personar og vel Kople til ei eining."
+msgid "Open Calendars or People, choose Connected devices, then Add device."
+msgstr "Opne Kalendrar eller Personar, vel Tilkopla einingar og deretter Legg til ei eining."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"

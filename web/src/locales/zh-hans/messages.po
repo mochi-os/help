@@ -622,6 +622,10 @@ msgstr "连接你的手机"
 msgid "Connected"
 msgstr "已连接"
 
+#: src/features/help/devices.tsx
+msgid "Connected devices always shows the server address and the username. They are the same for every device, calendar and address book."
+msgstr "“已连接的设备”始终显示服务器地址和用户名。它们对每台设备、每个日历和每个通讯录都相同。"
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connecting..."
 msgstr "正在连接..."
@@ -1650,8 +1654,8 @@ msgid "On"
 msgstr "开启"
 
 #: src/features/help/devices.tsx
-msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connect device stops its password at once."
-msgstr "一个密码同时适用于通讯录和日历。每台设备都有自己的密码；在“连接设备”中移除某台设备，它的密码会立即失效。"
+msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connected devices stops its password at once."
+msgstr "一个密码同时适用于通讯录和日历。每台设备都有自己的密码；在“已连接的设备”中移除某台设备，它的密码会立即失效。"
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
@@ -1662,8 +1666,8 @@ msgid "Open actions"
 msgstr "打开操作"
 
 #: src/features/help/devices.tsx
-msgid "Open Calendars or People and choose Connect device."
-msgstr "打开日历或联系人，然后选择“连接设备”。"
+msgid "Open Calendars or People, choose Connected devices, then Add device."
+msgstr "打开日历或联系人，选择“已连接的设备”，然后选择“添加设备”。"
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"

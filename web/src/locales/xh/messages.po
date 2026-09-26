@@ -622,6 +622,10 @@ msgstr "Qhagamshela ifowuni yakho"
 msgid "Connected"
 msgstr "Idibene"
 
+#: src/features/help/devices.tsx
+msgid "Connected devices always shows the server address and the username. They are the same for every device, calendar and address book."
+msgstr "Izixhobo ezidibeneyo zihlala zibonisa idilesi yeseva negama lomsebenzisi. Ziyafana kuso sonke isixhobo, ikhalenda nencwadi yeedilesi."
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connecting..."
 msgstr "Iyaqhagamshela..."
@@ -1650,8 +1654,8 @@ msgid "On"
 msgstr "Ivuliwe"
 
 #: src/features/help/devices.tsx
-msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connect device stops its password at once."
-msgstr "Igama elinye lokugqitha lisebenza kubo bobabini abaqhagamshelwana nabo neekhalenda. Isixhobo ngasinye sinelalo, kwaye ukususa isixhobo phantsi kweQhagamshela isixhobo kumisa igama laso lokugqitha ngoko nangoko."
+msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connected devices stops its password at once."
+msgstr "Igama elinye lokugqitha lisebenza kubo bobabini abaqhagamshelwana nabo neekhalenda. Isixhobo ngasinye sinelalo, kwaye ukususa isixhobo phantsi kwe-Izixhobo ezidibeneyo kumisa igama laso lokugqitha ngoko nangoko."
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
@@ -1662,8 +1666,8 @@ msgid "Open actions"
 msgstr "Vula izenzo"
 
 #: src/features/help/devices.tsx
-msgid "Open Calendars or People and choose Connect device."
-msgstr "Vula Iikhalenda okanye Abantu uze ukhethe Qhagamshela isixhobo."
+msgid "Open Calendars or People, choose Connected devices, then Add device."
+msgstr "Vula Iikhalenda okanye Abantu, ukhethe Izixhobo ezidibeneyo, uze ukhethe Yongeza isixhobo."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"

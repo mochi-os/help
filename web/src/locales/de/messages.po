@@ -622,6 +622,10 @@ msgstr "Ihr Telefon verbinden"
 msgid "Connected"
 msgstr "Verbunden"
 
+#: src/features/help/devices.tsx
+msgid "Connected devices always shows the server address and the username. They are the same for every device, calendar and address book."
+msgstr "Verbundene Geräte zeigt immer die Serveradresse und den Benutzernamen an. Sie sind für jedes Gerät, jeden Kalender und jedes Adressbuch gleich."
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connecting..."
 msgstr "Verbinden …"
@@ -1650,8 +1654,8 @@ msgid "On"
 msgstr "Ein"
 
 #: src/features/help/devices.tsx
-msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connect device stops its password at once."
-msgstr "Ein Passwort gilt für Kontakte und Kalender zugleich. Jedes Gerät erhält ein eigenes, und wenn Sie ein Gerät unter Gerät verbinden entfernen, ist sein Passwort sofort ungültig."
+msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connected devices stops its password at once."
+msgstr "Ein Passwort gilt für Kontakte und Kalender zugleich. Jedes Gerät erhält ein eigenes, und wenn Sie ein Gerät unter Verbundene Geräte entfernen, ist sein Passwort sofort ungültig."
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
@@ -1662,8 +1666,8 @@ msgid "Open actions"
 msgstr "Aktionen öffnen"
 
 #: src/features/help/devices.tsx
-msgid "Open Calendars or People and choose Connect device."
-msgstr "Öffnen Sie Kalender oder Personen und wählen Sie Gerät verbinden."
+msgid "Open Calendars or People, choose Connected devices, then Add device."
+msgstr "Öffnen Sie Kalender oder Personen, wählen Sie Verbundene Geräte und dann Gerät hinzufügen."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"

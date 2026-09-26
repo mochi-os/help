@@ -622,6 +622,10 @@ msgstr "Kết nối điện thoại của bạn"
 msgid "Connected"
 msgstr "Đã kết nối"
 
+#: src/features/help/devices.tsx
+msgid "Connected devices always shows the server address and the username. They are the same for every device, calendar and address book."
+msgstr "Thiết bị đã kết nối luôn hiển thị địa chỉ máy chủ và tên người dùng. Chúng giống nhau cho mọi thiết bị, lịch và sổ địa chỉ."
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connecting..."
 msgstr "Đang kết nối..."
@@ -1650,8 +1654,8 @@ msgid "On"
 msgstr "Bật"
 
 #: src/features/help/devices.tsx
-msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connect device stops its password at once."
-msgstr "Một mật khẩu dùng chung cho cả danh bạ lẫn lịch. Mỗi thiết bị có mật khẩu riêng, và khi bạn xóa một thiết bị trong Kết nối thiết bị thì mật khẩu của nó ngừng hiệu lực ngay."
+msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connected devices stops its password at once."
+msgstr "Một mật khẩu dùng chung cho cả danh bạ lẫn lịch. Mỗi thiết bị có mật khẩu riêng, và khi bạn xóa một thiết bị trong Thiết bị đã kết nối thì mật khẩu của nó ngừng hiệu lực ngay."
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
@@ -1662,8 +1666,8 @@ msgid "Open actions"
 msgstr "Mở thao tác"
 
 #: src/features/help/devices.tsx
-msgid "Open Calendars or People and choose Connect device."
-msgstr "Mở Lịch hoặc Mọi người rồi chọn Kết nối thiết bị."
+msgid "Open Calendars or People, choose Connected devices, then Add device."
+msgstr "Mở Lịch hoặc Mọi người, chọn Thiết bị đã kết nối rồi chọn Thêm thiết bị."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"

@@ -622,6 +622,10 @@ msgstr "Telefona xwe girêde"
 msgid "Connected"
 msgstr "Girêdayî"
 
+#: src/features/help/devices.tsx
+msgid "Connected devices always shows the server address and the username. They are the same for every device, calendar and address book."
+msgstr "Cîhazên girêdayî her tim navnîşana rajekar û navê bikarhêner nîşan dide. Ew ji bo her amûr, salname û pirtûka navnîşanan wek hev in."
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connecting..."
 msgstr "Tê girêdan..."
@@ -1650,8 +1654,8 @@ msgid "On"
 msgstr "Vekirî"
 
 #: src/features/help/devices.tsx
-msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connect device stops its password at once."
-msgstr "Şîfreyek hem ji bo peywendiyan hem jî ji bo salnameyan dixebite. Her amûr şîfreya xwe distîne, û rakirina amûrekê di bin Amûrê girêde de şîfreya wê tavilê betal dike."
+msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connected devices stops its password at once."
+msgstr "Şîfreyek hem ji bo peywendiyan hem jî ji bo salnameyan dixebite. Her amûr şîfreya xwe distîne, û rakirina amûrekê di bin Cîhazên girêdayî de şîfreya wê tavilê betal dike."
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
@@ -1662,8 +1666,8 @@ msgid "Open actions"
 msgstr "Kiryaran veke"
 
 #: src/features/help/devices.tsx
-msgid "Open Calendars or People and choose Connect device."
-msgstr "Salnameyan an Mirovan veke û Amûrê girêde hilbijêre."
+msgid "Open Calendars or People, choose Connected devices, then Add device."
+msgstr "Salnameyan an Mirovan veke, Cîhazên girêdayî hilbijêre, paşê Cîhazekê zêde bike hilbijêre."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"

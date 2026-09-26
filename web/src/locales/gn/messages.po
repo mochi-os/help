@@ -622,6 +622,10 @@ msgstr "Embojoaju ne pumbyry"
 msgid "Connected"
 msgstr "Oñembojuaju"
 
+#: src/features/help/devices.tsx
+msgid "Connected devices always shows the server address and the username. They are the same for every device, calendar and address book."
+msgstr "Mba'e oñembojoajúva ohechauka tapiaite mohendaha dirección ha puruhára réra. Ko'ãva ojoja peteĩteĩ mba'epuru, arapapaha ha ogarenda kuatiápe g̃uarã."
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connecting..."
 msgstr "Ojoajúhína..."
@@ -1650,8 +1654,8 @@ msgid "On"
 msgstr "Myendy"
 
 #: src/features/help/devices.tsx
-msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connect device stops its password at once."
-msgstr "Peteĩ ñe'ẽñemi oservi contactokuérape ha arapapahakuérape. Peteĩteĩ mba'epuru oguereko ijehegua, ha embogue vove peteĩ mba'epuru Embojoaju peteĩ mba'e ryepýpe, iñe'ẽñemi opa pya'e."
+msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connected devices stops its password at once."
+msgstr "Peteĩ ñe'ẽñemi oservi contactokuérape ha arapapahakuérape. Peteĩteĩ mba'epuru oguereko ijehegua, ha embogue vove peteĩ mba'epuru Mba'e oñembojoajúva ryepýpe, iñe'ẽñemi opa pya'e."
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
@@ -1662,8 +1666,8 @@ msgid "Open actions"
 msgstr "Eipe'a tembiaporã"
 
 #: src/features/help/devices.tsx
-msgid "Open Calendars or People and choose Connect device."
-msgstr "Eipe'a Arapapahakuéra térã Tapichakuéra ha eiporavo Embojoaju peteĩ mba'e."
+msgid "Open Calendars or People, choose Connected devices, then Add device."
+msgstr "Eipe'a Arapapahakuéra térã Tapichakuéra, eiporavo Mba'e oñembojoajúva ha upéi Embojuaju peteĩ mba'e."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"

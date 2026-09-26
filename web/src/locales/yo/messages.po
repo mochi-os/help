@@ -622,6 +622,10 @@ msgstr "So fóònù rẹ pọ̀"
 msgid "Connected"
 msgstr "Tí a so pọ̀"
 
+#: src/features/help/devices.tsx
+msgid "Connected devices always shows the server address and the username. They are the same for every device, calendar and address book."
+msgstr "Àwọn ẹ̀rọ tí a so pọ̀ máa ń fi àdírẹ́sì sáfà àti orúkọ olùmúlò hàn nígbà gbogbo. Wọ́n jẹ́ bákan náà fún gbogbo ẹ̀rọ, kàlẹ́ńdà àti ìwé àdírẹ́sì."
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connecting..."
 msgstr "Ń so pọ̀..."
@@ -1650,8 +1654,8 @@ msgid "On"
 msgstr "Ṣíṣí"
 
 #: src/features/help/devices.tsx
-msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connect device stops its password at once."
-msgstr "Ọ̀rọ̀ìpamọ́ kan ṣoṣo ló ń ṣiṣẹ́ fún àwọn olùbáraẹnisọ̀rọ̀ àti àwọn kàlẹ́ńdà. Ẹ̀rọ kọ̀ọ̀kan ní tirẹ̀, bí o bá sì yọ ẹ̀rọ kan kúrò lábẹ́ So ẹ̀rọ pọ̀, ọ̀rọ̀ìpamọ́ rẹ̀ yóò dá dúró lẹ́sẹ̀kẹsẹ̀."
+msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connected devices stops its password at once."
+msgstr "Ọ̀rọ̀ìpamọ́ kan ṣoṣo ló ń ṣiṣẹ́ fún àwọn olùbáraẹnisọ̀rọ̀ àti àwọn kàlẹ́ńdà. Ẹ̀rọ kọ̀ọ̀kan ní tirẹ̀, bí o bá sì yọ ẹ̀rọ kan kúrò lábẹ́ Àwọn ẹ̀rọ tí a so pọ̀, ọ̀rọ̀ìpamọ́ rẹ̀ yóò dá dúró lẹ́sẹ̀kẹsẹ̀."
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
@@ -1662,8 +1666,8 @@ msgid "Open actions"
 msgstr "Ṣí àwọn ìṣe"
 
 #: src/features/help/devices.tsx
-msgid "Open Calendars or People and choose Connect device."
-msgstr "Ṣí Àwọn Kàlẹ́ńdà tàbí Àwọn Ènìyàn kí o sì yan So ẹ̀rọ pọ̀."
+msgid "Open Calendars or People, choose Connected devices, then Add device."
+msgstr "Ṣí Àwọn Kàlẹ́ńdà tàbí Àwọn Ènìyàn, yan Àwọn ẹ̀rọ tí a so pọ̀, lẹ́yìn náà yan Fi ẹ̀rọ kan kún."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"

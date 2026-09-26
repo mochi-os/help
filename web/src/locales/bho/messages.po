@@ -622,6 +622,10 @@ msgstr "आपन फोन जोड़ीं"
 msgid "Connected"
 msgstr "जुड़ल बा"
 
+#: src/features/help/devices.tsx
+msgid "Connected devices always shows the server address and the username. They are the same for every device, calendar and address book."
+msgstr "जुड़ल उपकरण हमेशा सर्वर के पता आ यूजरनेम देखावेला। ई हर डिवाइस, कैलेंडर आ पता-पुस्तिका खातिर एके जइसन होला।"
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connecting..."
 msgstr "जुड़त बा..."
@@ -1650,8 +1654,8 @@ msgid "On"
 msgstr "चालू"
 
 #: src/features/help/devices.tsx
-msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connect device stops its password at once."
-msgstr "एगो पासवर्ड संपर्क आ कैलेंडर दुनो खातिर काम करेला। हर डिवाइस के आपन पासवर्ड होला, आ डिवाइस जोड़ीं में से डिवाइस हटावे पर ओकर पासवर्ड तुरते बंद हो जाला।"
+msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connected devices stops its password at once."
+msgstr "एगो पासवर्ड संपर्क आ कैलेंडर दुनो खातिर काम करेला। हर डिवाइस के आपन पासवर्ड होला, आ जुड़ल उपकरण में से डिवाइस हटावे पर ओकर पासवर्ड तुरते बंद हो जाला।"
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
@@ -1662,8 +1666,8 @@ msgid "Open actions"
 msgstr "एक्शन खोलीं"
 
 #: src/features/help/devices.tsx
-msgid "Open Calendars or People and choose Connect device."
-msgstr "कैलेंडर भा लोग खोलीं आ डिवाइस जोड़ीं चुनीं।"
+msgid "Open Calendars or People, choose Connected devices, then Add device."
+msgstr "कैलेंडर भा लोग खोलीं, जुड़ल उपकरण चुनीं, फेर उपकरण शामिल करीं चुनीं।"
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"

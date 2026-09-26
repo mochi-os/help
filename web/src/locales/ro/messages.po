@@ -622,6 +622,10 @@ msgstr "Conectați-vă telefonul"
 msgid "Connected"
 msgstr "Conectat"
 
+#: src/features/help/devices.tsx
+msgid "Connected devices always shows the server address and the username. They are the same for every device, calendar and address book."
+msgstr "Dispozitive conectate afișează întotdeauna adresa serverului și numele de utilizator. Acestea sunt aceleași pentru fiecare dispozitiv, calendar și agendă de adrese."
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connecting..."
 msgstr "Se conectează..."
@@ -1650,8 +1654,8 @@ msgid "On"
 msgstr "Activat"
 
 #: src/features/help/devices.tsx
-msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connect device stops its password at once."
-msgstr "O singură parolă este valabilă atât pentru contacte, cât și pentru calendare. Fiecare dispozitiv primește parola lui, iar eliminarea unui dispozitiv din Conectare dispozitiv îi anulează imediat parola."
+msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connected devices stops its password at once."
+msgstr "O singură parolă este valabilă atât pentru contacte, cât și pentru calendare. Fiecare dispozitiv primește parola lui, iar eliminarea unui dispozitiv din Dispozitive conectate îi anulează imediat parola."
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
@@ -1662,8 +1666,8 @@ msgid "Open actions"
 msgstr "Deschide acțiunile"
 
 #: src/features/help/devices.tsx
-msgid "Open Calendars or People and choose Connect device."
-msgstr "Deschideți Calendare sau Persoane și alegeți Conectare dispozitiv."
+msgid "Open Calendars or People, choose Connected devices, then Add device."
+msgstr "Deschideți Calendare sau Persoane, alegeți Dispozitive conectate, apoi Adaugă un dispozitiv."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"

@@ -622,6 +622,10 @@ msgstr "Подключите свой телефон"
 msgid "Connected"
 msgstr "Подключено"
 
+#: src/features/help/devices.tsx
+msgid "Connected devices always shows the server address and the username. They are the same for every device, calendar and address book."
+msgstr "Раздел «Подключённые устройства» всегда показывает адрес сервера и имя пользователя. Они одинаковы для каждого устройства, календаря и адресной книги."
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connecting..."
 msgstr "Подключение..."
@@ -1650,8 +1654,8 @@ msgid "On"
 msgstr "Вкл."
 
 #: src/features/help/devices.tsx
-msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connect device stops its password at once."
-msgstr "Один пароль работает и для контактов, и для календарей. У каждого устройства он свой, а удаление устройства в разделе «Подключить устройство» сразу отключает его пароль."
+msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connected devices stops its password at once."
+msgstr "Один пароль работает и для контактов, и для календарей. У каждого устройства он свой, а удаление устройства в разделе «Подключённые устройства» сразу отключает его пароль."
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
@@ -1662,8 +1666,8 @@ msgid "Open actions"
 msgstr "Открыть действия"
 
 #: src/features/help/devices.tsx
-msgid "Open Calendars or People and choose Connect device."
-msgstr "Откройте Календари или Люди и выберите «Подключить устройство»."
+msgid "Open Calendars or People, choose Connected devices, then Add device."
+msgstr "Откройте Календари или Люди, выберите «Подключённые устройства», а затем «Добавить устройство»."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"

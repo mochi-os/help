@@ -622,6 +622,10 @@ msgstr "Tengdu símann þinn"
 msgid "Connected"
 msgstr "Tengt"
 
+#: src/features/help/devices.tsx
+msgid "Connected devices always shows the server address and the username. They are the same for every device, calendar and address book."
+msgstr "Tengd tæki sýnir alltaf vistfang þjónsins og notandanafnið. Þau eru hin sömu fyrir hvert tæki, dagatal og nafnaskrá."
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connecting..."
 msgstr "Tengist..."
@@ -1650,8 +1654,8 @@ msgid "On"
 msgstr "Kveikt"
 
 #: src/features/help/devices.tsx
-msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connect device stops its password at once."
-msgstr "Eitt lykilorð gildir bæði fyrir tengiliði og dagatöl. Hvert tæki fær sitt eigið og þegar tæki er fjarlægt undir Tengja tæki hættir lykilorð þess að gilda samstundis."
+msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connected devices stops its password at once."
+msgstr "Eitt lykilorð gildir bæði fyrir tengiliði og dagatöl. Hvert tæki fær sitt eigið og þegar tæki er fjarlægt undir Tengd tæki hættir lykilorð þess að gilda samstundis."
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
@@ -1662,8 +1666,8 @@ msgid "Open actions"
 msgstr "Opna aðgerðir"
 
 #: src/features/help/devices.tsx
-msgid "Open Calendars or People and choose Connect device."
-msgstr "Opnaðu Dagatöl eða Fólk og veldu Tengja tæki."
+msgid "Open Calendars or People, choose Connected devices, then Add device."
+msgstr "Opnaðu Dagatöl eða Fólk, veldu Tengd tæki og síðan Bæta við tæki."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"

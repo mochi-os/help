@@ -622,6 +622,10 @@ msgstr "Verbind uw telefoon"
 msgid "Connected"
 msgstr "Verbonden"
 
+#: src/features/help/devices.tsx
+msgid "Connected devices always shows the server address and the username. They are the same for every device, calendar and address book."
+msgstr "Gekoppelde apparaten toont altijd het serveradres en de gebruikersnaam. Die zijn voor elk toestel, elke agenda en elk adresboek hetzelfde."
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connecting..."
 msgstr "Verbinden..."
@@ -1650,8 +1654,8 @@ msgid "On"
 msgstr "Aan"
 
 #: src/features/help/devices.tsx
-msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connect device stops its password at once."
-msgstr "Eén wachtwoord geldt voor zowel contacten als agenda's. Elk toestel krijgt een eigen wachtwoord, en zodra u een toestel verwijdert onder Toestel verbinden, werkt het wachtwoord ervan meteen niet meer."
+msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connected devices stops its password at once."
+msgstr "Eén wachtwoord geldt voor zowel contacten als agenda's. Elk toestel krijgt een eigen wachtwoord, en zodra u een toestel verwijdert onder Gekoppelde apparaten, werkt het wachtwoord ervan meteen niet meer."
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
@@ -1662,8 +1666,8 @@ msgid "Open actions"
 msgstr "Acties openen"
 
 #: src/features/help/devices.tsx
-msgid "Open Calendars or People and choose Connect device."
-msgstr "Open Agenda's of Personen en kies Toestel verbinden."
+msgid "Open Calendars or People, choose Connected devices, then Add device."
+msgstr "Open Agenda's of Personen, kies Gekoppelde apparaten en daarna Apparaat toevoegen."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"

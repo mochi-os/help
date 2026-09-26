@@ -622,6 +622,10 @@ msgstr "Celularama chikanchaña"
 msgid "Connected"
 msgstr "Chinjata"
 
+#: src/features/help/devices.tsx
+msgid "Connected devices always shows the server address and the username. They are the same for every device, calendar and address book."
+msgstr "Chinjata dispositivonaka ukax servidor dirección ukhamaraki apnaqiri suti uk sapa kutiw uñacht'ayi. Ukanakax sapa dispositivotakisa, calendariotakisa, chiqa librutakisa pachpakiwa."
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connecting..."
 msgstr "Mayacht'asiskiwa..."
@@ -1650,8 +1654,8 @@ msgid "On"
 msgstr "Qhanti"
 
 #: src/features/help/devices.tsx
-msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connect device stops its password at once."
-msgstr "Mä contraseñakiw contactonakatakisa calendarionakatakisa servi. Sapa dispositivox pachpa contraseñani, ukatxa Mä dispositivo chikanchaña uksan mä dispositivo apsusaxa, contraseñapax jank'akiw tukusi."
+msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connected devices stops its password at once."
+msgstr "Mä contraseñakiw contactonakatakisa calendarionakatakisa servi. Sapa dispositivox pachpa contraseñani, ukatxa Chinjata dispositivonaka uksan mä dispositivo apsusaxa, contraseñapax jank'akiw tukusi."
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
@@ -1662,8 +1666,8 @@ msgid "Open actions"
 msgstr "Lurawinaka jist'araña"
 
 #: src/features/help/devices.tsx
-msgid "Open Calendars or People and choose Connect device."
-msgstr "Calendarionaka jan ukax Jaqinaka uk jist'arañama, ukatxa Mä dispositivo chikanchaña uk ajlliñama."
+msgid "Open Calendars or People, choose Connected devices, then Add device."
+msgstr "Calendarionaka jan ukax Jaqinaka uk jist'arañama, Chinjata dispositivonaka uk ajlliñama, ukatxa Mä dispositivo yapxataña uk ajlliñama."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"

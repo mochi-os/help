@@ -622,6 +622,10 @@ msgstr "Cysylltu eich ffôn"
 msgid "Connected"
 msgstr "Wedi cysylltu"
 
+#: src/features/help/devices.tsx
+msgid "Connected devices always shows the server address and the username. They are the same for every device, calendar and address book."
+msgstr "Mae Dyfeisiau cysylltiedig bob amser yn dangos cyfeiriad y gweinydd a'r enw defnyddiwr. Maen nhw'r un fath ar gyfer pob dyfais, calendr a llyfr cyfeiriadau."
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connecting..."
 msgstr "Yn cysylltu..."
@@ -1650,8 +1654,8 @@ msgid "On"
 msgstr "Ymlaen"
 
 #: src/features/help/devices.tsx
-msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connect device stops its password at once."
-msgstr "Mae un cyfrinair yn gweithio ar gyfer cysylltiadau a chalendrau fel ei gilydd. Mae gan bob dyfais ei chyfrinair ei hun, ac mae tynnu dyfais o dan Cysylltu dyfais yn atal ei chyfrinair ar unwaith."
+msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connected devices stops its password at once."
+msgstr "Mae un cyfrinair yn gweithio ar gyfer cysylltiadau a chalendrau fel ei gilydd. Mae gan bob dyfais ei chyfrinair ei hun, ac mae tynnu dyfais o dan Dyfeisiau cysylltiedig yn atal ei chyfrinair ar unwaith."
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
@@ -1662,8 +1666,8 @@ msgid "Open actions"
 msgstr "Agor gweithredoedd"
 
 #: src/features/help/devices.tsx
-msgid "Open Calendars or People and choose Connect device."
-msgstr "Agorwch Calendrau neu Pobl a dewiswch Cysylltu dyfais."
+msgid "Open Calendars or People, choose Connected devices, then Add device."
+msgstr "Agorwch Calendrau neu Pobl, dewiswch Dyfeisiau cysylltiedig, ac yna Ychwanegu dyfais."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"

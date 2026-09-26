@@ -622,6 +622,10 @@ msgstr "Konektatu zure telefonoa"
 msgid "Connected"
 msgstr "Konektatua"
 
+#: src/features/help/devices.tsx
+msgid "Connected devices always shows the server address and the username. They are the same for every device, calendar and address book."
+msgstr "Konektatutako gailuak atalak beti erakusten ditu zerbitzariaren helbidea eta erabiltzaile-izena. Berdinak dira gailu, egutegi eta helbide-liburu guztietarako."
+
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connecting..."
 msgstr "Konektatzen..."
@@ -1650,8 +1654,8 @@ msgid "On"
 msgstr "Aktibatuta"
 
 #: src/features/help/devices.tsx
-msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connect device stops its password at once."
-msgstr "Pasahitz bakar batek kontaktuak eta egutegiak hartzen ditu biak. Gailu bakoitzak berea du, eta gailu bat Konektatu gailu bat atalean kentzen baduzu, haren pasahitzak berehala uzten dio balio izateari."
+msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connected devices stops its password at once."
+msgstr "Pasahitz bakar batek kontaktuak eta egutegiak hartzen ditu biak. Gailu bakoitzak berea du, eta gailu bat Konektatutako gailuak atalean kentzen baduzu, haren pasahitzak berehala uzten dio balio izateari."
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
@@ -1662,8 +1666,8 @@ msgid "Open actions"
 msgstr "Ireki ekintzak"
 
 #: src/features/help/devices.tsx
-msgid "Open Calendars or People and choose Connect device."
-msgstr "Ireki Egutegiak edo Pertsonak eta aukeratu Konektatu gailu bat."
+msgid "Open Calendars or People, choose Connected devices, then Add device."
+msgstr "Ireki Egutegiak edo Pertsonak, aukeratu Konektatutako gailuak eta gero Gehitu gailu bat."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"
