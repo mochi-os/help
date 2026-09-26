@@ -1444,7 +1444,7 @@ msgstr "Phaxsi"
 
 #: ../../../lib/web/src/components/options-menu.tsx
 msgid "More options"
-msgstr "Yaqha chimpunaka"
+msgstr "Juk'ampi ajlliñanaka"
 
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Moved"
@@ -2184,7 +2184,7 @@ msgstr "Origen ukat destino uñstayaña"
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 #: ../../../lib/web/src/components/options-menu.tsx
 msgid "Settings"
-msgstr "Configuración"
+msgstr "Wakichawinaka"
 
 #: src/features/help/contribute-dialog.tsx
 msgid "Short title for your idea"
@@ -2565,7 +2565,7 @@ msgstr "Mayjt'irinaka: {variables}"
 
 #: ../../../lib/web/src/features/accounts/account-verify.tsx
 msgid "Verification code"
-msgstr "Verificación código apayata"
+msgstr "Uñakipawi código"
 
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 #: ../../../lib/web/src/features/accounts/account-verify.tsx

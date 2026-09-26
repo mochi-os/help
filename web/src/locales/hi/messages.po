@@ -1296,7 +1296,7 @@ msgstr "आइटम विवरण"
 
 #: ../../../lib/web/src/lib/locale-format.ts
 msgid "Just now"
-msgstr "अभी"
+msgstr "अभी-अभी"
 
 #: src/features/help/contribute-dialog.tsx
 msgid "Keep editing"

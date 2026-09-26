@@ -1467,23 +1467,23 @@ msgstr "Перемещение на {0}"
 #: ../../../lib/web/src/components/entity/entity-option-dialog.tsx
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Name"
-msgstr "Имя"
+msgstr "Название"
 
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Name cannot contain < or > characters"
-msgstr "Имя не может содержать символы < или >"
+msgstr "Название не может содержать символы < или >"
 
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Name is required"
-msgstr "Требуется имя"
+msgstr "Требуется название"
 
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Name must be 1000 characters or less"
-msgstr "Имя должно быть не длиннее 1000 символов"
+msgstr "Название должно быть не длиннее 1000 символов"
 
 #: src/features/help/devices.tsx
 msgid "Name the device, for example your phone's name, and create its password."
-msgstr "Дайте устройству имя, например имя вашего телефона, и создайте для него пароль."
+msgstr "Дайте устройству название, например название вашего телефона, и создайте для него пароль."
 
 #: ../../../lib/web/src/features/errors/general-error.tsx
 #: ../../../lib/web/src/lib/api-response-interceptors.ts

@@ -1296,7 +1296,7 @@ msgstr "آئٹم کی تفصیلات"
 
 #: ../../../lib/web/src/lib/locale-format.ts
 msgid "Just now"
-msgstr "ابھی"
+msgstr "ابھی ابھی"
 
 #: src/features/help/contribute-dialog.tsx
 msgid "Keep editing"

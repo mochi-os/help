@@ -1432,7 +1432,7 @@ msgstr "Mochi 웹"
 
 #: ../../../lib/web/src/components/options-menu.tsx
 msgid "Moderation"
-msgstr "중재"
+msgstr "모더레이션"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Monday"
@@ -2667,11 +2667,11 @@ msgstr "연락처와 캘린더는 CardDAV와 CalDAV를 통해 휴대전화, 태�
 
 #: src/features/help/contribute-dialog.tsx
 msgid "Your introduction has been submitted and will appear after moderation."
-msgstr "소개가 제출되었으며 검토 후 표시됩니다."
+msgstr "소개가 제출되었으며 모더레이션 후 표시됩니다."
 
 #: src/features/help/contribute-dialog.tsx
 msgid "Your question has been submitted and will appear after moderation."
-msgstr "질문이 제출되었으며 검토 후 표시됩니다."
+msgstr "질문이 제출되었으며 모더레이션 후 표시됩니다."
 
 #: ../../../lib/web/src/components/comment-composer.tsx
 msgid "Your text and attachments will be lost."
