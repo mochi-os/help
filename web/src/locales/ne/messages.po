@@ -26,6 +26,11 @@ msgstr "(सम्पादित)"
 msgid "(expand)"
 msgstr "(विस्तार गर्नुहोस्)"
 
+#: ../../../lib/web/src/components/calendar/event-title.tsx
+#: ../../../lib/web/src/components/calendar/tooltip.ts
+msgid "(No title)"
+msgstr "(शीर्षक छैन)"
+
 #: ../../../lib/web/src/components/member-list.tsx
 msgid "(you)"
 msgstr "(तपाईं)"
@@ -79,13 +84,10 @@ msgid "{entityLabel} name"
 msgstr "{entityLabel} नाम"
 
 #: ../../../lib/web/src/components/calendar/time-grid.tsx
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
 #: ../../../lib/web/src/components/calendar/tooltip.ts
 msgid "{from} to {to}"
 msgstr "{from} देखि {to} सम्म"
-
-#: ../../../lib/web/src/components/calendar/month-grid.tsx
-msgid "{hidden, plural, one {+# more} other {+# more}}"
-msgstr "{hidden, plural, one {+# थप} other {+# थप}}"
 
 #: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx
 msgid "{opponentName} offered a draw"
@@ -450,6 +452,11 @@ msgstr "जवाफ रद्द गर्नुहोस्"
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "Cancelled"
 msgstr "रद्द गरियो"
+
+#: ../../../lib/web/src/components/calendar/status.ts
+msgctxt "event status"
+msgid "Cancelled"
+msgstr "रद्द"
 
 #: ../../../lib/web/src/components/attachment-composer.tsx
 #: ../../../lib/web/src/components/attachment-composer.tsx
@@ -1882,6 +1889,11 @@ msgstr "सान्दर्भिकता {relevance}"
 msgid "Relevance {relevance}, interest {weight}"
 msgstr "सान्दर्भिकता {relevance}, रुचि {weight}"
 
+#: ../../../lib/web/src/components/calendar/month-grid.tsx
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
+msgid "Reminder"
+msgstr "सम्झना"
+
 #: ../../../lib/web/src/components/attachment-composer.tsx
 #: ../../../lib/web/src/components/attachment-composer.tsx
 #: ../../../lib/web/src/components/entity/add-field-dialog.tsx
@@ -2348,6 +2360,11 @@ msgstr "तपाईंलाई अहिले त्यहाँ लैजा
 #: src/features/help/contribute-dialog.tsx
 msgid "Tell the Mochi development team what you'd like Mochi to do."
 msgstr "तपाईं Mochi ले के गरोस् भन्ने चाहनुहुन्छ भन्ने Mochi विकास टोलीलाई बताउनुहोस्।"
+
+#: ../../../lib/web/src/components/calendar/status.ts
+msgctxt "event status"
+msgid "Tentative"
+msgstr "अस्थायी"
 
 #: ../../../lib/web/src/components/server-documents-footer.tsx
 #: ../../../lib/web/src/features/document/document-page.tsx
