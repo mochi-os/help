@@ -247,10 +247,6 @@ msgstr "Ката кетти"
 msgid "An unexpected error occurred"
 msgstr "Күтүлбөгөн ката кетти"
 
-#: src/features/help/devices.tsx
-msgid "Android"
-msgstr "Android"
-
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
 msgstr "Android пуш билдирүүсү"
@@ -509,10 +505,6 @@ msgstr "Убакытты тандаңыз"
 msgid "Choose language"
 msgstr "Тилди тандоо"
 
-#: src/features/help/devices.tsx
-msgid "Choose the account type Manual and enter the username, the password and the server address."
-msgstr "Каттоо эсебинин түрү катары «Кол менен» дегенди тандап, колдонуучу атын, сырсөздү жана сервердин дарегин киргизиңиз."
-
 #: ../../../lib/web/src/components/banner-section.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
@@ -623,18 +615,9 @@ msgstr "Көрүнүш жөндөөлөрүн тууралоо"
 msgid "Confirm"
 msgstr "Ырастоо"
 
-#: src/features/help/devices.tsx
-#: src/features/help/index.tsx
-msgid "Connect your phone"
-msgstr "Телефонуңузду туташтырыңыз"
-
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connected"
 msgstr "Байланышты"
-
-#: src/features/help/devices.tsx
-msgid "Connected devices always shows the server address and the username. They are the same for every device, calendar and address book."
-msgstr "«Туташтырылган түзмөктөр» ар дайым сервердин дарегин жана колдонуучу атын көрсөтөт. Алар ар бир түзмөк, календарь жана дарек китепчеси үчүн бирдей."
 
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connecting..."
@@ -679,10 +662,6 @@ msgstr "Алмашуу буферине көчүрүлдү"
 #: ../../../lib/web/src/components/ui/copy-button.tsx
 msgid "Copy"
 msgstr "Көчүрүү"
-
-#: src/features/help/devices.tsx
-msgid "Copy the server address, the username and the password into the device. The password is shown once."
-msgstr "Сервердин дарегин, колдонуучу атын жана сырсөздү түзмөккө көчүрүңүз. Сырсөз бир гана жолу көрсөтүлөт."
 
 #: ../../../lib/web/src/features/document/document-page.tsx
 msgid "Could not load this document. Please try again later."
@@ -758,10 +737,6 @@ msgstr "Дайындар карама-каршылыгы"
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Date"
 msgstr "Күн"
-
-#: src/features/help/devices.tsx
-msgid "DAVx5 finds both your address books and your calendars. Turn on the ones to sync."
-msgstr "DAVx5 дарек китепчелериңизди да, календарларыңызды да табат. Шайкештирүүнү каалагандарын күйгүзүңүз."
 
 #: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx
 msgid "Decline"
@@ -992,18 +967,6 @@ msgstr "Баннер текстин киргизиңиз (markdown колдоо�
 msgid "Enter the code from your email"
 msgstr "Электрондук почтаңыздагы кодду киргизиңиз"
 
-#: src/features/help/devices.tsx
-msgid "Enter the password when asked, and choose the address books and calendars to add."
-msgstr "Суралганда сырсөздү киргизип, кошула турган дарек китепчелерин жана календарларды тандаңыз."
-
-#: src/features/help/devices.tsx
-msgid "Enter the server address, the username and the password in each."
-msgstr "Ар биринде сервердин дарегин, колдонуучу атын жана сырсөздү киргизиңиз."
-
-#: src/features/help/devices.tsx
-msgid "Enter the server address, the username and the password."
-msgstr "Сервердин дарегин, колдонуучу атын жана сырсөздү киргизиңиз."
-
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Enter your authenticator code"
 msgstr "Аутентификатор кодун киргизиңиз"
@@ -1160,22 +1123,6 @@ msgstr "Желектер"
 msgid "Flat"
 msgstr "Жалпак"
 
-#: src/features/help/devices.tsx
-msgid "For calendars: Calendar, New Calendar, On the Network, with the username and the server address."
-msgstr "Календарлар үчүн: Календарь, Жаңы календарь, Тармакта, колдонуучу аты жана сервердин дареги менен."
-
-#: src/features/help/devices.tsx
-msgid "For calendars: Settings, Calendar, Accounts, Add Account, Other, Add CalDAV Account."
-msgstr "Календарлар үчүн: Жөндөөлөр, Календарь, Каттоо эсептери, Каттоо эсебин кошуу, Башка, CalDAV каттоо эсебин кошуу."
-
-#: src/features/help/devices.tsx
-msgid "For contacts: Address Book, New Address Book, Add CardDAV Address Book, with the username and the server address."
-msgstr "Байланыштар үчүн: Дарек китепчеси, Жаңы дарек китепчеси, CardDAV дарек китепчесин кошуу, колдонуучу аты жана сервердин дареги менен."
-
-#: src/features/help/devices.tsx
-msgid "For contacts: Settings, Contacts, Accounts, Add Account, Other, Add CardDAV Account."
-msgstr "Байланыштар үчүн: Жөндөөлөр, Байланыштар, Каттоо эсептери, Каттоо эсебин кошуу, Башка, CardDAV каттоо эсебин кошуу."
-
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Friday"
 msgstr "Жума"
@@ -1195,10 +1142,6 @@ msgstr "Кимден"
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "From theme"
 msgstr "Темадан"
-
-#: src/features/help/devices.tsx
-msgid "Get a password for the device"
-msgstr "Түзмөк үчүн сырсөз алыңыз"
 
 #: ../../../lib/web/src/features/errors/access-denied-error.tsx
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
@@ -1226,7 +1169,6 @@ msgstr "Топтоштуруу"
 msgid "Group: {0}"
 msgstr "Топ: {0}"
 
-#: src/features/help/devices.tsx
 #: src/features/help/index.tsx
 #: src/routes/_authenticated/document/privacy.tsx
 #: src/routes/_authenticated/document/rules.tsx
@@ -1279,10 +1221,6 @@ msgstr "Аты-жөнүнүн тамгаларынан аватар"
 msgid "Initials avatar for {name}"
 msgstr "{name} үчүн аты-жөнүнүн тамгаларынан аватар"
 
-#: src/features/help/devices.tsx
-msgid "Install DAVx5 and add an account with \"Login with URL and user name\"."
-msgstr "DAVx5 орнотуп, «URL жана колдонуучу аты менен кирүү» аркылуу каттоо эсебин кошуңуз."
-
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Interest {weight}"
 msgstr "Кызыгуу {weight}"
@@ -1299,10 +1237,6 @@ msgstr "Өзүңүздү тааныштырыңыз"
 #: ../../../lib/web/src/components/entity/entity-field-editor.tsx
 msgid "Invalid date"
 msgstr "Жараксыз дата"
-
-#: src/features/help/devices.tsx
-msgid "iPhone and iPad"
-msgstr "iPhone жана iPad"
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "It seems like the page you're looking for <0/>does not exist or might have been removed."
@@ -1390,10 +1324,6 @@ msgstr "Ийгиликтүү чыгылды"
 #: ../../../lib/web/src/components/sign-out-dialog.tsx
 msgid "Logging out…"
 msgstr "Чыгууда…"
-
-#: src/features/help/devices.tsx
-msgid "Mac"
-msgstr "Mac"
 
 #: ../../../lib/web/src/components/notification-category-button.tsx
 msgid "Manage categories"
@@ -1498,10 +1428,6 @@ msgstr "Аты талап кылынат"
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Name must be 1000 characters or less"
 msgstr "Аты 1000 символдон ашпашы керек"
-
-#: src/features/help/devices.tsx
-msgid "Name the device, for example your phone's name, and create its password."
-msgstr "Түзмөккө ат бериңиз, мисалы телефонуңуздун аты, анан ага сырсөз түзүңүз."
 
 #: ../../../lib/web/src/features/errors/general-error.tsx
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
@@ -1667,10 +1593,6 @@ msgstr "Номер"
 msgid "On"
 msgstr "Күйүк"
 
-#: src/features/help/devices.tsx
-msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connected devices stops its password at once."
-msgstr "Бир сырсөз байланыштарга да, календарларга да жарайт. Ар бир түзмөктүн өзүнүкү болот, ал эми «Туташтырылган түзмөктөр» бөлүмүндө түзмөктү өчүрүү анын сырсөзүн дароо жараксыз кылат."
-
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
 msgstr "Аттиң! Барак табылган жок!"
@@ -1678,10 +1600,6 @@ msgstr "Аттиң! Барак табылган жок!"
 #: ../../../lib/web/src/components/layout/nav-group.tsx
 msgid "Open actions"
 msgstr "Аракеттерди ачуу"
-
-#: src/features/help/devices.tsx
-msgid "Open Calendars or People, choose Connected devices, then Add device."
-msgstr "Календарлар же Адамдар бөлүмүн ачып, «Туташтырылган түзмөктөр», андан кийин «Түзмөк кошуу» дегенди тандаңыз."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"
@@ -1830,10 +1748,6 @@ msgstr "Касиеттер"
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Push notification"
 msgstr "Пуш билдирүүсү"
-
-#: src/features/help/index.tsx
-msgid "Put your contacts and calendars on your phone, tablet or computer."
-msgstr "Байланыштарыңызды жана календарларыңызды телефонуңузга, планшетиңизге же компьютериңизге салыңыз."
 
 #: src/features/help/contribute-dialog.tsx
 msgid "Question"
@@ -2343,10 +2257,6 @@ msgctxt "actor"
 msgid "System"
 msgstr "Система"
 
-#: src/features/help/devices.tsx
-msgid "System Settings, Internet Accounts, Add Other Account, then CardDAV Account for contacts or CalDAV Account for calendars."
-msgstr "Тутум жөндөөлөрү, Интернет каттоо эсептери, Башка каттоо эсебин кошуу, андан соң байланыштар үчүн CardDAV каттоо эсеби же календарлар үчүн CalDAV каттоо эсеби."
-
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Tag already exists"
 msgstr "Тег буга чейин эле бар"
@@ -2408,10 +2318,6 @@ msgstr "Камера сурамына жооп берилген жок"
 msgid "The microphone request was not answered"
 msgstr "Микрофон сурамына жооп берилген жок"
 
-#: src/features/help/devices.tsx
-msgid "The Mochi app shows your contacts and calendars itself. To put them into the phone's own Contacts and Calendar apps, use DAVx5."
-msgstr "Mochi колдонмосу байланыштарыңызды жана календарларыңызды өзү көрсөтөт. Аларды телефондун өзүнүн Байланыштар жана Календарь колдонмолоруна салуу үчүн DAVx5 колдонуңуз."
-
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "The passkey request was not answered"
 msgstr "Кирүү ачкычы сурамына жооп берилген жок"
@@ -2431,10 +2337,6 @@ msgstr "Бул колдонмого сиздин кирүү ачкычыңызд
 #: ../../../lib/web/src/components/game/game-end-dialogs.tsx
 msgid "This permanently deletes the game and its chat. This cannot be undone."
 msgstr "Бул оюн менен анын чатын биротоло жок кылат. Бул аракетти артка кайтарууга болбойт."
-
-#: src/features/help/devices.tsx
-msgid "Thunderbird"
-msgstr "Thunderbird"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Thursday"
@@ -2688,10 +2590,6 @@ msgstr "Аккаунтуңуз {source} дан бул жерге которул�
 #: ../../../lib/web/src/components/comment-composer.tsx
 msgid "Your attachments will be lost."
 msgstr "Тиркемелериңиз жоголот."
-
-#: src/features/help/devices.tsx
-msgid "Your contacts and calendars sync to your phone, tablet and computer over CardDAV and CalDAV, which every major contacts and calendar app speaks."
-msgstr "Байланыштарыңыз менен календарларыңыз телефонуңузга, планшетиңизге жана компьютериңизге CardDAV жана CalDAV аркылуу шайкештирилет — аларды байланыш жана календарь колдонмолорунун баары түшүнөт."
 
 #: src/features/help/contribute-dialog.tsx
 msgid "Your introduction has been submitted and will appear after moderation."

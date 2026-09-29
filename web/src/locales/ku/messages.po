@@ -247,10 +247,6 @@ msgstr "Çewtiyek çêbû"
 msgid "An unexpected error occurred"
 msgstr "Çewtiyeke neçaverêkirî çêbû"
 
-#: src/features/help/devices.tsx
-msgid "Android"
-msgstr "Android"
-
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
 msgstr "Push a Android"
@@ -509,10 +505,6 @@ msgstr "Demekê hilbijêre"
 msgid "Choose language"
 msgstr "Ziman hilbijêre"
 
-#: src/features/help/devices.tsx
-msgid "Choose the account type Manual and enter the username, the password and the server address."
-msgstr "Cureyê hesabê Bi destan hilbijêre û navê bikarhêner, şîfre û navnîşana rajekar binivîse."
-
 #: ../../../lib/web/src/components/banner-section.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
@@ -623,18 +615,9 @@ msgstr "Mîhengên dîtinê biguherîne"
 msgid "Confirm"
 msgstr "Piştrast bike"
 
-#: src/features/help/devices.tsx
-#: src/features/help/index.tsx
-msgid "Connect your phone"
-msgstr "Telefona xwe girêde"
-
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connected"
 msgstr "Girêdayî"
-
-#: src/features/help/devices.tsx
-msgid "Connected devices always shows the server address and the username. They are the same for every device, calendar and address book."
-msgstr "Cîhazên girêdayî her tim navnîşana rajekar û navê bikarhêner nîşan dide. Ew ji bo her amûr, salname û pirtûka navnîşanan wek hev in."
 
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connecting..."
@@ -679,10 +662,6 @@ msgstr "Hat kopîkirin li clipboard"
 #: ../../../lib/web/src/components/ui/copy-button.tsx
 msgid "Copy"
 msgstr "Kopî bike"
-
-#: src/features/help/devices.tsx
-msgid "Copy the server address, the username and the password into the device. The password is shown once."
-msgstr "Navnîşana rajekar, navê bikarhêner û şîfreyê li amûrê kopî bike. Şîfre tenê carekê tê nîşandan."
 
 #: ../../../lib/web/src/features/document/document-page.tsx
 msgid "Could not load this document. Please try again later."
@@ -758,10 +737,6 @@ msgstr "Nakokiya daneyan"
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Date"
 msgstr "Dîrok"
-
-#: src/features/help/devices.tsx
-msgid "DAVx5 finds both your address books and your calendars. Turn on the ones to sync."
-msgstr "DAVx5 hem pirtûkên navnîşanan hem jî salnameyên te dibîne. Yên ku tu dixwazî hevdem bikî veke."
 
 #: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx
 msgid "Decline"
@@ -992,18 +967,6 @@ msgstr "Nivîsa pankartê binivîse (markdown tê piştgirîkirin)..."
 msgid "Enter the code from your email"
 msgstr "Koda ji e-nameya xwe binivîse"
 
-#: src/features/help/devices.tsx
-msgid "Enter the password when asked, and choose the address books and calendars to add."
-msgstr "Gava tê pirsîn şîfreyê binivîse û pirtûkên navnîşanan û salnameyên ku werin zêdekirin hilbijêre."
-
-#: src/features/help/devices.tsx
-msgid "Enter the server address, the username and the password in each."
-msgstr "Di her yekê de navnîşana rajekar, navê bikarhêner û şîfreyê binivîse."
-
-#: src/features/help/devices.tsx
-msgid "Enter the server address, the username and the password."
-msgstr "Navnîşana rajekar, navê bikarhêner û şîfreyê binivîse."
-
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Enter your authenticator code"
 msgstr "Koda authenticator-a xwe têkevê"
@@ -1160,22 +1123,6 @@ msgstr "Ala"
 msgid "Flat"
 msgstr "Tasî"
 
-#: src/features/help/devices.tsx
-msgid "For calendars: Calendar, New Calendar, On the Network, with the username and the server address."
-msgstr "Ji bo salnameyan: Salname, Salnameya Nû, Li ser Torê, bi navê bikarhêner û navnîşana rajekar."
-
-#: src/features/help/devices.tsx
-msgid "For calendars: Settings, Calendar, Accounts, Add Account, Other, Add CalDAV Account."
-msgstr "Ji bo salnameyan: Mîheng, Salname, Hesab, Hesab Zêde Bike, Yên din, Hesabê CalDAV Zêde Bike."
-
-#: src/features/help/devices.tsx
-msgid "For contacts: Address Book, New Address Book, Add CardDAV Address Book, with the username and the server address."
-msgstr "Ji bo peywendiyan: Pirtûka Navnîşanan, Pirtûka Navnîşanan a Nû, Pirtûka Navnîşanan a CardDAV Zêde Bike, bi navê bikarhêner û navnîşana rajekar."
-
-#: src/features/help/devices.tsx
-msgid "For contacts: Settings, Contacts, Accounts, Add Account, Other, Add CardDAV Account."
-msgstr "Ji bo peywendiyan: Mîheng, Peywendî, Hesab, Hesab Zêde Bike, Yên din, Hesabê CardDAV Zêde Bike."
-
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Friday"
 msgstr "Înî"
@@ -1195,10 +1142,6 @@ msgstr "Ji"
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "From theme"
 msgstr "Ji temayê"
-
-#: src/features/help/devices.tsx
-msgid "Get a password for the device"
-msgstr "Ji bo amûrê şîfreyekê bistîne"
 
 #: ../../../lib/web/src/features/errors/access-denied-error.tsx
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
@@ -1226,7 +1169,6 @@ msgstr "Li gorî kom bike"
 msgid "Group: {0}"
 msgstr "Kom: {0}"
 
-#: src/features/help/devices.tsx
 #: src/features/help/index.tsx
 #: src/routes/_authenticated/document/privacy.tsx
 #: src/routes/_authenticated/document/rules.tsx
@@ -1279,10 +1221,6 @@ msgstr "Avatara tîpên destpêkê"
 msgid "Initials avatar for {name}"
 msgstr "Avatara tîpên destpêkê ji bo {name}"
 
-#: src/features/help/devices.tsx
-msgid "Install DAVx5 and add an account with \"Login with URL and user name\"."
-msgstr "DAVx5 saz bike û bi \"Bi URL û navê bikarhêner têkeve\" hesabekê zêde bike."
-
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Interest {weight}"
 msgstr "Eleqe {weight}"
@@ -1299,10 +1237,6 @@ msgstr "Xwe bide nasîn"
 #: ../../../lib/web/src/components/entity/entity-field-editor.tsx
 msgid "Invalid date"
 msgstr "Tarîxa nederbasdar"
-
-#: src/features/help/devices.tsx
-msgid "iPhone and iPad"
-msgstr "iPhone û iPad"
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "It seems like the page you're looking for <0/>does not exist or might have been removed."
@@ -1390,10 +1324,6 @@ msgstr "Bi serkeftî derket"
 #: ../../../lib/web/src/components/sign-out-dialog.tsx
 msgid "Logging out…"
 msgstr "Tê derketin…"
-
-#: src/features/help/devices.tsx
-msgid "Mac"
-msgstr "Mac"
 
 #: ../../../lib/web/src/components/notification-category-button.tsx
 msgid "Manage categories"
@@ -1498,10 +1428,6 @@ msgstr "Nav pêwîst e"
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Name must be 1000 characters or less"
 msgstr "Nav divê 1000 tîp an kêmtir be"
-
-#: src/features/help/devices.tsx
-msgid "Name the device, for example your phone's name, and create its password."
-msgstr "Navekî li amûrê bike, mînak navê telefona xwe, û şîfreya wê çêbike."
 
 #: ../../../lib/web/src/features/errors/general-error.tsx
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
@@ -1667,10 +1593,6 @@ msgstr "Hejmar"
 msgid "On"
 msgstr "Vekirî"
 
-#: src/features/help/devices.tsx
-msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connected devices stops its password at once."
-msgstr "Şîfreyek hem ji bo peywendiyan hem jî ji bo salnameyan dixebite. Her amûr şîfreya xwe distîne, û rakirina amûrekê di bin Cîhazên girêdayî de şîfreya wê tavilê betal dike."
-
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
 msgstr "Wey! Rûpel nehat dîtin!"
@@ -1678,10 +1600,6 @@ msgstr "Wey! Rûpel nehat dîtin!"
 #: ../../../lib/web/src/components/layout/nav-group.tsx
 msgid "Open actions"
 msgstr "Kiryaran veke"
-
-#: src/features/help/devices.tsx
-msgid "Open Calendars or People, choose Connected devices, then Add device."
-msgstr "Salnameyan an Mirovan veke, Cîhazên girêdayî hilbijêre, paşê Cîhazekê zêde bike hilbijêre."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"
@@ -1830,10 +1748,6 @@ msgstr "Taybetmendî"
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Push notification"
 msgstr "Agahdariya push"
-
-#: src/features/help/index.tsx
-msgid "Put your contacts and calendars on your phone, tablet or computer."
-msgstr "Peywendî û salnameyên xwe têxe telefon, tablet an komputera xwe."
 
 #: src/features/help/contribute-dialog.tsx
 msgid "Question"
@@ -2343,10 +2257,6 @@ msgctxt "actor"
 msgid "System"
 msgstr "Pergal"
 
-#: src/features/help/devices.tsx
-msgid "System Settings, Internet Accounts, Add Other Account, then CardDAV Account for contacts or CalDAV Account for calendars."
-msgstr "Mîhengên Pergalê, Hesabên Înternetê, Hesabekî Din Zêde Bike, paşê ji bo peywendiyan Hesabê CardDAV an ji bo salnameyan Hesabê CalDAV."
-
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Tag already exists"
 msgstr "Tag jixwe heye"
@@ -2408,10 +2318,6 @@ msgstr "Daxwaza kamerayê nehat bersivandin"
 msgid "The microphone request was not answered"
 msgstr "Daxwaza mîkrofonê nehat bersivandin"
 
-#: src/features/help/devices.tsx
-msgid "The Mochi app shows your contacts and calendars itself. To put them into the phone's own Contacts and Calendar apps, use DAVx5."
-msgstr "Sepana Mochi peywendî û salnameyên te bi xwe nîşan dide. Ji bo ku tu wan têxî sepanên Peywendî û Salnameyê yên telefonê bi xwe, DAVx5 bi kar bîne."
-
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "The passkey request was not answered"
 msgstr "Daxwaza passkey nehat bersivandin"
@@ -2431,10 +2337,6 @@ msgstr "Ev sepan destûr nîne ku passkey-a te bi kar bîne. Di Mîhengan de, di
 #: ../../../lib/web/src/components/game/game-end-dialogs.tsx
 msgid "This permanently deletes the game and its chat. This cannot be undone."
 msgstr "Ev ê lîstik û sohbeta wê bi awayekî domdar jê bibe. Ev kirin nayê vegerandin."
-
-#: src/features/help/devices.tsx
-msgid "Thunderbird"
-msgstr "Thunderbird"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Thursday"
@@ -2688,10 +2590,6 @@ msgstr "Hesabê we ji {source} hat vir veguheztin. Heya ku hûn wê li wir jêne
 #: ../../../lib/web/src/components/comment-composer.tsx
 msgid "Your attachments will be lost."
 msgstr "Pêvekên te wê winda bibin."
-
-#: src/features/help/devices.tsx
-msgid "Your contacts and calendars sync to your phone, tablet and computer over CardDAV and CalDAV, which every major contacts and calendar app speaks."
-msgstr "Peywendî û salnameyên te bi CardDAV û CalDAV re bi telefon, tablet û komputera te re hevdem dibin; van protokolan hemû sepanên peywendî û salnameyê yên sereke fêm dikin."
 
 #: src/features/help/contribute-dialog.tsx
 msgid "Your introduction has been submitted and will appear after moderation."

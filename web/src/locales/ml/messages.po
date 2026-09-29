@@ -247,10 +247,6 @@ msgstr "ഒരു പിശക് സംഭവിച്ചു"
 msgid "An unexpected error occurred"
 msgstr "അപ്രതീക്ഷിത പിശക് സംഭവിച്ചു"
 
-#: src/features/help/devices.tsx
-msgid "Android"
-msgstr "Android"
-
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
 msgstr "Android പുഷ്"
@@ -509,10 +505,6 @@ msgstr "ഒരു സമയം തിരഞ്ഞെടുക്കുക"
 msgid "Choose language"
 msgstr "ഭാഷ തിരഞ്ഞെടുക്കുക"
 
-#: src/features/help/devices.tsx
-msgid "Choose the account type Manual and enter the username, the password and the server address."
-msgstr "അക്കൗണ്ട് തരമായി മാനുവൽ തിരഞ്ഞെടുത്ത്, ഉപയോക്തൃനാമം, പാസ്‌വേഡ്, സെർവർ വിലാസം എന്നിവ നൽകുക."
-
 #: ../../../lib/web/src/components/banner-section.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
@@ -623,18 +615,9 @@ msgstr "കാഴ്ച ക്രമീകരണങ്ങൾ കോൺഫിഗ�
 msgid "Confirm"
 msgstr "സ്ഥിരീകരിക്കുക"
 
-#: src/features/help/devices.tsx
-#: src/features/help/index.tsx
-msgid "Connect your phone"
-msgstr "നിങ്ങളുടെ ഫോൺ ബന്ധിപ്പിക്കുക"
-
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connected"
 msgstr "കണക്റ്റ് ചെയ്തു"
-
-#: src/features/help/devices.tsx
-msgid "Connected devices always shows the server address and the username. They are the same for every device, calendar and address book."
-msgstr "ബന്ധിപ്പിച്ച ഡിവൈസുകൾ എപ്പോഴും സെർവർ വിലാസവും ഉപയോക്തൃനാമവും കാണിക്കും. ഓരോ ഉപകരണത്തിനും കലണ്ടറിനും വിലാസപ്പുസ്തകത്തിനും ഇവ ഒന്നുതന്നെയാണ്."
 
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connecting..."
@@ -679,10 +662,6 @@ msgstr "ക്ലിപ്പ്ബോർഡിലേക്ക് പകർത�
 #: ../../../lib/web/src/components/ui/copy-button.tsx
 msgid "Copy"
 msgstr "പകർത്തുക"
-
-#: src/features/help/devices.tsx
-msgid "Copy the server address, the username and the password into the device. The password is shown once."
-msgstr "സെർവർ വിലാസം, ഉപയോക്തൃനാമം, പാസ്‌വേഡ് എന്നിവ ഉപകരണത്തിലേക്ക് പകർത്തുക. പാസ്‌വേഡ് ഒരിക്കൽ മാത്രമേ കാണിക്കൂ."
 
 #: ../../../lib/web/src/features/document/document-page.tsx
 msgid "Could not load this document. Please try again later."
@@ -758,10 +737,6 @@ msgstr "ഡാറ്റ വൈരുദ്ധ്യം"
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Date"
 msgstr "തീയതി"
-
-#: src/features/help/devices.tsx
-msgid "DAVx5 finds both your address books and your calendars. Turn on the ones to sync."
-msgstr "നിങ്ങളുടെ വിലാസപ്പുസ്തകങ്ങളും കലണ്ടറുകളും DAVx5 കണ്ടെത്തും. സമന്വയിപ്പിക്കേണ്ടവ ഓൺ ചെയ്യുക."
 
 #: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx
 msgid "Decline"
@@ -992,18 +967,6 @@ msgstr "ബാനർ ടെക്സ്റ്റ് നൽകുക (മാർ�
 msgid "Enter the code from your email"
 msgstr "നിങ്ങളുടെ ഇമെയിലിലെ കോഡ് നൽകുക"
 
-#: src/features/help/devices.tsx
-msgid "Enter the password when asked, and choose the address books and calendars to add."
-msgstr "ചോദിക്കുമ്പോൾ പാസ്‌വേഡ് നൽകുക, ചേർക്കേണ്ട വിലാസപ്പുസ്തകങ്ങളും കലണ്ടറുകളും തിരഞ്ഞെടുക്കുക."
-
-#: src/features/help/devices.tsx
-msgid "Enter the server address, the username and the password in each."
-msgstr "ഓരോന്നിലും സെർവർ വിലാസം, ഉപയോക്തൃനാമം, പാസ്‌വേഡ് എന്നിവ നൽകുക."
-
-#: src/features/help/devices.tsx
-msgid "Enter the server address, the username and the password."
-msgstr "സെർവർ വിലാസം, ഉപയോക്തൃനാമം, പാസ്‌വേഡ് എന്നിവ നൽകുക."
-
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Enter your authenticator code"
 msgstr "നിങ്ങളുടെ ഓതെന്റിക്കേറ്റർ കോഡ് നൽകുക"
@@ -1160,22 +1123,6 @@ msgstr "ഫ്ലാഗുകൾ"
 msgid "Flat"
 msgstr "പരന്നത്"
 
-#: src/features/help/devices.tsx
-msgid "For calendars: Calendar, New Calendar, On the Network, with the username and the server address."
-msgstr "കലണ്ടറുകൾക്ക്: കലണ്ടർ, പുതിയ കലണ്ടർ, നെറ്റ്‌വർക്കിൽ, ഉപയോക്തൃനാമവും സെർവർ വിലാസവും സഹിതം."
-
-#: src/features/help/devices.tsx
-msgid "For calendars: Settings, Calendar, Accounts, Add Account, Other, Add CalDAV Account."
-msgstr "കലണ്ടറുകൾക്ക്: ക്രമീകരണങ്ങൾ, കലണ്ടർ, അക്കൗണ്ടുകൾ, അക്കൗണ്ട് ചേർക്കുക, മറ്റുള്ളവ, CalDAV അക്കൗണ്ട് ചേർക്കുക."
-
-#: src/features/help/devices.tsx
-msgid "For contacts: Address Book, New Address Book, Add CardDAV Address Book, with the username and the server address."
-msgstr "കോൺടാക്റ്റുകൾക്ക്: വിലാസപ്പുസ്തകം, പുതിയ വിലാസപ്പുസ്തകം, CardDAV വിലാസപ്പുസ്തകം ചേർക്കുക, ഉപയോക്തൃനാമവും സെർവർ വിലാസവും സഹിതം."
-
-#: src/features/help/devices.tsx
-msgid "For contacts: Settings, Contacts, Accounts, Add Account, Other, Add CardDAV Account."
-msgstr "കോൺടാക്റ്റുകൾക്ക്: ക്രമീകരണങ്ങൾ, കോൺടാക്റ്റുകൾ, അക്കൗണ്ടുകൾ, അക്കൗണ്ട് ചേർക്കുക, മറ്റുള്ളവ, CardDAV അക്കൗണ്ട് ചേർക്കുക."
-
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Friday"
 msgstr "വെള്ളിയാഴ്ച"
@@ -1195,10 +1142,6 @@ msgstr "നിന്ന്"
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "From theme"
 msgstr "തീമിൽ നിന്ന്"
-
-#: src/features/help/devices.tsx
-msgid "Get a password for the device"
-msgstr "ഉപകരണത്തിനായി ഒരു പാസ്‌വേഡ് നേടുക"
 
 #: ../../../lib/web/src/features/errors/access-denied-error.tsx
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
@@ -1226,7 +1169,6 @@ msgstr "ഇത് പ്രകാരം ഗ്രൂപ്പുചെയ്യ�
 msgid "Group: {0}"
 msgstr "ഗ്രൂപ്പ്: {0}"
 
-#: src/features/help/devices.tsx
 #: src/features/help/index.tsx
 #: src/routes/_authenticated/document/privacy.tsx
 #: src/routes/_authenticated/document/rules.tsx
@@ -1279,10 +1221,6 @@ msgstr "ഇനിഷ്യൽ അവതാർ"
 msgid "Initials avatar for {name}"
 msgstr "{name}-ന്റെ ഇനിഷ്യൽ അവതാർ"
 
-#: src/features/help/devices.tsx
-msgid "Install DAVx5 and add an account with \"Login with URL and user name\"."
-msgstr "DAVx5 ഇൻസ്റ്റാൾ ചെയ്ത്, \"URL ഉം ഉപയോക്തൃനാമവും ഉപയോഗിച്ച് ലോഗിൻ ചെയ്യുക\" എന്നതുവഴി ഒരു അക്കൗണ്ട് ചേർക്കുക."
-
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Interest {weight}"
 msgstr "താൽപ്പര്യം {weight}"
@@ -1299,10 +1237,6 @@ msgstr "സ്വയം പരിചയപ്പെടുത്തുക"
 #: ../../../lib/web/src/components/entity/entity-field-editor.tsx
 msgid "Invalid date"
 msgstr "അസാധുവായ തീയതി"
-
-#: src/features/help/devices.tsx
-msgid "iPhone and iPad"
-msgstr "iPhone ഉം iPad ഉം"
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "It seems like the page you're looking for <0/>does not exist or might have been removed."
@@ -1390,10 +1324,6 @@ msgstr "വിജയകരമായി ലോഗ് ഔട്ട് ചെയ്
 #: ../../../lib/web/src/components/sign-out-dialog.tsx
 msgid "Logging out…"
 msgstr "ലോഗ് ഔട്ട് ചെയ്യുന്നു…"
-
-#: src/features/help/devices.tsx
-msgid "Mac"
-msgstr "Mac"
 
 #: ../../../lib/web/src/components/notification-category-button.tsx
 msgid "Manage categories"
@@ -1498,10 +1428,6 @@ msgstr "പേര് നൽകേണ്ടത് ആവശ്യമാണ്"
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Name must be 1000 characters or less"
 msgstr "പേര് 1000 പ്രതീകങ്ങൾ അല്ലെങ്കിൽ അതിൽ കുറവായിരിക്കണം"
-
-#: src/features/help/devices.tsx
-msgid "Name the device, for example your phone's name, and create its password."
-msgstr "ഉപകരണത്തിന് ഒരു പേര് നൽകുക, ഉദാഹരണത്തിന് നിങ്ങളുടെ ഫോണിന്റെ പേര്, എന്നിട്ട് അതിന്റെ പാസ്‌വേഡ് സൃഷ്ടിക്കുക."
 
 #: ../../../lib/web/src/features/errors/general-error.tsx
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
@@ -1667,10 +1593,6 @@ msgstr "നമ്പർ"
 msgid "On"
 msgstr "ഓൺ"
 
-#: src/features/help/devices.tsx
-msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connected devices stops its password at once."
-msgstr "ഒരൊറ്റ പാസ്‌വേഡ് കോൺടാക്റ്റുകൾക്കും കലണ്ടറുകൾക്കും ഒരുപോലെ പ്രവർത്തിക്കും. ഓരോ ഉപകരണത്തിനും സ്വന്തം പാസ്‌വേഡ് ലഭിക്കും; ബന്ധിപ്പിച്ച ഡിവൈസുകൾ എന്നതിൽ നിന്ന് ഒരു ഉപകരണം നീക്കം ചെയ്താൽ അതിന്റെ പാസ്‌വേഡ് ഉടൻ പ്രവർത്തനരഹിതമാകും."
-
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
 msgstr "ഓ! പേജ് കണ്ടെത്തിയില്ല!"
@@ -1678,10 +1600,6 @@ msgstr "ഓ! പേജ് കണ്ടെത്തിയില്ല!"
 #: ../../../lib/web/src/components/layout/nav-group.tsx
 msgid "Open actions"
 msgstr "പ്രവർത്തനങ്ങൾ തുറക്കുക"
-
-#: src/features/help/devices.tsx
-msgid "Open Calendars or People, choose Connected devices, then Add device."
-msgstr "കലണ്ടറുകൾ അല്ലെങ്കിൽ ആളുകൾ തുറന്ന് ബന്ധിപ്പിച്ച ഡിവൈസുകൾ തിരഞ്ഞെടുക്കുക, തുടർന്ന് ഒരു ഡിവൈസ് ചേർക്കുക തിരഞ്ഞെടുക്കുക."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"
@@ -1830,10 +1748,6 @@ msgstr "സവിശേഷതകൾ"
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Push notification"
 msgstr "പുഷ് അറിയിപ്പ്"
-
-#: src/features/help/index.tsx
-msgid "Put your contacts and calendars on your phone, tablet or computer."
-msgstr "നിങ്ങളുടെ കോൺടാക്റ്റുകളും കലണ്ടറുകളും ഫോണിലോ ടാബ്‌ലെറ്റിലോ കമ്പ്യൂട്ടറിലോ എത്തിക്കുക."
 
 #: src/features/help/contribute-dialog.tsx
 msgid "Question"
@@ -2343,10 +2257,6 @@ msgctxt "actor"
 msgid "System"
 msgstr "സിസ്റ്റം"
 
-#: src/features/help/devices.tsx
-msgid "System Settings, Internet Accounts, Add Other Account, then CardDAV Account for contacts or CalDAV Account for calendars."
-msgstr "സിസ്റ്റം ക്രമീകരണങ്ങൾ, ഇന്റർനെറ്റ് അക്കൗണ്ടുകൾ, മറ്റൊരു അക്കൗണ്ട് ചേർക്കുക, തുടർന്ന് കോൺടാക്റ്റുകൾക്കായി CardDAV അക്കൗണ്ട് അല്ലെങ്കിൽ കലണ്ടറുകൾക്കായി CalDAV അക്കൗണ്ട്."
-
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Tag already exists"
 msgstr "ടാഗ് നിലവിലുണ്ട്"
@@ -2408,10 +2318,6 @@ msgstr "ക്യാമറ അഭ്യർത്ഥനയ്ക്ക് മറ�
 msgid "The microphone request was not answered"
 msgstr "മൈക്രോഫോൺ അഭ്യർത്ഥനയ്ക്ക് മറുപടി ലഭിച്ചില്ല"
 
-#: src/features/help/devices.tsx
-msgid "The Mochi app shows your contacts and calendars itself. To put them into the phone's own Contacts and Calendar apps, use DAVx5."
-msgstr "Mochi ആപ്പ് തന്നെ നിങ്ങളുടെ കോൺടാക്റ്റുകളും കലണ്ടറുകളും കാണിക്കുന്നുണ്ട്. ഫോണിന്റെ സ്വന്തം കോൺടാക്റ്റുകൾ, കലണ്ടർ ആപ്പുകളിൽ അവ എത്തിക്കാൻ DAVx5 ഉപയോഗിക്കുക."
-
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "The passkey request was not answered"
 msgstr "പാസ്കീ അഭ്യർത്ഥനയ്ക്ക് മറുപടി ലഭിച്ചില്ല"
@@ -2431,10 +2337,6 @@ msgstr "ഈ ആപ്പിന് നിങ്ങളുടെ പാസ്കീ
 #: ../../../lib/web/src/components/game/game-end-dialogs.tsx
 msgid "This permanently deletes the game and its chat. This cannot be undone."
 msgstr "ഇത് ഗെയിമും അതിന്റെ ചാറ്റും ശാശ്വതമായി ഇല്ലാതാക്കും. ഈ പ്രവർത്തി പഴയപടിയാക്കാൻ കഴിയില്ല."
-
-#: src/features/help/devices.tsx
-msgid "Thunderbird"
-msgstr "Thunderbird"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Thursday"
@@ -2688,10 +2590,6 @@ msgstr "നിങ്ങളുടെ അക്കൗണ്ട് {source} ൽ ന
 #: ../../../lib/web/src/components/comment-composer.tsx
 msgid "Your attachments will be lost."
 msgstr "നിങ്ങളുടെ അറ്റാച്ചുമെന്റുകൾ നഷ്ടപ്പെടും."
-
-#: src/features/help/devices.tsx
-msgid "Your contacts and calendars sync to your phone, tablet and computer over CardDAV and CalDAV, which every major contacts and calendar app speaks."
-msgstr "നിങ്ങളുടെ കോൺടാക്റ്റുകളും കലണ്ടറുകളും CardDAV, CalDAV വഴി ഫോൺ, ടാബ്‌ലെറ്റ്, കമ്പ്യൂട്ടർ എന്നിവയുമായി സമന്വയിക്കുന്നു; പ്രധാന കോൺടാക്റ്റ്, കലണ്ടർ ആപ്പുകളെല്ലാം ഇവ പിന്തുണയ്ക്കുന്നു."
 
 #: src/features/help/contribute-dialog.tsx
 msgid "Your introduction has been submitted and will appear after moderation."

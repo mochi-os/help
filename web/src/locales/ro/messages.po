@@ -247,10 +247,6 @@ msgstr "A apărut o eroare"
 msgid "An unexpected error occurred"
 msgstr "A apărut o eroare neașteptată"
 
-#: src/features/help/devices.tsx
-msgid "Android"
-msgstr "Android"
-
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
 msgstr "Push Android"
@@ -509,10 +505,6 @@ msgstr "Alegeți o oră"
 msgid "Choose language"
 msgstr "Alege limba"
 
-#: src/features/help/devices.tsx
-msgid "Choose the account type Manual and enter the username, the password and the server address."
-msgstr "Alegeți tipul de cont Manual și introduceți numele de utilizator, parola și adresa serverului."
-
 #: ../../../lib/web/src/components/banner-section.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
@@ -623,18 +615,9 @@ msgstr "Configurează setările vizualizării"
 msgid "Confirm"
 msgstr "Confirmă"
 
-#: src/features/help/devices.tsx
-#: src/features/help/index.tsx
-msgid "Connect your phone"
-msgstr "Conectați-vă telefonul"
-
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connected"
 msgstr "Conectat"
-
-#: src/features/help/devices.tsx
-msgid "Connected devices always shows the server address and the username. They are the same for every device, calendar and address book."
-msgstr "Dispozitive conectate afișează întotdeauna adresa serverului și numele de utilizator. Acestea sunt aceleași pentru fiecare dispozitiv, calendar și agendă de adrese."
 
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connecting..."
@@ -679,10 +662,6 @@ msgstr "Copiat în clipboard"
 #: ../../../lib/web/src/components/ui/copy-button.tsx
 msgid "Copy"
 msgstr "Copiază"
-
-#: src/features/help/devices.tsx
-msgid "Copy the server address, the username and the password into the device. The password is shown once."
-msgstr "Copiați adresa serverului, numele de utilizator și parola în dispozitiv. Parola este afișată o singură dată."
 
 #: ../../../lib/web/src/features/document/document-page.tsx
 msgid "Could not load this document. Please try again later."
@@ -758,10 +737,6 @@ msgstr "Conflict de date"
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Date"
 msgstr "Dată"
-
-#: src/features/help/devices.tsx
-msgid "DAVx5 finds both your address books and your calendars. Turn on the ones to sync."
-msgstr "DAVx5 găsește atât agendele de adrese, cât și calendarele dumneavoastră. Activați-le pe cele pe care vreți să le sincronizați."
 
 #: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx
 msgid "Decline"
@@ -992,18 +967,6 @@ msgstr "Introdu textul bannerului (markdown acceptat)..."
 msgid "Enter the code from your email"
 msgstr "Introduceți codul din e-mailul dumneavoastră"
 
-#: src/features/help/devices.tsx
-msgid "Enter the password when asked, and choose the address books and calendars to add."
-msgstr "Introduceți parola când vi se cere și alegeți agendele de adrese și calendarele de adăugat."
-
-#: src/features/help/devices.tsx
-msgid "Enter the server address, the username and the password in each."
-msgstr "Introduceți în fiecare adresa serverului, numele de utilizator și parola."
-
-#: src/features/help/devices.tsx
-msgid "Enter the server address, the username and the password."
-msgstr "Introduceți adresa serverului, numele de utilizator și parola."
-
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Enter your authenticator code"
 msgstr "Introdu codul din aplicația de autentificare"
@@ -1160,22 +1123,6 @@ msgstr "Indicatoare"
 msgid "Flat"
 msgstr "Plat"
 
-#: src/features/help/devices.tsx
-msgid "For calendars: Calendar, New Calendar, On the Network, with the username and the server address."
-msgstr "Pentru calendare: Calendar, Calendar nou, În rețea, cu numele de utilizator și adresa serverului."
-
-#: src/features/help/devices.tsx
-msgid "For calendars: Settings, Calendar, Accounts, Add Account, Other, Add CalDAV Account."
-msgstr "Pentru calendare: Setări, Calendar, Conturi, Adăugare cont, Altul, Adăugare cont CalDAV."
-
-#: src/features/help/devices.tsx
-msgid "For contacts: Address Book, New Address Book, Add CardDAV Address Book, with the username and the server address."
-msgstr "Pentru contacte: Agendă de adrese, Agendă de adrese nouă, Adăugare agendă de adrese CardDAV, cu numele de utilizator și adresa serverului."
-
-#: src/features/help/devices.tsx
-msgid "For contacts: Settings, Contacts, Accounts, Add Account, Other, Add CardDAV Account."
-msgstr "Pentru contacte: Setări, Contacte, Conturi, Adăugare cont, Altul, Adăugare cont CardDAV."
-
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Friday"
 msgstr "Vineri"
@@ -1195,10 +1142,6 @@ msgstr "De la"
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "From theme"
 msgstr "Din temă"
-
-#: src/features/help/devices.tsx
-msgid "Get a password for the device"
-msgstr "Obțineți o parolă pentru dispozitiv"
 
 #: ../../../lib/web/src/features/errors/access-denied-error.tsx
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
@@ -1226,7 +1169,6 @@ msgstr "Grupează după"
 msgid "Group: {0}"
 msgstr "Grup: {0}"
 
-#: src/features/help/devices.tsx
 #: src/features/help/index.tsx
 #: src/routes/_authenticated/document/privacy.tsx
 #: src/routes/_authenticated/document/rules.tsx
@@ -1279,10 +1221,6 @@ msgstr "Avatar cu inițiale"
 msgid "Initials avatar for {name}"
 msgstr "Avatar cu inițiale pentru {name}"
 
-#: src/features/help/devices.tsx
-msgid "Install DAVx5 and add an account with \"Login with URL and user name\"."
-msgstr "Instalați DAVx5 și adăugați un cont cu \"Autentificare cu URL și nume de utilizator\"."
-
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Interest {weight}"
 msgstr "Interes {weight}"
@@ -1299,10 +1237,6 @@ msgstr "Prezintă-te"
 #: ../../../lib/web/src/components/entity/entity-field-editor.tsx
 msgid "Invalid date"
 msgstr "Dată invalidă"
-
-#: src/features/help/devices.tsx
-msgid "iPhone and iPad"
-msgstr "iPhone și iPad"
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "It seems like the page you're looking for <0/>does not exist or might have been removed."
@@ -1390,10 +1324,6 @@ msgstr "Deconectare reușită"
 #: ../../../lib/web/src/components/sign-out-dialog.tsx
 msgid "Logging out…"
 msgstr "Se deconectează…"
-
-#: src/features/help/devices.tsx
-msgid "Mac"
-msgstr "Mac"
 
 #: ../../../lib/web/src/components/notification-category-button.tsx
 msgid "Manage categories"
@@ -1498,10 +1428,6 @@ msgstr "Numele este obligatoriu"
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Name must be 1000 characters or less"
 msgstr "Numele trebuie să aibă cel mult 1000 de caractere"
-
-#: src/features/help/devices.tsx
-msgid "Name the device, for example your phone's name, and create its password."
-msgstr "Dați un nume dispozitivului, de exemplu numele telefonului, și creați-i parola."
 
 #: ../../../lib/web/src/features/errors/general-error.tsx
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
@@ -1667,10 +1593,6 @@ msgstr "Număr"
 msgid "On"
 msgstr "Activat"
 
-#: src/features/help/devices.tsx
-msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connected devices stops its password at once."
-msgstr "O singură parolă este valabilă atât pentru contacte, cât și pentru calendare. Fiecare dispozitiv primește parola lui, iar eliminarea unui dispozitiv din Dispozitive conectate îi anulează imediat parola."
-
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
 msgstr "Hopa! Pagina nu a fost găsită!"
@@ -1678,10 +1600,6 @@ msgstr "Hopa! Pagina nu a fost găsită!"
 #: ../../../lib/web/src/components/layout/nav-group.tsx
 msgid "Open actions"
 msgstr "Deschide acțiunile"
-
-#: src/features/help/devices.tsx
-msgid "Open Calendars or People, choose Connected devices, then Add device."
-msgstr "Deschideți Calendare sau Persoane, alegeți Dispozitive conectate, apoi Adaugă un dispozitiv."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"
@@ -1830,10 +1748,6 @@ msgstr "Proprietăți"
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Push notification"
 msgstr "Notificare push"
-
-#: src/features/help/index.tsx
-msgid "Put your contacts and calendars on your phone, tablet or computer."
-msgstr "Aveți contactele și calendarele pe telefon, pe tabletă sau pe calculator."
 
 #: src/features/help/contribute-dialog.tsx
 msgid "Question"
@@ -2343,10 +2257,6 @@ msgctxt "actor"
 msgid "System"
 msgstr "Sistem"
 
-#: src/features/help/devices.tsx
-msgid "System Settings, Internet Accounts, Add Other Account, then CardDAV Account for contacts or CalDAV Account for calendars."
-msgstr "Setări de sistem, Conturi de internet, Adăugare alt cont, apoi Cont CardDAV pentru contacte sau Cont CalDAV pentru calendare."
-
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Tag already exists"
 msgstr "Eticheta există deja"
@@ -2408,10 +2318,6 @@ msgstr "Solicitarea camerei nu a primit răspuns"
 msgid "The microphone request was not answered"
 msgstr "Solicitarea microfonului nu a primit răspuns"
 
-#: src/features/help/devices.tsx
-msgid "The Mochi app shows your contacts and calendars itself. To put them into the phone's own Contacts and Calendar apps, use DAVx5."
-msgstr "Aplicația Mochi vă arată chiar ea contactele și calendarele. Pentru a le trece în aplicațiile Contacte și Calendar ale telefonului, folosiți DAVx5."
-
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "The passkey request was not answered"
 msgstr "Solicitarea cheii de acces nu a primit răspuns"
@@ -2431,10 +2337,6 @@ msgstr "Această aplicație nu are permisiunea de a folosi cheia dvs. de acces. 
 #: ../../../lib/web/src/components/game/game-end-dialogs.tsx
 msgid "This permanently deletes the game and its chat. This cannot be undone."
 msgstr "Aceasta va șterge definitiv jocul și discuția asociată. Această acțiune nu poate fi anulată."
-
-#: src/features/help/devices.tsx
-msgid "Thunderbird"
-msgstr "Thunderbird"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Thursday"
@@ -2688,10 +2590,6 @@ msgstr "Contul dvs. a fost mutat aici de la {source}. Până când îl ștergeț
 #: ../../../lib/web/src/components/comment-composer.tsx
 msgid "Your attachments will be lost."
 msgstr "Atașamentele tale se vor pierde."
-
-#: src/features/help/devices.tsx
-msgid "Your contacts and calendars sync to your phone, tablet and computer over CardDAV and CalDAV, which every major contacts and calendar app speaks."
-msgstr "Contactele și calendarele dumneavoastră se sincronizează cu telefonul, tableta și calculatorul prin CardDAV și CalDAV, pe care le înțelege orice aplicație importantă de contacte și de calendar."
 
 #: src/features/help/contribute-dialog.tsx
 msgid "Your introduction has been submitted and will appear after moderation."

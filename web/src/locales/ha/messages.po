@@ -247,10 +247,6 @@ msgstr "An samu kuskure"
 msgid "An unexpected error occurred"
 msgstr "An samu kuskuren da ba a zata ba"
 
-#: src/features/help/devices.tsx
-msgid "Android"
-msgstr "Android"
-
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
 msgstr "Tura ta Android"
@@ -509,10 +505,6 @@ msgstr "Zaɓi lokaci"
 msgid "Choose language"
 msgstr "Zaɓi harshe"
 
-#: src/features/help/devices.tsx
-msgid "Choose the account type Manual and enter the username, the password and the server address."
-msgstr "Zaɓi nau'in asusu na Da Hannu sannan ka shigar da sunan mai amfani, kalmar sirri da adireshin uwar garke."
-
 #: ../../../lib/web/src/components/banner-section.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
@@ -623,18 +615,9 @@ msgstr "Saita saitunan view"
 msgid "Confirm"
 msgstr "Tabbatar"
 
-#: src/features/help/devices.tsx
-#: src/features/help/index.tsx
-msgid "Connect your phone"
-msgstr "Haɗa wayarka"
-
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connected"
 msgstr "An haɗa"
-
-#: src/features/help/devices.tsx
-msgid "Connected devices always shows the server address and the username. They are the same for every device, calendar and address book."
-msgstr "Sashen Na'urorin da aka haɗa koyaushe yana nuna adireshin uwar garke da sunan mai amfani. Iri ɗaya ne ga kowace na'ura, kalanda da littafin adireshi."
 
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connecting..."
@@ -679,10 +662,6 @@ msgstr "An kwafi zuwa clipboard"
 #: ../../../lib/web/src/components/ui/copy-button.tsx
 msgid "Copy"
 msgstr "Kwafi"
-
-#: src/features/help/devices.tsx
-msgid "Copy the server address, the username and the password into the device. The password is shown once."
-msgstr "Kwafi adireshin uwar garke, sunan mai amfani da kalmar sirri zuwa cikin na'urar. Ana nuna kalmar sirri sau ɗaya kawai."
 
 #: ../../../lib/web/src/features/document/document-page.tsx
 msgid "Could not load this document. Please try again later."
@@ -758,10 +737,6 @@ msgstr "Rikicin bayanai"
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Date"
 msgstr "Kwanan wata"
-
-#: src/features/help/devices.tsx
-msgid "DAVx5 finds both your address books and your calendars. Turn on the ones to sync."
-msgstr "DAVx5 yana samun littattafan adireshinka da kuma kalandarka. Kunna waɗanda kake son a daidaita."
 
 #: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx
 msgid "Decline"
@@ -992,18 +967,6 @@ msgstr "Shigar da rubutun banner (markdown ana goyon baya)..."
 msgid "Enter the code from your email"
 msgstr "Shigar da lambar daga imel ɗinka"
 
-#: src/features/help/devices.tsx
-msgid "Enter the password when asked, and choose the address books and calendars to add."
-msgstr "Shigar da kalmar sirri idan aka nema, sannan ka zaɓi littattafan adireshi da kalandar da za a ƙara."
-
-#: src/features/help/devices.tsx
-msgid "Enter the server address, the username and the password in each."
-msgstr "Shigar da adireshin uwar garke, sunan mai amfani da kalmar sirri a kowanne."
-
-#: src/features/help/devices.tsx
-msgid "Enter the server address, the username and the password."
-msgstr "Shigar da adireshin uwar garke, sunan mai amfani da kalmar sirri."
-
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Enter your authenticator code"
 msgstr "Shigar da lambar mai tantancewarka"
@@ -1160,22 +1123,6 @@ msgstr "Tutoci"
 msgid "Flat"
 msgstr "Lebur"
 
-#: src/features/help/devices.tsx
-msgid "For calendars: Calendar, New Calendar, On the Network, with the username and the server address."
-msgstr "Don kalanda: Kalanda, Sabuwar Kalanda, A Kan Hanyar Sadarwa, tare da sunan mai amfani da adireshin uwar garke."
-
-#: src/features/help/devices.tsx
-msgid "For calendars: Settings, Calendar, Accounts, Add Account, Other, Add CalDAV Account."
-msgstr "Don kalanda: Saituna, Kalanda, Asusu, Ƙara Asusu, Waɗansu, Ƙara Asusun CalDAV."
-
-#: src/features/help/devices.tsx
-msgid "For contacts: Address Book, New Address Book, Add CardDAV Address Book, with the username and the server address."
-msgstr "Don lambobin sadarwa: Littafin Adireshi, Sabon Littafin Adireshi, Ƙara Littafin Adireshi na CardDAV, tare da sunan mai amfani da adireshin uwar garke."
-
-#: src/features/help/devices.tsx
-msgid "For contacts: Settings, Contacts, Accounts, Add Account, Other, Add CardDAV Account."
-msgstr "Don lambobin sadarwa: Saituna, Lambobin Sadarwa, Asusu, Ƙara Asusu, Waɗansu, Ƙara Asusun CardDAV."
-
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Friday"
 msgstr "Jumma'a"
@@ -1195,10 +1142,6 @@ msgstr "Daga"
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "From theme"
 msgstr "Daga jigo"
-
-#: src/features/help/devices.tsx
-msgid "Get a password for the device"
-msgstr "Sami kalmar sirri don na'urar"
 
 #: ../../../lib/web/src/features/errors/access-denied-error.tsx
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
@@ -1226,7 +1169,6 @@ msgstr "Haɗa bisa"
 msgid "Group: {0}"
 msgstr "Rukuni: {0}"
 
-#: src/features/help/devices.tsx
 #: src/features/help/index.tsx
 #: src/routes/_authenticated/document/privacy.tsx
 #: src/routes/_authenticated/document/rules.tsx
@@ -1279,10 +1221,6 @@ msgstr "Avatar na baƙaƙen farko"
 msgid "Initials avatar for {name}"
 msgstr "Avatar na baƙaƙen farko na {name}"
 
-#: src/features/help/devices.tsx
-msgid "Install DAVx5 and add an account with \"Login with URL and user name\"."
-msgstr "Sanya DAVx5 sannan ka ƙara asusu ta \"Shiga da URL da sunan mai amfani\"."
-
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Interest {weight}"
 msgstr "Sha'awa {weight}"
@@ -1299,10 +1237,6 @@ msgstr "Gabatar da kanka"
 #: ../../../lib/web/src/components/entity/entity-field-editor.tsx
 msgid "Invalid date"
 msgstr "Kwanan wata mara inganci"
-
-#: src/features/help/devices.tsx
-msgid "iPhone and iPad"
-msgstr "iPhone da iPad"
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "It seems like the page you're looking for <0/>does not exist or might have been removed."
@@ -1390,10 +1324,6 @@ msgstr "An fita cikin nasara"
 #: ../../../lib/web/src/components/sign-out-dialog.tsx
 msgid "Logging out…"
 msgstr "Ana fita…"
-
-#: src/features/help/devices.tsx
-msgid "Mac"
-msgstr "Mac"
 
 #: ../../../lib/web/src/components/notification-category-button.tsx
 msgid "Manage categories"
@@ -1498,10 +1428,6 @@ msgstr "Ana buƙatar suna"
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Name must be 1000 characters or less"
 msgstr "Suna dole ya kasance haruffa 1000 ko ƙasa"
-
-#: src/features/help/devices.tsx
-msgid "Name the device, for example your phone's name, and create its password."
-msgstr "Ba na'urar suna, misali sunan wayarka, sannan ka ƙirƙiri kalmar sirrinta."
 
 #: ../../../lib/web/src/features/errors/general-error.tsx
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
@@ -1667,10 +1593,6 @@ msgstr "Lamba"
 msgid "On"
 msgstr "Kunna"
 
-#: src/features/help/devices.tsx
-msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connected devices stops its password at once."
-msgstr "Kalmar sirri ɗaya tana aiki ga lambobin sadarwa da kalanda duka. Kowace na'ura tana da tata, kuma cire na'ura a ƙarƙashin Na'urorin da aka haɗa yana dakatar da kalmar sirrinta nan take."
-
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
 msgstr "Kai! Ba a Sami Shafi Ba!"
@@ -1678,10 +1600,6 @@ msgstr "Kai! Ba a Sami Shafi Ba!"
 #: ../../../lib/web/src/components/layout/nav-group.tsx
 msgid "Open actions"
 msgstr "Buɗe ayyuka"
-
-#: src/features/help/devices.tsx
-msgid "Open Calendars or People, choose Connected devices, then Add device."
-msgstr "Buɗe Kalandoci ko Mutane, ka zaɓi Na'urorin da aka haɗa, sannan Ƙara na'ura."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"
@@ -1830,10 +1748,6 @@ msgstr "Halaye"
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Push notification"
 msgstr "Sanarwar push"
-
-#: src/features/help/index.tsx
-msgid "Put your contacts and calendars on your phone, tablet or computer."
-msgstr "Sanya lambobin sadarwarka da kalandarka a wayarka, kwamfutar hannu ko kwamfuta."
 
 #: src/features/help/contribute-dialog.tsx
 msgid "Question"
@@ -2343,10 +2257,6 @@ msgctxt "actor"
 msgid "System"
 msgstr "Tsarin"
 
-#: src/features/help/devices.tsx
-msgid "System Settings, Internet Accounts, Add Other Account, then CardDAV Account for contacts or CalDAV Account for calendars."
-msgstr "Saitunan Tsarin, Asusun Intanet, Ƙara Wani Asusu, sannan Asusun CardDAV don lambobin sadarwa ko Asusun CalDAV don kalanda."
-
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Tag already exists"
 msgstr "Tag ya riga ya wanzu"
@@ -2408,10 +2318,6 @@ msgstr "Ba a amsa buƙatar kyamara ba"
 msgid "The microphone request was not answered"
 msgstr "Ba a amsa buƙatar makirufo ba"
 
-#: src/features/help/devices.tsx
-msgid "The Mochi app shows your contacts and calendars itself. To put them into the phone's own Contacts and Calendar apps, use DAVx5."
-msgstr "Manhajar Mochi tana nuna lambobin sadarwarka da kalandarka da kanta. Don sanya su cikin manhajojin Lambobin Sadarwa da Kalanda na wayar, yi amfani da DAVx5."
-
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "The passkey request was not answered"
 msgstr "Ba a amsa buƙatar passkey ba"
@@ -2431,10 +2337,6 @@ msgstr "Ba a ba wannan manhaja izinin amfani da passkey ɗinka ba. Ba ta izini a
 #: ../../../lib/web/src/components/game/game-end-dialogs.tsx
 msgid "This permanently deletes the game and its chat. This cannot be undone."
 msgstr "Wannan zai goge wasan da hirarsa har abada. Ba za a iya sokewa ba."
-
-#: src/features/help/devices.tsx
-msgid "Thunderbird"
-msgstr "Thunderbird"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Thursday"
@@ -2688,10 +2590,6 @@ msgstr "An ƙauri asusunka zuwa nan daga {source}. Sai ka goge shi a can, saƙon
 #: ../../../lib/web/src/components/comment-composer.tsx
 msgid "Your attachments will be lost."
 msgstr "Za a rasa fayilolin da ka makala."
-
-#: src/features/help/devices.tsx
-msgid "Your contacts and calendars sync to your phone, tablet and computer over CardDAV and CalDAV, which every major contacts and calendar app speaks."
-msgstr "Lambobin sadarwarka da kalandarka suna daidaituwa da wayarka, kwamfutar hannu da kwamfuta ta hanyar CardDAV da CalDAV, waɗanda duk manyan manhajojin lambobin sadarwa da kalanda suke fahimta."
 
 #: src/features/help/contribute-dialog.tsx
 msgid "Your introduction has been submitted and will appear after moderation."

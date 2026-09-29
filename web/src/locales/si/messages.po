@@ -247,10 +247,6 @@ msgstr "දෝෂයක් සිදු විය"
 msgid "An unexpected error occurred"
 msgstr "අනපේක්ෂිත දෝෂයක් සිදු විය"
 
-#: src/features/help/devices.tsx
-msgid "Android"
-msgstr "Android"
-
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
 msgstr "Android තල්ලුව"
@@ -509,10 +505,6 @@ msgstr "වේලාවක් තෝරන්න"
 msgid "Choose language"
 msgstr "භාෂාව තෝරන්න"
 
-#: src/features/help/devices.tsx
-msgid "Choose the account type Manual and enter the username, the password and the server address."
-msgstr "ගිණුම් වර්ගය ලෙස අතින් තෝරා, පරිශීලක නාමය, මුරපදය සහ සේවාදායක ලිපිනය ඇතුළත් කරන්න."
-
 #: ../../../lib/web/src/components/banner-section.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
@@ -623,18 +615,9 @@ msgstr "දැක්ම් සැකසීම් වින්‍යාස කර
 msgid "Confirm"
 msgstr "තහවුරු කරන්න"
 
-#: src/features/help/devices.tsx
-#: src/features/help/index.tsx
-msgid "Connect your phone"
-msgstr "ඔබේ දුරකථනය සම්බන්ධ කරන්න"
-
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connected"
 msgstr "සම්බන්ධිතයි"
-
-#: src/features/help/devices.tsx
-msgid "Connected devices always shows the server address and the username. They are the same for every device, calendar and address book."
-msgstr "සම්බන්ධිත උපාංග සැමවිටම සේවාදායක ලිපිනය සහ පරිශීලක නාමය පෙන්වයි. ඒවා සෑම උපාංගයකටම, දින දර්ශනයකටම සහ ලිපින පොතකටම එක සමාන වේ."
 
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connecting..."
@@ -679,10 +662,6 @@ msgstr "ක්ලිප්බෝඩ් වෙත පිටපත් කරන �
 #: ../../../lib/web/src/components/ui/copy-button.tsx
 msgid "Copy"
 msgstr "පිටපත් කරන්න"
-
-#: src/features/help/devices.tsx
-msgid "Copy the server address, the username and the password into the device. The password is shown once."
-msgstr "සේවාදායක ලිපිනය, පරිශීලක නාමය සහ මුරපදය උපාංගයට පිටපත් කරන්න. මුරපදය පෙන්වන්නේ එක් වරක් පමණි."
 
 #: ../../../lib/web/src/features/document/document-page.tsx
 msgid "Could not load this document. Please try again later."
@@ -758,10 +737,6 @@ msgstr "දත්ත ගැටුමක්"
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Date"
 msgstr "දිනය"
-
-#: src/features/help/devices.tsx
-msgid "DAVx5 finds both your address books and your calendars. Turn on the ones to sync."
-msgstr "DAVx5 ඔබේ ලිපින පොත් සහ දින දර්ශන යන දෙකම සොයා ගනී. සමමුහුර්ත කිරීමට අවශ්‍ය ඒවා සක්‍රිය කරන්න."
 
 #: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx
 msgid "Decline"
@@ -992,18 +967,6 @@ msgstr "බැනර් පෙළ ඇතුළු කරන්න (markdown ස�
 msgid "Enter the code from your email"
 msgstr "ඔබේ විද්‍යුත් තැපෑලෙහි ඇති කේතය ඇතුළු කරන්න"
 
-#: src/features/help/devices.tsx
-msgid "Enter the password when asked, and choose the address books and calendars to add."
-msgstr "ඉල්ලන විට මුරපදය ඇතුළත් කර, එක් කිරීමට අවශ්‍ය ලිපින පොත් සහ දින දර්ශන තෝරන්න."
-
-#: src/features/help/devices.tsx
-msgid "Enter the server address, the username and the password in each."
-msgstr "එක් එක් එකෙහි සේවාදායක ලිපිනය, පරිශීලක නාමය සහ මුරපදය ඇතුළත් කරන්න."
-
-#: src/features/help/devices.tsx
-msgid "Enter the server address, the username and the password."
-msgstr "සේවාදායක ලිපිනය, පරිශීලක නාමය සහ මුරපදය ඇතුළත් කරන්න."
-
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Enter your authenticator code"
 msgstr "ඔබගේ සත්‍යාපන කේතය ඇතුළත් කරන්න"
@@ -1160,22 +1123,6 @@ msgstr "කොඩි"
 msgid "Flat"
 msgstr "පැතලි"
 
-#: src/features/help/devices.tsx
-msgid "For calendars: Calendar, New Calendar, On the Network, with the username and the server address."
-msgstr "දින දර්ශන සඳහා: දින දර්ශනය, නව දින දර්ශනය, ජාලය මත, පරිශීලක නාමය සහ සේවාදායක ලිපිනය සමඟ."
-
-#: src/features/help/devices.tsx
-msgid "For calendars: Settings, Calendar, Accounts, Add Account, Other, Add CalDAV Account."
-msgstr "දින දර්ශන සඳහා: සැකසීම්, දින දර්ශනය, ගිණුම්, ගිණුමක් එක් කරන්න, වෙනත්, CalDAV ගිණුමක් එක් කරන්න."
-
-#: src/features/help/devices.tsx
-msgid "For contacts: Address Book, New Address Book, Add CardDAV Address Book, with the username and the server address."
-msgstr "සම්බන්ධතා සඳහා: ලිපින පොත, නව ලිපින පොත, CardDAV ලිපින පොතක් එක් කරන්න, පරිශීලක නාමය සහ සේවාදායක ලිපිනය සමඟ."
-
-#: src/features/help/devices.tsx
-msgid "For contacts: Settings, Contacts, Accounts, Add Account, Other, Add CardDAV Account."
-msgstr "සම්බන්ධතා සඳහා: සැකසීම්, සම්බන්ධතා, ගිණුම්, ගිණුමක් එක් කරන්න, වෙනත්, CardDAV ගිණුමක් එක් කරන්න."
-
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Friday"
 msgstr "සිකුරාදා"
@@ -1195,10 +1142,6 @@ msgstr "සිට"
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "From theme"
 msgstr "තේමාවෙන්"
-
-#: src/features/help/devices.tsx
-msgid "Get a password for the device"
-msgstr "උපාංගය සඳහා මුරපදයක් ලබා ගන්න"
 
 #: ../../../lib/web/src/features/errors/access-denied-error.tsx
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
@@ -1226,7 +1169,6 @@ msgstr "අනුව කාණ්ඩ කරන්න"
 msgid "Group: {0}"
 msgstr "කණ්ඩායම: {0}"
 
-#: src/features/help/devices.tsx
 #: src/features/help/index.tsx
 #: src/routes/_authenticated/document/privacy.tsx
 #: src/routes/_authenticated/document/rules.tsx
@@ -1279,10 +1221,6 @@ msgstr "මුලකුරු අවතාරය"
 msgid "Initials avatar for {name}"
 msgstr "{name} සඳහා මුලකුරු අවතාරය"
 
-#: src/features/help/devices.tsx
-msgid "Install DAVx5 and add an account with \"Login with URL and user name\"."
-msgstr "DAVx5 ස්ථාපනය කර, \"URL සහ පරිශීලක නාමය සමඟ පිවිසෙන්න\" මඟින් ගිණුමක් එක් කරන්න."
-
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Interest {weight}"
 msgstr "උනන්දුව {weight}"
@@ -1299,10 +1237,6 @@ msgstr "ඔබව හඳුන්වා දෙන්න"
 #: ../../../lib/web/src/components/entity/entity-field-editor.tsx
 msgid "Invalid date"
 msgstr "අවලංගු දිනය"
-
-#: src/features/help/devices.tsx
-msgid "iPhone and iPad"
-msgstr "iPhone සහ iPad"
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "It seems like the page you're looking for <0/>does not exist or might have been removed."
@@ -1390,10 +1324,6 @@ msgstr "සාර්ථකව ඉවත් විය"
 #: ../../../lib/web/src/components/sign-out-dialog.tsx
 msgid "Logging out…"
 msgstr "ඉවත් වෙමින්…"
-
-#: src/features/help/devices.tsx
-msgid "Mac"
-msgstr "Mac"
 
 #: ../../../lib/web/src/components/notification-category-button.tsx
 msgid "Manage categories"
@@ -1498,10 +1428,6 @@ msgstr "නම අවශ්‍යයි"
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Name must be 1000 characters or less"
 msgstr "නම අක්ෂර 1000 ක් හෝ ඊට අඩු විය යුතුය"
-
-#: src/features/help/devices.tsx
-msgid "Name the device, for example your phone's name, and create its password."
-msgstr "උපාංගයට නමක් දෙන්න, උදාහරණයක් ලෙස ඔබේ දුරකථනයේ නම, සහ එහි මුරපදය සාදන්න."
 
 #: ../../../lib/web/src/features/errors/general-error.tsx
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
@@ -1667,10 +1593,6 @@ msgstr "අංකය"
 msgid "On"
 msgstr "සක්‍රීයයි"
 
-#: src/features/help/devices.tsx
-msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connected devices stops its password at once."
-msgstr "එක මුරපදයක් සම්බන්ධතා සහ දින දර්ශන යන දෙකටම ප්‍රමාණවත් වේ. සෑම උපාංගයකටම තමන්ගේම මුරපදයක් ලැබෙන අතර, සම්බන්ධිත උපාංග යටතේ උපාංගයක් ඉවත් කළ විට එහි මුරපදය වහාම අවලංගු වේ."
-
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
 msgstr "අහෝ! පිටුව හමු නොවීය!"
@@ -1678,10 +1600,6 @@ msgstr "අහෝ! පිටුව හමු නොවීය!"
 #: ../../../lib/web/src/components/layout/nav-group.tsx
 msgid "Open actions"
 msgstr "ක්‍රියා විවෘත කරන්න"
-
-#: src/features/help/devices.tsx
-msgid "Open Calendars or People, choose Connected devices, then Add device."
-msgstr "දින දර්ශන හෝ පුද්ගලයන් විවෘත කර සම්බන්ධිත උපාංග තෝරන්න, ඉන්පසු උපාංගයක් එක් කරන්න තෝරන්න."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"
@@ -1830,10 +1748,6 @@ msgstr "ගුණාංග"
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Push notification"
 msgstr "තල්ලු දැනුම්දීම"
-
-#: src/features/help/index.tsx
-msgid "Put your contacts and calendars on your phone, tablet or computer."
-msgstr "ඔබේ සම්බන්ධතා සහ දින දර්ශන ඔබේ දුරකථනයේ, ටැබ්ලටයේ හෝ පරිගණකයේ තබා ගන්න."
 
 #: src/features/help/contribute-dialog.tsx
 msgid "Question"
@@ -2343,10 +2257,6 @@ msgctxt "actor"
 msgid "System"
 msgstr "පද්ධතිය"
 
-#: src/features/help/devices.tsx
-msgid "System Settings, Internet Accounts, Add Other Account, then CardDAV Account for contacts or CalDAV Account for calendars."
-msgstr "පද්ධති සැකසීම්, අන්තර්ජාල ගිණුම්, වෙනත් ගිණුමක් එක් කරන්න, ඉන්පසු සම්බන්ධතා සඳහා CardDAV ගිණුම හෝ දින දර්ශන සඳහා CalDAV ගිණුම."
-
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Tag already exists"
 msgstr "ටැගය දැනටමත් පවතී"
@@ -2408,10 +2318,6 @@ msgstr "කැමරා ඉල්ලීමට පිළිතුරු ලැබ
 msgid "The microphone request was not answered"
 msgstr "මයික්‍රොෆෝන ඉල්ලීමට පිළිතුරු ලැබුණේ නැත"
 
-#: src/features/help/devices.tsx
-msgid "The Mochi app shows your contacts and calendars itself. To put them into the phone's own Contacts and Calendar apps, use DAVx5."
-msgstr "Mochi යෙදුම ඔබේ සම්බන්ධතා සහ දින දර්ශන එයම පෙන්වයි. ඒවා දුරකථනයේම සම්බන්ධතා සහ දින දර්ශන යෙදුම්වලට ගැනීමට DAVx5 භාවිත කරන්න."
-
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "The passkey request was not answered"
 msgstr "මුරයතුරු ඉල්ලීමට පිළිතුරු ලැබුණේ නැත"
@@ -2431,10 +2337,6 @@ msgstr "මෙම යෙදුමට ඔබගේ මුරයතුර භා�
 #: ../../../lib/web/src/components/game/game-end-dialogs.tsx
 msgid "This permanently deletes the game and its chat. This cannot be undone."
 msgstr "මෙය ක්‍රීඩාව සහ එහි කතාබස් ස්ථිරවම මකා දමයි. මෙම ක්‍රියාව අහෝසි කළ නොහැක."
-
-#: src/features/help/devices.tsx
-msgid "Thunderbird"
-msgstr "Thunderbird"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Thursday"
@@ -2688,10 +2590,6 @@ msgstr "ඔබේ ගිණුම {source} සිට මෙහි ගෙන ආ�
 #: ../../../lib/web/src/components/comment-composer.tsx
 msgid "Your attachments will be lost."
 msgstr "ඔබගේ ඇමුණුම් නැති වනු ඇත."
-
-#: src/features/help/devices.tsx
-msgid "Your contacts and calendars sync to your phone, tablet and computer over CardDAV and CalDAV, which every major contacts and calendar app speaks."
-msgstr "ඔබේ සම්බන්ධතා සහ දින දර්ශන CardDAV සහ CalDAV හරහා ඔබේ දුරකථනය, ටැබ්ලටය සහ පරිගණකය සමඟ සමමුහුර්ත වේ; ප්‍රධාන සම්බන්ධතා සහ දින දර්ශන යෙදුම් සියල්ලම මේවා හඳුනයි."
 
 #: src/features/help/contribute-dialog.tsx
 msgid "Your introduction has been submitted and will appear after moderation."

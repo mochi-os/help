@@ -247,10 +247,6 @@ msgstr "Սխալ առաջացավ"
 msgid "An unexpected error occurred"
 msgstr "Անսպասելի սխալ առաջացավ"
 
-#: src/features/help/devices.tsx
-msgid "Android"
-msgstr "Android"
-
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
 msgstr "Android պուշ-ծանուցումներ"
@@ -509,10 +505,6 @@ msgstr "Ընտրեք ժամը"
 msgid "Choose language"
 msgstr "Ընտրել լեզուն"
 
-#: src/features/help/devices.tsx
-msgid "Choose the account type Manual and enter the username, the password and the server address."
-msgstr "Ընտրեք հաշվի տեսակը՝ Ձեռքով, և մուտքագրեք օգտանունը, գաղտնաբառը և սերվերի հասցեն։"
-
 #: ../../../lib/web/src/components/banner-section.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
@@ -623,18 +615,9 @@ msgstr "Կարգավորել տեսքի կարգավորումները"
 msgid "Confirm"
 msgstr "Հաստատել"
 
-#: src/features/help/devices.tsx
-#: src/features/help/index.tsx
-msgid "Connect your phone"
-msgstr "Միացրեք ձեր հեռախոսը"
-
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connected"
 msgstr "Միացված"
-
-#: src/features/help/devices.tsx
-msgid "Connected devices always shows the server address and the username. They are the same for every device, calendar and address book."
-msgstr "«Միացված սարքեր»-ը միշտ ցույց է տալիս սերվերի հասցեն և օգտանունը։ Դրանք նույնն են յուրաքանչյուր սարքի, օրացույցի և հասցեագրքի համար։"
 
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connecting..."
@@ -679,10 +662,6 @@ msgstr "Պատճենվեց սեղմատախտակին"
 #: ../../../lib/web/src/components/ui/copy-button.tsx
 msgid "Copy"
 msgstr "Պատճենել"
-
-#: src/features/help/devices.tsx
-msgid "Copy the server address, the username and the password into the device. The password is shown once."
-msgstr "Պատճենեք սերվերի հասցեն, օգտանունը և գաղտնաբառը սարքի մեջ։ Գաղտնաբառը ցուցադրվում է միայն մեկ անգամ։"
 
 #: ../../../lib/web/src/features/document/document-page.tsx
 msgid "Could not load this document. Please try again later."
@@ -758,10 +737,6 @@ msgstr "Տվյալների կոնֆլիկտ"
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Date"
 msgstr "Ամսաթիվ"
-
-#: src/features/help/devices.tsx
-msgid "DAVx5 finds both your address books and your calendars. Turn on the ones to sync."
-msgstr "DAVx5-ը գտնում է թե՛ ձեր հասցեագրքերը, թե՛ ձեր օրացույցները։ Միացրեք նրանք, որոնք պետք է համաժամացվեն։"
 
 #: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx
 msgid "Decline"
@@ -992,18 +967,6 @@ msgstr "Մուտքագրեք պաստառի տեքստը (markdown-ը աջակց
 msgid "Enter the code from your email"
 msgstr "Մուտքագրեք ձեր էլ. փոստից ստացած կոդը"
 
-#: src/features/help/devices.tsx
-msgid "Enter the password when asked, and choose the address books and calendars to add."
-msgstr "Հարցնելիս մուտքագրեք գաղտնաբառը և ընտրեք ավելացվող հասցեագրքերն ու օրացույցները։"
-
-#: src/features/help/devices.tsx
-msgid "Enter the server address, the username and the password in each."
-msgstr "Յուրաքանչյուրում մուտքագրեք սերվերի հասցեն, օգտանունը և գաղտնաբառը։"
-
-#: src/features/help/devices.tsx
-msgid "Enter the server address, the username and the password."
-msgstr "Մուտքագրեք սերվերի հասցեն, օգտանունը և գաղտնաբառը։"
-
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Enter your authenticator code"
 msgstr "Մուտքագրեք ձեր նույնականացուցիչի կոդը"
@@ -1160,22 +1123,6 @@ msgstr "Դրոշներ"
 msgid "Flat"
 msgstr "Հարթ"
 
-#: src/features/help/devices.tsx
-msgid "For calendars: Calendar, New Calendar, On the Network, with the username and the server address."
-msgstr "Օրացույցների համար՝ Օրացույց, Նոր օրացույց, Ցանցում, օգտանունով և սերվերի հասցեով։"
-
-#: src/features/help/devices.tsx
-msgid "For calendars: Settings, Calendar, Accounts, Add Account, Other, Add CalDAV Account."
-msgstr "Օրացույցների համար՝ Կարգավորումներ, Օրացույց, Հաշիվներ, Ավելացնել հաշիվ, Այլ, Ավելացնել CalDAV հաշիվ։"
-
-#: src/features/help/devices.tsx
-msgid "For contacts: Address Book, New Address Book, Add CardDAV Address Book, with the username and the server address."
-msgstr "Կոնտակտների համար՝ Հասցեագիրք, Նոր հասցեագիրք, Ավելացնել CardDAV հասցեագիրք, օգտանունով և սերվերի հասցեով։"
-
-#: src/features/help/devices.tsx
-msgid "For contacts: Settings, Contacts, Accounts, Add Account, Other, Add CardDAV Account."
-msgstr "Կոնտակտների համար՝ Կարգավորումներ, Կոնտակտներ, Հաշիվներ, Ավելացնել հաշիվ, Այլ, Ավելացնել CardDAV հաշիվ։"
-
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Friday"
 msgstr "Ուրբաթ"
@@ -1195,10 +1142,6 @@ msgstr "Ումից"
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "From theme"
 msgstr "Թեմայից"
-
-#: src/features/help/devices.tsx
-msgid "Get a password for the device"
-msgstr "Ստացեք գաղտնաբառ սարքի համար"
 
 #: ../../../lib/web/src/features/errors/access-denied-error.tsx
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
@@ -1226,7 +1169,6 @@ msgstr "Խմբավորել ըստ"
 msgid "Group: {0}"
 msgstr "Խումբ՝ {0}"
 
-#: src/features/help/devices.tsx
 #: src/features/help/index.tsx
 #: src/routes/_authenticated/document/privacy.tsx
 #: src/routes/_authenticated/document/rules.tsx
@@ -1279,10 +1221,6 @@ msgstr "Սկզբնատառերի ավատար"
 msgid "Initials avatar for {name}"
 msgstr "{name}-ի սկզբնատառերի ավատար"
 
-#: src/features/help/devices.tsx
-msgid "Install DAVx5 and add an account with \"Login with URL and user name\"."
-msgstr "Տեղադրեք DAVx5-ը և ավելացրեք հաշիվ «Մուտք URL-ով և օգտանունով» տարբերակով։"
-
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Interest {weight}"
 msgstr "Հետաքրքրություն՝ {weight}"
@@ -1299,10 +1237,6 @@ msgstr "Ներկայացրեք ձեզ"
 #: ../../../lib/web/src/components/entity/entity-field-editor.tsx
 msgid "Invalid date"
 msgstr "Անվավեր ամսաթիվ"
-
-#: src/features/help/devices.tsx
-msgid "iPhone and iPad"
-msgstr "iPhone և iPad"
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "It seems like the page you're looking for <0/>does not exist or might have been removed."
@@ -1390,10 +1324,6 @@ msgstr "Հաջողությամբ դուրս եկաք"
 #: ../../../lib/web/src/components/sign-out-dialog.tsx
 msgid "Logging out…"
 msgstr "Դուրս գալիս…"
-
-#: src/features/help/devices.tsx
-msgid "Mac"
-msgstr "Mac"
 
 #: ../../../lib/web/src/components/notification-category-button.tsx
 msgid "Manage categories"
@@ -1498,10 +1428,6 @@ msgstr "Անունը պարտադիր է"
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Name must be 1000 characters or less"
 msgstr "Անունը պետք է լինի 1000 նիշից ոչ ավելի"
-
-#: src/features/help/devices.tsx
-msgid "Name the device, for example your phone's name, and create its password."
-msgstr "Անվանեք սարքը, օրինակ՝ ձեր հեռախոսի անունով, և ստեղծեք դրա գաղտնաբառը։"
 
 #: ../../../lib/web/src/features/errors/general-error.tsx
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
@@ -1667,10 +1593,6 @@ msgstr "Համար"
 msgid "On"
 msgstr "Միացված"
 
-#: src/features/help/devices.tsx
-msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connected devices stops its password at once."
-msgstr "Մեկ գաղտնաբառը սպասարկում է և՛ կոնտակտները, և՛ օրացույցները։ Յուրաքանչյուր սարք ունի իրենը, իսկ «Միացված սարքեր» բաժնում սարքը հեռացնելն անմիջապես դադարեցնում է դրա գաղտնաբառի գործողությունը։"
-
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
 msgstr "Ուփ։ Էջը չի գտնվել։"
@@ -1678,10 +1600,6 @@ msgstr "Ուփ։ Էջը չի գտնվել։"
 #: ../../../lib/web/src/components/layout/nav-group.tsx
 msgid "Open actions"
 msgstr "Բացել գործողությունները"
-
-#: src/features/help/devices.tsx
-msgid "Open Calendars or People, choose Connected devices, then Add device."
-msgstr "Բացեք Օրացույցներ կամ Մարդիկ, ընտրեք «Միացված սարքեր», ապա «Ավելացնել սարք»։"
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"
@@ -1830,10 +1748,6 @@ msgstr "Հատկություններ"
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Push notification"
 msgstr "Պուշ-ծանուցում"
-
-#: src/features/help/index.tsx
-msgid "Put your contacts and calendars on your phone, tablet or computer."
-msgstr "Տեղադրեք ձեր կոնտակտներն ու օրացույցները ձեր հեռախոսում, պլանշետում կամ համակարգչում։"
 
 #: src/features/help/contribute-dialog.tsx
 msgid "Question"
@@ -2343,10 +2257,6 @@ msgctxt "actor"
 msgid "System"
 msgstr "Համակարգ"
 
-#: src/features/help/devices.tsx
-msgid "System Settings, Internet Accounts, Add Other Account, then CardDAV Account for contacts or CalDAV Account for calendars."
-msgstr "Համակարգի կարգավորումներ, Ինտերնետային հաշիվներ, Ավելացնել այլ հաշիվ, ապա CardDAV հաշիվ՝ կոնտակտների համար, կամ CalDAV հաշիվ՝ օրացույցների համար։"
-
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Tag already exists"
 msgstr "Թեգն արդեն գոյություն ունի"
@@ -2408,10 +2318,6 @@ msgstr "Տեսախցիկի հարցումը չպատասխանվեց"
 msgid "The microphone request was not answered"
 msgstr "Խոսափողի հարցումը չպատասխանվեց"
 
-#: src/features/help/devices.tsx
-msgid "The Mochi app shows your contacts and calendars itself. To put them into the phone's own Contacts and Calendar apps, use DAVx5."
-msgstr "Mochi հավելվածն ինքն է ցույց տալիս ձեր կոնտակտներն ու օրացույցները։ Դրանք հեռախոսի սեփական Կոնտակտներ և Օրացույց հավելվածներում տեղադրելու համար օգտագործեք DAVx5։"
-
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "The passkey request was not answered"
 msgstr "Անցաբանալու հարցումը չպատասխանվեց"
@@ -2431,10 +2337,6 @@ msgstr "Այս հավելվածին թույլատրված չէ օգտագործ
 #: ../../../lib/web/src/components/game/game-end-dialogs.tsx
 msgid "This permanently deletes the game and its chat. This cannot be undone."
 msgstr "Սա ընդմիշտ կջնջի խաղը և դրա չաթը։ Այս գործողությունը հնարավոր չէ հետարկել։"
-
-#: src/features/help/devices.tsx
-msgid "Thunderbird"
-msgstr "Thunderbird"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Thursday"
@@ -2688,10 +2590,6 @@ msgstr "Ձեր հաշիվը տեղափոխվել է այստեղ {source}-ից: 
 #: ../../../lib/web/src/components/comment-composer.tsx
 msgid "Your attachments will be lost."
 msgstr "Ձեր կցորդները կկորչեն։"
-
-#: src/features/help/devices.tsx
-msgid "Your contacts and calendars sync to your phone, tablet and computer over CardDAV and CalDAV, which every major contacts and calendar app speaks."
-msgstr "Ձեր կոնտակտներն ու օրացույցները համաժամացվում են ձեր հեռախոսի, պլանշետի և համակարգչի հետ CardDAV-ի և CalDAV-ի միջոցով, որոնք հասկանում են կոնտակտների ու օրացույցի բոլոր խոշոր հավելվածները։"
 
 #: src/features/help/contribute-dialog.tsx
 msgid "Your introduction has been submitted and will appear after moderation."

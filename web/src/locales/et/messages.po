@@ -247,10 +247,6 @@ msgstr "Tekkis viga"
 msgid "An unexpected error occurred"
 msgstr "Tekkis ootamatu viga"
 
-#: src/features/help/devices.tsx
-msgid "Android"
-msgstr "Android"
-
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
 msgstr "Androidi tõuketeade"
@@ -509,10 +505,6 @@ msgstr "Vali kellaaeg"
 msgid "Choose language"
 msgstr "Vali keel"
 
-#: src/features/help/devices.tsx
-msgid "Choose the account type Manual and enter the username, the password and the server address."
-msgstr "Valige konto tüübiks Käsitsi ning sisestage kasutajanimi, parool ja serveri aadress."
-
 #: ../../../lib/web/src/components/banner-section.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
 #: ../../../lib/web/src/components/colour-picker.tsx
@@ -623,18 +615,9 @@ msgstr "Seadista vaate seaded"
 msgid "Confirm"
 msgstr "Kinnita"
 
-#: src/features/help/devices.tsx
-#: src/features/help/index.tsx
-msgid "Connect your phone"
-msgstr "Ühendage oma telefon"
-
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connected"
 msgstr "Ühendatud"
-
-#: src/features/help/devices.tsx
-msgid "Connected devices always shows the server address and the username. They are the same for every device, calendar and address book."
-msgstr "Jaotis Ühendatud seadmed näitab alati serveri aadressi ja kasutajanime. Need on iga seadme, kalendri ja aadressiraamatu puhul samad."
 
 #: ../../../lib/web/src/lib/chat-ui.ts
 msgid "Connecting..."
@@ -679,10 +662,6 @@ msgstr "Kopeeritud lõikelauale"
 #: ../../../lib/web/src/components/ui/copy-button.tsx
 msgid "Copy"
 msgstr "Kopeeri"
-
-#: src/features/help/devices.tsx
-msgid "Copy the server address, the username and the password into the device. The password is shown once."
-msgstr "Kopeerige serveri aadress, kasutajanimi ja parool seadmesse. Parooli näidatakse ainult üks kord."
 
 #: ../../../lib/web/src/features/document/document-page.tsx
 msgid "Could not load this document. Please try again later."
@@ -758,10 +737,6 @@ msgstr "Andmekonflikt"
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Date"
 msgstr "Kuupäev"
-
-#: src/features/help/devices.tsx
-msgid "DAVx5 finds both your address books and your calendars. Turn on the ones to sync."
-msgstr "DAVx5 leiab nii teie aadressiraamatud kui ka kalendrid. Lülitage sisse need, mida soovite sünkroonida."
 
 #: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx
 msgid "Decline"
@@ -992,18 +967,6 @@ msgstr "Sisesta bännerteksti tekst (markdown toetatud)…"
 msgid "Enter the code from your email"
 msgstr "Sisesta e-kirjas saadud kood"
 
-#: src/features/help/devices.tsx
-msgid "Enter the password when asked, and choose the address books and calendars to add."
-msgstr "Sisestage küsimisel parool ja valige lisatavad aadressiraamatud ja kalendrid."
-
-#: src/features/help/devices.tsx
-msgid "Enter the server address, the username and the password in each."
-msgstr "Sisestage igaühes serveri aadress, kasutajanimi ja parool."
-
-#: src/features/help/devices.tsx
-msgid "Enter the server address, the username and the password."
-msgstr "Sisestage serveri aadress, kasutajanimi ja parool."
-
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Enter your authenticator code"
 msgstr "Sisestage oma autentimisrakenduse kood"
@@ -1160,22 +1123,6 @@ msgstr "Lipud"
 msgid "Flat"
 msgstr "Lame"
 
-#: src/features/help/devices.tsx
-msgid "For calendars: Calendar, New Calendar, On the Network, with the username and the server address."
-msgstr "Kalendrite jaoks: Kalender, Uus kalender, Võrgus, koos kasutajanime ja serveri aadressiga."
-
-#: src/features/help/devices.tsx
-msgid "For calendars: Settings, Calendar, Accounts, Add Account, Other, Add CalDAV Account."
-msgstr "Kalendrite jaoks: Seaded, Kalender, Kontod, Lisa konto, Muu, Lisa CalDAV-konto."
-
-#: src/features/help/devices.tsx
-msgid "For contacts: Address Book, New Address Book, Add CardDAV Address Book, with the username and the server address."
-msgstr "Kontaktide jaoks: Aadressiraamat, Uus aadressiraamat, Lisa CardDAV-aadressiraamat, koos kasutajanime ja serveri aadressiga."
-
-#: src/features/help/devices.tsx
-msgid "For contacts: Settings, Contacts, Accounts, Add Account, Other, Add CardDAV Account."
-msgstr "Kontaktide jaoks: Seaded, Kontaktid, Kontod, Lisa konto, Muu, Lisa CardDAV-konto."
-
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Friday"
 msgstr "Reede"
@@ -1195,10 +1142,6 @@ msgstr "Saatja"
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "From theme"
 msgstr "Teemast"
-
-#: src/features/help/devices.tsx
-msgid "Get a password for the device"
-msgstr "Hankige seadmele parool"
 
 #: ../../../lib/web/src/features/errors/access-denied-error.tsx
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
@@ -1226,7 +1169,6 @@ msgstr "Rühmita"
 msgid "Group: {0}"
 msgstr "Rühm: {0}"
 
-#: src/features/help/devices.tsx
 #: src/features/help/index.tsx
 #: src/routes/_authenticated/document/privacy.tsx
 #: src/routes/_authenticated/document/rules.tsx
@@ -1279,10 +1221,6 @@ msgstr "Initsiaalidega avatar"
 msgid "Initials avatar for {name}"
 msgstr "{name} initsiaalidega avatar"
 
-#: src/features/help/devices.tsx
-msgid "Install DAVx5 and add an account with \"Login with URL and user name\"."
-msgstr "Paigaldage DAVx5 ja lisage konto valikuga \"Logi sisse URL-i ja kasutajanimega\"."
-
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Interest {weight}"
 msgstr "Huvi {weight}"
@@ -1299,10 +1237,6 @@ msgstr "Tutvusta ennast"
 #: ../../../lib/web/src/components/entity/entity-field-editor.tsx
 msgid "Invalid date"
 msgstr "Vigane kuupäev"
-
-#: src/features/help/devices.tsx
-msgid "iPhone and iPad"
-msgstr "iPhone ja iPad"
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "It seems like the page you're looking for <0/>does not exist or might have been removed."
@@ -1390,10 +1324,6 @@ msgstr "Edukalt välja logitud"
 #: ../../../lib/web/src/components/sign-out-dialog.tsx
 msgid "Logging out…"
 msgstr "Välja logimine…"
-
-#: src/features/help/devices.tsx
-msgid "Mac"
-msgstr "Mac"
 
 #: ../../../lib/web/src/components/notification-category-button.tsx
 msgid "Manage categories"
@@ -1498,10 +1428,6 @@ msgstr "Nimi on kohustuslik"
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Name must be 1000 characters or less"
 msgstr "Nimi peab olema 1000 märki või vähem"
-
-#: src/features/help/devices.tsx
-msgid "Name the device, for example your phone's name, and create its password."
-msgstr "Andke seadmele nimi, näiteks oma telefoni nimi, ja looge sellele parool."
 
 #: ../../../lib/web/src/features/errors/general-error.tsx
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
@@ -1667,10 +1593,6 @@ msgstr "Number"
 msgid "On"
 msgstr "Sees"
 
-#: src/features/help/devices.tsx
-msgid "One password serves both contacts and calendars. Each device gets its own, and removing a device under Connected devices stops its password at once."
-msgstr "Üks parool kehtib nii kontaktidele kui ka kalendritele. Igal seadmel on oma parool ja seadme eemaldamine jaotisest Ühendatud seadmed lõpetab selle parooli kehtivuse kohe."
-
 #: ../../../lib/web/src/features/errors/not-found-error.tsx
 msgid "Oops! Page Not Found!"
 msgstr "Oih! Lehte ei leitud!"
@@ -1678,10 +1600,6 @@ msgstr "Oih! Lehte ei leitud!"
 #: ../../../lib/web/src/components/layout/nav-group.tsx
 msgid "Open actions"
 msgstr "Ava toimingud"
-
-#: src/features/help/devices.tsx
-msgid "Open Calendars or People, choose Connected devices, then Add device."
-msgstr "Avage Kalendrid või Inimesed, valige Ühendatud seadmed ja seejärel Lisa seade."
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 msgid "Open menu"
@@ -1830,10 +1748,6 @@ msgstr "Atribuudid"
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Push notification"
 msgstr "Tõuketeatis"
-
-#: src/features/help/index.tsx
-msgid "Put your contacts and calendars on your phone, tablet or computer."
-msgstr "Pange oma kontaktid ja kalendrid telefoni, tahvelarvutisse või arvutisse."
 
 #: src/features/help/contribute-dialog.tsx
 msgid "Question"
@@ -2343,10 +2257,6 @@ msgctxt "actor"
 msgid "System"
 msgstr "Süsteem"
 
-#: src/features/help/devices.tsx
-msgid "System Settings, Internet Accounts, Add Other Account, then CardDAV Account for contacts or CalDAV Account for calendars."
-msgstr "Süsteemiseaded, Interneti-kontod, Lisa muu konto, seejärel kontaktide jaoks CardDAV-konto või kalendrite jaoks CalDAV-konto."
-
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Tag already exists"
 msgstr "Silt on juba olemas"
@@ -2408,10 +2318,6 @@ msgstr "Kaamera päringule ei vastatud"
 msgid "The microphone request was not answered"
 msgstr "Mikrofoni päringule ei vastatud"
 
-#: src/features/help/devices.tsx
-msgid "The Mochi app shows your contacts and calendars itself. To put them into the phone's own Contacts and Calendar apps, use DAVx5."
-msgstr "Mochi rakendus näitab teie kontakte ja kalendreid ise. Et need telefoni enda Kontaktide ja Kalendri rakendusse saada, kasutage DAVx5."
-
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "The passkey request was not answered"
 msgstr "Pääsuvõtme päringule ei vastatud"
@@ -2431,10 +2337,6 @@ msgstr "Sellel rakendusel pole luba sinu pääsuvõtit kasutada. Luba see Seadet
 #: ../../../lib/web/src/components/game/game-end-dialogs.tsx
 msgid "This permanently deletes the game and its chat. This cannot be undone."
 msgstr "See kustutab mängu ja selle vestluse jäädavalt. Seda ei saa tagasi võtta."
-
-#: src/features/help/devices.tsx
-msgid "Thunderbird"
-msgstr "Thunderbird"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Thursday"
@@ -2688,10 +2590,6 @@ msgstr "Sinu konto liideti siia asukohast {source}. Kuni sa selle sealt ei kustu
 #: ../../../lib/web/src/components/comment-composer.tsx
 msgid "Your attachments will be lost."
 msgstr "Teie manused lähevad kaotsi."
-
-#: src/features/help/devices.tsx
-msgid "Your contacts and calendars sync to your phone, tablet and computer over CardDAV and CalDAV, which every major contacts and calendar app speaks."
-msgstr "Teie kontaktid ja kalendrid sünkroonitakse telefoni, tahvelarvutisse ja arvutisse CardDAV-i ja CalDAV-i kaudu, mida oskavad kõik olulisemad kontakti- ja kalendrirakendused."
 
 #: src/features/help/contribute-dialog.tsx
 msgid "Your introduction has been submitted and will appear after moderation."
