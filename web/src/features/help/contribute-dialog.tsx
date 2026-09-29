@@ -280,7 +280,7 @@ export function ContributeDialog({
 
           {submitted ? (
             /* In-app success state for forum posts */
-            <div className='flex flex-col items-center gap-4 px-4 py-6 text-center sm:px-0'>
+            <div className='flex flex-col items-center gap-4 py-6 text-center'>
               <CheckCircle className='h-12 w-12 text-green-500' />
               <p className='text-base font-medium'>
                 <Trans>Submitted successfully</Trans>
@@ -290,7 +290,7 @@ export function ContributeDialog({
               </p>
             </div>
           ) : (
-            <div className='flex flex-col gap-4 px-4 sm:px-0'>
+            <div className='flex flex-col gap-4'>
               {destinationStatus.status === 'checking' && (
                 <div className='text-muted-foreground flex items-center gap-2 text-sm'>
                   <Loader2 className='h-4 w-4 animate-spin' />
