@@ -33,6 +33,7 @@ import {
   Lightbulb,
   Loader2,
   Sparkles,
+  Trash2,
   X,
 } from 'lucide-react'
 import { helpApi, type Kind } from '@/api/help'
@@ -406,6 +407,7 @@ export function ContributeDialog({
         desc={t`Your text will be lost.`}
         cancelBtnText={t`Keep editing`}
         confirmText={t`Discard`}
+        icon={<Trash2 className='size-4' />}
         destructive
         handleConfirm={() => {
           setDiscardOpen(false)
