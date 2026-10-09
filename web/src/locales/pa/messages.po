@@ -1326,7 +1326,6 @@ msgid "Loading item details"
 msgstr "ਆਈਟਮ ਦੇ ਵੇਰਵੇ ਲੋਡ ਹੋ ਰਹੇ ਹਨ"
 
 #: ../../../lib/web/src/features/document/document-page.tsx
-#: src/features/help/contribute-dialog.tsx
 msgid "Loading..."
 msgstr "ਲੋਡ ਹੋ ਰਿਹਾ ਹੈ..."
 

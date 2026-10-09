@@ -1326,7 +1326,6 @@ msgid "Loading item details"
 msgstr "وردەکارییەکانی بڕگە بار دەکرێن"
 
 #: ../../../lib/web/src/features/document/document-page.tsx
-#: src/features/help/contribute-dialog.tsx
 msgid "Loading..."
 msgstr "بار دەکرێت..."
 

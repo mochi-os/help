@@ -1326,7 +1326,6 @@ msgid "Loading item details"
 msgstr "Учитавање детаља ставке"
 
 #: ../../../lib/web/src/features/document/document-page.tsx
-#: src/features/help/contribute-dialog.tsx
 msgid "Loading..."
 msgstr "Учитавање..."
 

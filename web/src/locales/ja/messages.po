@@ -1326,7 +1326,6 @@ msgid "Loading item details"
 msgstr "項目の詳細を読み込み中"
 
 #: ../../../lib/web/src/features/document/document-page.tsx
-#: src/features/help/contribute-dialog.tsx
 msgid "Loading..."
 msgstr "読み込み中..."
 

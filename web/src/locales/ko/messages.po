@@ -1326,7 +1326,6 @@ msgid "Loading item details"
 msgstr "항목 세부 정보 로딩 중"
 
 #: ../../../lib/web/src/features/document/document-page.tsx
-#: src/features/help/contribute-dialog.tsx
 msgid "Loading..."
 msgstr "로딩 중..."
 
