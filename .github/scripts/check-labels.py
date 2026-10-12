@@ -27,6 +27,8 @@ KEEP_WORDS = {
     "apple", "microsoft", "facebook", "x", "android", "mac",
     "caldav", "carddav", "webdav", "vcard", "icalendar", "ics", "thunderbird",
     "contacts",
+    "fediverse", "activitypub", "webfinger", "nodeinfo", "mastodon", "lemmy", "mbin", "piefed", "bluesky", "matrix", "element", "xmpp", "jabber", "did", "omemo", "olm", "megolm",
+
 }
 
 # Exact-string allowlist, checked before word matching. A digit-bearing
@@ -46,6 +48,8 @@ KEEP_ENGLISH = frozenset({
     "Apple", "Microsoft", "Facebook", "X", "Android", "Mac",
     "CalDAV", "CardDAV", "WebDAV", "vCard", "iCalendar", "ICS", "DAVx5", "Thunderbird",
     "Contacts",
+    "Fediverse", "ActivityPub", "WebFinger", "NodeInfo", "Mastodon", "Lemmy", "Mbin", "PieFed", "Bluesky", "Matrix", "Element", "XMPP", "Jabber", "DID", "OMEMO", "Olm", "Megolm",
+
 })
 
 def _strip_placeholders(value):
