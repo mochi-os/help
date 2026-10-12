@@ -265,7 +265,7 @@ msgid "An unexpected error occurred"
 msgstr "Дошло је до неочекиване грешке"
 
 #: src/features/help/index.tsx
-msgid "Android Client"
+msgid "Android client"
 msgstr "Android клијент"
 
 #: ../../../lib/web/src/features/accounts/types.ts

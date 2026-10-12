@@ -265,7 +265,7 @@ msgid "An unexpected error occurred"
 msgstr "અણધારી ભૂલ આવી"
 
 #: src/features/help/index.tsx
-msgid "Android Client"
+msgid "Android client"
 msgstr "Android ક્લાયન્ટ"
 
 #: ../../../lib/web/src/features/accounts/types.ts

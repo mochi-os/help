@@ -265,7 +265,7 @@ msgid "An unexpected error occurred"
 msgstr "אירעה שגיאה בלתי צפויה"
 
 #: src/features/help/index.tsx
-msgid "Android Client"
+msgid "Android client"
 msgstr "לקוח Android"
 
 #: ../../../lib/web/src/features/accounts/types.ts

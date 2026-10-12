@@ -265,7 +265,7 @@ msgid "An unexpected error occurred"
 msgstr "אַן אומדערוואַרטעטער פֿעלער איז פֿאָרגעקומען"
 
 #: src/features/help/index.tsx
-msgid "Android Client"
+msgid "Android client"
 msgstr "Android קליענט"
 
 #: ../../../lib/web/src/features/accounts/types.ts

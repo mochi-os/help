@@ -265,7 +265,7 @@ msgid "An unexpected error occurred"
 msgstr "Thachair mearachd ris nach robh dùil"
 
 #: src/features/help/index.tsx
-msgid "Android Client"
+msgid "Android client"
 msgstr "Cliant Android"
 
 #: ../../../lib/web/src/features/accounts/types.ts

@@ -265,7 +265,7 @@ msgid "An unexpected error occurred"
 msgstr "Prišlo je do nepričakovane napake"
 
 #: src/features/help/index.tsx
-msgid "Android Client"
+msgid "Android client"
 msgstr "Odjemalec za Android"
 
 #: ../../../lib/web/src/features/accounts/types.ts

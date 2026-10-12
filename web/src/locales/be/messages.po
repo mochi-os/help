@@ -265,7 +265,7 @@ msgid "An unexpected error occurred"
 msgstr "Адбылася нечаканая памылка"
 
 #: src/features/help/index.tsx
-msgid "Android Client"
+msgid "Android client"
 msgstr "Кліент для Android"
 
 #: ../../../lib/web/src/features/accounts/types.ts

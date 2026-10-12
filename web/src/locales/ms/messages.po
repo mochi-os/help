@@ -265,7 +265,7 @@ msgid "An unexpected error occurred"
 msgstr "Ralat yang tidak dijangka berlaku"
 
 #: src/features/help/index.tsx
-msgid "Android Client"
+msgid "Android client"
 msgstr "Klien Android"
 
 #: ../../../lib/web/src/features/accounts/types.ts

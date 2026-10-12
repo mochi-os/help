@@ -265,7 +265,7 @@ msgid "An unexpected error occurred"
 msgstr "Ustekabeko errore bat gertatu da"
 
 #: src/features/help/index.tsx
-msgid "Android Client"
+msgid "Android client"
 msgstr "Android bezeroa"
 
 #: ../../../lib/web/src/features/accounts/types.ts

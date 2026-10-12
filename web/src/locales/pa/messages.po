@@ -265,7 +265,7 @@ msgid "An unexpected error occurred"
 msgstr "ਇੱਕ ਅਣਕਿਆਸੀ ਗੜਬੜ ਹੋਈ"
 
 #: src/features/help/index.tsx
-msgid "Android Client"
+msgid "Android client"
 msgstr "Android ਕਲਾਇੰਟ"
 
 #: ../../../lib/web/src/features/accounts/types.ts

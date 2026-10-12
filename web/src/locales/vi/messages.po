@@ -265,7 +265,7 @@ msgid "An unexpected error occurred"
 msgstr "Đã xảy ra lỗi không mong muốn"
 
 #: src/features/help/index.tsx
-msgid "Android Client"
+msgid "Android client"
 msgstr "Ứng dụng khách Android"
 
 #: ../../../lib/web/src/features/accounts/types.ts
