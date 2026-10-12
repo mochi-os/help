@@ -264,6 +264,10 @@ msgstr "Huk pantay rikurirqan"
 msgid "An unexpected error occurred"
 msgstr "Mana suyasqa pantay rikurirqan"
 
+#: src/features/help/index.tsx
+msgid "Android Client"
+msgstr "Android cliente"
+
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
 msgstr "Android push willakuy"

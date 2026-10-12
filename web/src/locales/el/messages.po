@@ -264,6 +264,10 @@ msgstr "Παρουσιάστηκε σφάλμα"
 msgid "An unexpected error occurred"
 msgstr "Παρουσιάστηκε απροσδόκητο σφάλμα"
 
+#: src/features/help/index.tsx
+msgid "Android Client"
+msgstr "Πρόγραμμα-πελάτης Android"
+
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
 msgstr "Ειδοποιήσεις push Android"

@@ -264,6 +264,10 @@ msgstr "حدث خطأ"
 msgid "An unexpected error occurred"
 msgstr "حدث خطأ غير متوقع"
 
+#: src/features/help/index.tsx
+msgid "Android Client"
+msgstr "عميل Android"
+
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
 msgstr "إشعار Android"

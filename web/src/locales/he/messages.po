@@ -264,6 +264,10 @@ msgstr "אירעה שגיאה"
 msgid "An unexpected error occurred"
 msgstr "אירעה שגיאה בלתי צפויה"
 
+#: src/features/help/index.tsx
+msgid "Android Client"
+msgstr "לקוח Android"
+
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
 msgstr "פוש ל-Android"

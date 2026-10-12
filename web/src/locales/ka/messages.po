@@ -264,6 +264,10 @@ msgstr "მოხდა შეცდომა"
 msgid "An unexpected error occurred"
 msgstr "მოხდა მოულოდნელი შეცდომა"
 
+#: src/features/help/index.tsx
+msgid "Android Client"
+msgstr "Android კლიენტი"
+
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
 msgstr "Android პუშ-შეტყობინება"

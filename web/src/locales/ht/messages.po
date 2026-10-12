@@ -264,6 +264,10 @@ msgstr "Yon erè te rive"
 msgid "An unexpected error occurred"
 msgstr "Yon erè inatandi te rive"
 
+#: src/features/help/index.tsx
+msgid "Android Client"
+msgstr "Kliyan Android"
+
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
 msgstr "Push Android"

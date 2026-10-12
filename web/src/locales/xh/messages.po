@@ -264,6 +264,10 @@ msgstr "Kwenzeke impazamo"
 msgid "An unexpected error occurred"
 msgstr "Kwenzeke impazamo engalindelekanga"
 
+#: src/features/help/index.tsx
+msgid "Android Client"
+msgstr "Usetyenziso lwe-Android"
+
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
 msgstr "I-push ye-Android"

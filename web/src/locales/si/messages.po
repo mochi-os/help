@@ -264,6 +264,10 @@ msgstr "දෝෂයක් සිදු විය"
 msgid "An unexpected error occurred"
 msgstr "අනපේක්ෂිත දෝෂයක් සිදු විය"
 
+#: src/features/help/index.tsx
+msgid "Android Client"
+msgstr "Android සේවාලාභියා"
+
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
 msgstr "Android තල්ලුව"

@@ -264,6 +264,10 @@ msgstr "오류가 발생했습니다"
 msgid "An unexpected error occurred"
 msgstr "예기치 않은 오류가 발생했습니다"
 
+#: src/features/help/index.tsx
+msgid "Android Client"
+msgstr "Android 클라이언트"
+
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
 msgstr "Android 푸시"

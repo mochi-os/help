@@ -264,6 +264,10 @@ msgstr "یوه تېروتنه رامنځته شوه"
 msgid "An unexpected error occurred"
 msgstr "یوه ناڅاپي تېروتنه رامنځته شوه"
 
+#: src/features/help/index.tsx
+msgid "Android Client"
+msgstr "د Android اپلیکیشن"
+
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
 msgstr "د Android پوش"

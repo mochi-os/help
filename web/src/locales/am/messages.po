@@ -264,6 +264,10 @@ msgstr "ስህተት ተከስቷል"
 msgid "An unexpected error occurred"
 msgstr "ያልተጠበቀ ስህተት ተከስቷል"
 
+#: src/features/help/index.tsx
+msgid "Android Client"
+msgstr "የAndroid መተግበሪያ"
+
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
 msgstr "የAndroid ግፋ"

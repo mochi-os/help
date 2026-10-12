@@ -264,6 +264,10 @@ msgstr "အမှားတစ်ခု ဖြစ်ပွားခဲ့သည�
 msgid "An unexpected error occurred"
 msgstr "မမျှော်လင့်ထားသော အမှားတစ်ခု ဖြစ်ပွားခဲ့သည်"
 
+#: src/features/help/index.tsx
+msgid "Android Client"
+msgstr "Android အက်ပ်"
+
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
 msgstr "Android တွန်းပို့ အကြောင်းကြားချက်"

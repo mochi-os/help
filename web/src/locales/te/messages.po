@@ -264,6 +264,10 @@ msgstr "లోపం సంభవించింది"
 msgid "An unexpected error occurred"
 msgstr "ఊహించని లోపం సంభవించింది"
 
+#: src/features/help/index.tsx
+msgid "Android Client"
+msgstr "Android క్లయింట్"
+
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
 msgstr "Android పుష్"

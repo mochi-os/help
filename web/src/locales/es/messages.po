@@ -264,6 +264,10 @@ msgstr "Se produjo un error"
 msgid "An unexpected error occurred"
 msgstr "Se produjo un error inesperado"
 
+#: src/features/help/index.tsx
+msgid "Android Client"
+msgstr "Cliente de Android"
+
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
 msgstr "Push de Android"

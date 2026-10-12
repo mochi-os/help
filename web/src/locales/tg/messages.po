@@ -264,6 +264,10 @@ msgstr "Хатогӣ рух дод"
 msgid "An unexpected error occurred"
 msgstr "Хатогии ғайричашмдошт рух дод"
 
+#: src/features/help/index.tsx
+msgid "Android Client"
+msgstr "Барномаи Android"
+
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
 msgstr "Огоҳиҳои пуш барои Android"

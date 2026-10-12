@@ -264,6 +264,10 @@ msgstr "เกิดข้อผิดพลาด"
 msgid "An unexpected error occurred"
 msgstr "เกิดข้อผิดพลาดที่ไม่คาดคิด"
 
+#: src/features/help/index.tsx
+msgid "Android Client"
+msgstr "ไคลเอนต์ Android"
+
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
 msgstr "พุช Android"

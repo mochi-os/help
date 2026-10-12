@@ -264,6 +264,10 @@ msgstr "Xəta baş verdi"
 msgid "An unexpected error occurred"
 msgstr "Gözlənilməz xəta baş verdi"
 
+#: src/features/help/index.tsx
+msgid "Android Client"
+msgstr "Android tətbiqi"
+
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
 msgstr "Android push bildirişi"

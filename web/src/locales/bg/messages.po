@@ -264,6 +264,10 @@ msgstr "Възникна грешка"
 msgid "An unexpected error occurred"
 msgstr "Възникна неочаквана грешка"
 
+#: src/features/help/index.tsx
+msgid "Android Client"
+msgstr "Клиент за Android"
+
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
 msgstr "Пуш известия за Android"

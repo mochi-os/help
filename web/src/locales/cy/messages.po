@@ -264,6 +264,10 @@ msgstr "Digwyddodd gwall"
 msgid "An unexpected error occurred"
 msgstr "Digwyddodd gwall annisgwyl"
 
+#: src/features/help/index.tsx
+msgid "Android Client"
+msgstr "Cleient Android"
+
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
 msgstr "Gwthiad Android"

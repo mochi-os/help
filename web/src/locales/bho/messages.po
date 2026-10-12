@@ -264,6 +264,10 @@ msgstr "एगो त्रुटि भइल"
 msgid "An unexpected error occurred"
 msgstr "एगो अप्रत्याशित त्रुटि भइल"
 
+#: src/features/help/index.tsx
+msgid "Android Client"
+msgstr "Android क्लाइंट"
+
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
 msgstr "Android पुश"

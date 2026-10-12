@@ -264,6 +264,10 @@ msgstr "Det oppstod ein feil"
 msgid "An unexpected error occurred"
 msgstr "Det oppstod ein uventa feil"
 
+#: src/features/help/index.tsx
+msgid "Android Client"
+msgstr "Android-klient"
+
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
 msgstr "Android-push"

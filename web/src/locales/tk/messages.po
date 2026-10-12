@@ -264,6 +264,10 @@ msgstr "Ýalňyşlyk ýüze çykdy"
 msgid "An unexpected error occurred"
 msgstr "Garaşylmadyk ýalňyşlyk ýüze çykdy"
 
+#: src/features/help/index.tsx
+msgid "Android Client"
+msgstr "Android programmasy"
+
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
 msgstr "Android push bildirişleri"

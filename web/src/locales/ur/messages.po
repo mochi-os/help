@@ -264,6 +264,10 @@ msgstr "ایک خرابی پیش آئی"
 msgid "An unexpected error occurred"
 msgstr "ایک غیر متوقع خرابی پیش آئی"
 
+#: src/features/help/index.tsx
+msgid "Android Client"
+msgstr "Android کلائنٹ"
+
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
 msgstr "Android پش"

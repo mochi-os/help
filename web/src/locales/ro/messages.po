@@ -264,6 +264,10 @@ msgstr "A apărut o eroare"
 msgid "An unexpected error occurred"
 msgstr "A apărut o eroare neașteptată"
 
+#: src/features/help/index.tsx
+msgid "Android Client"
+msgstr "Client Android"
+
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
 msgstr "Push Android"

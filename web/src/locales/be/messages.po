@@ -264,6 +264,10 @@ msgstr "Адбылася памылка"
 msgid "An unexpected error occurred"
 msgstr "Адбылася нечаканая памылка"
 
+#: src/features/help/index.tsx
+msgid "Android Client"
+msgstr "Кліент для Android"
+
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
 msgstr "Пуш-апавяшчэнні для Android"

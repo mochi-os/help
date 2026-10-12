@@ -264,6 +264,10 @@ msgstr "אַ פֿעלער איז פֿאָרגעקומען"
 msgid "An unexpected error occurred"
 msgstr "אַן אומדערוואַרטעטער פֿעלער איז פֿאָרגעקומען"
 
+#: src/features/help/index.tsx
+msgid "Android Client"
+msgstr "Android קליענט"
+
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
 msgstr "Android פּוש"

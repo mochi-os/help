@@ -264,6 +264,10 @@ msgstr "Қате орын алды"
 msgid "An unexpected error occurred"
 msgstr "Күтпеген қате орын алды"
 
+#: src/features/help/index.tsx
+msgid "Android Client"
+msgstr "Android клиенті"
+
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
 msgstr "Android push хабарландыруы"

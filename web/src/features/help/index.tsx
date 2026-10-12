@@ -10,6 +10,10 @@ import { Bug, HelpCircle, Lightbulb, Sparkles } from 'lucide-react'
 import { helpApi, type Kind } from '@/api/help'
 import { ContributeDialog } from '@/features/help/contribute-dialog'
 
+// The Android client's latest release: a stable link the release points at
+// each new build.
+const ANDROID_CLIENT = 'https://packages.mochi-os.org/android/mochi.apk'
+
 interface CardConfig {
   kind: Kind
   icon: typeof Sparkles
@@ -92,6 +96,18 @@ export function Help() {
           </div>
         </div>
         <p className='text-muted-foreground space-x-2 pt-2 pb-6 text-center text-sm'>
+          {/* In a new tab: the shell's sandbox allows popups, so a plain
+            anchor is enough, and a phone's browser offers to install what it
+            downloads. */}
+          <a
+            href={ANDROID_CLIENT}
+            target='_blank'
+            rel='noopener noreferrer'
+            className='hover:text-foreground transition-colors'
+          >
+            <Trans>Android Client</Trans>
+          </a>
+          <span aria-hidden='true'>·</span>
           <Link
             to='/document/rules'
             className='hover:text-foreground transition-colors'

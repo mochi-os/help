@@ -264,6 +264,10 @@ msgstr "Mä pantjasiwi utjawayi"
 msgid "An unexpected error occurred"
 msgstr "Jan suyt'at pantjasiwi utjawayi"
 
+#: src/features/help/index.tsx
+msgid "Android Client"
+msgstr "Android cliente"
+
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
 msgstr "Android push yatiyawi"

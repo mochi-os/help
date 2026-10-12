@@ -264,6 +264,10 @@ msgstr "একটি ত্রুটি ঘটেছে"
 msgid "An unexpected error occurred"
 msgstr "একটি অপ্রত্যাশিত ত্রুটি ঘটেছে"
 
+#: src/features/help/index.tsx
+msgid "Android Client"
+msgstr "Android ক্লায়েন্ট"
+
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
 msgstr "Android পুশ"

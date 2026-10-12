@@ -264,6 +264,10 @@ msgstr "एक त्रुटि हुई"
 msgid "An unexpected error occurred"
 msgstr "एक अप्रत्याशित त्रुटि हुई"
 
+#: src/features/help/index.tsx
+msgid "Android Client"
+msgstr "Android क्लाइंट"
+
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
 msgstr "Android पुश"
