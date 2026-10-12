@@ -1342,6 +1342,7 @@ msgid "Loading item details"
 msgstr "កំពុងផ្ទុកព័ត៌មានលម្អិតធាតុ"
 
 #: ../../../lib/web/src/features/document/document-page.tsx
+#: src/features/help/contribute-dialog.tsx
 msgid "Loading..."
 msgstr "កំពុងផ្ទុក..."
 

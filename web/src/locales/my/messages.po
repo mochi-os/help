@@ -1342,6 +1342,7 @@ msgid "Loading item details"
 msgstr "ပစ္စည်း အသေးစိတ် တင်နေသည်"
 
 #: ../../../lib/web/src/features/document/document-page.tsx
+#: src/features/help/contribute-dialog.tsx
 msgid "Loading..."
 msgstr "တင်နေသည်..."
 

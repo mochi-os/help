@@ -1342,6 +1342,7 @@ msgid "Loading item details"
 msgstr "A' luchdadh mion-fhiosrachadh an nì"
 
 #: ../../../lib/web/src/features/document/document-page.tsx
+#: src/features/help/contribute-dialog.tsx
 msgid "Loading..."
 msgstr "A' luchdadh..."
 

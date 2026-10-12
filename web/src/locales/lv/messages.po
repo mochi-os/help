@@ -1342,6 +1342,7 @@ msgid "Loading item details"
 msgstr "Ielādē vienuma informāciju"
 
 #: ../../../lib/web/src/features/document/document-page.tsx
+#: src/features/help/contribute-dialog.tsx
 msgid "Loading..."
 msgstr "Ielādē..."
 

@@ -31,6 +31,7 @@ import {
   CircleAlert,
   HelpCircle,
   Lightbulb,
+  Loader2,
   Sparkles,
   Trash2,
   X,
@@ -291,6 +292,12 @@ export function ContributeDialog({
             </div>
           ) : (
             <div className='flex flex-col gap-4'>
+              {destinationStatus.status === 'checking' && (
+                <div className='text-muted-foreground flex items-center gap-2 text-sm'>
+                  <Loader2 className='h-4 w-4 animate-spin' />
+                  <Trans>Loading...</Trans>
+                </div>
+              )}
               {destinationStatus.status === 'unavailable' && (
                 <Alert
                   variant='destructive'
@@ -382,9 +389,7 @@ export function ContributeDialog({
                 <Button
                   onClick={handleSubmit}
                   disabled={!canSubmit}
-                  loading={
-                    submitting || destinationStatus.status === 'checking'
-                  }
+                  loading={submitting}
                   icon={<KindIcon className='size-4' />}
                 >
                   {copy.submit}

@@ -1342,6 +1342,7 @@ msgid "Loading item details"
 msgstr "د توکي جزئیات بار کیږي"
 
 #: ../../../lib/web/src/features/document/document-page.tsx
+#: src/features/help/contribute-dialog.tsx
 msgid "Loading..."
 msgstr "بار کیږي..."
 
