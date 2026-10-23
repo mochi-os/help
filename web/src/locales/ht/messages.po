@@ -596,6 +596,10 @@ msgstr "Fèmen rechèch"
 msgid "Collapse"
 msgstr "Pliye"
 
+#: ../../../lib/web/src/components/diff-viewer.tsx
+msgid "Collapse all"
+msgstr "Pliye tout"
+
 #: ../../../lib/web/src/components/layout/app-sidebar.tsx
 msgid "Collapse sidebar"
 msgstr "Fèmen ba kote"
@@ -1031,6 +1035,10 @@ msgstr "Chak minit"
 msgid "Expand"
 msgstr "Elaji"
 
+#: ../../../lib/web/src/components/diff-viewer.tsx
+msgid "Expand all"
+msgstr "Elaji tout"
+
 #: ../../../lib/web/src/components/layout/app-sidebar.tsx
 msgid "Expand sidebar"
 msgstr "Elaji ba kote"
@@ -1341,6 +1349,10 @@ msgstr "Lyen"
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "List"
 msgstr "Lis"
+
+#: ../../../lib/web/src/components/diff-viewer.tsx
+msgid "Load diff"
+msgstr "Chaje diferans yo"
 
 #: ../../../lib/web/src/components/ui/load-more.tsx
 msgid "Load more"
