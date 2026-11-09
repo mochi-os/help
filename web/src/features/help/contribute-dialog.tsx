@@ -75,7 +75,6 @@ interface CopyBundle {
   bodyLabel?: string
   bodyPlaceholder: string
   titleLabel?: string
-  titlePlaceholder?: string
   submit: string
   successMessage: string
 }
@@ -91,7 +90,7 @@ function useCopy(kind: Kind): CopyBundle {
     case 'intro':
       return {
         title: t`Introduce yourself`,
-        bodyPlaceholder: t`Hi, I'm…`,
+        bodyPlaceholder: t`Hi, I'm`,
         submit: t`Post introduction`,
         successMessage: t`Your introduction has been submitted and will appear after moderation.`,
       }
@@ -100,7 +99,6 @@ function useCopy(kind: Kind): CopyBundle {
         title: t`Ask a question`,
         description: t`Ask the community on the Mochi users mailing list. Be specific about what you've tried so far.`,
         titleLabel: t`Question`,
-        titlePlaceholder: t`What you want to ask, in one line`,
         bodyLabel: t`Details`,
         bodyPlaceholder: t`What have you tried, what did you expect, where are you stuck?`,
         submit: t`Post question`,
@@ -111,7 +109,6 @@ function useCopy(kind: Kind): CopyBundle {
         title: t`Report a bug`,
         description: t`Describe what went wrong. The Mochi development team will see it on the Mochi development project.`,
         titleLabel: t`Summary`,
-        titlePlaceholder: t`Brief summary of the problem`,
         bodyLabel: t`What happened`,
         bodyPlaceholder: t`Steps to reproduce, what you expected, and what actually happened. Include your browser and device if relevant.`,
         submit: t`Report bug`,
@@ -122,7 +119,6 @@ function useCopy(kind: Kind): CopyBundle {
         title: t`Suggest a new feature`,
         description: t`Tell the Mochi development team what you'd like Mochi to do.`,
         titleLabel: t`Summary`,
-        titlePlaceholder: t`Short title for your idea`,
         bodyLabel: t`Details`,
         bodyPlaceholder: t`What would it do, who is it for, why does it matter?`,
         submit: t`Suggest feature`,
@@ -330,7 +326,6 @@ export function ContributeDialog({
                     id='help-title'
                     value={title}
                     onChange={(e) => setTitle(e.target.value)}
-                    placeholder={copy.titlePlaceholder}
                     autoFocus
                     disabled={submitting}
                   />

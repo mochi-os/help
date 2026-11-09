@@ -179,8 +179,8 @@ msgid "Add a bit more detail."
 msgstr "Dodajte še malo podrobnosti."
 
 #: ../../../lib/web/src/components/entity/entity-comment-list.tsx
-msgid "Add a comment..."
-msgstr "Dodaj komentar ..."
+msgid "Add a comment"
+msgstr "Dodaj komentar"
 
 #: ../../../lib/web/src/features/accounts/account-add.tsx
 msgid "Add a new account"
@@ -212,8 +212,8 @@ msgid "Add field"
 msgstr "Dodaj polje"
 
 #: ../../../lib/web/src/components/entity/entity-field-editor.tsx
-msgid "Add item..."
-msgstr "Dodaj element ..."
+msgid "Add item"
+msgstr "Dodaj element"
 
 #: ../../../lib/web/src/components/entity/entity-object-links.tsx
 msgid "Add link"
@@ -228,8 +228,8 @@ msgid "Add option"
 msgstr "Dodaj možnost"
 
 #: ../../../lib/web/src/components/post-tags.tsx
-msgid "Add tag..."
-msgstr "Dodaj oznako ..."
+msgid "Add tag"
+msgstr "Dodaj oznako"
 
 #: ../../../lib/web/src/features/accounts/account-add.tsx
 msgid "Add to existing notifications"
@@ -425,10 +425,6 @@ msgstr "Povečaj zanimanje"
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Border colour"
 msgstr "Barva obrobe"
-
-#: src/features/help/contribute-dialog.tsx
-msgid "Brief summary of the problem"
-msgstr "Kratek povzetek težave"
 
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Browser notifications"
@@ -1005,16 +1001,8 @@ msgid "Ends before it starts"
 msgstr "Konča se, preden se začne"
 
 #: ../../../lib/web/src/components/banner-section.tsx
-msgid "Enter banner text (markdown supported)..."
-msgstr "Vnesite besedilo pasice (markdown podprt)..."
-
-#: ../../../lib/web/src/components/step-up-dialog.tsx
-msgid "Enter the code from your email"
-msgstr "Vnesite kodo iz e-pošte"
-
-#: ../../../lib/web/src/components/step-up-dialog.tsx
-msgid "Enter your authenticator code"
-msgstr "Vnesite kodo iz aplikacije za preverjanje"
+msgid "Enter banner text (markdown supported)"
+msgstr "Vnesite besedilo pasice (markdown podprt)"
 
 #: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx
 msgid "Error"
@@ -1237,8 +1225,8 @@ msgid "Help"
 msgstr "Pomoč"
 
 #: src/features/help/contribute-dialog.tsx
-msgid "Hi, I'm…"
-msgstr "Pozdravljeni, sem…"
+msgid "Hi, I'm"
+msgstr "Pozdravljeni, sem"
 
 #: ../../../lib/web/src/components/audit-timeline.tsx
 msgid "History"
@@ -1960,8 +1948,8 @@ msgstr "Odgovori"
 
 #. placeholder {0}: comment.name || comment.author
 #: ../../../lib/web/src/components/entity/entity-comment-thread.tsx
-msgid "Reply to {0}..."
-msgstr "Odgovori uporabniku {0}..."
+msgid "Reply to {0}"
+msgstr "Odgovori uporabniku {0}"
 
 #: src/features/help/contribute-dialog.tsx
 #: src/features/help/index.tsx
@@ -2044,8 +2032,13 @@ msgid "Say hello on the Mochi users mailing list and tell everyone a little abou
 msgstr "Pozdravite na poštnem seznamu uporabnikov Mochi in vsem povejte nekaj o sebi."
 
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
+#: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
+#: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
 #: ../../../lib/web/src/components/filter-bar.tsx
 #: ../../../lib/web/src/components/header-search.tsx
+#: ../../../lib/web/src/components/inline-entity-search.tsx
+#: ../../../lib/web/src/components/person-picker.tsx
+#: ../../../lib/web/src/components/search-entity-page.tsx
 #: ../../../lib/web/src/components/search.tsx
 msgid "Search"
 msgstr "Iskanje"
@@ -2055,28 +2048,17 @@ msgid "Search for a command to run..."
 msgstr "Iskanje ukaza za zagon..."
 
 #: ../../../lib/web/src/components/place-picker.tsx
+#: ../../../lib/web/src/components/place-picker.tsx
 msgid "Search for a place"
 msgstr "Iskanje kraja"
 
-#: ../../../lib/web/src/components/place-picker.tsx
-msgid "Search for a place..."
-msgstr "Iskanje kraja..."
-
-#: ../../../lib/web/src/components/travelling-picker.tsx
-msgid "Search for destination..."
-msgstr "Iskanje cilja..."
-
-#: ../../../lib/web/src/components/travelling-picker.tsx
-msgid "Search for origin..."
-msgstr "Iskanje izvora..."
-
 #: ../../../lib/web/src/components/entity/entity-object-links.tsx
-msgid "Search objects..."
-msgstr "Iskanje objektov..."
+msgid "Search objects"
+msgstr "Iskanje objektov"
 
 #: ../../../lib/web/src/components/timezone-select.tsx
-msgid "Search time zone..."
-msgstr "Iskanje časovnega pasu..."
+msgid "Search time zone"
+msgstr "Iskanje časovnega pasu"
 
 #: ../../../lib/web/src/features/access/access-dialog.tsx
 msgid "Search users"
@@ -2086,26 +2068,15 @@ msgstr "Iskanje uporabnikov"
 msgid "Search, watch, and sort this view."
 msgstr "Iskanje, opazovanje in razvrščanje tega pogleda."
 
-#: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
-#: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
-#: ../../../lib/web/src/components/inline-entity-search.tsx
-#: ../../../lib/web/src/components/person-picker.tsx
-#: ../../../lib/web/src/components/search-entity-page.tsx
-msgid "Search..."
-msgstr "Iskanje..."
-
 #: ../../../lib/web/src/components/search-entity-page.tsx
 #: ../../../lib/web/src/features/access/access-dialog.tsx
 msgid "Searching..."
 msgstr "Iskanje..."
 
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Select"
 msgstr "Izbira"
-
-#: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
-msgid "Select a field"
-msgstr "Izberite polje"
 
 #: ../../../lib/web/src/components/game/game-empty-state.tsx
 msgid "Select a game"
@@ -2118,10 +2089,6 @@ msgstr "Izberite uporabnika, skupino ali drugo pravilo za dodelitev dostopa."
 #: ../../../lib/web/src/features/access/access-dialog.tsx
 msgid "Select access rule"
 msgstr "Izberite pravilo dostopa"
-
-#: ../../../lib/web/src/features/accounts/account-add.tsx
-msgid "Select account type"
-msgstr "Izberite vrsto računa"
 
 #: ../../../lib/web/src/features/access/access-dialog.tsx
 msgid "Select group"
@@ -2136,17 +2103,12 @@ msgid "Select next card"
 msgstr "Izberi naslednjo kartico"
 
 #: ../../../lib/web/src/components/person-picker.tsx
-msgid "Select person..."
-msgstr "Izberite osebo..."
+msgid "Select person"
+msgstr "Izberite osebo"
 
 #: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx
 msgid "Select previous card"
 msgstr "Izberi prejšnjo kartico"
-
-#: ../../../lib/web/src/components/entity/entity-field-editor.tsx
-#: ../../../lib/web/src/components/entity/entity-field-editor.tsx
-msgid "Select..."
-msgstr "Izberi..."
 
 #. placeholder {0}: getSelectedName()
 #: ../../../lib/web/src/features/access/access-dialog.tsx
@@ -2199,10 +2161,6 @@ msgstr "Nastavitve"
 #: ../../../lib/web/src/components/comment-share-button.tsx
 msgid "Share"
 msgstr "Deli"
-
-#: src/features/help/contribute-dialog.tsx
-msgid "Short title for your idea"
-msgstr "Kratek naslov vaše ideje"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Show classes"
@@ -2481,20 +2439,16 @@ msgid "Type"
 msgstr "Vrsta"
 
 #: ../../../lib/web/src/components/command-menu.tsx
-msgid "Type a command or search..."
-msgstr "Vnesi ukaz ali iskanje..."
+msgid "Type a command or search"
+msgstr "Vnesi ukaz ali iskanje"
 
 #: ../../../lib/web/src/components/game/game-chat-input.tsx
-msgid "Type a message…"
-msgstr "Vnesi sporočilo…"
+msgid "Type a message"
+msgstr "Vnesi sporočilo"
 
 #: ../../../lib/web/src/features/access/access-dialog.tsx
 msgid "Type to search users"
 msgstr "Vnesi za iskanje uporabnikov"
-
-#: ../../../lib/web/src/features/access/access-dialog.tsx
-msgid "Type to search..."
-msgstr "Vnesi za iskanje..."
 
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
 msgid "Unable to connect to remote server"
@@ -2650,10 +2604,6 @@ msgstr "Kaj si poskusil, kaj si pričakoval, kje si obtičal?"
 #: src/features/help/contribute-dialog.tsx
 msgid "What would it do, who is it for, why does it matter?"
 msgstr "Kaj bi počela, za koga je, zakaj je pomembna?"
-
-#: src/features/help/contribute-dialog.tsx
-msgid "What you want to ask, in one line"
-msgstr "Kaj želiš vprašati, v eni vrstici"
 
 #: ../../../lib/web/src/components/calendar/date-header.tsx
 msgid "Year"
